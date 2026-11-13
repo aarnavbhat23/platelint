@@ -1,0 +1,44 @@
+STEPS
+## RNA isolation
+1. Wash cultured cells twice with 1 × PBS.
+2. The total cellular RNA is extracted using TRIzol™ Reagent (Invitrogen, CA), according to the manufacturer’s protocol stated as below.
+3. Add 0.3–0.4 mL of TRIzol™ Reagent per 1 × 10 5 -10 7 cells directly to the culture dish to lyse the cells.
+4. Pipet the lysate up and down several times to homogenize.
+5. Incubate for 5 minutes to permit complete dissociation of the nucleoproteins complex.
+6. Add 0.2 mL of chloroform per 1 mL of TRIzol™ Reagent used for lysis, then securely cap the tube.
+7. Incubate for 5 minutes.
+8. Centrifuge the sample for 15 minutes at 12,000 g at 4°C.
+9. Transfer the aqueous phase containing the RNA to a new tube.
+10. Add 0.5 mL of isopropanol to the aqueous phase, per 1 mL of TRIzol™ Reagent used for lysis.
+11. Incubate for 10 minutes.
+12. Centrifuge for 10 minutes at 12,000 g at 4°C. Total RNA precipitate forms a white gel-like pellet at the bottom of the tube.
+13. Discard the supernatant with a micropipette.
+14. Resuspend the pellet in 1 mL of 75% ethanol per 1 mL of TRIzol™ Reagent used for lysis.
+15. Vortex the sample briefly, then centrifuge for 5 minutes at 7,500 g at 4°C.
+16. Discard the supernatant with a micropipette.
+17. Vacuum or air dry the RNA pellet for 5–10 minutes.
+18. Resuspend the pellet in 20–50 µL of RNase-free water by pipetting up and down.
+19. Incubate in a water bath or heat block set at 55–60°C for 10–15 minutes. Proceed to downstream applications, or store the RNA at –70°C.
+## Reverse transcription of RNA and qPCR
+20. Determine the concentration of RNA by measuring the absorbance at 260 nm.
+21. Prepare the reverse transcription reaction system (10 µL) as follows to synthesize cDNA:
+ 5 × All-In-One RT MasterMix (abm, CA)       2 µL
+ RNA                                  1 µg
+ RNase-free ddH 2 O                  add up to 10 µL
+22. Set up the RT-PCR reaction procedure as described below:
+ 25℃             10 minutes
+ 42℃             50 minutes
+ 85℃             5 minutes
+23. Prepare the following qPCR system (10 µL) on ice:
+ cDNA mixture                                   1 µL
+ BrightGreen 2 × qPCR MasterMix-ROX (abm, CA)          5 µL
+ upstream primer (10 µM)                           0.3 µL
+ downstream primer (10 µM)                          0.3 µL
+ ddH 2 O                                  add up to 10 µL
+24. Set up the qPCR reaction procedure as described below:
+ Step 1           95℃     10 minutes
+ Step 2           95℃      15 seconds
+                   60℃     60 seconds
+ 40 Cycles in Step 2
+ Melting curve
+25. Calculate relative gene expression by comparison of the CT value of the gene of interest with that of 18S rRNA which is an internal control.

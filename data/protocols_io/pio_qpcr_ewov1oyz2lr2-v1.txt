@@ -1,0 +1,33 @@
+ABSTRACT
+Quantitative Real-Time PCR (qPCR)
+
+STEPS
+## Thermocycling
+3. Perform PCR using the following cycling conditions in a LightCycler® 480 System (Roche):
+ 50˚C for 2min
+ 95˚C for 2min
+ 95˚C for 15s + 60˚C for 1min (x40cycles)
+## Data an
+4. Using the LightCycler Software obtain the threshold cycles (CT) signals from each samples.
+## Data an
+5. Perform ΔΔCT-method to analyze the expression data using the endogenous control genes and the reference experimental group.
+## qPCR plate reagents
+1. Option 1 : TaqMan qPCR
+## qPCR plate reagents
+1.1. Prepare Taqman Master mix (ul per well):
+ 5ul: Taqman Gene Expression Master Mix (Applied Biosystems, # 4369016)
+ 0.5ul Taqman Gene Expression Assays
+## qPCR plate reagents
+1.3. Add 4.5ul of cDNA per well (10ng cDNA) in technical triplicates to each well of LightCycler 480 Multiwell 384-plate (#4729749001, Roche Diagnostics)
+## qPCR plate reagents
+2. Option 2 : SYBR qPCR
+## qPCR plate reagents
+2.1. Prepare SYBR Master mix (ul per well):
+ 5ul PowerUp SYBR Green Master Mix (#A25776, Applied Biosystem-ThermoFisher) 
+ 1ul Primers (Forward and Reverse, diluted in Nuclease-free water at 5µM)
+## qPCR plate reagents
+2.3. Add 4ul of cDNA per well (10ng cDNA) in technical triplicates to each well of LightCycler 480 Multiwell 384-plate (#4729749001, Roche Diagnostics)
+## qPCR plate reagents
+2.2. Add 6ul of SYBR Master mix to each well with an automatic pipette (Multipette E3, Eppendorf)
+## qPCR plate reagents
+1.2. Add 5.5ul of Taqman Master mix to each well with an automatic pipette (Multipette E3, Eppendorf)

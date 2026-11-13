@@ -1,0 +1,23 @@
+ABSTRACT
+Interleukin17A is a pro-inflammatory cytokine. This protein is produced by a group of T helper cell known as T- helper17 lymphocytes in response to their stimulation with IL-23. After interaction with its receptor, IL-17 activates signalling pathways that stimulate the production of chemokines [1 ].
+ Reference
+ 1. Cho ML, Kang JW, Moon YM, Nam HJ, Jhun JY, Heo SB, Jin HT, Min SY, Ju JH, Park KS, Cho YG, Yoon CH, Park SH, Sung YC, Kim HY (May 2006). Journal of Immunology. 176 (9): 5652–61.
+
+MATERIALS
+MATERIALS
+ IL-17, Interleukin-17 IL-17A, human Bio Basic Inc. Catalog #RC212-28.SIZE.1mg 
+ Set of one 96-well filter plate with 2 plate sealers Merck Millipore (EMD Millipore) Catalog #MX-PLATE
+
+STEPS
+1. Ninety-six well ELISA plates are coated with monoclonal anti-human antibodies to interleukin-17( IL-17).
+2. Patient serum samples are added to the plates.
+3. The plate is incubate x 1.30 hour at RT.
+4. The plate is washed 4 times with PBS-tween 20 buffer.
+5. The wells are incubated with a biotin conjugated anti-human IL-17 for 1.30 hour at RT.
+6. The plates are washed again as above.
+7. To the plate a peroxidase-labeled streptavidin conjugate is added and incubated for 1 hour at RT.
+8. After a further washing procedure a substrate solution reactive is added and allowed to produced a colored reaction in positive controls.
+9. The level of IL-17 in the sample is proportional to the colored product developed.
+10. The addition of acid stopped the reaction.
+11. The absorbance is measured at 450 nm.
+12. The IL-17 concentration can be calculated by generating an standard curve.

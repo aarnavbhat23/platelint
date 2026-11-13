@@ -1,0 +1,21 @@
+ABSTRACT
+Enzyme-linked immunosorbent assay (ELISA) for studying the presence of anti-HIV antibodies in layer hens, rats and cats was a reproducible and feseable test. The presence of the anti-HIV antibodies was further confirmed by dot blot analysis.
+
+MATERIALS
+MATERIALS
+ 3,3′,5,5′-Tetramethylbenzidine Merck MilliporeSigma (Sigma-Aldrich) Catalog #54827-17-7 
+ ELISA Diluent 2 x 120 mL STEMCELL Technologies Inc. Catalog #1916 
+ Nunc™ 96-Well Polystyrene Round Bottom Microwell Plates, V 96 well plate, Non-Treated, clear, without lid, Sterile Thermo Fisher Catalog #260210 
+ ELISA Blocker Blocking Buffer Thermo Fisher Catalog #N502 
+ Coating Buffer BioLegend Catalog #421701 
+ Protein LAG-anti-IgY-peroxidase (homemade) Contributed by users
+
+STEPS
+1. The 96 well polystyrene microplates (U-shaped bottom) were coated with 50 ng of the synthetic gp-120 peptide in coating buffer overnight at 4°C.
+2. The microplate is washed 4X (PBS-Tween-20) and blocked with 3% non-fat milk in PBS, 25 µl/well, 1h, RT.
+3. The microplate is washed 4X (PBS-Tween-20) and triplicates of 25 µl of IgY (1 mg/ml), 25 µl of sera from cats or rats diluted 1:16 in PBS-non fat milk is added.
+4. After incubation for 2 h at RT the microplate is washed 4X and 25 µl of a universal conjugate SpLAG-anti-IgY-HRP (comprised of peroxidase labelled-IgY chemically coupled to protein A, protein G and protein L) diluted 1:1000 was added and the plate incubated for a further 1 h at RT.
+5. Then, the microplate is washed 4X and after that 3,3’,5,5’-tetramethylbenzidine (Sigma Chemical Co., St Louis, MO, USA) solution (50 µl) is added to each well.
+6. After a further incubation of 15 min in the dark, the reaction is stopped when positive controls are coloured and blanks and negative controls do not.
+7. Positive controls are from a positive human serum for anti-HIV antibodies, negative controls are from a turtle serum (Sigma Chemical Co., St Louis, MO, USA) and blanks 0.9% normal saline solution.
+8. Cut-off point is calculated as the mean of negative controls multiplied by four.

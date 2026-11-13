@@ -1,0 +1,14 @@
+ABSTRACT
+This SpL ELISA can be used to detect specific antibodies in various animal species including human, mouse, rat, dog, rabbit, chicken, monkey, pig and hamster [1].
+ 1. De Chateau M, Nilson BH, Erntell M, Myhre E, Magnusson CG, Akerstrom B et al. On the interaction between protein L and immunoglobulins of various mammalian species. Scand J Immunol 1993; 37: 399−405
+
+STEPS
+1. This ELISA is used to study the interaction of protein L with different immunoglobulin preparations.
+2. The 96 well microtitre plate is coated overnight at 4°C with 1 µl/mg per well of unlabelled protein-L (SpL) from P. magnus in carbonate-bicarbonate buffer pH 9.6.
+3. Then plate is treated with bovine serum albumin solution and washed 4X with PBS-Tween.
+4. 50 µl of animal serum (1 mg/ml) is added and incubated for 1h at room temperature and washed.
+5. Then 50 µl of peroxidase-labeled SpL conjugate diluted 1:5000 in PBS-non-fat milk is added to each well and incubated for 1h at RT. The plate is washed 4X with PBS-Tween.
+6. 50 µl of 4 mg/ml o-phenylenediamine solution (OPD) is added and the plate is incubated 15 minutes at RT in the dark.
+7. The reaction is stopped with 50 µl of 3M H2SO4 solution.
+9. A cut-off point should be calculated as the mean of the optical density of negative controls x 3.
+8. The plate is visually assessed for the development of colour and read in a microplate reader at 492 nm.

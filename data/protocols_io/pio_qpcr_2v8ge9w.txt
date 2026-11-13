@@ -1,0 +1,18 @@
+ABSTRACT
+Quantitative RT-PCR using the TaqMan® Gene Expression Assays on 
+ StepOnePlus™ Real-Time PCR System
+
+MATERIALS
+MATERIALS
+ TaqMan® Gene Expression Assay Thermo Fisher Scientific Catalog #4331182 
+ StepOnePlus™ Real-Time PCR System Thermo Fisher Scientific Catalog #4376600
+
+STEPS
+1. Allow the TaqMan® Gene Expression Assay components to thaw on ice
+2. Primers
+ Gene Gene Assay ID Gene Gene Assay ID RBM3 Hs00943160_g1 CIRP Hs00989762_g1 IL-6 Hs00174131_m1 MCP-1 (Ccl2) Hs00234140_m1 iNOS Hs01075529_m1 GAPDH Hs02786624_g1 
+ P
+3. Prepare the TaqMan® master mix on ice.
+ Component Volume (µL) Gene Assay Primers 0.5 TaqMan Gene Expression PCR Master Mix 5.0 cDNA 0.5 Nuclease-free H2O 4.0 Total per reaction 10.0
+4. Run the StepOnePlus™ Real-Time PCR System under the following conditions.
+ Step Times and Temperatures 2. PCR Step Initial Steps PCR (40 Cycles) AmpErase® UNG Activation AmpliTaq Gold® DNA Polymerase Activation Melt Anneal/ Extend HOLD HOLD CYCLE 2 min @ 50 °C 10 min @ 95 °C 15 sec @ 95 °C 1 min @ 60 °C

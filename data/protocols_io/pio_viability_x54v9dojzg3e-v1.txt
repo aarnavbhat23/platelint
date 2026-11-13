@@ -1,0 +1,25 @@
+ABSTRACT
+To streamline the identification of potentially active cancer therapeutics, here we describe a highly adaptable semi-automated approach to screen compounds simultaneously across a panel of cell lines. These protocols leverage automation to enhance robustness, reproducibility, and throughput while integrating the IncuCyte ZOOM live-cell imaging platform and the CellTiter-Glo endpoint viability assay to assess drug efficacy. The integration of both evaluative methods strategically bypasses the shortcomings of each approach individually allowing for more thorough and detailed analysis within a single drug screen. The expected output from protocol utilization includes traditional dose-response curves, IC50, area-under the curve (AUC), GR50, area-over the curve (AOC) as well as live-cell imaging to identify cell specific morphological changes, cytostatic, or cytotoxic effects of 72-hour drug treatments. This adaptable protocol can be employed across cancer model systems and represents a reproducible procedure to optimize 96-well plate cell growth conditions compatible with the integrated drug screen and simultaneously assess drug efficacy across multiple cell lines in future cancer research studies.
+
+MATERIALS
+For this protocol you will need:
+ CellTiter-glo (Promega, Cat# G7572) Luminescence Viability Assay or comparable endpoint cell viability assay
+ Luminometer compatible with the Promega CellTiter-Glo assay. This protocol features the Promega GloMax (Promega, Cat# GM3500) Explorer Multimode Microplate Reader.
+ A liquid handler system. This protocol features the Opentrons OT-2 Robot liquid handler system.
+ OT-2 Required attachments :
+ P300 Single-Channel GEN2 Pipette
+ P300 8-Channel GEN2 Pipette
+ Opentrons 96 Tip Racks 300 μL
+ 12-Channel Reservoirs for Automation (USA Scientific, Cat# 1061-8150)
+ White opaque welled, clear bottom 96-well tissue culture compatible plates. This protocol features Greiner Bio-one Cell culture microplate, 96 well, PS, F-Bottom, μClear (Sigma Aldrich,M0437-32EA)
+ Sartorius IncuCyte ZOOM Live-cell analysis system or any comparable live cell imaging platform.
+ Compatible IncuCyte ZOOM Live cell analysis software.
+ Sterile tissue culture hood
+ Standard 8-channel p200 multi-channel pipette
+ White Opaque Lab Tape
+ Standard 25 mL reagent reservoirs (VWR, Cat# 89094-662)
+ Standard tissue culture reagents
+ Standard 96-well plate (clear)
+ Standard 24-well plate (clear)
+
+STEPS

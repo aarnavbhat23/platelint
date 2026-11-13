@@ -1,0 +1,36 @@
+ABSTRACT
+To obtain growth curves of KJK01 and pCSCX-KJK01 in BG-11 + sucrose and to characterize their growth. This also serves to estimate sucrose consumption and butanol production over time.
+ This can be adapted for any other bacteria as well by giveing proper growth conditions, and using appropriate wavelength to measure the OD and giving proper time intervals based on whether the bacteria is slow growing or fast growing.
+
+STEPS
+## Primary culture
+1. Inoculate 1 colony of E. coli KJK01 in 5 mL of 1X LB
+## Primary culture
+2. Inoculate 1 colony of E. coli pCSCX-KJK01 in 5 mL of 1X LB with 5 µL Kan 50 and 5 µL Amp 100
+## Primary culture
+3. Leave both cultures in a shaker incubator Overnight at 37 °C and 180 rpm, °C,
+## Secondary culture
+4. The next morning, inoculate 900 µL of 1° culture of KJK01 in 90 mL BG-11 and 10 mL of sucrose. This serves as a control for sucrose consumption.
+ This culture is expected to show negligible/no growth and no butanol production.
+## Secondary culture
+5. Inoculate 900 µL of 1° culture of pCSCX-KJK01 in 90 mL BG-11 and 10 mL of sucrose with 90 µL Kan 50 and 90 µL Amp 100 . This serves as a control for butanol production.
+ This culture is expected to show fastest growth and low butanol production.
+## Secondary culture
+6. Inoculate 900 µL of 1° culture of pCSCX-KJK01 in 90 mL BG-11 and 10 mL of sucrose with 90 µL Kan 50 , 90 µL Amp 100 and 10 µL IPTG ( 0.1 millimolar (mM) )
+ This culture is expected to show slow growth and maximum butanol production.
+## Secondary culture
+7. Place these three cultures in a shaker incubator at 37 °C and 180 rpm, °C,
+## Preparing samples
+8. At 06:00:00 intervals, draw 2 1 mL samples from each culture [step duration: 21600 s]
+## Preparing samples
+9. Measure the OD of 1 sample from each culture at 600 nm and note it down for the growth curve assay
+## Preparing samples
+10. Centrifuge all 6 samples at 5000 rpm, 7 °C, for 00:15:00 [step duration: 900 s]
+## Preparing samples
+11. Decant the solution and store the supernatants at -20 °C
+## Preparing samples
+11.1. Submit 1 sample of each culture for the sucrose assay. This helps determine consumption of sucrose over time.
+## Preparing samples
+11.2. Submit 1 sample of each culture for NMR analysis. This helps determine butanol production over time.
+## Preparing samples
+12. Continue this procedure for 96:00:00 [step duration: 345600 s]

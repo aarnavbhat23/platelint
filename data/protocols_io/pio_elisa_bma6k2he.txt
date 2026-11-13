@@ -1,0 +1,13 @@
+STEPS
+1. Reagents preparation: At room temperature the reagent should be prepared by reconstituting the 120μl of the standard (4800ng/L) with 120μl of standard diluent to generate a 2400ng/L standard stock solution, allowing the standard to sit for 15 minutes with gentle agitation prior to making dilutions. Then preparing duplicate standard points by serially diluting the standard stock solution (2400ng/L), 1:2 with standard diluent producing 1200ng/L, 600ng/L, 300ng/L and 150ng/L solutions. Standard diluent serves as the zero standards (0 ng/L).
+2. Wash Buffer Preperation: Diluting 20ml of Wash Buffer Concentrate 25x into deionized or distilled water to yield 500 ml of 1x Wash Buffer.
+3. Bringing all reagents to room temperature before use.
+4. Determining the number of strips required for the assay. Inserting the strips in the frames for use.
+5. Adding 50μl standard to standard well
+6. Adding 40μl serum sample to sample wells and then adding 10μl anti-TGFβ1 antibody to sample wells, then adding 50μl streptavidin-HRP to sample wells and standard. Mixing well and then covering the plate with a sealer.
+7. Incubating for 60 minutes at 37°C.
+8. Removing the sealer and washing the plate 5 times with wash buffer. Soaking wells with at least 0.35 ml wash buffer for 30 seconds to 1 minute for each wash. Blotting the plate onto paper towels or other absorbent material.
+9. Adding 50μl substrate solution A to each well and then add 50μl substrate solution B to each well.
+10. Incubating plate covered with a new sealer for 10 minutes at 37°C in the dark.
+11. Adding 50μl Stop Solution to each well, the blue color will change into yellow immediately.
+12. Determining the optical density (OD value) of each well immediately using a microplate reader set to 450 nm within 10 minutes after adding the stop solution.

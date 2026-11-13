@@ -1,0 +1,46 @@
+ABSTRACT
+This protocol describes 3D spheroid culture of HEK293 cells (mock and PRELID2 stable overexpression) in low-attachment 96-well plates under nutrient-replete and starvation conditions (glucose-free DMEM). 
+ Spheroids are monitored at 72 h, 120 h, and 168 h, with Live/Dead staining (AO/PI) at 72 h and 168 h for viability assessment.
+
+MATERIALS
+- Cells: HEK293 mock / stable overexpression
+ - Plates: Low-attachment 96-well plates
+ - Media: DMEM (standard), DMEM glucose-free
+ - Cyto3D Live-Dead Assay Kit (The Well Bioscience)
+ - PBS(-) (pre-warmed), Trypsin
+ - Equipment: IN Cell Analyzer 2000 (GE Healthcare)
+
+BEFORE START
+- Maintain identical seeding densities to achieve comparable spheroid sizes across conditions.
+ - Do not exceed 5 min for trypsinization to preserve cell viability and spheroid formation.
+ - For DMEM preparation, pre-warm media and equilibrate to 37 °C before use.
+
+STEPS
+## Day 0: Cell Seeding and Glucose Starvation
+1. Wash adherent cells twice with pre-warmed PBS(-).
+## Day 0: Cell Seeding and Glucose Starvation
+2. Add 1.5 ml trypsin and incubate for 3 min (≤5 min). Add 3.5 ml medium, collect cells into a 15 ml tube, and centrifuge at 1,000 rpm for 5 min.
+## Day 0: Cell Seeding and Glucose Starvation
+3. Gently resuspend and let stand for 3 min; transfer the supernatant. Adjust cell suspension to 1 × 10 6 cells/ml using the appropriate DMEM per condition (standard, glucose-free).
+## Day 0: Cell Seeding and Glucose Starvation
+4. Add 150 µl of the condition-specific DMEM to each well. Seed 50 µl of the cell suspension (5 × 10 4 cells) into each well of a low-attachment 96-well plate.
+## Day 3 (72 h): Medium Exchange and Live/Dead Staining
+6. For 120h and 168h samples, remove 100 µl of medium from each well and add 100 µl of fresh condition-specific DMEM.
+## Day 3 (72 h): Medium Exchange and Live/Dead Staining
+8. Equilibrate the Cyto3D Live-Dead Assay Kit to room temperature. Add 2 µl per 100 µl per well (AO/PI).
+## Day 3 (72 h): Medium Exchange and Live/Dead Staining
+9. Incubate for 10 min at 37 °C. Acquire bright-field and fluorescence images (AO: Ex 494 nm/Em 517 nm; PI: Ex 535 nm/Em 617 nm).
+## Day 5 (120 h): Medium Exchange and Imaging
+10. For 168h samples, remove 100 µl of medium from each well and add 100 µl of fresh condition-specific DMEM.
+## Day 5 (120 h): Medium Exchange and Imaging
+11. Acquire images to monitor spheroid morphology (bright field).
+## Day 7 (168 h): Medium Removal and Live/Dead Staining
+12. Remove 100 µl of medium from each well.
+## Day 7 (168 h): Medium Removal and Live/Dead Staining
+13. Equilibrate the Cyto3D Live-Dead Assay Kit to room temperature. Add 2 µl per 100 µl per well (AO/PI).
+## Day 7 (168 h): Medium Removal and Live/Dead Staining
+14. Incubate for 10 min at 37 °C. Acquire bright-field and fluorescence images as above.
+## Day 3 (72 h): Medium Exchange and Live/Dead Staining
+7. For 72 h samples, remove 100 µl of medium from each well.
+## Day 0: Cell Seeding and Glucose Starvation
+5. Centrifuge the plate at 100 × g for 5 min to aggregate cells.

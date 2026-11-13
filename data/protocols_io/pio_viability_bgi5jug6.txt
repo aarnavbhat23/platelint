@@ -1,0 +1,6 @@
+STEPS
+1. HepG2 cells are seeded in a 96-well plate at a density of 1×10 5 cells/well and incubated at 37°Cfor 24 h.
+2. The cells are then treated with the above extracts for 6 h.
+3. Subsequently, 0.5 mg/mL MTT reagent dissolved in MEM is added to each well, and the plate is further incubated at 37°Cfor 3 h.
+4. After the culture medium is discarded, the cells are washed once with PBS (pH 7.2), and DMSO is added to solubilize the formazan product.
+5. Absorbance is then measured at 570 nm using a micro-plate reader (KeHua ST-360, Shanghai, China).

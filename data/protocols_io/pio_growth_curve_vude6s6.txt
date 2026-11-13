@@ -1,0 +1,21 @@
+ABSTRACT
+Before the OP50 solution is aliquoted into small falcon tubes, it is always better to check the OD by using a spectrophotometer, for documentation purposes.
+
+STEPS
+1. Pre-measurement Clean the disposable cuvettes with ethanol and lint free paper
+ Aliquot small amount of LB broth into a falcon tube (For Blank)
+ Fill about 1ml of the LB broth into a clean cuvette
+ Mix/Vortex the tube containing the stock bacteria to achieve a homogenized solution
+ Take three aliquots from the same tube in three different cuvettes
+2. Actual measurement Switch on the spectrophotometer
+ Press the bottom left button to select the OD program
+ Increase the wavelength to 600nm
+ Put the blank cuvette first and press the button showing blank
+ Put the sample cuvette 1 and press the button showing sample
+ Take a note of the OD reading
+ Place the second sample and repeat
+ After taking readings for all three samples take the average
+ Record the OD as OD600 = 1.35
+3. Post measurement Discard the cuvettes
+ Close the lid to the spectrophotometer
+ Switch it OFF

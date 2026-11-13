@@ -1,0 +1,113 @@
+ABSTRACT
+This Standard Operating Procedure (SOP) is based on the Vanderbilt University Medical Center Human Islet Phenotyping Program (HIPP) Islet Functional Analysis. This SOP provides the HIPP procedure for measuring islet insulin content and secretion to assess islet function. 
+ This SOP defines the assay method used by the Human Islet Phenotyping Program (HIPP) for the qualitative determination of the Purified Human Pancreatic Islet product, post-shipment, manufactured for use in the National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)-sponsored research in the Integrated Islet Distribution Program (IIDP). 
+ The goal of this SOP is to define the method for quantitative determination of insulin released after glucose stimulation for proving the potency of the human islet preparation shipped by the IIDP.
+ This Standard Operating Procedure (SOP) #: HIPP-09-v01
+
+MATERIALS
+1. The following equipment is necessary to assess human islet function by Insulin ELISA 
+ 1.1 Micropipettes (10-100 μL, 20-200 μL, and 100-1000 μL ranges) 
+ 1.2 Multi-channel micropipette (20-200 µL range)
+ 1.3 Computer with Excel (Microsoft) and Prism (Graphpad) software (for use of counting workbook and producing data summaries)
+ 1.4 epMotion Liquid Handling Workstation ( Eppendorf 5075 )
+ 1.5 Benchmark Orbi shaker ( BT1502 )
+ 1.6 Fisherbrand accuWash microplate washer (5165100) or the similar plate washer ( 14-377-577 or 14-377-578 )
+ 1.7 BMG Labtech CLARIOstar microplate reader (Plus Model)
+ 1.7.1 CLARIOstar software 
+ 1.7.2 MARS data analysis software
+ 1.8 Vortex mixer 
+ Liquid Handling Workstation (epMotion, Eppendorf 5075, https://online-shop.eppendorf.us/US-en/Automated-Pipetting-44509/Liquid-Handling-Workstations-44510/epMotion5075TMX-PF-17832.html?gclid=EAIaIQobChMIuqGapZ6i9AIVA5-GCh3YWAr_EAAYAiAAEgJenvD_BwE&gclsrc=aw.ds , https://s3.amazonaws.com/protocols-files/files/fym4bghg7.webp ) 
+ Benchmark Orbi shaker (ORBI-SHAKER, BT1502, https://www.benchmarkscientific.com/product/bt1502/ , https://s3.amazonaws.com/protocols-files/files/fym6bghg7.jpg ) 
+ accuWash microplate washer (Fisher, 5165100, https://www.fishersci.com/shop/products/fisher-scientific-accuwash-accuwash-versa-microplate-washers/p-6473453 , https://s3.amazonaws.com/protocols-files/files/fym7bghg7.webp ) 
+ Microplate Reader (BMG Labtech CLARIOstar, None, https://www.bmglabtech.com/clariostar-plus/ , https://s3.amazonaws.com/protocols-files/files/fynbbghg7.png ) 
+ 2. The following supplies and materials are necessary to assess human islet function by Insulin ELISA 
+ 2.1 Human Insulin ELISA Kit Mercodia Catalog #10-1113-10 
+ 2.1.1 Coated 96-well plates (20-2622)
+ 2.1.2 Calibrators 0, 1, 2, 3, 4, 5. Insulin concentrations are known values provided by manufacturer. (20-2615, 20-2616, 20-2617, 20-2618, 20-2619, 20-2620)
+ 2.1.3 Enzyme Conjugate 11X (20-2631)
+ 2.1.4 Enzyme Conjugate Buffer (20-2630)
+ 2.1.5 Washer Buffer 21X (20-3194)
+ 2.1.6 Substrate TMB (20-3136)
+ 2.1.7 Stop Solution (20-2694)
+ 2.2 Diabetes Sample Buffer Mercodia Catalog #10-1195-01 
+ 2.3 Human Diabetes Antigen Controls Mercodia Catalog #10-1134-01 
+ 2.4 50 µL epMotion pipette tip ( Eppendorf 30014421 )
+ 2.5 10 mL ( Fisher Scientific 13-678-11E ) and 25 mL ( Fisher Scientific 13-678-11 ) serological pipets
+ 2.6 2 mL microcentrifuge tube ( Sarstdedt 72.695.500 )
+ 2.7 200 μL ( ART P-200 ) and 1000 μL pipette tips ( ART P-1250 )
+ epMotion pipette tip (50 µL, Eppendorf, 30014421, https://serfinitymedical.com/products/eppendorf-quality-eptips-motion-reload-tip-50-ul-eppendorf-north-america-30014421-1081330 , https://s3.amazonaws.com/protocols-files/files/fys5bghg7.jpg ) 
+ serological pipets (10 mL, Fisher Scientific, 13-678-11E, https://www.fishersci.com/shop/products/fisherbrand-sterile-polystyrene-disposable-serological-pipets-magnifier-stripe-30/1367811E , https://s3.amazonaws.com/protocols-files/files/fys6bghg7.webp ) 
+ serological pipets (25 mL, Fisher Scientific, 13-678-11, https://www.fishersci.com/shop/products/fisherbrand-sterile-polystyrene-disposable-serological-pipets-magnifier-stripe-30/1367811 , https://s3.amazonaws.com/protocols-files/files/fys7bghg7.webp ) 
+ microcentrifuge tube (2 mL, Sarstdedt, 72.695.500, https://www.fishersci.com/shop/products/safeseal-micro-tube-2-ml-1/NC1186931 , https://s3.amazonaws.com/protocols-files/files/fys8bghg7.webp )
+
+GUIDELINES
+Integrated Islet Distribution Program (IIDP) ( RRID:SCR_014387 ): The IIDP is a grant funded program commissioned and funded by the NIDDK to provide quality human islets to the diabetes research community to advance scientific discoveries and translational medicine. The IIDP consists of the NIDDK Project Scientist and Program Official, the External Scientific Panel and the CC at City of Hope (COH). The IIDP CC integrates an interactive group of academic laboratories including the subcontracted IIDP centers.
+ IIDP Coordinating Center (CC): Joyce Niland, Ph.D. and Carmella Evans-Molina, M.D., Ph.D. serve as Co-Principal Investigators (Co-PIs) for the IIDP Program located within the Department of Diabetes and Cancer Discovery Science at COH to coordinate the activities of the IIDP and Human Islet Phenotyping Program (HIPP). Dr. Niland, contact PI, oversees the daily activity of the IIDP staff, provides informatics/ biostatistical input, and subcontracts with the Islet Isolation Centers (IICs) to ensure the delivery of the highest quality human islets to IIDP approved investigators. Dr. Evans-Molina serves as the liaison to the HIPP, interacting closely to ensure that extensive, high quality phenotypic data are collected on islets distributed by the IICs. She also facilitates the delivery of this information to both the IICs and the IIDP-approved investigators, while responding to questions, issues, or suggestions for further HIPP enhancements.
+ Human Islet Phenotyping Program (HIPP): The HIPP is a subcontracted entity of the IIDP through the COH and Vanderbilt University. The HIPP is directed by Marcela Brissova, Ph.D. and is responsible for performing specific standardized quality control assays agreed upon by both the IIDP and the HIPP, in order to provide enhanced, quality data on the human islets post-shipment, to the IIDP. The results of these assays will be approved by the CC and posted on the IIDP website for both the centers and the approved investigators.
+ Islet Equivalent (IEQ): An islet with a diameter of 150 µm determined mathematically by compensating for islet shape.
+ Islet Perifusion Assay: A functional assay that acquires dynamic hormone secretory profiles simultaneously from islet cell types such as β and α cells in response to their respective secretagogues. Insulin and glucagon are detected in perifusion fractions by ELISA. The islet hormone secretory profile is generated by graphing hormone concentration over time with respect to islet volume and/or hormone content.
+ Enzyme-linked immunosorbent assay (ELISA): A sensitive in vitro assay technique used to measure concentrations of antigens by making use of an enzyme conjugated to an antibody recognizing an antigen of interest.
+
+STEPS
+## Procedures
+1. Preparation of Samples, Standards, and internal Quality Controls
+## Procedures
+1.1. Thaw archived samples intended for analysis in room temperature water. Once thawed, invert capped samples ten times to thoroughly mix.
+## Procedures
+1.2. Retrieve the islet hormone extracts and keep on ice.
+## Procedures
+1.3. Prepare serial dilutions of hormone extract (1:100, 1:1000, 1:2000, 1:5000 and 1:10000) in 2 mL tubes using the Calibrators 0 media from the ELISA Kit or Diabetes Sample Buffer. Vortex each tube to mix contents before generating the subsequent dilutions.
+## Procedures
+1.4. Generate 1:3 dilutions for perifusion fractions #23, #24, #25, and #43 by adding 40 µL sample to 80 µL of Calibrator 0 or Diabetes Sample Buffer in 2 mL tubes.
+## Procedures
+1.5. Transfer all Calibrators and Antigen Controls from original bottles to 2 mL tubes.
+## Procedures
+2. Preparation of enzyme conjugate and wash buffer solutions
+## Procedures
+2.1. Prepare Enzyme Conjugate 1x solution by diluting Enzyme Conjugate 11x in Enzyme Conjugate Buffer. Mix gently. Prepare a volume sufficient to add 100 µL to each well (see step 3.2)
+## Procedures
+2.2. Prepare Wash Buffer 1x solution by diluting Wash Buffer 21x in redistilled water. Mix thoroughly. Prepare a volume sufficient to add 4.2 mL to each well (see step 3.4)
+## Procedures
+3. Performing insulin assay
+## Procedures
+3.1. By using epMotion 5057 or hand-pipetting, pipette 25 µL each of Calibrators and Antigen Controls (in duplicate), samples, extract dilutions, and sample dilutions into appropriate wells of ELISA 96-well plate.
+## Procedures
+3.2. Add 100 µL of enzyme conjugate 1x solution to each well.
+## Procedures
+3.3. Incubate ELISA 96-well plate on a microplate shaker (900 rpm, orbital movement) for 1 hour at room temperature (18-25°C).
+## Procedures
+3.4. Using the plate washer, wash 6 times with 700 µL wash buffer 1x solution. After final wash, invert and tap the plate firmly against absorbent paper. Do not include soak step in washing procedure.
+## Procedures
+3.5. Add 200 µL Substrate TMB into each well.
+## Procedures
+3.6. Incubate on the bench for 15 minutes at room temperature (18-25°C).
+## Procedures
+3.7. Add 50 µL Stop Solution to each well. Mix thoroughly for 5 seconds by tapping gently on all sides of the plate without dispersing liquid in wells.
+## Procedures
+3.8. Using the microplate reader, determine the optical density and insulin concentration of each well within 30 minutes of adding stop solution. Set to 450 nm.
+## Procedures
+4. Data Analysis
+## Procedures
+4.1. Values for all standards must be within ±15% of their expected values and replicate values of each standard must have a Coefficient of Variation (CV) ≤20%. If standards vary beyond these limits, the assay must be repeated.
+## Procedures
+4.2. Values for quality control samples, corresponding to lower and upper assay detection ranges, must be within their known ranges. If QCs vary beyond these limits, the assay must be repeated.
+## Procedures
+4.3. Calculate the average of the insulin concentrations from the 4 extract dilutions to determine insulin content, expressed as ng/mL.
+## Procedures
+4.4. Normalize secreted insulin concentrations per islet volume (IEQs), expressed as ng/100 IEQs/min and islet insulin content, expressed as % content/min.
+## Procedures
+4.5. Use Prism software to create graphs and to calculate stimulation index (SI) and area under curve (AUC) values.
+ 4.5.1 Stimulation index (SI) is a ratio calculated as maximum response to a given stimulus relative to baseline.
+ 4.5.2 Area under curve (AUC) is calculated by integrating islet secretory response to a given stimulus over time.
+## Data Storage and Reporting
+5. Data Storage and Reporting
+## Data Storage and Reporting
+5.1. To facilitate data management and ensure data security, the VUMC HIPP uses an institutional server-based platform for data storage and analysis.
+## Data Storage and Reporting
+5.2. Upon analysis completion, the VUMC HIPP uploads raw data, including hormone levels, data analysis, and graphical representations of each human islet perifusion into the IIDP HIPP database. Example of human islet perifusion results performed in HIPP is shown in Figure 1 . 
+ Figure 1. Protocol for analysis of human islet function by the Vanderbilt HIPP. 
+ Islets are challenged with 16.7 mM glucose for 30 minutes to resolve biphasic insulin secretory response, followed by 15-minute stimulations with 16.7 mM glucose + 50 M IBMX, 1.7 mM glucose + 1 M epinephrine, and 20 mM KCl. Insulin secretory response to these stimuli is shown in the top panel (5 human islet preparations) and glucagon secretion is displayed in the bottom panel (4 human islet preparations).
+## Data Storage and Reporting
+5.3. Functional data on islet insulin and glucagon secretion will be uploaded within 3 business days to HIPP database built by IIDP programming team and immediately available to IIDP-affiliated investigators and islet isolation centers.
+## Deviations and Resolutions
+6. Document any deviations that occurred during this protocol that affect the final results and report with the analysis of the assay.

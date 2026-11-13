@@ -1,0 +1,5 @@
+STEPS
+1. Total RNA was extracted from cell lines  Trizol (Invitrogen Life Technologies), according to the manufacturer’s instructions.
+2. Next, the first strand cDNA was synthesized from RNA by reverse transcription using PrimeScript™ RT reagent Kit (TaKaRa Bio Group, Dalian, China), according to the manufacturer’s instructions.
+3. Real-time PCR was performed using the CXF96 (Bio-Rad, CA, USA) system and a SyberGreen II real-time PCR kit (TaKaRa). The PCR reaction conditions were as follows: denaturation at 95°C for 3 min, followed by 39 cycles at 95°C (30 s), 59°C (30 s) and 72°C (30 s), and a final extension at 72°C for 5 min.
+4. All statistical analyses were performed using Microsoft Office Excel.

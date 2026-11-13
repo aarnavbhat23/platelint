@@ -1,0 +1,11 @@
+ABSTRACT
+Real-time qPCR
+
+STEPS
+1. **Prepare cDNA Samples** - Plate cDNA samples on a 96-well qPCR plate.
+2. **Prepare Reaction Mix** - Combine the following in each well: - 5 μL Fast SYBR Green Master Mix (4385616, Applied Biosystems) - 3 μL nuclease-free water - 0.5 μL forward primer - 0.5 μL reverse primer - 1 μL cDNA sample
+3. **Ensure Technical Replicates** - Plate each sample two to four times to ensure technical replicates.
+4. **Prepare Negative Control** - Use a control sample consisting of water with primers and Master Mix as a negative control.
+5. **Perform qPCR** - Collect cycle threshold (Ct) values for each well.
+6. **Normalize Data** - Normalize Ct values to GAPDH as a housekeeping gene.
+7. **Primer Sequences** - Forward (F) primer for Atg7: 5′- GTTCGCCCCCTTTAATAGTGC -3′ - Reverse (R) primer for Atg7: 5′- TGAACTCCAACGTCAAGCGG -3′

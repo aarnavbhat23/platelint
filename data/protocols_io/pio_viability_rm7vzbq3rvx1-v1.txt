@@ -1,0 +1,192 @@
+ABSTRACT
+This protocol details OT-2 liquid handler integrated live-cell and endpoint viability drug activity screening on a 96-well plate.
+
+MATERIALS
+Required Materials 
+ Cell Seeding for 96-well plate drug screening assay 
+ A liquid handler system. This protocol features the Opentrons OT-2 Robot liquid handler system
+ OT-2 Required attachments:
+ P300 8-Channel GEN2 Pipette
+ Opentrons 96 Tip Racks 300 µL
+ 12-Channel Reservoirs for Automation ( USA Scientific , Cat# 1061-8150)
+ White opaque welled, clear bottom 96-well tissue culture compatible plates. This protocol features Greiner Bio-one Cell culture microplate, 96 well, PS, F-Bottom, µClear (Sigma Aldrich, M0437-32EA)
+ Standard tissue culture reagents (Cell-specific)
+ Sterile tissue culture hood
+ Drug preparation, drug dilution/delivery with OT-2 liquid handler, and IncuCyte ZOOM set up 
+ A liquid handler system. This protocol features the Opentrons OT-2 robot liquid handler system.
+ OT-2 Required attachments:
+ P300 Single-Channel GEN2 Pipette
+ P300 8-Channel GEN2 Pipette
+ Opentrons 96 Tip Racks 300 μL
+ Sartorius IncuCyte ZOOM Live-cell analysis system or any comparable live cell imaging platform.
+ Compatible IncuCyte ZOOM Live cell analysis software.
+ Standard 96-well plate (clear)
+ Standard 24-well plate (clear)
+ End live-cell imaging procedure and perform CellTiter-glo endpoint viability assay 
+ White opaque tape
+ Standard 8-channel p200 multi-channel pipette
+ Standard 25 mL reagent reservoirs (VWR, Cat# 89094-662)
+ CellTiter-glo (Promega, Cat# G7572) Luminescence Viability Assay or comparable endpoint cell viability assay
+ Luminometer compatible with the Promega CellTiter-Glo assay. This protocol features the Promega GloMax (Promega, Cat# GM3500) Explorer Multimode Microplate Reader.
+ *Pre-mixed CellTiter-glo reagent is stored at -80°C (pre-aliquot 10mL into 15mL conical tubes) so begin thawing (in a dark environment) to room temperature upon arrival to lab. It will take approximately 3-4 hours to equilibrate to room temperature.
+ 12-CHANNEL RESERVOIR FOR AUTOMATION USA Scientific Catalog #1061-8150 
+ Greiner CELLSTAR® 96 well plates Merck MilliporeSigma (Sigma-Aldrich) Catalog #M0437-32EA 
+ Reagent reservoirs VWR International (Avantor) Catalog #89094-662 
+ CellTiter-Glo(R) Luminescent Cell Viability, 100ml Promega Catalog #G7572 
+ HyClone Dulbeccos Phosphate Buffered Saline: Liquid Cytiva Catalog #SH30028.02 
+ Corning® 100 mL Trypsin EDTA 1X Corning Catalog #25-052-CI 
+ Defined Trypsin Inhibitor Thermo Fisher Catalog #R007100 
+ GloMax Explorer (multi-mode plate reader, Promega, GM3500)
+
+BEFORE START
+Before starting :
+ Select the drug to be tested and determine the max concentration to be tested.
+ Starting with the defined max concentration, this protocol tests a single drug at 6 concentrations (including a vehicle control) at 1:3 serial dilutions.
+ Determine the cell line models which will be tested. Expand cell lines to ~50-60% confluence in any standard tissue t75-Flask or 15cm tissue culture dish.
+ Determine cell-specific seeding density and media condition to be tested.
+
+GUIDELINES
+To overcome the individual shortcomings of live-cell imaging and endpoint viability, it is recommended to integrate both cell viability assessment methods in a single drug screen. This protocol is designed to evaluate drug efficacy simultaneously robustly and reproducibly across multiple cell lines through the integration of automation, live-cell imaging, and an endpoint metabolic ATP viability assay.
+ *It is recommended that this protocol be used after defining optimized assay-specific growth conditions through the application of the protocol “96-well plate cell growth optimization for integrated live-cell and endpoint viability drug screening assay” for each tested cell line.
+ *Note this protocol can be adapted to accommodate user preferences, but the Opentrons OT-2 procedures included were designed to test 8 cell lines simultaneously.
+ This protocol is designed to simultaneously screen a single compound across a panel of cell lines in a semi-automated procedure integrating sequential live-cell imaging and endpoint viability assays in a 72-hour drug screen. Upon successful execution of this protocol the user will have access to the following raw data: 
+ Live-cell imaging to display morphological changes and response to drug treatment at 6 concentrations per cell line over a 72-hour time span. 
+ Endpoint cell metabolism-based viability data curves generating dose response curves for each cell line. 
+ Untreated cell growth rates and cell viability drug response data which allows for the calculation of metrics such as IC50, AUC (area under the curve), GR50, and AOC (area over the curve).
+
+STEPS
+## Day 1: Prepare cell lines for seeding into 96-well plates via Opentrons OT-2 liquid handler
+1. In a sterile tissue culture hood, aspirate media from t75-flask. 
+ * Note : It is good practice to always work with one cell line in the sterile tissue culture hood at any given time.
+## Day 1: Prepare cell lines for seeding into 96-well plates via Opentrons OT-2 liquid handler
+2. Perform a wash with 5 mL Phosphate Buffered Saline (PBS) (Hyclone, Cat# SH30028.02).
+## Day 1: Prepare cell lines for seeding into 96-well plates via Opentrons OT-2 liquid handler
+3. To detach cells from tissue culture flasks, add 3mL of trypsin (Corning, Cat# 25-052-cl) directly on to the cells. Gently tilt the flask until the surface is equally covered with trypsin then place cells into tissue culture incubator for 00:03:00 . [step duration: 180 s]
+## Day 1: Prepare cell lines for seeding into 96-well plates via Opentrons OT-2 liquid handler
+4. After incubation, gently tap the sides of the flask to insure complete detachment of adherent cells. Return to incubator for 00:01:00 increments if needed. 
+ *Use a microscope at 5-10x magnification to verify detachment. [step duration: 60 s]
+## Day 1: Prepare cell lines for seeding into 96-well plates via Opentrons OT-2 liquid handler
+5. Add 3 mL of trypsin inhibitor (Thermofisher, Cat# R007100) (or equal volume to trypsin used) to deactivate the trypsin enzyme, collect all the cell suspension, and then transfer into a sterile 15mL conical tube.
+## Day 1: Prepare cell lines for seeding into 96-well plates via Opentrons OT-2 liquid handler
+6. Pellet cells via centrifugation at 100-300 x g, , 5 minutes . [step duration: 300 s]
+## Day 1: Prepare cell lines for seeding into 96-well plates via Opentrons OT-2 liquid handler
+7. After centrifugation, aspirate all supernatant while being careful to not disrupt the cell pellet.
+## Day 1: Prepare cell lines for seeding into 96-well plates via Opentrons OT-2 liquid handler
+8. Uniformly resuspend the cell pellet in 1 mL of cell-specific culture media using a p1000 pipette. 
+ *Be gentle so to not shear the cells. 
+ *Then add an additional 1mL of cell-specific culture media and slowly vortex to uniformly mix.
+## Day 1: Prepare cell lines for seeding into 96-well plates via Opentrons OT-2 liquid handler
+9. Using the well-mixed cell suspension, accurately count cells via your preferred hemocytometry method to a final unit of [cells/mL].
+## Day 1: Prepare cell lines for seeding into 96-well plates via Opentrons OT-2 liquid handler
+10. After counting, calculate the volume of cells suspended in cell-specific culture media needed to prepare 10 mL cells at the seeding density concentration range previously determined. 
+ *For each of the 8 cell lines, 6 drug concentrations will be tested in quadruplicate. Each cell line will be seeded into a designated quadrant of a single white opaque walled, clear bottomed 96-well plate- thus TWO 96-well plates are required to test 8 cell lines. The seeding volume is 200 µL per well. 
+ Note : If OT-2 or any other comparable liquid handler is not being used, then proceed to seed each plate according to the quadrants shown below:
+## Day 1: Prepare cell lines for seeding into 96-well plates via Opentrons OT-2 liquid handler
+11. Transfer 10 mL of each cell suspension to columns 1-8 of a 12-channel reservoir. See schematic below.
+## Preparing for cell seeding via Opentrons OT-2 Liquid handler
+12. This protocol features the Opentrons OT-2 liquid handler for cell seeding, drug dilution, and drug delivery to cells. 
+ For cell seeding, the following OT-2 protocol can be used to, resuspend/mix cell suspension, and transport them to their respective quadrants as defined in the schematic above. 
+ IMPORTANT NOTE: 
+ To test 4 cell lines per 96-well plate at 6 different concentrations, cell lines must be seeded separately within a specified quadrant of the plate. The OT-2 liquid handler system utilizes an 8-channel pipettor attachment which is designed to pick up pipette tips for all 8-channels. The Opentrons OT-2 pipettor cannot be adjusted to only pick up 4 pipette tips at a time. For this reason, before seeding users must rearrange tip rack patterns in a sterile environment.
+ Attached File: “Cell Seeding 8 Cell Lines.json”
+ Duration: ~ 00:12:00 
+ Instructions for tip arrangement :
+ Alternate between a full row of tips (for mixing in the 12-channel reservoir) in one row and then 4 tips for the corresponding quadrant where the cells will seeded. This protocol seeds the cells in the upper quadrants first, and then returns to the cells in the lower quadrants from left to right. Two tip racks will be needed for this protocol. See image below:
+ Corresponding starting deck state compatible with OT-2 seeding protocol:
+## Preparing for cell seeding via Opentrons OT-2 Liquid handler
+13. Transfer loaded 12-channel reservoir, pre-arranged tip racks, and two empty white walled/clear bottomed 96-well plates into the OT-2 deck and begin OT-2 procedure “Cell Seeding 8 Cell Lines.json”.
+## Preparing for cell seeding via Opentrons OT-2 Liquid handler
+14. Place 96-well plates into standard tissue culture incubator Overnight .
+## Day 2: Prepare drug dilutions
+15. Observe cells with a microscope at 10x magnification to verify that cells are settled and adhered to the inner surface of the 96-well plate.
+## Day 2: Prepare drug dilutions
+16. Prepare drug at pre-determined max concentration into pre-determined optimized media conditions. For this protocol, each cell line (in the optimized media conditions) will require 2.5 µL of drug prepared at the pre-determined max concentration as well as 2.5 µL of vehicle treated media at the same percentage of the max drug concentration.
+ Example : If you are working with DrugX at a stock concentration of 50mM and desire a max concentration of 30µM in 2.5 mL of media use the formula:
+ V_1=\frac {(C_2 V_2)}{C_1} 
+ where V 1 = Desired volume of DrugX at stock concentration to be added into optimized media conditions, C 1 = Concentration [µM] of DrugX at stock concentration, C 2 =Desired final concentration of DrugX ( 30 micromolar (µM) ), & V 2 = Desired final volume of new cell preparation ( 2.5 mL ). For the vehicle preparation, add equal volume as V 1 of vehicle into media with optimized conditions.
+ *For the OT-2 protocol drug dilutions are prepared in 24-well plates according to the plate map below (continuing with the example above):
+## Day 2: Prepare drug dilutions
+17. In a sterile 24-well plate transfer 2.266 mL of DrugX at max concentration in column 1 for each cell line using the cell-specific media conditions. Similarly, transfer 2.266 mL of vehicle treated media into column 6. In the center columns 2-5, add 1.334 mL of untreated media at optimized conditions for the corresponding cell lines (See plate map above). There should be one 24-well plate per white opaque 96-well plate (seeded the previous day).
+ IMPORTANT NOTE :
+ To create 1:3 serial dilutions, this protocol uses the Opentrons OT-2 liquid handler. The OT-2 protocol uses the P300 Single-Channel GEN2 Pipette to perform the dilutions and then transfers the drug into a template standard clear 96-well plate. There is a pause in the protocol at this step so that the first 96-well opaque white, clear bottom can be added to the OT-2. Afterwards, on the first column, the P300 8-Channel GEN2 Pipettor slowly (to not disrupt adherent cells) removes 200 µL of media that cells were seeded in on day 1 then replaced with 100 µL of drug from the template 96-well plate first column. This is repeated until the plate is treated fully.
+ Drug dilution and transfer to template clear 96-well plate schematic:
+ Attached File: “Drug Dilution and Transfer.json”
+ Duration: ~ 01:05:00 
+ Corresponding starting deck state compatible with OT-2 seeding protocol: [step duration: 3900 s]
+## Day 2: Prepare drug dilutions
+18. Transfer loaded 24-well plate, full tip racks, an empty standard clear 96-well plates into the OT-2 deck and begin OT-2 procedure “Drug Dilution and Transfer.json”.
+## Day 2: Prepare drug dilutions
+19. After drug dilution and transfer into the template standard clear 96-well plate (~ 00:43:00 ), the protocol pauses to allow the user to add the first 96-well plate at this step. Add plate then resume protocol. [step duration: 2580 s]
+## Day 2: Prepare drug dilutions
+20. After the first plate is completed, return treated white 96-well plate into an incubator, and repeat the drug dilution and treatment procedure with the second plate (~ 01:05:00 ). [step duration: 3900 s]
+## Day 2: Prepare drug dilutions
+21. Afterwards, second plate into the incubator and proceed to the next step.
+## Day 2: Verify cell attachment to plates after drug treatments and begin IncuCyte ZOOM live-cell imaging
+22. At this stage, the plate can be transferred to the preferred live-cell imaging platform. This protocol uses the IncuCyte Zoom platform. The plate will remain in the imaging platform for 72:00:00 .
+ The duration of the drug screens in the integrated live-cell and endpoint viability drug screen protocol. [step duration: 259200 s]
+## Day 2: Verify cell attachment to plates after drug treatments and begin IncuCyte ZOOM live-cell imaging
+23. The instructions below apply exclusively to the IncuCyte Zoom platform which this protocol features (Note: basic user instructions for the IncuCyte Zoom can be found in publicly available online videos).
+ Begin IncuCyte Zoom set up
+## Day 2: Verify cell attachment to plates after drug treatments and begin IncuCyte ZOOM live-cell imaging
+23.1. Open IncuCyte Zoom software on computer desktop.
+## Day 2: Verify cell attachment to plates after drug treatments and begin IncuCyte ZOOM live-cell imaging
+23.2. Connect to device.
+## Day 2: Verify cell attachment to plates after drug treatments and begin IncuCyte ZOOM live-cell imaging
+23.3. Under the “Task List” panel on the left-hand side, select “Schedule Scans”.
+## Day 2: Verify cell attachment to plates after drug treatments and begin IncuCyte ZOOM live-cell imaging
+23.4. Click one of the “Empty” slots on the live representative plate map for the hardware then click “Add Vessel”.
+## Day 2: Verify cell attachment to plates after drug treatments and begin IncuCyte ZOOM live-cell imaging
+23.5. Once prompted, search from the vessel (96-well plate) by catalog number. This protocol features the Greiner bio one cell culture microplate (#655098). Once selected proceed to setting up experimental parameters:
+## Day 2: Verify cell attachment to plates after drug treatments and begin IncuCyte ZOOM live-cell imaging
+23.6. On the bottom panel on the left-hand side, select “Edit Scan Pattern” and select all wells and set the scan pattern to 4 images/well. Save this scan pattern.
+## Day 2: Verify cell attachment to plates after drug treatments and begin IncuCyte ZOOM live-cell imaging
+23.7. In the Channel Selection section in the center, click “Phase” (no colored acquisition channel is need for this protocol).
+## Day 2: Verify cell attachment to plates after drug treatments and begin IncuCyte ZOOM live-cell imaging
+23.8. In the “Scan Mode” section in on the top-right side, toggle to the scan pattern that was previously created and saved.
+## Day 2: Verify cell attachment to plates after drug treatments and begin IncuCyte ZOOM live-cell imaging
+23.9. In the “Analysis Job Setup” section on the right-hand side, toggle the “Job Type” and select “Basic Analyzer.” Toggle the “Processing Definition” tab and select a pre-determined processing definition with masks optimized for your specific cell line. (If this hasn’t been created, the “DEMO Phase” processing definition can be used.
+## Day 2: Verify cell attachment to plates after drug treatments and begin IncuCyte ZOOM live-cell imaging
+23.10. Click the “Properties” tab and label the plate as desired.
+## Day 2: Verify cell attachment to plates after drug treatments and begin IncuCyte ZOOM live-cell imaging
+23.11. Click “Apply” on the bottom right corner to save changes and register the plate to the IncuCyte Zoom hardware.
+ Aside : Set the scan intervals based on desired timepoints. This protocol recommends a scan every 4 hours.
+## Day 2: Verify cell attachment to plates after drug treatments and begin IncuCyte ZOOM live-cell imaging
+24. Transfer the 96-well plates into the same IncuCyte Zoom slot selected during the software setup and begin real-time image capture.
+ *THIS PORTION OF THE PROTOCOL WILL LAST FOR ~72 HOURS. THE LIVE-CELL IMAGING PROCESS SHOULD NOT REQUIRE ANY ADDITIONAL ADJUSTMENTS DURING THIS TIME; HOWEVER, THE USER CAN CHECK IMAGES DAILY TO TRACK PROGRESS AND VERIFY IMAGE FOCUS AND SCAN QUALITY. *
+## Day 5: End live-cell imaging procedure and perform CellTiter-glo endpoint viability assay
+25. After 72-hours have passed, end the experiment on the live-cell imagining platform software then remove the 96-well plate and allow and allow it to equilibrate to Room temperature ~ 00:20:00 . 
+ This can be done in a non-sterile environment such as a bench top or isolated drawer. [step duration: 1200 s]
+## Day 5: End live-cell imaging procedure and perform CellTiter-glo endpoint viability assay
+26. *Use the following instructions to end the experiment on the IncuCyte ZOOM software.
+ End IncuCyte Zoom Experiment:
+## Day 5: End live-cell imaging procedure and perform CellTiter-glo endpoint viability assay
+26.1. Open IncuCyte Zoom software on computer desktop.
+## Day 5: End live-cell imaging procedure and perform CellTiter-glo endpoint viability assay
+26.2. Connect to device.
+## Day 5: End live-cell imaging procedure and perform CellTiter-glo endpoint viability assay
+26.3. Under the “Task List” panel on the left-hand side, select “Schedule Scans”.
+## Day 5: End live-cell imaging procedure and perform CellTiter-glo endpoint viability assay
+26.4. Click on the slot housing the plate being tested on the live representative plate map for the hardware then click “Remove Vessel”.
+## Day 5: End live-cell imaging procedure and perform CellTiter-glo endpoint viability assay
+26.5. Click “Apply” on the bottom right corner to save changes.
+## Day 5: End live-cell imaging procedure and perform CellTiter-glo endpoint viability assay
+26.6. Manually remove the corresponding 96-well plate to the IncuCyte Zoom hardware.
+## Day 5: End live-cell imaging procedure and perform CellTiter-glo endpoint viability assay
+27. Cover the bottom of the 96-well plate with white opaque lab tape.
+ * Note : Cover the bottom of each plate with opaque white tape (as recommended by Promega) to prevent any luminescence decrease or “cross talk” when performing the CellTiter-glo assay as the luminometer reads the each well from the top of the plate.
+ See example below:
+## Day 5: End live-cell imaging procedure and perform CellTiter-glo endpoint viability assay
+28. Transfer 10 mL (per plate) of the thawed CellTiter-Glo reaction reagent into a standard 25-mL reagent reservoir.
+## Day 5: End live-cell imaging procedure and perform CellTiter-glo endpoint viability assay
+29. Use an 8-channel p200 multi-channel pipette (or comparable multi-channel pipette) to transfer 100 µL of CellTiter-Glo reaction reagent into each well of the 96-well plate.
+## Day 5: End live-cell imaging procedure and perform CellTiter-glo endpoint viability assay
+30. Leave the plate cover off and transfer into a luminometer compatible with CellTiter-glo. Be mindful of the plate orientation and alignment to insure proper placement into the device. See example below:
+ * This protocol features the Promega GloMax (Promega, Cat# GM3500) Explorer Multimode Microplate Reader.
+## Day 5: End live-cell imaging procedure and perform CellTiter-glo endpoint viability assay
+31. Recommended parameters for the Luminometer are as follows:
+ Shake in an orbital shaker for 00:02:00 at 500 cycles/minute with a 1mm shaking diameter (cell lysis).
+ Incubate for 00:10:00 in a dark environment (reaction).
+ Read luminescence of each well at an integration of 400ms (data acquisition).
+ *It will take ~ 00:13:00 to read each plate. [step duration: 720 s]
+## Day 5: End live-cell imaging procedure and perform CellTiter-glo endpoint viability assay
+32. Export data and remove plate from luminometer.

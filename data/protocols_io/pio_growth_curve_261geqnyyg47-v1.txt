@@ -1,0 +1,56 @@
+ABSTRACT
+This protocol measures the optical density (OD600) of bacterial cultures as a proxy for cell density and growth, based on light scattering by cells in suspension. Cultures are diluted 1:10 in a well plate to remain within the linear range of the assay, and absorbance is measured at 600 nm on a microplate reader. Media-only blanks are subtracted from each sample reading to correct for background absorbance from the culture medium.
+
+STEPS
+## Preparation
+1. Decontamination
+## Procedure
+4. Sample Preparation
+## Preparation
+1.1. Wipe benches and pipettes with DNA Away and RNase Away. Afterwards wipe benches and pipettes with 70% ethanol. [step duration: 120 s]
+## Preparation
+3. Setup
+## Preparation
+3.1. Download the attached excel sheet. Record the specific plate map that will be used for each run on the excel sheet. 
+ OD600_analysis.xlsx 
+ The plate map below is an example for 2 samples. 
+ BLANK BLANK 
+ SAMPLE 1 SAMPLE 1 
+ SAMPLE 2 SAMPLE 2 [step duration: 180 s]
+## Procedure
+4.1. Obtain a clear round-bottom 96 well plate. Pipette 100 µL of the media blank in duplicate into the designated BLANK wells. 
+ The blanks are used to account for the background absorbance due to the media in which the cells are grown. [step duration: 30 s]
+## Procedure
+5. Capture Data
+## Procedure
+4.3. Mix the bacterial culture to ensure cells have not settled to the bottom. Pipette 10 µL of each bacterial culture into each designated sample well in duplicate , to make 1:10 dilutions. Pipette 70 µL up and down five times to mix the diluted samples thoroughly.
+ Save the remaining bacterial cultures for downstream applications. [step duration: 300 s]
+## Procedure
+5.2. Record the blank and the OD values into the excel sheet downloaded in step 3.1. The sheet corrects the sample measurements using the following calculations: 
+ OD corrected = (OD sample − average (OD blanks ) ) * 10 [step duration: 120 s]
+## Cleanup
+6. Decontamination
+## Procedure
+5.3. Save and file the excel sheet in the appropriate location. [step duration: 60 s]
+## Cleanup
+7. Disposal
+## Cleanup
+7.1. Empty the decontaminated plate down the drain with water. [step duration: 30 s]
+## Cleanup
+6.1. Add 10% bleach to each used well of the 96-well plate. Let the plate sit for 00:30:00 . [step duration: 1800 s]
+## Cleanup
+8.1. Extinguish the bunsen burner. [step duration: 30 s]
+## Cleanup
+8. Equipment Shutdown
+## Preparation
+2. Initialize Equipment
+## Preparation
+2.1. Light the bunsen burner and work within its sterile field for the remainder of the protocol. [step duration: 30 s]
+## Procedure
+5.1. Measure OD600 using the microplate reader. Save the run data in the appropriate location. [step duration: 60 s]
+## Cleanup
+7.2. Discard the plate in a biohazard box. [step duration: 30 s]
+## Cleanup
+6.2. Wipe benches and pipettes with DNA Away and RNase Away. Afterwards wipe benches and pipettes with 70% ethanol. [step duration: 120 s]
+## Procedure
+4.2. Pipette 90 µL of the media blank into each sample well.

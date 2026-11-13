@@ -1,0 +1,10 @@
+STEPS
+1. Subculture host bacterium in medium of choice plus 2 mM CaCl2 and grow to mid-log phase (ca. 0.5 OD650nm).
+2. Pipette 9.9 mL of the log phage culture into the empty flask and place at the appropriate incubation temperature for 5 min.
+3. Add 0.1 mL of phage preparation to the 9.9 mL culture. (FLASK A)
+4. Transfer 1.0 mL from FLASK A to 9.0 mL of prewarmed medium, mix well. (FLASK B)
+5. Transfer 1.0 mL from FLASK B to 9.0 mL of prewarmed medium, mix well. (FLASK C)
+6. Place FLASK (A, B or C) at 37°C, 180 rpm
+7. Every 10 minutes remove 0.1 mL from the appropriate FLASK (A, B or C) add to the molten OVERLAY; add 0.1 mL of PLATING HOST; mix and pour on surface of UNDERLAY plates. Each experiment should perform in triplicate.
+8. When the overlays have hardened (ca. 15 min) invert the plates and place them in an incubator.
+9. After an appropriate incubation period (ON for E. coli or Pseudomonas aeruginosa) count the plaques on each of the plates.

@@ -1,0 +1,122 @@
+ABSTRACT
+This protocol measures relative MTT-reducing activity in adherent mammalian cells after a 24 h treatment. Metabolically active cells reduce MTT to insoluble formazan, which is dissolved in dimethyl sulfoxide and measured by absorbance. The workflow includes untreated and vehicle controls, a lysis control, and a process-matched cell-free blank for each treatment. A seven-concentration design supports concentration–response analysis after the usable range has been established. The reference conditions use 10,000 viable cells per well, 0.5 mg/mL MTT for 3 h, and absorbance measurements at 570 nm with a 630 nm reference. Cell density and assay performance are qualified for the selected cell line before routine use. The result is a relative metabolic viability estimate; changes in metabolism, cell number and assay interference can all affect the signal (Mosmann, 1983; Ghasemi et al., 2021).
+
+MATERIALS
+Cells and culture medium: Authenticated adherent cell line; complete medium specified by its supplier; current negative mycoplasma result.
+ Assay medium: Phenol red-free counterpart of the selected culture medium; defined serum and supplements.
+ MTT: Thiazolyl blue tetrazolium bromide, CAS 298-93-1; cell-culture assay grade.
+ DMSO: Cell-culture or analytical grade; for dissolving formazan.
+ PBS and dissociation reagent: Sterile PBS without Ca²⁺/Mg²⁺; cell-line-compatible dissociation reagent.
+ Test material and vehicle: Document identity, stock concentration, solvent, preparation and storage.
+ Triton X-100: For a procedural lysis control; 0.1% v/v final for 15 min.
+ Consumables: Clear, flat-bottom, tissue-culture-treated 96-well plates; sterile tips, tubes, reservoirs and 0.22 µm filters.
+ Counting reagent: Trypan blue or a validated cell-counting viability reagent.
+ Equipment: Class II biological safety cabinet appropriate to the cell material; humidified 37 °C, 5% CO₂ incubator; inverted microscope; cell counter or haemocytometer; calibrated single- and multichannel pipettes; balance; gentle plate shaker; absorbance plate reader with 570 nm and 630 nm channels. Record the reader model and software version in each run.
+
+BEFORE START
+Record the cell-line identifier and source, passage, authentication and mycoplasma information, medium formulation, serum percentage, coating, reagent suppliers and catalogue/lot numbers. Use healthy cultures in exponential growth. Complete the qualification in Step 1 and approve the plate map, test concentrations and vehicle fraction before seeding.
+
+GUIDELINES
+Scope and reference conditions
+ Culture system: adherent mammalian cells maintained at 37 °C and 5% CO₂. Seeding: 10,000 viable cells in 100 µL per well, subject to qualification. Attachment and treatment: 24 h attachment followed by 24 h treatment. MTT reaction: 90 µL assay medium plus 10 µL of 5 mg/mL MTT for 3 h. Solubilization and reading: 100 µL DMSO for at least 10 min at 20–25 °C; read at 570 nm with a 630 nm reference. Replication: three technical wells per condition per independent run. Elapsed time: about 52 h after seeding, including handling; qualification is separate.
+ Use the medium, coating and supplements required by the selected cell line. This aspiration-based procedure measures the retained adherent population. Suspension cells, poorly attached cells, spheroids and treatments that cause substantial viable-cell detachment require a separately qualified collection or assay method.
+ Experimental design
+ Run one cell line, one test material and one exposure duration on each plate. Use separate plates for additional times or materials. For reproducibility studies, plan at least three independently prepared experiments on separate occasions, each with three technical wells per condition. Record the independent-run identifier; three wells from one preparation constitute one experiment.
+ T1–T7: cells plus seven test concentrations with equal vehicle content. U: untreated cells; checks vehicle tolerance. VC: vehicle-only cells; normalization control. PC: procedural low-signal control with Triton X-100 during the final 15 min. B1–B7, BU, BVC and BPC: corresponding conditions without cells, carried through every medium exchange, MTT reaction and solubilization step.
+ Use the 60 inner wells for the assay. Fill the 36 perimeter wells with 200 µL sterile PBS to reduce evaporation; exclude them from calculations.
+ Example allocation (cell wells; matched cell-free blank wells):
+ T1 (Cmax/64): B2, C2, D2; E2, F2, G2.
+ T2 (Cmax/32): B3, C3, D3; E3, F3, G3.
+ T3 (Cmax/16): B4, C4, D4; E4, F4, G4.
+ T4 (Cmax/8): B5, C5, D5; E5, F5, G5.
+ T5 (Cmax/4): B6, C6, D6; E6, F6, G6.
+ T6 (Cmax/2): B7, C7, D7; E7, F7, G7.
+ T7 (Cmax): B8, C8, D8; E8, F8, G8.
+ U: B9, C9, D9; E9, F9, G9.
+ VC: B10, C10, D10; E10, F10, G10.
+ PC: B11, C11, D11; E11, F11, G11.
+ Distribute concentration positions across runs using a recorded randomization or rotation plan. Cmax is the highest soluble, assay-compatible concentration selected by range finding. All concentrations are final during treatment. Use a second plate for additional interference controls in Step 3.
+ Run acceptance targets
+ During qualification, establish limits for control signal, background and repeatability. Initial targets are VC technical-well CV ≤15%, VC mean activity within 90–110% of U, and PC activity ≤20% of VC. These are proposed laboratory qualification targets, not platform requirements or universal MTT standards. Do not apply a percentage CV criterion to signals near zero. Investigate failed controls before interpreting a run.
+ Expected results
+ Qualified VC wells should form visible formazan and produce a measurable signal after dissolution. The lysis control should give a lower response than VC. Process-matched blanks should show low, reproducible background; concentration-dependent blank signals prompt an interference review. A monotonic response is not required for every material. Report the observed pattern, including nonmonotonic responses, and investigate precipitation or assay interference before interpreting it biologically.
+ MTT alone cannot distinguish altered metabolism, reduced proliferation and cell death. Use an additional endpoint when the scientific question requires cell counting, a death mechanism or confirmation of an interference-prone material.
+
+STEPS
+## Assay qualification
+1. Qualify cell density and MTT response
+ Pilot qualification before the first experiment. In a pilot, test 2,500, 5,000, 10,000 and 20,000 viable cells per well with triplicate wells and cell-free blanks. Use the same attachment and exposure intervals as the main experiment. Compare MTT incubation periods of 2, 3 and 4 h on separate wells. Choose a density and incubation time that give a measurable control signal within the reader range, an approximately proportional signal–cell-number relationship and subconfluent controls at the endpoint. Use the reference 10,000 cells and 3 h only if they meet these conditions. Record and version any change.
+## Assay qualification
+2. Set the concentration range and vehicle
+ Planning and range finding. Perform range finding to select seven twofold concentrations that capture low and high responses and the transition region. Check solubility in treatment medium at the highest concentration. Keep vehicle content constant at every concentration by diluting in medium containing the same vehicle fraction. Select that fraction from a vehicle-tolerance pilot; ≤0.1% v/v DMSO is a starting target when feasible, not a universal tolerance limit. Prepare a separate untreated control.
+## Assay qualification
+3. Check test-material interference
+ For coloured extracts, reducing compounds and particles, add triplicate diagnostic controls on a separate plate. At every intended concentration, combine 90 µL test material at 1.111 times that concentration in assay medium with 10 µL MTT stock. Include corresponding vehicle controls. Leave the material present during the 3 h MTT reaction, then process as in Steps 16–17. Prepare parallel no-cell, no-MTT wells using 10 µL PBS instead of MTT stock. Also examine treated cells processed without MTT, replacing the MTT stock with PBS. These controls test native absorbance, chemical MTT reduction and cell-associated background (Bruggisser et al., 2002; Holder et al., 2012).
+ Critical step: Direct-interaction controls are diagnostic and must not be subtracted from the main plate, which undergoes medium removal. Use only process-matched blanks for routine correction. Subtraction does not establish absence of cell-associated, adsorption or multiplicative interference. If interference remains material, use a separately interference-checked endpoint, such as direct viable-cell counting.
+## Reagent preparation
+4. Prepare MTT stock
+ 5 mg/mL stock; prepare fresh. Dissolve 50 mg MTT in sterile PBS and bring the final volume to 10 mL to obtain 5 mg/mL. Mix until dissolved and pass through a sterile 0.22 µm filter. Protect from light. Prepare on the day of the assay and discard unused stock under this workflow; use stored stock only under a separately qualified storage procedure.
+## Reagent preparation
+5. Prepare treatment solutions
+ Prepare T7 at Cmax in treatment medium with the selected vehicle fraction. Label seven tubes T1–T7. Place 0.7 mL vehicle-matched treatment medium in T1–T6 and 1.4 mL T7 solution in T7. Transfer 0.7 mL from T7 to T6, mix, then continue successively from T6 to T5 through T2 to T1. Discard 0.7 mL from T1 after mixing. Each tube now contains 0.7 mL, sufficient for three cell wells and three matched blanks at 100 µL per well, with 0.1 mL excess. Prepare at least 0.7 mL each of U, VC and PC treatment media.
+ Critical step: Serial dilution in plain medium would also dilute the vehicle. Use vehicle-matched diluent. Avoid filtering particle formulations or unstable mixtures unless recovery and composition have been established.
+ Dilution example for preparation only: if Cmax = 200 µg/mL, T1–T7 are 3.125, 6.25, 12.5, 25, 50, 100 and 200 µg/mL. This is not a recommended universal test range. Record whether mass concentrations refer to total formulation, extract solids or active ingredient. Use µM for defined compounds when appropriate.
+## Reagent preparation
+6. Prepare the lysis-control reagent
+ Prepare fresh working solution. Make a 10% v/v Triton X-100 stock by bringing 100 µL Triton X-100 to 1 mL with PBS; mix thoroughly. Dilute 100 µL of this stock to 1 mL with treatment medium to obtain 1% v/v working solution. In Step 12, 10 µL of the working solution is combined with 90 µL medium to give 0.1% v/v.
+## Reagent preparation
+7. Plan the assay-day volumes
+ For 60 inner wells, allow 10% excess: 5.94 mL phenol red-free assay medium, 0.66 mL of 5 mg/mL MTT stock and 6.60 mL DMSO. Dispense assay medium and MTT separately as described in Step 14. The final reaction contains 90% assay medium and 10% PBS-based MTT stock. Record final supplement concentrations; for example, medium containing 10% serum gives 9% serum in the reaction. Keep the composition identical across all wells.
+## Cell seeding and treatment
+8. Prepare the cell suspension
+ About 20–30 min. Dissociate the culture using its established cell-line procedure. Count viable cells and prepare a uniform suspension containing 1 × 10⁵ viable cells/mL in complete medium. Use a starting viability of at least 90% as the initial qualification target. If a different qualified seeding density is used, adjust the suspension concentration accordingly.
+## Cell seeding and treatment
+9. Seed cells and blank wells
+ 100 µL per assay well. Add 100 µL cell suspension to each designated cell well to deliver 10,000 viable cells. Add 100 µL complete medium without cells to each matched blank well. Fill perimeter wells with 200 µL sterile PBS. Gently move the plate front-to-back and side-to-side to distribute cells, avoiding circular swirling. Check for bubbles and obvious unevenness.
+## Cell seeding and treatment
+10. Allow attachment
+ 24 h at 37 °C and 5% CO₂. Incubate for 24 h at 37 °C in a humidified 5% CO₂ incubator. Examine representative wells under an inverted microscope before treatment. Proceed only if cells are attached, distributed evenly and consistent with the qualified starting morphology. Record the attachment interval.
+## Cell seeding and treatment
+11. Apply treatments
+ 24 h treatment; 100 µL per well. Aspirate medium gently from the side of each assay well. Add 100 µL of the assigned T1–T7, U, VC or PC medium. Apply the same solutions to the corresponding cell-free wells. Start timing after dispensing and incubate for 24 h at 37 °C and 5% CO₂. Keep dispensing order consistent and record start times for each plate.
+ Critical step: Use treatment solutions at their final concentration because the existing medium is replaced. Do not add a second 100 µL to the seeded volume.
+## Cell seeding and treatment
+12. Generate the low-signal control
+ 0.1% v/v Triton X-100 for the final 15 min. At 23 h 45 min after treatment begins, replace the medium only in PC and BPC wells with 90 µL treatment medium and add 10 µL of 1% Triton X-100 working solution. Incubate for 15 min at 37 °C and 5% CO₂. All groups reach the treatment endpoint at 24 h.
+## MTT reaction and absorbance
+13. Inspect cells and remove treatment medium
+ Immediately before MTT addition. At 24 h, record morphology, precipitation, contamination and detachment before aspiration. Gently remove treatment medium from every assay well and its matched blank. Do not scrape the bottom or allow wells to dry. This workflow does not include a PBS wash. A wash introduced to address interference must be qualified and applied consistently.
+ Critical step: Loss of viable detached cells biases an adherent-population readout. If substantial detachment occurs, document it and use a qualified method that retains or separately counts detached cells.
+## MTT reaction and absorbance
+14. Add MTT
+ 90 µL medium + 10 µL MTT stock. Add 90 µL prewarmed phenol red-free assay medium to every assay well, including all cell-free blanks. Add 10 µL of 5 mg/mL MTT stock and mix gently without generating bubbles. The total volume is 100 µL and the final MTT concentration is exactly 0.5 mg/mL.
+## MTT reaction and absorbance
+15. Incubate for formazan formation
+ 3 h at 37 °C and 5% CO₂. Incubate for 3 h at 37 °C and 5% CO₂, protected from light. Use the same start-to-stop interval for all wells. At the end, inspect representative VC wells for purple formazan crystals.
+## MTT reaction and absorbance
+16. Dissolve formazan
+ 100 µL DMSO; at least 10 min at 20–25 °C. Carefully aspirate the MTT-containing medium from the side of each well while retaining cells and deposited crystals. Add 100 µL DMSO to every assay and blank well immediately. Mix on a gentle plate shaker for 10 min at 20–25 °C, protected from light. Confirm that crystals have dissolved. If they have not, continue mixing in 5 min increments, record the total time and apply it consistently.
+## MTT reaction and absorbance
+17. Measure absorbance
+ Primary wavelength 570 nm; reference wavelength 630 nm. Remove visible bubbles without cross-contaminating wells. Read at 570 nm and 630 nm as soon as dissolution is complete, preferably within 30 min of adding DMSO. Keep final volume and reading delay consistent. Disable automatic path-length correction unless it has been qualified for this solvent and plate. Export both raw wavelength values with the well identifiers; do not export only rounded percentages.
+ Critical step: Reference-wavelength subtraction corrects part of the optical background; it does not replace matched blanks or interference testing. If a different reference wavelength is used, qualify and record it.
+## Data processing
+18. Correct each well and normalize the response
+ For every cell and blank well, subtract the reference absorbance from the primary absorbance. Then subtract the mean signal of the corresponding process-matched cell-free blanks. Normalize each corrected treatment well to the mean corrected VC signal from the same plate. Correct U with BU and PC with BPC. Use the same rules for every independent run.
+ Rᵢ = A₅₇₀,ᵢ − A₆₃₀,ᵢ
+ Sᵢ = Rᵢ − mean(R of matched blanks)
+ Relative MTT activity (%) = 100 × Sᵢ / mean(S of VC wells)
+ MTT signal inhibition (%) = 100 − relative MTT activity (%)
+ R is the wavelength-corrected signal and S is the matched-blank-corrected signal. A positive, quantifiable VC denominator is required. Do not subtract both a reagent blank and a matched blank containing that same background. Do not define PC as 0% unless a separate normalization model explicitly requires it. Use “relative cell viability by MTT” only with the metabolic basis stated.
+## Data processing
+19. Summarize replicates and assess quality
+ Within each run, report individual corrected signals, mean, sample SD and technical CV. Calculate CV as 100 × SD/mean only where the mean is positive and sufficiently above background. Retain negative corrected signals and responses above 100% in the record; investigate their cause instead of truncating values. Apply the pre-established run criteria from the qualification section. Exclude a well only for a documented technical failure under a prespecified rule.
+ Across experiments, summarize the independent-run means with mean ± SD and report both the number of independent experiments and technical wells per experiment. For treatment–control inference, prespecify a model that accounts for run, with Dunnett-adjusted comparisons against VC when that is the comparison family. Technical wells are subsamples, not independent experimental units.
+ Minimum data record: Retain run ID, date, cell line, passage, plate/well, sample code, concentration and units, vehicle percentage, treatment and MTT intervals, both raw absorbances, blank mapping, corrected signal, normalized response, technical flags, exclusions and reason. Keep instrument-export precision through the calculations and round only the reported summaries.
+## Concentration response analysis
+20. Fit the curve only when supported
+ Average technical wells within each independent experiment before estimating between-experiment uncertainty. Fit a decreasing four-parameter logistic model to positive treatment concentrations, using log-spaced doses. Keep zero-concentration controls outside the logarithmic dose axis. For independent experiments with sufficiently complete curves, fit each run and summarize the log IC50 values; otherwise use a justified model that accounts for run. Report software, weighting, parameter constraints and confidence-interval method.
+ Y = B + (T − B) / [1 + (C / C50,rel)^h]
+ Y is relative MTT activity (%), C is concentration, T and B are the fitted upper and lower plateaus, h is the positive slope magnitude in this decreasing formulation, and C50,rel is the concentration halfway between T and B. Constrain parameters only with a stated experimental justification. Do not force T = 100 and B = 0 merely to produce an IC50.
+ Distinguish the relative IC50 from the concentration giving 50% of the vehicle-normalized signal. Obtain the latter by solving or interpolating the fitted curve at Y = 50, and label it “IC50 at 50% vehicle-normalized MTT activity.” A fitted relative midpoint can exist even when the curve never reaches 50% of VC (Sebaugh, 2011; GraphPad Software, n.d.).
+ For a reportable relative IC50, sample both plateaus adequately. For the 50%-of-VC estimate, aim for at least two concentrations on each side of 50% and a bracketed transition. If 50% is not reached, report “50% effect not reached within the tested range” rather than an unqualified extrapolated value. If the transition is outside the range, repeat with a suitable range before presenting a precise estimate. Report the IC50 definition, units, 95% confidence interval, dose range, T, B, h, fitting constraints and residual assessment; R² alone does not establish fit adequacy (Sebaugh, 2011).

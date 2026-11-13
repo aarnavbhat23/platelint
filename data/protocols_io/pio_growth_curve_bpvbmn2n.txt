@@ -1,0 +1,26 @@
+ABSTRACT
+This protocols describe the steps required for obtain a growth curve of Chlamydomonas reinhardtii and fluorescent protein expression of mVenus and mCherry.
+
+STEPS
+## Material
+1. TAP media or other (How to prepare TAP media here )
+ Erlenmeyer flask
+ Orbital shaker
+ Light source
+ 96 well plate, Black Frame, Clear bottom (Ex: IsoPlateTM - 96F (Black Frame & Clear well 96-well) Perkin Elmer Catalog #6005020 )
+## Inocullum
+3. Innoculate 1 mL of the cells from a culture in stationary phase ( 120:00:00 to 168:00:00 )in an 100 mL erlenmeyer flask containing 50 mL of TAP media.
+ Place the flask in a 150 rpm, 25 °C, , ,1cm of orbit with 80 μmol/m2s of incident white light ( 60 μmol/m2s to 120 μmol/m2s works)
+ Take a initial sample 100 µL, of culture and measure it in the plate reader according to the settings above.
+ During 168:00:00 take samples at least once a day. 
+ The final culture can be used for further test, as dry cell weight (DCW) determination. 
+ Frequent sampling increase data quality, but it is advice to not remove more than 10% of culture in sampling during the entire procedure. Technical replicates are advice for each time point. 
+ All culturing conditions are set initially, and can be change accordingly to the experiment goal. 
+ Example of DCW protocol. 
+ Dry cell weight by centrifugation
+ by Joao Vitor Molino [step duration: 1641600 s]
+## Plate reader Settings
+2. Reading are performed in a Black 96 well plate with clear bottom. 
+ Absorbance set to 750 nm .
+ Fluorescence set as the Table below. 
+ Excitation (nm)Emission (nm)GainOptics positionChlorophyll44068070bottommVenus500530120bottommCherry583613150bottom

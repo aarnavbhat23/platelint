@@ -1,0 +1,66 @@
+id,assay_class,source,reason
+elisa_PMC13425899,elisa,europepmc,no plate/well term in text
+growth_curve_PMC13418581,growth_curve,europepmc,duplicate text of elisa_PMC13418581
+growth_curve_PMC13634373,growth_curve,europepmc,no plate/well term in text
+qpcr_PMC13519604,qpcr,europepmc,duplicate text of elisa_PMC13519604
+qpcr_PMC13562074,qpcr,europepmc,duplicate text of elisa_PMC13562074
+qpcr_PMC13601484,qpcr,europepmc,duplicate text of elisa_PMC13601484
+qpcr_PMC13654526,qpcr,europepmc,duplicate text of elisa_PMC13654526
+qpcr_PMC13686045,qpcr,europepmc,duplicate text of elisa_PMC13686045
+qpcr_PMC13707598,qpcr,europepmc,duplicate text of elisa_PMC13707598
+qpcr_PMC13748203,qpcr,europepmc,duplicate text of elisa_PMC13748203
+viability_PMC12758302,viability,europepmc,duplicate text of growth_curve_PMC12758302
+viability_PMC13406514,viability,europepmc,duplicate text of growth_curve_PMC13406514
+viability_PMC13610743,viability,europepmc,duplicate text of qpcr_PMC13610743
+viability_PMC13638061,viability,europepmc,duplicate text of elisa_PMC13638061
+viability_PMC13686045,viability,europepmc,duplicate text of elisa_PMC13686045
+pio_elisa_bj56kq9e,elisa,protocols.io,duplicate title of pio_elisa_bj54kq8w
+pio_elisa_bjj3kkqn,elisa,protocols.io,duplicate text of pio_elisa_bj54kq8w
+pio_elisa_bjy9kpz6,elisa,protocols.io,no plate/well term in text
+pio_elisa_bkbmksk6,elisa,protocols.io,duplicate text of pio_elisa_bjtkknkw
+pio_elisa_bkexktfn,elisa,protocols.io,no plate/well term in text
+pio_elisa_kxygx7eydl8j-v1,elisa,protocols.io,only 1 numbered steps
+pio_growth_curve_5ghg3t6,growth_curve,protocols.io,duplicate title of pio_growth_curve_2sdgea6
+pio_growth_curve_5gig3ue,growth_curve,protocols.io,duplicate text of pio_growth_curve_2sdgea6
+pio_growth_curve_5gjg3un,growth_curve,protocols.io,duplicate title of pio_growth_curve_2pvgdn6
+pio_growth_curve_bnjamcie,growth_curve,protocols.io,no plate/well term in text
+pio_growth_curve_by5apy2e,growth_curve,protocols.io,no plate/well term in text
+pio_growth_curve_vude6s6,growth_curve,protocols.io,no plate/well term in text
+pio_growth_curve_ygyftxw,growth_curve,protocols.io,duplicate title of pio_growth_curve_2sdgea6
+pio_growth_curve_zgnf3ve,growth_curve,protocols.io,duplicate title of pio_growth_curve_2pvgdn6
+pio_qpcr_2v8ge9w,qpcr,protocols.io,no plate/well term in text
+pio_qpcr_e6nvwd4o2lmk-v1,qpcr,protocols.io,no plate/well term in text
+pio_qpcr_ewov1oyz2lr2-v1,qpcr,protocols.io,no plate/well term in text
+pio_qpcr_h4nb8ve,qpcr,protocols.io,no plate/well term in text
+pio_qpcr_j8nlkkqmxl5r-v1,qpcr,protocols.io,no plate/well term in text
+pio_qpcr_pnqdmdw,qpcr,protocols.io,text too short (6 chars)
+pio_qpcr_q26g74xoqgwz-v1,qpcr,protocols.io,duplicate text of pio_qpcr_b8efrtbn
+pio_qpcr_q26g7y4r1gwz-v1,qpcr,protocols.io,no plate/well term in text
+pio_qpcr_qt6dwre,qpcr,protocols.io,no plate/well term in text
+pio_qpcr_rksd4we,qpcr,protocols.io,no plate/well term in text
+pio_viability_ih9cb96,viability,protocols.io,no plate/well term in text
+pio_viability_x54v9dojzg3e-v1,viability,protocols.io,only 0 numbered steps
+elisa_PMC13601484,elisa,europepmc,over the 25/class scope cap
+elisa_PMC13610955,elisa,europepmc,over the 25/class scope cap
+elisa_PMC13638061,elisa,europepmc,over the 25/class scope cap
+elisa_PMC13652718,elisa,europepmc,over the 25/class scope cap
+elisa_PMC13654526,elisa,europepmc,over the 25/class scope cap
+elisa_PMC13686045,elisa,europepmc,over the 25/class scope cap
+elisa_PMC13707598,elisa,europepmc,over the 25/class scope cap
+elisa_PMC13729192,elisa,europepmc,over the 25/class scope cap
+elisa_PMC13748203,elisa,europepmc,over the 25/class scope cap
+growth_curve_PMC13406514,growth_curve,europepmc,over the 25/class scope cap
+growth_curve_PMC13488354,growth_curve,europepmc,over the 25/class scope cap
+growth_curve_PMC13546840,growth_curve,europepmc,over the 25/class scope cap
+growth_curve_PMC13598657,growth_curve,europepmc,over the 25/class scope cap
+growth_curve_PMC13600024,growth_curve,europepmc,over the 25/class scope cap
+growth_curve_PMC13609993,growth_curve,europepmc,over the 25/class scope cap
+viability_PMC13515452,viability,europepmc,over the 25/class scope cap
+viability_PMC13515460,viability,europepmc,over the 25/class scope cap
+viability_PMC13602311,viability,europepmc,over the 25/class scope cap
+viability_PMC13614273,viability,europepmc,over the 25/class scope cap
+viability_PMC13630754,viability,europepmc,over the 25/class scope cap
+viability_PMC13720225,viability,europepmc,over the 25/class scope cap
+viability_PMC13732097,viability,europepmc,over the 25/class scope cap
+pio_viability_rm7vzbq3rvx1-v1,viability,protocols.io,over the 25/class scope cap
+pio_viability_yxmvm3815l3p-v1,viability,protocols.io,over the 25/class scope cap

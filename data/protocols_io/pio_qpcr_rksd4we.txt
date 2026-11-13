@@ -1,0 +1,29 @@
+ABSTRACT
+Background : Aberrant DNA methylation occurs frequently in cancer. The aim of this study was to identify novel methylation markers in lung cancer in Xuanwei, China, through integrated genome-wide DNA methylation and gene expression studies.
+ Methods : Differentially methylated regions (DMRs) and differentially expressed genes (DEGs) were detected on 10 paired lung cancer tissues and noncancerous lung tissues by methylated DNA immunoprecipitation combined with microarray (MeDIP-chip) and gene expression microarray analyses, respectively. Integrated analysis of DMRs and DEGs was performed to screen out candidate methylation-related genes. Both methylation and expression changes of the candidate genes were further validated and analyzed.
+ Results : Compared with normal lung tissues, lung cancer tissues expressed a total of 6,899 DMRs, including 5,788 hypermethylated regions and 1,111 hypomethylated regions. Integrated analysis of DMRs and DEGs identified 45 tumor-specific candidate genes: 38 genes whose DMRs were hypermethylated and expression was downregulated, and 7 genes whose DMRs were hypomethylated and expression was upregulated. The methylation and expression validation results identified 4 candidate genes ( STXBP6 , BCL6B , FZD10 , and HSPB6 ) that were significantly hypermethylated and downregulated in most of the tumor tissues compared with the noncancerous lung tissues.
+ Conclusions : This integrated analysis of genome-wide DNA methylation and gene expression in lung cancer in Xuanwei revealed several genes regulated by promoter methylation that have not been described in lung cancer before. These results provide new insight into the carcinogenesis of lung cancer in Xuanwei and represent promising new diagnostic and therapeutic targets.
+
+MATERIALS
+MATERIALS
+ RNeasy Mini kit Contributed by users 
+ Transcriptor First Strand cDNA Synthesis kit Contributed by users 
+ Quantinova SYBR Green PCR Master Mix Contributed by users
+
+BEFORE START
+StorageThe QuantiNova SYBR Green PCR Kit is shipped on dry ice. Store immediatelyupon receipt at –15 to –30ºC in a constant-temperature freezer and protect fromlight. When stored under these conditions and handled correctly, kitperformance is guaranteed until the expiration date (see the quality-control labelinside the kit box or on the kit envelope). QuantiNova SYBR Green PCR MasterMix, QuantiNova Yellow Template Dilution Buffer, and QN ROX Reference Dyeshould be stored protected from light and can be stored at 2–8ºC for up to6 months, depending on the expiry date.If desired, QN ROX Reference Dye can be added to 2x QuantiNova SYBRGreen PCR Master Mix for long-term storage. 
+ Intended UseThe QuantiNova SYBR Green PCR Kit is intended for molecular biologyapplications. This product is not intended for the diagnosis, prevention, ortreatment of a disease.All due care and attention should be exercised in the handling of the products.We recommend all users of QIAGEN® products to adhere to the NIH guidelinesthat have been developed for recombinant DNA experiments, or to otherapplicable guidelines.
+
+GUIDELINES
+For highly sensitive, ultrafast, quantitative,real-time PCR and two-step RT-PCR using SYBRGreen
+
+STEPS
+## Total RNA extraction
+1. Total RNA were extracted and purified from lung cancer and paired noncancerous lung tissues using RNeasy Mini kit (Qiagen, Hilden, Germany) according to the manufacturer’s instructions.
+ rneasy-mini.pdf
+## cDNA synthesise
+2. cDNA was synthesized by RNA reverse-transcription using the Transcriptor First Strand cDNA Synthesis kit (Roche, Mannheim, Germany)
+ transcriptor first strand cdna04379012001_en_06.pdf
+## Real-time fluorescent quantitative PCR
+3. Real-time fluorescent quantitative PCR (RT-qPCR) was performed on 39 of the paired tumor and normal lung tissues to validate the mRNA expression of the candidate genes; the samples in the other 6 pairs were insufficient for this analysis. The analysis was carried out on an Applied Biosystems 7300 Real-Time PCR System (Applied Biosystems, Inc., Foster City, CA, USA) by using Quantinova SYBR Green PCR Master Mix (Qiagen). The relative expression values of tumor and normal lung tissues were calculated by the comparative Ct method. Primers for RT-qPCR are summarized in S4 Table. The expression of β-actin was used as a reference to normalize the other genes’ expression. Each experiment was performed in duplicate.
+ 1076590_hb_quantinova sybr green pcr_1113_ww.pdf

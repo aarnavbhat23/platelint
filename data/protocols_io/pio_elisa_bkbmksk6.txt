@@ -1,0 +1,17 @@
+ABSTRACT
+This protocol was already used successfully to detect anti-HIV antibody in the serum of women with cervical dysplasia or cervical cancer in Jamaica, West Indies [1].
+ Reference
+ 1. Justiz Vaillant A, Bazuaye PE, McFarlane-Anderson N, Smikle MF et al. Seroprevalence of Anti-HIV Antibodies in Women with Abnormal Pap Smears in Jamaica. British Journal of Medicine & Medical Research 2013, 3(4): 2197-2202.
+
+STEPS
+1. The 96 well polystyrene microplate (U-shaped bottom; Sigma-Aldrich) is coated with 50 ng of a mixture of synthetic peptides (including the fragment 579-601 of the HIV gp41 and fragments 254-274, 308-331 and 421-438 of the HIV gp120) for 4 h at 37ºC.
+2. The microplate is blocked with 3% non-fat milk in PBS, 25 µl/well, 1h at room temperature (RT).
+3. The microplate is washed 4X with PBS-Tween-20.
+4. Duplicates of 25 µl of 1:16 diluted human sera are added.
+5. After incubation for 90 min at RT the microplate is washed 4X with PBS-Tween 20.
+6. Then, 25 µl of a chimeric commercially-prepared recombinant protein LA-HRP conjugate (Sigma-Aldrich) diluted 1:5000 is added.
+7. After incubation for 90 min at RT and rewashing steps 25 µl TMB is added to each well for 15 min in the dark.
+8. The reaction is stopped with 3M H2SO4.
+9. The microplate is read in a microplate reader at 450 nm.
+10. In the ELISA is included a pooled human sera with high titre of anti-HIV antibodies as positive control, a pooled sera from healthy individuals as negative control and 0.9% normal saline solution was used as the blank.
+11. The cut-off point is calculated as mean optical density (XOD) of negative control plus two standard deviation (SD).

@@ -1,0 +1,7 @@
+STEPS
+1. Sow in a P96 plate 15000 cells per well and incubate between 12-24 hours at 37ºC.
+2. Wash two times with 100 uL of DMEN and then deprivate with 100 uL of DMEN overnight (except the positive control, which remains in complete medium).
+3. Eliminate DMEN and treat the cells
+4. Four hours before finish the treatment, add 10 uL of MTT to each well.
+5. When the time of treatment is finished, add 100 uL of solubilizer agent and incubate at 37ºC overnight.
+6. Read the plate between 6-24 hours after the addition of the solubilizer agent at 550 nm.

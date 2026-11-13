@@ -1,0 +1,13 @@
+STEPS
+1. Ninety-six well ELISA plates are coated with monoclonal anti-human antibodies to interleukin-33 (IL-33).
+2. Patient serum samples are added to the plates.
+3. The plate is incubate x 1.30 hour at RT.
+4. The plate is washed 4 times with PBS-tween buffer.
+5. The wells are incubated with a biotin conjugated anti-human IL-33 for 1.30 hour at RT.
+6. The plate is washed again as above.
+7. Add to the plate a peroxidase-labeled streptavidin conjugate and incubate it for 1 hour at RT.
+8. After a further washing procedure a substrate solution reactive is added and allowed to produced a colored reaction in positive controls.
+9. The level of IL-33 in the sample is proportional to the colored product developed.
+10. The addition of 3M H2SO4 stops the reaction.
+11. The absorbance is measured at 450 nm.
+12. The IL-33 concentration can be calculated by generating an standard curve using lineal regression.

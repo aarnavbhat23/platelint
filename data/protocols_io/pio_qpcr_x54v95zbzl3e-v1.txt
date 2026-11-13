@@ -1,0 +1,59 @@
+ABSTRACT
+Gene expression analysis in differentiated and undifferentiated 3K-SNCA SH-SY5Y cells using Qiagen RNA extraction and reverse transcription, followed by TaqMan® qRT-PCR on the QuantStudio® 1 platform.
+
+MATERIALS
+- RNeasy Mini Kit (Qiagen, Cat# 74134)
+ - QuantiTect® Reverse Transcription Kit (Qiagen, Cat# 205311)
+ - TaqMan® Gene Expression Master Mix (Applied Biosystems, Cat# 436016)
+ - TaqMan® Gene Expression Assay — HEXA (Applied Biosystems, Cat# 4448892)
+ - TaqMan® Gene Expression Assay — GLA (Applied Biosystems, Cat# 4453320)
+ - TaqMan® Gene Expression Assay — GAPDH (Applied Biosystems, Cat# 4331182)
+ - QuantStudio® 1 Real-Time PCR System (Applied Biosystems)
+ - 6-well plates; RNase-free tubes and tips; plate seals
+ - DNase/RNase-free water; 70% ethanol
+ - Optional: gDNA wipeout/DNase treatment (per lab SOP)
+
+BEFORE START
+- Warm reagents per manufacturer. Clean area with RNase decontaminant. Pre-label wells/plates.
+
+STEPS
+## Procedure — RNA extraction (Qiagen RNeasy Mini Kit)
+1. Lyse cells directly in the 6-well plate (add appropriate volume of RLT buffer with β-mercaptoethanol).
+## Procedure — RNA extraction (Qiagen RNeasy Mini Kit)
+2. Homogenise lysate and proceed with binding to RNeasy spin column per kit instructions.
+## Procedure — RNA extraction (Qiagen RNeasy Mini Kit)
+3. Wash with RW1 and RPE buffers; dry spin to remove ethanol.
+## Procedure — RNA extraction (Qiagen RNeasy Mini Kit)
+4. Elute RNA in RNase-free water (e.g., 30–50 μL). Measure concentration and purity (A260/280).
+## Procedure — cDNA synthesis (QuantiTect® RT Kit)
+5. Prepare RT master mix on ice according to kit protocol.
+## Procedure — cDNA synthesis (QuantiTect® RT Kit)
+6. Combine RNA (typically 500 ng–1 μg) with RT master mix to desired reaction volume.
+## Procedure — cDNA synthesis (QuantiTect® RT Kit)
+7. Incubate per kit cycling (genomic DNA wipeout if applicable) and hold on ice.
+## Procedure — qPCR setup (TaqMan®)
+8. Prepare TaqMan® master mix for each assay (Master Mix + 20× Assay + nuclease-free water).
+## Procedure — qPCR setup (TaqMan®)
+9. Dispense master mix into wells and add cDNA template (equal volume across wells).
+## Procedure — qPCR setup (TaqMan®)
+10. Seal plate, briefly spin to remove bubbles.
+## Procedure — qPCR setup (TaqMan®)
+11. Hold: 95 °C for 10 min
+## Procedure — qPCR setup (TaqMan®)
+12. PCR (40 cycles): 95 °C for 15 s; 60 °C for 60 s (data acquisition at anneal/extend step)
+## Data analysis — ΔΔCt method
+13. Confirm amplification plots and absence of signal in NTC/−RT controls.
+## Data analysis — ΔΔCt method
+14. For each sample and target, compute ΔCt = Ct(target) − Ct(GAPDH).
+## Data analysis — ΔΔCt method
+15. Select a calibrator group (e.g., undifferentiated control). Compute ΔΔCt = ΔCt(sample) − mean ΔCt(calibrator).
+## Data analysis — ΔΔCt method
+16. Fold-change = 2^(−ΔΔCt). Report mean ± SEM from biological replicates.
+## Expected results
+17. Reproducible triplicate Ct values (SD ≤ 0.3 cycles). Clear separation between target and NTC/−RT.
+## Troubleshooting
+18. High Ct variability → check pipetting accuracy and RNA integrity.
+## Troubleshooting
+19. Signal in NTC/−RT → assess contamination or gDNA carryover; include DNase step.
+## Troubleshooting
+20. Low efficiency → verify assay IDs and storage; avoid freeze-thaw cycles.

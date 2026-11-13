@@ -1,0 +1,40 @@
+ABSTRACT
+This Protocol describes how to perform RT qPCR with RNA extracted from fly heads.
+
+STEPS
+## RNA Extraction
+1. Homogenize 6 heads in 50 µL Qiazol, then add 450 µL Qiazol.
+## RNA Extraction
+2. Spin 00:10:00 at 4 °C at 12,000 x g. [step duration: 600 s]
+## RNA Extraction
+3. Incubate supernatant for 00:05:00 at Room temperature . [step duration: 300 s]
+## RNA Extraction
+4. Add 100 µL chloroform.  Vortex, incubate for 00:03:00 at Room temperature , then spin for 00:15:00 at 4 °C at 12,000 x g. [step duration: 1080 s]
+## RNA Extraction
+5. Transfer the upper phase to fresh tube, add 250 µL isopropanol, incubate 00:10:00 at Room temperature , spin for 00:10:00 at 4 °C at 12,000 x g. [step duration: 1200 s]
+## RNA Extraction
+6. Wash the pellet in 500 µL 75% ethanol (it will be very loose) three times.  Do not vortex.
+## RNA Extraction
+7. Air dry
+## RNA Extraction
+8. Resuspend in 15 µL RNAse/DNAse-free water.
+## RNA Extraction
+9. Measure 260/280 and 260/230 on nanodrop.
+## RT-PCR
+10. Use 1 µg RNA to perform RT-PCR reaction.
+## RT-PCR
+11. Thermocycler settings
+ a.      25 °C 00:10:00 
+ b.      37 °C 02:00:00 
+ c.       85 °C 00:05:00 
+ d.     4 °C Hold [step duration: 8100 s]
+## qPCR
+12. Make master mix with primers, SYBR Green and water.
+## qPCR
+13. Dilute DNA 1:50 making a 50 µL stock.
+## qPCR
+14. Add 2 µL DNA to wells with special tips.
+## qPCR
+15. Add 14 µL master mix to wells with regular tips. Pipette up and down once but do not expel a bubble. Keep master mix on ice the entire time to avoid bubbles.
+## qPCR
+16. Check for bubbles and run on machine.

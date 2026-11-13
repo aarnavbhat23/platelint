@@ -1,0 +1,50 @@
+ABSTRACT
+This protocol provides a viability measurement for 3D culture.
+
+MATERIALS
+ATP (Mw = 551.14 g/mol) (A7699-1G, Sigma-Aldrich)
+ spheroids
+ Incomplete DMEM/F-12 culture medium without FBS (1%L-Glutamine, 1% Penicillin/Streptomycin) (Gibco 21331-020)
+ CellTiter-Glo‱ 3D Cell Viability Assay (Promega G968A)
+ Aluminium
+ Shaker
+ Opaque 96-well plate for reading (Costar 96 Flat Bottom White Polystyrene)
+ Luminescence reader (Tecan Infinite M Plex)
+
+STEPS
+## Preparation of the CellTiter-Glo 3D Solution
+1. ● Thaw the CellTiter-Glo reagent in thefridge at 4°C the day before the experiment.
+## Preparation of the CellTiter-Glo 3D Solution
+2. ● Before use, let the kit reach roomtemperature for 30 minutes.
+## Preparation of the CellTiter-Glo 3D Solution
+3. ● Gentlymix the solution.
+## Preparation of ATP Solutions at Different Concentrations for the Calibration Curve
+4. Dilution of the ATP Solution
+## Preparation of ATP Solutions at Different Concentrations for the Calibration Curve
+5. ● Transfer the ATP solutions into theopaque 96-well plate for luminescence
+## Preparation of Spheroids in the Opaque Plate
+6. ● Transfer the spheroids from theincubation plate to the opaque 96-well plate for reading.
+## Preparation of Spheroids in the Opaque Plate
+7. ● Place the plate on the 28-magnetplate (Plate Holding) and aspirate the medium.
+## Preparation of Spheroids in the Opaque Plate
+8. ● Add 50 µL of DMEM without FBS perwell.
+## Addition of CellTiter-Glo and Incubation of the Opaque Plate
+9. ● Add 50 µL of CellTiter-Glo per well(into wells containing 50 µL of DMEM without FBS).
+## Addition of CellTiter-Glo and Incubation of the Opaque Plate
+10. ● Cover the plate with aluminum foil toprotect the samples from light, as CellTiter-Glo is light-sensitive.
+## Addition of CellTiter-Glo and Incubation of the Opaque Plate
+11. ● Incubate the plate at room temperaturefor 25 minutes.
+## Addition of CellTiter-Glo and Incubation of the Opaque Plate
+12. ● During this incubation period, shakethe plate on a vortex for 5 minutes at 2 rpm.
+## Luminescence Reading
+13. ● Setup the device:
+ ○ Shakingmode: Orbital shaking
+ ○ Shakingtime: 3 s
+ ○ Attenuation:None
+ ○ Integrationtime: 1000 ms
+ ○ Settletime: 0 ms
+ ○ Temperature:22°C
+## Luminescence Reading
+14. ● Place the plate without the lid onthe reader platform and position the plate.
+## Luminescence Reading
+15. ● Start the reading and save the Excelfile.

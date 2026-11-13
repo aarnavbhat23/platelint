@@ -1,0 +1,39 @@
+MATERIALS
+MATERIALS
+ PBS Contributed by users 
+ Resazurin sodium salt Merck MilliporeSigma (Sigma-Aldrich) Catalog #R7017 
+ alamarBlue™ Cell Viability Reagent Thermo Fisher Scientific Catalog #DAL1025
+
+BEFORE START
+Pre-made Alamar Blue (Resazurin) solutions from companies (e.g. alamarBlue™ Cell Viability Reagent )  are relatively expensive for long-term and common use. Therefore, ordering it in powder format is the cheapest and the most feasible way to go for extended use cases. 1 g powder (e.g. Resazurin sodium salt #R7017 ) should last for a year or two even if it is frequently used.
+ The final working concentration for Resazurin is 44 uM and our goal is to prepare a 10X solution for use in cell culture (e.g. for 200 ul of media/cells, we will add 20 ul of the dye). Directly preparing this is not feasible (due to the amount of PBS required) so we will first prepare a 1000X stock solution which we will further dilute as needed.
+ For 1000X Stock (44 mM):
+ Weigh 5 gram of Resazurin powder
+ Resolve the powder in 500 ml PBS (this will require vigorous shaking/mixing for a few times so make sure you don’t have any residues in the solution)
+ Sterile filter the solution and prepare 10 aliquots (each 50 ml)
+ Store the 1000X stocks at -20°C (either wrap each one with aluminum foil or use a cardboard box to limit light exposure for long term)
+ For 10X Stock (440 uM):
+ Add 500 ul of 1000X stock onto 50 ml of PBS in a falcon tube (usually makes sense to prepare 4-5 of these)
+ Wrap the falcon tube with aluminum foil so that it is minimally exposed to sunlight
+ Store 10X working solutions at 4°C (they should be good for up to 6 months)
+ Can also store one 1000X stock at 4°C for convenience (if planning to assay frequently)
+
+GUIDELINES
+Always make sure you have at least 4 replicates
+ Always make sure to have blank media control (ideally on the same plate but having another plate with only media in it is OK, too)
+ Plate readers are relatively less accurate for the most outer wells so do not use them specifically for a condition alone (it might bias your results). Having a replicate for each of your conditions in either of the most outer wells is OK.
+ It is much easier to work in batches via multichannel pipettors and make use of the reagent cuvette
+ The dye is sensitive to light/temperature. No need to go crazy about this but make sure you don’t leave the plate out for more than 10 minutes before measuring
+ Do not go over 200 ul in total when preparing your cultures
+ Plan carefully and remember to add the dye a day (24 hours) before your endpoint assay
+ The assay is not that accurate > 300,000 cells per well or < 1,000 cells per well so make sure you seed the cells in such a way that you will hit the reliable cell counts on the day of your measurement
+
+STEPS
+1. Add 10X dye for each well using a multichannel pipettor (so, for 200 ul you will be adding 20 ul of the 10X solution)
+2. Continue culturing the cells the same way for 24 hours 
+ 24:00:00
+3. Use a plate reader to measure the absorbance at both 570 nm and 595 nm 
+ (BIO-RAD, 1681130)
+4. Subtract your 595 nm measurement from the 570 nm for each well
+5. Then (optionally) subtract your blank media measurement from your treatment measurements
+6. The number you end up is directly proportional to the number of cells in the well.

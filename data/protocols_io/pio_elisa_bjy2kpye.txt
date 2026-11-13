@@ -1,0 +1,24 @@
+ABSTRACT
+Interleukin 23 activates the production of IL-17A, which is a pro-inflammatory cytokine, produced by a group of T helper cell known as T- helper17 lymphocytes in response to the said IL-23 [1,2].
+ Reference
+ 1. Cho ML, Kang JW, Moon YM, Nam HJ, Jhun JY, Heo SB, Jin HT, Min SY, Ju JH, Park KS, Cho YG, Yoon CH, Park SH, Sung YC, Kim HY (May 2006). Journal of Immunology. 176 (9): 5652–61. 
+ 2. Nobee A, Justiz-Vaillant A, Akpaka PE, Poon-King P (2016) Levels of Interleukin 17 and 23 in Patients with Systemic Lupus Erythematosus (SLE) in Trinidad and Tobago. Immunochem Immunopathol 2: 115. doi: 10.4172/2469- 9756.1000115
+
+MATERIALS
+MATERIALS
+ Set of one 96-well filter plate with 2 plate sealers Merck Millipore (EMD Millipore) Catalog #MX-PLATE 
+ Interleukin 23 by IBL corporation Germany Contributed by users
+
+STEPS
+1. Ninety-six well ELISA plates are coated with monoclonal anti-human antibodies to interleukin-23 (IL-23).
+2. Patient serum samples are added to the plates.
+3. The plate is incubate x 1.30 hour at RT.
+4. The plate is washed 4 times with PBS-tween 20 buffer.
+5. The wells are incubated with a biotin conjugated anti-human IL-23 for 1.30 hour at RT.
+6. The plates are washed again as above.
+7. To the plate a peroxidase-labeled streptavidin conjugate is added and incubated for 1 hour at RT.
+8. After a further washing procedure a substrate solution reactive is added and allowed to produced a colored reaction in positive controls.
+9. The level of IL-17 in the sample is proportional to the colored product developed.
+10. The addition of 3M H2SO4 stops the reaction.
+11. The absorbance is measured at 450 nm.
+12. The IL-17 concentration can be calculated by generating an standard curve using lineal regression.

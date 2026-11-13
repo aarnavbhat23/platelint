@@ -1,0 +1,17 @@
+ABSTRACT
+MTT assay to measure viability cells
+
+STEPS
+1. Prepare sample in DMSO
+2. Observe cell on the plate, make a note about cells condition
+3. Experiment by make a serial dilution sample in U-Type, suspend 40 times
+4. Remove old medium from cells
+5. Put 100 μl/well sample and DMSO, incubate 48 h, 37 oC
+6. Observe condition cells after 48 h incubation
+7. Checked toxicity under microscope, take photo if there are morphology changing
+8. Prepare MTT 10%
+9. Remove medium from 96 well plate
+10. Put 150 μl/well by multichannel pipet, incubate 4 h, 37 oC
+11. Remove MTT solution from well plate
+12. Put 100 μl/well DMSO 100% for dissolve
+13. Check absorbance at 560 nm and 750 nm , shaker 0.5 min before read absorbance

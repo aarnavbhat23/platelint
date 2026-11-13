@@ -1,0 +1,16 @@
+ABSTRACT
+CellTiter-Glo® Luminescent Cell Viability Assay used for measuring cytotoxicity of compounds of interest.
+
+MATERIALS
+MATERIALS
+ CellTiter-Glo(R) Luminescent Cell Viability, 10ml Promega Catalog #G7570
+
+STEPS
+1. Treat the cells (seeded in a 96 well white walled multiwell plate) as required.
+3. Prepare reagent by adding Caspase Glo buffer to the CellTiter-Glo substrate.
+4. Add equal volume of reagent to samples ( 100 µL reagent to 100 µL 
+ media in 96 well plate). Include media only control.
+2. Equilibriate reagents and plate at Room temperature for at least 00:30:00 mins.
+5. Place plate on orbital shaker for 00:02:00 min and subsequently incubate at Room temperature 
+ for 00:10:00 min.
+6. Record luminescence.

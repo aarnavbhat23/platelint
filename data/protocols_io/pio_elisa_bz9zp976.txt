@@ -1,0 +1,124 @@
+ABSTRACT
+This Standard Operating Procedure (SOP) is based on the Vanderbilt University Medical Center Human Islet Phenotyping Program (HIPP) Islet Functional Analysis. This SOP provides the HIPP procedure for measuring islet glucagon content and secretion to assess islet function. 
+ This SOP defines the assay method used by the Human Islet Phenotyping Program (HIPP) for the qualitative determination of the Purified Human Pancreatic Islet product, post-shipment, manufactured for use in the National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)-sponsored research in the Integrated Islet Distribution Program (IIDP). 
+ The goal of this SOP is to define the method for quantitative determination of glucagon released after secretagogue stimulation for proving the potency of the human islet preparation shipped by the IIDP.
+ This Standard Operating Procedure (SOP) #: HIPP-10-v01
+
+MATERIALS
+1. The following equipment is necessary to assess human islet function by Glucagon ELISA. 
+ 1.1 Micropipettes (10-100 μL, 20-200 μL, and 100-1000 μL ranges) 
+ 1.2 Multi-channel micropipette (20-200 µL range)
+ 1.3 Computer with Excel (Microsoft) and Prism (Graphpad) software (for use of counting workbook and producing data summaries)
+ 1.4 epMotion Liquid Handling Workstation ( Eppendorf 5075 )
+ 1.5 Benchmark Orbi shaker ( BT1502 )
+ 1.6 Fisherbrand accuWash microplate washer (5165100) or the similar plate washer ( 14-377-577 or 14-377-578 )
+ 1.7 BMG Labtech CLARIOstar microplate reader (Plus Model)
+ 1.7.1 CLARIOstar software 
+ 1.7.2 MARS data analysis software
+ 1.8 Vortex mixer 
+ Liquid Handling Workstation (epMotion, Eppendorf 5075, https://online-shop.eppendorf.us/US-en/Automated-Pipetting-44509/Liquid-Handling-Workstations-44510/epMotion5075TMX-PF-17832.html?gclid=EAIaIQobChMIuqGapZ6i9AIVA5-GCh3YWAr_EAAYAiAAEgJenvD_BwE&gclsrc=aw.ds , https://protocols-files.s3.amazonaws.com/files/fy3ibghg7.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWFTFYUBUZ2U2JGOS%2F20261113%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261113T025239Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=11f69b9ee774f9c03b2d77f4db3f52f8a738f540ce244f1a7ce48e9d6b685f9b ) 
+ Benchmark Orbi shaker (ORBI-SHAKER, BT1502, https://www.benchmarkscientific.com/product/bt1502/ , https://s3.amazonaws.com/protocols-files/files/fy7ibghg7.jpg ) 
+ accuWash microplate washer (Fisher, 5165100, https://www.fishersci.com/shop/products/fisher-scientific-accuwash-accuwash-versa-microplate-washers/p-6473453 , https://s3.amazonaws.com/protocols-files/files/fzd2bghg7.webp ) 
+ Microplate Reader (BMG Labtech CLARIOstar, N/A, https://www.bmglabtech.com/clariostar-plus/ , https://s3.amazonaws.com/protocols-files/files/fzd4bghg7.png ) 
+ 2. The following supplies and materials are necessary to assess human islet function by Glucagon ELISA. 
+ 2.1 Quantikine Glucagon ELISA Kit R&D Systems Catalog #DGCG0 (RRID: AB_2893019) 
+ 2.1.1 Glucagon Microplate (894070)
+ 2.1.2 Glucagon Standard (894072)
+ 2.1.3 Glucagon Conjugate (894071)
+ 2.1.4 Assay Diluent RD1-110 (895967)
+ 2.1.5 Calibrator Diluent RD5-59 (895968)
+ 2.1.6 Wash Buffer Concentrate (895222)
+ 2.1.7 Color Reagent A (895000)
+ 2.1.8 Color Reagent B (895001)
+ 2.1.9 Stop Solution (895032)
+ MATERIALS PROVIDED & STORAGE CONDITIONS 
+ Store the unopened kit at 2-8 °C. Do not use past kit expiration date.
+ * Provided this is within the expiration date of the kit.
+ 2.2 Quantikine Glucagon Control Set 869 R&D Systems Catalog #QC100 
+ 2.3 50 µL epMotion pipette tip ( Eppendorf 30014421 )
+ 2.4 10mL ( Fisher Scientific 13-678-11E ) and 25mL ( Fisher Scientific 13-678-11 ) serological pipets
+ 2.5 2 mL SafeSeal Microcentrifuge Tube ( Sarstedt 72.695.500 )
+ 2.6 50 μL epMotion filtered tips (Eppendorf 0030014430)
+ 2.7 200 μL and 1000 μL filtered pipette tips (Fisher Scientific P-200 ART and P-1250 ART )
+ epMotion pipette tip (50 µL, Eppendorf, 30014421, https://serfinitymedical.com/products/eppendorf-quality-eptips-motion-reload-tip-50-ul-eppendorf-north-america-30014421-1081330 , https://s3.amazonaws.com/protocols-files/files/f2nabghg7.jpg ) 
+ serological pipets (10 mL, Fisher Scientific, 13-678-11E, https://www.fishersci.com/shop/products/fisherbrand-sterile-polystyrene-disposable-serological-pipets-magnifier-stripe-30/1367811E , https://s3.amazonaws.com/protocols-files/files/f2nbbghg7.webp ) 
+ serological pipets (25 mL, Fisher Scientific, 13-678-11, https://www.fishersci.com/shop/products/fisherbrand-sterile-polystyrene-disposable-serological-pipets-magnifier-stripe-30/1367811 , https://s3.amazonaws.com/protocols-files/files/f2ndbghg7.webp ) 
+ SafeSeal Microcentrifuge Tube (2 mL, Sarstedt, 72.695.500, https://www.fishersci.com/shop/products/safeseal-micro-tube-2-ml-1/NC1186931 , https://protocols-files.s3.amazonaws.com/files/f2nebghg7.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWFTFYUBUZ2U2JGOS%2F20261113%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261113T025239Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=565baba7ff77c5467189f4f2b284b82d52911bcee5ec3b49840c2c6b0869e055 )
+
+GUIDELINES
+Integrated Islet Distribution Program (IIDP) ( RRID:SCR_014387 ): The IIDP is a grant-funded program commissioned and funded by the NIDDK to provide quality human islets to the diabetes research community to advance scientific discoveries and translational medicine. The IIDP consists of the NIDDK Project Scientist and Program Official, the External Scientific Panel and the CCat City of Hope (COH). The IIDP CC integrates an interactive group of academic laboratories including the subcontracted IIDP centers.
+ IIDP Coordinating Center (CC) : Joyce Niland, Ph.D. and Carmella Evans-Molina, M.D., Ph.D. serve as Co-Principal Investigators (Co-PIs) for the IIDP Program located within the Department of Diabetes and Cancer Discovery Science at COH to coordinate the activities of the IIDP and Human Islet Phenotyping Program (HIPP). Dr. Niland, contact PI, oversees the daily activity of the IIDP staff, provides informatics/ biostatistical input, and subcontracts with the Islet Isolation Centers (IICs) to ensure the delivery of the highest quality human islets to IIDP approved investigators. Dr. Evans-Molina serves as the liaison to the HIPP, interacting closely to ensure that extensive, high quality phenotypic data are collected on islets distributed by the IICs. She also facilitates the delivery of this information to both the IICs and the IIDP-approved investigators, while responding to questions, issues, or suggestions for further HIPP enhancements.
+ Human Islet Phenotyping Program (HIPP) : The HIPP is a subcontracted entity of the IIDP through the COH and Vanderbilt University Medical Center. The HIPP is directed by Marcela Brissova, Ph.D., and is responsible for performing specific standardized quality control assays agreed upon by both the IIDP and the HIPP, in order to provide enhanced, quality data on the human islets post-shipment, to the IIDP. The results of these assays will be approved by the CC and posted on the IIDP website for both the centers and the approved investigators.
+ Islet Equivalent (IEQ) : An islet with a diameter of 150 µm determined mathematically by compensating for islet shape.
+ Islet Perifusion Assay : A functional assay that acquires dynamic hormone secretory profiles simultaneously from islet cell types such as β and α cells in response to their respective secretagogues. Insulin and glucagon are detected in perifusion fractions by ELISA. The islet hormone secretory profile is generated by graphing hormone concentration over time with respect to islet volume and/or hormone content.
+ Enzyme-linked immunosorbent assay (ELISA): A sensitive in vitro assay used to measure concentrations of antigens by making use of an enzyme conjugated to an antibody recognizing an antigen of interest.
+
+STEPS
+## Procedures
+1. Preparation of Samples, Standards, and internal Quality Controls
+## Procedures
+1.1. Thaw archived samples intended for analysis in room temperature water. Once thawed, invert capped samples ten times to thoroughly mix.
+## Procedures
+1.2. Bring the Glucagon Standard to room temperature. Keep remaining kit components between 2-8°C.
+## Procedures
+1.3. Retrieve the islet hormone extracts and keep on ice.
+## Procedures
+1.4. Prepare serial dilutions of hormone extract (1:100, 1:1000, 1:2000, 1:5000 and 1:10000) in 2mL tubes using the Calibrator Diluent RD5-59 from the ELISA Kit. Vortex each tube to mix contents thoroughly before pipetting the subsequent dilutions.
+## Procedures
+1.5. Prepare the glucagon standard dilutions using Calibrator Diluent RD5-59. Perform a 1:10 dilution starting from the 20,000 pg/mL standard vial followed by six 1:2 dilutions. Vortex each tube to mix contents thoroughly before pipetting the subsequent dilutions.
+## Procedures
+1.6. Reconstitute each Quality Control stock in 5 mL distilled water, or thaw existing quality control samples.
+## Procedures
+1.7. Prepare the wash buffer dilution by adding 100 mL of buffer concentrate to 900 mL of DI water.
+## Procedures
+1.8. Prior to beginning the assay, use the plate washer to soak plate wells in 800 µL diluted wash buffer for 30 seconds. Wash and aspirate the plate twice with 400 µL wash buffer.
+## Procedures
+2. Performing Glucagon ELISA assay
+## Procedures
+2.1. Add 150 µL of Assay Diluent RD1-110 to each well.
+## Procedures
+2.2. By using the epMotion 5057 or hand-pipetting, add 50 µL of standards and controls (in duplicate), samples, and extract dilutions to the wells.
+## Procedures
+2.3. Cover plate with the supplied adhesive strip and incubate for 3 hours at room temperature.
+## Procedures
+2.4. Using the plate washer, aspirate each well and wash as directed in step1.8. Repeat 3 times.
+## Procedures
+2.5. Add 200 µL of ice-cold Glucagon Conjugate to each well.
+## Procedures
+2.6. Cover plate with a new adhesive strip and incubate for 1 hour at 4 °C . Do not stack the plates if running more than one kit.
+## Procedures
+2.7. Using the plate washer, repeat the wash/aspiration step 2.4.
+## Procedures
+2.8. Within 15 minutes of use, combine Color Reagents A and B in equal volume, mix solution thoroughly, and add 200 µL to each well.
+## Procedures
+2.9. Incubate for 30 minutes at room temperature away from light.
+## Procedures
+2.10. Add 50 µL Stop Solution to each well.
+## Procedures
+2.11. Using the microplate reader, determine the optical density and glucagon concentration of each well within 30 minutes of adding stop solution. Set to 450 nm with a wavelength correction at 540 nm.
+## Procedures
+3. Data Analysis
+## Procedures
+3.1. Values for all standards must be within ±15% of their expected values and replicate values of each standard must have a Coefficient of Variation (CV) ≤20%. If standards vary beyond these limits, the assay must be repeated.
+## Procedures
+3.2. Values for quality control samples, corresponding to lower and upper assay detection ranges, must be within their known ranges. If QCs vary beyond these limits, the assay must be repeated.
+## Procedures
+3.3. Calculate the average of the glucagon concentrations from the 4 extract dilutions to determine glucagon content, expressed as pg/mL.
+## Procedures
+3.4. Normalize secreted glucagon concentrations per islet volume (IEQs), expressed as pg/100 IEQs/min and islet glucagon content, expressed as % content/min.
+## Procedures
+3.5. Use Prism software to create graphs and to calculate stimulation index (SI) and area under curve (AUC) values.
+ 3.5.1 Stimulation index (SI) is a ratio calculated as maximum response to a given stimulus relative to baseline.
+ 3.5.2 Area under curve (AUC) is calculated by integrating islet secretory response to a given stimulus over time.
+## Data Storage and Reporting
+4. Data Storage and Reporting
+## Data Storage and Reporting
+4.1. To facilitate data management and ensure data security, the VUMC HIPP uses an institutional server-based platform for data storage and analysis.
+## Data Storage and Reporting
+4.2. Upon analysis completion, the VUMC HIPP will upload raw data, including hormone levels, data analysis, and graphical representation of each human islet perifusion, into the IIDP HIPP database. Example of human islet perifusion results performed in HIPP is shown in Figure 1 .
+ Figure 1. Protocol for analysis of human islet function by the Vanderbilt HIPP. 
+ Islets are challenged with 16.7 mM glucose for 30 minutes to resolve biphasic insulin secretory response, followed by 15-minute stimulations with 16.7 mM glucose + 50 M IBMX, 1.7 mM glucose + 1 M epinephrine, and 20 mM KCl. Insulin secretory response to these stimuli is shown in the top panel (5 human islet preparations) and glucagon secretion is displayed in the bottom panel (4 human islet preparations).
+## Data Storage and Reporting
+4.3. Functional data on islet insulin and glucagon secretion will be uploaded within 3 business days to HIPP database built by IIDP programming team and immediately be available to IIDP-affiliated investigators and islet isolation centers.
+## Deviations and Resolutions
+5. Document any deviations that occurred during this protocol that affect the final results and report with the analysis of the assay.

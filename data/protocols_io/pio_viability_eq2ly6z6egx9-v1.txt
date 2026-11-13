@@ -1,0 +1,110 @@
+ABSTRACT
+A viability test for in vitro cultures, based on the intake of the textile dye Alphazurine A by dead cells and its exclusion by viable cells, is described. This test uses the affinity of Alphazurine A for proteins, so that the dye is retained in dead cells even after rinsing, while its anionic character prevents it from entering live cells. This feature makes this dye exclusion test amenable to a reading in a plate format. The Alphazurine viability test provides an indicator of the absolute number of dead cells present in the culture well. To reach a cell viability index, a “dead cells” control (e.g. cells killed with ethanol) must be added. We also describe a double viability test, which first uses the Alphazurine assay to provide the number of dead cells then a crystal violet assay to provide an index of the number of cells present in the plate. This double test provides a complete appraisal of the situation in the cell culture wells, and has been compared to other viability tests such as propidium iodide exclusion or tetrazolium reduction. Its performances to study the toxicity of substances such as pigments are also established.
+
+MATERIALS
+Materials 
+ Culture plates shall be with a transparent flat bottom and treated for mammalian cell adherence. We use 12 or 24 well culture plates from Falcon (#353043 Falcon® 12-well Clear Flat Bottom TC-treated Multiwell Cell Culture Plate, with Lid, Individually Wr Corning Catalog #353043 and #353047 Falcon® 24-well Clear Flat Bottom TC-treated Multiwell Cell Culture Plate, with Lid, Sterile, 50/Cas Corning Catalog #353047 , respectively).
+ Chemicals 
+ Non-denatured ethanol should be used. 96% ethanol is acceptable without correction for titer Acetic acid is 99% pure. We use reference A6283 Acetic acid Merck MilliporeSigma (Sigma-Aldrich) Catalog #A6283 from Sigma Aldrich Alphazurine A was reference A2770 from Sigma Aldrich. This product is discontinued. Alternate references are #ICNA0215473025 from MP biomedicals or reference AC189370100 from ThermoFisher. Crystal Violet is reference C0775 Crystal Violet Merck MilliporeSigma (Sigma-Aldrich) Catalog #C0775 from Sigma Aldrich. PBS, calcium and magnesium free, is reference D5652 Dulbecco’s Phosphate Buffered Saline Merck MilliporeSigma (Sigma-Aldrich) Catalog #D5652 from Sigma Aldrich.
+ Equipment 
+ A plate reader able to read absorbance is required. The required wavelengths to be read are 590 nm (Crystal Violet) and 637 nm ( Alphazurine).
+
+GUIDELINES
+Safety concerns 
+ Acetic acid is an irritant.
+ Ethanol is toxic at high doses.
+ Crystal Violet is a suspected carcinogen and is toxic for the environment.
+ All solutions and wastes used in this protocol should be disposed of respecting applicable local regulations.
+ Test Setup 
+ The rationale of the alphazurine stain (staining of dead cells in the plate) means that the absorbance reading at 637 nm will provide an index of the number of dead cells. This index must be scaled against wells that will contain only dead cells and thus represent a 100% dead cells level. This means that a plate designed for a complete test shall be arranged as follows 
+ We do not recommend to go below four replicates by condition, which is an absolute minimum.
+ Readout 
+ The alphazurine stain provides an index of the number of dead cells. Thus, in addition to the desired measurements, the plate(s) must contain wells with all live cells (or the best approximation thereof) and wells with only dead cells. There are therefore three sets of measurements in the plate(s).
+ A637 all live cells 
+ A637 all dead cells 
+ A637 tested cells 
+ The A all live cells values can be used as a background value, as it integrates the absorbance due to stain adsorbed onto plastic, absorbance of the plate plastic itself and the absorbance due to the few dead cells that may exist in a healthy cell culture.
+ Then the 100% scale can be calculated with the formula A637 all dead cells - A637 all live cells 
+ Then, for each tested condition, the fraction of dead cells in the well can be calculated by the formula
+ Fraction dead = (A637 tested cells - A637 all live cells )/ (A637 all dead cells - A 637 all live cells )
+ This number allows to calculate Fraction alive , which is equal to 1- Fraction dead 
+ However, these fractions also depend of the total number of cells that are present at the end of the al-phazurine reading. Depending on how the tested chemicals act on cells, dead cells may still be adher-ent to the plate (which is the case for e.g. ethanol) or dead cells can detach or disintegrate and thus be no longer present in the plate when the alphazurine absorbance is read. To compensate for this phenomenon, the crystal violet staining will provide an index of the total number of cells (either initially dead or alive) that are present at the bottom of the well.
+ Thus, the fraction of remaining cells is given by the formula 
+ Fraction present = (A590 tested cells / A590 all live cells ) 
+ Thus, the fraction of live cells at the end of the process, compared to the untreated control, is given by the formula:
+ Fraction alive x Fraction present
+
+STEPS
+## Plate preparation
+1. Centrifuge cell culture plate for 1200 rpm, °C, 2 minutes .
+ Centrifugation prevents any loss of cells. [step duration: 120 s]
+## Alphazurine dye staining
+5. Add AlphazurineA at a final concentration of 0.2 mg/ml in all wells (50 fold direct dilution from a 10 mg/ml in water). 
+ Alphazurine is added to fresh medium to maintain cells in afavourable environment while staining, ensuring that viability remains uncompromised.
+## Cystal violet dye
+15. Remove the remaining alphazurine eluate. Rinse once with PBS.
+ The elution solution dehydrates the cells, necessitating hydration before dyeing them with another dye.
+## Plate preparation
+2. Remove the medium from well scheduled for 100% dead cells control. Add 300 µL of Ethanol (EtOH) 50% for 00:03:00 - 00:05:00 at Room temperature .
+ The addition of ethanol induces cell death and makes their membranes permeable. [step duration: 480 s]
+## Plate preparation
+3. Rinse with DMEM live cell wells.
+ The medium may have been affected by the 48h culture period or the presence of particles, prompting its replacement with a fresh one.
+## Plate preparation
+4. Remove EtOH 50%. Rinse wells once with clean culture medium. Add a volume of clean culture medium.
+ The exposure to ethanol dehydrates the cells, necessitating hydration before dyeing them.
+## Alphazurine dye staining
+6. Incubate 00:40:00 at 37 °C . 
+ Incubating cells under cultured conditions ensures that viability remains uncompromised. [step duration: 2400 s]
+## Alphazurine dye staining
+7. Centrifuge 1200 rpm, °C, 3 minutes .
+ Centrifugation prevents any loss of cells. [step duration: 180 s]
+## Alphazurine dye staining
+8. Rinse 3x with 1X Phosphate-buffered saline (PBS).
+ Rinsing cells with PBS facilitates the removal of dye that have not entered the cells.
+## Alphazurine dye staining
+9. Centrifuge for 1200 rpm, °C, 3 minutes after each rinse. 
+ Centrifugation prevents any loss of cells . [step duration: 180 s]
+## Alphazurine dye staining
+10. Remove the supernatant.
+ The last rinse with PBS has to be remove before adding the elution solution.
+## Alphazurine dye staining
+11. Elute by adding a volume (equivalent to cell culture medium used) of 50% ethanol 1% acetic acid solution. 
+ Adding acetic acid to ethanol enhances the dye solubility.
+## Alphazurine dye staining
+12. Incubate 00:30:00 at Room temperature on a shaker. Centrifuge for 1200 rpm, °C, 2 minutes .
+ Centrifugation prevents any loss of cells. [step duration: 1920 s]
+## Alphazurine dye staining
+13. Transfer 200 µL into a 96-well plate. 
+ To eliminate the potential interference from cell absorbance on the original plate, it is advisable to transfer a portion on supernatant into a new plate.
+## Alphazurine dye staining
+14. Read absorbance at 637 nm .
+## Cystal violet dye
+16. Add one volume (equivalent to cell culture medium used) of CV solution at 4 μg/ml in PBS.
+ As the cells are dead, exposure to water poses no risk to them, so this solution can be prepared using either water or PBS.
+## Cystal violet dye
+17. Incubate 00:30:00 at Room temperature .
+ It is not necessary for cells to be under culture conditions for this staining, as all cells are dead. [step duration: 1800 s]
+## Cystal violet dye
+18. Centrifuge 1200 rpm, °C, 3 minutes .
+ Centrifugation prevents any loss of cells. [step duration: 180 s]
+## Cystal violet dye
+19. Rinse 3x with PBS. 
+ Rinsing cells with PBS facilitates the removal of dye that have not stained the cells.
+## Cystal violet dye
+20. Centrifuge for 1200 rpm, °C, 3 minutes after each rinse.
+ Centrifugation prevents any loss of cells. [step duration: 180 s]
+## Cystal violet dye
+21. Remove the supernatant.
+ The last rinse with PBS has to be remove before adding the elution solution.
+## Cystal violet dye
+22. Elute by adding a volume (equivalent to cell culture medium used) of 50% EtOH 1% acetic acid solution.
+ Adding acetic acid to ethanol enhances the dye solubility.
+## Cystal violet dye
+23. Incubate 00:45:00 at Room temperature on a shaker. Centrifuge for 1200 rpm, °C, 2 minutes .
+ Centrifugation prevents any loss of cells. [step duration: 2820 s]
+## Cystal violet dye
+24. Transfer 200 µL into a 96-well plate.
+ To eliminate the potential interference from cell absorbance on the original plate, it is advisable to transfer a portion on supernatant into a new plate.
+## Cystal violet dye
+25. Read absorbance at 590 nm .

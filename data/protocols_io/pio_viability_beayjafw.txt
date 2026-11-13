@@ -1,0 +1,12 @@
+ABSTRACT
+RealTime-Glo™ MT Cell Viability Assay used to measure cell viability following priming or continuous exposure to compound of interest.
+
+MATERIALS
+MATERIALS
+ RealTime-Glo(TM) MT Cell Viability Assay, 100 RXN Promega Catalog #G9711
+
+STEPS
+2. Equilibriate reagents to 37 °C . Prepare MT Cell Viability Substrate and NanoLuc® Enzyme at 2X concentration. For continous read format, add test compound/control at 2X concentration to reagent mix. Add equal volume of prepared reagent to cell culture medium.
+3. Incubate cells at 37 °C and 5% CO2 for 01:00:00 h.
+4. Measure luminescence and return plate to cell culture incubator. Repeat as required.
+1. Seed cells at required density in a 96 well white walled multiwell plate.

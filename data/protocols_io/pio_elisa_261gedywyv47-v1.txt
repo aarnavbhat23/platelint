@@ -1,0 +1,14 @@
+ABSTRACT
+ELISA (enzyme-linked immunosorbent assay) for α-Syn quantification. Useful for analyses of alpha-Synuclein and related proteins in the context of synucleinopathy.
+
+STEPS
+1. Coat 384-well MaxiSorp plates (Nunc, Inc) with capturing antibody (α-Syn, BD Biosciences, 610787) diluted 1:500 in coating buffer (NaHCO3 with 0.2% NaN3, pH9.6) overnight at 4 °C.
+2. Wash 3 times with PBS.0.05% Tween-20 (PBS-T).
+3. Block for 1hr at 37 °C in blocking buffer (1.125% fish skin gelatin; PBS-T)
+4. Load samples in duplicate into wells.
+5. Incubate at RT for 2hr.
+6. Add the desired antibody to the plate for 1 h at 37 °C
+7. Wash 5 times with PBS-T.
+8. Add ExtrAvidin phosphatase (Sigma, E2636) diluted in blocking buffer to wells. Incubate for 30 min at 37 °C.
+9. Carry out colour development with fast-p-nitrophenyl phosphate (Sigma, N1891) at 405 nm every 2.5 min for up to 60 min.
+10. Identify time point(s) where standards and sample dilutions are in the log phase.

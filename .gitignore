@@ -1,0 +1,4 @@
+data/raw_xml/
+data/raw_pio/
+__pycache__/
+*.pyc

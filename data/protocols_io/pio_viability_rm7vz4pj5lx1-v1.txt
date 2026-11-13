@@ -1,0 +1,34 @@
+ABSTRACT
+This protocol describes how to perform an MTT cell viability assay in a well-plate format on cells on scaffolds derived from decellularized broccoli stalk tissue. It is part of a protocol collection describing how to produce and use the plant-based scaffolds for short-term (days), in vitro, cell-culture experiments. The scaffolds are composed of an isotropic arrangement of pores (median diameter, 70 μm), and have a stiffness in the range of mid-stiffness human soft tissues. Please see the scaffold production protocol for more information.
+
+MATERIALS
+In addition to standard cell culture lab supplies and the reagents listed below, you will require:
+ 96-well plates for culturing cells on the scaffolds
+ forceps
+ Cell culture reagents appropriate for your cell type
+ A well-plate reader capable of measuring absorbances at 570 nm. For example, 
+ Epoch 2 (plate reader, Biotek)
+
+BEFORE START
+This procedure was developed and tested with mouse embryonic fibroblasts. Your cell type may require optimization of seeding densities, incubation times, and culture conditions.
+
+GUIDELINES
+This procedure uses the Cell Proliferation Kit I (MTT) MilliporeSigma Catalog #11465007001 and is based on the manufacturer's protocol. It is a colorimetric assay in which the MTT tetrazolium salt is reduced to a formazan dye by cells. The amount of dye produced is proportional to the number of viable, metabolically active cells.
+
+STEPS
+1. Seed fibroblasts at the desired density onto 3.5 mm scaffolds in a 96-well plate as described in the "Seeding and culturing adherent cells on 3D broccoli-based scaffolds" protocol. Include at least three replicates per experimental condition.
+ Seeding and culturing adherent cells on 3D broccoli-based scaffolds
+ by Kristopher E Kubow 
+ The proof-of-concept experiments in the associated manuscript used mouse embryonic fibroblasts (MEFs) seeded at a density of 15,000 cells per 3.5 mm scaffold. Note that most of the seeded cells attach to the well surface rather than the scaffold. We estimate that fewer than 2,000 cells attach to the scaffold with this seeding density. It is important to seed enough cells to be detectable with the assay. In our hands, a density of 500 cells was close to the limit of detection. You can determine the detection limit with your cell type by running the assay on different densities of cells cultured directly in wells. [step duration: 9000 s]
+2. Culture for 1-7 days. [step duration: 86400 s]
+3. Use forceps to carefully transfer the scaffolds to new wells and add 100 µL culture medium to each well.
+ During seeding, cells that do not attach to the scaffolds will attach to the well surface. It is important to move the scaffolds to new wells to ensure that the assay is only measuring cells attached to the scaffolds. [step duration: 300 s]
+4. Add 100 µL culture medium to three empty wells to serve as blanks. [step duration: 30 s]
+5. Add 10 µL MTT reagent to each well, including the blanks. [step duration: 120 s]
+6. Incubate in the cell culture incubator for 04:00:00 .
+ By 4 hours, purple precipitates should be visible in the cells when viewed under an inverted microscope. Some cell types may require longer incubation periods up to 24 h. See manufacturer protocol for more information. [step duration: 14400 s]
+7. Add 100 µL solubilization buffer to each well, including the blanks.
+8. Incubate in the cell culture incubator Overnight . [step duration: 64800 s]
+9. Either use forceps to remove and discard the scaffolds or pipette 200 µL volume from each well to new wells.
+ The scaffolds will interfere with the absorbance measurements.
+10. Measure the absorbance of each well at 570 nm using a plate reader. (If a reference wavelength is needed, use >650 nm.)

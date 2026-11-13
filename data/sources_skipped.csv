@@ -1,0 +1,336 @@
+assay_class,id,license_reported,reason
+elisa,PMC13744338,cc by-nc-nd,licence not CC BY/CC0
+elisa,PMC13625883,cc by,no plate/well term in procedure text
+elisa,PMC13495467,cc by,no plate/well term in procedure text
+elisa,PMC13445486,cc by,no plate/well term in procedure text
+elisa,PMC13356678,cc by,no plate/well term in procedure text
+elisa,PMC13292774,cc by,no plate/well term in procedure text
+elisa,PMC13022993,cc by,no plate/well term in procedure text
+elisa,PMC13739260,cc by,no plate/well term in procedure text
+elisa,PMC13738004,cc by,no plate/well term in procedure text
+elisa,PMC13732273,cc by,no plate/well term in procedure text
+elisa,PMC13735261,cc by-nc,licence not CC BY/CC0
+elisa,PMC13633867,cc by,no plate/well term in procedure text
+elisa,PMC13623536,cc by,no plate/well term in procedure text
+elisa,PMC13646350,cc by-nc,licence not CC BY/CC0
+elisa,PMC13733458,cc by-nc,licence not CC BY/CC0
+elisa,PMC13723843,cc by-nc,licence not CC BY/CC0
+elisa,PMC13717433,cc by,no plate/well term in procedure text
+elisa,PMC13723846,cc by,no plate/well term in procedure text
+elisa,PMC13723849,cc by-nc,licence not CC BY/CC0
+elisa,PMC13709457,cc by,no plate/well term in procedure text
+elisa,PMC13695480,cc by,no plate/well term in procedure text
+elisa,PMC13651608,cc by,no CC licence URL in full text
+elisa,PMC13720803,cc by-nc-nd,licence not CC BY/CC0
+elisa,PMC13691751,cc by-nc,licence not CC BY/CC0
+elisa,PMC13680660,cc by,no plate/well term in procedure text
+elisa,PMC13684181,cc by-nc,licence not CC BY/CC0
+elisa,PMC13697262,cc by-nc-nd,licence not CC BY/CC0
+elisa,PMC13691876,cc by-nc,licence not CC BY/CC0
+elisa,PMC13675736,cc by,no plate/well term in procedure text
+elisa,PMC13659031,cc by,no plate/well term in procedure text
+elisa,PMC13652719,cc by-nc,licence not CC BY/CC0
+elisa,PMC13656121,cc by-nc,licence not CC BY/CC0
+elisa,PMC13676708,cc by-nc-nd,licence not CC BY/CC0
+elisa,PMC13632969,cc by,no plate/well term in procedure text
+elisa,PMC13630048,cc by-nc,licence not CC BY/CC0
+elisa,PMC13544106,cc by-nc-nd,licence not CC BY/CC0
+elisa,PMC13652636,cc by-nc-nd,licence not CC BY/CC0
+elisa,PMC13470115,cc by,no plate/well term in procedure text
+elisa,PMC13585767,cc by,no plate/well term in procedure text
+elisa,PMC13380062,cc by-nc-nd,licence not CC BY/CC0
+elisa,PMC13585993,cc by,no plate/well term in procedure text
+elisa,PMC13569388,cc by,no plate/well term in procedure text
+elisa,PMC13705638,cc by,no plate/well term in procedure text
+elisa,PMC13695322,cc by,no CC licence URL in full text
+elisa,PMC13673104,cc by,no plate/well term in procedure text
+elisa,PMC13625694,cc by-nc-nd,licence not CC BY/CC0
+elisa,PMC13626073,cc by,no plate/well term in procedure text
+elisa,PMC13621886,cc by,no plate/well term in procedure text
+elisa,PMC13606789,cc by,no plate/well term in procedure text
+elisa,PMC13614477,cc by,no plate/well term in procedure text
+elisa,PMC13599822,cc by-nc,licence not CC BY/CC0
+elisa,PMC13599970,cc by,no plate/well term in procedure text
+elisa,PMC13585018,cc by,no plate/well term in procedure text
+elisa,PMC13583739,cc by-nc,licence not CC BY/CC0
+elisa,PMC13583780,cc by-nc,licence not CC BY/CC0
+elisa,PMC13577614,cc by,no plate/well term in procedure text
+elisa,PMC13560996,cc by-nc,licence not CC BY/CC0
+elisa,PMC13548251,cc by-nc,licence not CC BY/CC0
+elisa,PMC13541232,cc by,no plate/well term in procedure text
+elisa,PMC13525868,cc by-nc,licence not CC BY/CC0
+elisa,PMC13510119,cc by,no plate/well term in procedure text
+elisa,PMC13500367,cc by-nc-nd,licence not CC BY/CC0
+elisa,PMC13449289,cc by-nc,licence not CC BY/CC0
+elisa,PMC13316167,cc by,no plate/well term in procedure text
+elisa,PMC13442626,cc by,no plate/well term in procedure text
+elisa,PMC13741694,cc by,no plate/well term in procedure text
+elisa,PMC13729560,cc by-nc-nd,licence not CC BY/CC0
+elisa,PMC13524217,cc by,no plate/well term in procedure text
+elisa,PMC13524648,cc by-nc-nd,licence not CC BY/CC0
+elisa,PMC13536152,cc by-nc,licence not CC BY/CC0
+elisa,PMC13507967,cc by-nc,licence not CC BY/CC0
+elisa,PMC13517849,cc by,no explicit volume in procedure text
+elisa,PMC13517711,cc by,no plate/well term in procedure text
+elisa,PMC13514267,cc by,no plate/well term in procedure text
+elisa,PMC13515257,cc by,no plate/well term in procedure text
+elisa,PMC13513037,cc by,no plate/well term in procedure text
+elisa,PMC13504909,cc by-nc,licence not CC BY/CC0
+elisa,PMC13504857,cc by-nc,licence not CC BY/CC0
+elisa,PMC13504869,cc by-nc,licence not CC BY/CC0
+elisa,PMC13484930,cc by,no plate/well term in procedure text
+elisa,PMC13479530,cc by-nc,licence not CC BY/CC0
+elisa,PMC13475110,cc by,no plate/well term in procedure text
+elisa,PMC13449572,cc by-nc-nd,licence not CC BY/CC0
+elisa,PMC13464224,cc by-nc-nd,licence not CC BY/CC0
+elisa,PMC13448529,cc by-nc,licence not CC BY/CC0
+elisa,PMC13435442,cc by,no plate/well term in procedure text
+elisa,PMC13416200,cc by-nc,licence not CC BY/CC0
+elisa,PMC13459549,cc by,no CC licence URL in full text
+elisa,PMC13494552,cc by,no explicit volume in procedure text
+elisa,PMC13399652,cc by,no plate/well term in procedure text
+elisa,PMC13326959,cc by-nc,licence not CC BY/CC0
+elisa,PMC13711809,cc by,no plate/well term in procedure text
+elisa,PMC13711754,cc by-nc-nd,licence not CC BY/CC0
+elisa,PMC13460167,cc by-nc-nd,licence not CC BY/CC0
+elisa,PMC13540083,cc by-nc-nd,licence not CC BY/CC0
+elisa,PMC13428414,cc by,no plate/well term in procedure text
+elisa,PMC13423086,cc by-nc,licence not CC BY/CC0
+elisa,PMC13431520,cc by,no plate/well term in procedure text
+elisa,PMC13410311,cc by,no plate/well term in procedure text
+elisa,PMC13410930,cc by,no plate/well term in procedure text
+elisa,PMC13406046,cc by,no plate/well term in procedure text
+elisa,PMC13448197,cc by,no plate/well term in procedure text
+elisa,PMC13392578,cc by-nc-nd,licence not CC BY/CC0
+elisa,PMC13425803,cc by-nc,licence not CC BY/CC0
+elisa,PMC13393561,cc by-nc-nd,licence not CC BY/CC0
+elisa,PMC13386068,cc by-nc,licence not CC BY/CC0
+elisa,PMC13384353,cc by,no plate/well term in procedure text
+elisa,PMC13660246,cc by-nc-nd,licence not CC BY/CC0
+elisa,PMC13400660,cc by-nc-nd,licence not CC BY/CC0
+elisa,PMC13663105,cc by-nc-nd,licence not CC BY/CC0
+elisa,PMC13374399,cc by-nc,licence not CC BY/CC0
+elisa,PMC13372260,cc by,no plate/well term in procedure text
+elisa,PMC13364545,cc by-nc-nd,licence not CC BY/CC0
+elisa,PMC13358299,cc by,no plate/well term in procedure text
+qpcr,PMC13720467,cc by-nc,licence not CC BY/CC0
+qpcr,PMC13718649,cc by-nc-nd,licence not CC BY/CC0
+qpcr,PMC13679306,cc by-nc-nd,licence not CC BY/CC0
+qpcr,PMC13401001,cc by,no plate/well term in procedure text
+qpcr,PMC13752797,cc by,no plate/well term in procedure text
+qpcr,PMC13749004,cc by,no plate/well term in procedure text
+qpcr,PMC13720224,cc by,no plate/well term in procedure text
+qpcr,PMC13658333,cc by,no plate/well term in procedure text
+qpcr,PMC13734052,cc by,no plate/well term in procedure text
+qpcr,PMC13733678,cc by-nc-nd,licence not CC BY/CC0
+qpcr,PMC13733452,cc by-nc,licence not CC BY/CC0
+qpcr,PMC13710128,cc by,no plate/well term in procedure text
+qpcr,PMC13709567,cc by,no plate/well term in procedure text
+qpcr,PMC13707577,cc by,no plate/well term in procedure text
+qpcr,PMC13707675,cc by,no plate/well term in procedure text
+qpcr,PMC13695480,cc by,no plate/well term in procedure text
+qpcr,PMC13651608,cc by,no CC licence URL in full text
+qpcr,PMC13718845,cc by,no plate/well term in procedure text
+qpcr,PMC13717862,cc by-nc,licence not CC BY/CC0
+qpcr,PMC13669024,cc by,no plate/well term in procedure text
+qpcr,PMC13681996,cc by-nc-nd,licence not CC BY/CC0
+qpcr,PMC13675712,cc by,no plate/well term in procedure text
+qpcr,PMC13675703,cc by,no plate/well term in procedure text
+qpcr,PMC13656121,cc by-nc,licence not CC BY/CC0
+qpcr,PMC13676708,cc by-nc-nd,licence not CC BY/CC0
+qpcr,PMC13659461,cc by-nc-nd,licence not CC BY/CC0
+qpcr,PMC13635563,cc by-nc-nd,licence not CC BY/CC0
+qpcr,PMC13330516,cc by-nc-nd,licence not CC BY/CC0
+qpcr,PMC13619035,cc by,no plate/well term in procedure text
+qpcr,PMC13707825,cc by,no plate/well term in procedure text
+qpcr,PMC13657109,cc by,no explicit volume in procedure text
+qpcr,PMC13611841,cc by,no plate/well term in procedure text
+qpcr,PMC13635507,cc by-nc-nd,licence not CC BY/CC0
+qpcr,PMC13614477,cc by,no plate/well term in procedure text
+qpcr,PMC13598649,cc by-nc,licence not CC BY/CC0
+qpcr,PMC13599847,cc by,no plate/well term in procedure text
+qpcr,PMC13601057,cc by-nc-nd,licence not CC BY/CC0
+qpcr,PMC13573192,cc by-nc-nd,licence not CC BY/CC0
+qpcr,PMC13565321,cc by,no plate/well term in procedure text
+qpcr,PMC13558868,cc by-nc,licence not CC BY/CC0
+qpcr,PMC13573187,cc by-nc,licence not CC BY/CC0
+qpcr,PMC13548606,cc by,no plate/well term in procedure text
+qpcr,PMC13548251,cc by-nc,licence not CC BY/CC0
+qpcr,PMC13500367,cc by-nc-nd,licence not CC BY/CC0
+qpcr,PMC13556246,cc by,no plate/well term in procedure text
+qpcr,PMC13741694,cc by,no plate/well term in procedure text
+qpcr,PMC13733089,cc by-nc-nd,licence not CC BY/CC0
+qpcr,PMC13732878,cc by-nc-nd,licence not CC BY/CC0
+qpcr,PMC13600069,cc by,no plate/well term in procedure text
+qpcr,PMC13600121,cc by,no plate/well term in procedure text
+qpcr,PMC13578458,cc by,no plate/well term in procedure text
+qpcr,PMC13560318,cc by-nc,licence not CC BY/CC0
+qpcr,PMC13536140,cc by-nc,licence not CC BY/CC0
+qpcr,PMC13544388,cc by-nc-nd,licence not CC BY/CC0
+qpcr,PMC13517849,cc by,no explicit volume in procedure text
+qpcr,PMC13515033,cc by,no plate/well term in procedure text
+qpcr,PMC13543896,cc by-nc-nd,licence not CC BY/CC0
+qpcr,PMC13504869,cc by-nc,licence not CC BY/CC0
+qpcr,PMC13482205,cc by,no plate/well term in procedure text
+qpcr,PMC13461757,cc by,no plate/well term in procedure text
+viability,PMC13745734,cc by-nc-nd,licence not CC BY/CC0
+viability,PMC13711119,cc by-nc,licence not CC BY/CC0
+viability,PMC13705307,cc by,no explicit volume in procedure text
+viability,PMC13625281,cc by-nc,licence not CC BY/CC0
+viability,PMC13571306,cc by-nc,licence not CC BY/CC0
+viability,PMC13316167,cc by,no plate/well term in procedure text
+viability,PMC13525234,cc by,no plate/well term in procedure text
+viability,PMC13521226,cc by-nc-nd,licence not CC BY/CC0
+viability,PMC13519544,cc by-nc,licence not CC BY/CC0
+viability,PMC13711778,cc by-nc-nd,licence not CC BY/CC0
+viability,PMC13403126,cc by-nc,licence not CC BY/CC0
+viability,PMC13352814,cc by,no plate/well term in procedure text
+viability,PMC13305910,cc by,no plate/well term in procedure text
+viability,PMC13297100,cc by,fulltext fetch failed: The read operation timed out
+viability,PMC13520510,cc by-nc-nd,licence not CC BY/CC0
+viability,PMC13213298,cc by,"fulltext fetch failed: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+viability,PMC13207608,cc by,"fulltext fetch failed: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+viability,PMC13194297,cc by,"fulltext fetch failed: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+viability,PMC13183891,cc by-nc-nd,licence not CC BY/CC0
+viability,PMC13171983,cc by,"fulltext fetch failed: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+viability,PMC13147855,cc by,"fulltext fetch failed: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+viability,PMC13122309,cc by,"fulltext fetch failed: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+viability,PMC12993705,cc by,"fulltext fetch failed: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+viability,PMC13175297,cc by,"fulltext fetch failed: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+viability,PMC13209329,cc by,"fulltext fetch failed: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+viability,PMC13211382,cc by,"fulltext fetch failed: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+viability,PMC13116750,cc by,"fulltext fetch failed: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+viability,PMC13112130,cc by,"fulltext fetch failed: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+viability,PMC13127207,cc by,"fulltext fetch failed: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+viability,PMC13053371,cc by,"fulltext fetch failed: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+viability,PMC12976203,cc by,"fulltext fetch failed: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+viability,PMC13120447,cc by,"fulltext fetch failed: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+viability,PMC13108127,cc by,"fulltext fetch failed: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+viability,PMC13072380,cc by,"fulltext fetch failed: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+viability,PMC13071989,cc by,"fulltext fetch failed: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+viability,PMC13010661,cc by,"fulltext fetch failed: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+viability,PMC13010650,cc by,"fulltext fetch failed: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+viability,PMC13107684,cc by-nc-nd,licence not CC BY/CC0
+viability,PMC12971300,cc by-nc,licence not CC BY/CC0
+viability,PMC12969724,cc by,"fulltext fetch failed: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+viability,PMC12964027,cc by-nc-nd,licence not CC BY/CC0
+viability,PMC12810700,cc by-nc-nd,licence not CC BY/CC0
+viability,PMC12775961,cc by-nc-nd,licence not CC BY/CC0
+viability,PMC12917831,cc by-nc-nd,licence not CC BY/CC0
+viability,PMC13530327,cc by-nc,licence not CC BY/CC0
+viability,PMC13271485,cc by,no plate/well term in procedure text
+viability,PMC12865322,cc by,no plate/well term in procedure text
+growth_curve,PMC13744208,cc by,no plate/well term in procedure text
+growth_curve,PMC13602329,cc by,no plate/well term in procedure text
+growth_curve,PMC13625529,cc by-nc,licence not CC BY/CC0
+growth_curve,PMC13194162,cc by-nc-nd,licence not CC BY/CC0
+growth_curve,PMC13090719,cc by,no plate/well term in procedure text
+growth_curve,PMC13730500,cc by,no plate/well term in procedure text
+growth_curve,PMC13720224,cc by,no plate/well term in procedure text
+growth_curve,PMC13670019,cc by,no plate/well term in procedure text
+growth_curve,PMC13487288,cc by-nc-nd,licence not CC BY/CC0
+growth_curve,PMC13723858,cc by,no plate/well term in procedure text
+growth_curve,PMC13711119,cc by-nc,licence not CC BY/CC0
+growth_curve,PMC13734860,cc by-nc-nd,licence not CC BY/CC0
+growth_curve,PMC13708614,cc by,no plate/well term in procedure text
+growth_curve,PMC13686247,cc by-nc-nd,licence not CC BY/CC0
+growth_curve,PMC13717106,cc by-nc,licence not CC BY/CC0
+growth_curve,PMC13691758,cc by-nc,licence not CC BY/CC0
+growth_curve,PMC13675828,cc by-nc-nd,licence not CC BY/CC0
+growth_curve,PMC13662403,cc by-nc,licence not CC BY/CC0
+growth_curve,PMC13652715,cc by-nc,licence not CC BY/CC0
+growth_curve,PMC13646370,cc by,no plate/well term in procedure text
+growth_curve,PMC13659477,cc by-nc-nd,licence not CC BY/CC0
+growth_curve,PMC13621927,cc by,no plate/well term in procedure text
+growth_curve,PMC13675783,cc by,no plate/well term in procedure text
+growth_curve,PMC13631364,cc by,no plate/well term in procedure text
+growth_curve,PMC13598656,cc by-nc,licence not CC BY/CC0
+growth_curve,PMC13600794,cc by,no plate/well term in procedure text
+growth_curve,PMC13591887,cc by,no plate/well term in procedure text
+growth_curve,PMC13629323,cc by,no plate/well term in procedure text
+growth_curve,PMC13561675,cc by-nc,licence not CC BY/CC0
+growth_curve,PMC13564130,cc by,no plate/well term in procedure text
+growth_curve,PMC13470417,cc by-nc-nd,licence not CC BY/CC0
+growth_curve,PMC13721400,cc by,no plate/well term in procedure text
+growth_curve,PMC13588700,cc by-nc,licence not CC BY/CC0
+growth_curve,PMC13567167,cc by,no plate/well term in procedure text
+growth_curve,PMC13507967,cc by-nc,licence not CC BY/CC0
+growth_curve,PMC13543884,cc by,no plate/well term in procedure text
+growth_curve,PMC13496354,cc by,no plate/well term in procedure text
+growth_curve,PMC13461757,cc by,no plate/well term in procedure text
+growth_curve,PMC13461753,cc by-nc,licence not CC BY/CC0
+growth_curve,PMC13520695,cc by-nc-nd,licence not CC BY/CC0
+growth_curve,PMC13560258,cc by-nc-nd,licence not CC BY/CC0
+growth_curve,PMC13469912,cc by,no plate/well term in procedure text
+growth_curve,PMC13425510,cc by-nc-nd,licence not CC BY/CC0
+growth_curve,PMC13449778,cc by-nc,licence not CC BY/CC0
+growth_curve,PMC13403131,cc by-nc,licence not CC BY/CC0
+growth_curve,PMC13403126,cc by-nc,licence not CC BY/CC0
+growth_curve,PMC13403123,cc by-nc,licence not CC BY/CC0
+growth_curve,PMC13431520,cc by,no plate/well term in procedure text
+growth_curve,PMC13425840,cc by,no plate/well term in procedure text
+growth_curve,PMC13389306,cc by,no plate/well term in procedure text
+growth_curve,PMC13393449,cc by,no plate/well term in procedure text
+growth_curve,PMC13400660,cc by-nc-nd,licence not CC BY/CC0
+growth_curve,PMC13372666,cc by,no plate/well term in procedure text
+growth_curve,PMC13380748,cc by-nc-nd,licence not CC BY/CC0
+growth_curve,PMC13347215,cc by-nc,licence not CC BY/CC0
+growth_curve,PMC13347127,cc by-nc,licence not CC BY/CC0
+growth_curve,PMC13336770,cc by,no plate/well term in procedure text
+growth_curve,PMC13343150,cc by,no plate/well term in procedure text
+growth_curve,PMC13415966,cc by-nc-nd,licence not CC BY/CC0
+growth_curve,PMC13293984,cc by,no plate/well term in procedure text
+growth_curve,PMC13312114,cc by-nc-nd,licence not CC BY/CC0
+growth_curve,PMC13277826,cc by,no plate/well term in procedure text
+growth_curve,PMC13254846,cc by-nc-nd,licence not CC BY/CC0
+growth_curve,PMC13408471,cc by,no plate/well term in procedure text
+growth_curve,PMC13449585,cc by-nc-nd,licence not CC BY/CC0
+growth_curve,PMC13240800,cc by,no plate/well term in procedure text
+growth_curve,PMC13223919,cc by,no plate/well term in procedure text
+growth_curve,PMC13199665,cc by-nc,licence not CC BY/CC0
+growth_curve,PMC13202259,cc by-nc,licence not CC BY/CC0
+growth_curve,PMC13235557,cc by,no CC licence URL in full text
+growth_curve,PMC13227995,cc by,no plate/well term in procedure text
+growth_curve,PMC13157048,cc by-nc-nd,licence not CC BY/CC0
+growth_curve,PMC13123352,cc by,no plate/well term in procedure text
+growth_curve,PMC13123337,cc by-nc,licence not CC BY/CC0
+growth_curve,PMC13092739,cc by,no plate/well term in procedure text
+growth_curve,PMC13058971,cc by-nc-nd,licence not CC BY/CC0
+growth_curve,PMC12891862,cc by,no plate/well term in procedure text
+growth_curve,PMC13200072,cc by,no plate/well term in procedure text
+growth_curve,PMC13200011,cc by-nc,licence not CC BY/CC0
+growth_curve,PMC13200070,cc by,no plate/well term in procedure text
+growth_curve,PMC13218090,cc by-nc,licence not CC BY/CC0
+growth_curve,PMC13195178,cc by,no plate/well term in procedure text
+growth_curve,PMC13402588,cc by-nc-nd,licence not CC BY/CC0
+growth_curve,PMC13381585,cc by-nc-nd,licence not CC BY/CC0
+growth_curve,PMC13183891,cc by-nc-nd,licence not CC BY/CC0
+growth_curve,PMC13156696,cc by-nc,licence not CC BY/CC0
+growth_curve,PMC13321423,cc by-nc-nd,licence not CC BY/CC0
+growth_curve,PMC13150906,cc by-nc,licence not CC BY/CC0
+growth_curve,PMC13131987,cc by,no plate/well term in procedure text
+growth_curve,PMC13135703,cc by,no plate/well term in procedure text
+growth_curve,PMC13116530,cc by,no plate/well term in procedure text
+growth_curve,PMC13103966,cc by,no plate/well term in procedure text
+growth_curve,PMC13095051,cc by,no plate/well term in procedure text
+growth_curve,PMC13084441,cc by-nc-nd,licence not CC BY/CC0
+growth_curve,PMC13186806,cc by-nc-nd,licence not CC BY/CC0
+growth_curve,PMC13052729,cc by,no plate/well term in procedure text
+growth_curve,PMC13055219,cc by,no plate/well term in procedure text
+growth_curve,PMC13664724,cc by-nc-nd,licence not CC BY/CC0
+growth_curve,PMC13037774,cc by-nc,licence not CC BY/CC0
+growth_curve,PMC13201731,cc by-nc-nd,licence not CC BY/CC0
+growth_curve,PMC13010634,cc by,no plate/well term in procedure text
+growth_curve,PMC13010647,cc by,no plate/well term in procedure text
+growth_curve,PMC12994761,cc by,no plate/well term in procedure text
+growth_curve,PMC12997206,cc by-nc,licence not CC BY/CC0
+growth_curve,PMC12971300,cc by-nc,licence not CC BY/CC0
+growth_curve,PMC12971299,cc by-nc,licence not CC BY/CC0
+growth_curve,PMC13030974,cc by,no plate/well term in procedure text
+growth_curve,PMC12992951,cc by-nc-nd,licence not CC BY/CC0
+growth_curve,PMC12992948,cc by-nc-nd,licence not CC BY/CC0
+growth_curve,PMC12964019,cc by,no plate/well term in procedure text
+growth_curve,PMC12925450,cc by-nc-nd,licence not CC BY/CC0
+growth_curve,PMC12914205,cc by-nc,licence not CC BY/CC0
+growth_curve,PMC12861186,cc by-nc-nd,licence not CC BY/CC0
+growth_curve,PMC12859244,cc by-nc-nd,licence not CC BY/CC0

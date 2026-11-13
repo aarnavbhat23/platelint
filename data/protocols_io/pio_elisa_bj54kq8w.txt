@@ -1,0 +1,30 @@
+ABSTRACT
+Enzyme-linked immunosorbent assay (ELISA) for studying the presence of anti- Salmonella antibody in layer hens was a reproducible and feseable test used to meassure IgY development after vaccination.
+
+MATERIALS
+MATERIALS
+ Anti-Chicken IgY, HRP Conjugate, 300ul Promega Catalog #G1351 
+ LPS Merck MilliporeSigma (Sigma-Aldrich) Catalog #L3129 
+ eBioscience™ TMB Solution (1X) Thermo Fisher Catalog #00-4201-56 
+ Nunc™ 96-Well Polystyrene Round Bottom Microwell Plates, U 96 well plate, Non-Treated, clear, with lid, Sterile Thermo Fisher Catalog #268200 
+ ELISA Coating Buffer (5X) BioLegend Catalog #421701
+
+GUIDELINES
+After adding the substrate, keep the ELISA plate in a very dark place to get reproducible results.
+
+STEPS
+1. U-shaped bottom's ninety-six well polystyrene microplate purchased at Sigma-Aldrich, St. Louis USA was incubated with (2 µg/well) of the LPS (Sigma –Aldrich) from Salmonella Typhimurium in coating buffer (overnight at 4 ºC.)
+2. The microtiter plates was washed four times, with 10 % PBS-Tween-20.
+3. The microplate was blocked with 3% non-fat milk in PBS (25 µl/well).
+4. The microplate was incubated 1 hr at RT .
+5. The microplate was washed four times.
+6. Then a 50 µl aliquot of the egg yolk (Ig)Y solutions in a concentration of 1.25 mg/ml was added in triplicate. The IgY concentration was assessed by ELISA and sample were titrated with sample buffer until it got the expected IgY concentration.
+7. After incubating for one hour at RT, the microplate was washed four times.
+8. Fifty (50 µl) of the anti-IgY-HRP conjugate (Sigma-Aldrich) diluted to 1:30000 with conjugate diluent was added into each well.
+9. The microplate was incubated for 1 hr at RT.
+10. Then, the microplate was washed four times.
+11. Fifty (50 µl) of tetramethylbenzidine (TMB, Sigma-Aldrich) was added into each well.
+12. The microplate was further incubated for 15 minutes in the dark.
+13. Fifty (50 µl) 3M HCl was added to the microplate for stopping the reaction.
+14. After that, reaction color development was measured with a microplate reader (Synergy™ Neo Hybrid Multi-Mode Microplate Reader).
+15. The cut-off point was an OD of 0.51, and it was calculated from the XOD of the negative control times 3. This ELISA tested triplicates of a total of 90 IgY preparations.

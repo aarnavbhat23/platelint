@@ -1,0 +1,85 @@
+ABSTRACT
+Quantitative PCR, 384 well format
+
+MATERIALS
+Materials:
+ PCR 8-tube strips or 96 well plates depending on sample# and gene# ( General stores 4868 )
+ PCR strip tube lids  ( General stores 1400-0800 )
+ ABI Sybr Green  ( ABI 4301955 )
+ QPCR plate  ( ABI 4309849 )
+ Adhesive plate film  (ABI 4311971)
+ Brown plastic adhesive helper
+ Filtered 200 μl pipette tips (2 boxes for one complete plate)
+ Electronic Multichannel Pipette (referred to as Hilda from here on out)
+ Primers – final concentration of 1.25 μM each
+ Autoclaved MilliQ H 2 O
+
+STEPS
+## Procedure:
+2. Place 8-tube PCR strips in PCR tube racks (each single tube runs 1 sample and 1 gene)
+## Procedure:
+3. Add 5 µl cDNA to the bottom of each tube, use 20 uL pipetor (keep on ice)
+## Procedure:
+4. Add 25 µl (duplicates) or 35 µl (triplicates) of Sybr Mastermix to the 8-well tube (keep on ice)
+## Procedure:
+4.1. Use 200uL multi-channel pipette.
+## Procedure:
+5. Mix using the multichannel and quick spin.
+## Procedure:
+6. Dispense 10 µl of cDNA/Mastermix (20uL pipetor) into each well on 384 well plate according to plate layout made in advance (keep plate on ice)
+## Procedure:
+7. Gently blot top of plate with kimwipe (to keep samples from transferring to other wells)
+## Procedure:
+8. Place clear Adhesive plate cover over the plate.
+## Procedure:
+8.1. use brown ‘helper’ to smooth out
+## Procedure:
+8.2. pay attention to edges
+## Procedure:
+8.3. work from center of the plate out
+## Procedure:
+9. Spin plate for 5 min at 3500 rpm (4° C)
+## Procedure:
+9.1. During spin: set up ABI SDS program (keep plate in centrifuge until ready to run)
+## Procedure:
+10. Seal plate with sticky film. Vortex and spin down plate 3500rpm for 5 min at 4C
+## Procedure:
+11. Open SDS 2.3 program
+## Procedure:
+11.1. File -> new
+## Procedure:
+11.2. One instrument tab: real time -> Connect to machine -> open/close door
+## Procedure:
+11.3. Insert plate, aligning A1 to A1
+## Procedure:
+11.4. Close door
+## Procedure:
+11.5. On layout tab; highlight unused wells, click “omit wells”
+## Procedure:
+11.6. Highlight used wells and click “add detector” for each specific gene
+## Procedure:
+11.7. Set to 10uL Rxn VL
+## Procedure:
+11.8. Check cycle times and temperatures
+## Procedure:
+11.9. Add dissociation stage (SYBR primers only) 
+ A B C D E F G H 
+ 1 Temp C 50 95 95 60 95 60 95 
+ 2 Time 2:00 10:00 0:15 1:00 0:15 0:15 0:55 
+ Stage C&D 40 time
+## Procedure:
+12. Run plate
+## Procedure:
+13. Primer Validation Procedure: Set-up is same as above plus cDNA standard curve for each gene in an extra set of 8-tube PCR strips (see workflow file)
+## Set-up:
+1. Sample cDNA :  thaw your cDNA on ice ( vortex and quick spin before plating )
+## Set-up:
+1.1. Primer stock (+/-): Add 12.5 µl of (+) and 12.5 µl (-) to 1 mL MilliQ H 2 O
+## Set-up:
+1.2. PCR Master Mix (10ul rxn; Triplicate)
+ A B 
+ 1 MilliQ H2O 10.20ul 
+ 2 SYBR Green 20ul 
+ 3 primers (2.5 μM each set) 4.80ul 
+ 4 Total master mix 35.00ul 
+ Equipment: ABI 7900 Prism
