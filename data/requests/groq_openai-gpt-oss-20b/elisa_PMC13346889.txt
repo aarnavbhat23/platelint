@@ -1,0 +1,70 @@
+Please prepare the following experiment with our samples.
+
+1. **Materials to have on hand**  
+   - Cell lines: HEK293T (RRID:CVCL_0063), Jurkat (RRID:CVCL_0367), THP‑1 (RRID:CVCL_0006).  
+   - Plasmids:  
+     * psPAX2‑D64V‑NC‑mNeon (Addgene #196509)  
+     * psPAX2‑D64V‑NC‑eYFP (Addgene #257940)  
+     * psPAX2‑D64V‑NC‑TagBFP (Addgene #257941)  
+     * psPAX2‑D64V‑NC‑mScarlet (Addgene #257942)  
+     * pCMV6‑ICAM‑1 (Addgene #257960).  
+   - Reagents:  
+     * Opti‑MEM serum‑free medium (Thermo Fisher #31985‑070)  
+     * X‑tremeGENE 9 (Roche #6365787001)  
+     * Lenti‑X concentrator (Takara #631231)  
+     * DMEM + GlutaMAX (Gibco #10566‑016)  
+     * RPMI + GlutaMAX (Gibco #61870‑036)  
+     * 1 M HEPES (Gibco #15630080)  
+     * 1 M MgCl₂ (Ambion #AM9530G)  
+     * 0.5 M EGTA (bioWORLD #40520008‑1)  
+     * 4% PFA in PBS (ChemCruz #sc‑281692)  
+     * 10% heat‑inactivated FBS (Gibco), filter‑sterilized.  
+   - Buffers to prepare:  
+     * **Binding buffer**: RPMI + GlutaMAX (no FBS, 445 mL) + 0.1% w/v BSA (50 mg) in 50 mL total, filter‑sterilized.  
+     * **2× Mg²⁺/EGTA solution**: 9.82 mL 1 M MgCl₂ (10 mM) + 100 µL 0.5 M EGTA (4 mM) in 10 mL, filter‑sterilized.  
+     * **FACS buffer**: PBS 500 mL + 0.2% w/v BSA (1 g) in 500 mL, filter‑sterilized.  
+     * **DMEM complete**: DMEM + GlutaMAX 445 mL + 10% FBS 50 mL + 10 mM HEPES 5 mL → 500 mL.  
+     * **RPMI complete**: RPMI + GlutaMAX 445 mL + 10% FBS 50 mL + 10 mM HEPES 5 mL → 500 mL.  
+   - Consumables: 10 cm tissue‑culture dishes, 15 mL conical tubes, 1.5 mL low‑binding tubes, 0.45 µm syringe filters, 96‑well polypropylene V‑bottom plate, 5 mL and 10 mL serological pipettes, 10 mL syringe.
+
+2. **ICAM‑1‑VLP production**  
+   1. Seed 5 × 10⁶ HEK293T cells in 10 mL complete DMEM per 10 cm dish.  
+   2. Incubate overnight (37 °C, 5% CO₂).  
+   3. Next day, verify 70–80% confluence; do not use >95% confluent dishes.  
+   4. Prepare plasmid mix: 8 µg fluorescent psPAX2 plasmid + 4 µg pCMV6‑ICAM‑1 in 500 µL Opti‑MEM per condition, mix well.  
+   5. Prepare X‑tremeGENE mix: 500 µL Opti‑MEM + 36 µL X‑tremeGENE 9 per condition, mix.  
+   6. Add X‑tremeGENE mix to plasmid mix → 1 mL total; mix gently, incubate 15 min at RT.  
+   7. Add 1 mL transfection mix dropwise to the dish, distributing evenly.  
+   8. Incubate overnight (37 °C, 5% CO₂).  
+   9. 16–24 h post‑transfection, replace medium with 10 mL fresh complete DMEM (gentle removal from dish edge, add slowly along wall).  
+   10. Incubate 24 h more.  
+   11. 48 h post‑transfection, collect ~9 mL supernatant with a 10 mL syringe, filter through 0.45 µm syringe filter into a 15 mL tube.  
+   12. Add 3 mL Lenti‑X concentrator (1:3 v/v), gently invert.  
+   13. Incubate overnight at 4 °C (samples can sit up to 1 week).  
+   14. Next day, centrifuge 1500 × g, 45 min, 4 °C.  
+   15. Carefully remove supernatant; if residual liquid remains, spin 1500 × g briefly to bring to bottom, pipette off.  
+   16. Resuspend pellet in 90 µL PBS → 100× VLP stock (i.e., 100‑fold concentration). Mix gently, avoid bubbles.  
+   17. Store aliquots at –80 °C; avoid repeated freeze–thaw.
+
+3. **ICAM‑1‑VLP binding assay** (THP‑1 or Jurkat)  
+   1. Harvest cells by centrifugation 350 × g, 5 min.  
+   2. Resuspend pellet directly in binding buffer to 1–2 × 10⁶ cells/mL (no wash needed).  
+   3. Pipette 50 µL cell suspension into each well of a 96‑well V‑bottom plate (0.5–1 × 10⁵ cells/well).  
+   4. Add 50 µL 2× Mg²⁺/EGTA solution to each well, mix.  
+   5. Add 1–5 µL of 100× VLP stock (use a 1:100 to 1:20 dilution of the stock; empirically determine optimal volume).  
+   6. Incubate 37 °C for 10 min (time may vary with stimulus).  
+   7. Add 33 µL cold 4% PFA to each well (final 1% PFA). Mix, place plate on ice, incubate 20 min.  
+   8. Centrifuge plate 350 × g, 3 min, discard supernatant.  
+   9. Wash twice with 250 µL FACS buffer (steps 8–10).  
+   10. After final wash, add 200 µL FACS buffer, resuspend cells.  
+   11. Acquire samples on the Attune NxT flow cytometer (140 µL per condition). Fixed cells can be stored 4 °C up to 3 days before acquisition.
+
+4. **Data collection**  
+   - Record fluorescence in the channel corresponding to the chosen fluorescent VLP (e.g., 506 nm excitation for mNeon).  
+   - Include unstained, empty‑vector VLP controls, and, if possible, a positive control with known ICAM‑1 binding.
+
+5. **Optional**  
+   - If using patient‑derived T cells or other primary cells, follow the same binding assay protocol but adjust cell numbers to obtain 0.5–1 × 10⁵ cells per well.  
+   - For additional receptor or ligand variants, replace pCMV6‑ICAM‑1 with the corresponding expression plasmid in the transfection mix.  
+
+Please confirm receipt of all reagents and let me know if any additional materials or clarifications are needed.

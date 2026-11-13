@@ -1,0 +1,47 @@
+Please run the following workflow on the serum and dried blood spot (DBS) samples we will provide:
+
+1. **Sample receipt and storage**  
+   - Register each DBS card by scanning its barcode into the database.  
+   - Store all DBS cards at –80 °C in zip‑lock bags with desiccant until processing.  
+   - Store serum aliquots at –80 °C in temperature‑controlled freezers.
+
+2. **Stability sub‑study (if applicable)**  
+   - For the designated subset of DBS cards, place them under each of the six conditions for 11 days after collection:  
+     a. Freezer (–18 °C to –21 °C)  
+     b. Refrigerator (4 °C‑7 °C)  
+     c. Room temperature (22 °C‑25 °C)  
+     d. Incubator (36 °C‑38 °C)  
+     e. Direct sunlight on a window ledge (full‑day exposure, room temperature)  
+     f. Wet packaging (≤3 h drying before sealing)  
+   - After 11 days, move the cards back to –80 °C until extraction.
+
+3. **DBS punching and elution**  
+   - Thaw DBS cards at room temperature, keeping them in sealed bags to avoid condensation.  
+   - Using the Panthera‑Puncher 9 (PerkinElmer), punch three 3.2 mm discs from each card into a barcoded 96‑well plate (one plate per 96 samples).  
+   - Add 80 µL of the supplied elution buffer to each well with an adjustable‑tip multichannel pipette (Integra Voyager).  
+   - Incubate the plate on a temperature‑controlled shaker (MIUlab ES‑60E) for 1 h at 37 °C, 300 rpm.  
+   - Transfer the eluates into Roche 13/16 micro‑sample cups (catalog 05085713001) and store at –80 °C until analysis.
+
+4. **Roche Elecsys EBV serology**  
+   - Use the Cobas e801 (Roche) to run the Elecsys EBV EBNA‑IgG and Elecsys EBV VCA‑IgG assays on both serum and DBS eluates.  
+   - Run paired serum and DBS from each participant on the same day, using the same reagent lot.  
+   - Record the raw Cut‑Off Index (COI) values for each sample.
+
+5. **Dilution protocol**  
+   - For DBS eluates: if anti‑EBNA‑1 COI ≥ 10 or anti‑VCA COI ≥ 80, dilute 1:10 with the assay buffer and re‑run.  
+   - For serum: if anti‑VCA COI ≥ 1500 or anti‑EBNA COI ≥ 130, dilute 1:20 and re‑run.  
+   - Back‑calculate the original concentrations using the dilution factor.
+
+6. **Data linkage**  
+   - Ensure the barcode from the DBS card is linked to the well position, the micro‑sample cup, and the resulting Cobas output.  
+   - Export the results (raw COI and any back‑calculated values) together with the barcode into a CSV file for our analysis.
+
+7. **Quality control**  
+   - Confirm that each 96‑well plate contains a unique plate barcode and that the punching software blocks duplicate punches of the same card within a plate.  
+   - Include the standard Roche quality controls for each assay run and note any out‑of‑range values.
+
+8. **Report**  
+   - Provide us with the complete dataset (barcode, sample type, raw COI, dilution factor, back‑calculated value, assay date, lot number).  
+   - Include a short summary of any samples that failed QC, any deviations from the protocol, and the storage conditions used for the stability sub‑study samples.
+
+Let us know if any reagents, consumables, or equipment listed above are unavailable, or if you need clarification on any step. Thank you.

@@ -125,27 +125,43 @@ def fp_table(checks, split):
 
 
 def model_table():
-    """Defect rate per model, from the hand labels. No labels, no table."""
+    """Defect rate per model from the hand labels. The sheet is blinded, so the
+    model only enters here, by joining the key after labelling. No labels, no
+    table: this returns None rather than inventing a number."""
     path = os.path.join("data", "labels.csv")
+    keypath = os.path.join("data", "labels_key.csv")
     if not os.path.exists(path):
-        return None, f"{path} not found"
+        return None, f"{path} not found (stage 5 writes it)"
+    if not os.path.exists(keypath):
+        return None, f"{keypath} not found (stage 5 writes it)"
     with open(path) as f:
         rows = list(csv.DictReader(f))
-    need = {"item_id", "model_tag", "label"}
+    with open(keypath) as f:
+        key = {r["item_code"]: r for r in csv.DictReader(f)}
+    need = {"item_code", "label"}
     missing = need - set(rows[0].keys() if rows else [])
     if missing:
         return None, f"{path} is missing columns: {sorted(missing)}"
-    labelled = [r for r in rows if (r.get("label") or "").strip()]
+    labelled = []
+    for r in rows:
+        if not (r.get("label") or "").strip():
+            continue
+        k = key.get(r["item_code"])
+        if not k:
+            return None, f"{r['item_code']} in labels.csv is not in {keypath}"
+        labelled.append({**r, "model_tag": k["model_tag"],
+                         "protocol_id": k["protocol_id"]})
     if not labelled:
         return None, f"{path} has no filled-in labels yet"
     out = []
     for tag in sorted({r["model_tag"] for r in labelled}):
         sub = [r for r in labelled if r["model_tag"] == tag]
-        k = sum(1 for r in sub if r["label"].strip().lower()
-                not in ("ok", "clean", "runnable", "0", "no"))
+        k = sum(1 for r in sub if r["label"].strip().lower() == "defect")
+        unsure = sum(1 for r in sub if r["label"].strip().lower() == "unsure")
         p, lo, hi = wilson(k, len(sub))
         out.append({"model_tag": tag, "n_labelled": len(sub), "n_with_defect": k,
-                    "defect_rate_pct": pct(p), "lo": pct(lo), "hi": pct(hi)})
+                    "n_unsure": unsure, "defect_rate_pct": pct(p),
+                    "lo": pct(lo), "hi": pct(hi)})
     return out, ""
 
 

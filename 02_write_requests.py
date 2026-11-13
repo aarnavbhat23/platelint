@@ -33,13 +33,25 @@ import time
 import urllib.error
 import urllib.request
 
-# Fill these in from --list-models output.
+# Chosen from --list-models on 2026-11-13: free tier on both providers, and all
+# four accept at least 131k input tokens, which the longest protocol (70k
+# characters, about 18k tokens) needs. Two vendors x two capability tiers.
+# "sleep" is the spacing between requests, set under each free tier's
+# requests-per-minute limit.
 MODELS = [
-    # {"provider": "google", "model": "gemini-...",  "sleep": 4.0},
-    # {"provider": "groq",   "model": "llama-...",   "sleep": 2.0},
+    # The models endpoint lists gemini-2.5-flash and -flash-lite, but calling
+    # them returns 404 "no longer available to new users", naming these as the
+    # replacements. Listing a model is not proof you can call it.
+    {"provider": "google", "model": "gemini-3.8-flash",      "sleep": 6.0},
+    {"provider": "google", "model": "gemini-3.5-flash-lite", "sleep": 6.0},
+    {"provider": "groq",   "model": "openai/gpt-oss-120b",   "sleep": 3.0},
+    {"provider": "groq",   "model": "openai/gpt-oss-20b",    "sleep": 3.0},
 ]
 
 MAX_OUTPUT_TOKENS = 4096
+# Groq's edge returns 403 (Cloudflare 1010) to the bare "Python-urllib/3.x"
+# default, so identify the client honestly on every request.
+USER_AGENT = "protocol-runnability-benchmark/1.0 (research use; python-urllib)"
 OUT = "data/requests"
 
 SYSTEM = (
@@ -69,7 +81,7 @@ def key_for(provider):
 
 def post(url, body, headers, tries=6):
     data = json.dumps(body).encode()
-    hdrs = {"content-type": "application/json", **headers}
+    hdrs = {"content-type": "application/json", "user-agent": USER_AGENT, **headers}
     for i in range(tries):
         req = urllib.request.Request(url, data=data, headers=hdrs, method="POST")
         try:
@@ -96,7 +108,7 @@ def post(url, body, headers, tries=6):
 
 
 def get(url, headers):
-    req = urllib.request.Request(url, headers=headers)
+    req = urllib.request.Request(url, headers={"user-agent": USER_AGENT, **headers})
     with urllib.request.urlopen(req, timeout=60) as r:
         return json.loads(r.read())
 
