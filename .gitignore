@@ -3,3 +3,7 @@ data/raw_pio/
 .venv/
 __pycache__/
 *.pyc
+# never commit credentials
+*.env
+.keys
+*_key*.txt
