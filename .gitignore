@@ -1,4 +1,5 @@
 data/raw_xml/
 data/raw_pio/
+.venv/
 __pycache__/
 *.pyc

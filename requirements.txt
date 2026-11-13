@@ -1,3 +1,2 @@
-# Stage 1 uses the Python standard library only.
-# Pinned for later stages:
-python>=3.11
+# Standard library only. Python 3.11+.
+# Stage 1 and 2 use urllib; no third-party packages are required.
