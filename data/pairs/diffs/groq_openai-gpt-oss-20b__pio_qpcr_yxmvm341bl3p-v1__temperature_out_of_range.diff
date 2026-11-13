@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/pio_qpcr_yxmvm341bl3p-v1 (clean)
++++ groq_openai-gpt-oss-20b/pio_qpcr_yxmvm341bl3p-v1 (defect)
+@@ -33,3 +33,3 @@
+    - Place the adhesive plate cover over the plate, smooth with the brown helper film, paying close attention to the edges and working from the center outwards.  
+-   - Spin the plate 5 min at 3500 rpm, 4 °C.  
++   - Spin the plate 5 min at 3500 rpm, -80 °C.  
+    - Seal with the sticky film, then vortex and spin again (5 min, 3500 rpm, 4 °C).  

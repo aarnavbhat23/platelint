@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/pio_viability_rm7vz4pj5lx1-v1 (clean)
++++ google_gemini-35-flash/pio_viability_rm7vz4pj5lx1-v1 (defect)
+@@ -4,3 +4,3 @@
+ 2. Culture the samples for the designated duration (between 1 and 7 days).
+-3. Using forceps, carefully transfer each scaffold into a fresh well containing 100 µL of culture medium. This step is critical to ensure we are only measuring viability of cells attached to the scaffolds, not those attached to the original well plastic.
++3. Using forceps, carefully transfer each scaffold into a fresh well containing 1080 µL of culture medium. This step is critical to ensure we are only measuring viability of cells attached to the scaffolds, not those attached to the original well plastic.
+ 4. Prepare three blank wells containing 100 µL of culture medium without scaffolds or cells.

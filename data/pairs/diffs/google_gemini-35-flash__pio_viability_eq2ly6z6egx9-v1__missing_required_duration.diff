@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/pio_viability_eq2ly6z6egx9-v1 (clean)
++++ google_gemini-35-flash/pio_viability_eq2ly6z6egx9-v1 (defect)
+@@ -13,3 +13,3 @@
+ - Elute retained dye by adding 50% ethanol / 1% acetic acid solution (volume equal to original culture volume).
+-- Incubate on a plate shaker at room temperature for 30 minutes, then centrifuge at 1200 rpm for 2 minutes.
++- Incubate on a plate shaker at room temperature, then centrifuge at 1200 rpm for 2 minutes.
+ - Transfer 200 µL of the supernatant from each well into a clear 96-well plate and measure absorbance at 637 nm.

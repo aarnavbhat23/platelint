@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/viability_PMC12898484 (clean)
++++ groq_openai-gpt-oss-120b/viability_PMC12898484 (defect)
+@@ -46,3 +46,3 @@
+    - Alternatively, use a fixed 50 µM concentration for all RNases.  
+-   - Transfer rinsed pegs to RNase solutions, incubate 37 °C, 100 rpm shaking for 4 h.  
++   - Transfer rinsed pegs to RNase solutions, incubate 37 °C, 100 rpm shaking for 4 h, and hold the plate at 4 °C for the whole of this step.
+    - Assess viability with the resazurin assay as in step 3.  

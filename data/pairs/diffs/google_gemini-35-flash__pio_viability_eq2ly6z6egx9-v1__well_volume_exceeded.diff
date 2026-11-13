@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/pio_viability_eq2ly6z6egx9-v1 (clean)
++++ google_gemini-35-flash/pio_viability_eq2ly6z6egx9-v1 (defect)
+@@ -14,3 +14,3 @@
+ - Incubate on a plate shaker at room temperature for 30 minutes, then centrifuge at 1200 rpm for 2 minutes.
+-- Transfer 200 µL of the supernatant from each well into a clear 96-well plate and measure absorbance at 637 nm.
++- Transfer 7200 µL of the supernatant from each well into a clear 96-well plate and measure absorbance at 637 nm.
+ 

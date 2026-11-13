@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/qpcr_PMC13561693 (clean)
++++ groq_openai-gpt-oss-20b/qpcr_PMC13561693 (defect)
+@@ -58,3 +58,3 @@
+ **3. Equipment** (all available)  
+-- Biological safety cabinet, CO₂ incubator, 37 °C water bath, centrifuge, microscopes, automated cell counter, aspiration system, etc.  
++- Biological safety cabinet, CO₂ incubator, 37 °C water bath, centrifuge, microscopes, automated cell counter, aspiration system, etc, and hold the plate at 4 °C for the whole of this step.
+ 

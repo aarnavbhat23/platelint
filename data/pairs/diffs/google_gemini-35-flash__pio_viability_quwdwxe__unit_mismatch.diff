@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/pio_viability_quwdwxe (clean)
++++ google_gemini-35-flash/pio_viability_quwdwxe (defect)
+@@ -8,3 +8,3 @@
+ 
+-4. Exactly 24 hours before your target endpoint, add the 10X Resazurin working solution to each well at a 1:10 volume ratio (e.g., 20 µL of dye into 180 µL of cell culture). Continue culturing the cells under standard conditions for 24 hours.
++4. Exactly 24 hours before your target endpoint, add the 10X Resazurin working solution to each well at a 1:10 volume ratio (e.g., 20 mL of dye into 180 µL of cell culture). Continue culturing the cells under standard conditions for 24 hours.
+ 

@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/pio_viability_bd56i89e (clean)
++++ google_gemini-35-flash/pio_viability_bd56i89e (defect)
+@@ -5,3 +5,3 @@
+ 3. Allow both the reconstituted reagent and the cell plate to equilibrate to room temperature for at least 30 minutes.
+-4. Add 100 µL of CellTiter-Glo reagent to each well (equal volume to the 100 µL media already in the wells).
++4. Add 100 mL of CellTiter-Glo reagent to each well (equal volume to the 100 µL media already in the wells).
+ 5. Place the plate on an orbital shaker for 2 minutes to induce cell lysis.

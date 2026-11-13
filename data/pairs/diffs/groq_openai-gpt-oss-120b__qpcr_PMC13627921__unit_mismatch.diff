@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/qpcr_PMC13627921 (clean)
++++ groq_openai-gpt-oss-120b/qpcr_PMC13627921 (defect)
+@@ -48,3 +48,3 @@
+ 10. **Hypoxia detection with pimonidazole (6‑well only)**
+-    - At the 64 h endpoint, measure the volume of medium in the lower chamber and add pimonidazole stock (20 mM in PBS) to reach 200 µM final (e.g., 30 µL into 3 mL).  
++    - At the 64 h endpoint, measure the volume of medium in the lower chamber and add pimonidazole stock (20 µM in PBS) to reach 200 µM final (e.g., 30 µL into 3 mL).  
+     - Swirl gently, incubate 3 h at 37 °C.  

@@ -1,0 +1,13 @@
+Please run a qPCR assay on our cDNA samples as follows:
+
+1. Plate each of our cDNA samples into a 96‑well qPCR plate, using 1 µL of sample per well. Plate each sample 2–4 times to provide technical replicates.
+2. For each well, prepare the reaction mix on ice:
+ * 5 µL Fast SYBR Green Master Mix (Applied Biosystems, #4385616)
+ * 3 µL nuclease‑free water
+ * 0.5 µL forward primer (5′‑GTTCGCCCCCTTTAATAGTGC‑3′)
+ * 0.5 µL reverse primer (5′‑TGAACTCCAACGTCAAGCGG‑3′)
+ * 1 µL of the cDNA sample
+3. 
+4. Run the qPCR on a Real‑Time PCR system, collecting Ct values for each well.
+5. After data acquisition, normalize the Ct values for Atg7 to GAPDH (housekeeping gene) by ΔCt = Ct(Atg7) – Ct(GAPDH).
+6. Provide us with the raw Ct values and the ΔCt values for each replicate. If you calculate ΔΔCt relative to a control sample, please include that as well.

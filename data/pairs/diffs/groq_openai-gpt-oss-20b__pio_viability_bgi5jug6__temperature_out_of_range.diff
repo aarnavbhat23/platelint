@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/pio_viability_bgi5jug6 (clean)
++++ groq_openai-gpt-oss-20b/pio_viability_bgi5jug6 (defect)
+@@ -6,3 +6,3 @@
+ 
+-3. Prepare MTT reagent at 0.5 mg mL⁻¹ in MEM (no phenol red). Add 100 µL of this solution to each well and incubate again at 37 °C for 3 h.
++3. Prepare MTT reagent at 0.5 mg mL⁻¹ in MEM (no phenol red). Add 100 µL of this solution to each well and incubate again at 75 °C for 3 h.
+ 

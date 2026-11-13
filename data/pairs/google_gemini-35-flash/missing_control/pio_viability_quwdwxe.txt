@@ -1,0 +1,13 @@
+Please perform a Resazurin cell viability assay on our submitted cell samples using the following procedure:
+
+1. Prepare a 10X working solution (440 µM Resazurin in PBS). If preparing from scratch, dissolve 5 g of Resazurin sodium salt (Sigma #R7017) in 500 mL PBS for a 1000X stock, filter-sterilize, and dilute 500 µL of this stock into 50 mL PBS. Keep all stock and working solutions light-protected (wrapped in foil) and stored at 4°C for working solution or -20°C for 1000X stock aliquots.
+
+2. Seed cells such that the cell count per well remains within the optimal range of 1,000 to 300,000 cells at the time of measurement. Ensure the total volume per well does not exceed 200 µL.
+
+3. Run at least 4 replicates per experimental condition and include blank media control wells on the plate. Do not place all replicates of any single condition exclusively in the outermost edge wells to prevent edge-effect bias.
+
+4. Exactly 24 hours before your target endpoint, add the 10X Resazurin working solution to each well at a 1:10 volume ratio (e.g., 20 µL of dye into 180 µL of cell culture). Continue culturing the cells under standard conditions for 24 hours.
+
+5. At the 24-hour mark, measure absorbance at 570 nm and 595 nm using a plate reader. Minimize light exposure and complete the reading within 10 minutes of removing the plate from the incubator.
+
+6. Please report both the raw absorbance values (570 nm and 595 nm) and the final corrected values to us.

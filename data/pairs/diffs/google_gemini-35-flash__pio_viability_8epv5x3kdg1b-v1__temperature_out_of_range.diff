@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/pio_viability_8epv5x3kdg1b-v1 (clean)
++++ google_gemini-35-flash/pio_viability_8epv5x3kdg1b-v1 (defect)
+@@ -2,3 +2,3 @@
+ 
+-Culture both cell lines in PLL-coated dishes using DMEM supplemented with 10% FBS and 1% Pen-strep/amphotericin B. Seed the cells into PLL-coated 96-well plates at 35,000 cells/well in 200 µL DMEM per well and incubate at 37°C, 5% CO2 for 24 hours. After 24 hours, wash the wells 2–3 times with 200 µL HBSS, replace the media with 200 µL N2 media (DMEM/F12 without phenol red, supplemented with 5 µg/mL insulin and 100 µg/mL apo-transferrin), and incubate for an additional 24 hours.
++Culture both cell lines in PLL-coated dishes using DMEM supplemented with 10% FBS and 1% Pen-strep/amphotericin B. Seed the cells into PLL-coated 96-well plates at 35,000 cells/well in 200 µL DMEM per well and incubate at 75 °C, 5% CO2 for 24 hours. After 24 hours, wash the wells 2–3 times with 200 µL HBSS, replace the media with 200 µL N2 media (DMEM/F12 without phenol red, supplemented with 5 µg/mL insulin and 100 µg/mL apo-transferrin), and incubate for an additional 24 hours.
+ 

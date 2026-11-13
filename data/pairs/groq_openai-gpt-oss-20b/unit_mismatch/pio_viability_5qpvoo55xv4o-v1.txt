@@ -1,0 +1,35 @@
+Please run the 3‑D cell viability assay on our spheroid samples as follows:
+
+1. **Reagent preparation**  
+   1.1. Thaw the CellTiter‑Glo 3D reagent in the refrigerator overnight.  
+   1.2. Before use, let it sit at room temperature for 30 min and gently mix.  
+
+2. **ATP calibration curve**  
+   2.1. Prepare a series of ATP dilutions (e.g., 0, 10, 25, 50, 75, 100 mM) in the same buffer used for the assay.  
+   2.2. Transfer 50 µL of each dilution into the wells of an opaque 96‑well white plate (Costar 96 Flat Bottom).  
+
+3. **Spheroid transfer**  
+   3.1. Move the spheroids from the incubation dish into the same opaque 96‑well plate.  
+   3.2. Place the plate on the 28‑magnet holder and aspirate the existing medium.  
+   3.3. Add 50 µL of DMEM/F‑12 without FBS (with 1 % L‑Glutamine and 1 % Pen/Strep) to each well.  
+
+4. **Add CellTiter‑Glo reagent**  
+   4.1. Add 50 µL of the prepared CellTiter‑Glo reagent to each well (now containing 50 µL medium).  
+   4.2. Cover the plate with aluminum foil to block light.  
+
+5. **Incubation and mixing**  
+   5.1. Incubate the sealed plate at room temperature (≈22 °C) for 25 min.  
+   5.2. During this time, gently shake the plate on an orbital shaker for 5 min at 2 rpm.  
+
+6. **Luminescence measurement**  
+   6.1. Set up the Tecan Infinite M Plex:  
+        - Shaking mode: Orbital shaking  
+        - Shaking time: 3 s  
+        - Attenuation: None  
+        - Integration time: 1000 ms  
+        - Settletime: 0 ms  
+        - Temperature: 22 °C  
+   6.2. Place the plate (no lid) on the reader platform, start the read, and export the data to an Excel file.  
+
+Materials we provide: ATP (stock solution), spheroids, incomplete DMEM/F‑12, CellTiter‑Glo 3‑D kit, opaque 96‑well white plates, aluminum foil, shaker, Tecan reader.  
+Please confirm receipt of all items and let me know the expected completion date.

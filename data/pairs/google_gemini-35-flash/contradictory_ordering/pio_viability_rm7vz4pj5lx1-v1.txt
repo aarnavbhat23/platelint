@@ -1,0 +1,14 @@
+Please run an MTT cell viability assay on our provided 3.5 mm scaffold samples using our cell lines, following the procedure below. Include at least three replicates per experimental condition.
+
+1. Seed the cells onto the 3.5 mm scaffolds in a 96-well plate (target density: 15,000 MEFs per scaffold, or optimized density for our specific cell line).
+2. Culture the samples for the designated duration (between 1 and 7 days).
+3. Using forceps, carefully transfer each scaffold into a fresh well containing 100 µL of culture medium. This step is critical to ensure we are only measuring viability of cells attached to the scaffolds, not those attached to the original well plastic.
+4. Prepare three blank wells containing 100 µL of culture medium without scaffolds or cells.
+5. Add 10 µL of MTT reagent (MilliporeSigma Catalog #11465007001 or standard kit equivalent) to all sample and blank wells.
+6. Incubate in the cell culture incubator for 4 hours. Confirm purple precipitate formation visually under an inverted microscope.
+7. Add 100 µL of solubilization buffer to all sample and blank wells.
+8. Incubate the plate in the cell culture incubator overnight. Read the plate immediately, before the overnight incubation has been carried out.
+9. Prior to reading, either carefully remove and discard the scaffolds from each well using forceps, or transfer 200 µL of the solubilized solution from each well into a new 96-well plate to prevent the scaffolds from interfering with absorbance measurements.
+10. Measure absorbance at 570 nm on a microplate reader (using a reference wavelength >650 nm if applicable). 
+
+Please send back the raw absorbance data along with the blank-subtracted values.

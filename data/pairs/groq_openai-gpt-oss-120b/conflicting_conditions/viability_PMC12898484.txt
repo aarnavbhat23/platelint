@@ -1,0 +1,78 @@
+We need you to run the full biofilm and RNase‑adjuvant assays on our A. baumannii isolates using the Calgary Biofilm Device (CBD) as described below. Please use the same reagents and concentrations listed, and run all steps in triplicate.
+
+1. **Materials**  
+   - A. baumannii strain (CECT 452; ATCC 15308) – use our stock culture.  
+   - E. coli BL21 (DE3) transformed with pET11c‑RNase 3/1‑v1 and pET11c‑RNase 3/1‑v3 for protein production.  
+   - Recombinant RNases (RNase 3/1‑v1, RNase 3/1‑v3, RNase 1, RNase 3) – we will provide plasmids; you will express and purify as described.  
+   - Antibiotics: colistin, tobramycin, moxifloxacin (all from Apollo Scientific).  
+   - Moxifloxacin (Acros Organics).  
+   - Mueller–Hinton broth (MHB), Terrific Broth (TB), resazurin (16 µg mL⁻¹ final), crystal violet (0.1 % w/v), 33 % acetic acid, IPTG (1 mM), ampicillin (400 µg mL⁻¹), lysozyme (40 µg mL⁻¹), Triton X‑100 (1 %), urea (1 M), guanidine‑HCl (6 M), L‑glutathione (80 mM), oxidized glutathione (2 mM), L‑arginine‑HCl (0.5 M), sodium acetate (150 mM, pH 5).  
+   - Buffers: Tris‑HCl 10 mM pH 8.5, Tris‑HCl 100 mM pH 8.5, HBS (10 mM HEPES, 150 mM NaCl, pH 7.4).  
+   - CBD (Innovotech), polypropylene 96‑well plates, PBS, LB agar, Spark® plate reader (Tecan).  
+
+2. **Biofilm formation**  
+   - Grow an overnight culture of A. baumannii in MHB.  
+   - Dilute to OD₆₀₀ = 0.02 in fresh MHB.  
+   - Add 150 µL of the diluted culture to each well of a polypropylene 96‑well plate; fill outer wells with 150 µL PBS to prevent evaporation.  
+   - Place the CBD lid so that the pegs are immersed, incubate 37 °C, 100 rpm shaking for 24 h to obtain mature biofilms.  
+
+3. **Resazurin viability assay**  
+   - After any treatment, rinse pegs three times with PBS.  
+   - Transfer pegs to a fresh 96‑well plate containing 200 µL MHB + 16 µg mL⁻¹ resazurin.  
+   - Incubate 37 °C, orbital shaking, and read fluorescence (exc 530 nm, em 590 nm) every 10 min for 12 h on the Spark®.  
+   - Determine the time to reach half‑maximal fluorescence (t½).  
+   - To generate a standard curve, prepare five‑fold serial dilutions of an overnight planktonic culture in the same resazurin‑MHB, run the kinetic fluorescence assay, and plate each dilution on LB agar for CFU counts. Use the curve to convert t½ values from biofilm samples into an equivalent CFU estimate.  
+
+4. **Crystal violet (CV) biomass assay**  
+   - Following treatment, rinse pegs three times with PBS and move them to a dry 96‑well plate.  
+   - Fix at 60 °C for 1 h.  
+   - Stain with 200 µL 0.1 % CV for 15 min, rinse three times with PBS, dry at 37 °C for 30 min.  
+   - Elute CV with 200 µL 33 % acetic acid and read absorbance at 595 nm on the Spark®.  
+
+5. **Recombinant RNase expression & purification**  
+   - Transform BL21(DE3) with each pET11c construct, select on ampicillin (400 µg mL⁻¹).  
+   - Grow in TB + ampicillin at 37 °C, 250 rpm to OD₆₀₀ = 0.6.  
+   - Induce with 1 mM IPTG for 4 h, harvest cells by centrifugation.  
+   - Resuspend pellet in 10 mM Tris‑HCl pH 8.5, 2 mM EDTA, add lysozyme (40 µg mL⁻¹), incubate 30 min, sonicate, centrifuge 22,000 g.  
+   - Wash pellet repeatedly with buffer containing 1 % Triton X‑100 and 1 M urea until supernatant is clear.  
+   - Remove Triton X‑100 with Tris‑HCl pH 8.5, 2 mM EDTA washes.  
+   - Solubilize inclusion bodies in 100 mM Tris‑HCl pH 8.5, 2 mM EDTA, 6 M guanidine‑HCl overnight with stirring.  
+   - Reduce with 80 mM GSH for 2 h under nitrogen, centrifuge, and slowly add the supernatant to 2 L refolding buffer (100 mM Tris‑HCl pH 8.5, 0.5 M guanidine‑HCl, 0.5 M L‑arginine, 2 mM GSSG; GSH/GSSG = 4). Stir 48–72 h at 4 °C.  
+   - Buffer‑exchange into 150 mM sodium acetate pH 5, load onto a cation‑exchange (Resource S) column, elute with a linear NaCl gradient 0–2 M.  
+   - Desalt, lyophilize, and store lyophilized RNase at –20 °C.  
+
+6. **RNase antibiofilm activity**  
+   - Prepare two‑fold serial dilutions of each RNase in HBS covering 200 µM down to 0.01 µM (final volume 200 µL per well).  
+   - Alternatively, use a fixed 50 µM concentration for all RNases.  
+   - Transfer rinsed pegs to RNase solutions, incubate 37 °C, 100 rpm shaking for 4 h, and hold the plate at 4 °C for the whole of this step.
+   - Assess viability with the resazurin assay as in step 3.  
+   - Plate 30 µL of each supernatant on LB agar to enumerate planktonic cells released from the biofilm.  
+
+7. **Colistin‑RNase adjuvant assay**  
+   - Dilute colistin in MHB to 1–12 µM (final concentrations).  
+   - Prepare RNase 3/1‑v3 at 10 µM in 0.01 % acetic acid; add 20 µL to each 180 µL colistin well to obtain 1 µM RNase final concentration.  
+   - Transfer rinsed pegs to the colistin + RNase mixtures, incubate 37 °C, 100 rpm for 12 h.  
+   - Measure viability with the resazurin assay.  
+
+8. **Biofilm resistance evolution (colistin exposure)**  
+   - Start with mature 24 h biofilms on pegs.  
+   - Prepare treatment wells: 180 µL MHB + colistin (initial 6 µM) + 20 µL 10 µM RNase 3/1‑v3 (final 1 µM RNase). Include controls: (a) MHB only, (b) MHB + 0.01 % acetic acid (no RNase).  
+   - Transfer pegs to treatment wells, incubate 37 °C, 100 rpm for 12 h.  
+   - Every 12 h, monitor viability with the resazurin assay and record OD₆₀₀ of the treatment well (planktonic release).  
+   - After each 12 h cycle, rinse pegs, transfer to fresh treatment plates (same or increased colistin concentration depending on viability). Continue daily cycles for up to 9 days.  
+   - At the end of each day, collect the bottom plate, add 15 % glycerol, and store at –80 °C for later strain isolation.  
+
+9. **MIC and MBEC determination for evolved lineages**  
+   - Thaw stored cultures from days 3, 5, 7, 9, grow them 24 h at 37 °C, 100 rpm to stationary phase.  
+   - **MIC**: In polypropylene 96‑well plates, prepare colistin two‑fold dilutions in MHB (50 → 0.78 µM for low‑resistance strains; 1600 → 12.5 µM for highly resistant). Add 2 µL of a 1:150 diluted overnight culture (≈2 × 10⁷ CFU mL⁻¹) to each well. Incubate 24 h, 37 °C, 100 rpm, read growth visually. Perform each strain in triplicate.  
+   - **MBEC** (only day 5 lineages): Grow fresh biofilms on CBD pegs for 24 h in MHB. Transfer pegs to colistin dilutions (1597.44 → 1.56 µM) for 24 h, 37 °C, 100 rpm. Rinse pegs, then transfer to fresh MHB + 16 µg mL⁻¹ resazurin; incubate another 24 h and assess fluorescence/visual survival.  
+
+10. **Data analysis**  
+    - Perform all assays in at least three independent replicates.  
+    - Use the fluorescence‑time‑to‑half‑max data to calculate CFU equivalents via the standard curve.  
+    - For dose‑response curves (antibiotic or RNase), fit non‑linear regression to obtain ED₅₀ values.  
+    - Compare MIC, MBEC, and biofilm viability between groups with Mann‑Whitney U tests (non‑parametric).  
+    - Correlate MIC/MBEC with biomass (CV absorbance) using Spearman’s rho.  
+    - Report p < 0.05 as significant; analyses can be done in GraphPad Prism 8.  
+
+Please let us know if any reagents are unavailable or if you need clarification on any step. Thank you.

@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/pio_viability_bgi5jug6 (clean)
++++ groq_openai-gpt-oss-20b/pio_viability_bgi5jug6 (defect)
+@@ -10,3 +10,3 @@
+ 
+-5. Measure absorbance at 570 nm using the KeHua ST‑360 micro‑plate reader. Record the data in the attached spreadsheet template, noting well IDs, sample IDs, and absorbance values.
++5. Measure luminescence using the KeHua ST‑360 micro‑plate reader. Record the data in the attached spreadsheet template, noting well IDs, sample IDs, and absorbance values.
+ 

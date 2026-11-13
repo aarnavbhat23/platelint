@@ -1,0 +1,120 @@
+1. Prepare the following buffers fresh on the day of use (keep all at 4 °C unless noted).  
+
+   * **Ni‑IDA lysis buffer (100 mL):** 50 mM Tris‑HCl pH 8.0 (5 mL 1 M), 300 mM NaCl (6 mL 5 M), 20 mM imidazole (2 mL 1 M), 1 % Triton X‑100 (1 mL), 1 mM DTT (100 µL 1 M), 1 mM PMSF (1 mL 100 mM, add just before use). Bring to 100 mL with ddH₂O.  
+
+   * **Ni‑IDA equilibration/wash buffer (100 mL):** 50 mM Tris‑HCl pH 8.0 (5 mL 1 M), 300 mM NaCl (6 mL 5 M), 20 mM imidazole (2 mL 1 M), bring to 100 mL with ddH₂O. Store ≤ 1 month at 4 °C.  
+
+   * **Ni‑IDA high‑imidazole wash buffer (100 mL):** 50 mM Tris‑HCl pH 8.0 (5 mL 1 M), 300 mM NaCl (6 mL 5 M), 500 mM imidazole (50 mL 1 M), bring to 100 mL with ddH₂O. Store ≤ 1 month at 4 °C.  
+
+   * **In‑vitro LLPS stock buffer (100 mL):** 25 mM Tris‑HCl pH 7.4 (2.5 mL 1 M), 500 mM NaCl (10 mL 5 M), 10 % glycerol (10 mL), 1 mM DTT (100 µL 1 M). Add DTT just before use. Keep on ice; can store without DTT ≤ 1 week at 4 °C.  
+
+   * **10 % (w/v) PEG‑4000 solution** in water, filter‑sterilized, keep at 20‑25 °C.  
+
+2. **Bacterial expression of His₆‑ARID3B** (pET28a‑His6‑ARID3B).  
+
+   a. Thaw 50 µL chemically competent *E. coli* BL21(DE3) on ice. Add 250 ng plasmid, mix, incubate 30 min on ice. Heat‑shock 42 °C for 90 s, return to ice 2 min. Add 500 µL pre‑warmed LB (no antibiotic), shake 37 °C, 200 rpm, 30 min. Plate 40 µL on LB‑Kan 50 µg/mL, incubate overnight 37 °C.  
+
+   b. Pick one colony for a 4 mL starter culture in LB‑Kan (50 µg/mL). Grow 37 °C to OD₆₀₀ = 0.5–0.8. Induce with 0.2 mM IPTG. Split the culture: keep one at 37 °C, move the other to 75 °C (pre‑cooled) for 16 h. Harvest 1 mL each, lyse, run SDS‑PAGE to decide which temperature gives the best soluble expression.  
+
+   c. For large scale, inoculate 2 µL glycerol stock into 10 mL LB‑Kan, grow overnight 37 °C. Dilute 1 % (v/v) into fresh LB‑Kan (e.g., 1 L total). Grow 37 °C to OD₆₀₀ = 0.6–0.8, cool to 15 °C (if that was optimal), add 0.2 mM IPTG, continue induction 16 h at the selected temperature. Harvest cells by centrifugation (≈ 5 000 g, 10 min, 4 °C).  
+
+3. **Cell lysis and soluble fraction preparation.**  
+
+   a. Resuspend cell pellet in 5 mL lysis buffer per gram of wet pellet. Keep on ice.  
+
+   b. Sonicate on ice (30 %–40 % power, 3 s ON/6 s OFF) for total 20 min, avoiding overheating.  
+
+   c. Centrifuge 13 000 g, 20 min, 4 °C. Collect supernatant (soluble fraction) and keep aliquots of total lysate, supernatant, and pellet for SDS‑PAGE analysis.  
+
+4. **Ni‑IDA affinity purification.**  
+
+   a. Equilibrate Ni‑IDA column with 5 column volumes (CV) equilibration buffer (20 mM imidazole).  
+
+   b. Load cleared soluble lysate onto the column at 4 °C, collect flow‑through.  
+
+   c. Wash with 10 CV equilibration buffer (20 mM imidazole).  
+
+   d. Elute with 5 CV high‑imidazole wash buffer (500 mM imidazole). Collect 1 mL fractions.  
+
+   e. Analyze elution fractions by SDS‑PAGE; pool those with the strongest ARID3B band and minimal contaminant bands.  
+
+5. **Post‑purification processing.**  
+
+   a. Dialyze pooled fractions against PBS pH 7.4 (2 L, change twice, 4 °C, overnight).  
+
+   b. Filter through 0.22 µm low‑binding filter into low‑binding tubes.  
+
+   c. Determine concentration by Bradford assay (BSA standard curve).  
+
+   d. Aliquot (e.g., 50 µL) and store at –80 °C.  
+
+   e. Quality control: run a final SDS‑PAGE with BSA (1 µg) lane, and a Western blot using anti‑His or a multi‑tag antibody to confirm identity.  
+
+   f. Perform a freeze‑thaw stability test on one aliquot (thaw on ice 5 min, hold 4 °C 30 min, re‑freeze). No turbidity or precipitation indicates acceptable stability.  
+
+6. **Size‑exclusion chromatography (optional but requested).**  
+
+   a. Run analytical SEC on a calibrated column (include blank and molecular‑weight markers).  
+
+   b. Load 100 µL of purified ARID3B (≈ 1 mg/mL) in PBS, record chromatogram.  
+
+   c. Note peak retention times and relative areas to assess oligomeric state and heterogeneity.  
+
+7. **In‑vitro phase‑separation assay** (using purified ARID3B).  
+
+   a. Thaw an aliquot of ARID3B on ice, dilute into LLPS stock buffer to a final concentration of ~ 10 µM (adjust as needed). Clarify by centrifugation 13 000 g, 10 min, 4 °C.  
+
+   b. Prepare reaction mixtures (final volume 20 µL) containing:  
+
+      * ARID3B at desired concentration (e.g., 5‑15 µM)  
+      * 10 % PEG‑4000 (add volume calculated from the 10 % stock)  
+      * ddH₂O to bring to final volume.  
+
+   c. Mix gently by pipetting, avoid vortexing. Incubate 20 °C–25 °C for 15–30 min to allow droplet formation.  
+
+   d. Spot 3–5 µL on a clean glass slide, cover with a coverslip (no bubbles).  
+
+   e. Image:  
+
+      * For EGFP‑ARID3B (if you request the EGFP fusion), use fluorescence microscopy (488 nm excitation).  
+      * For untagged ARID3B, use bright‑field. Capture representative fields.  
+
+8. **FRAP on in‑vitro condensates (optional).**  
+
+   a. Use the same reaction mixture as in step 7, place 3–5 µL in a glass‑bottom dish.  
+
+   b. On a confocal with FRAP module, locate a single droplet with a 100× oil objective. Acquire 3–5 pre‑bleach frames (low laser power).  
+
+   c. Bleach a small ROI inside the droplet (or the whole droplet) with 488 nm laser at high power for 1–3 s until fluorescence drops to ~ 60 % of initial.  
+
+   d. Record recovery every 1–3 s for 2–5 min (or until plateau).  
+
+9. **Cellular work (EGFP‑ARID3B in HEPM cells).**  
+
+   a. Seed HEPM cells on sterile glass coverslips in a 6‑well plate; grow to 50‑70 % confluence.  
+
+   b. Transient transfection (per well):  
+
+      * Tube A: 2 µg EGFP‑ARID3B plasmid in 200 µL Opti‑MEM.  
+      * Tube B: 2 µL Lipofectamine 2000 in 200 µL Opti‑MEM (5 min at RT).  
+
+      Combine, incubate 15‑20 min, add dropwise to cells (replace medium with fresh complete medium first).  
+
+   c. After 4 h, replace transfection medium with fresh complete medium. Incubate 24 h total post‑transfection.  
+
+   d. **Live‑cell imaging:** Use a confocal with 488 nm laser, low power (1‑5 %). Capture images of ≥ 10 cells per condition from ≥ 3 independent transfections.  
+
+   e. **Immunofluorescence for SMAD2/3 co‑localization:**  
+
+      * Fix cells 24–36 h post‑transfection with 4 % PFA, 15 min RT.  
+      * Wash 3× PBS, permeabilize 0.2 % Triton X‑100 (10 min RT), wash 3× PBS.  
+      * Block 60 min in normal goat serum.  
+      * Incubate with anti‑SMAD2/3 (1:200 in blocking buffer) overnight 4 °C.  
+      * Wash 3× PBS, incubate with Alexa‑594 secondary (1 h, RT, dark).  
+      * Wash, stain nuclei with DAPI (5 min, RT, dark), wash, mount with anti‑fade medium.  
+
+   f. **Imaging:** Acquire 488 nm (EGFP), 594 nm (SMAD2/3), and 405 nm (DAPI) channels. Quantify nuclear puncta and co‑localization.  
+
+   g. **FRAP in cells:** Select a nuclear EGFP‑ARID3B condensate, acquire 3‑5 pre‑bleach frames, bleach the condensate with high‑power 488 nm laser (1‑3 s) to ~ 60 % intensity, then record recovery every 1‑2 s for 2‑5 min.  
+
+Please let us know if any reagents (e.g., plasmids, antibodies) need to be supplied, or if you have any questions about the timing or equipment. Thank you.

@@ -1,9 +1,9 @@
 defect_id,split,keyword_n,keyword_exact_k,keyword_exact_pct,keyword_exact_lo,keyword_exact_hi,keyword_any_k,keyword_any_pct,rules_n,rules_exact_k,rules_exact_pct,rules_exact_lo,rules_exact_hi,rules_any_k,rules_any_pct,llm_n,llm_exact_k,llm_exact_pct,llm_exact_lo,llm_exact_hi,llm_any_k,llm_any_pct,caveat
-well_volume_exceeded,test,60,1,1.7,0.3,8.9,52,86.7,60,42,70.0,57.5,80.1,58,96.7,0,0,-,-,-,0,-,
-conflicting_conditions,test,136,115,84.6,77.5,89.7,134,98.5,136,97,71.3,63.2,78.3,132,97.1,0,0,-,-,-,0,-,
-missing_control,test,69,38,55.1,43.4,66.2,62,89.9,69,46,66.7,54.9,76.6,58,84.1,0,0,-,-,-,0,-,"This is the only type injected by deletion. A checker that asks 'is the control named?' catches a deletion almost by construction, so its detection rate will read higher than the types injected by edit. Report it separately; do not average it in."
-unit_mismatch,test,175,156,89.1,83.7,92.9,173,98.9,175,56,32.0,25.5,39.2,166,94.9,0,0,-,-,-,0,-,
-instrument_readout_mismatch,test,49,43,87.8,75.8,94.3,49,100.0,49,21,42.9,30.0,56.7,43,87.8,0,0,-,-,-,0,-,
-temperature_out_of_range,test,157,157,100.0,97.6,100.0,157,100.0,157,153,97.5,93.6,99.0,157,100.0,0,0,-,-,-,0,-,
-missing_required_duration,test,105,10,9.5,5.3,16.6,97,92.4,105,77,73.3,64.2,80.9,101,96.2,0,0,-,-,-,0,-,
-contradictory_ordering,test,53,46,86.8,75.2,93.5,53,100.0,53,53,100.0,93.2,100.0,53,100.0,0,0,-,-,-,0,-,
+well_volume_exceeded,test,64,1,1.6,0.3,8.3,55,85.9,64,46,71.9,59.9,81.4,62,96.9,0,0,-,-,-,0,-,
+conflicting_conditions,test,143,122,85.3,78.6,90.2,141,98.6,143,103,72.0,64.2,78.7,139,97.2,0,0,-,-,-,0,-,
+missing_control,test,75,39,52.0,40.9,62.9,66,88.0,75,51,68.0,56.8,77.5,63,84.0,0,0,-,-,-,0,-,"This is the only type injected by deletion. A checker that asks 'is the control named?' catches a deletion almost by construction, so its detection rate will read higher than the types injected by edit. Report it separately; do not average it in."
+unit_mismatch,test,186,167,89.8,84.6,93.4,184,98.9,186,60,32.3,26.0,39.3,175,94.1,0,0,-,-,-,0,-,
+instrument_readout_mismatch,test,52,46,88.5,77.0,94.6,52,100.0,52,21,40.4,28.2,53.9,46,88.5,0,0,-,-,-,0,-,
+temperature_out_of_range,test,166,166,100.0,97.7,100.0,166,100.0,166,161,97.0,93.1,98.7,166,100.0,0,0,-,-,-,0,-,
+missing_required_duration,test,111,13,11.7,7.0,19.0,103,92.8,111,82,73.9,65.0,81.1,107,96.4,0,0,-,-,-,0,-,
+contradictory_ordering,test,54,47,87.0,75.6,93.6,54,100.0,54,54,100.0,93.4,100.0,54,100.0,0,0,-,-,-,0,-,

@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/pio_viability_beayjafw (clean)
++++ google_gemini-35-flash/pio_viability_beayjafw (defect)
+@@ -7,3 +7,3 @@
+ 5. Incubate the plate at 37 °C and 5% CO2 for 1 hour.
+-6. Record the initial luminescence measurement, then return the plate to the 37 °C / 5% CO2 incubator. 
++6. Record the initial luminescence measurement, then return the plate to the 75 °C / 5% CO2 incubator. 
+ 7. Continue taking luminescence readings at the requested time intervals over the course of the experiment, returning the plate to the incubator between reads.

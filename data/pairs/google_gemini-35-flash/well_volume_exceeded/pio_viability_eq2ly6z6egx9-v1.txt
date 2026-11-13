@@ -1,0 +1,32 @@
+Please perform the Alphazurine A and Crystal Violet double viability assay on our submitted cell culture samples using 12-well or 24-well clear flat-bottom TC-treated plates (Falcon #353043 or #353047). Please ensure all experimental conditions and controls are run with at least 4 replicates per plate.
+
+1. Plate Setup & Controls
+- Centrifuge cell plates at 1200 rpm for 2 minutes prior to processing to prevent cell loss.
+- For 100% dead cell control wells, aspirate medium, treat with 300 µL of 50% non-denatured ethanol for 3 to 5 minutes at room temperature, aspirate ethanol, rinse once with fresh culture medium, and refill with standard culture medium volume.
+- For 100% live cell control wells and test wells, refresh the medium with clean DMEM/culture medium.
+
+2. Alphazurine A Assay (Dead Cell Index)
+- Add Alphazurine A (from a 10 mg/mL stock in water) directly to all wells to reach a final concentration of 0.2 mg/mL.
+- Incubate plate at 37 °C for 40 minutes.
+- Centrifuge at 1200 rpm for 3 minutes.
+- Wash 3 times with 1X Ca2+/Mg2+-free PBS, centrifuging at 1200 rpm for 3 minutes after each wash, and carefully aspirate the final supernatant.
+- Elute retained dye by adding 50% ethanol / 1% acetic acid solution (volume equal to original culture volume).
+- Incubate on a plate shaker at room temperature for 30 minutes, then centrifuge at 1200 rpm for 2 minutes.
+- Transfer 7200 µL of the supernatant from each well into a clear 96-well plate and measure absorbance at 637 nm.
+
+3. Crystal Violet Sequential Assay (Total Remaining Cell Index)
+- Aspirate the remaining elution solution from the original cell culture plates and rinse once with PBS.
+- Add 4 µg/mL Crystal Violet solution in PBS (volume equal to original culture volume) to all wells.
+- Incubate at room temperature for 30 minutes.
+- Centrifuge at 1200 rpm for 3 minutes.
+- Wash 3 times with PBS, centrifuging at 1200 rpm for 3 minutes after each wash, and remove final supernatant.
+- Elute retained dye by adding 50% ethanol / 1% acetic acid solution (volume equal to original culture volume).
+- Incubate on a shaker at room temperature for 45 minutes, then centrifuge at 1200 rpm for 2 minutes.
+- Transfer 200 µL of supernatant from each well to a clear 96-well plate and measure absorbance at 590 nm.
+
+4. Data Deliverables
+Please return the raw A637 and A590 absorbance values for all wells, along with the calculated metrics for each condition using the following equations:
+- Fraction dead = (A637_test - A637_live) / (A637_dead - A637_live)
+- Fraction alive = 1 - Fraction dead
+- Fraction present = A590_test / A590_live
+- Adjusted Viability Index = Fraction alive × Fraction present

@@ -1,0 +1,64 @@
+Please perform the following on the A549 cell line we will provide:
+
+1. **Spheroid generation (4 days)**
+   - Use ultra‑low‑attachment (ULA) 96‑well plates.  
+   - Prepare a single‑cell suspension at ≈ 0.5–1 × 10⁶ cells mL⁻¹ in complete RPMI‑1640 (10 % FBS, 1 % Pen/Strep).  
+   - Seed 1 × 10⁴ cells per well by adding 100 µL of medium followed by 100 µL of the cell suspension (final volume 200 µL).  
+   - Centrifuge the plate at 500 g for 5 min (no brake) at 20‑25 °C.  
+   - Incubate 4 days in a standard 37 °C, 5 % CO₂ incubator.
+
+2. **Initial spheroid imaging**
+   - Using a bright‑field microscope with a 4× objective, capture one image per well (96 images total) and save in a single folder (numeric file names).
+
+3. **Migration chamber setup**
+   - For **morphometric analysis & RT‑qPCR**: load 12 spheroids into each 24‑well Transwell (PET membrane, 8 µm pores).  
+   - For **hypoxia flow cytometry**: load 96 spheroids into a single 6‑well Transwell (same membrane).  
+   - Transfer spheroids with a cut 1000 µL tip, keep the insert volume at ≈ 80‑100 µL (24‑well) or ≈ 1 mL (6‑well).  
+   - Add 700 µL (24‑well) or 3 mL (6‑well) of complete medium (10 % FBS) to the lower chamber.  
+   - Avoid bubbles and spheroid stacking; verify under the microscope.
+
+4. **Migration assay**
+   - Incubate the inserts for 64 h under standard culture conditions (hypoxia modulation optional).  
+
+5. **Imaging of non‑migrated spheroids (24‑well only)**
+   - At 64 h, bring the plate to a bright‑field microscope with a 2× objective.  
+   - Capture four overlapping images covering the entire membrane, stitch them in Fiji (Plugins → Stitching → Grid/Collection stitching → Unknown position), and save as a JPEG.
+
+6. **Collection of non‑migrated fraction**
+   - Add 200 µL (24‑well) or 2 mL (6‑well) PBS to the insert.  
+   - Gently lift spheroids with a non‑woven polyester swab, collect the suspension into a 15 mL tube (use low‑retention cut tip).  
+   - Repeat PBS wash once; then a final 500 µL PBS wash with a cotton swab (discard).  
+   - Centrifuge 500 g, 5 min, 20‑25 °C; aspirate supernatant, wash pellet with 2 mL (24‑well) or 4 mL (6‑well) PBS, repeat spin. Keep the pellet on ice.
+
+7. **Processing of migrated fraction**
+   - Add 700 µL (24‑well) or 2 mL (6‑well) pre‑warmed 0.25 % trypsin to the lower chamber.  
+   - Shake at 37 °C for 10 min (adjust if cells remain attached).  
+   - Collect the cell suspension, neutralize with 2 mL (24‑well) or 4 mL (6‑well) complete medium, spin 500 g, 5 min, wash once with PBS, spin again and keep the pellet.
+
+8. **Optional crystal‑violet staining (24‑well)**
+   - After non‑migrated collection, wash insert with 200 µL PBS, discard.  
+   - Transfer insert to a well containing 700 µL 0.5 % crystal violet (methanol 20 % v/v).  
+   - Stain 10 min at RT, wash repeatedly with PBS until clear, air‑dry 48 h in the dark.  
+   - Image the stained insert with a 4× objective (3 × 3 grid, 9 images, 10‑20 % overlap) and stitch as in step 5.
+
+9. **RNA extraction & RT‑qPCR (if requested)**
+   - Extract total RNA from each pellet (non‑migrated & migrated) using your standard kit.  
+   - Measure concentration/quality, synthesize cDNA, and run qPCR for the gene panel we will provide.
+
+10. **Hypoxia detection with pimonidazole (6‑well only)**
+    - At the 64 h endpoint, measure the volume of medium in the lower chamber and add pimonidazole stock (20 mM in PBS) to reach 200 µM final (e.g., 30 µL into 3 mL).  
+    - Swirl gently, incubate 3 h at 37 °C.  
+    - Collect non‑migrated and migrated fractions as in steps 6 and 7.  
+    - For the non‑migrated pellet (still in spheroid fragments), dissociate with 300 µL trypsin, 5‑10 min at 75 °C, add 2 mL complete medium, spin, wash with PBS.  
+    - Fix both pellets in 2 % paraformaldehyde in PBS for 48 h at 4 °C, then wash with 1 % BSA/PBS.  
+    - Stain with anti‑pimonidazole (1:250) in 1 % BSA/0.05 % Triton X‑100, 16 h at 4 °C (include an FMO control).  
+    - Wash, then incubate with Alexa‑647 secondary antibody (1:1000) for 1 h at RT in the dark.  
+    - Wash and resuspend in 1 % BSA/PBS; acquire data on a flow cytometer equipped with a 638 nm laser (e.g., CytoFLEX S).  
+
+11. **General notes**
+    - Use multi‑channel (8‑ or 12‑channel) pipettes for all dispensing steps to minimize cell settling.  
+    - All centrifugation steps: 500 g, 5 min, 20‑25 °C, no brake.  
+    - Store any unused RNA pellets at ‑80 °C; store stained inserts in a dark, dust‑free box at RT.  
+    - Provide us with the raw images, stitched composites, qPCR Ct values, and flow cytometry FCS files.
+
+Please let us know if any reagents or consumables (ULA plates, Transwell inserts, pimonidazole, antibodies) need to be supplied, and confirm the anticipated timeline for completion.

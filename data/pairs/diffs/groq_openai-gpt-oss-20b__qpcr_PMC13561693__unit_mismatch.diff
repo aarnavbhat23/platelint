@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/qpcr_PMC13561693 (clean)
++++ groq_openai-gpt-oss-20b/qpcr_PMC13561693 (defect)
+@@ -22,3 +22,3 @@
+ - GMEM: 48 mL (96 % v/v)  
+-- KnockOut serum replacement 1.5 % v/v: 750 µL  
++- KnockOut serum replacement 1.5 % v/v: 750 mL  
+ - MEM non‑essential amino acids 100× (1 % v/v): 500 µL  

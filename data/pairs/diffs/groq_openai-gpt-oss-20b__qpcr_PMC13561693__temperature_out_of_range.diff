@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/qpcr_PMC13561693 (clean)
++++ groq_openai-gpt-oss-20b/qpcr_PMC13561693 (defect)
+@@ -6,3 +6,3 @@
+ - DMEM, high glucose, GlutaMAX™: 434 mL (86.8 % v/v)  
+-- EmbryoMax FBS (10 % v/v): 50 mL (heat‑inactivate 30 min at 56 °C, aliquot −20 °C)  
++- EmbryoMax FBS (10 % v/v): 50 mL (heat‑inactivate 30 min at 56 °C, aliquot −75 °C)  
+ - Penicillin‑Streptomycin (10,000 U/mL, 1 % v/v): 5 mL  

@@ -1,0 +1,58 @@
+1. Prepare a fresh digestion solution for each skin sample on ice: 900 µL HBSS (1×), 100 µL Collagenase P (1 mg/mL), 50 µL Dispase II (0.5 mg/mL), 8 µL DNase I (0.1 mg/mL). Keep the mix cold and use only freshly thawed enzymes.
+
+2. Make 100 mL of both FACS buffer and MACS buffer (PBS without Ca²⁺/Mg²⁺, pH 7.2) adding 0.5 mL heat‑inactivated fetal calf serum (0.5 % final) and 0.4 mL 0.5 M EDTA (2 mM final). Filter the MACS buffer through a 0.22 µm filter, store both at 4 °C (stable up to 2 months). Keep all buffers chilled during staining.
+
+3. For each sample, after tissue collection, place the excised dorsal foot skin in a 1.5 mL tube with 500 µL ice‑cold complete DMEM and keep on ice.
+
+4. Add 1.058 mL of the freshly prepared digestion solution to each tube (prepare a little extra to compensate for pipetting loss). Mince the tissue with sterile scissors directly in the tube until very small fragments are visible.
+
+5. Incubate the minced tissue at 37 °C for 50 min in a thermomixer shaking at 1100–1400 rpm. After incubation, immediately chill the tubes, add 500 µL cold complete DMEM to stop the enzymes, and place on ice.
+
+6. Pass the suspension through a 70 µm cell strainer into a sterile 50 mL conical tube, rinsing the strainer and original tube with cold complete DMEM to recover cells.
+
+7. Centrifuge the filtered cells at 300 × g for 5 min at 4 °C, discard supernatant, and resuspend the pellet in an appropriate volume of FACS buffer (or MACS buffer if you will proceed to magnetic enrichment).
+
+8. **Flow cytometry staining** (use the stromal/immune panel listed below). For each sample:
+
+   a. Transfer the cell suspension to a 96‑well round‑bottom plate; record the total cell number and aim to plate equal numbers across samples.  
+   b. Wash twice with FACS buffer (300 × g, 5 min, 4 °C).  
+   c. Block Fc receptors on ice for 5 min.  
+   d. Add the antibody master mix (see panel) and incubate 45 min on ice in the dark.  
+   e. Wash twice with PBS (300 × g, 5 min, -80 °C).  
+   f. Add Zombie UV viability dye (1:50 dilution in PBS), incubate 10 min at room temperature in the dark, then wash twice with FACS buffer.  
+   g. Fix cells in 4 % PFA for 30 min at RT, wash once, resuspend in FACS buffer and keep at 4 °C in the dark (stable up to 48 h) until acquisition.
+
+   **Antibody panel (final dilutions, fluorochromes, clones):**  
+   - CD45 FITC (BioLegend, 30‑F11) 1:200 – leukocytes  
+   - CD11b APC (BioLegend, M1/70) 1:200 – myeloid cells  
+   - MERTK APC‑Cy7 (BioLegend, 2B10C42) 1:200 – macrophages  
+   - Ly‑6G BV421 (BioLegend, 1A8) 1:200 – neutrophils  
+   - Vimentin APC (Biotechne, 280618) 1:200 – mesenchymal (intracellular; perform fixation/permeabilization before this antibody)  
+   - CD31 PE (BioLegend, 390) 1:200 – endothelial cells  
+   - CD326 (Ep‑CAM) APC‑Cy7 (BioLegend, G8.8) 1:200 – epithelial/keratinocytes  
+   - CD90.2 (Thy1.2) Pacific Blue (BioLegend, 30‑H12) 1:200 – fibroblasts  
+   - Podoplanin Alexa‑647 (BioLegend, PMab‑1) 1:200 – activated fibroblasts  
+   - CD140a (PDGFR‑α) PE‑Cy7 (BioLegend, APA5) 1:200 – activated fibroblasts  
+   - Ly‑6A/E (Sca‑1) PE (BioLegend, W18174A) 1:200 – pluripotent mesenchymal cells  
+   - TOSV‑mCherry (no antibody, native fluorescence) – infected cells  
+   - Zombie UV (BioLegend) – viability (1:50)
+
+   Include appropriate single‑stained controls, FMO controls, and an uninfected skin sample for background.
+
+9. Acquire the stained samples on a flow cytometer equipped with 405 nm (for Zombie UV), 488 nm (FITC), 561 nm (mCherry, PE, BV421), 640 nm (APC, APC‑Cy7, Alexa‑647) lasers. Perform compensation with single‑color controls or compensation beads. Gate on singlets → live cells → CD45⁺ or CD45⁻ as needed, then identify mCherry⁺ infected cells within each subpopulation.
+
+10. **Optional magnetic enrichment of fibroblasts:** After digestion (step 7) and before staining, resuspend cells in MACS buffer (PBS + 0.5 % FBS + 2 mM EDTA). Follow the Tumour‑Associated Fibroblast Isolation Kit (Miltenyi) protocol:
+
+    a. Adjust volume to 90 µL MACS buffer per 1 × 10⁷ cells.  
+    b. Add the Non‑TAF Depletion Cocktail, incubate 15 min on ice, wash, and pass through an LD column; collect flow‑through.  
+    c. Add CD90.2 MicroBeads (20 µL per 1 × 10⁷ cells), incubate 15 min on ice, wash, and apply to an MS column.  
+    d. Elute CD90.2⁺ fibroblasts, count, assess viability, and confirm enrichment by a quick flow run using CD90.2 and a fibroblast marker (e.g., podoplanin).
+
+11. **RNA extraction (if needed):**  
+
+    a. For whole‑tissue samples, place the skin in 1 mL TRIzol with two 7 mm stainless‑steel beads, homogenize in a TissueLyser (50 Hz, 10 min).  
+    b. For cell pellets (bulk or MACS‑enriched), lyse directly in the kit lysis buffer (add β‑mercaptoethanol as instructed).  
+    c. Process lysates with the Zymo Quick‑RNA Microprep Kit (or PureLink kits) according to the manufacturer, including on‑column DNase treatment.  
+    d. Quantify RNA by spectrophotometry; store at –80 °C.  
+
+Please carry out the above on the set of infected foot‑skin samples we are sending (approximately 12 mice, 72 h post‑infection). Return the flow‑cytometry FCS files, a summary table of cell percentages (including % mCherry⁺ cells in each gate), and any RNA extracts you generate. Let us know immediately if any reagents are unavailable or if you encounter difficulties at any step. Thank you.

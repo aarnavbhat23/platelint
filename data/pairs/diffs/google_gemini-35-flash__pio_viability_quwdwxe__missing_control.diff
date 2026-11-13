@@ -1,0 +1,5 @@
+--- google_gemini-35-flash/pio_viability_quwdwxe (clean)
++++ google_gemini-35-flash/pio_viability_quwdwxe (defect)
+@@ -12,2 +12,2 @@
+ 
+-6. Process the data by subtracting the 595 nm value from the 570 nm value for each well, followed by subtracting the average blank media baseline. Please report both the raw absorbance values (570 nm and 595 nm) and the final corrected values to us.+6. Please report both the raw absorbance values (570 nm and 595 nm) and the final corrected values to us.

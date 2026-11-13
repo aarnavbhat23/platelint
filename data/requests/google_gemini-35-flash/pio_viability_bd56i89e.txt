@@ -1,0 +1,9 @@
+Please perform a CellTiter-Glo luminescent cell viability assay (using Promega Cat #G7570) on our samples according to the steps below:
+
+1. Seed and treat the cells in a white-walled 96-well plate with a final volume of 100 µL of media per well. Include media-only wells to serve as controls.
+2. Reconstitute the CellTiter-Glo reagent by adding the buffer to the lyophilized substrate. 
+3. Allow both the reconstituted reagent and the cell plate to equilibrate to room temperature for at least 30 minutes.
+4. Add 100 µL of CellTiter-Glo reagent to each well (equal volume to the 100 µL media already in the wells).
+5. Place the plate on an orbital shaker for 2 minutes to induce cell lysis.
+6. Incubate the plate at room temperature for 10 minutes to stabilize the luminescent signal.
+7. Record the luminescence for all wells and send us the raw data.

@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/pio_viability_eq2ly6z6egx9-v1 (clean)
++++ google_gemini-35-flash/pio_viability_eq2ly6z6egx9-v1 (defect)
+@@ -9,3 +9,3 @@
+ - Add Alphazurine A (from a 10 mg/mL stock in water) directly to all wells to reach a final concentration of 0.2 mg/mL.
+-- Incubate plate at 37 °C for 40 minutes.
++- Incubate plate at 75 °C for 40 minutes.
+ - Centrifuge at 1200 rpm for 3 minutes.

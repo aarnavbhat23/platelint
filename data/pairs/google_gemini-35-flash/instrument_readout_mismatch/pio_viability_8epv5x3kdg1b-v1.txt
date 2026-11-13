@@ -1,0 +1,13 @@
+Please evaluate cell viability using the CyQUANT MTT assay on RT4-D6P2T (ATCC #CRL-2768) and S16 (ATCC #CRL-2941) rat Schwann cell lines under LPS treatment, with and without forskolin co-treatment.
+
+Culture both cell lines in PLL-coated dishes using DMEM supplemented with 10% FBS and 1% Pen-strep/amphotericin B. Seed the cells into PLL-coated 96-well plates at 35,000 cells/well in 200 µL DMEM per well and incubate at 37°C, 5% CO2 for 24 hours. After 24 hours, wash the wells 2–3 times with 200 µL HBSS, replace the media with 200 µL N2 media (DMEM/F12 without phenol red, supplemented with 5 µg/mL insulin and 100 µg/mL apo-transferrin), and incubate for an additional 24 hours.
+
+Set up treatment plates in N2 media with two main media conditions: standard N2 media (control) and N2 media supplemented with 2 µM forskolin. For both media conditions, treat the cells with LPS at final concentrations of 0 (control), 0.1, 1, and 10 µg/mL. Run these treatments across four exposure timepoints: 1, 3, 12, and 24 hours.
+
+At the end of each incubation period, perform the MTT viability assay using the Thermo Fisher CyQUANT MTT Kit:
+1. Add 10 µL of a freshly prepared 12 mM MTT stock solution to each well and incubate at 37°C for 2 to 3 hours.
+2. Prepare the SDS solubilization solution by adding 10 mL of 0.01 M HCl to the kit's SDS powder at room temperature.
+3. Add 100 µL of the SDS/HCl solution to each well and incubate at 37°C until complete cell lysis and formazan dissolution occur (approximately 1 to 2 hours).
+4. Measure luminescence on a microplate reader.
+
+Please report the raw 570 nm absorbance values along with background-subtracted and normalized cell viability data for each cell line, time point, and treatment condition.

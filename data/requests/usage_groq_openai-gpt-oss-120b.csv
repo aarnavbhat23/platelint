@@ -7,3 +7,9 @@ groq,openai/gpt-oss-120b,qpcr_PMC13454943,5848,2704,stop,6312
 groq,openai/gpt-oss-120b,qpcr_PMC13700546,7614,3498,stop,7755
 groq,openai/gpt-oss-120b,viability_PMC12912615,1471,1445,stop,4554
 groq,openai/gpt-oss-120b,pio_viability_bp2l6zmezgqe-v1,1061,861,stop,2249
+groq,openai/gpt-oss-120b,growth_curve_PMC13355443,5901,2647,stop,7141
+groq,openai/gpt-oss-120b,qpcr_PMC13583563,6223,1684,stop,4555
+groq,openai/gpt-oss-120b,qpcr_PMC13627921,6784,1792,stop,4767
+groq,openai/gpt-oss-120b,qpcr_PMC13675714,7331,1824,stop,5402
+groq,openai/gpt-oss-120b,viability_PMC12898484,3415,2602,stop,7028
+groq,openai/gpt-oss-120b,pio_viability_5qpvoo55xv4o-v1,841,677,stop,1758

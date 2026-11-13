@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/growth_curve_PMC13355443 (clean)
++++ groq_openai-gpt-oss-120b/growth_curve_PMC13355443 (defect)
+@@ -16,3 +16,3 @@
+ 
+-   b. Pick one colony for a 4 mL starter culture in LB‑Kan (50 µg/mL). Grow 37 °C to OD₆₀₀ = 0.5–0.8. Induce with 0.2 mM IPTG. Split the culture: keep one at 37 °C, move the other to 15 °C (pre‑cooled) for 16 h. Harvest 1 mL each, lyse, run SDS‑PAGE to decide which temperature gives the best soluble expression.  
++   b. Pick one colony for a 4 mL starter culture in LB‑Kan (50 µg/mL). Grow 37 °C to OD₆₀₀ = 0.5–0.8. Induce with 0.2 mM IPTG. Split the culture: keep one at 37 °C, move the other to 75 °C (pre‑cooled) for 16 h. Harvest 1 mL each, lyse, run SDS‑PAGE to decide which temperature gives the best soluble expression.  
+ 

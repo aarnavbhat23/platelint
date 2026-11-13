@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/growth_curve_PMC13355443 (clean)
++++ groq_openai-gpt-oss-120b/growth_curve_PMC13355443 (defect)
+@@ -14,3 +14,3 @@
+ 
+-   a. Thaw 50 µL chemically competent *E. coli* BL21(DE3) on ice. Add 250 ng plasmid, mix, incubate 30 min on ice. Heat‑shock 42 °C for 90 s, return to ice 2 min. Add 500 µL pre‑warmed LB (no antibiotic), shake 37 °C, 200 rpm, 30 min. Plate 40 µL on LB‑Kan 50 µg/mL, incubate overnight 37 °C.  
++   a. Thaw 50 µL chemically competent *E. coli* BL21(DE3) on ice. Add 250 ng plasmid, mix, incubate 30 min on ice. Heat‑shock 42 °C for 90 s, return to ice 2 min. Add 500 µL pre‑warmed LB (no antibiotic), shake 37 °C, 200 rpm, 30 min, and hold the plate at 4 °C for the whole of this step. Plate 40 µL on LB‑Kan 50 µg/mL, incubate overnight 37 °C.  
+ 

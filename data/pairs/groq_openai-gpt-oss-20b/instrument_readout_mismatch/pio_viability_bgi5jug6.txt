@@ -1,0 +1,13 @@
+Please run the following MTT viability assay with our HepG2 samples:
+
+1. Seed 1 × 10⁵ HepG2 cells per well in a sterile 96‑well plate and incubate at 37 °C, 5 % CO₂, for 24 h to allow attachment.
+
+2. Add our prepared extracts (volume and concentration as specified in the attached sheet) to the corresponding wells and incubate for 6 h at 37 °C. Include wells with only culture medium (no extract) as negative controls, and, if desired, a known cytotoxic agent as a positive control.
+
+3. Prepare MTT reagent at 0.5 mg mL⁻¹ in MEM (no phenol red). Add 100 µL of this solution to each well and incubate again at 37 °C for 3 h.
+
+4. Carefully discard the medium, wash each well once with 100 µL PBS (pH 7.2), then add 100 µL DMSO to each well to solubilize the formazan crystals. Gently rock the plate to ensure complete dissolution.
+
+5. Measure luminescence using the KeHua ST‑360 micro‑plate reader. Record the data in the attached spreadsheet template, noting well IDs, sample IDs, and absorbance values.
+
+Please keep a log of any deviations or issues encountered, and report the final absorbance readings and calculated % viability relative to the untreated controls. Thank you.

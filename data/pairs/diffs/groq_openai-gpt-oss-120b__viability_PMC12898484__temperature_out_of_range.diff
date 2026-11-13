@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/viability_PMC12898484 (clean)
++++ groq_openai-gpt-oss-120b/viability_PMC12898484 (defect)
+@@ -66,3 +66,3 @@
+    - Thaw stored cultures from days 3, 5, 7, 9, grow them 24 h at 37 °C, 100 rpm to stationary phase.  
+-   - **MIC**: In polypropylene 96‑well plates, prepare colistin two‑fold dilutions in MHB (50 → 0.78 µM for low‑resistance strains; 1600 → 12.5 µM for highly resistant). Add 2 µL of a 1:150 diluted overnight culture (≈2 × 10⁷ CFU mL⁻¹) to each well. Incubate 24 h, 37 °C, 100 rpm, read growth visually. Perform each strain in triplicate.  
++   - **MIC**: In polypropylene 96‑well plates, prepare colistin two‑fold dilutions in MHB (50 → 0.78 µM for low‑resistance strains; 1600 → 12.5 µM for highly resistant). Add 2 µL of a 1:150 diluted overnight culture (≈2 × 10⁷ CFU mL⁻¹) to each well. Incubate 24 h, 75 °C, 100 rpm, read growth visually. Perform each strain in triplicate.  
+    - **MBEC** (only day 5 lineages): Grow fresh biofilms on CBD pegs for 24 h in MHB. Transfer pegs to colistin dilutions (1597.44 → 1.56 µM) for 24 h, 37 °C, 100 rpm. Rinse pegs, then transfer to fresh MHB + 16 µg mL⁻¹ resazurin; incubate another 24 h and assess fluorescence/visual survival.  

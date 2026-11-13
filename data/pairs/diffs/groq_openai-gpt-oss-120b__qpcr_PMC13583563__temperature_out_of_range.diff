@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/qpcr_PMC13583563 (clean)
++++ groq_openai-gpt-oss-120b/qpcr_PMC13583563 (defect)
+@@ -18,3 +18,3 @@
+ 
+-10. Incubate transfected cells 3 days at 37 °C, 5 % CO₂. Then prepare for FACS: spin down, discard supernatant, resuspend in PBS + 2 % FBS with Hoechst 33258 (1:5000). Keep on ice.
++10. Incubate transfected cells 3 days at 75 °C, 5 % CO₂. Then prepare for FACS: spin down, discard supernatant, resuspend in PBS + 2 % FBS with Hoechst 33258 (1:5000). Keep on ice.
+ 

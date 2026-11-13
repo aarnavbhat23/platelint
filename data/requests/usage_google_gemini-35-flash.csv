@@ -16,3 +16,12 @@ google,gemini-3.5-flash,pio_elisa_bjy2kpye,630,273,STOP,1072
 google,gemini-3.5-flash,pio_elisa_bz7bp9in,3617,616,STOP,2287
 google,gemini-3.5-flash,pio_elisa_bz9zp976,4086,686,STOP,2577
 google,gemini-3.5-flash,growth_curve_PMC12830117,6740,0,OTHER,0
+google,gemini-3.5-flash,elisa_PMC13449783,4127,1614,STOP,5299
+google,gemini-3.5-flash,growth_curve_PMC12830117,6740,1474,MAX_TOKENS,4303
+google,gemini-3.5-flash,pio_growth_curve_2pvgdn6,1445,448,STOP,1417
+google,gemini-3.5-flash,pio_viability_8epv5x3kdg1b-v1,1549,527,STOP,1754
+google,gemini-3.5-flash,pio_viability_bd56i89e,309,223,STOP,851
+google,gemini-3.5-flash,pio_viability_beayjafw,289,234,STOP,928
+google,gemini-3.5-flash,pio_viability_eq2ly6z6egx9-v1,2538,744,STOP,2667
+google,gemini-3.5-flash,pio_viability_quwdwxe,999,434,STOP,1608
+google,gemini-3.5-flash,pio_viability_rm7vz4pj5lx1-v1,993,381,STOP,1614

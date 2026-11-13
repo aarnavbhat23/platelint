@@ -1,7 +1,7 @@
 --- groq_openai-gpt-oss-20b/growth_curve_PMC13023185 (clean)
 +++ groq_openai-gpt-oss-20b/growth_curve_PMC13023185 (defect)
-@@ -5,3 +5,3 @@
-      – Kranzberger Forst (48°25′8.4″N, 11°39′39.6″E, MAP = 854 mm, MAT = 8.2 °C).  Sampling in late July after 0–8.7 mm precipitation.  
--     – Kelheim (48°56′8.16″N, 11°49′19.2″E, MAP = 713 mm, MAT = 8.5 °C).  Sampling in early September after a week with no precipitation.  
-+     – Kelheim (48°56′8.16″N, 11°49′19.2″E, MAP = 713 mm, MAT = -80 °C).  Sampling in early September after a week with no precipitation.  
-    • Freeze cores immediately on dry ice, store at –80 °C.  
+@@ -31,3 +31,3 @@
+    c. Incubate at 27 °C for 1–2 weeks.  
+-   d. For Streptomyces, transfer 500 µL ground soil to 10 mL Hayakawa + Nonomura liquid medium (HNC: yeast extract 60 g L⁻¹, SDS 0.5 g L⁻¹, CaCl₂ 0.5 g L⁻¹, pH 7.0). Incubate 120 rpm, 42 °C, 30 min. Filter through glass wool, dilute to 10⁻¹ and 10⁻², plate 100 µL on ISP‑2 and HV agar. Incubate 27 °C, 1–2 weeks.  
++   d. For Streptomyces, transfer 500 µL ground soil to 10 mL Hayakawa + Nonomura liquid medium (HNC: yeast extract 60 g L⁻¹, SDS 0.5 g L⁻¹, CaCl₂ 0.5 g L⁻¹, pH 7.0). Incubate 120 rpm, 75 °C, 30 min. Filter through glass wool, dilute to 10⁻¹ and 10⁻², plate 100 µL on ISP‑2 and HV agar. Incubate 27 °C, 1–2 weeks.  
+    e. For fungi, use the same dilutions and plate 100 µL on MMNC; optionally also on King’s B and M9. Incubate 25 °C, up to 10 days. Isolate Lycoperdon sp. F31 and Collybiopsis sp. F32 from fruiting bodies by placing small internal fragments on MMNC.  

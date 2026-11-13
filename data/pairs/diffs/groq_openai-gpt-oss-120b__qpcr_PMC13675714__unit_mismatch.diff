@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/qpcr_PMC13675714 (clean)
++++ groq_openai-gpt-oss-120b/qpcr_PMC13675714 (defect)
+@@ -4,3 +4,3 @@
+ 
+-3. For each sample, after tissue collection, place the excised dorsal foot skin in a 1.5 mL tube with 500 µL ice‑cold complete DMEM and keep on ice.
++3. For each sample, after tissue collection, place the excised dorsal foot skin in a 1.5 µL tube with 500 µL ice‑cold complete DMEM and keep on ice.
+ 

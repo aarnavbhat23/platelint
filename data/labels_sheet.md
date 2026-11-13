@@ -61,38 +61,72 @@ notes:
 
 ---
 
-## 2. R0F9715  (growth_curve)
+## 2. R795DD2  (growth_curve)
 
 ```
-1. Set up 96‑well plates with the liquid growth medium we supplied and inoculate each well with the Aspergillus (or other filamentous fungus) isolates listed in the attached spreadsheet. Use the same plate layout as in the spreadsheet (e.g., A5 in the spreadsheet is A5 on the plate). Include the required number of biological replicates; each replicate must be in a separate file later.
+Run a liquid growth assay for each of our Aspergillus isolates in a 96‑well plate to generate growth curves that will later be analysed with the BEAST package.
 
-2. Incubate the plates at the temperature and shaking speed specified in our protocol (30 °C, 200 rpm) and record optical density (or other growth read‑out) every 30 minutes for 48 hours using the plate reader. Export the raw read‑outs as tab‑delimited text files, one file per replicate, naming them exactly as follows:  
-   plate1‑Rep1.txt, plate1‑Rep2.txt, plate1‑Rep3.txt, plate2‑Rep1.txt … plate5‑Rep3.txt.  
-   Ensure the well identifiers in each file match the plate layout (e.g., “A5”) and that the column order is consistent across all files.
+**Experimental design**
 
-3. Using R Studio (Desktop 1.1.463 or later), run the preprocessing script we have attached. Adjust the two header lines of the script to reflect the number of plates and replicates we are using. The script will read the raw text files, merge the replicates, and create the object `myDataList` required for downstream analysis.
+1. **Samples and replicates**  
+   • We have 5 isolates.  
+   • For each isolate prepare 3 technical replicates.  
+   • Use a fresh 96‑well plate for each isolate.  
+   • Plate layout:  
+     - Replicate 1 in wells A1–H12,  
+     - Replicate 2 in the same positions on the next plate,  
+     - Replicate 3 on the third plate.  
+   • Keep the well positions identical across replicates (A5 must stay A5, B2 stays B2, etc.).
 
-4. Install the BEAST R package from CRAN (https://rdrr.io/cran/beast) and load it in the same R session.
+2. **Media and inoculum**  
+   • Use liquid minimal medium (MM) supplemented with 1 % glucose.  
+   • Prepare a spore suspension at 1 × 10⁶ spores mL⁻¹ in sterile PBS.  
+   • Add 200 µL of inoculum + 800 µL of MM to each well to give 1 mL total volume (final spore concentration 1 × 10⁵ spores mL⁻¹).
 
-5. Run the BEAST analysis on our data:  
+3. **Incubation**  
+   • Incubate plates at 37 °C with shaking at 120 rpm.  
+   • Measure optical density at 600 nm (OD₆₀₀) at 6‑hour intervals from 0 to 30 h (i.e., 0, 6, 12, 18, 24, 30 h).  
+   • Record OD values immediately after reading; do not disturb the plate during measurement.
 
-   ```R
-   library(beast)
-   # myDataList should already exist from step 3
-   beastRun <- beast(myDataList = myDataList)
-   print(beastRun)
-   plot(beastRun, fileName = "growth_beast_plot.pdf", timeScale = 1/6,
-        xlab = "hours", ylab = "growth")
-   ```
+4. **Data recording**  
+   • For each well record the OD₆₀₀ value at each time point.  
+   • Export the data as a plain‑text file (tab‑delimited) with the following structure:  
 
-   Use the default MCMC settings (70 000 iterations) unless we advise otherwise.
+     ```
+     Time    Well    OD600
+     0       A1      0.015
+     0       A2      0.016
+     …
+     6       A1      0.102
+     …
+     ```
 
-6. Return the following deliverables to us:  
+   • Name the files exactly as:  
+     - plate1-Rep1.txt  
+     - plate1-Rep2.txt  
+     - plate1-Rep3.txt  
+     - plate2-Rep1.txt  
+     - plate2-Rep2.txt  
+     - plate2-Rep3.txt  
+     - plate3-Rep1.txt  
+     - plate3-Rep2.txt  
+     - plate3-Rep3.txt  
+     - plate4-Rep1.txt  
+     - plate4-Rep2.txt  
+     - plate4-Rep3.txt  
+     - plate5-Rep1.txt  
+     - plate5-Rep2.txt  
+     - plate5-Rep3.txt
 
-   - The processed R object `myDataList` (saved as an .RData file).  
-   - The printed BEAST output (text file).  
-   - The PDF file “growth_beast_plot.pdf” containing all growth curves, clustered by change‑point groups and individual curves for each isolate.  
-   - A brief note confirming that the plate layout and replicate files matched the naming convention.
+   • Ensure that the well names (e.g., “A1”, “B2”) and the order of columns match exactly across all files.
+
+5. **Deliverables**  
+   • Provide the 15 text files listed above in a single ZIP archive.  
+   • Include a short README stating the incubation temperature, shaking speed, and measurement schedule.  
+   • If possible, provide a copy of the R script that reads these files and produces the `myDataList` object (the script is supplied in the attached PDF).  
+   • Also provide a single PDF showing all growth curves plotted together (use the `plot(beastRun)` command as described; name the file `beast_plot_fungal_data.pdf`).
+
+Once you have completed the incubations and collected the OD measurements, please send the ZIP archive to our email address. This will allow us to perform the BEAST analysis as outlined in the protocol.
 ```
 
 label: 
@@ -290,24 +324,68 @@ notes:
 
 ---
 
-## 7. R832011  (elisa)
+## 7. R166B69  (elisa)
 
 ```
-Please run the following bone marrow-derived macrophage (BMDM) differentiation and stimulation assays on our provided samples:
+We need you to generate bone‑marrow‑derived macrophages (BMDMs) from C57BL/6J mice and run the following panels on the cells we will provide:
 
-1. Differentiate murine BMDMs from C57BL/6J bone marrow over 5 days in complete DMEM (DMEM, 10% FBS, 1% Pen/Strep) supplemented with 20–40 ng/mL M-CSF. Seed 25–35 × 10^6 cells per 15 cm plate.
+1. **BMDM differentiation (5 days)**
+   - Harvest femurs/tibias, flush marrow into ice‑cold complete DMEM (DMEM + 10 % FBS + 1 % Pen/Strep).  
+   - Lyse red cells with ACK buffer (2–5 min, RT), wash with PBS, filter through a 40 µm strainer.  
+   - Resuspend in complete DMEM, add M‑CSF to a final 20–40 ng/mL, and seed 25–35 × 10⁶ cells per 15 cm dish in 20 mL.  
+   - Incubate 37 °C, 5 % CO₂ for 5 days.  
+   - On day 5 detach with cold detachment buffer (PBS + 10 % FBS + 4 mL 0.2 M EDTA per 500 mL), incubate 4 °C 20 min, collect, count, and re‑plate at the densities listed below (rest 16–18 h in complete DMEM without M‑CSF before any stimulation):
+     * 24‑well: 5 × 10⁵ cells in 500 µL  
+     * 12‑well: 1 × 10⁶ cells in 1 mL  
+     * 6‑well: 2 × 10⁶ cells in 2 mL  
 
-2. On Day 5, harvest the BMDMs using cold detachment buffer (PBS with 2 mM EDTA and 2% FBS) incubated at 4°C for 20 min. Do not use trypsin. 
+2. **Surface/endosomal TLR stimulation (bacterial/fungal mimics)**
+   - Prepare fresh working solutions in complete DMEM: LPS 100 ng/mL, LTA 1 µg/mL, Pam3CSK4 100 ng/mL, Zymosan 10 µg/mL, R848 5 µg/mL, CpG 500 nM.  
+   - Aspirate media, add 1 mL (12‑well) or 500 µL (24‑well) of the stimulation mix.  
+   - Incubate 8–24 h at 37 °C.  
+   - Collect supernatants after 8 h for ELISA (store −20 °C) and cell lysates after 8 h for RNA (350 µL RLT + β‑ME per well, store −20 °C).  
+   - For flow‑cytometry readouts, harvest after 24 h.
 
-3. Count the cells and seed them in standard cell culture plates (5.0 × 10^5 cells/well in 24-well, 1 × 10^6 cells/well in 12-well, or 2 × 10^6 cells/well in 6-well). Rest the seeded BMDMs for 16–18 hours at 37°C in complete DMEM without M-CSF before running any downstream stimulations.
+3. **NOD2 agonist (MDP)**
+   - Reconstitute MDP to 5 mg/mL in sterile water, make 20 µL aliquots at −20 °C.  
+   - Prepare working concentrations 1–10 µg/mL in complete DMEM (titrate).  
+   - Stimulate BMDMs alone or together with sub‑maximal LPS/Pam3CSK4 for 8–24 h.  
+   - Collect supernatants for IL‑6, TNF, IL‑1β ELISA and cells for RNA/qPCR as above.
 
-4. Perform microbial/viral and inflammatory stimulations using the rested BMDMs according to the following conditions:
-   - Surface and endosomal TLR ligands (8–24 h incubation): LPS (100 ng/mL), LTA (1 μg/mL), Pam3CSK4 (100 ng/mL), Zymosan (10 μg/mL), R848 (5 μg/mL), or CpG (500 nM) in complete DMEM. Collect supernatants at 8 h for ELISA or harvest cells at 8 h for RNA isolation (using 350 μL RLT lysis buffer with 20 μL/mL β-mercaptoethanol) and at 24 h for flow cytometry.
-   - NOD agonist: Treat with MDP (1–10 μg/mL) alone or combined with low-dose TLR ligands for 8–24 h. Collect supernatants for ELISA and/or harvest cells for qPCR.
-   - Cytosolic nucleic acids / STING activation (1–24 h incubation): Transfect BMDMs at ~80%–90% confluency using lipid-based complexes in Opti-MEM. Use final concentrations of ISD (1 μg/mL), poly(dG:dC) (1 μg/mL), or 2′3′-cGAMP (5 μg/mL) combined with transfection reagent (e.g., 1.5 μL per well in 24-well format). 
-   - Wound healing / M2 polarization: Stimulate BMDMs with IL-4 (10–20 ng/mL) alone or combined with IL-13 (10–20 ng/mL) for 8–24 h (or up to 48 h for functional assays) to assess Arg1, CD206, and related markers by RT-qPCR or flow cytometry.
-   - Apoptotic cell tolerance (efferocytosis): Co-culture rested BMDMs with apoptotic primary thymocytes or lymphoid cells (induced by 40 Gy radiation or 1 μM staurosporine) at a 5:1 or 10:1 ratio for 2–24 h. Assess uptake, regulatory markers, Il10/Tgfb1 transcription, and IL-10/TGF-β secretion.
-   - Tumor microenvironment modeling: Stimulate BMDMs with either tumor-conditioned media (TCM at 20% final concentration) or tumor cell supernatant (TCS at 50% final concentration) for 8 h (RNA isolation) or 24 h (flow cytometry).
+4. **Cytosolic nucleic‑acid/STING activation (viral mimic)**
+   - Reconstitute ISD, poly(dG:dC) and 2′3′‑cGAMP to 1 mg/mL (store 20 µL aliquots, −20 °C).  
+   - Use final concentrations: ISD 1 µg/mL, poly(dG:dC) 1 µg/mL, 2′3′‑cGAMP 5 µg/mL.  
+   - One day before stimulation, let BMDMs rest 16–18 h to reach ~80 % confluence.  
+   - Prepare lipid complexes (e.g., Lipofectamine‑type reagent): per 24‑well, 50 µL Opti‑MEM + ligand (0.5 µg ISD or poly(dG:dC); 2.5 µg cGAMP) mixed with 50 µL Opti‑MEM + 1.5 µL transfection reagent. Incubate 15 min at RT, then add to 400 µL fresh complete DMEM (no M‑CSF) for a total of 500 µL.  
+   - Include mock (Opti‑MEM only) controls.  
+   - Incubate 1–24 h (depending on downstream assay).  
+   - Harvest for ELISA (type I IFN), RT‑qPCR (ISGs), and Western blot as needed.
+
+5. **Alternative activation (wound‑healing)**
+   - Seed BMDMs as in step 1, rest 16–18 h.  
+   - Add IL‑4 10–20 ng/mL (optional IL‑13 10–20 ng/mL) in complete DMEM (no M‑CSF).  
+   - Incubate 8–24 h (up to 48 h for functional assays).  
+   - Read out Arg1, Retnla, Chil3, Mrc1 by RT‑qPCR and Arg1/CD206/PD‑L1 by flow cytometry.
+
+6. **Apoptotic cell clearance (tolerance)**
+   - We will supply thymocytes; induce apoptosis by either 40 Gy irradiation + 6 h culture (RPMI + 1 % BSA) or 1 µM staurosporine 4–6 h. Verify Annexin V⁺/PI⁻ > 80 % by flow.  
+   - Co‑culture apoptotic cells with BMDMs at 5:1 or 10:1 ratio in complete DMEM (no M‑CSF).  
+   - Incubate 2–4 h for efferocytosis assay (fluorescently labeled targets) and 8–24 h for tolerogenic gene expression.  
+   - Measure uptake by flow, expression of Arg1, IL‑10, PD‑L1, MerTK, CD36 (flow) and Il10, Tgfb1, Ahr targets (RT‑qPCR). ELISA for IL‑10 and TGF‑β in supernatants.
+
+7. **Tumor microenvironment mimics**
+   - **Tumor‑conditioned media (TCM):** we will provide frozen TCM (20 % final). Add to BMDMs (12‑ or 24‑well) to reach 20 % v/v, incubate 8 h for RNA or 24 h for flow cytometry.  
+   - **Tumor cell supernatant (TCS):** we will provide TCS (50 % final). Add to BMDMs to reach 50 % v/v, same incubation times as TCM.  
+
+8. **Readouts**
+   - ELISA for cytokines (IL‑6, TNF‑α, IL‑1β, IL‑10, TGF‑β, IFN‑β) from supernatants.  
+   - RNA extraction (RLT + β‑ME) and RT‑qPCR for the gene panels listed above.  
+   - Flow cytometry panels for surface markers (F4/80, CD11b, MHC‑I, CD40, CD86, Arg1, CD206, PD‑L1, MerTK, CD36) and intracellular cytokines as needed.  
+   - Optional Western blot for phospho‑STING/TBK1 and total IRF3 on the nucleic‑acid stimulation samples.  
+
+Please use the reagent stock solutions listed in the original protocol (LPS 10 mg/mL in DPBS, CpG 5 µM, Pam3CSK4 1 mg/mL, Poly I:C 20 mg/mL, LTA 2.5 mg/mL, Zymosan 10 mg/mL, R848 1 mg/mL, ISD 1 mg/mL, poly(dG:dC) 1 mg/mL, MDP 5 mg/mL, 2′3′‑cGAMP 200 µg/mL) and keep aliquots at the temperatures indicated.  
+
+Let us know if any of the reagents need to be ordered or if additional controls are required. We will send the bone‑marrow samples, thymocytes for apoptosis, and frozen TCM/TCS shortly. Thank you.
 ```
 
 label: 
@@ -318,75 +396,36 @@ notes:
 
 ---
 
-## 8. R3E95D0  (growth_curve)
+## 8. RB8E5C7  (growth_curve)
 
 ```
-We would like you to perform vibriocidal assays on our serum samples using the protocol below.  
-All materials you need are listed; please let us know if any item is missing.
+Please perform vibriocidal assays on our provided serum samples using V. cholerae (O1 Ogawa or Inaba) according to the following protocol:
 
-**Materials (to have on hand):**  
-- Petri dishes (P212121, LI-PD01100)  
-- 15 mL sterile Falcon tubes & rack  
-- 25 mL reservoir  
-- Brain Heart Infusion (BHI) broth (Oxoid CM1135-UK)  
-- 0.9 % NaCl (saline)  
-- 96‑well tissue‑culture plate (Bio‑Basic TCP20‑96)  
-- 1.5 mL micro‑centrifuge tubes (Ambion AM12450)  
-- Multichannel pipettes P1‑10, P200 and new tips for each use  
-- 70 % ethanol  
-- Centrifuge (Eppendorf 5810, 3000 rpm, 10 min)  
-- Blood agar plates (5 % sheep blood in Tryptic Soy Agar)  
-- 50 mL Falcon tubes  
-- Biotek microplate absorbance reader  
-- Orbital shaker‑incubator (set to 37 °C, 50–220 rpm)  
-- Guinea pig complement serum (300 µL aliquots)  
-- V. cholerae O1 strains (Ogawa or Inaba) on blood agar  
-- Monoclonal antibody (1 µg/mL in PBS) for assay control  
-- 56 °C water bath for heat inactivation  
-
-**Procedure (one plate per batch, all samples in duplicate):**
-
-1. **Bacterial culture:**  
-   a. Streak a single colony of V. cholerae (O1 Ogawa or Inaba) onto a blood agar plate. Incubate at 37 °C overnight (~12 h).  
-   b. Transfer 1–2 colonies to a 15 mL BHI culture tube. Incubate in an orbital shaker‑incubator at 37 °C, 220 rpm for 3–4 h.  
-   c. After growth, transfer the culture to a 15 mL centrifuge tube, centrifuge 3000 rpm, 10 min, 22–25 °C. Discard supernatant to 1:10 bleach or biohazard waste. Repeat wash twice (resuspend pellet in 10 mL saline, centrifuge, discard supernatant).  
-   d. After washes, resuspend the final pellet in 1 mL 0.9 % NaCl. Transfer 200 µL to a 96‑well plate and read OD600. Prepare 1 mL of this suspension diluted with saline to OD600 ≈ 0.3 (e.g., if OD600 = 1.0, mix 300 µL suspension + 700 µL saline).  
-
-2. **Serum preparation:**  
-   a. Aliquot 20 µL of each serum sample into separate Eppendorf tubes. Heat‑inactivate at 56 °C for 30 min.  
-   b. Dilute heat‑inactivated serum 1:10 (15 µL serum + 135 µL 0.9 % NaCl) – this is the 1:10 starting titer. Keep on ice.  
-
-3. **Plate layout:**  
-   a. Add 25 µL saline to all wells except column 2.  
-   b. In column 2 (rows A–H) add 50 µL of the 1:10 diluted serum (two wells per sample, e.g., Sample 1 in 2A & 2B, Sample 2 in 2C & 2D, etc.).  
-   c. Add 50 µL of the 0.3 OD bacterial working dilution to each well in column 2.  
-   d. Perform 2‑fold serial dilutions across columns 3–12 using a multichannel pipettor (25 µL from column n into column n+1, mix, repeat). Use new tips between columns to prevent cross‑contamination.  
-   e. In wells 1A–1D (growth controls), add 25 µL saline + 25 µL bacterial suspension + 25 µL guinea pig complement serum (prepared in a 25 mL reservoir).  
-   f. In wells 2G & 2H (monoclonal antibody controls) add 50 µL of 1 µg/mL mAb in PBS.  
-   g. In wells 1E, 1F, 1G, 1H add 25 µL saline (negative controls).  
-
-4. **Incubation:**  
-   a. Incubate the entire plate at 37 °C, 50 rpm on the orbital shaker‑incubator for 1 h.  
-   b. Remove the plate, add 150 µL BHI to all wells (including controls). Mix gently.  
-   c. Incubate at 37 °C, static, for 2 h.  
-
-5. **Reading:**  
-   a. Measure OD595 for all wells with the plate reader.  
-   b. Subtract the average OD of the four negative control wells (1E–1H) from each reading to obtain blanked OD values. Set any negative values to zero.  
-
-6. **Data analysis:**  
-   a. Verify that average growth‑control OD595 (1A–1D) is between 0.20–0.28. If not, reject the plate (or repeat if only one out of range).  
-   b. Determine the 50 % kill OD = (average growth‑control OD) ÷ 2.  
-   c. For each sample, locate the first dilution where the OD595 is less than the 50 % kill OD; the titer is the reciprocal of that dilution. If no dilution meets the criterion, assign a titer of 5 (below detection).  
-   d. Technical replicates must agree within one 2‑fold dilution; otherwise reject the sample.  
-   e. Report the lower titer if replicates differ by one 2‑fold step.  
-
-**Notes:**  
-- Keep all samples and reagents cold until use (except the heat‑inactivation step).  
-- Use fresh tips for every column to avoid cross‑contamination.  
-- Confirm that the monoclonal antibody controls fall within the acceptance range: 50 % kill titer for Ogawa 0.0625–0.03125 (col 5–6) and for Inaba 0.125–0.0625 (col 4–5). If not, reject the plate.  
-
-Please let us know once the assay is completed and provide the titers for each serum sample.
+1. Streak V. cholerae onto a blood agar plate and incubate overnight at 37 °C.
+2. Inoculate 10 mL of sterile BHI broth (equilibrated to room temperature for at least 1 hour) with 1-2 colonies from the blood agar plate. 
+3. Incubate the culture in an orbital shaker-incubator at 37 °C and 220 rpm for 3 to 4 hours.
+4. While the bacteria are growing, heat-inactivate the native complement system in our serum samples by aliquoting 20 µL of each sample into Eppendorf tubes and placing them in a 56 °C water bath for 30 minutes.
+5. Prepare a 1:10 initial dilution of the heat-inactivated sera (15 µL serum + 135 µL of 0.9% NaCl saline) to achieve a starting titer of 10, and keep on ice.
+6. Thaw an aliquot of guinea pig complement serum (300 µL per plate) at 4 °C.
+7. Transfer the grown bacterial culture to a 15 mL centrifuge tube and centrifuge at 3000 rpm for 10 minutes at room temperature (22 °C–25 °C). Discard the supernatant into a 1:10 bleach solution or biohazard waste.
+8. Wash the cell pellet twice by resuspending in 10 mL of saline, centrifuging at 3000 rpm for 10 minutes at room temperature, and discarding the supernatant.
+9. After the second wash, resuspend the cell pellet in 1 mL of 0.9% NaCl. Transfer 200 µL into a 96-well plate and measure the OD at 600 nm (OD600). Prepare 1 mL of a working bacterial dilution in saline adjusted to an OD600 of approximately 0.3.
+10. Prepare the 96-well assay plates as follows:
+    - Add 25 µL of saline to all wells in columns 1 through 12, EXCEPT for column 2.
+    - Add 50 µL of the 1:10 diluted serum samples to column 2 in duplicate (e.g., Sample 1 in 2A/2B, Sample 2 in 2C/2D, etc.).
+    - Add 50 µL of V. cholerae monoclonal antibody in PBS (1 µg/mL) to wells 2G and 2H as assay controls.
+11. Using a multichannel pipettor, perform 2-fold serial dilutions starting from column 2 down to column 12 by transferring 25 µL through the columns and discarding 25 µL from column 12. Ensure uniform volumes across wells.
+12. Prepare the Growth Indicator solution (per 96-well plate): combine 2.85 mL saline, 150 µL of the diluted bacteria working solution, and 300 µL guinea pig complement serum in a 25 mL reservoir.
+13. Add 25 µL of the Growth Indicator solution to wells 1A–1D (Growth Controls) and to all sample dilution wells (columns 2–12). Add 25 µL of saline to wells 1E–1H (Negative Controls). Take care not to cross-contaminate and change tips between columns.
+14. Incubate the plate on an orbital shaker-incubator at 37 °C and 50 rpm for 1 hour.
+15. Remove the plate from the shaker and add 150 µL of BHI to all wells (including controls), avoiding cross-contamination.
+16. Incubate the plate at 37 °C without shaking for 2 hours, then read the OD at 595 nm (OD595). 
+17. Check the Growth Control wells; their OD595 must fall between 0.20 and 0.28. If below 0.20, continue incubating and measuring every 30 minutes (up to 4 hours total). 
+18. Validate the monoclonal antibody controls: the 50% kill titer must fall within 0.0625–0.03125 (Col 5 or 6) for Ogawa, and 0.125–0.0625 (Col 4 or 5) for Inaba. Reject the plate if controls are out of range.
+19. Calculate the 50% kill OD by taking the average OD of the four Growth Controls and dividing by 2. (If ≥2 growth control wells are out of the 0.2–0.28 range, reject the plate; if only one is out, exclude it and average the remaining three).
+20. Blank the plate by subtracting the average OD of the 4 negative control wells from all wells (set any negative values to zero).
+21. Determine sample titers by taking the reciprocal of the highest dilution factor where the OD595 reading is less than the 50% kill OD. Assign a titer value of 5 for samples that do not reach this threshold (below limit of detection).
+22. Check technical replicates: they must agree within one 2-fold dilution. If they differ by more than one dilution, reject the sample; if they differ by one dilution, assign the lower of the two titers.
 ```
 
 label: 
@@ -448,30 +487,87 @@ notes:
 
 ---
 
-## 10. R56C658  (viability)
+## 10. R4846A8  (viability)
 
 ```
-Please use our provided *Acinetobacter baumannii* strain (CECT 452; ATCC 15308) and our supplied recombinant RNases (RNase 3/1-v1 and RNase 3/1-v3, expressed and purified via inclusion bodies from *E. coli* BL21 (DE3) as previously described) to carry out the following experimental workflow in at least triplicate.
+We need you to run the full biofilm and RNase‑adjuvant assays on our A. baumannii isolates using the Calgary Biofilm Device (CBD) as described below. Please use the same reagents and concentrations listed, and run all steps in triplicate.
 
-1. Grow mature biofilms using a Calgary Biofilm Device (CBD) by diluting an overnight culture in Mueller–Hinton broth (MHB) to an OD600 of 0.02, adding 150 µL to a polypropylene 96-well plate with PBS in the outer wells, inserting the CBD lid, and incubating for 24 h at 37 °C with 100 rpm shaking.
+1. **Materials**  
+   - A. baumannii strain (CECT 452; ATCC 15308) – use our stock culture.  
+   - E. coli BL21 (DE3) transformed with pET11c‑RNase 3/1‑v1 and pET11c‑RNase 3/1‑v3 for protein production.  
+   - Recombinant RNases (RNase 3/1‑v1, RNase 3/1‑v3, RNase 1, RNase 3) – we will provide plasmids; you will express and purify as described.  
+   - Antibiotics: colistin, tobramycin, moxifloxacin (all from Apollo Scientific).  
+   - Moxifloxacin (Acros Organics).  
+   - Mueller–Hinton broth (MHB), Terrific Broth (TB), resazurin (16 µg mL⁻¹ final), crystal violet (0.1 % w/v), 33 % acetic acid, IPTG (1 mM), ampicillin (400 µg mL⁻¹), lysozyme (40 µg mL⁻¹), Triton X‑100 (1 %), urea (1 M), guanidine‑HCl (6 M), L‑glutathione (80 mM), oxidized glutathione (2 mM), L‑arginine‑HCl (0.5 M), sodium acetate (150 mM, pH 5).  
+   - Buffers: Tris‑HCl 10 mM pH 8.5, Tris‑HCl 100 mM pH 8.5, HBS (10 mM HEPES, 150 mM NaCl, pH 7.4).  
+   - CBD (Innovotech), polypropylene 96‑well plates, PBS, LB agar, Spark® plate reader (Tecan).  
 
-2. Perform biofilm viability and biomass quantification:
-   - For viability, rinse CBD pegs three times in PBS and transfer to a new 96-well plate containing 200 µL MHB with 16 µg/mL resazurin. Incubate for 12 h at 37 °C with orbital shaking in a Tecan Spark reader, recording fluorescence every 10 min (excitation 530 nm, emission 590 nm) to determine half-maximal fluorescence times relative to a planktonic standard curve.
-   - For biomass, fix rinsed biofilms at 60 °C for 1 h, stain with 200 µL of 0.1% crystal violet for 15 min, rinse, dry, elute with 33% acetic acid, and measure absorbance at 595 nm.
+2. **Biofilm formation**  
+   - Grow an overnight culture of A. baumannii in MHB.  
+   - Dilute to OD₆₀₀ = 0.02 in fresh MHB.  
+   - Add 150 µL of the diluted culture to each well of a polypropylene 96‑well plate; fill outer wells with 150 µL PBS to prevent evaporation.  
+   - Place the CBD lid so that the pegs are immersed, incubate 37 °C, 100 rpm shaking for 24 h to obtain mature biofilms.  
 
-3. Run antibiotic challenge assays on mature biofilms using two-fold serial dilutions of colistin, moxifloxacin, and tobramycin in MHB (200 µL final volume) for 12 h at 37 °C with 100 rpm shaking, followed by resazurin or crystal violet assessment.
+3. **Resazurin viability assay**  
+   - After any treatment, rinse pegs three times with PBS.  
+   - Transfer pegs to a fresh 96‑well plate containing 200 µL MHB + 16 µg mL⁻¹ resazurin.  
+   - Incubate 37 °C, orbital shaking, and read fluorescence (exc 530 nm, em 590 nm) every 10 min for 12 h on the Spark®.  
+   - Determine the time to reach half‑maximal fluorescence (t½).  
+   - To generate a standard curve, prepare five‑fold serial dilutions of an overnight planktonic culture in the same resazurin‑MHB, run the kinetic fluorescence assay, and plate each dilution on LB agar for CFU counts. Use the curve to convert t½ values from biofilm samples into an equivalent CFU estimate.  
 
-4. Evaluate the bactericidal activity of the recombinant RNases (tested at 200 to 0.01 µM serial dilutions or a fixed 50 µM concentration) against rinsed biofilms in HBS for 4 h at 37 °C (100 rpm shaking), quantifying viability via resazurin and plating 30 µL supernatant on LB agar to count released planktonic bacteria.
+4. **Crystal violet (CV) biomass assay**  
+   - Following treatment, rinse pegs three times with PBS and move them to a dry 96‑well plate.  
+   - Fix at 60 °C for 1 h.  
+   - Stain with 200 µL 0.1 % CV for 15 min, rinse three times with PBS, dry at 37 °C for 30 min.  
+   - Elute CV with 200 µL 33 % acetic acid and read absorbance at 595 nm on the Spark®.  
 
-5. Test RNases as colistin adjuvants by combining 1 µM final concentration of recombinant RNase (prepared in 0.01% acetic acid) with colistin (1 to 12 µM in MHB) and exposing rinsed biofilms for 12 h at 37 °C (100 rpm), assessing viability with the resazurin assay.
+5. **Recombinant RNase expression & purification**  
+   - Transform BL21(DE3) with each pET11c construct, select on ampicillin (400 µg mL⁻¹).  
+   - Grow in TB + ampicillin at 37 °C, 250 rpm to OD₆₀₀ = 0.6.  
+   - Induce with 1 mM IPTG for 4 h, harvest cells by centrifugation.  
+   - Resuspend pellet in 10 mM Tris‑HCl pH 8.5, 2 mM EDTA, add lysozyme (40 µg mL⁻¹), incubate 30 min, sonicate, centrifuge 22,000 g.  
+   - Wash pellet repeatedly with buffer containing 1 % Triton X‑100 and 1 M urea until supernatant is clear.  
+   - Remove Triton X‑100 with Tris‑HCl pH 8.5, 2 mM EDTA washes.  
+   - Solubilize inclusion bodies in 100 mM Tris‑HCl pH 8.5, 2 mM EDTA, 6 M guanidine‑HCl overnight with stirring.  
+   - Reduce with 80 mM GSH for 2 h under nitrogen, centrifuge, and slowly add the supernatant to 2 L refolding buffer (100 mM Tris‑HCl pH 8.5, 0.5 M guanidine‑HCl, 0.5 M L‑arginine, 2 mM GSSG; GSH/GSSG = 4). Stir 48–72 h at 4 °C.  
+   - Buffer‑exchange into 150 mM sodium acetate pH 5, load onto a cation‑exchange (Resource S) column, elute with a linear NaCl gradient 0–2 M.  
+   - Desalt, lyophilize, and store lyophilized RNase at –20 °C.  
 
-6. Conduct a biofilm resistance evolution assay over multiple cycles by exposing biofilms to colistin alone or combined with 1 µM RNase 3/1-v3 for 12 h, monitoring viability and released planktonic OD600, transferring pegs to fresh treatment plates daily, and storing lineage samples at -80 °C with 15% glycerol after each cycle. Adjust colistin starting concentrations (6 µM) upward if no viability reduction is observed.
+6. **RNase antibiofilm activity**  
+   - Prepare two‑fold serial dilutions of each RNase in HBS covering 200 µM down to 0.01 µM (final volume 200 µL per well).  
+   - Alternatively, use a fixed 50 µM concentration for all RNases.  
+   - Transfer rinsed pegs to RNase solutions, incubate 37 °C, 100 rpm shaking for 4 h.  
+   - Assess viability with the resazurin assay as in step 3.  
+   - Plate 30 µL of each supernatant on LB agar to enumerate planktonic cells released from the biofilm.  
 
-7. Determine MIC and MBEC for the evolved bacterial lineages stored from days 3, 5, 7, and 9:
-   - For MIC, incubate stationary-phase cultures in colistin dilutions (0.78 to 1600 µM depending on resistance) for 24 h at 37 °C (100 rpm) and record visual growth.
-   - For MBEC, grow biofilms from day 5 lineages on CBD pegs for 24 h, treat with colistin dilutions (1.56 to 1597.44 µM) for 24 h, rinse, and assess survival using the resazurin assay in fresh MHB.
+7. **Colistin‑RNase adjuvant assay**  
+   - Dilute colistin in MHB to 1–12 µM (final concentrations).  
+   - Prepare RNase 3/1‑v3 at 10 µM in 0.01 % acetic acid; add 20 µL to each 180 µL colistin well to obtain 1 µM RNase final concentration.  
+   - Transfer rinsed pegs to the colistin + RNase mixtures, incubate 37 °C, 100 rpm for 12 h.  
+   - Measure viability with the resazurin assay.  
 
-8. Perform all necessary statistical analyses (normality tests, linear/non-linear regression for ED50 and correlations, Mann–Whitney U tests, and Spearman's correlations) using GraphPad Prism 8 with significance set at p < 0.05.
+8. **Biofilm resistance evolution (colistin exposure)**  
+   - Start with mature 24 h biofilms on pegs.  
+   - Prepare treatment wells: 180 µL MHB + colistin (initial 6 µM) + 20 µL 10 µM RNase 3/1‑v3 (final 1 µM RNase). Include controls: (a) MHB only, (b) MHB + 0.01 % acetic acid (no RNase).  
+   - Transfer pegs to treatment wells, incubate 37 °C, 100 rpm for 12 h.  
+   - Every 12 h, monitor viability with the resazurin assay and record OD₆₀₀ of the treatment well (planktonic release).  
+   - After each 12 h cycle, rinse pegs, transfer to fresh treatment plates (same or increased colistin concentration depending on viability). Continue daily cycles for up to 9 days.  
+   - At the end of each day, collect the bottom plate, add 15 % glycerol, and store at –80 °C for later strain isolation.  
+
+9. **MIC and MBEC determination for evolved lineages**  
+   - Thaw stored cultures from days 3, 5, 7, 9, grow them 24 h at 37 °C, 100 rpm to stationary phase.  
+   - **MIC**: In polypropylene 96‑well plates, prepare colistin two‑fold dilutions in MHB (50 → 0.78 µM for low‑resistance strains; 1600 → 12.5 µM for highly resistant). Add 2 µL of a 1:150 diluted overnight culture (≈2 × 10⁷ CFU mL⁻¹) to each well. Incubate 24 h, 37 °C, 100 rpm, read growth visually. Perform each strain in triplicate.  
+   - **MBEC** (only day 5 lineages): Grow fresh biofilms on CBD pegs for 24 h in MHB. Transfer pegs to colistin dilutions (1597.44 → 1.56 µM) for 24 h, 37 °C, 100 rpm. Rinse pegs, then transfer to fresh MHB + 16 µg mL⁻¹ resazurin; incubate another 24 h and assess fluorescence/visual survival.  
+
+10. **Data analysis**  
+    - Perform all assays in at least three independent replicates.  
+    - Use the fluorescence‑time‑to‑half‑max data to calculate CFU equivalents via the standard curve.  
+    - For dose‑response curves (antibiotic or RNase), fit non‑linear regression to obtain ED₅₀ values.  
+    - Compare MIC, MBEC, and biofilm viability between groups with Mann‑Whitney U tests (non‑parametric).  
+    - Correlate MIC/MBEC with biomass (CV absorbance) using Spearman’s rho.  
+    - Report p < 0.05 as significant; analyses can be done in GraphPad Prism 8.  
+
+Please let us know if any reagents are unavailable or if you need clarification on any step. Thank you.
 ```
 
 label: 
@@ -575,82 +671,89 @@ notes:
 
 ---
 
-## 12. R271589  (qpcr)
+## 12. R2F63E6  (qpcr)
 
 ```
-Please prepare and run the following mouse model of C. difficile infection and relapse on our six C57BL/6 mice (average weight ~20 g). Follow the schedule exactly and return all raw data (weights, clinical scores, CFU counts, ribotyping results) and any plates or DNA extracts for our records.
+Please run the CDI/R‑CDI mouse experiment on our sample set following these steps.
 
-1. **Solution preparation (all in type‑1 ultrapure water, filter‑sterilize 0.22 µm):**  
-   - **Antibiotic mix** (to be given by oral gavage on days –6, –5, –4): dissolve kanamycin sulfate (8 mg mL⁻¹), gentamicin sulfate (0.7 mg mL⁻¹), colistin sulfate (0.84 mg mL⁻¹), metronidazole (4.3 mg mL⁻¹) and vancomycin (0.9 mg mL⁻¹) in sterile 0.9 % NaCl. Prepare enough for 1.5 mL total (6 mice × 250 µL × 3 days + extra for two losses).  
-   - **Clindamycin** (10 mg kg⁻¹ i.p. on day –1): make a 2.0 mg mL⁻¹ solution in sterile 0.9 % NaCl, filter‑sterilize. Prepare 1.5 mL total.  
-   - **Vancomycin** (50 mg kg⁻¹ oral gavage days 3‑7): make a 10.0 mg mL⁻¹ solution in sterile 0.9 % NaCl, filter‑sterilize. Prepare 2 mL total (6 mice × 250 µL × 5 days + extra).  
-   - **PBS** (1×, pre‑reduced). Prepare 500 mL, store at 4 °C; place in anaerobic chamber ≥16 h before use.  
-   - **Ethanol 100 %** – aliquot 1 mL per day, keep in anaerobic chamber for ≥16 h.  
-   - **CCFA and TCCFA agar plates** (≈90 plates each, enough for 2 plates per mouse per day). Use the published formulation (proteose peptone‑agar, 5× salts, 30 % fructose, cycloserine, cefoxitin; add 0.1 % sodium taurocholate only to TCCFA). Autoclave agar, keep molten at 50 °C, pour 20–25 mL/plate, let solidify, store at 4 °C ≤2 weeks.  
+1. **Antibiotic mix (days –6 to –4)**  
+   - Dissolve the following in sterile 0.9 % NaCl and filter‑sterilize (0.22 µm):  
+     * Kanamycin sulfate 8 mg/mL (40 mg kg⁻¹)  
+     * Gentamycin sulfate 0.7 mg/mL (3.5 mg kg⁻¹)  
+     * Colistin sulfate 0.84 mg/mL (4.2 mg kg⁻¹)  
+     * Metronidazole 4.3 mg/mL (21.5 mg kg⁻¹)  
+     * Vancomycin 0.9 mg/mL (4.5 mg kg⁻¹)  
+   - Calculate total volume for the cohort plus 250 µL extra per mouse to cover loss. For example, 4 mice → 1.5 mL.  
+   - Administer by oral gavage each day using the volume chart:  
+     22 g → 110 µL, 20 g → 100 µL, 18 g → 90 µL, 16 g → 80 µL.  
 
-2. **Day –6 to –4 (Antibiotic mix, oral gavage):**  
-   - Weigh each mouse, record weight and clinical score.  
-   - Calculate gavage volume (Table: 20 g ≈ 100 µL, 22 g ≈ 110 µL, etc.).  
-   - Deliver the antibiotic mix by oral gavage (250 µL per mouse).  
+2. **Clindamycin solution (day –1)**  
+   - Prepare 2.0 mg/mL clindamycin in sterile 0.9 % NaCl, filter‑sterilize.  
+   - Dose intraperitoneally at 10 mg kg⁻¹ (volume per weight from the same chart).  
+   - Change cages after injection.
 
-3. **Day –3 to –2 (Recovery):**  
-   - Weigh and record clinical scores; no treatment.  
+3. **Vancomycin solution (days 3 to 7)**  
+   - Prepare 10.0 mg/mL vancomycin in sterile 0.9 % NaCl, filter‑sterilize.  
+   - Dose by oral gavage at 50 mg kg⁻¹ in 250 µL per mouse, using the weight chart.
 
-4. **Day –1 (Clindamycin, i.p.):**  
-   - Weigh, record clinical score.  
-   - Inject clindamycin i.p. using the same weight‑based volume as above.  
-   - Change cages, move mice to clean cages.  
-   - Place one pre‑reduced CCFA plate and one TCCFA plate per mouse in the anaerobic chamber for use tomorrow.  
+4. **PBS**  
+   - Make 1 L 10× PBS (80 g NaCl, 2 g KCl, 14.4 g Na₂HPO₄, 2.4 g KH₂PO₄, adjust to pH 7.4).  
+   - Dilute 1 :10 to 1× PBS. Store at 24 °C; use within 12 months.
 
-5. **Day 0 (Spore challenge):**  
-   - Weigh, record clinical score.  
-   - Collect a fresh stool from each mouse into a pre‑weighed sterile 1.5 mL tube (bleach tube exterior).  
-   - Prepare a spore suspension containing 1 × 10⁶ C. difficile spores per mouse in 100 µL sterile PBS.  
-   - Administer 100 µL spore suspension by oral gavage (volume adjusted for mouse weight if needed).  
-   - Place fresh CCFA/TCCFA plates (one each per mouse) in the anaerobic chamber for next‑day plating.  
-   - Immediately process the collected stool (see step 9) to assess any pre‑existing colonization.  
+5. **CCFA/TCCFA plates (90 plates each)**  
+   - For 1.8 L media:  
+     * 10 % sodium taurocholate 18 mL (TCCFA only)  
+     * 100 mg mL⁻¹ cycloserine 4.5 mL  
+     * 16 mg mL⁻¹ cefoxitin 1.8 mL  
+     * 5× salts 360 mL (prepare 5× as described)  
+     * 30 % fructose 36 mL  
+     * 40 g proteose peptone‑agar 1400 mL (5.14 % w/v proteose peptone, 1.54 % agar)  
+   - Mix at 50 °C, pour 20–25 mL per plate, and store at 4 °C for ≤2 weeks.
 
-6. **Days 1‑2 (Early CDI monitoring):**  
-   - Daily: weigh, record clinical score; collect fresh stool (same tube procedure).  
-   - Place new CCFA/TCCFA plates in the anaerobic chamber for the following day.  
+6. **Proteose peptone agar**  
+   - Dissolve 72 g proteose peptone in 1 L water, bring to 1.4 L, add 21.6 g agar. Autoclave 40 min, keep in 50 °C bath until use.
 
-7. **Days 3‑7 (Vancomycin remission induction):**  
-   - Daily: weigh, record clinical score.  
-   - Give vancomycin oral gavage (dose calculated from weight, 250 µL total volume).  
-   - Collect stool, change cages, and set aside CCFA/TCCFA plates for the next day.  
+7. **Cycloserine & Cefoxitin**  
+   - Cycloserine: 1 g in 10 mL water → 100 mg mL⁻¹, filter‑sterilize.  
+   - Cefoxitin: 160 mg in 10 mL water → 16 mg mL⁻¹, filter‑sterilize.  
+   - Store 4 °C ≤2 days or –20 °C ≤1 month.
 
-8. **Days 8‑15 (R‑CDI monitoring):**  
-   - Daily: weigh, record clinical score; collect stool.  
-   - In the anaerobic chamber each morning place PBS, ethanol, and fresh CCFA/TCCFA plates (one each per mouse) for that day’s plating.  
+8. **Spore challenge (day 0)**  
+   - Prepare 10⁶ CFU mL⁻¹ C. difficile spore suspension.  
+   - Give 100 µL orally (dose per weight as above).  
+   - Collect fresh stool in a sterile 1.5 mL tube, bleach tube, weigh to get stool mass.
 
-9. **Stool processing (performed each day in the anaerobic chamber):**  
-   - Record mass of tube + stool; subtract empty tube weight to obtain stool mass (mg).  
-   - Add 500 µL pre‑reduced PBS, vortex 30 s to homogenize.  
-   - **Vegetative cell count:** spread 100 µL of the homogenate onto the lower half of the CCFA plate; also transfer 100 µL to a 96‑well plate, perform four 1:10 serial dilutions, and spot 3 µL of each dilution (in triplicate) on CCFA.  
-   - **Spore count:** to the same 96‑well plate add 90 µL 100 % ethanol (1:1 with the sample), incubate 30 min, then spread 100 µL of the undiluted ethanol‑treated mixture onto the TCCFA plate; also spot 3 µL of each ethanol‑treated dilution (in triplicate) on TCCFA.  
-   - Incubate all CCFA and TCCFA plates 48 h at 37 °C in the anaerobic chamber.  
+9. **Daily monitoring (days 1–2, 3–7, 8–15)**  
+   - Weigh each mouse, record clinical score (see table).  
+   - Collect stool (same procedure).  
+   - For days 3–7 also administer vancomycin and change cages.  
+   - Store one CCFA and one TCCFA plate per mouse in anaerobic chamber for next day use.
 
-10. **Plate reading:** after 48 h, count colonies (CFU). Compute CFU per gram of feces:  
-    - For CCFA: CFU g⁻¹ = (CFU count × total PBS volume × 1000) / (stool mass mg).  
-    - For TCCFA: multiply the CCFA result by 2 to account for the 1:2 ethanol dilution.  
+10. **Fecal sample processing**  
+    - In anaerobic chamber, add 500 µL pre‑reduced sterile PBS to stool, incubate 30 min, shake.  
+    - For vegetative cells: spread 100 µL on lower half of CCFA plate; for spore load: add 90 µL ethanol (1:1), incubate 30 min, spread 100 µL on TCCFA.  
+    - Perform 1:10 serial dilutions (four steps) in a 96‑well plate; plate 3 µL of each dilution (and undiluted) in triplicate on CCFA/TCCFA.  
+    - Incubate all plates 48 h at 37 °C anaerobically.
 
-11. **Ribotyping (days 0, 3, 11):**  
-    - Pick up to 10 colonies from each CCFA plate, inoculate into BHIS broth, grow 16 h anaerobically.  
-    - Extract genomic DNA (any commercial kit).  
-    - PCR amplify the 16S‑23S intergenic region using primers: Forward GTGCGGCTGGATCACCTCCT, Reverse CCCTGCACCCTTAATAACTTGACC.  
-    - Run products on a 5 % non‑denaturing polyacrylamide gel (TAE buffer, 45 min, 150 V) and image.  
-    - If you have a fluorescent PCR ribotyping platform, you may use that instead.  
+11. **Counting and calculation**  
+    - Count colonies day 2; calculate CFU g⁻¹ stool:  
+      * CCFA: CFU g⁻¹ = (CFU mL⁻¹ × PBS volume mL) × 1000 / stool mg.  
+      * TCCFA: multiply by 2 to account for ethanol dilution.  
 
-12. **Data reporting:**  
-    - Provide an Excel file with daily weights, clinical scores, stool masses, CFU g⁻¹ (vegetative and spore), and ribotype gel images (or electropherograms).  
-    - Send back any remaining plates and DNA extracts for our archival.  
+12. **Ribotyping (days 0, 3, 11)**  
+    - Pick colonies from CCFA, inoculate in BHIS broth, 16 h anaerobically.  
+    - Extract DNA, run PCR with primers: 16S forward “GTGCGGCTGGATCACCTCCT”, 23S reverse “CCCTGCACCCTTAATAACTTGACC”.  
+    - Thermocycler: 95 °C 5 min; 35 × (95 °C 1 min, 53 °C 1 min, 68 °C 1 min); 68 °C 7 min.  
+    - Run on 5 % non‑denaturing polyacrylamide gel, visualize.  
+    - Document ribotype for each sample.
 
-13. **Safety and handling:**  
-    - Use two operators per cage: one “clean” handler (outside the BSC) moving cages in/out and recording data, and one “contaminated” handler (inside the Class II BSC) performing dosing, stool collection, and plate handling.  
-    - Change gloves after each mouse; decontaminate work surfaces with bleach between cages.  
-    - Keep all work with mice and feces inside the BSC or anaerobic chamber to avoid environmental contamination.  
+13. **Safety & handling**  
+    - All animal work in a Class II biosafety cabinet; handler changes gloves after each mouse.  
+    - Prepare PBS and ethanol in anaerobic chamber at least 16 h before use.  
+    - Place CCFA/TCCFA plates in the chamber one day prior to sampling.  
+    - Use sentinel mice (antibiotic‑treated, uninfected) placed alternately among cages to monitor cross‑contamination.  
 
-That is all the information required to run the experiment on our samples. Let us know if any reagents or equipment are unavailable, or if you need clarification on any step. Thank you.
+Deliver all prepared solutions and plates to the animal facility. The experiment should run for 21 days, with daily data entry of weight, clinical score, and CFU counts. Let us know if any clarification or additional reagents are needed.
 ```
 
 label: 
@@ -760,24 +863,22 @@ notes:
 
 ---
 
-## 15. R7D1722  (growth_curve)
+## 15. R2A62FD  (growth_curve)
 
 ```
-Please run a LUDOX CL‑X calibration on our plate‑reader before we take any OD600 measurements on our bacterial cultures.
+Please run the following calibration experiment on our samples:
 
-1. Use a black, clear‑bottom 96‑well plate.  
-2. Add 100 µL of LUDOX CL‑X (45 % colloidal silica) to wells A1, B1, C1, and D1.  
-3. Add 100 µL of sterile ddH₂O to wells A2, B2, C2, and D2 (these are the blanks).  
-4. Disable any automatic path‑length correction on the plate reader (the instrument we’ll use for the cell measurements).  
-5. Measure absorbance at 600 nm for all eight wells using the same measurement mode, integration time, and gain settings that we will use for the actual cell samples. Record the raw absorbance values.  
-6. Send me the raw absorbance data (or fill the attached iGEM 2019 Plate Reader LUDOX Calibration spreadsheet with the values in the blue cells). I will calculate the correction factor (Reference OD600 ÷ measured Abs600) and give you the factor to apply to all subsequent OD600 readings.  
-
-Materials you’ll need (provided by us):  
-- LUDOX CL‑X (1 mL)  
-- Sterile ddH₂O (enough for 4 × 100 µL)  
-- 96‑well black clear‑bottom plate  
-
-Let me know once the calibration is done or if you run into any issues. Thanks!
+1. Use a black 96‑well plate with a clear flat bottom.  
+2. Add 100 µL of LUDOX CL‑X (45 % colloidal silica) into wells A1, B1, C1, and D1.  
+3. Add 100 µL of sterile ddH₂O into wells A2, B2, C2, and D2.  
+4. Measure the absorbance at 600 nm for every well in the same measurement mode you will use for our cell OD readings. (If your plate reader has an automatic path‑length correction, turn it off to avoid distortion of highly scattering samples.)  
+5. Record all absorbance values in the table below or in your notebook.  
+6. After the run, please send the raw absorbance data back to us.  
+7. We will use the attached “iGEM 2019 Plate Reader LUDOX Calibration.xlsx” spreadsheet to compute the conversion factor:  
+   - Subtract the water reading from each LUDOX reading to get corrected Abs600.  
+   - Divide the spectrophotometer’s reference OD600 value (provided in the Excel sheet) by the corrected Abs600.  
+   - Multiply any future plate‑reader OD600 readings by this factor to obtain true OD600.  
+8. Once completed, let us know the conversion factor you derived and confirm that the raw data have been sent.
 ```
 
 label: 
@@ -788,34 +889,80 @@ notes:
 
 ---
 
-## 16. R3ABFA1  (elisa)
+## 16. R86F2F3  (elisa)
 
 ```
-Please process our grey wolf hair samples to determine cortisol (CORT) and cortisone (CORN) levels using the following protocol:
+Use the following protocol for each wolf hair sample (35 mg powder):
 
-1. Sample Pretreatment and Homogenization
-   - Wash 35 mg of each hair sample by manually shaking with 5 mL of isopropanol for 3 min. Repeat this washing step twice using fresh isopropanol each time.
-   - Leave the washed hair to dry overnight at room temperature.
-   - Cut the dried hair into approximately 2 mm fragments using surgical scissors.
-   - Weigh exactly 35 mg of each fragmented sample into a Falcon tube, add five steel balls, and grind using a homogenizer for 5 min (five 30 s cycles with intervals) at 10 °C with cooling.
+1. **Materials & reagents**  
+   - LC‑MS‑grade water, methanol, isopropanol, acetic acid, formic acid (VWR).  
+   - Isotopically labeled internal standards: CORT‑D4 and CORN‑D8 (15 ng mL⁻¹ in methanol).  
+   - Hormone standards: CORT and CORN (Merck).  
+   - Strata‑X SPE cartridges, 30 mg sorbent, 8B‑S100‑TAK (Phenomenex).  
+   - 1 mL methanol for extraction, 1 mL water for equilibrations.  
+   - ELISA kit: Cortisol ELISA Kit (Cayman Chemical, Cat. No. 500360).
 
-2. Sample Preparation for UHPLC-ESI-MS/MS
-   - Incubate the powdered hair samples in 1 mL of methanol containing 15 ng/mL of isotopically labelled internal standards (CORT-D4 and CORN-D8) for 24 h at 70 rpm and room temperature.
-   - Centrifuge the samples for 10 min at 13,000 rpm.
-   - Transfer 800 µL of the supernatant to a new tube and evaporate to dryness.
-   - Reconstitute the dried residue in 1 mL of LC-MS-grade water and ultrasonicate for 2 min.
-   - Purify the samples using an automated SPE system with Strata-X cartridges (30 mg): condition with 1 mL of methanol, equilibrate with 1 mL of water, load 1 mL of sample, wash with 1 mL of water, and elute analytes with 1 mL of methanol.
-   - Concentrate the eluate to 200 µL, transfer to a glass chromatography vial, and analyze in triplicate injections.
+2. **Sample pretreatment**  
+   a. Shake each hair sample with 5 mL isopropanol for 3 min, discard solution, repeat once with fresh isopropanol.  
+   b. Dry overnight at room temperature, then cut into ~2 mm fragments.  
+   c. Weigh 35 mg into a Falcon tube.  
+   d. Homogenize with five steel balls in a Bioprep‑24R homogenizer (5 × 30 s cycles at 10 °C, cooling).  
+   e. Keep homogenized powder on ice until extraction.
 
-3. UHPLC-ESI-MS/MS Analysis
-   - Perform chromatographic separation at 40 °C using a BEH C18 1.7 µm column (2.1 x 100 mm) with a flow rate of 0.2 mL/min. Use 0.1% formic acid in water as solvent A and methanol as solvent B.
-   - Run the gradient: 0–4 min, 20–60% B; 4–5 min, 60% B; 5–7 min, 60–70% B; 7–9 min, 70% B (2 min post-run).
-   - Use a 5 µL injection volume and acquire data in positive ionization dMRM mode using the specified transitions and source parameters for CORT, CORT-D4, CORN, and CORN-D8.
+3. **Extraction for LC‑MS/MS**  
+   a. Add 1 mL methanol containing 15 ng mL⁻¹ of each internal standard.  
+   b. Rock on a SSL4 see‑saw at 70 rpm, room temperature, 24 h.  
+   c. Centrifuge 10 min at 13 000 rpm.  
+   d. Transfer 800 µL supernatant to a new tube.  
+   e. Evaporate to dryness in an EZ‑2 Elite evaporator.  
+   f. Reconstitute in 1 mL LC‑MS‑grade water, ultrasonicate 2 min.  
+   g. Load 1 mL of reconstituted sample onto a conditioned Strata‑X cartridge (condition with 1 mL methanol, equilibrate with 1 mL water).  
+   h. Wash cartridge with 1 mL water, elute with 1 mL methanol.  
+   i. Concentrate eluate to 200 µL, transfer to a glass vial.  
+   j. Perform three replicate injections per sample.
 
-4. CORT Determination by ELISA (Comparative Analysis)
-   - Weigh 35 mg of powdered hair into a tube, mix with 1.8 mL of methanol, vortex, and incubate overnight on an orbital shaker.
-   - Centrifuge the tubes and evaporate the recovered supernatant to dryness under a gentle stream of nitrogen at 37 °C.
-   - Reconstitute the dried extracts in 400 µL of ELISA Buffer, vortex, and quantify CORT using the Cayman Chemical Cortisol ELISA Kit (Cat. No. 500360) according to the manufacturer's instructions, reading absorbance at 410 nm.
+4. **LC‑MS/MS analysis**  
+   a. System: Agilent 1290 Infinity UHPLC + Agilent 6460 QQQ with Jet‑Stream ESI.  
+   b. Column: BEH C18 1.7 µm, 2.1 × 100 mm (Waters).  
+   c. Column temperature 40 °C, flow 0.2 mL min⁻¹.  
+   d. Mobile phases: A = 0.1 % formic acid in water, B = methanol.  
+   e. Gradient: 0–4 min 20–60 % B, 4–5 min 60 % B, 5–7 min 60–70 % B, 7–9 min 70 % B, 9–11 min 70 % B.  
+   f. Injection volume 5 µL, dMRM mode, positive ionization.  
+   g. Transitions:  
+      – CORN (m/z 361.1 → 163, 121)  fragmentor 160 V, CE 24/36 eV, RT 6.3 min.  
+      – CORN‑D8 (m/z 369.1 → 169.1) 160 V, CE 30 eV, RT 6.3 min.  
+      – CORT (m/z 363 → 121.2, 97.5) 80 V, CE 26/36 eV, RT 6.8 min.  
+      – CORT‑D4 (m/z 367.1 → 121.1) 80 V, CE 26 eV, RT 6.8 min.  
+   h. Source: nebulizer 35 psi, drying gas 300 °C 8 L min⁻¹, sheath gas 300 °C 10 L min⁻¹, capillary 4500 V, nozzle 300 V.  
+   i. Acquire data in MassHunter Acquisition vB10.1, analyse with MassHunter Quantitative Analysis vB12.1.
+
+5. **Calibration & QC**  
+   a. Prepare matrix‑matched calibration standards (pooled low‑CORT/CORN hair) at nine concentrations: 0.144 ng mL⁻¹ (CORT) / 0.087 ng mL⁻¹ (CORN) up to 0.1 µg mL⁻¹.  
+   b. Include internal standards at 15 ng mL⁻¹ each.  
+   c. Run each calibration point in triplicate.  
+   d. Define LOD = 3.3 × σ/slope; LLOQ = 10 × σ/slope.  
+   e. QC levels:  
+      – LQC ≈ LLOQ (≈0.15 ng mL⁻¹),  
+      – MQC 50 ng mL⁻¹,  
+      – HQC 80 ng mL⁻¹.  
+   f. Evaluate precision (RSD ≤ 15 % MQC/HQC, ≤ 20 % LQC) and accuracy (85–115 % MQC/HQC, 80–120 % LQC).  
+   g. Compute extraction recovery (RE) and matrix effect (ME) at each QC level.  
+   h. Test autosampler stability (24 h at 25 °C) and freeze‑thaw stability (3 cycles –20 → +25 °C), accept deviations ≤ 10 % (MQC/HQC) or ≤ 15 % (LQC).
+
+6. **ELISA comparison (nine samples)**  
+   a. Weigh 35 mg powdered hair into a tube.  
+   b. Add 1.8 mL methanol, vortex, incubate overnight on orbital shaker.  
+   c. Centrifuge, evaporate supernatant to dryness under N₂ at 37 °C.  
+   d. Reconstitute in 400 µL ELISA buffer, vortex.  
+   e. Follow Cayman kit instructions: wash with ELx50 washer, incubate on ELMI DTS‑4 shaker, read at 410 nm on Synergy 2 reader.  
+   f. Correct absorbance, calculate B/B₀, use calibration curve to obtain pg mL⁻¹, convert to pg mg⁻¹ hair using reconstitution volume and 35 mg hair.
+
+7. **Documentation & Reporting**  
+   a. Provide raw chromatograms, calibration curves, QC data, and ELISA absorbance tables.  
+   b. Include all instrument settings, transition lists, and validation summary.  
+   c. Report CORT and CORN concentrations (pg mg⁻¹ hair) for each sample.  
+
+Please complete the above workflow and send us the quantified results and validation metrics.
 ```
 
 label: 
@@ -919,23 +1066,73 @@ notes:
 
 ---
 
-## 19. RADA33A  (qpcr)
+## 19. R3AABEF  (qpcr)
 
 ```
-1. Generate A549 spheroids by washing a cultured flask with 10 mL PBS, adding 2 mL trypsin-EDTA, incubating for up to 3 minutes, and adding 6 mL of complete growth medium (RPMI-1640 with 10% FBS and 1% penicillin/streptomycin). 
-2. Count cells and assess viability via Trypan Blue exclusion, then prepare a 10⁵ cells/mL suspension in complete medium. 
-3. Dispense 100 µL of fresh medium followed by 100 µL of the cell suspension into each well of a 96-well ULA microplate to yield 10⁴ cells in 200 µL per well. 
-4. Centrifuge the ULA microplate at 500 × g for 5 min at 20°C–25°C with no brake, then incubate for 4 days to form spheroids.
-5. Capture one brightfield image per spheroid using a 4× objective on a microscope.
-6. Set up migration chambers using 24-well TC inserts (loaded with 12 spheroids each) or 6-well TC inserts (loaded with 96 spheroids each) using a cut 1000 µL pipette tip. Adjust insert volume to ~80–100 µL (24-well) or ~1 mL (6-well), place inserts into wells containing medium with 10% FBS (~700 µL for 24-well, ~3 mL for 6-well), and ensure no air bubbles are introduced.
-7. Incubate the migration chambers for 64 hours at standard conditions.
-8. For 24-well inserts undergoing morphometric analysis, capture four consecutive overlapping images of the non-migrated fraction using a 2× objective, stitch them using Fiji (Grid/Collection stitching), and save as cropped JPEGs.
-9. Collect the non-migrated spheroid fraction by adding PBS (200 µL for 24-well, 2 mL for 6-well) to the insert, gently lifting spheroids with a nonwoven swab, collecting the volume into a conical tube, repeating the wash, gently cleaning with a cotton swab, and pelleting at 500 × g for 5 min.
-10. For crystal violet staining of the migrated fraction (24-well), wash the insert with PBS, stain in 0.5% crystal violet / 20% methanol solution for 10 min, wash with PBS and a cotton swab, air dry for 48 h, and capture a 3-by-3 grid of 4× images for stitching.
-11. Alternatively, collect the migrated fraction by transferring the insert to warm trypsin, shaking for 10 min at 37°C, adding growth medium, and pelleting at 500 × g for 5 min.
-12. Process collected pellets for gene expression profiling by extracting RNA, measuring concentration, and performing cDNA synthesis and RT-qPCR.
-13. For intracellular hypoxia detection, add pimonidazole to the bottom well of 6-well chambers to a final concentration of 200 µM at the end of the 64-h assay, incubate for 3 h, and collect and fix the migrated and non-migrated fractions in 2% paraformaldehyde for 48 h at 4°C. (Note: trypsinize the non-migrated pellet prior to fixation).
-14. Perform antibody staining on fixed pellets using anti-pimonidazole primary antibody (1:250 in 1% BSA / 0.05% Triton X-100) for 16 h at 4°C, followed by Alexa Fluor-647 secondary antibody (1:1000) for 1 h at room temperature, and analyze samples on a flow cytometer equipped with a 638 nm laser.
+Please perform the following on the A549 cell line we will provide:
+
+1. **Spheroid generation (4 days)**
+   - Use ultra‑low‑attachment (ULA) 96‑well plates.  
+   - Prepare a single‑cell suspension at ≈ 0.5–1 × 10⁶ cells mL⁻¹ in complete RPMI‑1640 (10 % FBS, 1 % Pen/Strep).  
+   - Seed 1 × 10⁴ cells per well by adding 100 µL of medium followed by 100 µL of the cell suspension (final volume 200 µL).  
+   - Centrifuge the plate at 500 g for 5 min (no brake) at 20‑25 °C.  
+   - Incubate 4 days in a standard 37 °C, 5 % CO₂ incubator.
+
+2. **Initial spheroid imaging**
+   - Using a bright‑field microscope with a 4× objective, capture one image per well (96 images total) and save in a single folder (numeric file names).
+
+3. **Migration chamber setup**
+   - For **morphometric analysis & RT‑qPCR**: load 12 spheroids into each 24‑well Transwell (PET membrane, 8 µm pores).  
+   - For **hypoxia flow cytometry**: load 96 spheroids into a single 6‑well Transwell (same membrane).  
+   - Transfer spheroids with a cut 1000 µL tip, keep the insert volume at ≈ 80‑100 µL (24‑well) or ≈ 1 mL (6‑well).  
+   - Add 700 µL (24‑well) or 3 mL (6‑well) of complete medium (10 % FBS) to the lower chamber.  
+   - Avoid bubbles and spheroid stacking; verify under the microscope.
+
+4. **Migration assay**
+   - Incubate the inserts for 64 h under standard culture conditions (hypoxia modulation optional).  
+
+5. **Imaging of non‑migrated spheroids (24‑well only)**
+   - At 64 h, bring the plate to a bright‑field microscope with a 2× objective.  
+   - Capture four overlapping images covering the entire membrane, stitch them in Fiji (Plugins → Stitching → Grid/Collection stitching → Unknown position), and save as a JPEG.
+
+6. **Collection of non‑migrated fraction**
+   - Add 200 µL (24‑well) or 2 mL (6‑well) PBS to the insert.  
+   - Gently lift spheroids with a non‑woven polyester swab, collect the suspension into a 15 mL tube (use low‑retention cut tip).  
+   - Repeat PBS wash once; then a final 500 µL PBS wash with a cotton swab (discard).  
+   - Centrifuge 500 g, 5 min, 20‑25 °C; aspirate supernatant, wash pellet with 2 mL (24‑well) or 4 mL (6‑well) PBS, repeat spin. Keep the pellet on ice.
+
+7. **Processing of migrated fraction**
+   - Add 700 µL (24‑well) or 2 mL (6‑well) pre‑warmed 0.25 % trypsin to the lower chamber.  
+   - Shake at 37 °C for 10 min (adjust if cells remain attached).  
+   - Collect the cell suspension, neutralize with 2 mL (24‑well) or 4 mL (6‑well) complete medium, spin 500 g, 5 min, wash once with PBS, spin again and keep the pellet.
+
+8. **Optional crystal‑violet staining (24‑well)**
+   - After non‑migrated collection, wash insert with 200 µL PBS, discard.  
+   - Transfer insert to a well containing 700 µL 0.5 % crystal violet (methanol 20 % v/v).  
+   - Stain 10 min at RT, wash repeatedly with PBS until clear, air‑dry 48 h in the dark.  
+   - Image the stained insert with a 4× objective (3 × 3 grid, 9 images, 10‑20 % overlap) and stitch as in step 5.
+
+9. **RNA extraction & RT‑qPCR (if requested)**
+   - Extract total RNA from each pellet (non‑migrated & migrated) using your standard kit.  
+   - Measure concentration/quality, synthesize cDNA, and run qPCR for the gene panel we will provide.
+
+10. **Hypoxia detection with pimonidazole (6‑well only)**
+    - At the 64 h endpoint, measure the volume of medium in the lower chamber and add pimonidazole stock (20 mM in PBS) to reach 200 µM final (e.g., 30 µL into 3 mL).  
+    - Swirl gently, incubate 3 h at 37 °C.  
+    - Collect non‑migrated and migrated fractions as in steps 6 and 7.  
+    - For the non‑migrated pellet (still in spheroid fragments), dissociate with 300 µL trypsin, 5‑10 min at 37 °C, add 2 mL complete medium, spin, wash with PBS.  
+    - Fix both pellets in 2 % paraformaldehyde in PBS for 48 h at 4 °C, then wash with 1 % BSA/PBS.  
+    - Stain with anti‑pimonidazole (1:250) in 1 % BSA/0.05 % Triton X‑100, 16 h at 4 °C (include an FMO control).  
+    - Wash, then incubate with Alexa‑647 secondary antibody (1:1000) for 1 h at RT in the dark.  
+    - Wash and resuspend in 1 % BSA/PBS; acquire data on a flow cytometer equipped with a 638 nm laser (e.g., CytoFLEX S).  
+
+11. **General notes**
+    - Use multi‑channel (8‑ or 12‑channel) pipettes for all dispensing steps to minimize cell settling.  
+    - All centrifugation steps: 500 g, 5 min, 20‑25 °C, no brake.  
+    - Store any unused RNA pellets at ‑80 °C; store stained inserts in a dark, dust‑free box at RT.  
+    - Provide us with the raw images, stitched composites, qPCR Ct values, and flow cytometry FCS files.
+
+Please let us know if any reagents or consumables (ULA plates, Transwell inserts, pimonidazole, antibodies) need to be supplied, and confirm the anticipated timeline for completion.
 ```
 
 label: 
@@ -946,19 +1143,27 @@ notes:
 
 ---
 
-## 20. R135867  (elisa)
+## 20. R40A4EF  (elisa)
 
 ```
-Please perform biochemical testing on the provided set of blinded serum samples (labeled with unique alphanumeric codes) to quantify Malondialdehyde (MDA), Total Superoxide Dismutase (T-SOD) activity, and Human Telomerase concentration according to the following protocol:
+Please run the following assays on our provided serum samples from the clinical trial participants. We have 53 matched pairs of baseline (T0) and post-intervention (T1) samples. All specimens are anonymized and labeled with unique alphanumeric codes.
 
-1. Serum Malondialdehyde (MDA) Assay: Quantify lipid peroxidation using the thiobarbituric acid reactive substances (TBARS) method with the Elabscience Colorimetric Assay Kit (Catalog # E-BC-K025-S). Measure absorbance at 532 nm on a calibrated microplate spectrophotometer. The expected linear detection range is 0.1 nmol/mL to 100 nmol/mL (analytical sensitivity limit of 0.38 nmol/mL). Target precision thresholds are an intra-assay CV of <4.9% and an inter-assay CV of <8.0%.
+1. Serum Malondialdehyde (MDA) Assay
+- Method: Colorimetric assay using a high-sensitivity kit (e.g., E-BC-K025-S, thiobarbituric acid reactive substances method).
+- Measurement: Absorbance read at 532 nm using a calibrated multimode microplate reader.
+- Specifications: Run samples in triplicate. Ensure the intra-assay CV remains below 10% (target <4.9%). 
 
-2. Total Superoxide Dismutase (T-SOD) Activity Assay: Quantify enzyme activity using the hydroxylamine method with the Elabscience T-SOD Activity Assay Kit (Catalog # E-BC-K019-S). Measure absorbance at 550 nm on a calibrated spectrophotometer. The expected linear detection range is 4.7 U/mL to 166 U/mL (analytical sensitivity limit of 4.7 U/mL). Target precision thresholds are an intra-assay CV of <2.8% and an inter-assay CV of <6.3%.
+2. Total Superoxide Dismutase (T-SOD) Activity Assay
+- Method: Hydroxylamine method using a standardized T-SOD assay kit (e.g., E-BC-K019-S).
+- Measurement: Absorbance read at 550 nm.
+- Specifications: Run samples in duplicate using internal controls and water blanks. Maintain an intra-assay precision CV below 10% (target <2.8%).
 
-3. Human Telomerase Concentration Assay: Quantify telomerase concentration using the sandwich-ELISA method with the Elabscience Human TE ELISA Kit (Catalog # E-EL-H0164). Measure optical density at 450 nm (±2 nm) using a microplate reader. The expected linear detection range is 0.16 ng/mL to 10 ng/mL (analytical sensitivity limit of 0.09 ng/mL).
+3. Human Telomerase Activity Assay
+- Method: Sandwich-ELISA using a standardized commercial human telomerase kit (e.g., E-EL-H0164).
+- Measurement: Optical density read spectrophotometrically at 450 nm ± 2 nm.
+- Specifications: Run samples in triplicate, ensuring strict adherence to the manufacturer's analytical sensitivity range (0.16–10 ng/mL).
 
-Quality Control & Deliverables:
-Run all sample assays strictly in triplicate wells. Enforce an automatic re-assay protocol for any sample where the variance between replicate wells exceeds a CV of 10%. Ensure laboratory personnel remain fully blinded to sample codes and time points during testing. Provide a complete data report containing the raw absorbance/OD values, calculated biomarker concentrations/activities, intra-assay CVs, and notes on any sample re-runs.
+Please return the raw optical density readings, calculated concentrations, and the respective intra-assay CVs for each triplicate/duplicate set, mapped against our sample ID codes.
 ```
 
 label: 
@@ -1095,81 +1300,18 @@ notes:
 
 ---
 
-## 24. R4D4DDF  (growth_curve)
+## 24. RE9E26A  (growth_curve)
 
 ```
-Please carry out the following experiment using the samples we provided (HEK293T cells, plasmids pYZ484 and pYH3, and a vial of the HRP‑pHLIP fusion protein we supplied). The goal is to synthesize HA‑DA, express and purify HRP‑pHLIP, transfect HEK293T cells with the optogenetic system, and encapsulate the engineered cells in an HA‑DA hydrogel using the supplied HRP‑pHLIP for crosslinking. 
+Please perform the following four-part experimental workflow using our provided samples and reagents:
 
-**Materials you need to have on hand (all reagents are available in our inventory):**  
-- E. coli BL21 (DE3) competent cells  
-- HEK293T cells (high‑glucose DMEM, 10 % FBS, 1 % penicillin/streptomycin)  
-- Plasmids pYZ484 and pYH3 (already provided)  
-- HRP‑pHLIP fusion protein (50 µg/mL solution in PBS, already provided)  
-- Hyaluronic acid (MW 12 kDa, 1 g)  
-- Dopamine (DA, 10 mM final concentration)  
-- EDC (5 mM final)  
-- NHS (10 mM final)  
-- PBS (pH 7.4)  
-- Deionized water and deuterium oxide (for NMR)  
-- Luria–Bertani (LB) medium, LB agar (with 60 µg/mL kanamycin), IPTG (0.5 mM), IPTG stock (1 M)  
-- Lysis buffer (50 mM NaH₂PO₄, 300 mM NaCl, 10 mM imidazole)  
-- Wash buffer (50 mM NaH₂PO₄, 300 mM NaCl, 20 mM imidazole)  
-- Elution buffer (50 mM NaH₂PO₄, 300 mM NaCl, 250 mM imidazole)  
-- Ni‑NTA resin, column (5 mL capacity)  
-- 2 % (w/v) HA‑DA precursor solution (prepared after synthesis)  
-- 2 mM H₂O₂ (freshly prepared)  
-- PBS pH 6.5 and PBS pH 7.4 for washing  
-- Lipo293 TM reagent (4 µL per 125 µL DNA mix)  
-- LED array (660 nm/730 nm, 1 mW cm⁻²) for 24‑h stimulation cycles  
+1. Synthesize and characterize the HA-DA conjugate: Dissolve 1 g of 12 kDa HA in 100 mL PBS, activate carboxyl groups with 5 mM EDC and 10 mM NHS at pH 5.0 for 6 h, and conjugate with 10 mM dopamine under a nitrogen atmosphere for 24 h. Purify the product via dialysis against deionized water (14 kDa MWCO, 4 °C, 72 h with buffer changes every 8 h), freeze-dry to yield the spongy solid, and confirm the chemical structure and grafting efficiency using 1H NMR in D2O.
 
-**Procedure**
+2. Express and purify the HRP-pHLIP fusion protein: Subclone the custom-synthesized HRP-pHLIP gene into the pET28a(+) vector, transform into E. coli BL21 (DE3) cells, and plate on LB agar with 60 µg/mL kanamycin. Grow an overnight starter culture, inoculate 30 mL fresh LB-kanamycin medium, and grow to mid-log phase (OD600 ≈ 0.8) at 37 °C and 200 rpm. Induce expression with 0.5 mM IPTG for 8 h at 16 °C (220 rpm). Harvest cells by centrifugation (8,000 × g, 10 min, 4 °C), resuspend in lysis buffer, and lyse via sonication (30% amplitude, 5 s on/5 s off, 15 min total) in an ice-water bath. Collect the supernatant by centrifugation (12,000 × g, 30 min, 4 °C) and purify the His-tagged protein using Ni-NTA affinity chromatography, washing with wash buffer and eluting with elution buffer. 
 
-1. **Synthesize HA‑DA conjugate**  
-   1.1 Weigh 1 g HA and dissolve in 100 mL PBS (pH 7.4). Stir until fully dissolved at room temperature.  
-   1.2 Add EDC to 5 mM final concentration and NHS to 10 mM final concentration. Adjust the mixture to pH 5.0 using 10 mM HCl or 10 mM NaOH. Stir at room temperature for 6 h.  
-   1.3 Add DA to 10 mM final concentration. Cover the flask with a nitrogen‑tight valve and stir for 24 h at room temperature (prevent oxidation).  
-   1.4 Transfer the crude product into a 14 kDa MWCO dialysis bag and dialyze against deionized water at 4 °C for 72 h. Replace dialysis water every 8 h.  
-   1.5 Freeze‑dry the dialyzed product to a spongy solid.  
-   1.6 Confirm grafting by ¹H NMR (dissolve in D₂O). Record spectra and integrate peaks to calculate grafting efficiency.
+3. Culture and transfect HEK 293T cells and run optogenetic assays: Culture HEK 293T cells in high-glucose DMEM with 10% FBS and 1% penicillin/streptomycin. Seed cells in 6-well plates at 5 × 10^5 cells/well to reach 70%–80% confluence. Transfect each well with 2.5 µg total plasmid DNA (pYZ484 and pYH3) and 4 µL Lipo293 reagent in antibiotic-free DMEM. After 24 h, subject the cells to alternating 5 s pulses of 660 nm ("ON") and 730 nm ("OFF") light at 1 mW/cm² using a custom LED array. Replace the medium every 24 h and collect supernatant samples every 6 h over a 72 h period to monitor cytokine/SEAP secretion profiles.
 
-2. **Clone, express, and purify HRP‑pHLIP**  
-   2.1 Use the sequence you already have for the pET28a‑HRP‑pHLIP plasmid. Transform BL21 (DE3) with the plasmid via heat shock (42 °C, 45 s).  
-   2.2 Plate on LB agar + 60 µg/mL kanamycin; incubate 37 °C overnight. Pick a single colony and inoculate 5 mL LB + 60 µg/mL kanamycin; grow 16 h at 37 °C, 200 rpm.  
-   2.3 Dilute 1 % (v/v) into 30 mL fresh LB + kanamycin; grow to OD₆₀₀ ≈ 0.8.  
-   2.4 Induce with IPTG (final 0.5 mM); incubate 8 h at 16 °C, 220 rpm.  
-   2.5 Harvest cells by centrifugation (8 000× g, 10 min, 4 °C). Resuspend pellet in 10 mL cold lysis buffer (1 L per 5 g pellet).  
-   2.6 Lyse by sonication (30 % amplitude, 5 s on/5 s off, 15 min total) on ice.  
-   2.7 Clarify lysate (12 000× g, 30 min, 4 °C). Collect supernatant.  
-   2.8 Equilibrate Ni‑NTA column with 5× column volumes of lysis buffer. Load the clarified lysate, hold 2 min, then wash with 5× column volumes of wash buffer.  
-   2.9 Elute with 10× column volumes of elution buffer. Collect fractions, assay for HRP activity (e.g., TMB substrate). Pool active fractions.  
-   2.10 Final rinses: 3× lysis buffer, 5× water, 2× 20 % ethanol. Store the purified HRP‑pHLIP at 2–8 °C.
-
-3. **Transient transfection of HEK293T cells**  
-   3.1 Seed 5 × 10⁵ HEK293T cells per well in 6‑well plates; incubate overnight until 70–80 % confluent.  
-   3.2 Replace medium with 1 mL fresh DMEM + 10 % FBS (no antibiotics).  
-   3.3 For each well, prepare two tubes:  
-        – Tube A: 125 µL DMEM (no serum, no antibiotics) + 2.5 µg plasmid DNA (mix pYZ484 and pYH3 in the required ratio).  
-        – Tube B: 125 µL DMEM + 4 µL Lipo293 TM.  
-   3.4 Gently combine the contents of tubes A and B; let sit at room temperature 15 min (or up to 6 h).  
-   3.5 Add the 250 µL mixture dropwise into the corresponding well; gently mix.  
-   3.6 Incubate 24 h, then stimulate with the LED array (660 nm/730 nm, 1 mW cm⁻²). Apply alternating 5 s pulses of 660 nm (“ON”) and 730 nm (“OFF”) for the duration of the 24‑h stimulation cycle.  
-   3.7 Replace medium every 24 h; sample supernatant every 6 h for 72 h to assay SEAP secretion.
-
-4. **Single‑cell encapsulation**  
-   4.1 Harvest engineered HEK293T cells (1 × 10⁶ cells) by trypsinization, wash, and resuspend in 1 mL PBS pH 6.5 containing HRP‑pHLIP (50 µg/mL). Incubate 30 min at room temperature.  
-   4.2 Centrifuge 150× g, 5 min; discard supernatant. Wash cells three times with PBS pH 6.5.  
-   4.3 Prepare a hydrogel precursor: dissolve the HA‑DA product in PBS to make 2 % (w/v); add 2 mM H₂O₂ immediately before use.  
-   4.4 Resuspend the HRP‑pHLIP‑labeled cells in 1 mL of the HA‑DA/H₂O₂ solution; stir gently for 30 min at room temperature to crosslink via HRP catalysis.  
-   4.5 Collect the hydrogel‑encapsulated cells by centrifugation 150× g, 5 min. Wash three times with PBS pH 7.4 to remove excess reagents.  
-   4.6 Store or assay the encapsulated cells as needed (e.g., fluorescence imaging, viability, cytokine secretion).
-
-**Deliverables**  
-- ¹H NMR spectrum of the HA‑DA conjugate with grafting efficiency annotation.  
-- SDS‑PAGE (or Coomassie) of purified HRP‑pHLIP, with a protein marker lane.  
-- SEAP secretion profile (concentration vs. time) for the optogenetically controlled cells.  
-- Representative fluorescence images of encapsulated cells (HA‑DA shell labeled with FAM, nuclei with DAPI).  
-
-Please confirm receipt of the sample list and let us know the estimated timeline for completion. Thank you.
+4. Perform single-cell encapsulation: Harvest 1 × 10^6 HEK 293T cells, resuspend in 1 mL PBS (pH 6.5) containing 50 µg/mL purified HRP-pHLIP, and incubate at room temperature for 30 min. Wash the cells three times with PBS (pH 6.5) to remove unbound protein, then resuspend in a hydrogel precursor solution containing 2% (w/v) HA-DA and 2 mM H2O2. Gently stir for 30 min to induce HRP-catalyzed crosslinking. Collect the encapsulated cells by centrifugation (150 × g, 5 min) and wash three times with PBS (pH 7.4).
 ```
 
 label: 
@@ -1271,20 +1413,16 @@ notes:
 
 ---
 
-## 27. RE689A3  (elisa)
+## 27. R1A380F  (elisa)
 
 ```
-Please perform a Luminex multiplex immunoassay and data analysis on our submitted MenACWY-CRM197 conjugate samples using the following procedure:
+Please run a Luminex-based multiplex assay on our MenACWY-CRM197 vaccine samples using the following protocol. 
 
-1. **Bead Coupling**: Couple serotype-specific mouse monoclonal antibodies to Luminex MagPlex-C microspheres (anti-MenA to B20, anti-MenC to B25, anti-MenW to B33, and anti-MenY to B77) using EDC/sNHS chemistry. For each coupling, activate 1.25 million washed beads in 80 µL of 100 mM sodium phosphate buffer (pH 6.2) by adding 10 µL of 50 mg/mL sNHS and 10 µL of 50 mg/mL EDC. Rotate for 20 minutes at room temperature in the dark. Incubate activated beads with the corresponding mAb in 500 µL of 50 mM MES buffer (pH 5.0) for 2 hours under rotation, protected from light. Wash twice with PBS containing 0.05% Tween20, block with PBS containing 0.05% Tween20 and 0.2% BSA for 30 minutes, wash twice more, and store in PBS with 0.05% Tween20 at a final concentration of 1.25 × 10^6 beads/mL.
+First, couple the four serotype-specific mouse monoclonal antibodies to Diasorin Luminex MagPlex-C Microspheres: use region B20 for anti-MenA (batch 28022017), B25 for anti-MenC (batch 13072017), B33 for anti-MenW (batch 04052017), and B77 for anti-MenY (batch 23082017). For each coupling reaction, wash 100 µL (1.25 million beads) in water using a protein low-binding 1.5 mL tube. Activate the beads with 80 µL of 100 mM sodium phosphate (pH 6.2), 10 µL of sNHS (50 mg/mL), and 10 µL of EDC (50 mg/mL). Mix by 360° rotation for 20 min at room temperature in the dark. Conjugate each activated bead set with its respective mAb in 500 µL of 50 mM MES buffer (pH 5.0), mixing by 360° rotation for 2 h at room temperature in the dark. Wash twice with 500 µL of 1X PBS / 0.05% Tween-20. Saturate unreacted groups with 500 µL of 1X PBS / 0.05% Tween-20 / 0.2% BSA by rotating for 30 min at room temperature in the dark. Wash twice more with 500 µL of 1X PBS / 0.05% Tween-20, and store in 1000 µL of the same buffer at a final concentration of 1.25 million beads/mL.
 
-2. **Sample Dilution & Assay Setup**: Reconstitute the provided standard and lyophilized vaccine samples in 600 µL of 9.0 g/L NaCl solution to reach target concentrations (20 µg/mL for MenA, 10 µg/mL for MenC, MenW, and MenY). Dilute standards and test samples 1:1000 in sample diluent (PBS with 0.05% Tween20). Dispense standards and samples in duplicate in the first column of a Greiner plate and perform 2.5-fold serial dilutions across the plate in sample diluent. Prepare a bead mixture by diluting each coupled bead stock 1:10 in sample diluent, and add 10 µL of this bead mix to every well.
+For the assay, reconstitute our lyophilized vaccine samples and standards in 600 µL of 9.0 g/L NaCl solution, then dilute them 1:1000 in 1X PBS / 0.05% Tween-20. Dispense samples and the standard curve in duplicate into the first column of a Greiner plate (cat. 655904), fill the remaining wells with sample diluent, and perform a 2.5-fold serial dilution. Prepare the bead mix by diluting each coupled bead set 1:10 in sample diluent, and add 10 µL of the mix to each well. Incubate the plate for 1 h at room temperature with 800 rpm agitation. Wash the plate three times with sample diluent using a magnetic washer. Add 100 µL of purified rabbit anti-CRM197 primary antiserum (Abcam ab53828, purified via Protein-G spin-trap) to each well and incubate under the same conditions. Wash three times, then add 50 µL of goat anti-rabbit IgG Fc-specific R-Phycoerythrin secondary antibody (Jackson ImmunoResearch 111-117-008, diluted 1:200) to each well. Incubate for 30 min at room temperature with 800 rpm agitation. Wash the wells, resuspend in 100 µL of 1X PBS, agitate, and read on a Bio-Plex 200 instrument (high-sensitivity setting) using Bio-Plex Manager 6.0 software to record median fluorescence intensity. 
 
-3. **Incubation & Detection**: Incubate the plate for 1 hour at room temperature with agitation at 800 rpm. Wash three times with sample diluent using a magnetic plate washer. Add 100 µL of purified rabbit anti-CRM197 primary antibody to each well and incubate for 1 hour at 800 rpm. Wash three times, then add 50 µL of R-PE-conjugated goat anti-rabbit Fab secondary antibody (diluted 1:200) to each well and incubate for 30 minutes at 800 rpm. Wash three times, resuspend the beads in 100 µL of 1X PBS, agitate, and measure median fluorescence intensity (MFI) on a Bio-Plex 200 system using high-sensitivity settings.
-
-4. **Data Analysis**: Analyze the MFI data using a Parallel Line Assay (PLA) model on log10(Dose)–log10(Response) linear ranges (minimum 4 points per curve). Confirm assay validity via ANOVA (requiring regression p < 0.05, non-linearity p > 0.05, and non-parallelism p > 0.05) before calculating test sample relative concentrations and confidence intervals against the standard.
-
-5. **HPAEC-PAD**: For orthogonal quantification, perform sample pre-treatment according to Rech et al. and run HPAEC-PAD separation following the analytical conditions described in De Ricco et al.
+Analyze the resulting log10(Dose)-log10(Response) curves via Parallel Line Assay using a four-point minimum linear range. Verify assay validity through ANOVA, ensuring significant regression (p < 0.05), no non-linearity (p > 0.05), and no non-parallelism (p > 0.05) before calculating final sample concentrations and confidence intervals.
 ```
 
 label: 
@@ -1295,43 +1433,25 @@ notes:
 
 ---
 
-## 28. RC6A900  (elisa)
+## 28. R2E398F  (elisa)
 
 ```
-Please run the IL‑17A ELISA on our patient serum samples as follows:
+Please run a quantitative IL‑17A ELISA on the patient serum samples we have supplied, using the following protocol and reagents:
 
-1. **Coating the Plate**  
-   • Take a 96‑well filter plate (Merck Millipore MX‑PLATE).  
-   • Add 100 µL of the monoclonal anti‑human IL‑17 capture antibody (concentration as per manufacturer’s instructions) to each well.  
-   • Incubate the plate for 1 h 30 min at room temperature (RT, ~22 °C).  
-   • After incubation, wash the plate 4× with 200 µL PBS‑Tween 20 (0.05%) per well; discard wash buffer.
+1. Use 96‑well ELISA plates pre‑coated with a monoclonal anti‑human IL‑17 capture antibody (commercially available, same as used in the published method).  
+2. Add 100 µL of each serum sample to the appropriate wells (duplicate wells preferred). Include a full set of IL‑17A standards (0, 10, 25, 50, 100, 250 pg/mL) prepared from the recombinant human IL‑17A (Bio Basic, Cat #RC212‑28, 1 mg) to generate a standard curve.  
+3. Incubate the plate at room temperature for 1 h 30 min.  
+4. Wash the plate 4 × with PBS containing 0.05 % Tween‑20 (PBS‑T).  
+5. Add 100 µL of biotin‑conjugated anti‑human IL‑17 detection antibody to each well and incubate 1 h 30 min at room temperature.  
+6. Wash the plate again 4 × with PBS‑T.  
+7. Add 100 µL per well of peroxidase‑labeled streptavidin (commercial streptavidin‑HRP) and incubate 1 h at room temperature.  
+8. Perform a final wash sequence (4 × PBS‑T).  
+9. Add 100 µL of TMB substrate solution to each well and allow colour to develop (≈10–15 min) until the highest standard shows a clear blue colour.  
+10. Stop the reaction by adding 50 µL of 2 N H₂SO₄ (or other supplied stop solution) to each well.  
+11. Measure absorbance at 450 nm (reference wavelength 620 nm if your plate reader allows).  
+12. Calculate IL‑17A concentrations in the serum samples from the standard curve (using a 4‑parameter logistic fit).  
 
-2. **Adding Samples**  
-   • Pipette 100 µL of each patient serum sample into the designated wells.  
-   • Include a blank well with PBS‑Tween 20 and a positive control well with 10 ng mL⁻¹ IL‑17 (use the IL‑17A standard from Bio Basic, Cat #RC212‑28).  
-   • Incubate the plate for 1 h 30 min at RT.  
-   • Wash the plate again 4× with PBS‑Tween 20.
-
-3. **Detection Antibody**  
-   • Add 100 µL of biotin‑conjugated anti‑human IL‑17 detection antibody to each well.  
-   • Incubate for 1 h 30 min at RT.  
-   • Wash 4× with PBS‑Tween 20.
-
-4. **Streptavidin‑Peroxidase**  
-   • Add 100 µL of peroxidase‑labeled streptavidin conjugate to each well.  
-   • Incubate for 1 h at RT.  
-   • Wash 4× with PBS‑Tween 20.
-
-5. **Substrate Development**  
-   • Add 100 µL of TMB substrate solution (ready‑to‑use) to each well.  
-   • Allow color to develop for 10–15 min at RT (monitor; stop when controls reach ~0.5–0.8 OD₄₅₀).  
-   • Stop the reaction with 50 µL of 1 N H₂SO₄ or 1 N HCl per well.
-
-6. **Reading**  
-   • Measure absorbance at 450 nm using a plate reader.  
-   • Generate a standard curve from the known IL‑17 concentrations (0–50 ng mL⁻¹) to calculate patient IL‑17 levels.
-
-Please provide the final results (ng mL⁻¹ IL‑17 per sample) and include the standard curve data. Thank you.
+Materials we will provide: patient serum aliquots (up to 200 µL each), recombinant IL‑17A standard, 96‑well filter plate with sealers (Merck Millipore, Cat #MX‑PLATE). Please source any additional reagents (biotin‑anti‑IL‑17, streptavidin‑HRP, TMB substrate, stop solution) as needed. Return the raw absorbance data and the calculated concentrations in an Excel file, along with any comments on assay performance (e.g., CVs of duplicates, any out‑of‑range standards). Thank you.
 ```
 
 label: 
@@ -1374,26 +1494,53 @@ notes:
 
 ---
 
-## 30. RCC48FC  (growth_curve)
+## 30. R864767  (growth_curve)
 
 ```
-Please prepare primary swine macrophage cultures from heparinized blood of 6 Yorkshire females (250–300 lb, 5–6 mo old) obtained under BSL‑3 conditions. Incubate the blood at 37 °C for 1–2 h, then isolate mononuclear cells by Ficoll-Paque (specific gravity 1.079). Seed the monocyte/macrophage fraction into Primaria tissue culture flasks with RPMI 1640 + 30 % L929 supernatant + 20 % heat‑inactivated, γ‑irradiated FBS + antibiotics/antimycotics + gentamicin + 30 % complementary plasma. Incubate 24 h at 37 °C, 5 % CO₂. Detach adherent cells with 10 mM EDTA in DPBS, wash twice with macrophage wash medium (RPMI + antibiotics/antimycotics + gentamicin), then resuspend in FBS and re‑seed into Primaria plates 24 h later or cryopreserve.
+1. **Generate primary swine macrophage cultures**  
+   - Use heparin‑treated blood from six 5‑6 month old Yorkshire gilts (≈250‑300 lb).  
+   - Let blood sit at 37 °C for 1–2 h for RBC sedimentation, then isolate mononuclear cells by Ficoll‑Paque (SG = 1.079).  
+   - Plate the monocyte fraction in Primaria flasks with RPMI‑1640 plus 30 % L929 supernatant, 20 % heat‑inactivated‑γ‑irradiated FBS, 1 X antibiotics/antimycotics, 1 X gentamicin, and 30 % autologous plasma. Incubate 24 h at 37 °C, 5 % CO₂.  
+   - Detach adherent cells the next day with 10 mM EDTA in DPBS (20 min, 37 °C). Wash twice in RPMI‑1640 + antibiotics/gentamicin, resuspend in FBS, and either (a) seed into Primaria 96‑well plates for use after 24 h, or (b) cryopreserve (see step 2).
 
-For cryopreservation, wash macrophages twice in macrophage wash medium (240 × g, 10 min, RT), resuspend in pre‑chilled 7 % DMSO/93 % FBS. Aliquot at 1 × 10⁷ cells/mL into cryovials, place in Mr. Frosty for 48 h at –70 °C, then transfer to liquid nitrogen. For thawing, quickly warm vials in a 37 °C water bath, transfer cells to a 15 mL tube, wash twice with macrophage complete medium (RPMI + 30 % L929 + 20 % FBS + antibiotics/antimycotics + gentamicin), count with trypan blue, adjust concentration, and seed 5 × 10⁶ cells per 96‑well Primaria plate (or 1 × 10⁶ cells per 6‑well plate for growth curves) 24 h before use.
+2. **Cryopreserve macrophages**  
+   - After detachment, wash cells twice (240 × g, 10 min, RT) in RPMI‑1640 + antibiotics/gentamicin.  
+   - Resuspend pellet in chilled 7 % DMSO / 93 % heat‑inactivated‑γ‑irradiated FBS at 1 × 10⁷ cells/mL. Aliquot into cryovials, place in Mr. Frosty™ container, freeze at –70 °C for 48 h, then transfer to liquid N₂ for long‑term storage.  
+   - For each assay, thaw a vial quickly in a 37 °C water bath, wash twice in complete macrophage medium (RPMI‑1640 + 30 % L929 supernatant + 20 % FBS + antibiotics/gentamicin), count viability with Trypan blue, and seed 5 × 10⁶ cells per 96‑well plate (or 1 × 10⁶ cells per 6‑well plate for growth curves). Allow 24 h before infection.
 
-Prepare red blood cells for hemadsorption from the same heparinized blood: after 1–2 h sedimentation, recover 35 mL of the erythrocyte fraction, wash twice (240 × g, 10 min, RT) in DPBS, resuspend to 20 % final concentration in DPBS, store at 4 °C, and use within 7–14 days. Also provide heterologous swine RBCs from another pig and commercial porcine RBCs as alternatives.
+3. **Prepare red blood cells for hemadsorption (HA) readout**  
+   - From the same heparin‑treated blood used for macrophages, collect the RBC layer after the 1–2 h sedimentation step.  
+   - Wash RBCs twice (240 × g, 10 min, RT) in DPBS, resuspend at 20 % v/v in DPBS, store at 4 °C (use within 7–14 days).  
+   - In parallel, obtain heterologous swine RBCs (different donors) and commercially sourced porcine RBCs (Innovative Research, Inc.) prepared identically for comparison.
 
-Virus isolates to be used: ASFV Georgia 2007/1, Lisbon‑60, Killean‑III, Kimakia‑64, DR‑2, DR‑21, Haiti‑21, Malawi Lil‑20/1, Pretoria‑4/1. Each isolate should be recovered from the original material, pass once in primary swine macrophages (≤ 2 passages total) to generate stocks, and freeze at –70 °C.
+4. **Virus stocks**  
+   - Use the following ASFV isolates (all propagated only in primary swine macrophages, ≤ 2 passages): Georgia 2007/1, Lisbon‑60, Killean‑III, Kimakia‑64, DR‑2, DR‑21, Haiti‑21, Malawi Lil‑20/1, Pretoria‑4/1.  
+   - Prepare working stocks by a single passage in fresh macrophages, aliquot, and store at –70 °C.
 
-Virus titration protocol: Dilute each ASFV isolate and each EDTA‑treated blood sample 10‑fold in macrophage complete medium. In 96‑well Primaria plates, seed 5 × 10⁶ cells/plate. Add 50 µL of each dilution to the wells. Incubate 1 h at 37 °C, then remove inoculum, wash twice with complete medium. Add 10 µL of the prepared RBC mixture (20 % RBC in DPBS) 24 h after inoculation. Read hemadsorption between 7–10 days p.i. Calculate HAD₅₀/mL using Reed‑Muench.
+5. **Virus titration (HA assay)**  
+   - Thaw and seed fresh macrophages and 1‑month‑old cryopreserved macrophages in Primaria 96‑well plates (5 × 10⁶ cells/plate).  
+   - Serially dilute each ASFV isolate 10‑fold in complete macrophage medium. Include the 24 EDTA‑treated blood samples (12 Georgia‑infected, 12 Lisbon‑60‑infected) and the 10 naïve pig blood samples as negative controls.  
+   - Add 50 µL of each dilution to the corresponding well (in duplicate).  
+   - Incubate 24 h at 37 °C, 5 % CO₂, then add 10 µL of the prepared RBC suspension to each well.  
+   - Read HA rosettes between 7 and 10 days post‑infection. Calculate HAD₅₀/mL by Reed‑Muench; the detection limit is the lowest dilution showing HA.
 
-Growth‑curve experiment: Seed fresh and 1‑month cryopreserved macrophages into 6‑well Primaria plates at 1 × 10⁶ cells/well (in 2 mL medium). In triplicate, inoculate with ASFV Georgia 2007/1 or Lisbon‑60 at MOI 0.01. After 1 h at 37 °C, remove inoculum, wash twice with complete medium, then add 2 mL medium per well. Collect 2 mL supernatant at 0 h, 1, 2, 5, 7, and 9 days p.i., freeze at –70 °C. Determine titers in fresh macrophage cultures as HAD₅₀/mL.
+6. **Growth‑curve experiment**  
+   - Seed fresh macrophages and 1‑month‑old cryopreserved macrophages in Primaria 6‑well plates (1 × 10⁶ cells/well). Incubate 24 h.  
+   - Infect each well in triplicate with Georgia 2007/1 or Lisbon‑60 at MOI = 0.01. After 1 h adsorption at 37 °C, remove inoculum, wash twice with complete medium, then add 2 mL fresh medium.  
+   - Collect supernatants at 0 h, 1, 2, 5, 7, and 9 days post‑infection, store at –70 °C.  
+   - Titrate each time point on fresh macrophages (HA assay) and report HAD₅₀/mL.
 
-Repeatability study: Use fresh, 2‑month, and 6‑month cryopreserved macrophage stocks. Seed 5 × 10⁶ cells/plate in 96‑well Primaria plates. Prepare 10‑fold serial dilutions of ASFV Georgia 2007/1, inoculate each dilution in triplicate. Perform the entire experiment on three consecutive days to assess repeatability/reproducibility of cryopreserved vs. fresh cells.
+7. **Repeatability / reproducibility study**  
+   - Use three macrophage sources: (a) fresh cells, (b) cryopreserved cells stored 2 months, (c) cryopreserved cells stored 6 months. Seed each in 96‑well plates (5 × 10⁶ cells/plate).  
+   - Prepare ten‑fold serial dilutions of Georgia 2007/1 in triplicate and infect each plate as in the titration assay.  
+   - Perform the entire experiment on three consecutive days. Record HA results, calculate HAD₅₀/mL for each day and each cell source, and assess intra‑day and inter‑day variation.
 
-Materials needed: Primaria tissue culture flasks and plates, RPMI 1640, L929 cell supernatant, heat‑inactivated, γ‑irradiated FBS, antibiotics/antimycotics, gentamicin, EDTA, DPBS, 7 % DMSO, cryovials, Mr. Frosty container, liquid nitrogen, 96‑well Primaria plates, 6‑well Primaria plates, Neubauer counting chamber.  
+8. **Reporting**  
+   - Provide raw HA readouts (positive/negative wells per dilution), calculated titers, and standard deviations across replicates and days.  
+   - Summarize viability of fresh vs. cryopreserved macrophages (Trypan blue counts).  
+   - Include any observations on RBC source performance (homologous vs. heterologous vs. commercial).  
 
-Please perform all steps under the specified biosafety conditions and report back with the titers, growth‑curve data, and repeatability results.
+Please let us know if any reagents (L929 supernatant, specific RBC sources, or virus isolates) need to be shipped from our lab, or if you have any questions about the timing or volume requirements. Thank you.
 ```
 
 label: 
@@ -1472,35 +1619,16 @@ notes:
 
 ---
 
-## 32. R9B7DDD  (growth_curve)
+## 32. R4138F8  (growth_curve)
 
 ```
-Please run the following liquid growth assay for our Aspergillus spore samples:
+Please run liquid growth assays on our provided Aspergillus and filamentous fungi samples using the following protocol. 
 
-1. **Prepare spore suspension**  
-   a. Harvest spores from a fresh plate and resuspend in PBS containing 0.01 % Tween‑20.  
-   b. Dilute to 4 × 10⁵ spores mL⁻¹ (approximately 2000 spores per 5 µL aliquot).  
+First, harvest and dilute the spores in PBS with 0.01% Tween to a concentration of 4 x 10^5 spores/mL. Aliquot 5 uL of this spore stock into each inner well of a non-coated CytoOne 96-well plate (Starlab), yielding an absolute count of 2,000 spores per well. Overlay each well with 195 uL of liquid media to reach a total volume of 200 uL per well. 
 
-2. **Plate setup**  
-   a. Using a non‑coated Starlab CytoOne 96‑well plate, dispense 5 µL of the spore suspension into each well.  
-   b. Add 195 µL of liquid growth medium (total volume 200 µL per well).  
-   c. Fill the peripheral wells or the spaces between wells with sterile medium or sterile water to minimise edge effects.  
-   d. Cover the plate with a breathable lid to allow gas exchange.
+To prevent the edge effect, fill all interstitial spaces between the wells with either media or sterile water. Seal the 96-well plate with a breathable cover to permit gas exchange. 
 
-3. **Instrument setup**  
-   a. Preheat either the Powerwave X‑2 (KC software) or a BioTek plate reader to 37 °C.  
-   b. Measure a blank reading before starting the run.  
-   c. Program the reader to record OD₆₀₀ every 10 minutes for a total of 48 h (time‑course will generate the growth curve).  
-
-4. **Run the assay**  
-   a. Place the plate in the reader and start the 48 h run.  
-   b. After completion, export the raw OD₆₀₀ data as a TXT file (or the format specified in the attached example).  
-
-5. **Data handling**  
-   a. Perform any required data manipulation to match the format of the reference growth curves (see attached example).  
-   b. Forward the processed data to us for further analysis (the next protocol covers downstream processing).  
-
-Please confirm receipt of this request and let us know if any materials or additional details are needed. Thank you.
+Set a BioTek plate reader or equivalent to 37 °C, take an initial blank reading, and run the assay for 48 hours, measuring OD 600 every 10 minutes. Finally, extract and export the resulting growth curve data in .txt format as attached in the reference files.
 ```
 
 label: 
@@ -1583,26 +1711,24 @@ notes:
 
 ---
 
-## 35. RFD2BCB  (viability)
+## 35. R01545D  (viability)
 
 ```
-Please conduct an MTT viability assay on our cell samples as follows:
+Please run an MTT cell viability assay on our provided samples using the following procedure:
 
-1. Dissolve each test compound in DMSO to a stock concentration suitable for serial dilution (e.g., 10 mM).  
-2. Prepare a 40‑fold serial dilution series in a U‑type tube or plate (e.g., 10 µL of stock + 390 µL DMSO for the first dilution, then mix 10 µL into 390 µL of the previous dilution).  
-3. Plate the cells in a 96‑well plate (density per your usual protocol). Observe and record the initial cell morphology.  
-4. Remove the old medium from the cells.  
-5. Add 100 µL of each diluted sample to the appropriate wells; keep the cells in 37 °C, 5 % CO₂ for 48 h.  
-6. After 48 h, re‑inspect the cells under the microscope. Photograph any wells that show morphological changes.  
-7. Prepare a fresh MTT working solution at 10 % (w/v) in PBS or culture medium.  
-8. Remove the medium from the 96‑well plate.  
-9. Add 150 µL of the MTT solution to each well using a multichannel pipette. Incubate for 4 h at 37 °C.  
-10. Carefully remove the MTT solution.  
-11. Add 100 µL of 100 % DMSO to each well to dissolve the formazan crystals.  
-12. Shake the plate gently for 30 s to ensure complete dissolution.  
-13. Measure absorbance at 560 nm (signal) and 750 nm (background) with a plate reader; perform a 0.5‑min pre‑scan shake before reading.  
-
-Please report the absorbance data, calculate percent viability relative to untreated controls, and include representative cell images in the final report.
+1. Prepare each sample in DMSO.
+2. Observe the cells on the plate and record their initial condition.
+3. Perform a serial dilution of the samples in a U-type plate, mixing by suspending 40 times.
+4. Remove the old medium from the cells.
+5. Add 100 μl per well of the sample and DMSO control, then incubate for 48 hours at 37 °C.
+6. Observe the condition of the cells following the 48-hour incubation.
+7. Check for toxicity under a microscope and take photographs if any morphological changes are observed.
+8. Prepare a 10% MTT solution.
+9. Remove the medium from the 96-well plate.
+10. Add 150 μl per well of the 10% MTT solution using a multichannel pipette, and incubate for 4 hours at 37 °C.
+11. Remove the MTT solution from the well plate.
+12. Add 100 μl per well of 100% DMSO to dissolve the precipitate.
+13. Shake the plate for 0.5 minutes, then measure the absorbance at 560 nm and 750 nm.
 ```
 
 label: 
@@ -1652,98 +1778,70 @@ notes:
 
 ---
 
-## 37. RCEBBFF  (qpcr)
+## 37. RC87802  (qpcr)
 
 ```
-**Lab Request – Tomato Wounding and Gene‑Expression Analysis**
+Please grow the tomato seedlings, apply the mechanical wounding, collect the tissue, extract RNA, make cDNA and run SYBR‑Green qPCR exactly as described below. We will provide the seed stocks (all genotypes we need) and the primer sequences for the target genes and ACTIN2.
 
-1. **Safety & PPE**  
-   - All work with Trizol and chloroform must be performed in a fume hood.  
-   - Wear nitrile gloves and safety goggles at all times.  
-   - Keep reagents refrigerated and use sterile technique to avoid contamination.  
+1. **Seed germination (3 days in the dark)**
+   - Use 9 cm culture dishes with sterile germination paper at the bottom.  
+   - Surface‑sterilize the seeds: 75 % ethanol, 2 min; then 5 % NaOCl, 10 min with gentle shaking; rinse 6–7 times with sterile distilled water.  
+   - Spread the seeds evenly on the paper, add enough distilled water to moisten (seeds should contact water but not be submerged).  
+   - Incubate in the dark until the radicle just emerges (≈2‑3 days).
 
-2. **Materials & Equipment (order if not stocked)**  
-   - Trizol reagent (1 L bottle), Buffer RW1, Buffer RW2 (column kit)  
-   - 75 % ethanol, 5 % sodium hypochlorite solution, sterile distilled water  
-   - ISTA‑compliant germination paper (9 cm diameter dishes)  
-   - Small square plastic pots (7 cm side) or equivalent volume round pots  
-   - Vermiculite and peat (1:1 volume ratio) for substrate  
-   - 14 cm straight hemostatic forceps, 16 cm straight tweezers  
-   - 1.5 mL RNase‑free centrifuge tubes, 2 mL tubes, 1.5 mL RNase‑free collection tubes  
-   - 30 µL RNase‑free water, 10 µL ddH₂O, 1 µg total RNA (from each sample)  
-   - 2 µL 5 × gDNA Eraser buffer, 2 µL gDNA Eraser, 1 µL PrimeScript RT Enzyme Mix I, 1 µL RT Primer Mix, 4 µL PrimeScript buffer  
-   - Kapa SYBR Fast qPCR kit, 0.25 µM forward and reverse primers for target genes and ACTIN2  
-   - LightCycler 480 (or compatible SYBR‑green platform)  
-   - Cold mortar & pestle, liquid nitrogen, −80 °C freezer, −20 °C fridge, 4 °C centrifuge, spectrophotometer (NanoDrop), agarose gel apparatus  
+2. **Transplant to pots and grow seedlings**
+   - Transfer germinated seeds to 7 cm square plastic pots (or equivalent round pots) filled with a 1:1 (v/v) mix of vermiculite and peat.  
+   - Grow under controlled conditions: 16 h light at 26 °C, 8 h dark at 18 °C, 60 % RH, light intensity 180–220 µmol m⁻² s⁻¹.  
+   - Water sparingly to avoid excess moisture; no fertilizer is needed.  
+   - Grow until the plants reach the “two‑leaf, one‑heart” stage (first true leaf fully expanded, second true leaf just emerging).  
+   - For each genotype, have at least 8 seedlings; plant all genotypes together in the same tray to ensure identical conditions.
 
-3. **Seed Germination (Day 0–3)**  
-   a. Surface‑sterilize tomato seeds: 2 min in 75 % EtOH, 10 min in 5 % NaOCl (gentle shaking), 6–7 washes in sterile water.  
-   b. Spread seeds evenly on germination paper in 9 cm dishes, moisten with water (not submerged).  
-   c. Keep dishes in dark at 26 °C until radicles appear (2–3 days).  
+3. **Mechanical wounding**
+   - Sterilize a 14 cm hemostatic forceps with 75 % ethanol and let dry completely.  
+   - For each seedling, clamp the lamina of the first true leaf once with consistent pressure to produce visible drooping.  
+   - Label each wounded seedling; keep a matched set of untreated seedlings as controls (grown in separate pots but under identical conditions).  
+   - After wounding, keep the wounded area facing vertically downward.
 
-4. **Seedling Growth (Day 3–16)**  
-   a. Mix vermiculite:peat 1:1, fill plastic pots (or round pots).  
-   b. Transplant seedlings with radicle out (use 16 cm tweezers).  
-   c. Grow in growth chamber: 16 h light (26 °C, 180–220 µmol m⁻² s⁻¹), 8 h dark (18 °C, 60 % RH).  
-   d. Water as needed; avoid over‑watering.  
+4. **Tissue harvest (12 h post‑wounding)**
+   - Harvest three sample types per genotype:  
+     a) The wounded leaflet of the first true leaf (local tissue).  
+     b) The undamaged second true leaf from the same plant (systemic tissue).  
+     c) A leaf from an untreated control plant.  
+   - Snap‑freeze each leaf in liquid N₂ immediately and store at –80 °C.  
+   - Clearly label each tube with genotype, tissue type (control, wounded, systemic), time point (12 h) and a unique ID.  
+   - Avoid any freeze‑thaw cycles; RNA extraction must be performed within 3 months.
 
-5. **Mechanical Wounding (Day 16)**  
-   a. Select healthy seedlings at two‑leaf, one‑heart stage.  
-   b. Sterilize 14 cm hemostatic forceps with 75 % EtOH, air dry.  
-   c. Clamp the lamina of the first true leaf once with consistent pressure to induce visible drooping.  
-   d. Label each wounded seedling; set up an identical untreated control group (different pots).  
+5. **RNA extraction (column‑based)**
+   - Keep all frozen tissue in a pre‑chilled mortar, add liquid N₂ and grind to a fine powder (≤500 µL powder per 1.5 mL tube).  
+   - Add 1 mL Trizol to the powder, vortex, let stand at RT 5 min.  
+   - Transfer the lysate to the RNA‑binding column in two portions, centrifuge 20 s at 13 500 g, 4 °C; discard flow‑through.  
+   - Wash sequentially with 700 µL Buffer RW1 and twice with 500 µL Buffer RW2 (20 s spin each, 4 °C).  
+   - Spin the column empty for 2 min to dry, then elute with 30 µL RNase‑free water.  
+   - Measure concentration and purity (NanoDrop, A260/280 ≈ 2.0, A260/230 > 2.0) and check integrity on a 1 % agarose gel.  
+   - Store RNA at –80 °C.
 
-6. **Sampling (12 h Post‑Wounding)**  
-   a. Harvest:  
-      - Wounded leaflet (only the wounded part).  
-      - Undamaged second true leaf (systemic).  
-      - Leaves from control seedlings.  
-   b. Snap‑freeze each sample in liquid N₂, label with tissue type, time, serial number.  
-   c. Store immediately in −80 °C freezer.  
+6. **cDNA synthesis (PrimeScript or equivalent)**
+   - In a RNase‑free tube on ice, combine per 1 µg RNA: 2 µL 5× gDNA Eraser Buffer, 2 µL gDNA Eraser, 1 µL RNA, ddH₂O to 10 µL. Incubate 42 °C 2 min, chill on ice.  
+   - Add 10 µL RT master mix (4 µL 5× PrimeScript Buffer, 1 µL PrimeScript RT Enzyme Mix I, 1 µL RT Primer Mix, 4 µL RNase‑free water).  
+   - Incubate 37 °C 15 min, then 85 °C 5 s.  
+   - Dilute or store cDNA at –80 °C.
 
-7. **RNA Extraction (≤3 months after sampling)**  
-   a. Retrieve frozen tissue, grind in cold mortar with liquid N₂ to fine powder (≤500 µL).  
-   b. Add 1 mL Trizol, mix, 5 min RT.  
-   c. Transfer to column, centrifuge 20 s at 13 500 × g, 4 °C; discard flow‑through.  
-   d. Wash with 700 µL Buffer RW1 (20 s), then 500 µL Buffer RW2 (20 s, repeat once).  
-   e. Final 2 min spin at 13 500 × g, 4 °C; dry column.  
-   f. Elute RNA with 30 µL RNase‑free water, 1 min, spin 1 min.  
-   g. Quantify with NanoDrop (260 nm, 260/280, 260/230).  
-   h. Run 1% agarose gel to confirm integrity.  
+7. **Quantitative real‑time PCR**
+   - Set up 20 µL reactions (Kapa SYBR Fast qPCR kit): 2 µL cDNA, 10 µL 2× SYBR master mix, 0.5 µL 0.25 µM forward primer, 0.5 µL 0.25 µM reverse primer, add RNase‑free water to 20 µL.  
+   - Run on a Roche LightCycler 480 with: 95 °C 30 s; 40 cycles of 95 °C 5 s, 59 °C 30 s (adjust annealing temperature if needed for each primer pair).  
+   - Perform melt‑curve analysis from 60 °C to 95 °C (0.3 °C s⁻¹) to confirm single‑product amplification.  
+   - Include no‑RT and no‑template controls.
 
-8. **Reverse Transcription**  
-   a. In ice‑cold tube: 2 µL 5 × gDNA Eraser buffer, 2 µL gDNA Eraser, 1 µg RNA, ddH₂O to 10 µL.  
-   b. Incubate 42 °C, 2 min; cool on ice.  
-   c. Add 10 µL RT master mix: 2 µL 5 × PrimeScript buffer, 4 µL PrimeScript RT Enzyme Mix I, 1 µL RT Primer Mix, 1 µL ddH₂O.  
-   d. Incubate 37 °C, 15 min; terminate 85 °C, 5 s.  
-   e. Store cDNA on ice or −80 °C.  
+8. **Data analysis**
+   - Calculate ΔCt using ACTIN2 as the reference gene.  
+   - Present relative expression (2^‑ΔΔCt) for each tissue type.  
+   - Use a two‑tailed Student’s t‑test for pairwise comparisons (control vs. wounded, control vs. systemic) and one‑way ANOVA with Tukey post‑hoc for multi‑genotype data. Significance thresholds: * p < 0.05, ** p < 0.01, *** p < 0.001.
 
-9. **qPCR Setup (20 µL per reaction)**  
-   - 2 µL cDNA (equivalent to 50 ng RNA)  
-   - 10 µL SYBR Fast qPCR kit (2 ×)  
-   - 0.5 µL forward primer (0.25 µM)  
-   - 0.5 µL reverse primer (0.25 µM)  
-   - 6.5 µL ddH₂O to 20 µL.  
+**Safety notes:**  
+- Perform all Trizol and chloroform steps in a fume hood wearing nitrile gloves, goggles and a lab coat.  
+- Dispose of organic waste according to institutional hazardous waste procedures.
 
-10. **Cycling Conditions (LightCycler 480)**  
-    - 95 °C 30 s (initial)  
-    - 40 cycles: 95 °C 5 s, 59 °C 30 s (optimize for each primer)  
-    - Melt curve: 60–95 °C, 0.3 °C s⁻¹, continuous fluorescence.  
-
-11. **Data Analysis**  
-    - Normalize target gene Ct to ACTIN2 Ct (ΔCt).  
-    - Calculate ΔΔCt (treatment vs. control).  
-    - Present fold change (2^‑ΔΔCt).  
-    - Use Student’s t‑test for two‑group comparisons; ANOVA + Tukey for multiple groups.  
-    - Significance: * P < 0.05; ** P < 0.01; *** P < 0.001; ns = not significant.  
-
-12. **Deliverables**  
-    - Raw Ct files, melt curves, amplification plots.  
-    - Fold‑change table with statistical annotations.  
-    - RNA QC metrics (NanoDrop ratios, gel images).  
-    - Summary of any deviations or issues encountered.  
-
-Please proceed with the above protocol and notify us of any material shortages or timing concerns.
+Please let us know if you need any reagents (Trizol, columns, primers) or clarification on any step. Thank you!
 ```
 
 label: 
@@ -1754,65 +1852,79 @@ notes:
 
 ---
 
-## 38. RA3EF2F  (growth_curve)
+## 38. R105C32  (growth_curve)
 
 ```
-1. Grow the bacterial strains we will provide (B. subtilis 168 trpC2, L. plantarum ATCC 8014, E. faecalis ATCC 29212, S. aureus ATCC 29213, C. difficile ATCC 9689, plus the two clinical C. difficile isolates) under the same conditions as in the paper:  
-   - B. subtilis and S. aureus: LB broth, aerobic, 37 °C.  
-   - L. plantarum: MRS broth, aerobic, 37 °C.  
-   - E. faecalis: NYCIII broth, anaerobic, 37 °C.  
-   - C. difficile (all strains): BHI broth, anaerobic, 37 °C.  
+We need you to perform the following experiment with our bacterial isolates. Use the exact reagents, concentrations and sequencing platforms listed below. All steps should be carried out in a biosafety level 2 lab, following our safety guidelines.
 
-2. Perform antibiotic growth assays as follows:  
-   - For B. subtilis and L. plantarum, dilute overnight cultures to OD₆₀₀ = 0.005–0.05 in fresh medium, dispense 200 µL into each well of a clear 96‑well plate, and add chloramphenicol (0, 1.6, 8, or 40 µg mL⁻¹) or erythromycin (0, 0.1, 0.5, or 2.5 µg mL⁻¹). Incubate aerobically at 37 °C for 18–24 h and record OD₆₀₀ every 15 min on a Tecan Spark.  
-   - For C. difficile clinical isolates, dilute overnight cultures to OD₆₀₀ = 0.05, add erythromycin (0, 1, or 256 µg mL⁻¹) in BHI, incubate anaerobically at 37 °C for 18–24 h and read on a Tecan Sunrise.  
+1. **Bacterial strains & media**  
+   - Bacillus subtilis 168 trpC2, Staphylococcus aureus ATCC 29213, Lactiplantibacillus plantarum ATCC 8014, Enterococcus faecalis ATCC 29212, Clostridioides difficile ATCC 9689, and two C. difficile clinical isolates (one erythromycin‑resistant, one susceptible).  
+   - Grow B. subtilis and S. aureus aerobically at 37 °C in LB (Cat# L7275).  
+   - Grow L. plantarum aerobically at 37 °C in MRS (Cat# 69966).  
+   - Grow E. faecalis anaerobically at 37 °C in NYCIII.  
+   - Grow C. difficile strains anaerobically at 37 °C in brain‑heart infusion (BHI).  
+   - For the clinical isolates, start from a single colony, grow overnight in BHI, then dilute to OD600 = 0.05.
 
-3. Prepare RNA for HT‑5PSeq / s5PSeq:  
-   a. Grow the strains to mid‑exponential phase (OD₆₀₀ = 0.6–0.8).  
-   b. Take 1 mL aliquots and treat with the same antibiotic concentrations used in the growth assays for 10 min (add 500 µL RNAprotect Bacteria Reagent after the 10‑min drug exposure for the C. difficile isolates, incubate 5 min, then pellet).  
-   c. Pellet cells at 13 000 rpm for 3 min, discard supernatant, and freeze pellets on dry ice.  
+2. **Antibiotic growth assay**  
+   - Dilute overnight cultures to OD600 = 0.005–0.05 for B. subtilis and L. plantarum; to OD600 = 0.05 for C. difficile isolates.  
+   - Dispense 100 µL into a 96‑well plate (aerobic plates for the first two species, anaerobic plate for C. difficile).  
+   - Add chloramphenicol at 0, 1.6, 8, or 40 µg/mL (for B. subtilis & L. plantarum).  
+   - Add erythromycin at 0, 0.1, 0.5, or 2.5 µg/mL (for B. subtilis & L. plantarum).  
+   - For the C. difficile isolates, add erythromycin at 0, 1, or 256 µg/mL.  
+   - Incubate 18–24 h (aerobic) or 18–24 h (anaerobic).  
+   - Read OD600 on a Tecan Spark (for aerobic) or Tecan Sunrise (for anaerobic) at the end of incubation. Record growth curves for analysis.
 
-4. Extract total RNA (phenol‑chloroform + bead beating):  
-   - Resuspend frozen pellets in phenol‑based lysis buffer with glass beads, disrupt with a MultiMixer (2 min) or FastPrep (1 min).  
-   - Perform acidic phenol‑chloroform extraction, precipitate RNA with ethanol, and elute in nuclease‑free water.  
-   - Quantify RNA with Nanodrop and Qubit dsDNA HS assay; assess integrity on an Agilent Bioanalyzer RNA Pico chip.  
+3. **RNA sample preparation for HT‑5PSeq / s5PSeq**  
+   - Grow cultures to mid‑exponential phase (OD600 = 0.6–0.8).  
+   - For B. subtilis & L. plantarum, take 1 mL aliquots, treat with the same antibiotic concentrations as in the growth assay for 10 min at 37 °C.  
+   - For the C. difficile isolates, treat 1 mL aliquots with erythromycin (0 or 1 µg/mL) for 10 min, then add 500 µL RNAprotect Bacteria Reagent (QIAGEN) and incubate 5 min.  
+   - Harvest by centrifugation at 13 000 rpm for 3 min, discard supernatant, freeze pellets on dry ice.
 
-5. Build s5PSeq libraries (use 200 ng total RNA per sample, no DNase):  
-   - Block rRNA by adding 0.4 µM of the 146 universal blocking oligos + 4 µM of the two species‑specific 16S/23S oligos (Table S1) in 50 mM NaCl. Heat 75 °C 5 min → 65 °C 5 min → drop 3 °C every 2 min until 35 °C.  
-   - Ligate a 5′‑RNA adapter containing a UMI and barcode (1 µM final) with T4 RNA ligase 1 (NEB M0204L) in 1 mM ATP, 1× ligation buffer, 25 °C for 1 h. Clean up with RNAClean XP beads (1.8×).  
-   - Reverse‑transcribe using SuperScript II (Thermo 100004925) and random hexamers.  
-   - Degrade RNA template with 28.6 mM NaOH at 65 °C for 20 min, neutralize with equal Tris‑HCl. Clean cDNA with AMPure XP beads (1.8×).  
-   - PCR amplify with Illumina dual‑barcode primers (0.25 µM each) and Phusion High‑Fidelity Master Mix (F‑530L): 98 °C 30 s; 15 × (98 °C 20 s, 65 °C 30 s, 72 °C 30 s); 72 °C 7 min.  
-   - Perform a two‑step size selection with AMPure XP beads (first 0.6×, then 0.8×) to retain 400–600 bp fragments.  
+4. **Total RNA extraction**  
+   - Resuspend each pellet in 1 mL lysis buffer containing phenol (pH 6.5) and 0.5 mm glass beads.  
+   - Disrupt mechanically: 2 min in a MultiMixer or 1 min in a FastPrep.  
+   - Separate aqueous phase; perform acidic phenol‑chloroform extraction twice.  
+   - Precipitate RNA with ethanol (2 × volume, 1 h at –20 °C), wash with 70 % ethanol, air‑dry, resuspend in nuclease‑free water.  
+   - Quantify with Nanodrop and Qubit dsDNA HS kit (Cat# Q33231).  
+   - Check integrity by Agilent RNA Pico kit; accept RIN > 8.
 
-6. For mixed‑species libraries, combine equal masses of total RNA from B. subtilis, S. aureus, E. faecalis, and erythromycin‑treated C. difficile (100 ng each) and process as in step 5.  
+5. **s5PSeq library preparation**  
+   - Use 200 ng total RNA per sample (no DNase).  
+   - **rRNA blocking**: hybridise with 0.4 µM of the 146 universal blocking oligos and 4 µM of two species‑specific oligos (targets 5′ ends of 16S/23S, see Table S1) in 50 mM NaCl.  
+     - Heat 75 °C 5 min → 65 °C 5 min → ramp down 3 °C every 2 min until 35 °C.  
+   - **Adapter ligation**: add 1 µM single‑stranded RNA adapter containing a 10‑nt UMI and 8‑nt sample barcode; mix with 1 mM ATP, 1× T4 RNA ligase buffer, and 10 U T4 RNA ligase 1. Incubate 25 °C 1 h.  
+   - Purify ligated RNA with RNA Clean‑XP beads (1.8× volume).  
+   - **First‑strand cDNA**: reverse‑transcribe with SuperScript II (Cat# 100004925) using random hexamers, 50 °C 30 min, 70 °C 15 min.  
+   - Degrade RNA: 28.6 mM NaOH, 65 °C 20 min, neutralise with Tris‑HCl (pH 7.5).  
+   - Purify cDNA with Ampure XP beads (1.8×).  
+   - **PCR amplification**: 0.25 µM Illumina‑compatible primers (dual barcode), 2× Phusion Master Mix (Cat# F‑530L). Cycling: 98 °C 30 s; 15 cycles of 98 °C 20 s, 65 °C 30 s, 72 °C 30 s; final 72 °C 7 min.  
+   - Size‑select PCR products with Ampure XP: 0.6×–0.8× to keep 400–600 bp fragments.  
+   - Quantify final libraries with Qubit dsDNA HS; dilute to 650 pM.
 
-7. Illumina sequencing:  
-   - Quantify the final libraries with Qubit dsDNA HS assay, dilute to 650 pM, and load onto an Illumina NextSeq 2000 (paired‑end, appropriate read length).  
-   - Demultiplex with bcl2fastq 2.20.0, trim adapters with cutadapt 4.8, extract UMIs with UMI‑tools 1.0.0, and align reads to the appropriate bacterial reference genomes using STAR 2.7.11a.  
+   - **Mixed‑species library**: combine 100 ng RNA from each of B. subtilis, S. aureus, E. faecalis, and erythromycin‑treated C. difficile (equal mass), then proceed with the same s5PSeq protocol.
 
-8. Nanopore sequencing (optional but requested):  
-   - Take the same Illumina libraries and ligate ONT adapters using the Ligation Sequencing Kit v14 (SQK‑LSK114).  
-   - Load the prepared library onto a Flongle flow cell (FLO‑FLG114) for a 24‑h MinION run and onto a PromethION flow cell (FLO‑PRO114M) for a 72‑h run.  
-   - Base‑call Flongle data with Dorado (Fast model) and PromethION data with Guppy (Super‑accurate model).  
-   - Demultiplex using minibar.py (dual‑barcode Illumina adapters), extract UMIs with UMI‑tools, align to the C. difficile reference with minimap2 2.28‑r1209, and analyse with fivepseq 1.3.5.  
+6. **Illumina sequencing**  
+   - Load 650 pM libraries on NextSeq 2000 (paired‑end 150 bp).  
+   - Demultiplex with bcl2fastq (v2.20).  
+   - Trim adapters and low‑quality bases with cutadapt 4.8.  
+   - Extract UMIs with UMI‑tools 1.0.0.  
+   - Align to the appropriate reference genome with STAR 2.7.11a.  
+   - Analyse with fivepseq v1.3.5 to generate codon‑resolution coverage and ribosome‑stalling plots.
 
-9. Provide us with the following data files for each sample:  
-   - Raw fastq (Illumina) and pod5 (Nanopore) files.  
-   - Alignment (BAM) files, mapped read counts, and fivepseq output (coverage matrices, stalling metrics).  
-   - Summary statistics (total reads, % mapped, rRNA fraction).  
+7. **Nanopore sequencing** (reuse Illumina‑prepared libraries)  
+   - Add Oxford Nanopore ligation adapters using SQK‑LSK114 kit.  
+   - Load 1 µg library onto a Flongle flow cell (FLO‑FLG114) for 24 h on MinION, and onto a PromethION flow cell (FLO‑PRO114M) for 72 h on PromethION 48.  
+   - Base‑call: Dorado (fast model) for Flongle, Guppy (SUP model) for PromethION.  
+   - Demultiplex with minibar.py (dual Illumina barcodes).  
+   - Extract UMIs (UMI‑tools) and align to the C. difficile reference with minimap2.  
+   - For mixed‑species reads, align to a combined reference of B. subtilis, S. aureus, E. faecalis, and C. difficile using minimap2; keep primary alignments with MAPQ ≥ 10. Count reads per species with samtools.
 
-10. Reagents you will need (catalog numbers included for ordering):  
-    - Chloramphenicol (Sigma C0378) and erythromycin (Sigma E5389).  
-    - T4 RNA ligase 1 (NEB M0204L).  
-    - SuperScript II RT (Thermo 100004925).  
-    - Phusion High‑Fidelity PCR Master Mix (Thermo F‑530L).  
-    - AMPure XP (Beckman A63881) and RNAClean XP (Beckman A63987).  
-    - Qubit dsDNA HS assay kit (Thermo Q33231) and RNA BR assay kit (Thermo Q10211).  
-    - Agilent High‑sensitivity DNA kit (Agilent 5067‑4626).  
-    - ONT Ligation Sequencing Kit v14 (SQK‑LSK114), Flongle flow cells (FLO‑FLG114) and PromethION flow cells (FLO‑PRO114M).  
+8. **Data analysis & reporting**  
+   - Use GraphPad Prism 10 to generate heatmaps, metagene plots, and statistical comparisons (paired two‑tailed t‑tests, Pearson correlation).  
+   - Submit raw and processed data to GEO (accession GSE293532).  
+   - Provide a concise summary of ribosomal stalling patterns and any AMR signatures observed.
 
-Please follow the steps exactly and let us know if any reagents are unavailable or if you encounter issues at any stage. Thank you.
+Please confirm receipt of this request, and let us know if you need the specific sequences for the blocking and adapter oligos (Table S1). The entire workflow should be completed within 3 weeks, with sequencing data returned within 48 h of run completion.
 ```
 
 label: 
@@ -1823,28 +1935,101 @@ notes:
 
 ---
 
-## 39. R63A20F  (elisa)
+## 39. RAA335C  (elisa)
 
 ```
-Please perform the following hydrogel formulation, in vitro cell assays, and in vivo diabetic rat implant study using our provided samples and reagents according to these parameters:
+Please run the following experiments on the samples we will provide:
 
-1. Hydrogel Preparation and Characterization
-Synthesize pure GelMA precursor solution by dissolving 50 mg GelMA powder in 1 mL PBS containing LAP photoinitiator (0.05 g LAP per 20 mL PBS) with gentle heat and dark shaking, then filter through a 0.22 μm membrane. Prepare the alogliptin-loaded hydrogel (Gel-A) by co-dissolving 50 mg GelMA and 7.5 mg alogliptin in 1 mL of the LAP/PBS solution (7.5 mg/mL final drug concentration). UV-photocure 1 mL samples of each group to measure equilibrium water content (comparing wet weight to 24-hour vacuum freeze-dried weight, n=3 per group), analyze surface structure and particle distribution via SEM (freeze-dry for 48 hours, cut into ~1 mm³ blocks, gold-sputter coat), and track in vitro release kinetics in 10 mL PBS (pH 7.4) at 37 °C, taking supernatant samples at days 15, 17, and 20.
+1. **Hydrogel preparation**  
+   - Dissolve 50 mg GelMA powder in 1 mL PBS containing 0.05 g LAP (photoinitiator) under dark conditions, heat and shake until fully dissolved, then filter through a 0.22 µm sterile filter.  
+   - For the alogliptin‑loaded gel (Gel‑A), co‑dissolve 50 mg GelMA and 7.5 mg alogliptin in the same 1 mL LAP‑PBS solution (final alogliptin concentration 7.5 mg mL⁻¹). Filter as above.  
 
-2. In Vitro Cellular Assays
-Culture provided rat BMSCs (confirming CD29+/CD90+/CD34-), BMMs (CD11b+), and HUVECs. Assess cell viability and proliferation using CCK-8 under 100 nM alogliptin and 200 μM metformin treatments. Treat BMSCs for 48 hours with saline, alogliptin, or metformin, and perform ELISAs on the supernatants for VEGF, TNF-α, and IL-10. Evaluate BMSC morphology and attachment at 24 hours via Ki-67 and FITC-Phalloidin staining. Induce osteogenic differentiation in BMSCs using standard osteogenic media (renewed every 3 days): quantify ALP activity and staining at day 7; measure mRNA expression of RUNX2, BMP2, ALP, GLP1R, β-catenin, and GSK-3β by qRT-PCR at day 14; and perform Alizarin Red S staining with cetylpyridinium chloride quantification (absorbance at 562 nm) at day 21. For anti-inflammatory testing, induce M1 phenotype in BMMs using 10 ng/mL M-CSF and 200 ng/mL LPS. For angiogenic potential, evaluate HUVEC network formation on Matrigel after 4–6 hours of culture.
+2. **Equilibrium water volume**  
+   - Pipette 1 mL of each hydrogel (plain GelMA and Gel‑A) into separate UV‑transparent dishes, photocure, weigh immediately, then freeze‑dry for 24 h and weigh again. Perform three replicates per group.  
 
-3. In Vivo T2DM Rat Model and Surgical Interventions
-Induce Type 2 diabetes in 35 male Sprague-Dawley rats (12–13 weeks old, ~300 g) using a 4-week high-fat/high-carbohydrate diet followed by a single IP injection of STZ (35 mg/kg). Confirm T2DM model establishment via fasting blood glucose > 16.7 mmol/L maintained for one week. Under general (1% pentobarbital sodium, 45 mg/kg) and local anesthesia, prepare a standardized implant bed in the femoral intercondylar fossa under constant cold saline irrigation, and place a 3 × 1.5 mm titanium implant. Randomize rats into 5 groups (n=7/group): 
-- T group: diabetic control receiving daily oral saline gavage starting 5 days post-op
-- A group: receiving daily oral alogliptin gavage (10 mM) starting 5 days post-op
-- M group: receiving daily oral metformin gavage (10 mM) starting 5 days post-op
-- GelMA group: receiving local injection of 10 μL blank hydrogel into the implant bed prior to implant placement
-- GelMA+A group: receiving local injection of 10 μL alogliptin-loaded hydrogel (1%) into the implant bed prior to placement
-Provide 3 days of post-op antibiotic prophylaxis. Administer IP Alizarin Red (30 mg/kg) 10 days before euthanasia to trace new bone formation. Euthanize all animals at week 8 and harvest femurs with implants intact.
+3. **Scanning electron microscopy**  
+   - UV‑cure 1 mL of each hydrogel, place in 6‑well plates, freeze at –80 °C overnight, then lyophilize for 48 h. Cut ~1 mm³ pieces, mount on stubs, sputter‑coat with gold, and image surface morphology, pore size, and architecture.  
 
-4. Ex Vivo Micro-CT and Histological Analyses
-Scan harvested femurs using micro-CT (80 kV, 70 μA, 10.425 μm resolution). Define a 100 μm annular region of interest (ROI) around the implant surface to quantify bone volume fraction (BV/TV), trabecular number (Tb.N), and trabecular thickness (Tb.Th). Prepare 250–300 μm undecalcified hard tissue sections parallel to the long axis of the femur for section analysis. Prepare 10 μm paraffin sections for HE, modified Masson, Safranin O/Fast Green, Van Gieson, and Toluidine Blue staining. Assess dynamic bone formation under fluorescence microscopy using the pre-labeled Alizarin Red. Perform immunohistochemical staining for RUNX2, BMP2, and ALP to quantify osteogenesis around the implant, and perform immunofluorescence staining for GLP1R, β-catenin, and GSK-3β to analyze pathway expression at the bone-implant interface.
+4. **Hydrogel release ELISA**  
+   - Place 1 mL of each cured hydrogel into 15 mL tubes with 10 mL PBS (pH 7.4), incubate at 37 °C with shaking. At days 15, 17, 20 collect supernatant (centrifuge 6000 rpm, 5 min), store at –80 °C, and replace with fresh PBS. After the final collection, quantify alogliptin concentration by ELISA.  
+
+5. **T2DM rat model**  
+   - Obtain 40 male Sprague‑Dawley rats (12–13 weeks, ~300 g). Feed a high‑fat/high‑carbohydrate diet for 4 weeks, then inject STZ 35 mg kg⁻¹ i.p. Verify fasting glucose >16.7 mmol L⁻¹ for one week before use.  
+
+6. **Group allocation (7 rats per group)**  
+   - Group T: diabetic, oral saline.  
+   - Group A: diabetic, oral alogliptin 10 mM (gavage).  
+   - Group M: diabetic, oral metformin 10 mM (gavage).  
+   - Group GelMA: diabetic, local injection of 10 µL plain GelMA into implant bed before implant placement.  
+   - Group GelMA+A: diabetic, local injection of 10 µL Gel‑A into implant bed before implant placement.  
+
+7. **Surgical implantation**  
+   - Anesthetize with 1 % pentobarbital sodium (45 mg kg⁻¹ i.p.) plus local Primacaine.  
+   - Expose the femoral intercondylar fossa, drill a standardized 3 mm × 1.5 mm implant bed under saline irrigation, insert a Ti implant (3 × 1.5 mm, Shandong Hengtai), close layers, and administer antibiotics for 3 days post‑op.  
+
+8. **Drug administration**  
+   - Begin 5 days post‑op. Give alogliptin or metformin (10 mM) by oral gavage daily to Groups A and M; give equivalent volume saline to Group T.  
+   - For hydrogel groups, inject the specified gel (10 µL) into the implant site immediately before implant insertion (no systemic drug).  
+
+9. **Euthanasia and sample collection** (week 8)  
+   - Overdose with 3 % sodium pentobarbital (150–200 mg kg⁻¹ i.p.), harvest femurs with implants.  
+
+10. **Micro‑CT**  
+    - Scan each femur at 80 kV, 70 µA, 1440 projections, voxel size 10.425 µm, integration time 500 ms. Reconstruct a 100 µm annular ROI around each implant and calculate BV/TV, trabecular number, and trabecular thickness using VG Studio MAX 3.5.  
+
+11. **Alizarin Red labeling**  
+    - Inject 30 mg kg⁻¹ Alizarin Red i.p. 10 days before euthanasia. After harvest, cut 50 µm longitudinal sections and image fluorescence (Axio Imager M).  
+
+12. **Histology**  
+    - Dehydrate, embed, and section femurs longitudinally (250–300 µm thick) to avoid implant loss; mount on resin slides.  
+    - Prepare 10 µm undecalcified paraffin sections for HE, modified Masson, Safranin O/Fast Green, Van Gieson, and Toluidine Blue staining (follow standard protocols).  
+
+13. **Immunofluorescence** (GLP1R, β‑catenin, GSK‑3β)  
+    - Permeabilize sections (0.1 % Triton X‑100, 20 min), block with 10 % normal goat serum 1 h (27 °C). Incubate primary antibodies (1:100) overnight at 4 °C, wash, then apply goat anti‑rabbit Alexa secondary (1:250) 1 h RT in dark. Counterstain with DAPI and image on Olympus inverted fluorescence microscope.  
+
+14. **Immunohistochemistry** (RUNX2, BMP2, ALP)  
+    - Deparaffinize, antigen‑retrieve in citrate buffer (95 °C, 20 min), block (10 % goat serum, 1 h, 27 °C). Incubate primary antibodies (1:100) overnight 4 °C, wash, add HRP‑conjugated goat anti‑rabbit (1:200) 1 h RT, develop with DAB, counterstain with hematoxylin, mount, and capture images (Olympus upright microscope).  
+
+15. **VG and Toluidine Blue staining**  
+    - VG: mix 9 mL solution B + 1 mL solution A, stain 3 min, rinse, dehydrate in absolute ethanol, clear in xylene (5 min), mount with neutral resin.  
+    - Toluidine Blue: stain 5 min, rinse, dehydrate, clear, and mount as above.  
+
+16. **Cell isolation & culture**  
+    - Harvest bone marrow from SD rats, isolate BMSCs and BMMs. Culture BMSCs in RPMI‑1640 +10 % FBS +1 % pen/strep at 5 % CO₂, 37 °C. Culture BMMs in high‑glucose DMEM +10 % FBS, treat with M‑CSF (10 ng mL⁻¹) then LPS (200 ng mL⁻¹) to generate M1 phenotype. Obtain HUVECs (Life Technologies) and culture in Medium 200 +2 % LSGS under same conditions.  
+
+17. **Flow cytometry phenotyping**  
+    - BMSCs: CD29, CD34, CD90 (Cell Signaling).  
+    - BMMs: CD11b (Cell Signaling).  
+    - HUVECs: confirm VE‑cadherin expression. Analyze with FlowJo v10.  
+
+18. **Cell viability (CCK‑8)**  
+    - Seed cells in 96‑well plates, treat with alogliptin (100 nM) or metformin (200 µM) for 24 h, add CCK‑8 reagent, read OD 450 nm. Confirm non‑cytotoxic concentrations for downstream work.  
+
+19. **BMSC ELISA** (48 h treatment)  
+    - Collect supernatants after exposure to saline, alogliptin, or metformin. Measure VEGF, TNF‑α, and IL‑10 using Beyotime kits (catalog numbers PV960, PT516, PI615).  
+
+20. **Adhesion assay**  
+    - Plate 2 × 10⁵ cells cm⁻², after 24 h fix, stain for Ki‑67 and FITC‑Phalloidin, image with Nikon Eclipse Ti.  
+
+21. **Osteogenic differentiation**  
+    - Plate 2 × 10⁵ cells cm⁻², after 3 days switch to osteogenic medium (10 % FBS, 0.001 mM dexamethasone, 10 mM β‑glycerophosphate, 0.05 mM ascorbate‑2‑phosphate); change medium every 3 days.  
+
+22. **ALP activity (day 7)**  
+    - Fix cells (4 % PFA, 30 min), perform ALP staining with Jiancheng kit (A059‑2) per manufacturer’s instructions.  
+
+23. **Alizarin Red (day 21)**  
+    - Fix cells (4 % PFA, 30 min), stain with Alizarin Red S (Abcam), dissolve bound dye with cetyl‑pyridinium chloride, read absorbance at 562 nm for quantification.  
+
+24. **HUVEC tube formation**  
+    - Thaw Matrigel, coat 48‑well plates (200 µL well⁻¹), solidify 20 min at 37 °C. Seed HUVECs (experimental = alo, control = vehicle), incubate 4–6 h, capture tube networks under microscope.  
+
+25. **qRT‑PCR (after 14 days osteogenic induction)**  
+    - Extract total RNA (OD 260/280 = 1.8–2.1), reverse transcribe to cDNA, run TB Green qPCR on Applied Biosystems 7300/7500. Use GAPDH as housekeeping. Thermal cycle: 95 °C 95 s; 45 × (95 °C 5 s, 60 °C 34 s, 95 °C 15 s). Include three biological and three technical replicates. Analyze expression of osteogenic markers and Wnt/β‑catenin pathway genes (2⁻ΔΔCt method).  
+
+26. **Data analysis**  
+    - Provide raw data and processed results for all assays. Perform statistical analysis with GraphPad Prism 9: test normality and variance, then one‑way ANOVA with Tukey’s post‑hoc; significance set at two‑tailed p < 0.05.  
+
+Please use the catalog numbers and concentrations listed above, keep all samples blinded, and return all raw images, spreadsheets, and statistical outputs. Let me know if any reagents or equipment are unavailable so we can arrange alternatives. Thanks.
 ```
 
 label: 
@@ -1917,52 +2102,75 @@ notes:
 
 ---
 
-## 42. RBFD3FF  (elisa)
+## 42. R23C8ED  (elisa)
 
 ```
-Please run the glucagon ELISA on the human islet hormone extracts we have shipped to you, following the Vanderbilt HIPP SOP (HIPP‑10‑v01). Below are the specific actions we need you to perform:
+Please conduct the glucagon ELISA on the human islet extracts we have shipped to you.  
+Use the Quantikine Glucagon ELISA kit (R&D Systems #DGCG0).  
 
-1. **Materials** – Use the Quantikine Glucagon ELISA Kit (R&D Systems, Cat #DGCG0) together with the accompanying Glucagon Control Set (Cat #QC100). All kit components are within expiration; keep reagents at 2‑8 °C except the standard, which should be brought to room temperature before use. Also have on hand the 50 µL epMotion tips, 10 mL and 25 mL serological pipets, 2 mL SafeSeal tubes, and filtered 200 µL/1000 µL tips.
+**Equipment & Supplies**  
+- Micropipettes (10‑100 µL, 20‑200 µL, 100‑1000 µL) and 20‑200 µL multi‑channel pipette  
+- epMotion 5075 (or hand‑pipetting) with 50 µL tips (Eppendorf 30014421)  
+- 20‑200 µL multi‑channel pipette tips (Eppendorf 0030014430)  
+- 200 µL and 1000 µL tips (Fisher P‑200 ART, P‑1250 ART)  
+- 2 mL SafeSeal tubes (Sarstedt 72.695.500)  
+- 10 mL and 25 mL serological pipettes (Fisher 13‑678‑11E / 13‑678‑11)  
+- Bench‑top vortex, Bench‑top shaker (Benchmark Orbi BT1502), plate washer (Fisher accuWash 5165100), microplate reader (BMG CLARIOstar Plus with MARS software)  
+- Computer with Excel and GraphPad Prism  
 
-2. **Equipment** – The assay should be performed on your epMotion liquid‑handling workstation (or by hand if needed), using the Benchmark Orbi shaker, Fisher AccuWash plate washer, and the BMG Labtech CLARIOstar plate reader (450 nm with 540 nm correction). A vortex mixer and a multi‑channel pipette (20‑200 µL) are also required.
+**Kit Components**  
+- Glucagon microplate (894070), standard (894072), conjugate (894071)  
+- Assay diluent RD1‑110 (895967), calibrator diluent RD5‑59 (895968), wash buffer concentrate (895222)  
+- Color reagents A (895000), B (895001), stop solution (895032)  
+- QC set (R&D QC100)  
 
-3. **Sample preparation**  
-   a. Thaw the archived islet hormone extracts in a room‑temperature water bath; invert each capped tube ten times to mix. Keep the extracts on ice thereafter.  
-   b. Prepare serial dilutions of each extract in 2 mL SafeSeal tubes using the kit’s Calibrator Diluent (RD5‑59): 1:100, 1:1,000, 1:2,000, 1:5,000, and 1:10,000. Vortex each tube thoroughly before making the next dilution.  
+Store all unopened kit parts at 2‑8 °C; thaw QC samples as needed.  
 
-4. **Standard and control preparation**  
-   a. Bring the Glucagon Standard (20,000 pg/mL) to room temperature. Make a 1:10 dilution with Calibrator Diluent, then perform six successive 1:2 dilutions to generate the standard curve. Vortex after each step.  
-   b. Reconstitute each Quality Control stock in 5 mL distilled water (or thaw existing QC aliquots) and keep on ice.  
+**Sample Preparation**  
+1. Thaw islet extracts at room temperature in a water bath, invert capped tubes 10 times.  
+2. Keep extracts on ice until ready for dilution.  
+3. Prepare serial dilutions of each extract in 2 mL tubes: 1:100, 1:1000, 1:2000, 1:5000, 1:10000 using calibrator diluent RD5‑59. Vortex after each dilution before the next.  
 
-5. **Wash buffer** – Dilute 100 mL of Wash Buffer concentrate (provided) with 900 mL de‑ionized water.  
+**Standard Dilutions**  
+4. Prepare a 1:10 dilution of the 20 000 pg/mL standard in RD5‑59.  
+5. Perform six 1:2 serial dilutions from that 1:10. Vortex each tube before the next step.  
 
-6. **Plate preparation**  
-   a. Using the plate washer, pre‑soak the glucagon ELISA plate wells with 800 µL of diluted wash buffer for 30 s, then wash/aspirate twice with 400 µL wash buffer.  
-   b. Add 150 µL of Assay Diluent (RD1‑110) to every well.  
-   c. Add 50 µL of each standard, QC, and sample dilution (in duplicate) to the appropriate wells using the epMotion (or hand‑pipetting).  
-   d. Cover the plate with the supplied adhesive strip and incubate 3 h at room temperature on the orbital shaker.  
+**QC Preparation**  
+6. Reconstitute QC stock in 5 mL distilled water (or thaw pre‑prepared QC).  
 
-7. **Detection**  
-   a. Wash the plate as in step 6a (three wash cycles).  
-   b. Add 200 µL of ice‑cold Glucagon Conjugate to each well, cover with a fresh adhesive strip, and incubate 1 h at 4 °C (do not stack plates).  
-   c. Wash again as in step 6a (three cycles).  
-   d. Within 15 min of opening, mix Color Reagent A and B 1:1, add 200 µL to each well, and incubate 30 min at room temperature protected from light.  
-   e. Add 50 µL Stop Solution to each well.  
+**Wash Buffer**  
+7. Dilute wash buffer concentrate: 100 mL concentrate + 900 mL DI water to make 1× wash buffer.  
 
-8. **Reading** – Measure absorbance on the CLARIOstar within 30 min of adding stop solution (450 nm, reference 540 nm). Export raw OD values.  
+**Pre‑Assay Plate Preparation**  
+8. Soak the 96‑well plate: add 800 µL diluted wash buffer to each well, wait 30 s, aspirate. Repeat wash/aspirate twice with 400 µL wash buffer.  
 
-9. **Data analysis**  
-   a. Verify that all standards fall within ±15 % of expected values and that duplicate CV ≤ 20 %; repeat the assay if not.  
-   b. Confirm QC results are within their defined ranges; repeat if they fall outside.  
-   c. Calculate glucagon concentrations for each sample dilution, then average the four dilutions to obtain the extract’s glucagon content (pg/mL).  
-   d. Normalize to islet volume (pg/100 IEQ/min) and compute % content/min.  
-   e. Using GraphPad Prism, generate standard curves, calculate stimulation index and AUC for any secretagogue conditions, and produce the required graphs.  
+**Assay Steps**  
+9. Add 150 µL assay diluent RD1‑110 to each well.  
+10. Add 50 µL of standards (in duplicate), QC (in duplicate), and each of the five extract dilutions to appropriate wells using epMotion or hand pipetting.  
+11. Seal plate, incubate 3 h at room temperature.  
+12. Wash as in step 8, repeat 3 times (use plate washer).  
+13. Add 200 µL ice‑cold glucagon conjugate to each well.  
+14. Seal again, incubate 1 h at 4 °C (no plate stacking if multiple kits).  
+15. Wash again 3 times as above.  
+16. Mix color reagents A and B in equal volume, add 200 µL to each well within 15 min of mixing.  
+17. Incubate 30 min at room temperature, away from light.  
+18. Add 50 µL stop solution to each well.  
 
-10. **Reporting**  
-    a. Provide us with the raw OD data, the calculated concentrations, normalized values, and the Prism graphs (SI and AUC).  
-    b. Upload all raw and processed data to the IIDP HIPP database within three business days of assay completion, and send us a confirmation email with the database entry ID.  
+**Reading**  
+19. Read OD at 450 nm with 540 nm correction on the CLARIOstar within 30 min of adding stop solution.  
 
-If any step deviates from the protocol or you encounter a problem that could affect the results, please document the deviation and notify us immediately so we can decide on next steps. Thank you.
+**Data Analysis**  
+20. Verify standards are within ±15 % of expected values and duplicate CV ≤20 %. If not, repeat assay.  
+21. Verify QC values are within known ranges. If not, repeat assay.  
+22. For each extract, average the glucagon concentrations from the four dilutions (1:100–1:5000).  
+23. Normalize to islet volume: express as pg/100 IEQs/min.  
+24. Use Prism to graph hormone concentrations over time, calculate stimulation index (max response / baseline) and AUC.  
+
+**Reporting**  
+25. Send us the raw OD data, calculated concentrations, and Prism graphs.  
+26. Include any deviations from the protocol that could affect the results.  
+
+Please complete the assay within 3 business days of receipt and forward the data files to our research team. Let us know if any supplies or equipment are missing. Thank you.
 ```
 
 label: 
@@ -1973,30 +2181,129 @@ notes:
 
 ---
 
-## 43. R5A01D7  (growth_curve)
+## 43. R41A15B  (growth_curve)
 
 ```
-1. Transform the provided pET28a-His6-ARID3B and EGFP-ARID3B-pET28a plasmids into E. coli BL21(DE3) cells, plate on LB agar with 50 kB/mL kanamycin, and prepare glycerol stocks from single colonies.
+1. Prepare the following buffers fresh on the day of use (keep all at 4 °C unless noted).  
 
-2. Perform a small-scale expression test in 4 mL cultures (OD600 = 0.5–0.8) induced with 0.2 mM IPTG at 15°C and 37°C, analyzing whole cells and soluble/insoluble fractions by SDS-PAGE to determine optimal large-scale induction conditions.
+   * **Ni‑IDA lysis buffer (100 mL):** 50 mM Tris‑HCl pH 8.0 (5 mL 1 M), 300 mM NaCl (6 mL 5 M), 20 mM imidazole (2 mL 1 M), 1 % Triton X‑100 (1 mL), 1 mM DTT (100 µL 1 M), 1 mM PMSF (1 mL 100 mM, add just before use). Bring to 100 mL with ddH₂O.  
 
-3. Conduct large-scale expression in LB-kanamycin (16 h induction with 0.2 mM IPTG at the optimized temperature), harvest cells by centrifugation, and lyse the pellets in ice-cold lysis buffer (50 mM Tris pH 8.0, 300 mM NaCl, 20 mM imidazole, 1% Triton X-100, 1 mM DTT, 1 mM PMSF) via probe sonication (30–40% power, 20 min total, 3 s ON/6 s OFF).
+   * **Ni‑IDA equilibration/wash buffer (100 mL):** 50 mM Tris‑HCl pH 8.0 (5 mL 1 M), 300 mM NaCl (6 mL 5 M), 20 mM imidazole (2 mL 1 M), bring to 100 mL with ddH₂O. Store ≤ 1 month at 4 °C.  
 
-4. Clarify the lysate by centrifugation at 13,000 × g for 20 min at 4°C and run Ni-IDA affinity chromatography on the soluble supernatant using an equilibration buffer of 50 mM Tris pH 8.0, 300 mM NaCl, 20 mM imidazole, and eluting with the same buffer supplemented to 500 mM imidazole.
+   * **Ni‑IDA high‑imidazole wash buffer (100 mL):** 50 mM Tris‑HCl pH 8.0 (5 mL 1 M), 300 mM NaCl (6 mL 5 M), 500 mM imidazole (50 mL 1 M), bring to 100 mL with ddH₂O. Store ≤ 1 month at 4 °C.  
 
-5. Analyze fractions by 10–12% SDS-PAGE and Coomassie staining, pool high-purity elution fractions, dialyze into PBS (pH 7.4), filter through a 0.22 µm filter, and determine protein concentration via Bradford assay using BSA standards.
+   * **In‑vitro LLPS stock buffer (100 mL):** 25 mM Tris‑HCl pH 7.4 (2.5 mL 1 M), 500 mM NaCl (10 mL 5 M), 10 % glycerol (10 mL), 1 mM DTT (100 µL 1 M). Add DTT just before use. Keep on ice; can store without DTT ≤ 1 week at 4 °C.  
 
-6. Perform quality control on purified ARID3B via SDS-PAGE (comparing against 1 µg BSA) and Western blot using a multi-tag antibody, followed by freeze-thaw stability testing, reconstitution testing, and size-exclusion chromatography (SEC) analysis. Repeat this expression and purification workflow for EGFP-ARID3B.
+   * **10 % (w/v) PEG‑4000 solution** in water, filter‑sterilized, keep at 20‑25 °C.  
 
-7. For the in vitro phase separation assay, dilute clarified ARID3B protein stock into LLPS stock buffer (25 mM Tris-HCl pH 7.4, 500 mM NaCl, 10% glycerol, 1 mM DTT), mix with 10% (w/v) PEG-4000 and water without vortexing, incubate at 20°C–25°C for 15–30 min, and image 3–5 µL of the reaction on a glass slide using bright-field microscopy (for unlabeled ARID3B) or 488 nm fluorescence microscopy (for EGFP-ARID3B).
+2. **Bacterial expression of His₆‑ARID3B** (pET28a‑His6‑ARID3B).  
 
-8. Seed HEPM cells on sterile glass coverslips in 6-well plates to 50–70% confluency and transiently transfect with EGFP-ARID3B plasmid DNA using Lipofectamine 2000 in OPTI-MEM for 24 hours.
+   a. Thaw 50 µL chemically competent *E. coli* BL21(DE3) on ice. Add 250 ng plasmid, mix, incubate 30 min on ice. Heat‑shock 42 °C for 90 s, return to ice 2 min. Add 500 µL pre‑warmed LB (no antibiotic), shake 37 °C, 200 rpm, 30 min. Plate 40 µL on LB‑Kan 50 µg/mL, incubate overnight 37 °C.  
 
-9. Perform live-cell confocal imaging of EGFP-ARID3B condensates in HEPM cells using a 100× oil immersion objective and 488 nm laser excitation at 1–5% power on a microscope enclosed in a 37°C environmental chamber (n ≥ 10 cells from 3 independent transfections).
+   b. Pick one colony for a 4 mL starter culture in LB‑Kan (50 µg/mL). Grow 37 °C to OD₆₀₀ = 0.5–0.8. Induce with 0.2 mM IPTG. Split the culture: keep one at 37 °C, move the other to 15 °C (pre‑cooled) for 16 h. Harvest 1 mL each, lyse, run SDS‑PAGE to decide which temperature gives the best soluble expression.  
 
-10. Fix transfected HEPM cells with 4% PFA in PBS for 15 min, permeabilize with 0.1–0.3% Triton X-100, block with normal goat serum, and perform immunofluorescence staining using an anti-SMAD2/3 primary antibody (1:200 dilution, overnight at 4°C) followed by a red-fluorescent secondary antibody and DAPI nuclear staining. Mount coverslips and image on a confocal microscope (405, 488, and 594 nm laser lines) to assess co-localization of EGFP-ARID3B condensates with SMAD2/3.
+   c. For large scale, inoculate 2 µL glycerol stock into 10 mL LB‑Kan, grow overnight 37 °C. Dilute 1 % (v/v) into fresh LB‑Kan (e.g., 1 L total). Grow 37 °C to OD₆₀₀ = 0.6–0.8, cool to 15 °C (if that was optimal), add 0.2 mM IPTG, continue induction 16 h at the selected temperature. Harvest cells by centrifugation (≈ 5 000 g, 10 min, 4 °C).  
 
-11. Perform in vitro and live-cell (HEPM) FRAP assays on ARID3B condensates using a confocal microscope equipped with a FRAP module and 488 nm laser: capture 3–5 pre-bleach images, photobleach an ROI within a droplet using high-power 488 nm illumination until intensity drops to 60–80%, and record time-lapse recovery images every 1–3 s for 2–5 min.
+3. **Cell lysis and soluble fraction preparation.**  
+
+   a. Resuspend cell pellet in 5 mL lysis buffer per gram of wet pellet. Keep on ice.  
+
+   b. Sonicate on ice (30 %–40 % power, 3 s ON/6 s OFF) for total 20 min, avoiding overheating.  
+
+   c. Centrifuge 13 000 g, 20 min, 4 °C. Collect supernatant (soluble fraction) and keep aliquots of total lysate, supernatant, and pellet for SDS‑PAGE analysis.  
+
+4. **Ni‑IDA affinity purification.**  
+
+   a. Equilibrate Ni‑IDA column with 5 column volumes (CV) equilibration buffer (20 mM imidazole).  
+
+   b. Load cleared soluble lysate onto the column at 4 °C, collect flow‑through.  
+
+   c. Wash with 10 CV equilibration buffer (20 mM imidazole).  
+
+   d. Elute with 5 CV high‑imidazole wash buffer (500 mM imidazole). Collect 1 mL fractions.  
+
+   e. Analyze elution fractions by SDS‑PAGE; pool those with the strongest ARID3B band and minimal contaminant bands.  
+
+5. **Post‑purification processing.**  
+
+   a. Dialyze pooled fractions against PBS pH 7.4 (2 L, change twice, 4 °C, overnight).  
+
+   b. Filter through 0.22 µm low‑binding filter into low‑binding tubes.  
+
+   c. Determine concentration by Bradford assay (BSA standard curve).  
+
+   d. Aliquot (e.g., 50 µL) and store at –80 °C.  
+
+   e. Quality control: run a final SDS‑PAGE with BSA (1 µg) lane, and a Western blot using anti‑His or a multi‑tag antibody to confirm identity.  
+
+   f. Perform a freeze‑thaw stability test on one aliquot (thaw on ice 5 min, hold 4 °C 30 min, re‑freeze). No turbidity or precipitation indicates acceptable stability.  
+
+6. **Size‑exclusion chromatography (optional but requested).**  
+
+   a. Run analytical SEC on a calibrated column (include blank and molecular‑weight markers).  
+
+   b. Load 100 µL of purified ARID3B (≈ 1 mg/mL) in PBS, record chromatogram.  
+
+   c. Note peak retention times and relative areas to assess oligomeric state and heterogeneity.  
+
+7. **In‑vitro phase‑separation assay** (using purified ARID3B).  
+
+   a. Thaw an aliquot of ARID3B on ice, dilute into LLPS stock buffer to a final concentration of ~ 10 µM (adjust as needed). Clarify by centrifugation 13 000 g, 10 min, 4 °C.  
+
+   b. Prepare reaction mixtures (final volume 20 µL) containing:  
+
+      * ARID3B at desired concentration (e.g., 5‑15 µM)  
+      * 10 % PEG‑4000 (add volume calculated from the 10 % stock)  
+      * ddH₂O to bring to final volume.  
+
+   c. Mix gently by pipetting, avoid vortexing. Incubate 20 °C–25 °C for 15–30 min to allow droplet formation.  
+
+   d. Spot 3–5 µL on a clean glass slide, cover with a coverslip (no bubbles).  
+
+   e. Image:  
+
+      * For EGFP‑ARID3B (if you request the EGFP fusion), use fluorescence microscopy (488 nm excitation).  
+      * For untagged ARID3B, use bright‑field. Capture representative fields.  
+
+8. **FRAP on in‑vitro condensates (optional).**  
+
+   a. Use the same reaction mixture as in step 7, place 3–5 µL in a glass‑bottom dish.  
+
+   b. On a confocal with FRAP module, locate a single droplet with a 100× oil objective. Acquire 3–5 pre‑bleach frames (low laser power).  
+
+   c. Bleach a small ROI inside the droplet (or the whole droplet) with 488 nm laser at high power for 1–3 s until fluorescence drops to ~ 60 % of initial.  
+
+   d. Record recovery every 1–3 s for 2–5 min (or until plateau).  
+
+9. **Cellular work (EGFP‑ARID3B in HEPM cells).**  
+
+   a. Seed HEPM cells on sterile glass coverslips in a 6‑well plate; grow to 50‑70 % confluence.  
+
+   b. Transient transfection (per well):  
+
+      * Tube A: 2 µg EGFP‑ARID3B plasmid in 200 µL Opti‑MEM.  
+      * Tube B: 2 µL Lipofectamine 2000 in 200 µL Opti‑MEM (5 min at RT).  
+
+      Combine, incubate 15‑20 min, add dropwise to cells (replace medium with fresh complete medium first).  
+
+   c. After 4 h, replace transfection medium with fresh complete medium. Incubate 24 h total post‑transfection.  
+
+   d. **Live‑cell imaging:** Use a confocal with 488 nm laser, low power (1‑5 %). Capture images of ≥ 10 cells per condition from ≥ 3 independent transfections.  
+
+   e. **Immunofluorescence for SMAD2/3 co‑localization:**  
+
+      * Fix cells 24–36 h post‑transfection with 4 % PFA, 15 min RT.  
+      * Wash 3× PBS, permeabilize 0.2 % Triton X‑100 (10 min RT), wash 3× PBS.  
+      * Block 60 min in normal goat serum.  
+      * Incubate with anti‑SMAD2/3 (1:200 in blocking buffer) overnight 4 °C.  
+      * Wash 3× PBS, incubate with Alexa‑594 secondary (1 h, RT, dark).  
+      * Wash, stain nuclei with DAPI (5 min, RT, dark), wash, mount with anti‑fade medium.  
+
+   f. **Imaging:** Acquire 488 nm (EGFP), 594 nm (SMAD2/3), and 405 nm (DAPI) channels. Quantify nuclear puncta and co‑localization.  
+
+   g. **FRAP in cells:** Select a nuclear EGFP‑ARID3B condensate, acquire 3‑5 pre‑bleach frames, bleach the condensate with high‑power 488 nm laser (1‑3 s) to ~ 60 % intensity, then record recovery every 1‑2 s for 2‑5 min.  
+
+Please let us know if any reagents (e.g., plasmids, antibodies) need to be supplied, or if you have any questions about the timing or equipment. Thank you.
 ```
 
 label: 
@@ -2028,28 +2335,41 @@ notes:
 
 ---
 
-## 45. R61702F  (qpcr)
+## 45. R3AE28C  (qpcr)
 
 ```
-1. Culture human foreskin fibroblasts (HFF1, ATCC SCRC‑1041) in DMEM supplemented with 10 % FBS, 2 mM L‑glutamine, and 1 % penicillin/streptomycin. Keep cells at standard temperature, humidity, and 5 % CO₂. Seed control and experimental plates at the same confluence and passage number; aim for stable proliferation before treatment.
+Please conduct the following experiment on our fibroblast samples:
 
-2. Treat the experimental plates with the REAC CO‑IBZ protocol using a BENE 110 device (ASMED). Apply the Asymmetric Conveyor Probe (ACP) directly onto the culture for nine 30‑min sessions total: three sessions per day on three consecutive days, with each session starting one hour after the previous one ends. Handle control plates in parallel under identical culture conditions but without the ACP.
+1. **Cell culture** – Thaw HFF1 (ATCC SCRC‑1041) and expand in DMEM + 10 % FBS + 2 mM L‑glutamine + 1 % penicillin/streptomycin. Keep cells at 37 °C, 5 % CO₂, 95 % humidity. Use cells at the same passage number and confluence for all conditions; seed control and treatment plates in parallel.
 
-3. After the final CO‑IBZ session, harvest cells from each biological replicate (n = 5 per condition). Extract total RNA using the Qiagen RNeasy Mini Kit, measure concentration and purity spectrophotometrically, and store at –80 °C until analysis.
+2. **REAC CO‑IBZ treatment** – Use a BENE‑110 device (ASMED, Scandicci). Apply the built‑in CO‑IBZ protocol: nine 30‑min sessions over three days (3 sessions per day). Start each session one hour after the previous one. Keep the asymmetric conveyor probe (ACP) in contact with the culture for 30 min each session. Leave untreated wells in the same incubator as controls.
 
-4. Perform one‑step quantitative RT‑PCR (Luna Universal One‑Step RT‑qPCR Kit, NEB) on a Bio‑Rad CFX thermal cycler for the following targets: SIRT1, NOX4, VEGF, p16, p21, HAS2. Use GAPDH as the reference gene. Run each biological sample in technical triplicate, average the triplicates, and calculate relative expression with the 2⁻ΔΔCt method. Confirm that GAPDH Cq values do not differ between groups.
+3. **Post‑treatment sampling** – After the final session, harvest cells for:
+   - RNA isolation (RNeasy Mini Kit, Qiagen) – measure concentration/purity.
+   - Protein extraction for immunofluorescence.
+   - Medium collection for TAC, nitrite, and ROS assays (keep samples on ice, then freeze if not used immediately).
 
-5. For immunofluorescence, fix and permeabilize cells from each replicate. Incubate overnight at 4 °C with primary antibodies at the indicated dilutions: SIRT1 (1:100, Cell Signaling), NOX4 (1:500 from a 1:50 stock, Santa Cruz), PARP1 (1:800, Cell Signaling), vWF (1:500 from a 1:50 stock, Santa Cruz), collagen III (1:500, Abcam). After washing, apply fluorescence‑conjugated secondary antibodies (Life Technologies) at 1:500 for 1 h at 37 °C in the dark. Counterstain nuclei with DAPI (1 µg/mL). Acquire images on a Leica THUNDER Imager DMi8 using identical exposure, illumination, and acquisition settings for all samples. Quantify mean fluorescence intensity with ImageJ/Fiji, collapsing technical images into one value per biological replicate.
+4. **RT‑qPCR** – Use Luna One‑Step RT‑qPCR Kit (NEB). Target genes: SIRT1, NOX4, VEGF, p16, p21, HAS2. Reference: GAPDH. Run in triplicate technical replicates per sample. Calculate ΔΔCt (assuming similar efficiencies) and express as fold change vs control.
 
-6. Measure total antioxidant capacity (TAC) in the culture supernatant using the Abcam Total Antioxidant Capacity Colorimetric Assay Kit. Add 100 µL Cu²⁺ working solution to each well, incubate 90 min at room temperature on an orbital shaker protected from light, then read absorbance at 570 nm on an Akribis plate reader. Calculate TAC as (Ts/Sv) × D using the standard curve (Ts = nmol, Sv = µL added, D = dilution factor). Perform the assay on five independent biological replicates per condition.
+5. **Immunofluorescence** – Fix cells with 4 % paraformaldehyde, permeabilize with Triton X‑100. Incubate overnight at 4 °C with primary antibodies:
+   - SIRT1 (Cell Signaling, 1:100)
+   - NOX4 (Santa Cruz, 1:500 from 1:50 stock)
+   - PARP1 (Cell Signaling, 1:800)
+   - vWF (Santa Cruz, 1:500 from 1:50 stock)
+   - Collagen III (Abcam, 1:500)
+   Wash, then add Alexa‑conjugated secondaries (1:500) for 1 h at 37 °C in dark. Counterstain nuclei with DAPI (1 µg/mL). Acquire images on a Leica THUNDER DMi8 microscope with identical exposure, illumination, and acquisition settings across all samples. Analyze mean fluorescence intensity per cell using ImageJ/Fiji, averaging all cells within a well, then summarizing per biological replicate.
 
-7. Determine nitrite levels with the Thermo Fisher Griess Reagent Kit. Mix 20 µL Griess reagent with 150 µL sample, incubate 30 min at room temperature, and read absorbance at 548 nm on the same plate reader. Use five biological replicates per condition.
+6. **Total antioxidant capacity (TAC)** – Use the Abcam Colorimetric TAC kit. Add 100 µL Cu²⁺ working solution to each 96‑well (standard or sample), shake, incubate 90 min at room temperature in the dark. Read absorbance at 570 nm (Akribis reader). Calculate TAC as (Ts/Sv) × D, where Ts = sample TAC from standard curve (nmol), Sv = sample volume (µL), D = dilution factor. Perform 3 technical replicates per biological sample.
 
-8. Assess intracellular ROS using CM‑H₂DCFDA (Thermo Fisher). After treatment, incubate cells with 10 µM dye for 30 min at 37 °C in the dark, wash with PBS, and measure fluorescence (excitation 485 nm, emission 530 nm) in fresh PBS on the plate reader. Run five biological replicates.
+7. **Nitrite (NO) assay** – Use Thermo Fisher Griess Reagent Kit. Mix 20 µL Griess reagent with 150 µL sample, incubate 30 min at room temp. Read absorbance at 548 nm (Akribis reader). Analyze relative to a nitrite standard. Include 3 technical replicates per biological sample.
 
-9. For all quantitative assays (RT‑qPCR, immunofluorescence intensity, TAC, nitrite, ROS), average technical replicates within each biological replicate before any statistical testing. Use GraphPad Prism 9 to assess normality (Shapiro–Wilk) and compare control vs. CO‑IBZ groups with an unpaired two‑tailed Welch’s t‑test. Report results as mean ± SD; consider p < 0.05 significant.
+8. **Intracellular ROS** – Stain cells with 10 µM CM‑H₂DCFDA (reconstituted in DMSO) for 30 min at 37 °C in the dark. Wash with PBS, then measure fluorescence in PBS (exc 485 nm, em 530 nm) on an Akribis reader. Use 3 technical replicates per biological sample.
 
-Please process our HFF1 samples according to the above workflow and return raw data files, processed results, and a brief statistical summary for each assay. Let us know promptly if any reagents or equipment are unavailable.
+9. **Replicates** – Perform 5 biological replicates per condition (treated vs untreated). Technical replicates are for assay consistency; average them to obtain one value per biological sample.
+
+10. **Statistics** – Use GraphPad Prism 9. Test for normality (Shapiro‑Wilk). Compare control vs CO‑IBZ using unpaired two‑tailed Welch’s t‑test at the biological‑replicate level (p < 0.05 considered significant). Report mean ± SD.
+
+Please confirm receipt and let us know the anticipated timeline for completion.
 ```
 
 label: 
@@ -2060,23 +2380,23 @@ notes:
 
 ---
 
-## 46. R66B651  (elisa)
+## 46. R03182B  (elisa)
 
 ```
-Please run an alpha-Synuclein quantification ELISA on our submitted samples in duplicate using the following steps:
+Please perform the α‑synuclein ELISA on our samples as follows:
 
-1. Coat 384-well MaxiSorp plates (Nunc) with the anti-α-Syn capture antibody (BD Biosciences, cat #610787) diluted 1:500 in coating buffer (NaHCO3 with 0.2% NaN3, pH 9.6) overnight at 4 °C.
-2. Wash 3 times with PBS containing 0.05% Tween-20 (PBS-T).
-3. Block the plates for 1 hour at 37 °C in blocking buffer (1.125% fish skin gelatin in PBS-T).
-4. Load our samples along with your standard curve in duplicate into the wells.
-5. Incubate at room temperature for 2 hours.
-6. Add the detection antibody (diluted in blocking buffer) and incubate for 1 hour at 37 °C.
-7. Wash 5 times with PBS-T.
-8. Add ExtrAvidin phosphatase (Sigma, cat #E2636) diluted in blocking buffer to the wells and incubate for 30 minutes at 37 °C.
-9. Perform color development using fast-p-nitrophenyl phosphate substrate (Sigma, cat #N1891), reading absorbance at 405 nm every 2.5 minutes for up to 60 minutes.
-10. Determine the concentration of α-Syn in our samples by selecting the time point(s) where the standards and sample dilutions are within the linear/log phase. 
-
-Please provide the final calculated concentration data along with the raw kinetic absorbance reads.
+1. Coat 384‑well MaxiSorp plates (Nunc) with the capturing antibody (α‑Syn, BD Biosciences 610787) at a 1:500 dilution in coating buffer (0.2 % NaN₃ in NaHCO₃, pH 9.6). Incubate overnight at 4 °C.  
+2. Wash each well three times with PBS‑0.05 % Tween‑20 (PBS‑T).  
+3. Block the plates for 1 h at 37 °C with blocking buffer (1.125 % fish‑skin gelatin in PBS‑T).  
+4. Load our study samples in duplicate into the wells (use 20 µL per well; if your protocol uses a different volume, adjust accordingly).  
+5. Incubate the plates at room temperature for 2 h.  
+6. Add a biotinylated detection antibody (anti‑α‑syn, same clone as the capturing antibody, diluted as recommended) and incubate for 1 h at 37 °C.  
+7. Wash five times with PBS‑T.  
+8. Add ExtrAvidin phosphatase (Sigma E2636) diluted 1:200 in blocking buffer; incubate for 30 min at 37 °C.  
+9. Add fast p‑nitrophenyl phosphate (Sigma N1891) as substrate, and read absorbance at 405 nm every 2.5 min for up to 60 min.  
+10. From the kinetic curve, identify the time point(s) where the absorbance of each standard and our sample dilutions fall within the linear (log‑phase) portion of the curve.  
+11. Use the standard curve to calculate the α‑syn concentration in each sample.  
+12. Return a report with the raw absorbance values, the chosen time point(s), standard curve parameters, and calculated concentrations for each sample (duplicated).
 ```
 
 label: 
@@ -2242,32 +2562,18 @@ notes:
 
 ---
 
-## 50. R4449B1  (elisa)
+## 50. R4D657A  (elisa)
 
 ```
-Please run the following ELISA on the supplied animal sera (cat, rat, and hen IgY samples) and include the indicated controls.
+Please run an indirect ELISA on our provided samples (chicken/layer hen IgY, rat sera, and cat sera) to test for the presence of anti-HIV antibodies, following the protocol below:
 
-1. Coat each well of a Nunc 96‑well U‑shaped bottom plate with 50 ng synthetic gp‑120 peptide diluted in BioLegend Coating Buffer. Add 100 µL per well and incubate overnight at 4 °C.
-
-2. Wash the plate 4 × with PBS + 0.05 % Tween‑20. Block by adding 25 µL per well of 3 % non‑fat dry milk in PBS. Incubate 1 h at room temperature (RT).
-
-3. Wash 4 × with PBS‑Tween‑20. Add the following to each well in triplicate (25 µL per well):
-   - 25 µL IgY (1 mg/mL) as a positive antibody control.
-   - 25 µL of each test serum (cat or rat) diluted 1:16 in PBS containing 3 % non‑fat milk.
-   - For negative control wells, add 25 µL turtle serum (Sigma) diluted 1:16 in the same buffer.
-   - For blanks, add 25 µL 0.9 % normal saline.
-
-   Incubate 2 h at RT.
-
-4. Wash 4 × with PBS‑Tween‑20. Add 25 µL per well of the universal conjugate SpLAG‑anti‑IgY‑HRP (peroxidase‑labelled IgY chemically coupled to protein A, G, and L) diluted 1:1,000 in ELISA Diluent (2 × , 120 mL, STEMCELL). Incubate 1 h at RT.
-
-5. Wash 4 × with PBS‑Tween‑20. Add 50 µL TMB substrate (3,3′,5,5′‑tetramethylbenzidine, Sigma, Cat #54827‑17‑7) to each well. Protect from light and incubate 15 min.
-
-6. Stop the reaction when the positive human serum control wells develop a clear color while the turtle serum and blank wells remain colorless. Record absorbance at 450 nm.
-
-7. Calculate the cut‑off: mean absorbance of the turtle serum negative controls × 4. Any sample above this value is considered positive for anti‑HIV antibodies.
-
-Please run each sample in triplicate, include the positive human serum control (anti‑HIV antibodies) on each plate, and report the raw absorbance values together with the calculated cut‑off and positivity calls for each animal. Let me know if any reagents are missing or if additional clarification is needed.
+1. Coat Nunc 96-Well Polystyrene Round Bottom Microwell Plates (Thermo Fisher #260210) with 50 ng of synthetic gp-120 peptide per well in Coating Buffer (BioLegend #421701), and incubate overnight at 4°C.
+2. Wash the plate 4 times with PBS-Tween-20. Block with 25 µl/well of 3% non-fat milk in PBS for 1 hour at room temperature.
+3. Wash the plate 4 times with PBS-Tween-20. Add our samples in triplicate (25 µl of IgY at 1 mg/ml, or 25 µl of cat/rat sera diluted 1:16 in PBS-non-fat milk). Include human positive serum, turtle serum negative controls, and 0.9% normal saline blanks.
+4. Incubate for 2 hours at room temperature, then wash the plate 4 times with PBS-Tween-20.
+5. Add 25 µl per well of the secondary detection reagent, SpLAG-anti-IgY-HRP (homemade, peroxidase-labelled IgY coupled to proteins A, G, and L), diluted 1:1000 in ELISA Diluent (STEMCELL #1916). Incubate for 1 hour at room temperature.
+6. Wash the plate 4 times with PBS-Tween-20. Add 50 µl of TMB substrate (MilliporeSigma #54827-17-7) to each well and incubate in the dark for 15 minutes at room temperature. 
+7. Stop the reaction once positive controls develop color and blanks/negative controls remain clear. Read the plate and calculate the cut-off point as four times the mean of the negative controls.
 ```
 
 label: 
@@ -2278,20 +2584,41 @@ notes:
 
 ---
 
-## 51. RA6BF3C  (growth_curve)
+## 51. RA5315C  (growth_curve)
 
 ```
-Please run a growth curve and fluorescent protein expression assay on our provided Chlamydomonas reinhardtii samples using the following procedure:
+1. Prepare TAP medium (or an equivalent algal growth medium) as described in the standard recipe and sterilize it.
 
-1. Inoculate 1 mL of cells from a stationary phase culture (120 to 168 hours old) into a 100 mL Erlenmeyer flask containing 50 mL of TAP media. 
-2. Incubate the culture on an orbital shaker at 25 °C, 150 rpm (1 cm orbit), under 80 µmol/m²s of incident white light (acceptable range 60 to 120 µmol/m²s).
-3. Take an initial 100 µL sample for plate reader measurements, and continue taking 100 µL samples at least once daily for 168 hours. Ensure total volume removed for sampling does not exceed 10% of the culture, and include technical replicates at each time point.
-4. Perform all plate reader measurements in black 96-well plates with clear bottoms (Perkin Elmer IsoPlate-96F or equivalent) using the following settings with bottom optics:
-   - Absorbance: 750 nm
-   - Chlorophyll: Ex 440 nm / Em 680 nm (Gain 70)
-   - mVenus: Ex 500 nm / Em 530 nm (Gain 120)
-   - mCherry: Ex 583 nm / Em 613 nm (Gain 150)
-5. Retain the final culture at the end of the time course for dry cell weight determination.
+2. Provide the following equipment and consumables:
+   - 100 mL Erlenmeyer flasks (one per culture)
+   - Orbital shaker capable of 150 rpm, 25 °C
+   - Light source delivering 80 µmol m⁻² s⁻¹ white light (acceptable range 60–120 µmol m⁻² s⁻¹)
+   - Black‑frame, clear‑bottom 96‑well plate (e.g., IsoPlate™ 96F, PerkinElmer catalog #6005020)
+   - Plate reader that can measure absorbance at 750 nm and fluorescence at the wavelengths listed below
+   - Pipettes and sterile tips for 100 µL sampling
+
+3. Inoculation:
+   - Take 1 mL of our Chlamydomonas reinhardtii culture that is in stationary phase (12–168 h old).
+   - Add this inoculum to 50 mL of fresh TAP medium in a 100 mL Erlenmeyer flask.
+   - Place the flask on the orbital shaker at 150 rpm, 25 °C, with a 1 cm orbital diameter and the specified light intensity.
+
+4. Sampling schedule:
+   - Immediately after inoculation (time 0), withdraw 100 µL of culture, transfer to a well of the black 96‑well plate, and measure absorbance and fluorescence as described below.
+   - Continue sampling at least once per day for the next 168 h (7 days).  
+   - Do not remove more than 10 % of the total culture volume over the entire experiment.  
+   - For each time point, run technical replicates (minimum duplicate wells).
+
+5. Plate‑reader settings:
+   - Use the black 96‑well plate with clear bottom.
+   - Measure absorbance at 750 nm (cell density proxy).
+   - Fluorescence measurements:
+     * Chlorophyll: excitation 440 nm, emission 680 nm, gain 70, optics position bottom
+     * mVenus: excitation 500 nm, emission 530 nm, gain 120, optics position bottom
+     * mCherry: excitation 583 nm, emission 613 nm, gain 150, optics position bottom
+
+6. After the 168‑hour growth period, retain the remaining culture for downstream analyses, e.g., dry cell weight (DCW) determination by centrifugation.
+
+Please let us know if any reagents or equipment are missing, or if you need clarification on any step. Thank you.
 ```
 
 label: 
@@ -2336,102 +2663,38 @@ notes:
 
 ---
 
-## 53. RC3780B  (qpcr)
+## 53. RE96E0B  (qpcr)
 
 ```
-Please run the following T‑cell activation assay on our Jurkat E6‑1 cells using recombinant human galectins and anti‑CD3/CD28 as controls. Use the reagents and equipment listed below and follow the steps in order.  
+Please run the following T-cell activation, flow cytometry, and gene expression assay using our provided Jurkat E6-1 cells and test samples. 
 
-1. **Reagents (order if not in stock)**  
-   - Jurkat E6‑1 (BCRC 60424)  
-   - PE mouse IgG1, κ isotype control (BioLegend 400114)  
-   - APC anti‑human CD69 (BioLegend 310910)  
-   - GMP Ultra‑LEAF anti‑human CD3 SF (BioLegend 317353)  
-   - CD28 monoclonal antibody (Invitrogen 16‑0288‑85)  
-   - Recombinant human galectin‑3 (His tag) (GlycoGenetics PL02‑025/050/100)  
-   - Recombinant human galectin‑8 variant 1 (317 aa) (GlycoGenetics PL03‑025/050/100)  
-   - Recombinant human galectin‑8 variant 2 (359 aa) (GlycoGenetics PL04‑025/050/100)  
-   - Recombinant human galectin‑1 (GlycoGenetics PL01‑025/050/100) – optional  
-   - Recombinant human galectin‑7 (GlycoGenetics PL05‑025/050/100) – optional  
-   - IL‑2 qPCR primers (forward AGAACTCAAACCTCTGGAGGAAG, reverse GCTGTCTCATCAGCATATTCACAC)  
-   - GAPDH primers (forward GACGCTGGGGCTGGCATTG, reverse GCTGGTGGTCCAGGGGTC)  
-   - PBS (Gibco 10010049)  
-   - FBS (Corning 35‑010‑CV)  
-   - Pen/Strep (Cytiva SV30010)  
-   - RPMI‑1640 (Gibco 11875119)  
-   - Sodium pyruvate (Gibco 11360070)  
-   - Sodium bicarbonate 7.5 % (Gibco 25080094)  
-   - HEPES (Gibco 15630080)  
-   - Glucose 200 g/L (Gibco A2494001)  
-   - Paraformaldehyde (Sigma P6148‑500G)  
-   - Zymo Quick‑RNA Miniprep kit (R1055)  
-   - HiScript III RT SuperMix (+gDNA wiper) (Vazyme R323‑01)  
-   - FastSYBR mix (CWBIO CW2622M)  
-   - Trypan blue 0.4 % (Gibco 15250061)  
+1. Prepare complete RPMI-1640 medium (supplemented with 10% FBS and 1× penicillin-streptomycin) and Jurkat cell culture medium further supplemented with 1 mM sodium pyruvate, 1.5 g/L sodium bicarbonate, 10 mM HEPES, and 4.5 g/L glucose.
 
-2. **Media preparation**  
-   - Make RPMI‑1640 complete medium: 500 mL RPMI‑1640 + 50 mL FBS + 5 mL Pen/Strep (store 4 °C, ≤3 mo).  
-   - Make Jurkat culture medium: 555 mL complete medium + 5.92 mL sodium pyruvate (1 mM) + 11.84 mL sodium bicarbonate (1.5 g/L) + 5.92 mL HEPES (10 mM) + 13.32 mL glucose (4.5 g/L). Store 4 °C, ≤3 mo.  
+2. Ensure Jurkat E6-1 cells are in the log-growth phase with a passage number below 40 and viability above 95% before starting.
 
-3. **4 % PFA** – prepare as described (400 mL PBS heated to 55 °C, dissolve 20 g PFA, adjust pH to 7.4–7.6 with 1 N NaOH then HCl, bring to 500 mL, aliquot 50 mL, store at –20 °C, thaw at 37 °C before use).  
+3. Reconstitute the provided recombinant human galectins (galectin-1, galectin-3, galectin-7, galectin-8 variant 1, and galectin-8 variant 2) in Milli-Q water to 500 µg/mL. Incubate on ice for 10 minutes, mixing by flicking every 2–3 minutes, and prepare 10-fold working stocks.
 
-4. **Reconstitute galectins**  
-   - Resuspend each lyophilized galectin at 500 µg/mL in Milli‑Q water, keep on ice ≥10 min, flick gently.  
-   - Make a 10× working stock (50 µg/mL) by diluting 1:10 with water; store 2–8 °C, use within 1 wk.  
+4. Seed Jurkat E6-1 cells in 6 cm dishes at a final density of 0.6 million cells/mL in a total volume of 5 mL. Treat the cells in technical triplicates with:
+   - Untreated medium (negative control)
+   - Anti-CD3/CD28 antibodies at 1 µg/mL each (positive control)
+   - Recombinant human galectins at final concentrations of 10 µg/mL, 25 µg/mL, and 50 µg/mL
+   Incubate at 37 °C with 5% CO2 for 16–20 hours.
 
-5. **Cell seeding (day –2 to –1)**  
-   - Thaw Jurkat cells, culture in Jurkat medium at 37 °C, 5 % CO₂.  
-   - Keep passage number <40.  
+5. Following incubation, observe and record cell morphology and agglutination. Harvest the cells, determine density and viability via trypan blue exclusion, and split each sample:
+   - Fix 2 million cells per condition in freshly prepared 4% PFA (pH 7.4–7.6) for 15 minutes at room temperature, wash with PBS, and store in 333 µL PBS at -80 °C for flow cytometry.
+   - Pellet the remaining cells and store at -80 °C for RNA extraction.
 
-6. **Treatment setup (day 0)**  
-   - Prepare 5 mL treatment media per condition in 6 cm dishes as follows (final galectin concentrations 0, 10, 25, 50 µg/mL; anti‑CD3 (1 µg/mL) + CD28 (1 µg/mL) as positive control):  
+6. Perform flow cytometry for CD69 expression:
+   - Seed 0.3 million fixed cells in 50 µL per well in a 96-well V-bottom plate.
+   - Stain with anti-CD69-APC (1:10 dilution) and PE mouse IgG1 isotype control (1:20 dilution) to reach final working concentrations of 5 µg/mL in 100 µL total volume.
+   - Incubate at 4 °C for 1 hour on an orbital shaker at 575 rpm, protected from light.
+   - Wash twice with PBS, resuspend in 150 µL PBS, and acquire a minimum of 10,000 events per sample on a CytoFLEX S flow cytometer to measure CD69 mean fluorescence intensity.
 
-     | Condition | Add galectin/antibody (µL) | Add Jurkat medium (µL) | Total volume |
-     |-----------|---------------------------|------------------------|--------------|
-     | Untreated | 0 | 4000 | 4000 |
-     | Anti‑CD3/28 | 5 (2.5 µL anti‑CD3 + 2.5 µL CD28) | 3995 | 4000 |
-     | Gal‑3 10 µg/mL | 5 of 100 µg/mL stock | 3995 | 4000 |
-     | Gal‑3 25 µg/mL | 12.5 of 100 µg/mL stock | 3987.5 | 4000 |
-     | Gal‑3 50 µg/mL | 25 of 100 µg/mL stock | 3975 | 4000 |
-     (Repeat same volumes for galectin‑8 V1 and V2.)  
-
-   - Harvest Jurkat cells, count with trypan blue, adjust to 3 × 10⁶ cells/mL.  
-   - Add 1 mL cell suspension to each dish (final cell density 0.6 × 10⁶ cells/mL, total 5 mL).  
-   - Gently swirl to mix, then incubate 37 °C, 5 % CO₂ for 16–20 h.  
-
-7. **Post‑treatment harvest**  
-   - Examine morphology under inverted microscope; note agglutination.  
-   - Collect cells, centrifuge 300 × g 5 min RT, discard supernatant, resuspend in 0.1 × original volume.  
-   - Count viability; must be >95 %.  
-
-   **For flow cytometry**:  
-   - Transfer 2 × 10⁶ cells to a 1.5 mL tube.  
-   - Fix: wash once with 200 µL PBS, resuspend in 200 µL 4 % PFA, incubate RT 15 min (mix gently every 3–5 min).  
-   - Wash twice with PBS, final resuspension 333 µL PBS, store at –80 °C (until staining).  
-
-   **For RNA**:  
-   - Take the remaining cell suspension, centrifuge, wash once with PBS, spin again, discard supernatant, snap‑freeze pellet at –80 °C.  
-
-8. **CD69 flow‑cytometry** (run on CytoFLEX S)  
-   - Thaw fixed cells, place 0.3 × 10⁶ cells in 50 µL PBS into each well of a 96‑well V‑bottom plate (triplicate per condition).  
-   - Prepare antibody mix: anti‑mouse IgG1‑PE 1:20 and anti‑CD69‑APC 1:10 in PBS (final 5 µg/mL each). Add 50 µL to each well, mix.  
-   - Incubate 4 °C 1 h on orbital shaker (≈575 rpm), protected from light.  
-   - Spin plate 1,500 × g 5 min RT, discard supernatant, wash with 150 µL PBS, spin again, discard, resuspend in 150 µL PBS.  
-   - Acquire ≥10,000 events per sample, gate on FSC/SSC singlets, record CD69 MFI.  
-
-9. **IL‑2 qPCR** (run on StepOne Plus)  
-   - Extract RNA from frozen pellets using the Zymo Quick‑RNA kit per manufacturer (include on‑column DNase). Elute in 20–50 µL nuclease‑free water.  
-   - Measure RNA at 260 nm (aim for 5–15 µg total, A260/280 = 1.8–2.1).  
-   - gDNA removal: in a 0.8 µL reaction combine 4 µL 4× gDNA wiper mix, 1–500 ng RNA, nuclease‑free water to 8 µL; incubate 42 °C 2 min, hold 4 °C.  
-   - Reverse transcription: add 2 µL HiScript III RT SuperMix, incubate 37 °C 15 min then 85 °C 5 s. Dilute cDNA 1:10 (e.g., 2 µL cDNA + 18 µL water). Store at –80 °C if needed.  
-   - qPCR master mix per 20 µL reaction: 10 µL 2× FastSYBR, 1 µL 10 µM forward primer (500 nM final), 1 µL 10 µM reverse primer (500 nM), 6 µL water, 2 µL diluted cDNA.  
-   - Run each target (IL‑2, GAPDH) in technical triplicate with the following cycling: 95 °C 2 min; 45 × (95 °C 15 s, 60 °C 30 s).  
-   - Calculate ΔΔCt relative to GAPDH and untreated control.  
-
-10. **Data handling**  
-    - Provide CD69 MFI values (mean ± SEM, n = 3 technical replicates) and IL‑2 relative expression (log₂ fold change, mean ± SEM, n = 3).  
-    - Flag any conditions where >50 % viability loss occurs (e.g., galectin‑3 or galectin‑8 at 50 µg/mL) – flow data may be unreliable, but qPCR should still be reported.  
-
-Please confirm receipt of reagents, let us know if any items need to be ordered, and send the raw FCS files and qPCR export files when the run is complete. Thank you.
+7. Perform RT-qPCR for IL-2 expression:
+   - Extract total RNA from the frozen cell pellets using the Zymo Quick-RNA Miniprep kit, including on-column DNase I digestion to remove genomic DNA.
+   - Measure RNA concentration and purity (target A260/A280 of 1.8–2.1).
+   - Perform genomic DNA removal and reverse transcription using the HiScript III RT SuperMix (+gDNA wiper) on 1 pg to 500 ng of template RNA.
+   - Run real-time PCR on a StepOnePlus Real-Time PCR System using FastSYBR Mixture, 500 nM of IL-2 primers (Forward: AGAACTCAAACCTCTGGAGGAAG, Reverse: GCTGTCTCATCAGCATATTCACAC), and 500 nM of GAPDH primers (Forward: GACGCTGGGGCTGGCATTG, Reverse: GCTGGTGGTCCAGGGGTC) with an amplification profile of 95 °C for 2 min, followed by 45 cycles of 95 °C for 15 s and 60 °C for 30 s. Calculate relative IL-2 gene expression using the comparative Ct method normalized to GAPDH.
 ```
 
 label: 
@@ -2442,118 +2705,33 @@ notes:
 
 ---
 
-## 54. R9AACD8  (elisa)
+## 54. R3DE511  (elisa)
 
 ```
-Please execute the following experiment on our astrocyte‑enriched primary cultures and return the quantified data.
+1. Seed our astrocyte-enriched primary cultures at 50,000 cells per well in a black-walled, clear-bottom 96-well plate. Fill all outer wells with DPBS to prevent edge effects and evaporation. 
 
-**Materials & solutions (use what is stored at –20 °C; thaw immediately before use)**  
-- 4 % PFA in DPBS (prepare from 16 % stock; 10 mL per aliquot)  
-- Permeabilization solution: 0.1 % Triton X‑100 in DPBS, 50 mL total (prepare fresh before use)  
-- Blocking solution: 5 % FBS in DPBS, 50 mL total (prepare fresh before use)  
-- Primary antibody: anti‑pRab10 (dilute 1:500 in Blocking solution; 40 µL per well)  
-- Secondary antibody: goat anti‑rabbit Alexa Fluor 488 (1:500 in DPBS; 40 µL per well)  
-- Phalloidin Alexa Fluor 647 (1:1 000 in DPBS; 40 µL per well)  
-- Hoechst 33342 (1:10 000 in DPBS; 100 µL per well)  
-- DPBS (use 30 mL per 96‑well plate for washing; 50 mL total per plate)  
-- 0.05 % NaN₃ in DPBS for storage  
+2. After 48 hours, treat the cultures according to our experimental design:
+   - For MLi-2 dose-response: prepare serial dilutions starting at 1 µM with a 1:5 ratio across wells, and treat for 90 minutes. Include a vehicle-only (DMSO) control matching the highest concentration.
+   - For LLOME treatment: treat cells with either MLi-2 (100 nM), LLOME (1 mM), or co-treat with LLOME (1 mM) and MLi-2 (100 nM) for 2 hours.
 
-**Equipment**  
-- Black‑walled, clear‑bottom 96‑well Greiner μClear plates (use only inner wells)  
-- Operetta CLS with 40× water‑immersion objective (NA 1.1)  
-- Harmony software for image analysis  
+3. Fix the cells using freshly prepared 4% PFA in DPBS (100 µL per well) for 20 minutes at room temperature, dispensing gently along the well edge. Perform all subsequent washes and liquid handling using a multichannel pipette and reagent reservoir, taking care not to detach the cells.
 
----
+4. Wash the wells 5 times with DPBS, ensuring residual PFA is thoroughly removed to minimize background.
 
-### 1. Cell seeding & treatment (2 days before imaging)  
+5. Permeabilize the cells with 0.1% Triton X-100 in DPBS (100 µL per well) for 20 minutes at RT, then block with 5% FBS in DPBS (100 µL per well) for 1 hour at RT in a humidified chamber.
 
-1. When the astrocyte cultures in the flask reach ~80 % confluence, seed 50 000 cells per inner well (avoid outer wells to prevent edge effects). Fill outer wells with DPBS.  
-2. After 48 h (cells reach confluence), treat as follows:  
+6. Incubate the plates with the primary antibody diluted 1:500 in blocking solution (40 µL per well) overnight at 4°C in a humidified lidded box.
 
-   **MLi‑2 dose‑response**  
-   - Prepare serial dilutions of MLi‑2 in DMEM, starting at 1 µM, 1:5 across the plate.  
-   - Remove medium, add fresh DMEM containing the appropriate concentration for 90 min at 37 °C.  
+7. Wash the wells 5 times with DPBS, then incubate with goat anti-rabbit Alexa Fluor 488 (1:500) and Alexa Fluor 647 phalloidin (1:1,000) in DPBS (40 µL per well) for 1 hour at RT, protecting the samples from light from this step onward.
 
-   **LLOME experiment**  
-   - Remove medium, add fresh DMEM containing either:  
-     * MLi‑2 (100 nM) or  
-     * LLOME (1 mM) for 2 h, or  
-     * LLOME (1 mM) + MLi‑2 (100 nM) for 2 h.  
-   - Include a vehicle control (same % DMSO as highest MLi‑2).  
+8. Wash 5 times with DPBS, perform nuclear staining with Hoechst (1:10,000 in DPBS, 100 µL per well) for 5 minutes at RT, and wash 3 times with DPBS. Leave the plates in DPBS with 0.05% sodium azide.
 
-   *Note:* All treatments are performed in a 37 °C incubator.  
+9. Acquire images on the Operetta CLS high-content imaging system using a 40x water-immersion objective (NA 1.1) across 29 randomly selected fields per well using 7 Z-stack planes. Use the following channel settings:
+   - Hoechst: Ex 355–385 nm, Em 430–500 nm
+   - Alexa Fluor 488 (EGFP channel): Ex 460–490 nm, Em 500–550 nm
+   - Alexa Fluor 647: Ex 615–645 nm, Em 655–760 nm
 
----
-
-### 2. Fixation and staining (start 16–18 h after treatment)  
-
-1. **Fix** with 100 µL of 4 % PFA per well, 20 min RT. Dispense gently along the edge; use a multichannel pipette from this step onward.  
-2. **Aspirate** PFA, then wash 5× with DPBS (use multichannel pipette to remove first wash; add fresh DPBS, then invert the plate to remove).  
-3. Store fixed plates in DPBS + 0.05 % NaN₃ at 4 °C for up to 2 weeks (avoid >2 weeks).  
-4. **Permeabilize** with 100 µL permeabilization solution, 20 min RT.  
-5. **Block** with 100 µL blocking solution, 1 h RT. Place plates on moist absorbent paper inside a lidded box during steps 4–5.  
-6. **Primary antibody**: add 40 µL of diluted pRab10 per well, incubate 12–16 h at 4 °C overnight.  
-7. **Wash** 5× DPBS.  
-
----
-
-### 3. Secondary, phalloidin, and nuclear staining  
-
-1. **Secondary & phalloidin**: add 40 µL of a mix of secondary antibody (1:500) and phalloidin (1:1 000) in DPBS; incubate 1 h RT, protect from light.  
-2. **Wash** 5× DPBS.  
-3. **Hoechst**: add 100 µL Hoechst (1:10 000), incubate 5 min RT.  
-4. **Wash** 3× DPBS (use DPBS + 0.05 % NaN₃).  
-5. Store stained plates in DPBS + 0.05 % NaN₃ at 4 °C, protected from light, for up to 3 weeks (imaging ASAP is best).  
-
----
-
-### 4. Image acquisition (Operetta CLS)  
-
-1. Use 40× water‑immersion objective (NA 1.1).  
-2. Capture 29 fields per well, 7 z‑planes per field, 1 µm step (total depth 6 µm).  
-3. Channels:  
-   - Hoechst (Exc 355–385 nm, Em 430–500 nm)  
-   - Alexa 488 (Exc 460–490 nm, Em 500–550 nm)  
-   - Alexa 647 (Exc 615–645 nm, Em 655–760 nm)  
-4. Set exposure times identically for all plates; do not vary between experiments.  
-5. Perform a quick test run to confirm focus, exposure, and z‑stack adequacy before full acquisition.  
-
----
-
-### 5. Image analysis (Harmony)  
-
-1. **Filter** Alexa 647 channel with Gaussian smoothing (generate “Gaussian Smoothed” channel).  
-2. **Find ROI** on the smoothed channel (common threshold 0.5, adjust if needed).  
-3. **Calculate morphology & intensity** for ROI; select only cell‑size objects (exclude debris).  
-4. **Find nuclei** using Hoechst channel (Method B); thresholds: intensity > 0.40, area > 30 µm².  
-5. **Filter EGFP (Alexa 488) channel** with Sliding Parabola (curvature 4) to isolate punctate spots.  
-6. **Find spots** (Method B) with common intensity threshold; then use “Find Image Region” to identify individual vesicles.  
-7. **Calculate spot properties**: area, roundness, perimeter, width, length, W/L ratio; keep spots with W/L > 0.2.  
-8. **Background subtraction**: define outer border –95 % for each spot; compute background‑subtracted intensity.  
-9. **Filter vesicles** by intensity & roundness; keep those meeting both criteria.  
-10. **Classify by area** into four bins:  
-    - < 0.3 µm²  
-    - 0.3–0.8 µm²  
-    - 0.8–3.5 µm² (pRab10 vesicles)  
-    - > 3.5 µm²  
-11. **Calculate per‑well metrics**: number of vesicles per bin, mean intensity, total intensity, morphological stats.  
-12. Export all results to an Excel file.  
-
----
-
-### 6. Data analysis (GraphPad Prism)  
-
-1. For the MLi‑2 dose‑response, fit a variable‑slope log(inhibitor) vs. response curve to obtain IC₅₀.  
-2. For the LLOME experiment, present normalized vesicle counts per nucleus as grouped bar graphs; use one‑way ANOVA + Tukey post‑test (p < 0.001 considered significant).  
-
----
-
-**Deliverables**  
-- Excel file with per‑well vesicle counts and intensities.  
-- Summary statistics (mean ± SEM) for each treatment group.  
-- Raw image files (TIFF) for representative fields.  
-
-Please confirm receipt of this request and let us know if any reagents or parameters need clarification. Thank you.
+10. Process and analyze the acquired images using Harmony software to quantify pRab10-positive vesicles. Apply a Gaussian smoothing filter to the Alexa 647 channel to identify cell regions, Method B for nuclear identification via Hoechst, and a Sliding Parabola filter (curvature 4) on the EGFP channel to isolate and classify pRab10-positive spots based on area, roundness, and intensity. Export the final quantification results as an Excel file.
 ```
 
 label: 
@@ -2564,39 +2742,55 @@ notes:
 
 ---
 
-## 55. RA48011  (growth_curve)
+## 55. RF831D6  (growth_curve)
 
 ```
-Please run an OD600 assay on our bacterial cultures using the following procedure:
+Dear lab team,
 
-1. Decontaminate the bench and all pipettes: wipe with DNA Away and RNase Away, then wipe again with 70 % ethanol (≈2 min).  
+Please run the OD600 measurements on our bacterial cultures as follows.  
+Send us the final excel file and any questions in the shared drive folder.
 
-2. Light the Bunsen burner and work within its sterile field for the remainder of the protocol.  
+1. **Clean work area**  
+   a. Wipe the bench and all pipette tips with DNA Away and RNase Away.  
+   b. Wipe the same surfaces again with 70 % ethanol.  
 
-3. Download the attached **OD600_analysis.xlsx** file and record the plate map for this run in the sheet (use duplicate wells for each sample and for blanks).  
+2. **Prepare the 96‑well plate**  
+   a. Use a clear round‑bottom 96‑well plate.  
+   b. In the two wells labeled BLANK (in duplicate), pipette 100 µL of sterile media blank.  
 
-4. Using a clear round‑bottom 96‑well plate, add 100 µL of sterile growth media to the two designated BLANK wells (duplicate).  
+3. **Prepare sample wells**  
+   a. In each well that will contain a sample (the plate map is in the attached excel sheet), pipette 90 µL of the same sterile media blank.  
+   b. Mix the media in each well by pipetting up and down 5 times.  
 
-5. Add 90 µL of the same sterile media to each well that will receive a sample (duplicate per sample).  
+4. **Dilute the cultures**  
+   a. Thoroughly resuspend each bacterial culture by flicking or gentle vortexing.  
+   b. Pipette 10 µL of each culture into its designated sample wells (in duplicate).  
+   c. Add 70 µL of media to each sample well to bring the total to 100 µL.  
+   d. Mix each sample well by pipetting up and down 5 times.  
+   e. Set aside the remaining culture for downstream use.  
 
-6. Mix each bacterial culture gently to resuspend any settled cells. Pipette 10 µL of each culture into its corresponding sample wells (duplicate), creating a 1:10 dilution. After adding the culture, pipette the well up and down five times to mix thoroughly. Set the remaining culture aside for downstream work.  
+5. **Measure OD600**  
+   a. Place the plate in the microplate reader.  
+   b. Measure absorbance at 600 nm for every well.  
+   c. Record the raw OD readings in the attached excel sheet.  
 
-7. Place the plate in the microplate reader and measure absorbance at 600 nm. Save the raw run data in the same location as the Excel sheet.  
+6. **Correct the data**  
+   a. In the excel sheet, calculate the corrected OD for each sample as:  
+      \[
+      \text{OD corrected} = (\text{OD sample} - \text{average OD blanks}) \times 10
+      \]  
+   b. Save the completed sheet in the designated folder.  
 
-8. Enter the blank and sample OD values into the **OD600_analysis.xlsx** file. The spreadsheet will calculate the corrected OD using:  
-   **OD corrected = (OD sample – average OD blanks) × 10**.  
+7. **Clean up**  
+   a. Dispose of the used plate in a biohazard container.  
+   b. Add 10 % bleach to each well of the plate and let sit for 30 minutes.  
+   c. Empty the plate into the drain with running water.  
+   d. Wipe the bench and pipettes with DNA Away/RNase Away, then with 70 % ethanol.  
 
-9. Save and file the completed Excel sheet in the designated folder.  
+8. **Optional** (if a Bunsen burner is required for sterility):  
+   a. Light the burner, work within its sterile field, and extinguish it after the plate is discarded.  
 
-10. Add 10 % bleach to each well of the used plate, let it sit for 30 min, then empty the plate down the drain with water.  
-
-11. Discard the plate in a biohazard waste container.  
-
-12. Perform a second decontamination of the bench and pipettes (DNA Away/RNase Away followed by 70 % ethanol).  
-
-13. Extinguish the Bunsen burner.  
-
-Please let me know if any reagents or consumables are missing. Thanks.
+Please complete the run and upload the finished excel sheet to the shared drive. If you need clarification on the plate map or any other detail, let me know.
 ```
 
 label: 
@@ -2607,23 +2801,67 @@ notes:
 
 ---
 
-## 56. R464169  (qpcr)
+## 56. R1500F5  (qpcr)
 
 ```
-Please process our provided samples according to the following protocol.
+1. Prepare a fresh digestion solution for each skin sample on ice: 900 µL HBSS (1×), 100 µL Collagenase P (1 mg/mL), 50 µL Dispase II (0.5 mg/mL), 8 µL DNase I (0.1 mg/mL). Keep the mix cold and use only freshly thawed enzymes.
 
-1. Prepare fresh digestion solution on ice using Hank’s Balanced Salt Solution (900 µL), Collagenase P (100 µL at 1 mg/mL), Dispase II (50 µL at 0.5 mg/mL), and DNase I (8 µL at 0.1 mg/mL) per sample, ensuring no freeze-thawing of enzymes. 
-2. Prepare FACS and MACS buffers using Ca2+/Mg2+-free PBS (pH 7.2) supplemented with 0.5% Fetal Calf Serum and 2 mM EDTA (0.4 mL of 0.5 M stock per 100 mL), keeping buffers cold and sterilizing the MACS buffer with a 0.22 µm filter.
-3. Thaw frozen TOSV-mCherry working stock aliquots rapidly on ice and dilute in sterile 0.75% PBSA. For SGE groups, mix diluted virus 1:1 with SGE (prepared at 1 gland equivalent/µL) to achieve 0.5 gland equivalents/µL in the final inoculum, delivering a target dose (e.g., 10^5 PFU) in a 2 µL injection; dilute virus-only controls 1:1 with 0.75% PBSA.
-4. Anesthetize the mice using isoflurane (4–5% induction, 3% maintenance via inhalation), place them in a prone position, and gently extend the left hind limb to expose the upper dorsal foot skin (avoiding the footpad).
-5. Load the inoculum into a 5 µL Hamilton syringe fitted with a custom 33G microneedle, insert bevel-up at a 45° angle, and subcutaneously inject 2 µL into the upper foot skin to create a visible bleb.
-6. At 72 hours post-infection, cull the mice, disinfect the dorsal foot skin with 70% ethanol, and excise the entire upper foot skin surrounding the inoculation site using consistent anatomical boundaries across all animals.
-7. Place each excised skin sample into an individual microcentrifuge tube with 500 µL ice-cold complete DMEM, then transfer into tubes containing the freshly prepared enzymatic digestion solution.
-8. Chop the tissue finely with sterile scissors and incubate at 37°C for 50 min with orbital shaking at 1100–1400 rpm. Stop the reaction with 500 µL chilled complete DMEM, pass the suspension through a 70 µm cell strainer, rinse, and centrifuge at 300 × g for 5 min at 4°C.
-9. Resuspend skin-derived single-cell suspensions in FACS buffer, block Fc receptors on ice for 5 min, and stain with the appropriate flow cytometry antibody panel (diluted 1:200 for CD45-FITC, CD11b-APC, MERTK-APC-Cy7, Ly-6G-BV421, Ly-6C-PE, MHC-II-APC, CD11c-PE-Cy7, Vimentin-APC, CD31-PE, CD326-APC-Cy7, CD90.2-Pacific Blue, Podoplanin-AF647, CD140a-PE-Cy7, and Ly-6A/E-PE) for 45 min at 4°C in the dark.
-10. Wash cells twice in PBS, stain with Ultraviolet Live/Dead fixable viability dye (1:50) for 10 min at 20–25°C in the dark, wash twice with FACS buffer, fix in 4% paraformaldehyde for 30 min, and store at 4°C in the dark prior to flow cytometric acquisition of mCherry-positive infected cells alongside unstained, FMO, and single-stained controls.
-11. If performing optional fibroblast enrichment, resuspend single-cell suspensions in MACS buffer, apply the Non-Tumor-Associated Fibroblast Depletion Cocktail, run over an LD magnetic column to collect the flow-through, label with CD90.2 MicroBeads, run over an MS column, and elute the CD90.2+ fibroblasts.
-12. For RNA extraction from whole skin or cell suspensions, lyse cell pellets in β-mercaptoethanol-supplemented lysis buffer and homogenize, or homogenize whole skin tissue in 1 mL TRIzol with two 7 mm stainless-steel beads using a TissueLyser (50 Hz, 10 min), followed by column-based purification (incorporating on-column DNase digestion for RT-qPCR or RNA-seq) and spectrophotometric quantification.
+2. Make 100 mL of both FACS buffer and MACS buffer (PBS without Ca²⁺/Mg²⁺, pH 7.2) adding 0.5 mL heat‑inactivated fetal calf serum (0.5 % final) and 0.4 mL 0.5 M EDTA (2 mM final). Filter the MACS buffer through a 0.22 µm filter, store both at 4 °C (stable up to 2 months). Keep all buffers chilled during staining.
+
+3. For each sample, after tissue collection, place the excised dorsal foot skin in a 1.5 mL tube with 500 µL ice‑cold complete DMEM and keep on ice.
+
+4. Add 1.058 mL of the freshly prepared digestion solution to each tube (prepare a little extra to compensate for pipetting loss). Mince the tissue with sterile scissors directly in the tube until very small fragments are visible.
+
+5. Incubate the minced tissue at 37 °C for 50 min in a thermomixer shaking at 1100–1400 rpm. After incubation, immediately chill the tubes, add 500 µL cold complete DMEM to stop the enzymes, and place on ice.
+
+6. Pass the suspension through a 70 µm cell strainer into a sterile 50 mL conical tube, rinsing the strainer and original tube with cold complete DMEM to recover cells.
+
+7. Centrifuge the filtered cells at 300 × g for 5 min at 4 °C, discard supernatant, and resuspend the pellet in an appropriate volume of FACS buffer (or MACS buffer if you will proceed to magnetic enrichment).
+
+8. **Flow cytometry staining** (use the stromal/immune panel listed below). For each sample:
+
+   a. Transfer the cell suspension to a 96‑well round‑bottom plate; record the total cell number and aim to plate equal numbers across samples.  
+   b. Wash twice with FACS buffer (300 × g, 5 min, 4 °C).  
+   c. Block Fc receptors on ice for 5 min.  
+   d. Add the antibody master mix (see panel) and incubate 45 min on ice in the dark.  
+   e. Wash twice with PBS (300 × g, 5 min, 4 °C).  
+   f. Add Zombie UV viability dye (1:50 dilution in PBS), incubate 10 min at room temperature in the dark, then wash twice with FACS buffer.  
+   g. Fix cells in 4 % PFA for 30 min at RT, wash once, resuspend in FACS buffer and keep at 4 °C in the dark (stable up to 48 h) until acquisition.
+
+   **Antibody panel (final dilutions, fluorochromes, clones):**  
+   - CD45 FITC (BioLegend, 30‑F11) 1:200 – leukocytes  
+   - CD11b APC (BioLegend, M1/70) 1:200 – myeloid cells  
+   - MERTK APC‑Cy7 (BioLegend, 2B10C42) 1:200 – macrophages  
+   - Ly‑6G BV421 (BioLegend, 1A8) 1:200 – neutrophils  
+   - Vimentin APC (Biotechne, 280618) 1:200 – mesenchymal (intracellular; perform fixation/permeabilization before this antibody)  
+   - CD31 PE (BioLegend, 390) 1:200 – endothelial cells  
+   - CD326 (Ep‑CAM) APC‑Cy7 (BioLegend, G8.8) 1:200 – epithelial/keratinocytes  
+   - CD90.2 (Thy1.2) Pacific Blue (BioLegend, 30‑H12) 1:200 – fibroblasts  
+   - Podoplanin Alexa‑647 (BioLegend, PMab‑1) 1:200 – activated fibroblasts  
+   - CD140a (PDGFR‑α) PE‑Cy7 (BioLegend, APA5) 1:200 – activated fibroblasts  
+   - Ly‑6A/E (Sca‑1) PE (BioLegend, W18174A) 1:200 – pluripotent mesenchymal cells  
+   - TOSV‑mCherry (no antibody, native fluorescence) – infected cells  
+   - Zombie UV (BioLegend) – viability (1:50)
+
+   Include appropriate single‑stained controls, FMO controls, and an uninfected skin sample for background.
+
+9. Acquire the stained samples on a flow cytometer equipped with 405 nm (for Zombie UV), 488 nm (FITC), 561 nm (mCherry, PE, BV421), 640 nm (APC, APC‑Cy7, Alexa‑647) lasers. Perform compensation with single‑color controls or compensation beads. Gate on singlets → live cells → CD45⁺ or CD45⁻ as needed, then identify mCherry⁺ infected cells within each subpopulation.
+
+10. **Optional magnetic enrichment of fibroblasts:** After digestion (step 7) and before staining, resuspend cells in MACS buffer (PBS + 0.5 % FBS + 2 mM EDTA). Follow the Tumour‑Associated Fibroblast Isolation Kit (Miltenyi) protocol:
+
+    a. Adjust volume to 90 µL MACS buffer per 1 × 10⁷ cells.  
+    b. Add the Non‑TAF Depletion Cocktail, incubate 15 min on ice, wash, and pass through an LD column; collect flow‑through.  
+    c. Add CD90.2 MicroBeads (20 µL per 1 × 10⁷ cells), incubate 15 min on ice, wash, and apply to an MS column.  
+    d. Elute CD90.2⁺ fibroblasts, count, assess viability, and confirm enrichment by a quick flow run using CD90.2 and a fibroblast marker (e.g., podoplanin).
+
+11. **RNA extraction (if needed):**  
+
+    a. For whole‑tissue samples, place the skin in 1 mL TRIzol with two 7 mm stainless‑steel beads, homogenize in a TissueLyser (50 Hz, 10 min).  
+    b. For cell pellets (bulk or MACS‑enriched), lyse directly in the kit lysis buffer (add β‑mercaptoethanol as instructed).  
+    c. Process lysates with the Zymo Quick‑RNA Microprep Kit (or PureLink kits) according to the manufacturer, including on‑column DNase treatment.  
+    d. Quantify RNA by spectrophotometry; store at –80 °C.  
+
+Please carry out the above on the set of infected foot‑skin samples we are sending (approximately 12 mice, 72 h post‑infection). Return the flow‑cytometry FCS files, a summary table of cell percentages (including % mCherry⁺ cells in each gate), and any RNA extracts you generate. Let us know immediately if any reagents are unavailable or if you encounter difficulties at any step. Thank you.
 ```
 
 label: 
@@ -2656,35 +2894,35 @@ notes:
 
 ---
 
-## 58. R254856  (growth_curve)
+## 58. RF0FECF  (growth_curve)
 
 ```
-Please process our provided cell and tissue samples according to the following experimental plan:
+1. Use the Human Protein Atlas (HPA) “Brain Atlas” to download normalized transcript levels (nTPM) and regional specificity scores (Tau) for PGR across all human brain regions. Compare these values with those from endometrium, cervix, and ovary. Also download the single‑nuclei RNA‑seq data from HPA and determine which cell types contribute most of the PGR transcripts.
 
-1. Cell Culture and Treatments
-- Culture human glioblastoma cell lines U87 and U251, and murine glioma cell line C6, in DMEM medium with 10% FBS and 1% antibiotic-antimycotic. Culture T47D and HCC70 breast cancer cells in RPMI medium with 10% FBS and 1% antibiotic-antimycotic. 
-- Maintain all cells at 37 °C with 5% CO2.
-- Treat the cells with MF/RU486 (Sigma, M8046) or UPA using 0.01% DMSO as the vehicle.
+2. Access TCGA data via the Xena Browser (or cBioPortal) for the following tumor types: glioma (n ≈ 153, include all GB samples), endometrium (n ≈ 180), ovary (n ≈ 419), lung (n ≈ 1011), and breast (n ≈ 1092). Remove duplicate entries, log2‑transform the expression values, and perform a Kruskal‑Wallis test followed by Dunn’s post‑hoc test to compare PGR expression across cancer types.
 
-2. Western Blotting
-- Prepare protein extracts from the provided cell and tissue samples. Run cell samples on 12% SDS-PAGE gels and tissue samples on 7.5% gels at 100 V, then transfer to nitrocellulose membranes and block with 5% BSA.
-- Probe membranes with anti-PR primary antibody (Abcam, ab63605) followed by an HRP-conjugated anti-rabbit secondary antibody. 
-- Strip the membranes with acid glycine, reprove with anti-α-tubulin antibody (Santa Cruz Biotechnologies, sc-398103), and incubate with HRP-conjugated goat anti-mouse secondary antibody (Abcam, ab6789).
-- Detect chemiluminescence signals and normalize PR content to α-tubulin using ImageJ.
+3. For the glioblastoma (GB) survival analysis: obtain TCGA‑GB cohort data (cBioPortal, TCGA‑GDC). Classify patients as IDH‑wildtype (no IDH mutation) and keep only those. Use the RNA‑seq Z‑score normalized values for PGR and NR3C1. Split each receptor’s expression into quartiles and define “high” (top 25 %) and “low” (bottom 25 %) groups. Limit follow‑up to 40 months, and also perform a secondary analysis restricted to survival between 10 and 40 months. Generate Kaplan‑Meier curves and run log‑rank tests for overall survival comparisons.
 
-3. Immunofluorescence
-- Plate cells on glass slides at 8,000 cells per well, fix with 4% paraformaldehyde, permeabilize with methanol, and block with 1% BSA.
-- Incubate samples with anti-PR antibody (Santa Cruz Biotechnology, sc-166169) and anti-GFAP (Abcam, ab68428).
-- Rinse with PBS, then incubate with anti-mouse Alexa-Fluor-594 and anti-rabbit Alexa-Fluor-488 secondary antibodies (Invitrogen) alongside a Hoechst counterstain. 
-- Image the samples on an Olympus Bx43F microscope and process the merged images using ImageJ, including negative controls omitting the primary antibody.
+4. Culture the following cell lines in the indicated media with 1 % Penicillin‑Streptomycin (10 000 U/µg ml):
+   - Human GB lines: U87 (ATCC HTB‑14, Lot 70016790) and U251 (ATCC HTB‑17, PCR‑validated, LDG‑INMEGEN 00451).
+   - Murine glioma line: C6 (ATCC CCL‑107, Lot 58078536).
+   - Breast cancer lines: T47D and HCC70 (RPMI + 10 % FBS).
+   - Human ESC‑derived glial cells (as previously described, Ethical Approval 212250‑212071).  
+   Maintain all cultures at 37 °C, 5 % CO₂. Verify glial differentiation by flow cytometry using anti‑MAP2 (neuronal) and anti‑GFAP (astrocytic) antibodies.
 
-4. Metabolite Extraction and LC/MS Analysis
-- Using 10 × 10^6 U87 and U251 cells, remove the culture media and lyse the cells by sonication (Ultrasonic Processor Model GEX130) in an ice bath using 10 kHz, 10 s pulses for 1.5 min.
-- Extract progesterone (P4) and 5α-reduced metabolites (5α-DHP) and identify them using Liquid Chromatography/Mass Spectrometry (LC/MS) with a dynamic multiple reaction monitoring (MRM) method, referencing standard curves generated with P4 (Sigma, P8783) and 5α-DHP (MP Biomedicals, 195886).
+5. Treat cells with mifepristone (MF, Sigma M8046) or RU‑486 and with ulipristal acetate (UPA) as described in the supplementary methods. Use 0.01 % DMSO as the vehicle control. For the dose‑response MTT assay, seed U87, U251, and C6 cells at 1 500 cells per well in 96‑well plates, let them attach for 24 h, then add MF/UPA at concentrations ranging from 1 µM to 125 µM (final DMSO = 0.01 %). Incubate for 72 h (the optimal time point from our growth curve), add MTT (5 mg ml⁻¹), incubate 3 h, dissolve formazan crystals in 200 µL DMSO, and read absorbance at 570 nm (reference 630 nm). Plot viability versus concentration and calculate IC₅₀ and IC₂₀ values.
 
-5. Viability and Sphere Formation Assays
-- For the MTT viability assay, seed U87, U251, and C6 cells at 1,500 cells per well in 96-well plates. After 24 h, treat with MF or UPA in 0.01% DMSO across various concentrations (1–125 µM). After 72 h, add MTT solution (Sigma, M5655; 5 mg/mL) for 3 h at 37 °C, dissolve the resulting crystals in 200 µL DMSO, and record absorbance at 570 nm and 630 nm to determine IC50 and IC20 values.
-- For the sphere formation assay, culture U251 and C6 cells in ultra-low-attachment 96-well plates at 1 cell/µl in serum-free neural stem cell medium supplemented with B27, rhEGF, bFGF, and antibiotics. Treat cells with 40 µM MF or vehicle upon seeding and every 24 h for three consecutive days. On day 10, determine sphere count and size distributions at 4× magnification using a Neubauer chamber to calculate Sphere Formation Efficiency (SFE).
+6. For the sphere‑formation assay: plate U251 and C6 cells in ultra‑low‑attachment 96‑well plates at 1 cell µL⁻¹ (final 100 µL per well) in serum‑free neural stem cell medium (DMEM/F12 + B27 without vitamin A 20 µL mL⁻¹, rhEGF 20 ng mL⁻¹, bFGF 20 ng mL⁻¹, antibiotics: amphotericin 0.00025 g L⁻¹, penicillin 0.0603 g L⁻¹, streptomycin 0.1 g L⁻¹). Add MF at the IC₅₀ concentration (≈ 40 µM) or vehicle at the time of seeding and repeat the treatment daily for three days. On day 10, count spheres under a 4× objective, record sphere diameters with a Neubauer chamber, and calculate Sphere Formation Efficiency = (number of spheres / seeded cells) × 100.
+
+7. Western blotting: lyse cell samples in RIPA buffer, run 12 % SDS‑PAGE (cell lysates) and 7.5 % SDS‑PAGE (tissue lysates) at 100 V, transfer to nitrocellulose, block with 5 % BSA. Probe first with anti‑PR (Abcam ab63605) followed by HRP‑conjugated anti‑rabbit secondary. Strip membranes with acidic glycine, reprobe with anti‑α‑tubulin (Santa Cruz sc‑398103) and HRP‑conjugated anti‑mouse (Abcam ab6789). Detect chemiluminescence, capture images, and quantify PR band intensity relative to α‑tubulin using ImageJ.
+
+8. Immunofluorescence: seed 8 000 cells per well on glass‑slide chambers, fix with 4 % paraformaldehyde, permeabilize with methanol, block with 1 % BSA. Incubate with anti‑PR (Santa Cruz sc‑166169) and anti‑GFAP (Abcam ab68428), then with Alexa‑Fluor‑488 anti‑rabbit and Alexa‑Fluor‑594 anti‑mouse secondary antibodies (Invitrogen). Counterstain nuclei with Hoechst, mount, and image on an Olympus BX43F microscope. Include a no‑primary‑antibody control for PR staining. Process images and merge channels in ImageJ.
+
+9. Steroid extraction and LC‑MS: harvest 10 × 10⁶ U87 and 10 × 10⁶ U251 cells, remove medium, lyse by sonication (10 kHz, 10 s pulses, 1.5 min total on ice). Extract progesterone (P4) and its 5α‑reduced metabolite (5α‑DHP) using the protocol in Supplementary Table 1. Prepare calibration curves with P4 (Sigma P8783) and 5α‑DHP (MP Biomedicals 195886). Run samples on LC‑MS using the dynamic MRM method described in Supplementary Table 1 and quantify each steroid.
+
+10. In vivo glioma model in rats (if needed): obtain male Wistar rats (170–190 g) and acclimate for 15 days. Randomize 15 animals into four groups (Untreated n=3, Vehicle n=4, MF 20 µM n=4, MF 40 µM n=4). Anesthetize with ketamine 80 mg kg⁻¹ and xylazine 7 mg kg⁻¹, place in stereotaxic frame, perform a craniotomy at AP 1.6 mm, L 3.0 mm, V 2.0 mm relative to Bregma, and inject 1 × 10⁵ C6 cells in 2 µL PBS into the motor cortex. Seal wound, give gentamicin locally and Baytril in drinking water for 3 days. Ten days post‑implantation, implant a guide cannula at the tumor site and deliver MF (20 µM or 40 µM) or 1 µL vehicle daily for 7 days. Euthanize with pentobarbital 200 mg kg⁻¹, perfuse with saline then 3.7 % PFA, embed brains in paraffin, cut 6 µm coronal sections, stain with H&E, and acquire images on an Olympus BX51‑WI microscope. Estimate tumor volume stereologically (Cavalieri principle) and calculate the Gundersen coefficient of error (must be < 0.1). Perform western blots on tumor tissue as described in step 7.
+
+11. Data analysis: run all statistical tests in GraphPad Prism 8.0.2. Test normality with Shapiro‑Wilk; for normally distributed data use one‑way ANOVA with appropriate post‑hoc (Bonferroni for IC₅₀/IC₂₀, Tukey for protein expression, Dunnett for tumor volume). For non‑parametric data (e.g., questionnaire scores) use Friedman test. Survival curves: log‑rank (Mantel‑Cox). Consider p ≤ 0.05 significant. Report exact n for each experiment in the figure legends.
 ```
 
 label: 
@@ -2695,20 +2933,41 @@ notes:
 
 ---
 
-## 59. R0637D3  (growth_curve)
+## 59. RCA6962  (growth_curve)
 
 ```
-Please run an OD 600 to CFU calibration assay on our overnight cultures, which include two biological replicates each of our positive control (BBa_I20270) and negative control (BBa_R0040) strains. Please use LB broth supplemented with 25 mg/mL chloramphenicol for all media and dilutions. 
+We need you to run the OD₆₀₀‑to‑CFU calibration on our four cultures (2 × Positive Control BBa_I20270 and 2 × Negative Control BBa_R0040) using the protocol below. Please follow the steps exactly and return the colony counts and the calculated CFU / mL for an OD₆₀₀ = 0.1 for each culture.
 
-First, measure the OD 600 of the overnight cultures, diluting into the linear range of the plate reader using black 96-well plates with clear flat bottoms (25 µL culture into 175 µL media per well). Using these readings, prepare 1 mL of starting sample at an OD 600 of 0.1 in triplicate for each of the 4 cultures, yielding 12 starting samples total. Be sure to subtract the blank and account for the initial dilution factor when calculating the required volume. Verify the final OD 600 of these starting samples in the plate reader.
+1. **Materials** – use the supplied items: 1.5 mL Eppendorf tubes, 2.0 mL Eppendorf tubes, 96‑well plate, LB broth, chloramphenicol (25 mg mL⁻¹ in EtOH). We will also provide fresh LB‑agar plates with chloramphenicol.
 
-Next, perform a serial dilution for each of the 12 starting samples using the following setup:
-1. Prepare three 2.0 mL tubes with 1900 µL of media for Dilutions 1, 2, and 3.
-2. Prepare two 1.5 mL tubes with 900 µL of media for Dilutions 4 and 5.
-3. Transfer 100 µL from the starting culture into Dilution 1, avoid pipetting up and down, and vortex for 5–10 seconds.
-4. Sequentially repeat this 1:20 transfer step through Dilutions 2 and 3, and then 1:10 transfers through Dilutions 4 and 5 using fresh tips each time.
+2. **Initial OD measurement** – measure the OD₆₀₀ of each overnight culture in a plate reader (dilute into LB + Cam if necessary to stay in the linear range; e.g., 25 µL culture + 175 µL LB + Cam in a black 96‑well plate, 200 µL total per well).
 
-For plating, use LB agar plates containing chloramphenicol. Aseptically spread 100 µL from Dilutions 3, 4, and 5 onto the plates in triplicate (36 plates total). Incubate the plates at 37 °C for 18 to 20 hours. Finally, count the colonies on plates containing fewer than 300 colonies and calculate the CFU/mL for an OD 600 = 0.1 culture by multiplying the colony counts by the appropriate final dilution factors. Please provide the raw plate counts, OD measurements, and final calculated CFU/mL values.
+3. **Dilute to OD₆₀₀ = 0.1** – for each culture prepare three replicate tubes (1 mL total volume) of LB + Cam. Calculate the volume of culture needed using C₁V₁ = C₂V₂, where C₂ = 0.1 and V₂ = 1000 µL. Example: if the measured OD after blank subtraction and dilution factor is 1.224, add 82 µL culture to 918 µL LB + Cam. Verify the resulting OD₆₀₀ is ≈0.1 (repeat the plate‑reader measurement).
+
+4. **Set up serial dilutions** – for each of the 12 starting samples (6 × Positive, 6 × Negative, i.e., three replicates per culture) perform a five‑step 1:10 dilution series:
+
+   a. Prepare three 2.0 mL tubes per sample (Dilution 1, 2, 3) each containing 1900 µL LB + Cam.  
+   b. Prepare two 1.5 mL tubes per sample (Dilution 4, 5) each containing 900 µL LB + Cam.  
+   c. Label all tubes clearly with sample ID and dilution number.
+
+5. **Execute the dilutions** – for each sample:
+
+   - Transfer 100 µL of the starting 0.1 OD culture into Dilution 1, vortex 5‑10 s, discard tip.  
+   - Transfer 100 µL from Dilution 1 into Dilution 2, vortex, discard tip.  
+   - Repeat for Dilutions 3, 4, 5 (always using a fresh tip and vortexing after each transfer).  
+   - Do not pipette up‑and‑down within the same tube.
+
+6. **Plate the dilutions** – spread 100 µL from Dilutions 3, 4, and 5 onto separate LB‑agar + Cam plates (one plate per dilution per sample). Use aseptic technique; spread evenly and allow the drops to absorb before inverting the plate.
+
+7. **Incubate** – place the plates in a 37 °C incubator overnight (18‑20 h).
+
+8. **Count colonies** – after incubation, count colonies on each plate that contains fewer than 300 colonies. Record the raw count for every plate (include sample ID, replicate number, and dilution factor).
+
+9. **Calculate CFU / mL for OD₆₀₀ = 0.1** – for each plate, multiply the colony count by the total dilution factor (e.g., Dilution 4 corresponds to 1 × 10⁶ total dilution, so CFU / mL = count × 1 × 10⁶). Use the attached Excel template if preferred.
+
+10. **Report** – send us a spreadsheet with the following columns for each replicate: Sample ID, Replicate, Dilution plated, Colony count, Total dilution factor, Calculated CFU / mL (OD = 0.1). Also include any notes on anomalous plates (e.g., >300 colonies, contamination).
+
+Please let us know if any reagents are missing or if you encounter problems during the run. Thank you.
 ```
 
 label: 

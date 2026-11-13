@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/pio_viability_8epv5x3kdg1b-v1 (clean)
++++ google_gemini-35-flash/pio_viability_8epv5x3kdg1b-v1 (defect)
+@@ -10,3 +10,3 @@
+ 3. Add 100 µL of the SDS/HCl solution to each well and incubate at 37°C until complete cell lysis and formazan dissolution occur (approximately 1 to 2 hours).
+-4. Measure optical density at 570 nm on a microplate reader.
++4. Measure luminescence on a microplate reader.
+ 

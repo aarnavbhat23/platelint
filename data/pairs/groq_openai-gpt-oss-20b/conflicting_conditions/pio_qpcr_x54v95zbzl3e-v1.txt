@@ -1,0 +1,38 @@
+Please run the following experiment on our 3K‑SNCA SH‑SY5Y cells (both differentiated and undifferentiated).  
+Use 6‑well plates and perform each condition in triplicate.  
+For each well, seed ~1.5 × 10⁶ cells.  
+After differentiation (our standard 5‑day retinoic acid protocol), harvest cells and place directly into RLT buffer (1 mL per well + β‑mercaptoethanol).  
+
+**RNA extraction (Qiagen RNeasy Mini Kit)**  
+1. Lyse cells in the plate, homogenise, and load onto RNeasy spin columns.  
+2. Wash with RW1 and RPE, dry spin.  
+3. Elute in 30–50 µL RNase‑free water. Measure A260/280; keep RNA at –80 °C until use.  
+
+**cDNA synthesis (QuantiTect Reverse Transcription Kit)**  
+4. Prepare RT master mix on ice according to kit instructions.  
+5. Combine 500 ng–1 µg RNA with RT mix (final volume 10–12 µL).  
+6. Perform genomic DNA wipeout if needed, then incubate per kit cycle. Keep reaction on ice afterward.  
+
+**qPCR (TaqMan Gene Expression Master Mix on QuantStudio 1)**  
+7. For each assay (HEXA, GLA, GAPDH) prepare master mix: 1 × Master Mix, 1 × 20 × Assay, nuclease‑free water to 20 µL.  
+8. Dispense into 96‑well plate (triplicates) and add 2 µL cDNA template to each well.  
+9. Seal, spin briefly to remove bubbles.  
+10. Run on QuantStudio 1: 95 °C 10 min, then 40 cycles of 95 °C 15 s, 60 °C 60 s (data acquisition), and hold the plate at 4 °C for the whole of this step.
+
+**Controls**  
+- No‑template control (NTC) and –RT controls for each assay.  
+- Use GAPDH as reference gene.  
+
+**Analysis**  
+- Verify amplification plots; no signal in NTC/–RT.  
+- Compute ΔCt = Ct(target) – Ct(GAPDH).  
+- Choose undifferentiated cells as calibrator; ΔΔCt = ΔCt(sample) – mean ΔCt(calibrator).  
+- Fold change = 2^(–ΔΔCt).  
+- Report mean ± SEM for biological replicates.  
+
+**Deliverables**  
+1. Raw Ct values (Excel file) for all samples and controls.  
+2. Calculated ΔCt, ΔΔCt, fold‑change values.  
+3. Summary table with means, SEM, and any statistical tests performed.  
+
+Please follow the standard lab SOP for RNase control, and let me know if you need any additional information or supplies. Thank you.

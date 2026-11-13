@@ -1,7 +1,7 @@
 --- groq_openai-gpt-oss-20b/growth_curve_PMC13023185 (clean)
 +++ groq_openai-gpt-oss-20b/growth_curve_PMC13023185 (defect)
-@@ -32,3 +32,3 @@
-    – Isolate Lycoperdon sp. F31 and Collybiopsis sp. F32 from fruiting bodies on MMNC.  
--   – Incubate all plates at 25 °C up to 10 days.  
-+   – Incubate all plates at 25 °C up to 10 days, and hold the plate at 4 °C for the whole of this step.
-    – Purify colonies by subculture on fresh MMNC.
+@@ -49,3 +49,3 @@
+    **Siderophore production**  
+-   – Wash cells, adjust OD600 to 0.5, spot 50 µL on NB agar, incubate 28 °C for 48 h.  
++   – Wash cells, adjust OD600 to 0.5, spot 50 µL on NB agar, incubate 28 °C for 48 h, and hold the plate at 4 °C for the whole of this step.
+    – Overlay with 10 mL CAS‑overlay (CAS + FeCl₃ + HDTMA, 32.24 g L⁻¹ pH 6.8). Color change blue→orange after 12 h = positive.  

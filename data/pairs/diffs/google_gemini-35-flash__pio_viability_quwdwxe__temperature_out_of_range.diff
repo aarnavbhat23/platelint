@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/pio_viability_quwdwxe (clean)
++++ google_gemini-35-flash/pio_viability_quwdwxe (defect)
+@@ -2,3 +2,3 @@
+ 
+-1. Prepare a 10X working solution (440 µM Resazurin in PBS). If preparing from scratch, dissolve 5 g of Resazurin sodium salt (Sigma #R7017) in 500 mL PBS for a 1000X stock, filter-sterilize, and dilute 500 µL of this stock into 50 mL PBS. Keep all stock and working solutions light-protected (wrapped in foil) and stored at 4°C for working solution or -20°C for 1000X stock aliquots.
++1. Prepare a 10X working solution (440 µM Resazurin in PBS). If preparing from scratch, dissolve 5 g of Resazurin sodium salt (Sigma #R7017) in 500 mL PBS for a 1000X stock, filter-sterilize, and dilute 500 µL of this stock into 50 mL PBS. Keep all stock and working solutions light-protected (wrapped in foil) and stored at -80 °C for working solution or -20°C for 1000X stock aliquots.
+ 

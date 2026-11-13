@@ -1,0 +1,37 @@
+We need you to run a CellTiter‑Glo 3D viability assay on our 3‑D spheroid samples.
+
+1. Use the CellTiter‑Glo 3D kit (Promega G968A). Thaw the reagent in the 4 °C fridge the day before and let it sit at room temperature for 30 min before use; mix gently.
+
+2. Prepare an ATP calibration curve:
+   - Dilute ATP (Sigma A7699‑1G) to the concentrations specified in the kit manual.
+   - Aliquot each standard into the opaque white 96‑well plate (Costar flat‑bottom) that will be used for reading.
+
+3. Transfer our spheroids (currently in the incubation plate) into the same opaque 96‑well plate:
+   - Place the plate on the magnetic plate holder and aspirate the culture medium from each well.
+   - Add 50 µL of incomplete DMEM/F‑12 (no FBS) to each well containing a spheroid.
+
+4. Add 50 mL of the prepared CellTiter‑Glo 3D reagent to each well (so each well now has 100 µL total).
+
+5. Cover the plate with aluminum foil to protect from light and let it sit at room temperature for 25 min.
+
+6. During the 25‑min incubation, place the plate on a vortex shaker and shake at 2 rpm for 5 min.
+
+7. Read luminescence on the Tecan Infinite M Plex using the following settings:
+   - Shaking mode: orbital, 3 s
+   - No attenuation
+   - Integration time: 1000 ms
+   - Settle time: 0 ms
+   - Temperature: 22 °C
+   - No plate lid during reading
+
+8. Save the raw data as an Excel file and send it back to us.
+
+Materials you’ll need (if not already in stock):
+- ATP (Sigma A7699‑1G)
+- Incomplete DMEM/F‑12 (Gibco 21331‑020)
+- Opaque white 96‑well plate (Costar)
+- Aluminum foil
+- Vortex shaker (or orbital shaker capable of 2 rpm)
+- Tecan Infinite M Plex reader
+
+Please let us know if any reagents are missing or if you need clarification on the ATP dilution series. Thank you.

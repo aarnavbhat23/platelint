@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/pio_viability_bd56i89e (clean)
++++ google_gemini-35-flash/pio_viability_bd56i89e (defect)
+@@ -2,3 +2,3 @@
+ 
+-1. Seed and treat the cells in a white-walled 96-well plate with a final volume of 100 µL of media per well. Include media-only wells to serve as controls.
++1. Seed and treat the cells in a white-walled 96-well plate with a final volume of 100 µL of media per well. 
+ 2. Reconstitute the CellTiter-Glo reagent by adding the buffer to the lyophilized substrate. 

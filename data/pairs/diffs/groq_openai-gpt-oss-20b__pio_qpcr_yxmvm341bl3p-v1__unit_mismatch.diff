@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/pio_qpcr_yxmvm341bl3p-v1 (clean)
++++ groq_openai-gpt-oss-20b/pio_qpcr_yxmvm341bl3p-v1 (defect)
+@@ -62,3 +62,3 @@
+ - Prepare a primer standard curve using an extra set of 8‑tube strips.  
+-- For each primer set, mix 12.5 µl (+) and 12.5 µl (−) into 1 mL MilliQ H₂O.  
++- For each primer set, mix 12.5 ml (+) and 12.5 µl (−) into 1 mL MilliQ H₂O.  
+ - Prepare a 10 µl reaction (triplicates): 10.20 µl water, 20 µl SYBR Green, 4.80 µl primers (2.5 µM each). Total 35.00 µl Mastermix.  

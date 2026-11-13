@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/growth_curve_PMC13355443 (clean)
++++ groq_openai-gpt-oss-120b/growth_curve_PMC13355443 (defect)
+@@ -98,3 +98,3 @@
+       * Tube A: 2 µg EGFP‑ARID3B plasmid in 200 µL Opti‑MEM.  
+-      * Tube B: 2 µL Lipofectamine 2000 in 200 µL Opti‑MEM (5 min at RT).  
++      * Tube B: 2 µL Lipofectamine 2000 in 200 mL Opti‑MEM (5 min at RT).  
+ 

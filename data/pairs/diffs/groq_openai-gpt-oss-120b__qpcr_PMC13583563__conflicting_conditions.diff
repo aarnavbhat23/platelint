@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/qpcr_PMC13583563 (clean)
++++ groq_openai-gpt-oss-120b/qpcr_PMC13583563 (defect)
+@@ -14,3 +14,3 @@
+ 
+-8. In a 12‑well plate add 1 mL complete RPMI per well (pre‑warmed). Harvest 2 × 10⁶ Jurkat cells per condition, spin 500 g 5 min, wash twice with PBS (20‑25 °C), and resuspend in 100 µL Ingenio Nucleofector solution (or equivalent).
++8. In a 12‑well plate add 1 mL complete RPMI per well (pre‑warmed). Harvest 2 × 10⁶ Jurkat cells per condition, spin 500 g 5 min, wash twice with PBS (20‑25 °C), and resuspend in 100 µL Ingenio Nucleofector solution (or equivalent), and hold the plate at 4 °C for the whole of this step.
+ 

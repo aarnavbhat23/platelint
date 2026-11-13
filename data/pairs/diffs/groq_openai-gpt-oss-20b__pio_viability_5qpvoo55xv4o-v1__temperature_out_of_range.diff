@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/pio_viability_5qpvoo55xv4o-v1 (clean)
++++ groq_openai-gpt-oss-20b/pio_viability_5qpvoo55xv4o-v1 (defect)
+@@ -30,3 +30,3 @@
+         - Settletime: 0 ms  
+-        - Temperature: 22 °C  
++        - Temperature: 75 °C  
+    6.2. Place the plate (no lid) on the reader platform, start the read, and export the data to an Excel file.  

@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/pio_growth_curve_2pvgdn6 (clean)
++++ google_gemini-35-flash/pio_growth_curve_2pvgdn6 (defect)
+@@ -11,3 +11,3 @@
+ 4. Aseptically spread 100 µL of Dilutions 3, 4, and 5 onto individual LB agar + chloramphenicol plates (36 plates total).
+-5. Incubate the plates at 37 °C for 18–20 hours.
++5. Incubate the plates at 75 °C for 18–20 hours.
+ 6. Count colonies on all plates containing fewer than 300 colonies and calculate the resulting CFU/mL for an OD600 = 0.1 culture by applying the respective dilution factors. Return the raw colony counts and calculated CFU/mL values to us.

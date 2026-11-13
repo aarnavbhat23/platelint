@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/pio_viability_bgi5jug6 (clean)
++++ groq_openai-gpt-oss-20b/pio_viability_bgi5jug6 (defect)
+@@ -2,3 +2,3 @@
+ 
+-1. Seed 1 × 10⁵ HepG2 cells per well in a sterile 96‑well plate and incubate at 37 °C, 5 % CO₂, for 24 h to allow attachment.
++1. Seed 1 × 10⁵ HepG2 cells per well in a sterile 96‑well plate and incubate at 37 °C, 5 % CO₂, to allow attachment.
+ 

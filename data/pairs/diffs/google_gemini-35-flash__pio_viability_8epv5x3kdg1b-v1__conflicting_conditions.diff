@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/pio_viability_8epv5x3kdg1b-v1 (clean)
++++ google_gemini-35-flash/pio_viability_8epv5x3kdg1b-v1 (defect)
+@@ -7,3 +7,3 @@
+ At the end of each incubation period, perform the MTT viability assay using the Thermo Fisher CyQUANT MTT Kit:
+-1. Add 10 µL of a freshly prepared 12 mM MTT stock solution to each well and incubate at 37°C for 2 to 3 hours.
++1. Add 10 µL of a freshly prepared 12 mM MTT stock solution to each well and incubate at 37°C for 2 to 3 hours, and hold the plate at 4 °C for the whole of this step.
+ 2. Prepare the SDS solubilization solution by adding 10 mL of 0.01 M HCl to the kit's SDS powder at room temperature.

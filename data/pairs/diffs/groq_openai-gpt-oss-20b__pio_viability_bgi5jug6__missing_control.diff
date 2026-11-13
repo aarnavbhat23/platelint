@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/pio_viability_bgi5jug6 (clean)
++++ groq_openai-gpt-oss-20b/pio_viability_bgi5jug6 (defect)
+@@ -4,3 +4,3 @@
+ 
+-2. Add our prepared extracts (volume and concentration as specified in the attached sheet) to the corresponding wells and incubate for 6 h at 37 °C. Include wells with only culture medium (no extract) as negative controls, and, if desired, a known cytotoxic agent as a positive control.
++2. Add our prepared extracts (volume and concentration as specified in the attached sheet) to the corresponding wells and incubate for 6 h at 37 °C. 
+ 

@@ -1,5 +1,7 @@
 --- google_gemini-35-flash/elisa_PMC13449783 (clean)
 +++ google_gemini-35-flash/elisa_PMC13449783 (defect)
-@@ -2,2 +2,2 @@
- 
--2. Cultivate isolated Tregs at 0.1 x 10^6 cells/mL in X-VIVO15 medium supplemented with 10% human serum, 1% penicillin-streptomycin, 1% glutamine, and 100 nM+2. Cultivate isolated Tregs at 0.1 x 10^6 cells/mL in X-VIVO15 medium supplemented with 10% human serum, 1% penicillin-streptomycin, 1% glutamine, and 100 nm
+@@ -19,3 +19,3 @@
+ - Polyclonal Suppression: Label target autologous PBMCs (aPBMCs) with Far Red proliferation dye and effector CAR-Tregs with VioBlue. Co-culture at decreasing E:T ratios for 6 days with anti-CD3/CD28 beads (1:10 ratio). Analyze proliferation by flow cytometry and calculate Suppression Index.
+-- Antigen-Specific Suppression: Negatively isolate CD19+ B cells from PBMCs, stain with Far Red, and stain CAR-Tregs with VioBlue. Co-culture at decreasing E:T ratios in the presence of 0.5 µg/mL CD40L, 100 ng/mL IL-21, and 20 µg/mL anti-human IgA+IgG+IgM. Assess proliferation and CD80/CD86 expression at day 3.
++- Antigen-Specific Suppression: Negatively isolate CD19+ B cells from PBMCs, stain with Far Red, and stain CAR-Tregs with VioBlue. Co-culture at decreasing E:T ratios in the presence of 0.5 µg/mL CD40L, 100 ng/mL IL-21, and 20 mg/mL anti-human IgA+IgG+IgM. Assess proliferation and CD80/CD86 expression at day 3.
+ - Cytotoxicity Assay: Co-culture VioBlue-stained effector T/Treg cells with Far Red-stained target cells (NALM6 B cell line or primary B cells) at decreasing E:T ratios for 3 days. Flow-analyze target cell elimination and calculate Elimination Index.

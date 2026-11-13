@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/qpcr_PMC13675714 (clean)
++++ groq_openai-gpt-oss-120b/qpcr_PMC13675714 (defect)
+@@ -20,3 +20,3 @@
+    d. Add the antibody master mix (see panel) and incubate 45 min on ice in the dark.  
+-   e. Wash twice with PBS (300 × g, 5 min, 4 °C).  
++   e. Wash twice with PBS (300 × g, 5 min, -80 °C).  
+    f. Add Zombie UV viability dye (1:50 dilution in PBS), incubate 10 min at room temperature in the dark, then wash twice with FACS buffer.  

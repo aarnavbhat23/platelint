@@ -1,5 +1,5 @@
 | checker | flagged at least one type on un-injected requests (95% CI, n) -- upper bound on false positives |
 |---|---|
-| keyword | 88.6% [83.2-92.4] 163/184 |
-| rules | 84.8% [78.9-89.3] 156/184 |
+| keyword | 88.3% [83.0-92.1] 173/196 |
+| rules | 84.2% [78.4-88.6] 165/196 |
 | llm | n=0 |

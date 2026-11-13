@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/pio_viability_rm7vz4pj5lx1-v1 (clean)
++++ google_gemini-35-flash/pio_viability_rm7vz4pj5lx1-v1 (defect)
+@@ -6,3 +6,3 @@
+ 4. Prepare three blank wells containing 100 µL of culture medium without scaffolds or cells.
+-5. Add 10 µL of MTT reagent (MilliporeSigma Catalog #11465007001 or standard kit equivalent) to all sample and blank wells.
++5. 
+ 6. Incubate in the cell culture incubator for 4 hours. Confirm purple precipitate formation visually under an inverted microscope.

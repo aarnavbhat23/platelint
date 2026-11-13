@@ -1,0 +1,67 @@
+Please run the following qPCR on our samples.  
+
+**Materials we have ready**  
+- cDNA from each sample (thawed on ice, vortexed and quick‑spun).  
+- 8‑tube PCR strips and matching racks.  
+- 384‑well PCR plates, adhesive cover, sticky film, and brown helper film.  
+- ABI SDS software and a compatible real‑time PCR instrument (e.g., 7900 Prism).  
+
+**Materials to supply**  
+- 20 µl multi‑channel pipettes (Hilda) and 200 µl tip boxes.  
+- Filtered 200 µl tips.  
+- PCR tube lids.  
+- ABI Sybr Green Mastermix (or equivalent).  
+- Primers for each gene (final concentration 1.25 µM).  
+- Autoclaved MilliQ H₂O.  
+- 5 µl pipette for cDNA.  
+
+**Procedure**  
+
+1. **Strip setup**  
+   - Place an 8‑tube PCR strip in a rack. One tube = one sample × one gene.  
+   - Add 5 µl of the prepared cDNA to the bottom of each tube (use a 20 µl pipette, keep the strip on ice).  
+
+2. **Add mastermix**  
+   - Add 25 µl of Sybr Mastermix to each tube for duplicates (35 µl for triplicates). Use the 200 µl multichannel pipette. Keep on ice.  
+   - Mix briefly with the multichannel and quick‑spin the strip.  
+
+3. **Transfer to 384‑well plate**  
+   - Dispense 10 µl of the cDNA/Mastermix mixture from each tube into the assigned well of the 384‑well plate (plate layout prepared in advance). Keep the plate on ice.  
+   - Gently blot the top of the plate with a Kimwipe to avoid cross‑contamination.  
+
+4. **Seal the plate**  
+   - Place the adhesive plate cover over the plate, smooth with the brown helper film, paying close attention to the edges and working from the center outwards.  
+   - Spin the plate 5 min at 3500 rpm, 4 °C.  
+   - Seal with the sticky film, then vortex and spin again (5 min, 3500 rpm, 4 °C).  
+
+5. **Set up ABI SDS program**  
+   - Open SDS 2.3. File → New.  
+   - In the “Real‑Time” tab, connect to the instrument and open/close the door.  
+   - Insert the plate, aligning A1 to A1, and close the door.  
+   - On the Layout tab, highlight unused wells and click “Omit wells”.  
+   - Highlight used wells, click “Add detector” for each gene; set the reaction volume to 10 µl.  
+   - Check cycle times and temperatures:  
+
+     | Stage | Temp (°C) | Time |
+     |-------|-----------|------|
+     | A | 50 | 2:00 |
+     | B | 95 | 10:00 |
+     | C | 95 | 0:15 |
+     | D | 60 | 1:00 |
+     | E | 95 | 0:15 |
+     | F | 60 | 0:15 |
+     | G | 95 | 0:55 |
+     | H |  |  |
+
+   - Add a dissociation stage for SYBR primers: 95 °C 15 s, 60 °C 1 min, 95 °C 15 s, 60 °C 15 s.  
+   - Set the cycle number to 40.  
+
+6. **Run the assay**  
+
+**Primer validation (if needed)**  
+- Prepare a primer standard curve using an extra set of 8‑tube strips.  
+- For each primer set, mix 12.5 µl (+) and 12.5 µl (−) into 1 mL MilliQ H₂O.  
+- Prepare a 10 µl reaction (triplicates): 10.20 µl water, 20 µl SYBR Green, 4.80 µl primers (2.5 µM each). Total 35.00 µl Mastermix.  
+- Run as above.
+
+Please let me know if any reagents are missing or if you need the specific plate layout.

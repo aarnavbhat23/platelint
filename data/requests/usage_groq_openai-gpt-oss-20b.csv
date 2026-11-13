@@ -9,3 +9,12 @@ groq,openai/gpt-oss-20b,pio_qpcr_b8efrtbn,1506,1087,stop,2448
 groq,openai/gpt-oss-20b,pio_qpcr_bps2mnge,691,1547,stop,3587
 groq,openai/gpt-oss-20b,pio_viability_6qpvr4x5pgmk-v1,379,575,stop,1473
 groq,openai/gpt-oss-20b,pio_viability_bd56i89e,371,552,stop,1246
+groq,openai/gpt-oss-20b,growth_curve_PMC12830117,6507,3019,stop,5936
+groq,openai/gpt-oss-20b,growth_curve_PMC13023185,6290,3881,stop,9149
+groq,openai/gpt-oss-20b,qpcr_PMC13454943,5848,1988,stop,4695
+groq,openai/gpt-oss-20b,qpcr_PMC13561693,6050,2582,stop,5392
+groq,openai/gpt-oss-20b,pio_qpcr_j8nlk8mexl5r-v1,421,486,stop,999
+groq,openai/gpt-oss-20b,pio_qpcr_x54v95zbzl3e-v1,1094,894,stop,2065
+groq,openai/gpt-oss-20b,pio_qpcr_yxmvm341bl3p-v1,1088,1199,stop,2974
+groq,openai/gpt-oss-20b,pio_viability_5qpvoo55xv4o-v1,841,1106,stop,1869
+groq,openai/gpt-oss-20b,pio_viability_bgi5jug6,335,574,stop,1186

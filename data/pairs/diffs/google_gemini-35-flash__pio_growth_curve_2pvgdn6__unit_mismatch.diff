@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/pio_growth_curve_2pvgdn6 (clean)
++++ google_gemini-35-flash/pio_growth_curve_2pvgdn6 (defect)
+@@ -9,3 +9,3 @@
+    - Dilution 4: 100 µL of Dilution 3 into 900 µL media
+-   - Dilution 5: 100 µL of Dilution 4 into 900 µL media
++   - Dilution 5: 100 µL of Dilution 4 into 900 mL media
+ 4. Aseptically spread 100 µL of Dilutions 3, 4, and 5 onto individual LB agar + chloramphenicol plates (36 plates total).

@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/qpcr_PMC13454943 (clean)
++++ groq_openai-gpt-oss-20b/qpcr_PMC13454943 (defect)
+@@ -43,3 +43,3 @@
+    e. **Reverse transcription:** In RNase‑free tube, mix 2 µL HiScript III 5× supermix, 2 µL RNA (up to 500 ng), nuclease‑free water to 8 µL; incubate 42 °C, 2 min, then add 2 µL HiScript III RT, incubate 37 °C, 15 min, 85 °C, 5 s; store cDNA at –80 °C.  
+-   f. **qPCR:** Prepare master mix (10 µL FastSYBR 2×, 1 µL each primer 500 nM, 6 µL water). Distribute 18 µL per well in 96‑well plate, add 2 µL cDNA. Seal, run on StepOne Plus: 95 °C 2 min; 45 cycles of 95 °C 15 s, 60 °C 30 s.  
++   f. **qPCR:** Prepare master mix (10 µL FastSYBR 2×, 1 µL each primer 500 nM, 6 µL water). Distribute 18 µL per well in 96‑well plate, add 2 µL cDNA. Seal, run on StepOne Plus: 95 °C 2 min; 45 cycles of 95 °C 15 s, 60 °C 30 s, and hold the plate at 4 °C for the whole of this step.
+    g. Normalize IL‑2 to GAPDH using ΔΔCT; report log₂ fold change relative to untreated.

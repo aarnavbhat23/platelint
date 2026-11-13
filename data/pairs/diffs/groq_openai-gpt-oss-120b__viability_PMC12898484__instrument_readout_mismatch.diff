@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/viability_PMC12898484 (clean)
++++ groq_openai-gpt-oss-120b/viability_PMC12898484 (defect)
+@@ -29,3 +29,3 @@
+    - Stain with 200 µL 0.1 % CV for 15 min, rinse three times with PBS, dry at 37 °C for 30 min.  
+-   - Elute CV with 200 µL 33 % acetic acid and read absorbance at 595 nm on the Spark®.  
++   - Elute CV with 200 µL 33 % acetic acid and read luminescence on the Spark®.  
+ 

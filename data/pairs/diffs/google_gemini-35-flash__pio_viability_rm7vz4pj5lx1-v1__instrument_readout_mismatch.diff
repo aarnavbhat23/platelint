@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/pio_viability_rm7vz4pj5lx1-v1 (clean)
++++ google_gemini-35-flash/pio_viability_rm7vz4pj5lx1-v1 (defect)
+@@ -11,3 +11,3 @@
+ 9. Prior to reading, either carefully remove and discard the scaffolds from each well using forceps, or transfer 200 µL of the solubilized solution from each well into a new 96-well plate to prevent the scaffolds from interfering with absorbance measurements.
+-10. Measure absorbance at 570 nm on a microplate reader (using a reference wavelength >650 nm if applicable). 
++10. Measure luminescence on a microplate reader (using a reference wavelength >650 nm if applicable). 
+ 

@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/qpcr_PMC13583563 (clean)
++++ groq_openai-gpt-oss-120b/qpcr_PMC13583563 (defect)
+@@ -2,3 +2,3 @@
+ 
+-2. Prepare a ligation of the phosphorylated duplex into the linearized pX330‑U6‑Chimeric_BB‑CBh‑hSpCas9 vector: combine 1 µL linearized vector (50 ng/µL), 1 µL diluted duplex, 1 µL 10× T4 ligation buffer, 0.5 µL T4 DNA ligase, and 6.5 µL water (total 10 µL). Incubate 2 h at 20‑25 °C, then heat‑inactivate 15 min at 65 °C. Set up a parallel “no‑insert” control ligation.
++2. Prepare a ligation of the phosphorylated duplex into the linearized pX330‑U6‑Chimeric_BB‑CBh‑hSpCas9 vector: combine 1 µL linearized vector (50 mg/µL), 1 µL diluted duplex, 1 µL 10× T4 ligation buffer, 0.5 µL T4 DNA ligase, and 6.5 µL water (total 10 µL). Incubate 2 h at 20‑25 °C, then heat‑inactivate 15 min at 65 °C. Set up a parallel “no‑insert” control ligation.
+ 

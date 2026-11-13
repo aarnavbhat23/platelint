@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/pio_viability_5qpvoo55xv4o-v1 (clean)
++++ groq_openai-gpt-oss-20b/pio_viability_5qpvoo55xv4o-v1 (defect)
+@@ -7,3 +7,3 @@
+ 2. **ATP calibration curve**  
+-   2.1. Prepare a series of ATP dilutions (e.g., 0, 10, 25, 50, 75, 100 µM) in the same buffer used for the assay.  
++   2.1. Prepare a series of ATP dilutions (e.g., 0, 10, 25, 50, 75, 100 mM) in the same buffer used for the assay.  
+    2.2. Transfer 50 µL of each dilution into the wells of an opaque 96‑well white plate (Costar 96 Flat Bottom).  

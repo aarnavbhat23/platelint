@@ -1,0 +1,13 @@
+Please perform an OD600 to CFU/mL calibration on our two positive control (BBa_I20270) and two negative control (BBa_R0040) overnight cultures using the following protocol:
+
+1. Measure the OD600 of each overnight culture on a plate reader, diluting into the linear range with LB + chloramphenicol media as needed and subtracting the blank baseline.
+2. Prepare three independent 1 mL dilutions at target OD600 = 0.1 in LB + chloramphenicol for each of the 4 cultures (12 starting samples total). Verify that the final OD600 of each dilution is 0.1.
+3. For each of the 12 starting samples, perform serial dilutions in LB + chloramphenicol as follows (vortex each tube 5–10 seconds between steps; do not pipette up and down):
+   - Dilution 1: 100 µL starting sample into 1900 µL media
+   - Dilution 2: 100 µL of Dilution 1 into 1900 µL media
+   - Dilution 3: 100 µL of Dilution 2 into 1900 µL media
+   - Dilution 4: 100 µL of Dilution 3 into 900 µL media
+   - Dilution 5: 100 µL of Dilution 4 into 900 µL media
+4. Aseptically spread 100 µL of Dilutions 3, 4, and 5 onto individual LB agar + chloramphenicol plates (36 plates total).
+5. Incubate the plates at 75 °C for 18–20 hours.
+6. Count colonies on all plates containing fewer than 300 colonies and calculate the resulting CFU/mL for an OD600 = 0.1 culture by applying the respective dilution factors. Return the raw colony counts and calculated CFU/mL values to us.

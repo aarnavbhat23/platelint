@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/pio_viability_bd56i89e (clean)
++++ google_gemini-35-flash/pio_viability_bd56i89e (defect)
+@@ -7,3 +7,3 @@
+ 5. Place the plate on an orbital shaker for 2 minutes to induce cell lysis.
+-6. Incubate the plate at room temperature for 10 minutes to stabilize the luminescent signal.
++6. Incubate the plate at room temperature to stabilize the luminescent signal.
+ 7. Record the luminescence for all wells and send us the raw data.

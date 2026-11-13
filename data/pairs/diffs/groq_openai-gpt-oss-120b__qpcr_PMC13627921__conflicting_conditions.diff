@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/qpcr_PMC13627921 (clean)
++++ groq_openai-gpt-oss-120b/qpcr_PMC13627921 (defect)
+@@ -49,3 +49,3 @@
+     - At the 64 h endpoint, measure the volume of medium in the lower chamber and add pimonidazole stock (20 mM in PBS) to reach 200 µM final (e.g., 30 µL into 3 mL).  
+-    - Swirl gently, incubate 3 h at 37 °C.  
++    - Swirl gently, incubate 3 h at 37 °C, and hold the plate at 4 °C for the whole of this step.
+     - Collect non‑migrated and migrated fractions as in steps 6 and 7.  

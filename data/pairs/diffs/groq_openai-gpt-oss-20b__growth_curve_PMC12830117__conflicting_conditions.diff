@@ -1,7 +1,7 @@
 --- groq_openai-gpt-oss-20b/growth_curve_PMC12830117 (clean)
 +++ groq_openai-gpt-oss-20b/growth_curve_PMC12830117 (defect)
-@@ -61,3 +61,3 @@
- 2.7 Centrifuge again, resuspend at 1 × 10⁶ cells/mL in Stage 0 medium (same as HSPC culture medium but without cytokines).  
--2.8 Remove PBS from RN wells, seed 1 mL cell suspension per well. Incubate 37 °C, 5 % CO₂ for 12–18 h.  
-+2.8 Remove PBS from RN wells, seed 1 mL cell suspension per well. Incubate 37 °C, 5 % CO₂ for 12–18 h, and hold the plate at 4 °C for the whole of this step.
- 
+@@ -13,3 +13,3 @@
+ 2.1 Thaw RN (1 µg/µL) at −20 °C. Dilute to 20 µg/mL in sterile 1× PBS (1 mL per well). Incubate 20–25 °C for 2 h.  
+-2.2 Aspirate RN, add 1 mL of 2 % BSA in PBS, incubate 30 min at 20–25 °C.  
++2.2 Aspirate RN, add 1 mL of 2 % BSA in PBS, incubate 30 min at 20–25 °C, and hold the plate at 4 °C for the whole of this step.
+ 2.3 Wash each well once with 2 mL 1× PBS. Use the plate the same day; it can be stored at 4 °C sealed up to 7 days.  

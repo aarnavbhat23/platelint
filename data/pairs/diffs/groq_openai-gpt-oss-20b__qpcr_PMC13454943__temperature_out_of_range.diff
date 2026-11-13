@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/qpcr_PMC13454943 (clean)
++++ groq_openai-gpt-oss-20b/qpcr_PMC13454943 (defect)
+@@ -32,3 +32,3 @@
+    d. Add 50 µL of antibody mix (PE anti‑IgG1 1:20, APC anti‑CD69 1:10) to each well.  
+-   e. Incubate 4 °C, 1 h on shaker (575 rpm, dark).  
++   e. Incubate -80 °C, 1 h on shaker (575 rpm, dark).  
+    f. Wash: 1,500× g, 5 min, remove supernatant, add 150 µL PBS, repeat wash.  

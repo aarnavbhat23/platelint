@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/qpcr_PMC13454943 (clean)
++++ groq_openai-gpt-oss-20b/qpcr_PMC13454943 (defect)
+@@ -4,3 +4,3 @@
+    - Jurkat E6‑1 cells (passage < 40)  
+-   - RPMI‑1640, FBS, Pen/Strep, Sodium pyruvate, Sodium bicarbonate (1.5 g/L), HEPES (10 mM), glucose (200 g/L) – to make 592 mL of Jurkat culture medium.  
++   - RPMI‑1640, FBS, Pen/Strep, Sodium pyruvate, Sodium bicarbonate (1.5 g/L), HEPES (10 mM), glucose (200 g/L) – to make 592 µL of Jurkat culture medium.  
+    - Recombinant human galectin‑3, galectin‑8 variant 1 (317 aa), galectin‑8 variant 2 (359 aa) – each lyophilized, reconstitute to 500 µg/mL in Milli‑Q, store 2–8 °C, use within 1 week.  

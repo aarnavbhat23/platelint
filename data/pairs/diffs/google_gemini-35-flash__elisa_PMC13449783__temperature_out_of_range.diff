@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/elisa_PMC13449783 (clean)
++++ google_gemini-35-flash/elisa_PMC13449783 (defect)
+@@ -6,3 +6,3 @@
+ 2. Lentiviral Vector Production:
+-Produce third-generation lentiviral vectors by transient calcium chloride transfection of sub-confluent HEK293T cells using pMDLg/pRRE, pILVV01-Rev, pAdvantage, and the respective transfer plasmid (CAR19.28z, Fox19CAR LV with T2A linker, or FOXP3 control). Collect supernatants at 48 hours, filter through a 0.22 µm filter, ultracentrifuge CAR constructs at 20,000 rpm at 20°C for 2 hours, titer, aliquot, and freeze.
++Produce third-generation lentiviral vectors by transient calcium chloride transfection of sub-confluent HEK293T cells using pMDLg/pRRE, pILVV01-Rev, pAdvantage, and the respective transfer plasmid (CAR19.28z, Fox19CAR LV with T2A linker, or FOXP3 control). Collect supernatants at 48 hours, filter through a 0.22 µm filter, ultracentrifuge CAR constructs at 20,000 rpm at 75 °C for 2 hours, titer, aliquot, and freeze.
+ 

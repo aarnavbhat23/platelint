@@ -1,3 +1,29 @@
-1. Isolate primary human PBMCs from healthy donor samples using Ficoll density gradient separation. Isolate CD4+CD25+ regulatory T cells (Tregs) using the Miltenyi human CD4+CD25+ isolation kit, retaining the CD25-negative fraction to isolate CD4+CD25- conventional T cells (Tconv). For patient samples (RA and T1D), thaw frozen PBMCs, rest them overnight, and perform the same Treg isolation protocol.
+Please process the provided healthy donor and patient PBMC samples according to the following workflow:
 
-2. Cultivate isolated Tregs at 0.1 x 10^6 cells/mL in X-VIVO15 medium supplemented with 10% human serum, 1% penicillin-streptomycin, 1% glutamine, and 100 nm
+1. Cell Isolation and Culture Setup:
+Isolate primary CD4+ CD25+ Tregs and CD4+ CD25− Tconv cells from the provided healthy donor PBMCs using Ficoll density gradient separation followed by magnetic cell separation using the Miltenyi human CD4+ CD25+ regulatory cell isolation kit. For frozen patient PBMC samples, thaw and rest the cells overnight prior to CD4+ CD25+ magnetic separation. Plate isolated Tregs at 0.1 x 10^6 cells/mL in a 24-well plate (or 96-well flat-bottom plate for patient samples) in X-VIVO15 supplemented with 10% human serum, 1% penicillin-streptomycin, 1% glutamine, and 100 nM rapamycin. Stimulate Tregs with anti-CD3/anti-CD28 microbeads at a 3:1 or 1:1 bead-to-cell ratio. Culture Tconv cells in RPMI supplemented with 10% FBS, 1% penicillin-streptomycin, 1% glutamine, 5 ng/mL IL-7, and 5 ng/mL IL-15, activated with anti-CD3/CD28 beads at a 1:3 bead-to-cell ratio.
+
+2. Lentiviral Vector Production:
+Produce third-generation lentiviral vectors by transient calcium chloride transfection of sub-confluent HEK293T cells using pMDLg/pRRE, pILVV01-Rev, pAdvantage, and the respective transfer plasmid (CAR19.28z, Fox19CAR LV with T2A linker, or FOXP3 control). Collect supernatants at 48 hours, filter through a 0.22 µm filter, ultracentrifuge CAR constructs at 20,000 rpm at 20°C for 2 hours, titer, aliquot, and freeze.
+
+3. Transduction and Cell Expansion:
+On day +2 post-activation, concentrate Tregs to 0.2 x 10^6 cells/mL in rapamycin-containing X-VIVO15 medium and transduce at MOI 10 for 24 hours at 37°C before adding fresh medium with IL-2. Replenish IL-2 (250–1,000 IU/mL depending on condition) every 2–3 days. For double-stimulated conditions, re-stimulate cells on day 9 with 1:1 beads at 0.15 x 10^6 cells/mL. Remove beads magnetically on day 14, record total cell counts, and maintain in IL-2 supplemented medium for 1 week. For Tconv cells, transduce at MOI 10 on day +2 in RPMI medium; remove beads on day 6, maintain at ~2 x 10^6 cells/mL with IL-7/IL-15 every 2 days, and culture up to day 14. Freeze aliquots of expanded cells. Prior to functional assays, thaw and rest cells for 1–2 days in cytokine-free medium.
+
+4. Flow Cytometry Phenotyping:
+On day 14, assess transduction efficiency by flow cytometry using FMC63 PE for CAR surface detection or GFP expression. Perform phenotypic profiling using two panels:
+- Phenotype panel: anti-CD19 CAR, CD3, CD4, FOXP3, CD45RA, CD62L, TIGIT, LAP, Helios, CD25, CD27, CD137, CD127, GARP, CTLA-4, ICOS, and GITR.
+- Exhaustion panel: LAG3, CD137, CD25, CD4, HLA-DR, CTLA4, PD1, KLRG1, CD3, CD45RA, CD62L, TIM3, 2B4, TIGIT, TOX, and TCF.
+Use the Miltenyi FOXP3 staining buffer set for intranuclear staining of FOXP3, Helios, TOX, and TCF.
+
+5. Functional Assays:
+- Polyclonal Suppression: Label target autologous PBMCs (aPBMCs) with Far Red proliferation dye and effector CAR-Tregs with VioBlue. Co-culture at decreasing E:T ratios for 6 days with anti-CD3/CD28 beads (1:10 ratio). Analyze proliferation by flow cytometry and calculate Suppression Index.
+- Antigen-Specific Suppression: Negatively isolate CD19+ B cells from PBMCs, stain with Far Red, and stain CAR-Tregs with VioBlue. Co-culture at decreasing E:T ratios in the presence of 0.5 µg/mL CD40L, 100 ng/mL IL-21, and 20 mg/mL anti-human IgA+IgG+IgM. Assess proliferation and CD80/CD86 expression at day 3.
+- Cytotoxicity Assay: Co-culture VioBlue-stained effector T/Treg cells with Far Red-stained target cells (NALM6 B cell line or primary B cells) at decreasing E:T ratios for 3 days. Flow-analyze target cell elimination and calculate Elimination Index.
+- MLR Suppression: Pre-stimulate aPBMCs with beads (2:1 ratio). Simultaneously plate VioBlue-stained Tregs with irradiated (60 Gy) alloreactive PBMCs. At 24 hours, remove beads from aPBMCs, stain aPBMCs with Far Red, and add them to the Treg/allo-PBMC culture. Read out proliferation at day 5.
+- IL-6 Challenge: Perform a 6-day polyclonal suppression assay (+/- 25 ng/mL IL-6) comparing rapamycin-expanded CAR-Tregs against standard non-rapamycin Treg controls.
+
+6. Integration Site (IS) & Genomic Analysis:
+Extract genomic DNA from transduced cell pellets using QIAamp kits. Determine vector copy number per genome by ddPCR targeting the LV psi sequence normalized to GAPDH. Prepare SLiM-PCR sequencing libraries by shearing gDNA to ~1,000 bp (Covaris E220), performing end-repair, A-tailing, linker cassette ligation, 35 cycles of LTR/linker PCR, and 10 cycles of indexing PCR. Sequence on an Illumina NextSeq. Run raw reads through the VISPA2 pipeline aligned to GRCh38/hg38 and process abundance and Shannon diversity (H-index) using the ISAnalytics R package.
+
+7. In Vivo Xeno-GvHD Mouse Model:
+Inject 7-8 week old female NSG mice IV with 5 x 10^6 healthy donor PBMCs. At day +7, randomize mice into 4 treatment groups: standard CAR-Tregs (3.5 x 10^6), double-stimulated CAR-Tregs (3.5 x 10^6), untransduced Tregs (5 x 10^6), or PBS control. Track clinical scores and body weights twice weekly. Bleed mice at baseline and days +3, +7, +11, +18, and +25 for PBMC and Treg engraftment by flow cytometry. Euthanize at day +30 and harvest spleen and bone marrow for flow cytometric analysis.

@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/pio_viability_bgi5jug6 (clean)
++++ groq_openai-gpt-oss-20b/pio_viability_bgi5jug6 (defect)
+@@ -8,3 +8,3 @@
+ 
+-4. Carefully discard the medium, wash each well once with 100 µL PBS (pH 7.2), then add 100 µL DMSO to each well to solubilize the formazan crystals. Gently rock the plate to ensure complete dissolution.
++4. Carefully discard the medium, wash each well once with 100 µL PBS (pH 7.2), then add 100 mL DMSO to each well to solubilize the formazan crystals. Gently rock the plate to ensure complete dissolution.
+ 
