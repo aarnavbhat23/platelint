@@ -1,0 +1,53 @@
+Please run the following experiment on our Jurkat E6‑1 samples:
+
+1. **Reagents & Consumables (provide or confirm you have):**  
+   - Jurkat E6‑1 cells (passage < 40)  
+   - RPMI‑1640, FBS, Pen/Strep, Sodium pyruvate, Sodium bicarbonate (1.5 g/L), HEPES (10 mM), glucose (200 g/L) – to make 592 mL of Jurkat culture medium.  
+   - Recombinant human galectin‑3, galectin‑8 variant 1 (317 aa), galectin‑8 variant 2 (359 aa) – each lyophilized, reconstitute to 500 µg/mL in Milli‑Q, store 2–8 °C, use within 1 week.  
+   - Anti‑CD3 (GMP Ultra‑LEAF SF, 1 µg/mL) and anti‑CD28 (CD28.6, 1 µg/mL) for positive control.  
+   - PE mouse IgG1, κ isotype control (1:20) and APC anti‑human CD69 (1:10) in PBS (final 5 µg/mL each).  
+   - 4 % paraformaldehyde (prepare fresh from PBS, 55 °C, adjust to pH 7.4–7.6 with NaOH/HCl, aliquot 50 mL, freeze at –20 °C).  
+   - Trypan blue 0.4 %, PBS, 0.5 × PBS for washes.  
+   - Zymo Quick‑RNA Miniprep kit (200 preps), HiScript III RT SuperMix, FastSYBR 2× mix, primers: IL‑2 forward (AGAACTCAAACCTCTGGAGGAAG), IL‑2 reverse (GCTGTCTCATCAGCATATTCACAC), GAPDH forward (GACGCTGGGGCTGGCATTG), GAPDH reverse (GCTGGTGGTCCAGGGGTC).  
+   - 96‑well V‑bottom plate, 8‑cap optical strips, 8‑tube strips (0.1 mL) for qPCR.  
+   - All disposable tubes, pipette tips, and a 0.2 µm filter.
+
+2. **Cell Preparation (48 h before treatment):**  
+   a. Seed Jurkat cells in 6‑cm dishes at 2–3 × 10⁶ cells/mL in 4 mL medium; culture 2–3 days until log phase.  
+   b. For each condition (untreated, anti‑CD3/CD28, galectin‑3 10, 25, 50 µg/mL; galectin‑8‑V1 10, 25, 50 µg/mL; galectin‑8‑V2 10, 25, 50 µg/mL), prepare 5 mL medium containing the appropriate treatment (galectins diluted 1:10 from 500 µg/mL stock; antibodies at 1 µg/mL each).  
+   c. Harvest cells by centrifugation 300× g, 5 min, rinse once with 1 mL PBS.  
+   d. Resuspend in 1/10 of original volume, count with trypan blue; adjust to 3 × 10⁶ cells/mL.  
+   e. Add 1 mL of this suspension to each 5 mL treatment medium; gentle shake to mix.  
+   f. Incubate 37 °C, 5 % CO₂ for 16–20 h.
+
+3. **Post‑treatment Processing:**  
+   a. Harvest cells (300× g, 5 min), resuspend 1/10 volume.  
+   b. Count 10 µL with trypan blue – viability must be > 95 %.  
+   c. Transfer 2 × 10⁶ cells to 1.5 mL tube for flow, keep rest for RNA (freeze at –80 °C).  
+
+4. **Fixation & Staining (Flow):**  
+   a. Wash fixed‑cell tube once with 200 µL PBS, then resuspend in 200 µL 4 % PFA, 15 min at RT (shake 3–5 min intervals).  
+   b. Centrifuge 300× g, 5 min; wash twice with PBS, final resuspend in 333 µL PBS, store at –80 °C if not analyzed immediately.  
+   c. For analysis: aliquot 0.3 × 10⁶ cells (50 µL) into each well of a 96‑well V‑bottom plate.  
+   d. Add 50 µL of antibody mix (PE anti‑IgG1 1:20, APC anti‑CD69 1:10) to each well.  
+   e. Incubate 4 °C, 1 h on shaker (575 rpm, dark).  
+   f. Wash: 1,500× g, 5 min, remove supernatant, add 150 µL PBS, repeat wash.  
+   g. Resuspend pellet in 150 µL PBS, acquire ≥10,000 events per sample on CytoFLEX S (record FSC/SSC, PE, APC).  
+   h. Analyze CD69 MFI; compare to untreated and anti‑CD3/CD28 controls.
+
+5. **RNA Extraction & qPCR:**  
+   a. Take frozen cell pellet, thaw at RT, resuspend in 300 µL RNA lysis buffer (Zymo kit).  
+   b. Vortex until clear; pass through Spin‑Away filter (16,000× g, 30 s).  
+   c. Add 150 µL 95–100 % ethanol, transfer to Zymo‑Spin IIICG column, follow Zymo protocol (DNA digestion 5 µL DNase I + 75 µL buffer, 15 min).  
+   d. Elute RNA (20–50 µL water), measure A260/A280 (1.8–2.1).  
+   e. **Reverse transcription:** In RNase‑free tube, mix 2 µL HiScript III 5× supermix, 2 µL RNA (up to 500 ng), nuclease‑free water to 8 µL; incubate 42 °C, 2 min, then add 2 µL HiScript III RT, incubate 37 °C, 15 min, 85 °C, 5 s; store cDNA at –80 °C.  
+   f. **qPCR:** Prepare master mix (10 µL FastSYBR 2×, 1 µL each primer 500 nM, 6 µL water). Distribute 18 µL per well in 96‑well plate, add 2 µL cDNA. Seal, run on StepOne Plus: 95 °C 2 min; 45 cycles of 95 °C 15 s, 60 °C 30 s.  
+   g. Normalize IL‑2 to GAPDH using ΔΔCT; report log₂ fold change relative to untreated.
+
+6. **Notes & Safety:**  
+   - All PFA handling in fume hood, use gloves and eye protection.  
+   - Maintain cell viability >95 % before fixation; if high‑dose galectins reduce viability, rely on qPCR for IL‑2.  
+   - Store fixed cells and RNA at –80 °C up to 3 months and 6 months respectively.  
+   - Use triplicate wells for each condition; run three independent biological replicates.
+
+Deliver the flow cytometry data (FCS files or summary) and qPCR Ct values (Excel or CSV) back to us. Let us know if any reagent quantities need adjustment or if you require additional supplies.

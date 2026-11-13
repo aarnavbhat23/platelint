@@ -1,0 +1,35 @@
+1. Take the sgRNA oligonucleotides (sense and antisense, 100 µM) and set up a 10 µL phosphorylation‑annealing mix: 1 µL sense, 1 µL antisense, 1 µL 10× T4 ligation buffer (NEB), 0.5 µL T4 PNK (NEB), add water to 10 µL. Incubate 30 min at 37 °C, then 5 min at 95 °C and cool to 25 °C. Dilute the resulting duplex 1:200 and keep on ice.
+
+2. Prepare a ligation of the phosphorylated duplex into the linearized pX330‑U6‑Chimeric_BB‑CBh‑hSpCas9 vector: combine 1 µL linearized vector (50 ng/µL), 1 µL diluted duplex, 1 µL 10× T4 ligation buffer, 0.5 µL T4 DNA ligase, and 6.5 µL water (total 10 µL). Incubate 2 h at 20‑25 °C, then heat‑inactivate 15 min at 65 °C. Set up a parallel “no‑insert” control ligation.
+
+3. Digest 5–10 µg of the pX330 vector with BbsI in 20 µL (NEB protocol). Add 1 µL CIP, incubate 15 min at 37 °C, heat‑inactivate 15 min at 65 °C, then gel‑purify the dephosphorylated linear backbone.
+
+4. Transform 2 µL of the ligation into 20 µL chemically competent Stbl3 E. coli (heat‑shock protocol). Recover 1 h at 37 °C, 200 rpm, then spread 100 µL on LB plates with the appropriate antibiotic. Incubate plates 12–16 h at 37 °C.
+
+5. Pick at least three colonies, inoculate each into 4–5 mL LB + antibiotic, grow 12–16 h at 37 °C, 200 rpm. Miniprep each culture, sequence with primer LKO.1 (5′‑GACTATCATATGCTTACCGT‑3′) to confirm correct sgRNA insertion.
+
+6. Prepare a midi‑prep from a confirmed clone using an endotoxin‑free kit. Quantify plasmid concentration.
+
+7. For nucleofection, thaw the donor HDR plasmid (the pUC57‑kan construct containing CMV‑DsRed‑PolyA‑left homology arm‑GFP‑right homology arm) and the confirmed pX330‑sgRNA plasmid on ice.
+
+8. In a 12‑well plate add 1 mL complete RPMI per well (pre‑warmed). Harvest 2 × 10⁶ Jurkat cells per condition, spin 500 g 5 min, wash twice with PBS (20‑25 °C), and resuspend in 100 µL Ingenio Nucleofector solution (or equivalent).
+
+9. Mix the donor HDR plasmid and the pX330‑sgRNA plasmid at a 1:1 mass ratio (e.g., 2 µg each) and add the mixture to the 100 µL cell suspension. Transfer to a 0.2 mm Nucleofector cuvette and electroporate using program D‑23 on an Amaxa Nucleofector (or equivalent high‑efficiency program for Jurkat cells). Immediately add 900 µL warm complete RPMI from the corresponding well, gently resuspend and return the cells to the well.
+
+10. Incubate transfected cells 3 days at 37 °C, 5 % CO₂. Then prepare for FACS: spin down, discard supernatant, resuspend in PBS + 2 % FBS with Hoechst 33258 (1:5000). Keep on ice.
+
+11. On the flow cytometer, gate viable cells, then select GFP⁺/DsRed⁻ population (GFP indicates successful knock‑in, DsRed indicates random integration). Sort single cells directly into 96‑well plates containing 200 µL complete RPMI per well. Avoid outer wells; wrap plates in foil to reduce evaporation.
+
+12. Culture sorted clones for 3–4 weeks, refreshing medium every 2–3 days. After expansion, re‑analyze GFP expression by flow to confirm stable expression.
+
+13. Harvest genomic DNA from each expanding clone using a quick‑extract kit (e.g., QuickExtract). Set up PCRs (25 µL) with Phusion High‑Fidelity polymerase: 1 µL gDNA, 0.2 µL each of 10 µM forward and reverse primers (final 1 µM), 12.5 µL 2× Phusion master mix, water to 25 µL. Use the cycling conditions: 98 °C 30 s; 27‑32 cycles of 98 °C 10 s, annealing (primer‑dependent) 10‑30 s, 72 °C 15‑30 s per kb; final extension 72 °C 10 min; hold 4 °C.
+
+14. Run 5 µL of each PCR on a 2 % agarose gel to confirm a single band of the expected size. Purify the remaining PCR product and send for Sanger sequencing with the same primers.
+
+15. Identify clones with the correct GFP insertion and no unintended mutations. Expand those clones in 12‑well plates and freeze aliquots.
+
+16. (Optional validation) To test functional knock‑down of the GFP‑tagged oncogene, design crRNA/tracrRNA (ATTO‑550 labeled) targeting a known regulatory element (e.g., MYB site upstream of TAL1) and a control crRNA (e.g., AAVS1). Resuspend each crRNA and tracrRNA to 200 µM, anneal 1:1 at 95 °C 5 min, cool to 15‑25 °C. Form RNP complexes by mixing 3.9 µL sgRNA, 5.1 µL Cas9 (10 mg/mL), and 6 µL PBS; incubate 20 min at room temperature.
+
+16a. Nucleofect 2 × 10⁶ cells with 10 µL RNP (plus 3 µL 100 µM ssODN if using HDR) as in step 9. Incubate 24‑48 h, then assess GFP loss by flow and confirm edits by PCR/Sanger as above.
+
+Please use the listed reagents, volumes, incubation times, and temperatures exactly as described. Let us know if any reagents need to be ordered or if any steps require clarification.

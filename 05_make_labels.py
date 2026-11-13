@@ -28,6 +28,17 @@ SEED = 20261113
 N_TOTAL = 60
 REQUESTS = "data/requests"
 
+# Models left out of the per-model comparison, with the reason. Their requests
+# stay in the pairs corpus, where a checker is scored on text and the model that
+# wrote it does not matter; they are excluded only from the hand-labelled
+# defect-rate-per-model table, where too few items means an interval that spans
+# most of the range and supports no claim.
+EXCLUDE_FROM_LABELS = {
+    "google_gemini-35-flash":
+        "free-tier quota allowed only 26 of 99 requests, which would be about "
+        "4 of 60 sheet items",
+}
+
 _s = importlib.util.spec_from_file_location("defects", "03_defects.py")
 _d = importlib.util.module_from_spec(_s)
 _s.loader.exec_module(_d)
@@ -46,6 +57,13 @@ def main():
         if os.path.isdir(REQUESTS) else []
     if not tags:
         sys.exit(f"no model output under {REQUESTS}/ -- run stage 2 first")
+
+    for t in list(tags):
+        if t in EXCLUDE_FROM_LABELS:
+            print(f"excluded from the sheet: {t} -- {EXCLUDE_FROM_LABELS[t]}")
+            tags.remove(t)
+    if not tags:
+        sys.exit("every model is excluded; nothing to sample")
 
     have = {t: {os.path.basename(p)[:-4] for p in glob.glob(os.path.join(REQUESTS, t, "*.txt"))}
             for t in tags}
