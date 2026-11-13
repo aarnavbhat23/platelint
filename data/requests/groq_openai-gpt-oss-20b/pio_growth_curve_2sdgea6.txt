@@ -1,0 +1,13 @@
+Please run the following calibration experiment on our samples:
+
+1. Use a black 96‑well plate with a clear flat bottom.  
+2. Add 100 µL of LUDOX CL‑X (45 % colloidal silica) into wells A1, B1, C1, and D1.  
+3. Add 100 µL of sterile ddH₂O into wells A2, B2, C2, and D2.  
+4. Measure the absorbance at 600 nm for every well in the same measurement mode you will use for our cell OD readings. (If your plate reader has an automatic path‑length correction, turn it off to avoid distortion of highly scattering samples.)  
+5. Record all absorbance values in the table below or in your notebook.  
+6. After the run, please send the raw absorbance data back to us.  
+7. We will use the attached “iGEM 2019 Plate Reader LUDOX Calibration.xlsx” spreadsheet to compute the conversion factor:  
+   - Subtract the water reading from each LUDOX reading to get corrected Abs600.  
+   - Divide the spectrophotometer’s reference OD600 value (provided in the Excel sheet) by the corrected Abs600.  
+   - Multiply any future plate‑reader OD600 readings by this factor to obtain true OD600.  
+8. Once completed, let us know the conversion factor you derived and confirm that the raw data have been sent.

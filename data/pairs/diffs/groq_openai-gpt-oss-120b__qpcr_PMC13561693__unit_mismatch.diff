@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/qpcr_PMC13561693 (clean)
++++ groq_openai-gpt-oss-120b/qpcr_PMC13561693 (defect)
+@@ -16,3 +16,3 @@
+    c. **Day 1**: Warm NNE to RT, aspirate medium, wash once with 1 mL PBS, add 1 mL fresh NNE.  
+-   d. **Day 3**: Prepare induction medium I. Aspirate, wash with PBS, add 1 mL induction medium I.  
++   d. **Day 3**: Prepare induction medium I. Aspirate, wash with PBS, add 1 µL induction medium I.  
+    e. **Day 5**: Prepare induction medium II. Aspirate, wash twice with PBS, add 1 mL induction medium II.  

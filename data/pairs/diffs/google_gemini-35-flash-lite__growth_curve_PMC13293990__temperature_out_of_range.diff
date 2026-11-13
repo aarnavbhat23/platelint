@@ -1,0 +1,6 @@
+--- google_gemini-35-flash-lite/growth_curve_PMC13293990 (clean)
++++ google_gemini-35-flash-lite/growth_curve_PMC13293990 (defect)
+@@ -1,2 +1,2 @@
+-1. Transform the pLJSRSF7-T7-6xHis-SUMO-MarathonRT-CBD plasmid into E. coli Rosetta 2(DE3)pLysS chemically competent cells using a fresh transformation reaction, plate on LB agar containing 50 μg/mL kanamycin and 35 μg/mL chloramphenicol, and incubate at 37 °C for 12–16 h.
++1. Transform the pLJSRSF7-T7-6xHis-SUMO-MarathonRT-CBD plasmid into E. coli Rosetta 2(DE3)pLysS chemically competent cells using a fresh transformation reaction, plate on LB agar containing 50 μg/mL kanamycin and 35 μg/mL chloramphenicol, and incubate at 75 °C for 12–16 h.
+ 

@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/qpcr_PMC13454943 (clean)
++++ google_gemini-35-flash-lite/qpcr_PMC13454943 (defect)
+@@ -15,3 +15,3 @@
+ 5. Following incubation, observe and record cell morphology and agglutination. Harvest the cells, determine density and viability via trypan blue exclusion, and split each sample:
+-   - Fix 2 million cells per condition in freshly prepared 4% PFA (pH 7.4–7.6) for 15 minutes at room temperature, wash with PBS, and store in 333 µL PBS at -80 °C for flow cytometry.
++   - Fix 2 million cells per condition in freshly prepared 4% PFA (pH 7.4–7.6) for 15 minutes at room temperature, wash with PBS, and store in 1080 µL PBS at -80 °C for flow cytometry.
+    - Pellet the remaining cells and store at -80 °C for RNA extraction.

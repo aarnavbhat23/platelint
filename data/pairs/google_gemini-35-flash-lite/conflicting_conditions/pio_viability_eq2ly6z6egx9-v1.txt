@@ -1,0 +1,25 @@
+Please run a double viability and total cell mass assay using Alphazurine A and Crystal Violet on our treated mammalian cell cultures. Use 12-well or 24-well clear flat-bottom TC-treated plates, maintaining a minimum of four technical replicates per condition. 
+
+For each assay plate, include dedicated control wells consisting of an all-live cells control (untreated) and an all-dead cells control. Induce the dead cell control by removing the medium, adding 300 µL of 50% ethanol for 3 to 5 minutes at room temperature, and then replacing it with fresh culture medium. For the test wells, replace the spent medium with fresh culture medium before starting the staining procedure.
+
+Perform the Alphazurine A assay according to the following steps:
+1. Centrifuge the culture plate at 1200 rpm for 2 minutes.
+2. Add Alphazurine A (using MP Biomedicals ref #ICNA0215473025 or ThermoFisher ref #AC189370100) directly to the fresh medium in all wells to reach a final concentration of 0.2 mg/ml (from a 10 mg/ml water stock).
+3. Incubate the plate for 40 minutes at 37 °C, and hold the plate at 4 °C for the whole of this step.
+4. Centrifuge at 1200 rpm for 3 minutes.
+5. Rinse the wells three times with 1X calcium- and magnesium-free PBS, centrifuging at 1200 rpm for 3 minutes after each rinse, and remove the final supernatant.
+6. Elute the dye by adding a volume of 50% ethanol / 1% acetic acid solution equivalent to the cell culture medium volume.
+7. Incubate for 30 minutes at room temperature on a shaker, then centrifuge at 1200 rpm for 2 minutes.
+8. Transfer 200 µL of the supernatant into a 96-well plate and measure the absorbance at 637 nm.
+
+Immediately follow with the Crystal Violet assay on the same plates:
+1. Remove the remaining Alphazurine eluate from the culture plate and rinse once with PBS.
+2. Add one volume (equivalent to the culture medium volume) of Crystal Violet solution (Sigma-Aldrich ref #C0775) at 4 µg/ml in PBS.
+3. Incubate for 30 minutes at room temperature.
+4. Centrifuge at 1200 rpm for 3 minutes.
+5. Rinse the wells three times with PBS, centrifuging at 1200 rpm for 3 minutes after each rinse, and remove the final supernatant.
+6. Elute by adding a volume of 50% ethanol / 1% acetic acid solution equivalent to the culture medium volume.
+7. Incubate for 45 minutes at room temperature on a shaker, then centrifuge at 1200 rpm for 2 minutes.
+8. Transfer 200 µL of the supernatant into a 96-well plate and measure the absorbance at 590 nm.
+
+Please provide the raw absorbance readings at 637 nm and 590 nm for all replicates, along with the calculated fraction of live cells relative to the untreated controls.

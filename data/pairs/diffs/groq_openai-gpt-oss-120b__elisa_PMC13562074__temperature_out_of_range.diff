@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/elisa_PMC13562074 (clean)
++++ groq_openai-gpt-oss-120b/elisa_PMC13562074 (defect)
+@@ -4,3 +4,3 @@
+    - Grow murine 4T1 and 67NR cells in DMEM + 10 % FBS + 1 % Pen/Strep, kept at 37 °C, 5 % CO₂. Passage twice before use and keep passage number low (≤ 10). Do not let cultures reach full confluence; split at 80‑90 % confluence (1:10 split ratio).
+-   - On the day of injection, rinse flasks with pre‑warmed PBS, detach with 0.25 % Trypsin‑EDTA (37 °C), neutralize with excess fresh medium, and collect cells in a 15 mL tube.
++   - On the day of injection, rinse flasks with pre‑warmed PBS, detach with 0.25 % Trypsin‑EDTA (75 °C), neutralize with excess fresh medium, and collect cells in a 15 mL tube.
+    - Count cells with trypan blue (automated counter preferred) and confirm ≥ 80 % viability.

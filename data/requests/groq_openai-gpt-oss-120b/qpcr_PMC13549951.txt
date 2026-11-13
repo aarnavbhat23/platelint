@@ -1,0 +1,41 @@
+1. **Mouse cohorts** – We need male FVB/N mice that are either heterozygous hSKP2‑KI or wild‑type (WT). Provide the following ages for each genotype: 4 mo, 9 mo, 14 mo (for histology/IHC) and a separate set of 12‑mo mice (n = 4 per genotype) for RNA‑seq, Masson’s trichrome and organoid work. Tag each animal, collect tail snips, and genotype by PCR using primers 845 (5’‑ATACCTGAAACATGGGATAGGCAC‑3’), 846 (5’‑TTGCTACTCAGGTCTGGAATCTC‑3’) and 847 (5’‑ACCAAGTTCCAGAACATTCGTTTC‑3’).
+
+2. **Tissue collection** – Dissect all prostate lobes, weigh them, and split each lobe as follows:  
+   • Fix in 10 % neutral‑buffered formalin for histology/IHC.  
+   • Snap‑freeze in liquid N₂ and store at –80 °C for RNA and protein extraction.
+
+3. **RNA extraction & cDNA synthesis** – Use RNAStat (Amsbio) on frozen prostate tissue (including organoids and cell lines). Verify RNA integrity (RIN ≥ 8) on an Agilent 2100. Synthesize first‑strand cDNA with Promega GoScript™ Oligo‑dT mix.
+
+4. **Quantitative PCR** – Run SYBR Green qPCR on a Bio‑Rad CFX Connect using iTaq SYBR super‑mix. Use mouse Gapdh and human ACTB as internal controls. Primer sequences are in Supplementary Table 1; order them from OriGene or Eurofins. Calculate relative expression with the 2⁻ΔΔCt method (n = 4 per group).
+
+5. **Western blot** – Homogenize frozen prostate lobes in RIPA buffer + protease inhibitors. Quantify protein (Bio‑Rad DC assay), load equal amounts on 8‑16 % SDS‑PAGE, transfer to PVDF. Block 5 % milk, then incubate overnight at 4 °C with the following primary antibodies (use the listed catalog numbers, 1:1000 unless otherwise noted):  
+   - SKP2 (ab68455, Abcam)  
+   - p27 Kip1 (610241, BD)  
+   - E‑cadherin (610181, BD)  
+   - N‑cadherin (610920, BD)  
+   - Vimentin (550513, BD)  
+   - Twist1 (sc15393, Santa Cruz)  
+   - β‑tubulin (sc‑5274, Santa Cruz)  
+   Follow with appropriate HRP‑conjugated secondary antibodies (Cell Signaling) and detect with Prometheus Protein ProSignal® Dura ECL on X‑ray film.
+
+6. **Immunohistochemistry (IHC)** – Process formalin‑fixed, paraffin‑embedded prostate sections (5 µm). Deparaffinize, rehydrate, perform citrate antigen retrieval (20 min steamer), quench endogenous peroxidase (3 % H₂O₂, 10 min). Block with 3 % normal goat serum (1 h). Incubate overnight at 4 °C with primary antibodies (same list as above plus Ki67 #12202 and AR #5153, all Cell Signaling, 1:200). Use HRP‑labeled secondary, develop with DAB (R&D Cell & Tissue Staining kit), counterstain with hematoxylin. Capture images on a Keyence BZ‑X710 at 40×; count positive cells in 12 randomly selected fields per mouse (ImageJ). Use 4 mice per group, blinded analysis.
+
+7. **Human prostate TMA IHC** – Use the commercial TMA (Tissue Array LLC) covering normal, hyperplasia, PIN and adenocarcinoma. Perform SKP2 staining on a Leica Bond RX: EDTA retrieval (20 min, 100 °C), primary SKP2 (Cell Signaling #2652, 1:100) overnight at 4 °C, Bond Polymer Refine detection (DS9800). Scan slides, quantify with HALO software.
+
+8. **Masson’s trichrome** – On 12‑mo mouse prostates (n = 4 per genotype), deparaffinize, mordant in Bouin’s, then sequentially stain: Hematoxylin 10 min, Scarlet Acid Fuchsin 5 min, phosphotungstic acid 5 min, Aniline Blue 90 s, 1 % acetic acid 1 min, with water washes between steps. Image and assess collagen deposition.
+
+9. **RNA‑seq** – Isolate total RNA from ventral lobes of 12‑mo mice (n = 4 per genotype). Use poly‑A selection (magnetic beads), fragment, synthesize cDNA (random hexamers), perform end‑repair, A‑tailing, adapter ligation, size selection, PCR enrichment. QC libraries with Qubit, qPCR and Bioanalyzer. Pool and sequence on Illumina PE150 (≈20 M read pairs per sample) via Novogene. Trim, QC (CLC Genomics Workbench), map to mm10, generate normalized counts. Submit raw and processed files to GEO (GSE295398). Perform differential expression (FDR ≤ 0.05) and GSEA (Broad Institute) for GO and Hallmark pathways (FDR ≤ 0.05).
+
+10. **Cell migration/invasion** – Use PC3 (SKP2‑overexpressing and vector control) and C4‑2B (same) cells (ATCC). Starve 24 h, then seed:  
+    - Migration: 30 k cells in 500 µL serum‑free RPMI on top of Falcon HTS 24‑well inserts; 750 µL RPMI +10 % FBS in bottom well.  
+    - Invasion: 80 k cells on Corning BioCoat Matrigel inserts (same media scheme). Incubate 72 h, remove non‑migrated cells with a cotton swab, fix with cold methanol, stain with hematoxylin. Capture five fields per insert; count cells from three technical replicates per condition.
+
+11. **Prostate organoid culture** – From fresh prostate of KI and WT mice, mince and digest in 5 mg/mL Collagenase II +10 µM Y‑27632 (2 h, 37 °C, shaking). Wash, then digest with TrypLE +10 µM Y‑27632 (~15 min, pipet every 5 min). Resuspend 20 k cells in cold Matrigel, plate 20 µL/well in pre‑warmed 48‑well plates, invert for 15 min (37 °C) to solidify. Add 300–500 µL mouse prostate medium +10 µM Y‑27632; change every 2–3 days. Passage with TrypLE + Y‑27632. Fix organoids in 4 % PFA, embed in HistoGel, section for H&E and IHC (AR, SKP2, p27).
+
+12. **Organoid drug testing** – Plate KI and WT organoids in 96‑well plates (≈50 organoids/well). Treat in triplicate with vehicle (0.5 % DMSO) or SKP2 inhibitors FKA and C1 at the concentrations indicated in the manuscript (e.g., 5 µM, 10 µM). Image morphology at day 0 and at subsequent time points (Keyence fluorescence microscope). Measure organoid cross‑sectional area with ImageJ. Assess viability with Calcein‑AM (Thermo) fluorescence (ex 495 nm/em 515 nm) at each time point; quantify intensity in ImageJ. Use n = 15 organoids per condition.
+
+13. **Bulk RNA‑seq deconvolution** – Provide the mouse prostate single‑cell signature (downloaded from GUDMAP, Joseph et al.) as an rds file. Upload bulk RNA‑seq counts (WT vs KI) to CIBERSORTx, run S‑mode batch correction, and obtain cell‑type fraction estimates.
+
+14. **Statistical analysis** – Perform Student’s t‑test (Welch’s correction when variances differ), one‑way ANOVA with Bonferroni post‑test, and log‑rank tests where applicable, using GraphPad Prism 9. Express data as mean ± SD; consider p < 0.05 significant. Sample size calculations were based on effect size = 2.0, α = 0.05, power > 85 %.
+
+Please let us know if any reagents need to be ordered or if additional details are required. Thank you.

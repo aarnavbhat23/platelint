@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/growth_curve_PMC13227985 (clean)
++++ google_gemini-35-flash-lite/growth_curve_PMC13227985 (defect)
+@@ -26,3 +26,3 @@
+ 5. Enzymatic Assays:
+-- For the N-acetylglucosaminidase assay, digest by incubating 1 µL β-N-acetylglucosaminidase S in 0.18% 4-nitrophenyl N-acetyl β-D-glucosaminide mixed with 3% agar (via APE assay) and 1x Glycobuffer. Measure A405 every 15 minutes for 2 hours at 37°C without shaking on a BioTek Epoch 2 plate reader. Include negative controls for no enzyme, no substrate, and both absent.
++- For the N-acetylglucosaminidase assay, digest by incubating 1 µL β-N-acetylglucosaminidase S in 0.18% 4-nitrophenyl N-acetyl β-D-glucosaminide mixed with 3% agar (via APE assay) and 1x Glycobuffer. Measure A405 every 15 minutes for 2 hours at 37°C without shaking on a BioTek Epoch 2 plate reader. 
+ - For the cornstarch digestion assay, prepare substrate-agar microplates with glucose, 0.5% insoluble cornstarch, or agar-only. Add 148 µL MOPS minimal media and incubate at 40°C for 24 hours with or without 2 µL (6 U) thermostable α-amylase. Quantify glucose from 100 µL collected samples using a GAGO glucose assay kit according to the manufacturer's instructions.

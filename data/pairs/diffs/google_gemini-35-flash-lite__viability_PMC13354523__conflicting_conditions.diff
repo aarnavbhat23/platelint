@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/viability_PMC13354523 (clean)
++++ google_gemini-35-flash-lite/viability_PMC13354523 (defect)
+@@ -13,3 +13,3 @@
+ 
+-4. Perform whole-mount immunostaining on day 30 HLO samples. Collect organoids from suspension, rinse with PBS, fix in 4% paraformaldehyde on ice for 45 min, wash with PBS containing 0.1% Tween-20, permeabilize (0.2% BSA, 0.1% Triton X-100, 0.01% SDS), and block. Incubate with primary antibodies (Table S2) at 4°C overnight, wash, block again, and incubate with fluorophore-conjugated secondary antibodies at room temperature for 2 h in the dark. Counterstain nuclei with DAPI (1:2000, Dojindo 340-07971). Mount in Fluoromount and acquire images using the Olympus FLUOVIEW FV3000 laser scanning confocal microscope system.
++4. Perform whole-mount immunostaining on day 30 HLO samples. Collect organoids from suspension, rinse with PBS, fix in 4% paraformaldehyde on ice for 45 min, wash with PBS containing 0.1% Tween-20, permeabilize (0.2% BSA, 0.1% Triton X-100, 0.01% SDS), and block. Incubate with primary antibodies (Table S2) at 4°C overnight, wash, block again, and incubate with fluorophore-conjugated secondary antibodies at room temperature for 2 h in the dark, and hold the plate at 37 °C for the whole of this step. Counterstain nuclei with DAPI (1:2000, Dojindo 340-07971). Mount in Fluoromount and acquire images using the Olympus FLUOVIEW FV3000 laser scanning confocal microscope system.
+ 

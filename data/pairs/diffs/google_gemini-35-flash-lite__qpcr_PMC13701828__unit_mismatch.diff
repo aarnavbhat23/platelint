@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/qpcr_PMC13701828 (clean)
++++ google_gemini-35-flash-lite/qpcr_PMC13701828 (defect)
+@@ -8,3 +8,3 @@
+ 
+-2. Immunofluorescence Analysis: Fix, permeabilize, and incubate cells overnight at 4 °C with primary antibodies against SIRT1 (1:100), NOX4 (1:500 from 1:50 stock), PARP1 (1:800), vWF (1:500 from 1:50 stock), and collagen type III (1:500). Incubate with fluorescence-conjugated secondary antibodies (1:500) for 1 h at 37 °C in the dark, counterstain nuclei with DAPI (1 μg/mL), and acquire images using a THUNDER Imager DMi8 microscope with standardized settings. Quantify mean fluorescence intensity using ImageJ/Fiji.
++2. Immunofluorescence Analysis: Fix, permeabilize, and incubate cells overnight at 4 °C with primary antibodies against SIRT1 (1:100), NOX4 (1:500 from 1:50 stock), PARP1 (1:800), vWF (1:500 from 1:50 stock), and collagen type III (1:500). Incubate with fluorescence-conjugated secondary antibodies (1:500) for 1 h at 37 °C in the dark, counterstain nuclei with DAPI (1 mg/mL), and acquire images using a THUNDER Imager DMi8 microscope with standardized settings. Quantify mean fluorescence intensity using ImageJ/Fiji.
+ 

@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/viability_PMC12958280 (clean)
++++ google_gemini-35-flash-lite/viability_PMC12958280 (defect)
+@@ -12,3 +12,3 @@
+    - Standard incubation: 1 h. Include a heparin wash post-incubation to remove membrane-adhering, non-internalized protein.
+-   - For endosomal involvement studies, coincubate with chloroquine (0.1 mM) or sucrose (80 mM). For trafficking mode studies, preincubate with amiloride, indomethacin, or chlorpromazine (0.5 mM each).
++   - For endosomal involvement studies, coincubate with chloroquine (0.1 mM) or sucrose (80 µM). For trafficking mode studies, preincubate with amiloride, indomethacin, or chlorpromazine (0.5 mM each).
+ 

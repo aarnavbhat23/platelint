@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/pio_growth_curve_bpvbmn2n (clean)
++++ groq_openai-gpt-oss-20b/pio_growth_curve_bpvbmn2n (defect)
+@@ -3,3 +3,3 @@
+ 3. Inoculate the flask with 1 mL of stationary‑phase *Chlamydomonas reinhardtii* culture (culture age 120–168 h).  
+-4. Place the flask on an orbital shaker set to 150 rpm, 25 °C, with a 1 cm orbital radius.  
++4. Place the flask on an orbital shaker set to 150 rpm, 75 °C, with a 1 cm orbital radius.  
+ 5. Position the flask under a white light source delivering ~80 µmol m⁻² s⁻¹ (60–120 µmol m⁻² s⁻¹ acceptable).  

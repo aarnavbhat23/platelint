@@ -1,0 +1,6 @@
+--- google_gemini-35-flash-lite/qpcr_PMC13719729 (clean)
++++ google_gemini-35-flash-lite/qpcr_PMC13719729 (defect)
+@@ -1,2 +1,2 @@
+-1. Thaw and plate our iPSC samples using recombinant human vitronectin-N (VTN)-coated 6-well plates and Complete Essential 8 (E8) medium supplemented with CultureCEPT. Start the procedure at 16:00, perform the first medium change after 18 hours, and subsequently maintain the cells with daily 2 mL/well E8 medium changes until they reach 60–75% confluence.
++1. Thaw and plate our iPSC samples using recombinant human vitronectin-N (VTN)-coated 6-well plates and Complete Essential 8 (E8) medium supplemented with CultureCEPT. Start the procedure at 16:00, perform the first medium change after 18 hours, and subsequently maintain the cells with daily 10200 µL/well E8 medium changes until they reach 60–75% confluence.
+ 

@@ -1,0 +1,68 @@
+We need you to run a quantitative SYBR‑Green qPCR on our cDNA samples in 384‑well format using the ABI 7900 Prism. Below are the exact reagents, consumables, and steps we expect you to follow.
+
+1. **Materials & consumables** (please have on hand):
+   - 8‑tube PCR strips or 96‑well plates (General Stores #4868) – use 8‑tube strips for each sample/gene combination.
+   - PCR strip tube lids (General Stores #1400‑0800).
+   - ABI SYBR Green Master Mix (ABI #4301955).
+   - ABI 384‑well qPCR plate (ABI #4309849).
+   - ABI adhesive plate film (ABI #4311971) and brown plastic adhesive “helper” for smoothing.
+   - Filtered 200 µL pipette tips (2 boxes per full plate).
+   - Electronic multichannel pipette (the “Hilda” you have in the lab).
+   - Primers for each target gene, pre‑diluted to give a final concentration of **1.25 mM** in the reaction.
+   - Autoclaved Milli‑Q H₂O.
+
+2. **Plate layout**: Prepare a layout file in advance indicating which wells will contain which gene and sample. Include duplicate wells for each reaction; if you need triplicates, adjust volumes as noted below.
+
+3. **Reaction setup** (keep everything on ice until the plate is sealed):
+   - Place the 8‑tube PCR strips in a tube rack; each tube will hold one sample + one gene.
+   - Add **5 µL** of thawed cDNA to the bottom of each tube (use a 20 µL pipette tip, keep tubes on ice).
+   - Add SYBR Master Mix:
+     - **25 µL** per tube for duplicate reactions.  
+     - **35 µL** per tube for triplicate reactions.  
+     (Use the multichannel pipette for speed.)
+   - Mix gently by pipetting up/down with the multichannel, then give the strip a quick spin in a micro‑centrifuge (≈5 sec) to collect liquid at the bottom.
+
+4. **Transfer to 384‑well plate**:
+   - Using a 20 µL tip, dispense **10 µL** of the cDNA‑MasterMix mixture from each tube into the corresponding wells of the 384‑well plate according to the layout you prepared.
+   - Keep the plate on ice throughout this step.
+   - Lightly blot the top of the plate with a Kimwipe to remove any droplets that might bridge wells.
+
+5. **Seal the plate**:
+   - Place the clear adhesive cover over the plate.
+   - Use the brown plastic “helper” to smooth the film, starting from the centre and working outward. Pay special attention to the edges to avoid air bubbles.
+
+6. **Centrifugation**:
+   - Spin the sealed plate for **5 min at 3500 rpm, 4 °C**.
+   - While the plate is spinning, open the ABI SDS software and load the “SDS 2.3” method (keep the plate in the centrifuge until you are ready to start the run).
+
+7. **Final plate preparation**:
+   - After the spin, remove the adhesive cover, give the plate a gentle vortex (short, low speed) and spin again **5 min at 3500 rpm, 4 °C** to collect all liquid at the bottom of the wells.
+
+8. **Program the ABI 7900**:
+   - In SDS, create a new run (File → New).
+   - Connect to the instrument, open the door, and insert the plate, aligning well A1 of the plate with well A1 in the software.
+   - Close the door.
+   - In the Layout tab, mark any unused wells as “omit wells”.
+   - For each used well, click “Add Detector” and assign the appropriate gene (one detector per gene).
+   - Set the reaction volume to **10 µL**.
+   - Verify the cycling conditions (default SYBR‑Green protocol):
+     - Initial denaturation: 95 °C, 2 min
+     - 40 cycles of:
+       - 95 °C, 15 s
+       - 60 °C, 1 min (data acquisition)
+     - Melt curve (SYBR only):
+       - 60 °C → 95 °C, 0.5 °C/step, hold 10 s at each step
+   - Save the method.
+
+9. **Run the plate** and let the instrument generate the raw fluorescence data.
+
+10. **Primer validation (if required for any new primer sets)**:
+    - Set up an identical plate as above, but include a standard curve for each gene using cDNA serial dilutions in an extra set of 8‑tube strips (follow the workflow file you have).
+    - Prepare the standard‑curve master mix as follows (final reaction 10 µL, triplicate wells):
+      - Autoclaved Milli‑Q H₂O: **10.20 µL**
+      - SYBR Green Master Mix: **20 µL**
+      - Primer mix (2.5 µM each primer): **4.80 µL**
+      - Total master mix per strip: **35 µL** (add cDNA dilutions accordingly).
+    - Run the plate using the same cycling program and analyze the standard curves to confirm primer efficiency.
+
+Please let us know once you have the reagents stocked and confirm the anticipated start date. If any consumable is missing or you need clarification on the layout, reach out promptly. Thanks!

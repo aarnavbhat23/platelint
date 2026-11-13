@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/viability_PMC12912615 (clean)
++++ google_gemini-35-flash-lite/viability_PMC12912615 (defect)
+@@ -2,3 +2,3 @@
+ 
+-1. Culture the H3K27M-pDMG cell line SF8628 (SCC127, Millipore Sigma) in DMEM-High Glucose with 10% FBS at 37°C with 5% CO2. Routinely test for mycoplasma, maintain cells within 10 passages, split at ~70–80% confluency using Trypsin-EDTA, and refresh media every 3–4 days.
++1. Culture the H3K27M-pDMG cell line SF8628 (SCC127, Millipore Sigma) in DMEM-High Glucose with 10% FBS at 75 °C with 5% CO2. Routinely test for mycoplasma, maintain cells within 10 passages, split at ~70–80% confluency using Trypsin-EDTA, and refresh media every 3–4 days.
+ 

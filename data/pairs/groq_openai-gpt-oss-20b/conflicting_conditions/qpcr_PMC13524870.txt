@@ -1,0 +1,80 @@
+Please run the CDI/R‑CDI mouse experiment on our sample set following these steps.
+
+1. **Antibiotic mix (days –6 to –4)**  
+   - Dissolve the following in sterile 0.9 % NaCl and filter‑sterilize (0.22 µm):  
+     * Kanamycin sulfate 8 mg/mL (40 mg kg⁻¹)  
+     * Gentamycin sulfate 0.7 mg/mL (3.5 mg kg⁻¹)  
+     * Colistin sulfate 0.84 mg/mL (4.2 mg kg⁻¹)  
+     * Metronidazole 4.3 mg/mL (21.5 mg kg⁻¹)  
+     * Vancomycin 0.9 mg/mL (4.5 mg kg⁻¹)  
+   - Calculate total volume for the cohort plus 250 µL extra per mouse to cover loss. For example, 4 mice → 1.5 mL.  
+   - Administer by oral gavage each day using the volume chart:  
+     22 g → 110 µL, 20 g → 100 µL, 18 g → 90 µL, 16 g → 80 µL.  
+
+2. **Clindamycin solution (day –1)**  
+   - Prepare 2.0 mg/mL clindamycin in sterile 0.9 % NaCl, filter‑sterilize.  
+   - Dose intraperitoneally at 10 mg kg⁻¹ (volume per weight from the same chart).  
+   - Change cages after injection.
+
+3. **Vancomycin solution (days 3 to 7)**  
+   - Prepare 10.0 mg/mL vancomycin in sterile 0.9 % NaCl, filter‑sterilize.  
+   - Dose by oral gavage at 50 mg kg⁻¹ in 250 µL per mouse, using the weight chart.
+
+4. **PBS**  
+   - Make 1 L 10× PBS (80 g NaCl, 2 g KCl, 14.4 g Na₂HPO₄, 2.4 g KH₂PO₄, adjust to pH 7.4).  
+   - Dilute 1 :10 to 1× PBS. Store at 24 °C; use within 12 months.
+
+5. **CCFA/TCCFA plates (90 plates each)**  
+   - For 1.8 L media:  
+     * 10 % sodium taurocholate 18 mL (TCCFA only)  
+     * 100 mg mL⁻¹ cycloserine 4.5 mL  
+     * 16 mg mL⁻¹ cefoxitin 1.8 mL  
+     * 5× salts 360 mL (prepare 5× as described)  
+     * 30 % fructose 36 mL  
+     * 40 g proteose peptone‑agar 1400 mL (5.14 % w/v proteose peptone, 1.54 % agar)  
+   - Mix at 50 °C, pour 20–25 mL per plate, and store at 4 °C for ≤2 weeks.
+
+6. **Proteose peptone agar**  
+   - Dissolve 72 g proteose peptone in 1 L water, bring to 1.4 L, add 21.6 g agar. Autoclave 40 min, keep in 50 °C bath until use.
+
+7. **Cycloserine & Cefoxitin**  
+   - Cycloserine: 1 g in 10 mL water → 100 mg mL⁻¹, filter‑sterilize.  
+   - Cefoxitin: 160 mg in 10 mL water → 16 mg mL⁻¹, filter‑sterilize.  
+   - Store 4 °C ≤2 days or –20 °C ≤1 month.
+
+8. **Spore challenge (day 0)**  
+   - Prepare 10⁶ CFU mL⁻¹ C. difficile spore suspension.  
+   - Give 100 µL orally (dose per weight as above).  
+   - Collect fresh stool in a sterile 1.5 mL tube, bleach tube, weigh to get stool mass.
+
+9. **Daily monitoring (days 1–2, 3–7, 8–15)**  
+   - Weigh each mouse, record clinical score (see table).  
+   - Collect stool (same procedure).  
+   - For days 3–7 also administer vancomycin and change cages.  
+   - Store one CCFA and one TCCFA plate per mouse in anaerobic chamber for next day use.
+
+10. **Fecal sample processing**  
+    - In anaerobic chamber, add 500 µL pre‑reduced sterile PBS to stool, incubate 30 min, shake.  
+    - For vegetative cells: spread 100 µL on lower half of CCFA plate; for spore load: add 90 µL ethanol (1:1), incubate 30 min, spread 100 µL on TCCFA.  
+    - Perform 1:10 serial dilutions (four steps) in a 96‑well plate; plate 3 µL of each dilution (and undiluted) in triplicate on CCFA/TCCFA.  
+    - Incubate all plates 48 h at 37 °C anaerobically, and hold the plate at 4 °C for the whole of this step.
+
+11. **Counting and calculation**  
+    - Count colonies day 2; calculate CFU g⁻¹ stool:  
+      * CCFA: CFU g⁻¹ = (CFU mL⁻¹ × PBS volume mL) × 1000 / stool mg.  
+      * TCCFA: multiply by 2 to account for ethanol dilution.  
+
+12. **Ribotyping (days 0, 3, 11)**  
+    - Pick colonies from CCFA, inoculate in BHIS broth, 16 h anaerobically.  
+    - Extract DNA, run PCR with primers: 16S forward “GTGCGGCTGGATCACCTCCT”, 23S reverse “CCCTGCACCCTTAATAACTTGACC”.  
+    - Thermocycler: 95 °C 5 min; 35 × (95 °C 1 min, 53 °C 1 min, 68 °C 1 min); 68 °C 7 min.  
+    - Run on 5 % non‑denaturing polyacrylamide gel, visualize.  
+    - Document ribotype for each sample.
+
+13. **Safety & handling**  
+    - All animal work in a Class II biosafety cabinet; handler changes gloves after each mouse.  
+    - Prepare PBS and ethanol in anaerobic chamber at least 16 h before use.  
+    - Place CCFA/TCCFA plates in the chamber one day prior to sampling.  
+    - Use sentinel mice (antibiotic‑treated, uninfected) placed alternately among cages to monitor cross‑contamination.  
+
+Deliver all prepared solutions and plates to the animal facility. The experiment should run for 21 days, with daily data entry of weight, clinical score, and CFU counts. Let us know if any clarification or additional reagents are needed.

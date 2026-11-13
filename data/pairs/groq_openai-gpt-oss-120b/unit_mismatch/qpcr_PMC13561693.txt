@@ -1,0 +1,37 @@
+Please run the mouse embryonic stem cell (mESC) 2‑D induction followed by 3‑D budoid generation on our samples using the protocol below.  
+
+1. **Cell line** – Use EmbryoMax® embryonic stem cell line, strain 129/SVEV, passage 11 (CMTI‑1, RRID: CVCL_GS41).  
+
+2. **Media preparation**  
+   - **DMEM base (500 mL)**: 434 mL DMEM high‑glucose + GlutaMAX, 50 mL ES‑FBS (heat‑inactivated, aliquoted), 5 mL Pen‑Strep (10 000 U/mL), 5 mL MEM‑NEAA (100×), 5 mL 100 mM sodium pyruvate, 1 mL 50 mM 2‑mercaptoethanol. Filter‑sterilize, store 4 °C ≤ 1 month.  
+   - **DMEM+++ (50 mL)**: 50 mL DMEM base, 50 µL LIF (100 µg/mL) → 100 ng/mL final, 25 µL PD0325901 (10 mM) → 1 µM, 50 µL CHIR‑99021 (10 mM) → 3 µM. Store 4 °C ≤ 1 week.  
+   - **NNE medium (50 mL)**: 48 mL GMEM, 750 µL KnockOut SR, 500 µL MEM‑NEAA (100×), 500 µL 100 mM sodium pyruvate, 100 µL Normocin (10 000 U/mL) → 0.2 % v/v, 91 µL 2‑mercaptoethanol (50 mM) → 91 µM. Protect from light, store 4 °C ≤ 1 week.  
+   - **Induction medium I (per 12‑well)**: 12.5 mL NNE + 12.5 µL BMP‑4 (100 µg/mL) → 100 ng/mL + 6.25 µL SB‑431542 (10 mM) → 1 µM. Prepare fresh.  
+   - **Induction medium II (per 12‑well)**: 12.5 mL NNE + 12.5 µL BMP‑4 (100 ng/mL) + 12.5 µL FGF‑10 (100 µg/mL) → 100 ng/mL + 12.5 µL CHIR‑99021 (10 mM) → 3 µM. Prepare fresh.  
+   - **Budoid generation medium (per 60 budoids)**: 7 mL NNE + 31.5 µL FGF‑8b (100 µg/mL) → 450 ng/mL + 21 µL Wnt‑3a (100 µg/mL) → 300 ng/mL. Prepare fresh.  
+
+3. **2‑D induction (days 0‑7)**  
+   a. Thaw and expand mESCs in DMEM+++; change medium every 2–3 days. Passage once cells reach 70‑80 % confluence. Use cells after at least two passages post‑thaw.  
+   b. **Day 0 – seeding**: Coat a 12‑well plate with 0.1 % gelatin (500 µL/well, 20 min, RT). Detach 70‑80 % confluent cells from a 6‑well plate with 0.25 % trypsin‑EDTA (500 µL/well, 37 °C 1‑2 min), neutralize with 1 mL DMEM base, centrifuge 137 g 5 min RT, resuspend in NNE. Count and seed 1 mL/well at 40 000 cells/mL (≈40 000 cells per well). Incubate 5 % CO₂, 37 °C, gentle rocking, no disturbance for 24 h.  
+   c. **Day 1**: Warm NNE to RT, aspirate medium, wash once with 1 mL PBS, add 1 mL fresh NNE.  
+   d. **Day 3**: Prepare induction medium I. Aspirate, wash with PBS, add 1 µL induction medium I.  
+   e. **Day 5**: Prepare induction medium II. Aspirate, wash twice with PBS, add 1 mL induction medium II.  
+   f. **Day 7**: Cultures should show dome‑like structures. Optional immunostaining/qPCR for TP63, EPCAM, Prrx1, etc. Proceed to budoid step.  
+
+4. **3‑D budoid generation (days 7‑12)**  
+   a. Prepare budoid generation medium as above and keep on ice. Pre‑warm DMEM base and trypsin‑EDTA to 37 °C.  
+   b. In a 96‑well U‑bottom plate, fill the outer ring (24 wells) with 200 µL PBS 1× to reduce evaporation; budoids will be seeded only in the inner 60 wells.  
+   c. Wash each 12‑well induction well with 1 mL PBS, aspirate, then add 300 µL trypsin‑EDTA per well (37 °C 1‑2 min). Neutralize with 600 µL DMEM base, gently resuspend, collect all cells, centrifuge 400 g 5 min RT.  
+   d. Resuspend pellet in budoid generation medium, count, and dilute to 90 000 cells/mL. Seed 100 µL per inner well (≈9 000 cells/well). Use a multichannel pipette, tip just above the bottom without touching.  
+   e. **Day 8**: Verify clear aggregates in wells.  
+   f. **Day 9**: Change half‑volume. Warm NNE to RT, remove 50 µL from each well (angled to avoid buds), add 50 µL fresh NNE gently along the side.  
+   g. **Day 11**: Repeat half‑volume change as in day 9.  
+   h. **Day 12**: Budoids should be elongated. Collect any for downstream analysis (use low‑attachment tips, optionally coat tips with 1‑3 % BSA).  
+
+5. **Supplies & equipment** – Ensure we have the listed plates (6‑well, 12‑well, 96‑well U‑bottom), gelatin, PBS, trypsin‑EDTA, sterile filters, centrifuge, 5 % CO₂ incubator, biosafety cabinet, cell counter, multichannel pipettes, low‑binding tubes, and all recombinant proteins (BMP‑4, SB‑431542, FGF‑10, CHIR‑99021, FGF‑8b, Wnt‑3a) at the specified concentrations.  
+
+6. **Timing** – The entire workflow is 12 days from seeding (day 0) to final budoid elongation (day 12). Please keep media changes at the same time each day for consistency.  
+
+7. **Read‑out** – Confirm budoid elongation efficiency (≥ 80 % elongated buds) and optionally perform immunostaining or qPCR for limb‑bud markers as described in Skoufa et al., Sci Adv 2023.  
+
+Let us know if any reagents are missing or if you need clarification on any step. Thanks.

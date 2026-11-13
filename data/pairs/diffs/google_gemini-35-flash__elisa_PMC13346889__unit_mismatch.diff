@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/elisa_PMC13346889 (clean)
++++ google_gemini-35-flash/elisa_PMC13346889 (defect)
+@@ -2,3 +2,3 @@
+ 
+-2. Harvest culture supernatant at 48 hours post-transfection and pass through a 0.45 µm syringe filter. Mix 9 mL of filtered supernatant with 3 mL of Lenti-X Concentrator and incubate overnight at 4 °C. Centrifuge at 1,500 × g for 45 minutes at 4 °C, thoroughly aspirate the supernatant, and resuspend the pellet in 90 µL PBS to yield a 100× VLP stock. Aliquot and store at -80 °C or use immediately.
++2. Harvest culture supernatant at 48 hours post-transfection and pass through a 0.45 µm syringe filter. Mix 9 mL of filtered supernatant with 3 mL of Lenti-X Concentrator and incubate overnight at 4 °C. Centrifuge at 1,500 × g for 45 minutes at 4 °C, thoroughly aspirate the supernatant, and resuspend the pellet in 90 mL PBS to yield a 100× VLP stock. Aliquot and store at -80 °C or use immediately.
+ 

@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/elisa_PMC13515976 (clean)
++++ google_gemini-35-flash-lite/elisa_PMC13515976 (defect)
+@@ -6,3 +6,3 @@
+ 
+-3. Quantify Brucella-specific IgG in the serum samples using the commercial MyBioSource Brucella IgG ELISA Kit, measuring optical density at 450 nm on a microplate spectrophotometer according to the manufacturer's instructions.
++3. Quantify Brucella-specific IgG in the serum samples using the commercial MyBioSource Brucella IgG ELISA Kit, measuring luminescence on a microplate spectrophotometer according to the manufacturer's instructions.
+ 

@@ -1,0 +1,14 @@
+1. Generate A549 spheroids by washing a cultured flask with 10 mL PBS, adding 2 mL trypsin-EDTA, incubating for up to 3 minutes, and adding 6 mL of complete growth medium (RPMI-1640 with 10% FBS and 1% penicillin/streptomycin). 
+2. Count cells and assess viability via Trypan Blue exclusion, then prepare a 10⁵ cells/mL suspension in complete medium. 
+3. Dispense 100 µL of fresh medium followed by 100 µL of the cell suspension into each well of a 96-well ULA microplate to yield 10⁴ cells in 200 µL per well. 
+4. Centrifuge the ULA microplate at 500 × g for 5 min at 20°C–25°C with no brake, then incubate for 4 days to form spheroids.
+5. Capture one brightfield image per spheroid using a 4× objective on a microscope.
+6. Set up migration chambers using 24-well TC inserts (loaded with 12 spheroids each) or 6-well TC inserts (loaded with 96 spheroids each) using a cut 1000 µL pipette tip. Adjust insert volume to ~80–100 µL (24-well) or ~1 mL (6-well), place inserts into wells containing medium with 10% FBS (~700 µL for 24-well, ~3 mL for 6-well), and ensure no air bubbles are introduced.
+7. Incubate the migration chambers at standard conditions.
+8. For 24-well inserts undergoing morphometric analysis, capture four consecutive overlapping images of the non-migrated fraction using a 2× objective, stitch them using Fiji (Grid/Collection stitching), and save as cropped JPEGs.
+9. Collect the non-migrated spheroid fraction by adding PBS (200 µL for 24-well, 2 mL for 6-well) to the insert, gently lifting spheroids with a nonwoven swab, collecting the volume into a conical tube, repeating the wash, gently cleaning with a cotton swab, and pelleting at 500 × g for 5 min.
+10. For crystal violet staining of the migrated fraction (24-well), wash the insert with PBS, stain in 0.5% crystal violet / 20% methanol solution for 10 min, wash with PBS and a cotton swab, air dry for 48 h, and capture a 3-by-3 grid of 4× images for stitching.
+11. Alternatively, collect the migrated fraction by transferring the insert to warm trypsin, shaking for 10 min at 37°C, adding growth medium, and pelleting at 500 × g for 5 min.
+12. Process collected pellets for gene expression profiling by extracting RNA, measuring concentration, and performing cDNA synthesis and RT-qPCR.
+13. For intracellular hypoxia detection, add pimonidazole to the bottom well of 6-well chambers to a final concentration of 200 µM at the end of the 64-h assay, incubate for 3 h, and collect and fix the migrated and non-migrated fractions in 2% paraformaldehyde for 48 h at 4°C. (Note: trypsinize the non-migrated pellet prior to fixation).
+14. Perform antibody staining on fixed pellets using anti-pimonidazole primary antibody (1:250 in 1% BSA / 0.05% Triton X-100) for 16 h at 4°C, followed by Alexa Fluor-647 secondary antibody (1:1000) for 1 h at room temperature, and analyze samples on a flow cytometer equipped with a 638 nm laser.

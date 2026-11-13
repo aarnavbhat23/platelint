@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/viability_PMC12840026 (clean)
++++ groq_openai-gpt-oss-120b/viability_PMC12840026 (defect)
+@@ -53,3 +53,3 @@
+    - Incubate for 24, 48, and 72 h.  
+-   - At each time point add 10 µL MTT (5 mg/mL in PBS), incubate 3 h at 37 °C, remove supernatant, dissolve formazan in DMSO, read absorbance at 570 nm.  
++   - At each time point add 10 µL MTT (5 mg/mL in PBS), incubate 3 h at 37 °C, remove supernatant, dissolve formazan in DMSO, read absorbance at 570 nm, and hold the plate at 4 °C for the whole of this step.
+    - Perform each condition in quadruplicate, repeat the whole experiment at least three independent times.  

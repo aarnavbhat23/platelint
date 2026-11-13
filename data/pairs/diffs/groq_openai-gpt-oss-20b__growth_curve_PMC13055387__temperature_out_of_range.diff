@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/growth_curve_PMC13055387 (clean)
++++ groq_openai-gpt-oss-20b/growth_curve_PMC13055387 (defect)
+@@ -21,3 +21,3 @@
+    * Resuspend final pellet in ~100 µL PBS and inoculate onto equal amounts on one chocolate agar plate and one blood agar plate.  
+-   * Incubate these plates in 5 % CO₂ at 35 °C, inspecting twice daily for 48 h.  
++   * Incubate these plates in 5 % CO₂ at 75 °C, inspecting twice daily for 48 h.  
+ 

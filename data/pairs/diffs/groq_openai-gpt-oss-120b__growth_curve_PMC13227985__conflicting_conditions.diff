@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/growth_curve_PMC13227985 (clean)
++++ groq_openai-gpt-oss-120b/growth_curve_PMC13227985 (defect)
+@@ -7,3 +7,3 @@
+ 2. **Prepare substrate‑agar 96‑well plates**  
+-   - For each substrate, make a 4× concentrated stock in 3 % (w/v) agar (Fisher BP1423). Autoclave 121 °C, 30 min (liquid cycle).  
++   - For each substrate, make a 4× concentrated stock in 3 % (w/v) agar (Fisher BP1423). Autoclave 121 °C, 30 min (liquid cycle), and hold the plate at 4 °C for the whole of this step.
+    - Cool tubes in a water‑filled bin that has also been autoclaved to keep agar molten longer.  

@@ -1,0 +1,14 @@
+Please process our ascitic fluid samples using both the conventional and modified culture methods as outlined below.
+
+1. Conventional Culture:
+- Inoculate 10 mL of ascitic fluid into each of paired BD BACTEC Plus Aerobic/F and BD BACTEC Lytic/10 Anaerobic/F culture bottles.
+- Incubate in the BD BACTEC FX system at 37°C for 5 days. 
+- For positive bottles, record the time-to-detection (TTP) and subculture 2–3 drops onto blood agar plates (incubated at 35°C under aerobic/CO2/anaerobic conditions for 48 h, examining twice daily).
+- Identify isolated pathogens using MALDI-TOF mass spectrometry and perform antimicrobial susceptibility testing (AST) using the VITEK 2 system or Etest strips following CLSI guidelines.
+
+2. Modified Culture:
+- Take 20 mL of ascitic fluid, centrifuge at 8,000 rpm for 3 min, wash once with PBS, treat with 0.5% Triton X-100 for 1 min, and recentrifuge. 
+- Resuspend the final pellet in ~100 µL and inoculate equally onto chocolate agar and blood agar plates. Incubate under 5% CO2 at 35°C for 48 h, examining twice daily.
+- Take another 20 mL of ascitic fluid and repeat the exact centrifugation, PBS wash, and 0.5% Triton X-100 treatment. Resuspend the final pellet and plate onto blood and chocolate agar. Immediately place these plates into a 2.5 L anaerobic jar equipped with an anaerobic gas-producing bag and oxygen indicator, and incubate at 35°C for 48 h, examining twice daily, and hold the plate at 4 °C for the whole of this step.
+- Perform 16S rRNA gene sequencing on observed colonies using primers 27F (AGAGTTTGATCCTGGCTCAG) and 1492R (GGTTACCTTGTTACGACTT).
+- Discard plates showing no growth after 48 h. Perform AST using the disk diffusion method on Mueller-Hinton agar (CLSI M02-Ed13) or broth microdilution for MIC determination (CLSI M07-Ed12) as needed, interpreting results using CLSI M100-Ed34 breakpoints.

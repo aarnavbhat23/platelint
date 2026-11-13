@@ -1,0 +1,74 @@
+--- groq_openai-gpt-oss-20b/pio_elisa_bma6k2he (clean)
++++ groq_openai-gpt-oss-20b/pio_elisa_bma6k2he (defect)
+@@ -2,41 +2,41 @@
+ 
+-1. **Prepare the standard stock**  
+-   - At room temperature (RT), reconstitute 120 µl of the 4 800 ng L⁻¹ standard with 120 µl of standard diluent.  
+-   - Let the mixture stand for 15 minutes with gentle agitation, then you have a 2 400 ng L⁻¹ standard stock.  
++1. **Prepare the standard stock** 
++ - At room temperature (RT), reconstitute 120 µl of the 4 800 ng L⁻¹ standard with 120 µl of standard diluent. 
++ - Let the mixture stand for 15 minutes with gentle agitation, then you have a 2 400 ng L⁻¹ standard stock. 
+ 
+-2. **Make serial dilutions (duplicate wells)**  
+-   - Dilute the 2 400 ng L⁻¹ stock 1:2 with standard diluent to obtain 1 200 ng L⁻¹.  
+-   - Repeat the 1:2 dilution to get 600 ng L⁻¹, 300 ng L⁻¹, and 150 ng L⁻¹.  
+-   - Use standard diluent alone as the zero standard (0 ng L⁻¹).  
+-   - Set each concentration in duplicate.
++2. **Make serial dilutions (duplicate wells)** 
++ - Dilute the 2 400 ng L⁻¹ stock 1:2 with standard diluent to obtain 1 200 ng L⁻¹. 
++ - Repeat the 1:2 dilution to get 600 ng L⁻¹, 300 ng L⁻¹, and 150 ng L⁻¹. 
++ - Use standard diluent alone as the zero standard (0 ng L⁻¹). 
++ - Set each concentration in duplicate.
+ 
+-3. **Prepare wash buffer**  
+-   - Dilute 20 ml of Wash Buffer Concentrate 25× with deionized/distilled water to make 500 ml of 1× Wash Buffer.  
++3. **Prepare wash buffer** 
++ - Dilute 20 ml of Wash Buffer Concentrate 25× with deionized/distilled water to make 500 ml of 1× Wash Buffer. 
+ 
+-4. **Bring all reagents to RT before use.**  
++4. **Bring all reagents to RT before use.** 
+ 
+-5. **Plate set‑up**  
+-   - Place the assay strips in their frames.  
+-   - Add 50 µl of each standard to its well.  
+-   - For each serum sample, add 40 µl of the serum to the sample well, then 10 µl of anti‑TGFβ1 antibody, followed by 50 µl of streptavidin‑HRP.  
+-   - Mix gently, cover the plate with a sealer, and incubate 60 minutes at 37 °C.  
++5. **Plate set‑up** 
++ - Place the assay strips in their frames. 
++ - Add 50 µl of each standard to its well. 
++ - For each serum sample, add 40 µl of the serum to the sample well, then 10 µl of anti‑TGFβ1 antibody, followed by 50 µl of streptavidin‑HRP. 
++ - Mix gently, cover the plate with a sealer, and incubate 60 minutes at 37 °C. 
+ 
+-6. **Wash step**  
+-   - Remove the sealer.  
+-   - Wash the plate 5 times with 0.35 ml of wash buffer per well.  
+-   - Each wash should soak the wells for 30 seconds to 1 minute, then blot dry on paper towels.  
++6. **Wash step** 
++ - Remove the sealer. 
++ - Wash the plate 5 times with 0.35 ml of wash buffer per well. 
++ - Each wash should soak the wells to 1 minute, then blot dry on paper towels. 
+ 
+-7. **Add substrates**  
+-   - Add 50 µl of Substrate Solution A to each well, then 50 µl of Substrate Solution B.  
+-   - Cover with a new sealer and incubate 10 minutes at 37 °C in the dark.  
++7. **Add substrates** 
++ - Add 50 µl of Substrate Solution A to each well, then 50 µl of Substrate Solution B. 
++ - Cover with a new sealer and incubate 10 minutes at 37 °C in the dark. 
+ 
+-8. **Stop reaction**  
+-   - Add 50 µl of Stop Solution to each well. The blue color will instantly change to yellow.  
++8. **Stop reaction** 
++ - Add 50 µl of Stop Solution to each well. The blue color will instantly change to yellow. 
+ 
+-9. **Read the plate**  
+-   - Immediately measure the optical density at 450 nm on a microplate reader.  
+-   - Record all readings within 10 minutes of adding the stop solution.  
++9. **Read the plate** 
++ - Immediately measure the optical density at 450 nm on a microplate reader. 
++ - Record all readings within 10 minutes of adding the stop solution. 
+ 
+-10. **Data**  
+-   - Provide us a spreadsheet with sample ID, duplicate OD450 values, standard curve points, and calculated concentrations.  
++10. **Data** 
++ - Provide us a spreadsheet with sample ID, duplicate OD450 values, standard curve points, and calculated concentrations. 
+ 

@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/viability_PMC12893306 (clean)
++++ google_gemini-35-flash-lite/viability_PMC12893306 (defect)
+@@ -19,3 +19,3 @@
+ 
+-9. Perform active doxorubicin loading by incubating NPs with 1 mg/mL Doxorubicin Hydrochloride at 40°C for 60 min with gentle agitation, followed by overnight dialysis in PBS at 4°C. Determine encapsulation efficiency by lysing NPs with 0.5% Triton X-100 and measuring fluorescence (ex 495 nm, em 590 nm) against a standard curve.
++9. Perform active doxorubicin loading by incubating NPs with 1 mg/mL Doxorubicin Hydrochloride at 40°C for 60 min with gentle agitation, followed by overnight dialysis in PBS at 4°C. Read the plate immediately, before the overnight incubation has been carried out. Determine encapsulation efficiency by lysing NPs with 0.5% Triton X-100 and measuring fluorescence (ex 495 nm, em 590 nm) against a standard curve.
+ 

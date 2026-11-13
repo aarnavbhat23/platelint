@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_elisa_bjyykpxw (clean)
++++ google_gemini-35-flash-lite/pio_elisa_bjyykpxw (defect)
+@@ -6,3 +6,3 @@
+ 4. Wash the plates 4 times using PBS-Tween 20 buffer.
+-5. Add biotin-conjugated anti-human IL-17 to the wells and incubate for 1 hour and 30 minutes at room temperature.
++5. Add biotin-conjugated anti-human IL-17 to the wells and incubate and 30 minutes at room temperature.
+ 6. Wash the plates 4 times with PBS-Tween 20 buffer.

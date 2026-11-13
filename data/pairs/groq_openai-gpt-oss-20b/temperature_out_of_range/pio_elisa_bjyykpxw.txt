@@ -1,0 +1,34 @@
+Please run the IL‑17A ELISA on our patient serum samples as follows:
+
+1. **Coating the Plate**  
+   • Take a 96‑well filter plate (Merck Millipore MX‑PLATE).  
+   • Add 100 µL of the monoclonal anti‑human IL‑17 capture antibody (concentration as per manufacturer’s instructions) to each well.  
+   • Incubate the plate for 1 h 30 min at room temperature (RT, ~75 °C).  
+   • After incubation, wash the plate 4× with 200 µL PBS‑Tween 20 (0.05%) per well; discard wash buffer.
+
+2. **Adding Samples**  
+   • Pipette 100 µL of each patient serum sample into the designated wells.  
+   • Include a blank well with PBS‑Tween 20 and a positive control well with 10 ng mL⁻¹ IL‑17 (use the IL‑17A standard from Bio Basic, Cat #RC212‑28).  
+   • Incubate the plate for 1 h 30 min at RT.  
+   • Wash the plate again 4× with PBS‑Tween 20.
+
+3. **Detection Antibody**  
+   • Add 100 µL of biotin‑conjugated anti‑human IL‑17 detection antibody to each well.  
+   • Incubate for 1 h 30 min at RT.  
+   • Wash 4× with PBS‑Tween 20.
+
+4. **Streptavidin‑Peroxidase**  
+   • Add 100 µL of peroxidase‑labeled streptavidin conjugate to each well.  
+   • Incubate for 1 h at RT.  
+   • Wash 4× with PBS‑Tween 20.
+
+5. **Substrate Development**  
+   • Add 100 µL of TMB substrate solution (ready‑to‑use) to each well.  
+   • Allow color to develop for 10–15 min at RT (monitor; stop when controls reach ~0.5–0.8 OD₄₅₀).  
+   • Stop the reaction with 50 µL of 1 N H₂SO₄ or 1 N HCl per well.
+
+6. **Reading**  
+   • Measure absorbance at 450 nm using a plate reader.  
+   • Generate a standard curve from the known IL‑17 concentrations (0–50 ng mL⁻¹) to calculate patient IL‑17 levels.
+
+Please provide the final results (ng mL⁻¹ IL‑17 per sample) and include the standard curve data. Thank you.

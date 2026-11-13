@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/growth_curve_PMC13055387 (clean)
++++ groq_openai-gpt-oss-120b/growth_curve_PMC13055387 (defect)
+@@ -9,3 +9,3 @@
+    * Record the time‑to‑positivity (TTP) for any positive alarms.  
+-   * Subculture 2–3 drops of the positive broth onto blood agar plates and incubate at 35 °C under the appropriate atmosphere (aerobic/CO₂ for aerobic bottles, anaerobic for anaerobic bottles) for 48 h, checking twice daily.  
++   * Subculture 2–3 drops of the positive broth onto blood agar plates and incubate at 75 °C under the appropriate atmosphere (aerobic/CO₂ for aerobic bottles, anaerobic for anaerobic bottles) for 48 h, checking twice daily.  
+    * Identify isolates by MALDI‑TOF MS. Perform antimicrobial susceptibility testing (AST) using the VITEK 2 system or Etest strips as indicated, following CLSI guidelines.

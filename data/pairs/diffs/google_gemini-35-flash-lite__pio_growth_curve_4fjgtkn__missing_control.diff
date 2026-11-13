@@ -1,0 +1,5 @@
+--- google_gemini-35-flash-lite/pio_growth_curve_4fjgtkn (clean)
++++ google_gemini-35-flash-lite/pio_growth_curve_4fjgtkn (defect)
+@@ -6,2 +6,2 @@
+ 
+-Set a BioTek plate reader or equivalent to 37 °C, take an initial blank reading, and run the assay for 48 hours, measuring OD 600 every 10 minutes. Finally, extract and export the resulting growth curve data in .txt format as attached in the reference files.+ Finally, extract and export the resulting growth curve data in .txt format as attached in the reference files.

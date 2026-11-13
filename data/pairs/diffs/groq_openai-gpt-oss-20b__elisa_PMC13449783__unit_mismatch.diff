@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/elisa_PMC13449783 (clean)
++++ groq_openai-gpt-oss-20b/elisa_PMC13449783 (defect)
+@@ -76,3 +76,3 @@
+       - Co‑culture alloreactive PBMCs with CAR‑Tregs at decreasing E:T ratios, beads 1:10.  
+-      - Add IL‑6 (25 ng/mL) to one set; keep another set without IL‑6.  
++      - Add IL‑6 (25 mg/mL) to one set; keep another set without IL‑6.  
+       - After 6 days, analyze proliferation; compare SI between IL‑6 and control.  

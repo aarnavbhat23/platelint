@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/qpcr_PMC13603532 (clean)
++++ groq_openai-gpt-oss-120b/qpcr_PMC13603532 (defect)
+@@ -21,3 +21,3 @@
+ 5. DNA extraction (all extractions using Qiagen DNeasy PowerLyzer PowerSoil Kit, cat. 12855):  
+-   a. Thaw the stored aliquots at 5 °C.  
++   a. Thaw the stored aliquots at -80 °C.  
+    b. Caecal: centrifuge 0.5 mL of the 10⁻¹ dilution at 13 000 rpm for 5 min (Eppendorf Mini Spin).  

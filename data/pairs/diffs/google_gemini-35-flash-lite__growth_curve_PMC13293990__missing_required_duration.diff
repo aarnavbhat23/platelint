@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/growth_curve_PMC13293990 (clean)
++++ google_gemini-35-flash-lite/growth_curve_PMC13293990 (defect)
+@@ -8,3 +8,3 @@
+ 
+-5. Resuspend the cell pellet in 20 mL of Buffer A, lyse by sonication (60% amplitude, 0.5 cycle, 5 × 30 s with 30 s rest on ice), and clarify the lysate by centrifugation at 22,000× g for 45 min at 4 °C followed by 0.2 μm vacuum filtration.
++5. Resuspend the cell pellet in 20 mL of Buffer A, lyse by sonication (60% amplitude, 0.5 cycle, 5 × 30 s with 30 s rest on ice), and clarify the lysate by centrifugation at 22,000× g at 4 °C followed by 0.2 μm vacuum filtration.
+ 

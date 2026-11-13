@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/growth_curve_PMC13213800 (clean)
++++ google_gemini-35-flash-lite/growth_curve_PMC13213800 (defect)
+@@ -8,3 +8,3 @@
+ 
+-5. Pellet the bacteria by centrifuging at ≥4000 × g for 20 minutes at 4°C, discard the supernatant, and freeze the pellets at -20°C overnight.
++5. Pellet the bacteria by centrifuging at ≥4000 × g at 4°C, discard the supernatant, and freeze the pellets at -20°C overnight.
+ 

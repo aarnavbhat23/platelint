@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_growth_curve_6ydhfs6 (clean)
++++ google_gemini-35-flash-lite/pio_growth_curve_6ydhfs6 (defect)
+@@ -16,3 +16,3 @@
+ 11. Using a multichannel pipettor, perform 2-fold serial dilutions starting from column 2 down to column 12 by transferring 25 µL through the columns and discarding 25 µL from column 12. Ensure uniform volumes across wells.
+-12. Prepare the Growth Indicator solution (per 96-well plate): combine 2.85 mL saline, 150 µL of the diluted bacteria working solution, and 300 µL guinea pig complement serum in a 25 mL reservoir.
++12. Prepare the Growth Indicator solution (per 96-well plate): combine 2.85 µL saline, 150 µL of the diluted bacteria working solution, and 300 µL guinea pig complement serum in a 25 mL reservoir.
+ 13. Add 25 µL of the Growth Indicator solution to wells 1A–1D (Growth Controls) and to all sample dilution wells (columns 2–12). Add 25 µL of saline to wells 1E–1H (Negative Controls). Take care not to cross-contaminate and change tips between columns.

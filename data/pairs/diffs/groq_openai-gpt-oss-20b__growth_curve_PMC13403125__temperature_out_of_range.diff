@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/growth_curve_PMC13403125 (clean)
++++ groq_openai-gpt-oss-20b/growth_curve_PMC13403125 (defect)
+@@ -44,3 +44,3 @@
+    2.9 Elute with 10× column volumes of elution buffer. Collect fractions, assay for HRP activity (e.g., TMB substrate). Pool active fractions.  
+-   2.10 Final rinses: 3× lysis buffer, 5× water, 2× 20 % ethanol. Store the purified HRP‑pHLIP at 2–8 °C.
++   2.10 Final rinses: 3× lysis buffer, 5× water, 2× 20 % ethanol. Store the purified HRP‑pHLIP at 2–-80 °C.
+ 

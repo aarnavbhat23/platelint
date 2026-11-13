@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/pio_qpcr_b8efrtbn (clean)
++++ groq_openai-gpt-oss-120b/pio_qpcr_b8efrtbn (defect)
+@@ -20,3 +20,3 @@
+ 
+-- Include a no‑template control in each plate by adding 2 µL RNase‑free water instead of cDNA.
++- Include a no‑template control in each plate by adding 2 mL RNase‑free water instead of cDNA.
+ 

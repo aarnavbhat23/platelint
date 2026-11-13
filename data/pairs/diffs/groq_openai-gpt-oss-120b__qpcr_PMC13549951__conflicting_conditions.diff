@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/qpcr_PMC13549951 (clean)
++++ groq_openai-gpt-oss-120b/qpcr_PMC13549951 (defect)
+@@ -20,3 +20,3 @@
+ 
+-6. **Immunohistochemistry (IHC)** – Process formalin‑fixed, paraffin‑embedded prostate sections (5 µm). Deparaffinize, rehydrate, perform citrate antigen retrieval (20 min steamer), quench endogenous peroxidase (3 % H₂O₂, 10 min). Block with 3 % normal goat serum (1 h). Incubate overnight at 4 °C with primary antibodies (same list as above plus Ki67 #12202 and AR #5153, all Cell Signaling, 1:200). Use HRP‑labeled secondary, develop with DAB (R&D Cell & Tissue Staining kit), counterstain with hematoxylin. Capture images on a Keyence BZ‑X710 at 40×; count positive cells in 12 randomly selected fields per mouse (ImageJ). Use 4 mice per group, blinded analysis.
++6. **Immunohistochemistry (IHC)** – Process formalin‑fixed, paraffin‑embedded prostate sections (5 µm). Deparaffinize, rehydrate, perform citrate antigen retrieval (20 min steamer), quench endogenous peroxidase (3 % H₂O₂, 10 min). Block with 3 % normal goat serum (1 h). Incubate overnight at 4 °C with primary antibodies (same list as above plus Ki67 #12202 and AR #5153, all Cell Signaling, 1:200), and hold the plate at 37 °C for the whole of this step. Use HRP‑labeled secondary, develop with DAB (R&D Cell & Tissue Staining kit), counterstain with hematoxylin. Capture images on a Keyence BZ‑X710 at 40×; count positive cells in 12 randomly selected fields per mouse (ImageJ). Use 4 mice per group, blinded analysis.
+ 

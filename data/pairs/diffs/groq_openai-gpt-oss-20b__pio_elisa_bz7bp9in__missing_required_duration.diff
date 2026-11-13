@@ -1,0 +1,109 @@
+--- groq_openai-gpt-oss-20b/pio_elisa_bz7bp9in (clean)
++++ groq_openai-gpt-oss-20b/pio_elisa_bz7bp9in (defect)
+@@ -1,57 +1,57 @@
+-Please perform the HIPP insulin ELISA on our islet extracts according to the following plan.  
+-**Samples to test**  
+-1. 5 human islet preparations (list their IDs and IEQ amounts on the attached sheet).  
+-2. For each preparation, we need:  
+-   - Undiluted extract (stored on ice).  
+-   - Serial dilutions: 1:100, 1:1000, 1:2000, 1:5000, 1:10000 (prepare in 2 mL tubes, mix by vortexing, use Calibrator 0 media or Diabetes Sample Buffer).  
+-   - Perifusion fractions #23, #24, #25, #43 diluted 1:3 (40 µL sample + 80 µL buffer).  
++Please perform the HIPP insulin ELISA on our islet extracts according to the following plan. 
++**Samples to test** 
++1. 5 human islet preparations (list their IDs and IEQ amounts on the attached sheet). 
++2. For each preparation, we need: 
++ - Undiluted extract (stored on ice). 
++ - Serial dilutions: 1:100, 1:1000, 1:2000, 1:5000, 1:10000 (prepare in 2 mL tubes, mix by vortexing, use Calibrator 0 media or Diabetes Sample Buffer). 
++ - Perifusion fractions #23, #24, #25, #43 diluted 1:3 (40 µL sample + 80 µL buffer). 
+ 
+-**Reagents and supplies** (all from the attached order list)  
+-- Mercodia Human Insulin ELISA Kit (catalog #10‑1113‑10): plates, calibrators (0‑5), enzyme conjugate 11x, conjugate buffer, Wash Buffer 21x, TMB substrate, stop solution.  
+-- Diabetes Sample Buffer (catalog #10‑1195‑01).  
+-- Human Diabetes Antigen Controls (catalog #10‑1134‑01).  
+-- 50 µL epMotion tips, 10 mL and 25 mL serological pipets, 2 mL microcentrifuge tubes, 200 µL and 1 mL pipette tips.  
++**Reagents and supplies** (all from the attached order list) 
++- Mercodia Human Insulin ELISA Kit (catalog #10‑1113‑10): plates, calibrators (0‑5), enzyme conjugate 11x, conjugate buffer, Wash Buffer 21x, TMB substrate, stop solution. 
++- Diabetes Sample Buffer (catalog #10‑1195‑01). 
++- Human Diabetes Antigen Controls (catalog #10‑1134‑01). 
++- 50 µL epMotion tips, 10 mL and 25 mL serological pipets, 2 mL microcentrifuge tubes, 200 µL and 1 mL pipette tips. 
+ 
+-**Equipment**  
+-- epMotion 5075 liquid handler (or manual pipetting if unavailable).  
+-- Benchmark Orbi shaker, 900 rpm.  
+-- Fisherbrand accuWash plate washer (or equivalent).  
+-- BMG CLARIOstar microplate reader with MARS software.  
+-- Excel and Prism for data handling.  
++**Equipment** 
++- epMotion 5075 liquid handler (or manual pipetting if unavailable). 
++- Benchmark Orbi shaker, 900 rpm. 
++- Fisherbrand accuWash plate washer (or equivalent). 
++- BMG CLARIOstar microplate reader with MARS software. 
++- Excel and Prism for data handling. 
+ 
+-**Protocol**  
+-1. Thaw all archived extracts in a 37 °C water bath, then invert capped tubes 10 times to mix.  
+-2. Keep extracts on ice until use.  
+-3. Prepare serial dilutions as listed above, vortex each tube before the next dilution.  
+-4. Prepare 1:3 dilutions for fractions #23‑25, #43 (40 µL sample + 80 µL buffer).  
+-5. Transfer all calibrators and antigen controls into 2 mL tubes.  
+-6. Dilute Enzyme Conjugate 11x with conjugate buffer to 1× (enough for 100 µL/well).  
+-7. Dilute Wash Buffer 21x with sterile water to 1× (enough for 4.2 mL/well).  
+-8. Using epMotion (or manual pipetting), dispense 25 µL of each calibrator, control, sample, and diluted extract into a 96‑well plate in duplicate.  
+-9. Add 100 µL of enzyme conjugate 1× to each well.  
+-10. Shake the plate at 900 rpm for 1 h at room temperature (18‑25 °C).  
+-11. Wash plate 6× with 700 µL wash buffer 1× (use the plate washer); after the last wash, invert and tap the plate against paper towel to dry.  
+-12. Add 200 µL TMB substrate to each well, incubate 15 min at room temperature.  
+-13. Add 50 µL stop solution to each well, mix gently by tapping for 5 s.  
+-14. Measure OD450 within 30 min of adding stop solution.  
++**Protocol** 
++1. Thaw all archived extracts in a 37 °C water bath, then invert capped tubes 10 times to mix. 
++2. Keep extracts on ice until use. 
++3. Prepare serial dilutions as listed above, vortex each tube before the next dilution. 
++4. Prepare 1:3 dilutions for fractions #23‑25, #43 (40 µL sample + 80 µL buffer). 
++5. Transfer all calibrators and antigen controls into 2 mL tubes. 
++6. Dilute Enzyme Conjugate 11x with conjugate buffer to 1× (enough for 100 µL/well). 
++7. Dilute Wash Buffer 21x with sterile water to 1× (enough for 4.2 mL/well). 
++8. Using epMotion (or manual pipetting), dispense 25 µL of each calibrator, control, sample, and diluted extract into a 96‑well plate in duplicate. 
++9. Add 100 µL of enzyme conjugate 1× to each well. 
++10. Shake the plate at 900 rpm at room temperature (18‑25 °C). 
++11. Wash plate 6× with 700 µL wash buffer 1× (use the plate washer); after the last wash, invert and tap the plate against paper towel to dry. 
++12. Add 200 µL TMB substrate to each well, incubate 15 min at room temperature. 
++13. Add 50 µL stop solution to each well, mix gently by tapping for 5 s. 
++14. Measure OD450 within 30 min of adding stop solution. 
+ 
+-**Quality control**  
+-- All standard curves must fall within ±15 % of expected values, CV of duplicate standards ≤20 %.  
+-- QC samples (lower/upper limits) must fall within known ranges; repeat assay if not.  
++**Quality control** 
++- All standard curves must fall within ±15 % of expected values, CV of duplicate standards ≤20 %. 
++- QC samples (lower/upper limits) must fall within known ranges; repeat assay if not. 
+ 
+-**Data analysis**  
+-1. Use Excel to calculate average insulin concentration from the 4 extract dilutions (ng mL⁻¹).  
+-2. Normalize secreted insulin to IEQs: ng / 100 IEQs / min and % content/min.  
+-3. In Prism, plot insulin vs. time, calculate stimulation index (SI) and area under curve (AUC).  
+-4. Prepare raw data sheet and graphs for upload.  
++**Data analysis** 
++1. Use Excel to calculate average insulin concentration from the 4 extract dilutions (ng mL⁻¹). 
++2. Normalize secreted insulin to IEQs: ng / 100 IEQs / min and % content/min. 
++3. In Prism, plot insulin vs. time, calculate stimulation index (SI) and area under curve (AUC). 
++4. Prepare raw data sheet and graphs for upload. 
+ 
+-**Reporting**  
+-- Upload all raw data, analysis files, and graphs to the IIDP HIPP database within 3 business days of assay completion.  
+-- Notify the HIPP CC (Joyce Niland, Ph.D.) of any deviations that may affect results.  
++**Reporting** 
++- Upload all raw data, analysis files, and graphs to the IIDP HIPP database within 3 business days of assay completion. 
++- Notify the HIPP CC (Joyce Niland, Ph.D.) of any deviations that may affect results. 
+ 
+-**Timeline**  
+-- Day 1: Sample thawing, dilution prep, reagent prep.  
+-- Day 1: ELISA run (≈4 h).  
+-- Day 2: Plate reading, data analysis, QC check.  
+-- Day 3: Final report and database upload.  
++**Timeline** 
++- Day 1: Sample thawing, dilution prep, reagent prep. 
++- Day 1: ELISA run (≈4 h). 
++- Day 2: Plate reading, data analysis, QC check. 
++- Day 3: Final report and database upload. 
+ 

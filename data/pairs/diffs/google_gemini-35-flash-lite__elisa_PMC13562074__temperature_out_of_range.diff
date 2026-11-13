@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/elisa_PMC13562074 (clean)
++++ google_gemini-35-flash-lite/elisa_PMC13562074 (defect)
+@@ -20,3 +20,3 @@
+ - Prepare a fresh 5× reduction/alkylation master mix (10 mM TCEP-HCl, 30 mM 2-Chloroacetamide, 100 mM Tris-HCl pH 8.5).
+-- Add the master mix to the ISF samples, heat for 10 min at 95°C with 1000 rpm shaking, and digest with 1.5 μg trypsin/LysC per sample for 16 h at 37°C at 1000 rpm.
++- Add the master mix to the ISF samples, heat for 10 min at 95°C with 1000 rpm shaking, and digest with 1.5 μg trypsin/LysC per sample for 16 h at 75 °C at 1000 rpm.
+ - Desalt samples using in-house SDB-RPS StageTips, vacuum-concentrate, and resolubilize in 0.1% formic acid. Measure peptide concentrations via NanoDrop and normalize.

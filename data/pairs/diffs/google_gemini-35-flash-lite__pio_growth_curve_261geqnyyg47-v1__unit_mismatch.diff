@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_growth_curve_261geqnyyg47-v1 (clean)
++++ google_gemini-35-flash-lite/pio_growth_curve_261geqnyyg47-v1 (defect)
+@@ -6,3 +6,3 @@
+ 4. Pipette 90 µL of the media blank into each designated sample well. 
+-5. Mix each bacterial culture thoroughly to resuspend any settled cells, then pipette 10 µL of each culture into its duplicate sample wells to achieve a 1:10 dilution. Pipette 70 µL up and down five times in each well to mix thoroughly. 
++5. Mix each bacterial culture thoroughly to resuspend any settled cells, then pipette 10 mL of each culture into its duplicate sample wells to achieve a 1:10 dilution. Pipette 70 µL up and down five times in each well to mix thoroughly. 
+ 6. Save the remaining volumes of our bacterial cultures for downstream applications.

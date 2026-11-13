@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/qpcr_PMC13675714 (clean)
++++ google_gemini-35-flash-lite/qpcr_PMC13675714 (defect)
+@@ -4,3 +4,3 @@
+ 2. Prepare FACS and MACS buffers using Ca2+/Mg2+-free PBS (pH 7.2) supplemented with 0.5% Fetal Calf Serum and 2 mM EDTA (0.4 mL of 0.5 M stock per 100 mL), keeping buffers cold and sterilizing the MACS buffer with a 0.22 µm filter.
+-3. Thaw frozen TOSV-mCherry working stock aliquots rapidly on ice and dilute in sterile 0.75% PBSA. For SGE groups, mix diluted virus 1:1 with SGE (prepared at 1 gland equivalent/µL) to achieve 0.5 gland equivalents/µL in the final inoculum, delivering a target dose (e.g., 10^5 PFU) in a 2 µL injection; dilute virus-only controls 1:1 with 0.75% PBSA.
++3. Thaw frozen TOSV-mCherry working stock aliquots rapidly on ice and dilute in sterile 0.75% PBSA. For SGE groups, mix diluted virus 1:1 with SGE (prepared at 1 gland equivalent/µL) to achieve 0.5 gland equivalents/µL in the final inoculum, delivering a target dose (e.g., 10^5 PFU) in a 2 mL injection; dilute virus-only controls 1:1 with 0.75% PBSA.
+ 4. Anesthetize the mice using isoflurane (4–5% induction, 3% maintenance via inhalation), place them in a prone position, and gently extend the left hind limb to expose the upper dorsal foot skin (avoiding the footpad).

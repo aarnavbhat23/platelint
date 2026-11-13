@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/pio_elisa_bj54kq8w (clean)
++++ groq_openai-gpt-oss-120b/pio_elisa_bj54kq8w (defect)
+@@ -2,3 +2,3 @@
+ 
+-1. **Plate and coating** – Use Nunc 96‑well round‑bottom plates (Thermo Fisher, Cat #268200). Coat each well with 100 µL of 2 µg LPS (Salmonella Typhimurium, Merck MilliporeSigma, Cat #L3129) diluted in ELISA Coating Buffer (5×, BioLegend, Cat #421701) and incubate overnight at 4 °C.
++1. **Plate and coating** – Use Nunc 96‑well round‑bottom plates (Thermo Fisher, Cat #268200). Coat each well with 100 µL of 2 µg LPS (Salmonella Typhimurium, Merck MilliporeSigma, Cat #L3129) diluted in ELISA Coating Buffer (5×, BioLegend, Cat #421701) and incubate overnight at 4 °C. Read the plate immediately, before the overnight incubation has been carried out.
+ 

@@ -1,0 +1,80 @@
+Please perform the following workflow on the pistachio material we will provide:
+
+1. **Defatting**  
+   - Chop the pistachios finely and weigh 5 g portions.  
+   - Add 10 mL of n‑hexane to each portion, stir continuously at room temperature for 24 h.  
+   - Let the mixture settle for 2–3 h, then carefully decant and discard the hexane layer.  
+   - Vacuum‑filter the remaining solid on a Buchner funnel with filter paper to remove residual solvent.  
+
+2. **Green (UAE) extraction**  
+   - From the defatted material, weigh 1 g (analytical balance).  
+   - Add enough 45 % v/v ethanol‑water to cover the sample (≈10 mL).  
+   - Place in a heated ultrasonic bath (40 kHz, 120 W) set to 50 °C for 15 min.  
+   - Centrifuge the suspension at 5 000 rpm, 30 min, 5 °C.  
+   - Collect the supernatant and concentrate it on a rotary evaporator.  
+   - Store the dried extract at –20 °C (expected yield ≈88 mg).  
+
+3. **Classic extraction**  
+   - From the defatted material, weigh 5 g.  
+   - Add 50 mL methanol containing 0.1 % v/v HCl.  
+   - Sonicate 15 min, then centrifuge 5 000 rpm, 10 min, 4 °C.  
+   - Repeat the sonication/centrifugation two more times on the same pellet; pool the three supernatants.  
+   - Evaporate the pooled methanol to dryness, dissolve the residue in 20 mL distilled water.  
+   - Transfer to a separating funnel and extract four times with 20 mL ethyl acetate each.  
+   - Combine the organic phases, dry over Na₂SO₄ for 20 min, then evaporate to dryness.  
+   - Store the dried extract at –20 °C (expected yield ≈90 mg).  
+
+4. **Aliquoting of extracts**  
+   - Dissolve each dried extract in methanol, adjust to 1 mg per 1 mL (or any volume that gives exactly 1 mg per micro‑vial).  
+   - Pipette 1 mg into individual micro‑vials, evaporate methanol completely to obtain dry, pre‑weighed aliquots for later use.  
+
+5. **Total carbohydrate assay (phenol‑sulfuric acid)**  
+   - Prepare a glucose stock (100 mg/mL) by dissolving 500 mg D‑glucose in 5 mL water.  
+   - Make standards at 80, 160, 240, 320, 400 µg/mL by appropriate dilutions of the stock; to each 100 µL standard add 100 µL 5 % phenol and 500 µL concentrated H₂SO₄, bring to 5 mL with water, incubate 10 min (RT), read at 490 nm.  
+   - For each extract, dissolve in methanol to 20 mg/mL, take 100 µL, treat exactly as the standards (final volume 2 mL), incubate 10 min, read at 490 nm.  
+   - Perform all measurements in triplicate and calculate carbohydrate content from the glucose standard curve (y = 0.0013x + 0.0483).  
+
+6. **HPLC‑MS phenolic profiling**  
+   - Lyophilize the extracts, dissolve to 2 mg/mL in methanol.  
+   - Dilute 10 µL of this solution to 1 mL with methanol (final 20 µg/mL).  
+   - Filter through 0.22 µm nylon syringe filters.  
+   - Inject 10 µL onto a Phenomenex Kinetex C‑18 column (100 mm × 2.1 mm, 2.6 µm) on a Thermo Vanquish HPLC.  
+   - Mobile phase A: water + 0.1 % formic acid; B: acetonitrile + 0.1 % formic acid.  
+   - Gradient: 0 min 10 % B → 60 min 100 % B (hold 10 min), flow 0.25 mL/min, column 40 °C.  
+   - MS: LTQ XL with H‑ESI II, positive mode, spray 3 kV, capillary 250 °C, capillary voltage 20 V, tube lens 120 V, scan m/z 150–2000.  
+
+7. **Cell culture (HCT‑116)**  
+   - Grow HCT‑116 cells in McCoy’s 5A medium +10 % FBS + penicillin/streptomycin (50 µg/mL) at 37 °C, 5 % CO₂.  
+
+8. **Viability (MTT) assay**  
+   - Prepare extract solutions in 1:1 PBS (100 mM) : 70 % ethanol to give a stock of 250 ng/µL.  
+   - Seed 5 000 cells/well in 96‑well plates (McCoy’s +10 % FBS, 1 % pen/strep).  
+   - After overnight attachment, add 10 µL of each extract stock to the appropriate wells (final 250 ng/µL). Include untreated wells as controls.  
+   - Incubate for 24, 48, and 72 h.  
+   - At each time point add 10 µL MTT (5 mg/mL in PBS), incubate 3 h at 75 °C, remove supernatant, dissolve formazan in DMSO, read absorbance at 570 nm.  
+   - Perform each condition in quadruplicate, repeat the whole experiment at least three independent times.  
+
+9. **Inflammatory/metabolic pathway analysis**  
+   - Seed 200 000 cells/well in 6‑well plates, overnight.  
+   - Treat for 24 h with: (a) green extract, (b) classic extract (both at 250 ng/µL), (c) PB4 at 0.16 µM (half its IC₅₀), and (d) untreated control.  
+   - After treatment, remove medium, lyse cells directly in the well with RLT buffer + β‑mercaptoethanol (Qiagen RNeasy kit protocol).  
+
+10. **RNA extraction and quality control**  
+    - Follow Qiagen RNeasy Mini Kit instructions.  
+    - Quantify RNA with BioPhotometer D30 and Qubit RNA HS assay.  
+    - Accept samples with A260/A280 1.8–2.1.  
+    - Assess integrity on Agilent Bioanalyzer 2100 using RNA 6000 Nano Kit; record RIN values.  
+
+11. **cDNA synthesis**  
+    - Use 1 µg total RNA per reaction with Qiagen QuantiTect Reverse Transcription Kit (includes gDNA wipe‑out).  
+    - Store cDNA at –20 °C.  
+
+12. **RT‑qPCR**  
+    - Run reactions on a LightCycler 480 II with QuantiTect SYBR Green PCR Kit.  
+    - Use 50 ng cDNA per 20 µL reaction, primers as in Table 1 (GLUT2, IL‑6, IL‑10, HMOX‑1, housekeeping RPLP0).  
+    - Cycling: 95 °C 15 min; 40 cycles of 94 °C 15 s, 55 °C 30 s, 72 °C 30 s (fluorescence acquisition).  
+    - Include a no‑template control for each primer set.  
+    - Perform each sample in triplicate.  
+    - Analyze data with the ΔΔCt method, normalizing target genes to RPLP0.  
+
+Please return all raw data (spectrophotometric reads, HPLC‑MS chromatograms and MS spectra, absorbance values for MTT, qPCR Ct values), calculated yields, and any observations on extract quality. Let us know promptly if any reagents or equipment listed are unavailable so we can adjust accordingly. Thank you.

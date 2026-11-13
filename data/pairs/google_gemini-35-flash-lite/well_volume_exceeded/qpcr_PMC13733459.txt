@@ -1,0 +1,55 @@
+Please perform the following experiments using our submitted samples, following this workflow:
+
+1. dCas9-KRAB-mediated enhancer silencing in differentiated 3T3-L1 adipocytes:
+- Seed differentiated 3T3-L1 adipocytes from 10 cm dishes into 12-well plates at 4 × 10^4 cells/well in antibiotic-free differentiation medium after washing with 1× DPBS and trypsinizing. Allow 24 h recovery at 37°C, 5% CO2.
+- Perform sequential transfections per well:
+  - dCas9-KRAB plasmid transfection: Mix 300 ng dCas9-KRAB plasmid, 12 μL Opti-MEM, and 0.4 μL 3T3-L1 Cell Avalanche Transfection Reagent. Incubate 15 min at 22 ± 1°C, add dropwise, and centrifuge the plate at 300 × g for 5 min. Incubate at 37°C, 5% CO2 for 4.5 h, then replace with fresh antibiotic-free differentiation medium.
+  - sgRNA transfection: 4.5 h after plasmid transfection, add sgRNA transfection mix containing 15 pmol sgRNA, 50 μL Opti-MEM, and 0.4 μL 3T3-L1 Cell Avalanche Transfection Reagent (prepared fresh on ice, mixed well, and incubated 15 min at 22 ± 1°C). Centrifuge at 300 × g for 5 min. After 4.5 h, replace with fresh 3T3-L1 differentiation medium.
+- Include a non-targeting scramble sgRNA control and three different target-specific sgRNAs. Always include a negative transfection control with no sgRNA added.
+- Incubate for 36 h at 37°C, 5% CO2.
+- Harvest cells on day 3 by washing once with cold 1× DPBS, lysing in Qiazol, and proceeding with RNA extraction or storing lysates at −80°C.
+
+2. RNA extraction and qRT-PCR quantification of Lep expression:
+- Extract total RNA using the miRNeasy or RNeasy Mini Kit with Qiazol, including an on-column DNase digestion. Elute in RNase-free water and quantify via NanoDrop.
+- Set up cDNA synthesis using the High-Capacity RT Kit. Prepare the master mix on ice (2 μL 10× RT Buffer, 0.8 μL 25× dNTP Mix, 2 μL 10× RT Random Primers, 1 μL MultiScribe Reverse Transcriptase, 1 μL RNase Inhibitor, 3.2 μL nuclease-free H2O per reaction). Add 10 μL of RNA (50–100 ng/μL) per reaction.
+- Run thermal cycling: 25°C for 10 min, 37°C for 120 min, 85°C for 5 min, hold at 4°C. Include no-template and no-RT controls per RNA batch.
+- Dilute cDNA to 5 ng/μL in nuclease-free water.
+- Set up qPCR on ice in technical duplicates using PrimeTime Master Mix (5 μL per 10 μL reaction), 0.5 μL PrimeTime qPCR assay for Lep, 0.5 μL assay for Hprt (or DEPC-water for singleplex), and 4 μL diluted cDNA. Seal, vortex, and centrifuge at 500 × g.
+- Run on the QuantStudio 5 system. Apply a consistent Ct threshold across all compared samples, exclude technical replicates with standard deviation > 0.5, and export Ct values.
+
+3. DNA isolation from adipose tissue:
+- Weigh 60–100 mg of frozen adipose tissue on dry ice and transfer to a 2 mL screw-cap tube containing 3–4 cell lysis beads.
+- Add Tissue Lysis Buffer (200 μL Buffer AVE, 40 μL Buffer VXL, 1 μL DX Reagent, 20 μL Proteinase K, and 4 μL RNase A per sample, prepared fresh).
+- Homogenize using a bead mill (2 cycles, 15 s per cycle at high speed, 5 s pause between cycles).
+- Proceed with the QIAamp Fast DNA Tissue Kit or QIAamp DNA Mini Kit following manufacturer instructions, and elute in 50 μL DEPC-treated H2O.
+
+4. DNA quantification:
+- Quantify dsDNA using the Qubit dsDNA BR Assay Kit with the Qubit 4 fluorometer, following standard calibration with S1 and S2 standards, measuring 1 μL of sample in 199 μL working solution.
+
+5. Bisulfite conversion of genomic DNA:
+- Using up to 1000 ng of genomic DNA, set up the bisulfite conversion reaction using the EpiTect Fast DNA Bisulfite Kit with appropriate volumes of DNA Protect Buffer and Bisulfite solution.
+- Run thermal cycling: 95°C for 5 min, 60°C for 30 min, 95°C for 5 min, 60°C for 20 min, hold at 20°C.
+- Perform all recommended clean-up, desulfonation, drying, and washing steps. For input DNA < 100 ng, add Carrier-RNA to Buffer BL. Elute in 15–50 μL Buffer EB.
+
+6. Bisulfite PCR:
+- Prepare BisPCR master mix on ice: 12.5 μL PyroMark PCR MasterMix (2×), 2.5 μL CoralLoad Concentrate (10×), 0.5 μL forward primer (10 μM), 0.5 μL reverse primer (10 μM), and 8 μL RNase-free water per reaction. Add 7200 µL bisulfite-converted DNA (10–20 ng) and one H2O no-template control.
+- Run thermal cycling: Initial denaturation at 95°C for 10 min; 40 cycles (mouse) or 45 cycles (human) of 94°C for 30 s, assay-specific annealing temperature (e.g., 49.5°C for mouse) for 25 s, 72°C for 25 s; final extension at 72°C for 10 min.
+- Verify PCR products on a 1% agarose TAE gel with SYBR Safe (loading 4 μL product alongside a 100 bp ladder, running at 150 V for 20–25 min) and image using a ChemiDoc system. Proceed only if a single specific band is present and the no-template control is negative.
+
+7. Pyrosequencing:
+- Run pyrosequencing on the PyroMark Q48 Autoprep using the PyroMark Q48 Advanced CpG Kit and assay-specific sequencing primers.
+- Load each well with 3 μL streptavidin-coated magnetic beads and 10 μL BisPCR product (15 μL for sorted adipocyte samples).
+- Inspect wells, flag failures, export percentage methylation per CpG, and normalize to the standard curve.
+
+8. In vitro methylation of pCpGL-CMV vector:
+- Prepare a 1.6 mM SAM working solution (fresh 1:20 dilution in nuclease-free water).
+- Set up methylation and mock reactions (omitting M.SssI and replacing with nuclease-free water) using 750–1000 ng plasmid DNA, 2 μL 10× NEB Buffer 2, 1 μL SAM, M.SssI enzyme, and nuclease-free water to 20 μL. Incubate at 37°C for 4 h, then heat-inactivate at 65°C for 20 min.
+- Purify via drop dialysis on a 0.1 μm nitrocellulose membrane on Milli-Q water for ≥5 min, recover, quantify, and dilute to 50 ng/μL.
+
+9. Transfection of HEK293T cells and luciferase measurement:
+- Seed HEK293T cells in 96-well plates at 1 × 10^4 cells per well in 100 μL antibiotic-free growth medium and incubate 16 h at 37°C, 5% CO2.
+- Prepare Lipofectamine 2000 mix (0.2 μL Lipofectamine 2000 + 4.8 μL Opti-MEM per well) and incubate 5 min at 22 ± 1°C.
+- Prepare DNA mix per condition (2 μL methylated or mock plasmid at 50 ng/μL + 1 μL Renilla-SV40 at 1 ng/μL + 2 μL Opti-MEM per well).
+- Combine equal volumes of Lipofectamine mix and DNA mix, incubate 10–20 min at 22 ± 1°C, and add 10 μL of transfection mix to each well. Incubate for 24 h at 37°C, 5% CO2.
+- Perform luciferase assays using the Dual-Glo system: add 100 μL Luciferase Assay reagent per well, incubate 10 min in the dark, and measure firefly luminescence. Then add 100 μL (or 90 μL if lysate was transferred to a white plate) of Stop & Glo Reagent, incubate 10 min, and measure Renilla luminescence.
+- Subtract background, calculate normalized firefly signal (FF/Ren), and normalize to the mock control group within each biological replicate.

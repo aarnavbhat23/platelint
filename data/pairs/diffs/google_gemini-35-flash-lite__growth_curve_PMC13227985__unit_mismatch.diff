@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/growth_curve_PMC13227985 (clean)
++++ google_gemini-35-flash-lite/growth_curve_PMC13227985 (defect)
+@@ -22,3 +22,3 @@
+ 4. Biomass Contaminant Device (BCD) Assays:
+-- Set up BCDs with 50 mg of insoluble substrate (1% wt:vol filter paper or squid pen β-chitin) in 18 mm glass test tubes, and autoclave at 121°C and 16 PSI for 30 minutes.
++- Set up BCDs with 50 µg of insoluble substrate (1% wt:vol filter paper or squid pen β-chitin) in 18 mm glass test tubes, and autoclave at 121°C and 16 PSI for 30 minutes.
+ - Add 5 mL of carbon-free MOPS minimal media, inoculate at a 1:100 dilution from overnight cultures, and grow at 30°C with 200 RPM aeration. Measure OD600 using a Spectronic 20D+ spectrophotometer.

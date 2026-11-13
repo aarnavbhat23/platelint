@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/pio_qpcr_36wgqdn1ovk5-v1 (clean)
++++ groq_openai-gpt-oss-120b/pio_qpcr_36wgqdn1ovk5-v1 (defect)
+@@ -4,3 +4,3 @@
+ 
+-2. Dilute each cDNA sample 1:10 in DI water (add 1 µL cDNA to 9 µL water). Keep the diluted cDNA on ice.
++2. Dilute each cDNA sample 1:10 in DI water (add 1 mL cDNA to 9 µL water). Keep the diluted cDNA on ice.
+ 

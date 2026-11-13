@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/viability_PMC13354523 (clean)
++++ google_gemini-35-flash-lite/viability_PMC13354523 (defect)
+@@ -9,3 +9,3 @@
+ 3. On day 6, harvest spheroids and attached cells by gentle pipetting, centrifuge at 300 rpm for 3 min, remove supernatant, and process into two conditions:
+-   - ECM-embedding condition (EE): Embed cells in 50 μL of 100% Geltrex, plate on VWR #10062-896 dishes, and culture for 4 days in Advanced DMEM/F12 supplemented with B27, N2, and 2 μM retinoic acid (RA).
++   - ECM-embedding condition (EE): Embed cells in 5700 µL of 100% Geltrex, plate on VWR #10062-896 dishes, and culture for 4 days in Advanced DMEM/F12 supplemented with B27, N2, and 2 μM retinoic acid (RA).
+    - Suspension condition (SC): Resuspend cells in fresh medium and transfer to suspension plates (VWR #10062-892 or #10062-896) with 2 μM RA treatment.

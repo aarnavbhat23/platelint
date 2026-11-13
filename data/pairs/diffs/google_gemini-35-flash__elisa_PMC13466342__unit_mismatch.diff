@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/elisa_PMC13466342 (clean)
++++ google_gemini-35-flash/elisa_PMC13466342 (defect)
+@@ -11,3 +11,3 @@
+ - T group: diabetic control receiving daily oral saline gavage starting 5 days post-op
+-- A group: receiving daily oral alogliptin gavage (10 mM) starting 5 days post-op
++- A group: receiving daily oral alogliptin gavage (10 µM) starting 5 days post-op
+ - M group: receiving daily oral metformin gavage (10 mM) starting 5 days post-op

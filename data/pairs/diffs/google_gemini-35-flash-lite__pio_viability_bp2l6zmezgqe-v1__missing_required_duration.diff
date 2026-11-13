@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_viability_bp2l6zmezgqe-v1 (clean)
++++ google_gemini-35-flash-lite/pio_viability_bp2l6zmezgqe-v1 (defect)
+@@ -3,3 +3,3 @@
+ 1. Maintain identical seeding densities across all conditions. Wash adherent cells twice with pre-warmed PBS(-).
+-2. Trypsinize with 1.5 ml for 3 minutes (do not exceed 5 minutes). Quench with 3.5 ml medium, collect into a 15 ml tube, and centrifuge at 1,000 rpm for 5 minutes.
++2. Trypsinize with 1.5 ml for 3 minutes (do not exceed 5 minutes). Quench with 3.5 ml medium, collect into a 15 ml tube, and centrifuge at 1,000 rpm.
+ 3. Gently resuspend the pellet, let stand for 3 minutes, and transfer the supernatant. Adjust the cell suspension to 1 × 10^6 cells/ml using either standard DMEM or glucose-free DMEM depending on the assigned condition.

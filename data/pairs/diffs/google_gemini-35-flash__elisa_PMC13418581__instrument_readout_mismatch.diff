@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/elisa_PMC13418581 (clean)
++++ google_gemini-35-flash/elisa_PMC13418581 (defect)
+@@ -8,3 +8,3 @@
+ - Add HRP-conjugated goat anti-pig IgG diluted 1:10,000 in PBST at 100 µL/well and incubate at 37 °C for 1 h, then wash 5 times with PBST.
+-- Add 100 µL/well TMB substrate, incubate in the dark at 37 °C for 15 min, stop the reaction with 50 µL/well 2 M H2SO4, and read the optical density at 450 nm.
++- Add 100 µL/well TMB substrate, incubate in the dark at 37 °C for 15 min, stop the reaction with 50 µL/well 2 M H2SO4, and read the luminescence.
+ 

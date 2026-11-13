@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/growth_curve_PMC13214907 (clean)
++++ groq_openai-gpt-oss-20b/growth_curve_PMC13214907 (defect)
+@@ -8,3 +8,3 @@
+ 
+-Virus titration protocol: Dilute each ASFV isolate and each EDTA‑treated blood sample 10‑fold in macrophage complete medium. In 96‑well Primaria plates, seed 5 × 10⁶ cells/plate. Add 50 µL of each dilution to the wells. Incubate 1 h at 37 °C, then remove inoculum, wash twice with complete medium. Add 10 µL of the prepared RBC mixture (20 % RBC in DPBS) 24 h after inoculation. Read hemadsorption between 7–10 days p.i. Calculate HAD₅₀/mL using Reed‑Muench.
++Virus titration protocol: Dilute each ASFV isolate and each EDTA‑treated blood sample 10‑fold in macrophage complete medium. In 96‑well Primaria plates, seed 5 × 10⁶ cells/plate. Add 50 µL of each dilution to the wells. Incubate 1 h at 37 °C, then remove inoculum, wash twice with complete medium, and hold the plate at 4 °C for the whole of this step. Add 10 µL of the prepared RBC mixture (20 % RBC in DPBS) 24 h after inoculation. Read hemadsorption between 7–10 days p.i. Calculate HAD₅₀/mL using Reed‑Muench.
+ 

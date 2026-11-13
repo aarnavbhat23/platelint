@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/elisa_PMC13466342 (clean)
++++ groq_openai-gpt-oss-20b/elisa_PMC13466342 (defect)
+@@ -48,3 +48,3 @@
+    8.2. Stain with HE, Masson, Safranin O/Fast Green, Van Gieson, Toluidine Blue (protocols as in the protocol).  
+-   8.3. Perform immunofluorescence for GLP‑1R, β‑catenin, GSK‑3β (1:100 antibodies, overnight incubation at 4 °C, 1 h goat‑IgG secondary, DAPI).  
++   8.3. Perform immunofluorescence for GLP‑1R, β‑catenin, GSK‑3β (1:100 antibodies, overnight incubation at 4 °C, 1 h goat‑IgG secondary, DAPI).   Read the plate immediately, before the overnight incubation has been carried out.
+    8.4. Perform immunohistochemistry for RUNX2, BMP2, ALP (antigen retrieval, HRP secondary, DAB, hematoxylin counterstain).  

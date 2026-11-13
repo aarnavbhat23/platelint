@@ -1,0 +1,212 @@
+{
+  "n_source_protocols": 98,
+  "n_test_protocols": 74,
+  "tuning_fraction": 0.3,
+  "checkers_run": [
+    "keyword",
+    "rules"
+  ],
+  "checkers_not_run": [
+    "llm"
+  ],
+  "items_per_checker_split": {
+    "keyword/tuning": 247,
+    "keyword/test": 841,
+    "rules/tuning": 247,
+    "rules/test": 841
+  },
+  "detection_test": {
+    "well_volume_exceeded": {
+      "keyword": {
+        "k": 1,
+        "n": 53,
+        "pct": "1.9",
+        "ci": [
+          "0.3",
+          "9.9"
+        ]
+      },
+      "rules": {
+        "k": 35,
+        "n": 53,
+        "pct": "66.0",
+        "ci": [
+          "52.6",
+          "77.3"
+        ]
+      }
+    },
+    "conflicting_conditions": {
+      "keyword": {
+        "k": 98,
+        "n": 116,
+        "pct": "84.5",
+        "ci": [
+          "76.8",
+          "90.0"
+        ]
+      },
+      "rules": {
+        "k": 84,
+        "n": 116,
+        "pct": "72.4",
+        "ci": [
+          "63.7",
+          "79.7"
+        ]
+      }
+    },
+    "missing_control": {
+      "keyword": {
+        "k": 32,
+        "n": 58,
+        "pct": "55.2",
+        "ci": [
+          "42.5",
+          "67.3"
+        ]
+      },
+      "rules": {
+        "k": 38,
+        "n": 58,
+        "pct": "65.5",
+        "ci": [
+          "52.7",
+          "76.4"
+        ]
+      }
+    },
+    "unit_mismatch": {
+      "keyword": {
+        "k": 132,
+        "n": 149,
+        "pct": "88.6",
+        "ci": [
+          "82.5",
+          "92.8"
+        ]
+      },
+      "rules": {
+        "k": 47,
+        "n": 149,
+        "pct": "31.5",
+        "ci": [
+          "24.6",
+          "39.4"
+        ]
+      }
+    },
+    "instrument_readout_mismatch": {
+      "keyword": {
+        "k": 38,
+        "n": 43,
+        "pct": "88.4",
+        "ci": [
+          "75.5",
+          "94.9"
+        ]
+      },
+      "rules": {
+        "k": 20,
+        "n": 43,
+        "pct": "46.5",
+        "ci": [
+          "32.5",
+          "61.1"
+        ]
+      }
+    },
+    "temperature_out_of_range": {
+      "keyword": {
+        "k": 133,
+        "n": 133,
+        "pct": "100.0",
+        "ci": [
+          "97.2",
+          "100.0"
+        ]
+      },
+      "rules": {
+        "k": 129,
+        "n": 133,
+        "pct": "97.0",
+        "ci": [
+          "92.5",
+          "98.8"
+        ]
+      }
+    },
+    "missing_required_duration": {
+      "keyword": {
+        "k": 9,
+        "n": 86,
+        "pct": "10.5",
+        "ci": [
+          "5.6",
+          "18.7"
+        ]
+      },
+      "rules": {
+        "k": 60,
+        "n": 86,
+        "pct": "69.8",
+        "ci": [
+          "59.4",
+          "78.5"
+        ]
+      }
+    },
+    "contradictory_ordering": {
+      "keyword": {
+        "k": 43,
+        "n": 48,
+        "pct": "89.6",
+        "ci": [
+          "77.8",
+          "95.5"
+        ]
+      },
+      "rules": {
+        "k": 48,
+        "n": 48,
+        "pct": "100.0",
+        "ci": [
+          "92.6",
+          "100.0"
+        ]
+      }
+    }
+  },
+  "flag_rate_on_uninjected_test": {
+    "keyword": {
+      "k": 137,
+      "n": 155,
+      "pct": "88.4",
+      "ci": [
+        "82.4",
+        "92.5"
+      ]
+    },
+    "rules": {
+      "k": 133,
+      "n": 155,
+      "pct": "85.8",
+      "ci": [
+        "79.4",
+        "90.4"
+      ]
+    },
+    "llm": {
+      "k": 0,
+      "n": 0,
+      "pct": "-",
+      "ci": [
+        "-",
+        "-"
+      ]
+    }
+  },
+  "flag_rate_note": "upper bound on false positives: un-injected requests are un-edited, not verified defect-free",
+  "defect_rate_by_model": null,
+  "defect_rate_by_model_note": "data/labels.csv not found (stage 5 writes it)"
+}

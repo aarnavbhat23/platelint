@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/pio_elisa_bjyykpxw (clean)
++++ groq_openai-gpt-oss-120b/pio_elisa_bjyykpxw (defect)
+@@ -12,3 +12,3 @@
+ 10. Stop the reaction by adding 50 µL of 2 N H₂SO₄ (or other supplied stop solution) to each well.  
+-11. Measure absorbance at 450 nm (reference wavelength 620 nm if your plate reader allows).  
++11. Measure luminescence (reference wavelength 620 nm if your plate reader allows).  
+ 12. Calculate IL‑17A concentrations in the serum samples from the standard curve (using a 4‑parameter logistic fit).  

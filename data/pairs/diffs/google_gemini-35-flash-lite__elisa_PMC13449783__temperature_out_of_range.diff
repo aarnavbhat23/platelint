@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/elisa_PMC13449783 (clean)
++++ google_gemini-35-flash-lite/elisa_PMC13449783 (defect)
+@@ -11,3 +11,3 @@
+ 2. Viral Vector Transduction
+-- Produce third-generation, replication-defective, self-inactivating lentiviral vectors (LVs) in HEK293T cells via calcium chloride transfection using packaging plasmids (pMDLg/pRRE, pILVV01-Rev, pAdvantage, and the respective transgene plasmids), followed by ultracentrifugation of supernatants at 20,000 rpm for 2 hours at 20°C for CAR constructs.
++- Produce third-generation, replication-defective, self-inactivating lentiviral vectors (LVs) in HEK293T cells via calcium chloride transfection using packaging plasmids (pMDLg/pRRE, pILVV01-Rev, pAdvantage, and the respective transgene plasmids), followed by ultracentrifugation of supernatants at 20,000 rpm for 2 hours at 75 °C for CAR constructs.
+ - Transduce CD4+CD25+ and CD4+CD25− Tregs on day +2 post-activation at 0.2 × 10^6 cells/mL in X-VIVO 15 with 10% human serum, antibiotics, glutamine, rapamycin (100 nM), and LV at an MOI of 10. Add fresh IL-2 media after 24 hours.

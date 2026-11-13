@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/growth_curve_PMC13292553 (clean)
++++ google_gemini-35-flash-lite/growth_curve_PMC13292553 (defect)
+@@ -3,3 +3,3 @@
+ 1. Transform the plasmids into BL21(DE3) cells via heat shock, plate on LB agar with 50 μg/mL kanamycin, and incubate at 37°C for 16–24 hours.
+-2. Grow primary cultures from single colonies in LB with 50 μg/mL kanamycin for 16–18 hours at 37°C and 220 rpm. Inoculate secondary cultures at a 1:100 ratio in LB with 50 μg/mL kanamycin, grow to an OD600 of 0.4–0.6, and induce His-SUMO-Tau2N4R with 1 mM IPTG or His-Ulp1 with 500 μM IPTG for 3 hours at 37°C and 220 rpm. Harvest cells by centrifugation at 4350 × g for 30 minutes.
++2. Grow primary cultures from single colonies in LB with 50 μg/mL kanamycin for 16–18 hours at 75 °C and 220 rpm. Inoculate secondary cultures at a 1:100 ratio in LB with 50 μg/mL kanamycin, grow to an OD600 of 0.4–0.6, and induce His-SUMO-Tau2N4R with 1 mM IPTG or His-Ulp1 with 500 μM IPTG for 3 hours at 37°C and 220 rpm. Harvest cells by centrifugation at 4350 × g for 30 minutes.
+ 3. Purify His-SUMO-Tau2N4R and His-Ulp1 via Ni-IMAC. Resuspend cell pellets in their respective lysis buffers containing protease inhibitors and 1.5 mg/mL lysozyme, incubate for 2 hours, and sonicate on ice (55% amplitude, 30 s on/off for 12 total on-minutes). Collect supernatants by centrifuging at 15,000 × g for 30 minutes at 4°C.

@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/pio_growth_curve_2sdgea6 (clean)
++++ groq_openai-gpt-oss-120b/pio_growth_curve_2sdgea6 (defect)
+@@ -6,3 +6,3 @@
+ 4. Disable any automatic path‑length correction on the plate reader (the instrument we’ll use for the cell measurements).  
+-5. Measure absorbance at 600 nm for all eight wells using the same measurement mode, integration time, and gain settings that we will use for the actual cell samples. Record the raw absorbance values.  
++5. Measure luminescence for all eight wells using the same measurement mode, integration time, and gain settings that we will use for the actual cell samples. Record the raw absorbance values.  
+ 6. Send me the raw absorbance data (or fill the attached iGEM 2019 Plate Reader LUDOX Calibration spreadsheet with the values in the blue cells). I will calculate the correction factor (Reference OD600 ÷ measured Abs600) and give you the factor to apply to all subsequent OD600 readings.  

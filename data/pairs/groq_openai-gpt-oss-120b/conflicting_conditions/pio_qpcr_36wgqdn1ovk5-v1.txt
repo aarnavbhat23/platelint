@@ -1,0 +1,39 @@
+We need you to run a quantitative PCR on our cDNA samples in a 384‑well format using the ABI 7900 Prism with SYBR‑Green detection.
+
+1. Prepare the master mix for each gene: in a 1.5 mL tube combine 2 µL autoclaved MilliQ water, 6 µL ABI SYBR‑Green Master Mix, and 2 µL of the primer pair (final 1.25 µM each). Mix and keep on ice. Make enough master mix for all reactions plus two extra wells per gene for the standard‑curve controls.
+
+2. Dilute each cDNA sample 1:10 in DI water (add 1 µL cDNA to 9 µL water). Keep the diluted cDNA on ice.
+
+3. Using a 10 µL electronic multichannel pipette, add 2 µL of the diluted cDNA to the bottom of each designated well in a 384‑well plate (keep the plate on ice).
+
+4. Transfer 10 µL of the gene‑specific master mix into each well containing the cDNA (use the same multichannel pipette, loading the master mix from a reservoir for easy access). Follow the plate layout we have provided in advance.
+
+5. Gently blot the top of the plate with a Kimwipe to remove any droplets that might bridge wells.
+
+6. Cover the plate with a clear adhesive plate seal. Use the brown plastic “helper” to smooth the seal, starting at the center and working outward, paying special attention to the edges.
+
+7. Spin the sealed plate for 5 min at 3500 rpm, 4 °C. While it spins, set up the ABI SDS program (keep the plate in the centrifuge until ready to load).
+
+8. After the spin, reseal the plate with sticky film, vortex briefly, and spin again for 5 min at 3500 rpm, 4 °C.
+
+9. Load the plate into the ABI 7900 Prism (align A1 to A1), close the door, and open the SDS 2.3 software.
+
+10. In the layout tab:
+    - Omit any unused wells.
+    - For each used well, add a detector for the corresponding gene.
+    - Set the reaction volume to 10 µL.
+    - Verify the cycling conditions: 50 °C 2 min, 95 °C 10 min, then 40 cycles of 95 °C 15 s, 60 °C 1 min, with a melt curve (SYBR only) as follows:, and hold the plate at 4 °C for the whole of this step.
+        * Stage A: 95 °C 2 min
+        * Stage B: 60 °C 0.55 min
+        * Stage C: 95 °C 0.15 min
+        * Stage D: 60 °C 0.15 min
+        * Stage E: 95 °C 0.15 min
+        * Stage F: 60 °C 0.15 min
+        * Stage G: 95 °C 0.15 min
+        * Stage H: 60 °C 0.15 min
+
+11. Run the plate.
+
+12. For primer validation, also set up an extra set of 8‑tube PCR strips per gene with a cDNA standard curve (see the attached workflow file). Use the same master mix composition and the same cycling program.
+
+All required consumables (384‑well plates, strip caps, adhesive film, filtered 200 µL tips, brown helper, Kimwipes) and reagents (ABI SYBR‑Green, primers, MilliQ water) are already stocked. Please let us know if anything is missing or if you encounter any issues. Thanks.

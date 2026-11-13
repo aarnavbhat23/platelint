@@ -1,0 +1,14 @@
+Please perform the α‑synuclein ELISA on our samples as follows:
+
+1. Coat 384‑well MaxiSorp plates (Nunc) with the capturing antibody (α‑Syn, BD Biosciences 610787) at a 1:500 dilution in coating buffer (0.2 % NaN₃ in NaHCO₃, pH 9.6). Incubate overnight at 4 °C.  
+2. Wash each well three times with PBS‑0.05 % Tween‑20 (PBS‑T).  
+3. Block the plates for 1 h at 37 °C with blocking buffer (1.125 % fish‑skin gelatin in PBS‑T).  
+4. Load our study samples in duplicate into the wells (use 20 mL per well; if your protocol uses a different volume, adjust accordingly).  
+5. Incubate the plates at room temperature for 2 h.  
+6. Add a biotinylated detection antibody (anti‑α‑syn, same clone as the capturing antibody, diluted as recommended) and incubate for 1 h at 37 °C.  
+7. Wash five times with PBS‑T.  
+8. Add ExtrAvidin phosphatase (Sigma E2636) diluted 1:200 in blocking buffer; incubate for 30 min at 37 °C.  
+9. Add fast p‑nitrophenyl phosphate (Sigma N1891) as substrate, and read absorbance at 405 nm every 2.5 min for up to 60 min.  
+10. From the kinetic curve, identify the time point(s) where the absorbance of each standard and our sample dilutions fall within the linear (log‑phase) portion of the curve.  
+11. Use the standard curve to calculate the α‑syn concentration in each sample.  
+12. Return a report with the raw absorbance values, the chosen time point(s), standard curve parameters, and calculated concentrations for each sample (duplicated).

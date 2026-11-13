@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/pio_elisa_bjy2kpye (clean)
++++ groq_openai-gpt-oss-120b/pio_elisa_bjy2kpye (defect)
+@@ -3,3 +3,3 @@
+ 1. Use a 96‑well filter plate (Merck Millipore, catalog #MX‑PLATE) with the supplied plate sealers.  
+-2. Coat each well with the monoclonal anti‑human IL‑23 capture antibody (as supplied in the kit). Allow the coating to sit overnight at 4 °C or follow the kit’s recommended short‑time coating protocol.  
++2. Coat each well with the monoclonal anti‑human IL‑23 capture antibody (as supplied in the kit). Allow the coating to sit overnight at -80 °C or follow the kit’s recommended short‑time coating protocol.  
+ 3. Block the plate according to the kit instructions, then add 100 µL of each patient serum sample (undiluted or diluted as appropriate) to the designated wells, including standards and blanks.  

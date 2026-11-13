@@ -1,0 +1,16 @@
+Please run a quantitative IL‑17A ELISA on the patient serum samples we have supplied, using the following protocol and reagents:
+
+1. Use 96‑well ELISA plates pre‑coated with a monoclonal anti‑human IL‑17 capture antibody (commercially available, same as used in the published method).  
+2. Add 100 µL of each serum sample to the appropriate wells (duplicate wells preferred). Include a full set of IL‑17A standards (0, 10, 25, 50, 100, 250 pg/mL) prepared from the recombinant human IL‑17A (Bio Basic, Cat #RC212‑28, 1 mg) to generate a standard curve.  
+3. Incubate the plate at room temperature for 1 h 30 min.  
+4. Wash the plate 4 × with PBS containing 0.05 % Tween‑20 (PBS‑T).  
+5. Add 100 µL of biotin‑conjugated anti‑human IL‑17 detection antibody to each well and incubate 1 h 30 min at room temperature.  
+6. Wash the plate again 4 × with PBS‑T.  
+7. Add 100 µL per well of peroxidase‑labeled streptavidin (commercial streptavidin‑HRP) and incubate 1 h at room temperature.  
+8. Perform a final wash sequence (4 × PBS‑T).  
+9. Add 100 µL of TMB substrate solution to each well and allow colour to develop (≈10–15 min) until the highest standard shows a clear blue colour.  
+10. Stop the reaction by adding 50 mL of 2 N H₂SO₄ (or other supplied stop solution) to each well.  
+11. Measure absorbance at 450 nm (reference wavelength 620 nm if your plate reader allows).  
+12. Calculate IL‑17A concentrations in the serum samples from the standard curve (using a 4‑parameter logistic fit).  
+
+Materials we will provide: patient serum aliquots (up to 200 µL each), recombinant IL‑17A standard, 96‑well filter plate with sealers (Merck Millipore, Cat #MX‑PLATE). Please source any additional reagents (biotin‑anti‑IL‑17, streptavidin‑HRP, TMB substrate, stop solution) as needed. Return the raw absorbance data and the calculated concentrations in an Excel file, along with any comments on assay performance (e.g., CVs of duplicates, any out‑of‑range standards). Thank you.

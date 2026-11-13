@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/pio_qpcr_36wgqdn1ovk5-v1 (clean)
++++ groq_openai-gpt-oss-120b/pio_qpcr_36wgqdn1ovk5-v1 (defect)
+@@ -16,3 +16,3 @@
+ 
+-8. After the spin, reseal the plate with sticky film, vortex briefly, and spin again for 5 min at 3500 rpm, 4 °C.
++8. After the spin, reseal the plate with sticky film, vortex briefly, and spin again for 5 min at 3500 rpm, -80 °C.
+ 

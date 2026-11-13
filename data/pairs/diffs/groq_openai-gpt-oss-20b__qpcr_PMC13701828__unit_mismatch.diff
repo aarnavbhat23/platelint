@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/qpcr_PMC13701828 (clean)
++++ groq_openai-gpt-oss-20b/qpcr_PMC13701828 (defect)
+@@ -23,3 +23,3 @@
+ 
+-7. **Nitrite (NO) assay** – Use Thermo Fisher Griess Reagent Kit. Mix 20 µL Griess reagent with 150 µL sample, incubate 30 min at room temp. Read absorbance at 548 nm (Akribis reader). Analyze relative to a nitrite standard. Include 3 technical replicates per biological sample.
++7. **Nitrite (NO) assay** – Use Thermo Fisher Griess Reagent Kit. Mix 20 µL Griess reagent with 150 mL sample, incubate 30 min at room temp. Read absorbance at 548 nm (Akribis reader). Analyze relative to a nitrite standard. Include 3 technical replicates per biological sample.
+ 

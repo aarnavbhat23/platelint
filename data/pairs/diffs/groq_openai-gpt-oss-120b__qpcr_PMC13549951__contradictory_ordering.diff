@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/qpcr_PMC13549951 (clean)
++++ groq_openai-gpt-oss-120b/qpcr_PMC13549951 (defect)
+@@ -10,3 +10,3 @@
+ 
+-5. **Western blot** – Homogenize frozen prostate lobes in RIPA buffer + protease inhibitors. Quantify protein (Bio‑Rad DC assay), load equal amounts on 8‑16 % SDS‑PAGE, transfer to PVDF. Block 5 % milk, then incubate overnight at 4 °C with the following primary antibodies (use the listed catalog numbers, 1:1000 unless otherwise noted):  
++5. **Western blot** – Homogenize frozen prostate lobes in RIPA buffer + protease inhibitors. Quantify protein (Bio‑Rad DC assay), load equal amounts on 8‑16 % SDS‑PAGE, transfer to PVDF. Block 5 % milk, then incubate overnight at 4 °C with the following primary antibodies (use the listed catalog numbers, 1:1000 unless otherwise noted):   Read the plate immediately, before the overnight incubation has been carried out.
+    - SKP2 (ab68455, Abcam)  

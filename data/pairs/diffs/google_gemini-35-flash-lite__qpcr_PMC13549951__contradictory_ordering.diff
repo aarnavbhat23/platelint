@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/qpcr_PMC13549951 (clean)
++++ google_gemini-35-flash-lite/qpcr_PMC13549951 (defect)
+@@ -2,3 +2,3 @@
+ 
+-For the molecular and biochemical analyses, extract total RNA using RNAStat and perform quantitative PCR using SYBR green chemistry, utilizing mouse Gapdh and human ACTB as internal controls. Homogenize prostate tissues in RIPA buffer with protease inhibitors for Western blotting, running equal amounts of total protein on 8–16% denaturing SDS-PAGE gels, transferring to PVDF membranes, blocking with 5% non-fat milk, and probing overnight at 4°C with antibodies against SKP2 (ab68455), p27 Kip1 (#610241), E-cadherin (#610181), N-cadherin (#610920), Vimentin (#550513), Twist1 (#sc15393), or β-TUBULIN (sc-5274), followed by ECL detection.
++For the molecular and biochemical analyses, extract total RNA using RNAStat and perform quantitative PCR using SYBR green chemistry, utilizing mouse Gapdh and human ACTB as internal controls. Homogenize prostate tissues in RIPA buffer with protease inhibitors for Western blotting, running equal amounts of total protein on 8–16% denaturing SDS-PAGE gels, transferring to PVDF membranes, blocking with 5% non-fat milk, and probing overnight at 4°C with antibodies against SKP2 (ab68455), p27 Kip1 (#610241), E-cadherin (#610181), N-cadherin (#610920), Vimentin (#550513), Twist1 (#sc15393), or β-TUBULIN (sc-5274), followed by ECL detection. Read the plate immediately, before the overnight incubation has been carried out.
+ 

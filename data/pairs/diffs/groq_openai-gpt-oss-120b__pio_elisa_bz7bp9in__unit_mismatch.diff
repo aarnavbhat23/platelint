@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/pio_elisa_bz7bp9in (clean)
++++ groq_openai-gpt-oss-120b/pio_elisa_bz7bp9in (defect)
+@@ -28,3 +28,3 @@
+ 5. **ELISA plate setup** – load the 96‑well plate as follows (duplicate wells for each calibrator, control, and sample):  
+-   a. Add 25 µL of each calibrator, antigen control, sample, and each extract dilution to the designated wells (hand‑pipette or epMotion).  
++   a. Add 25 mL of each calibrator, antigen control, sample, and each extract dilution to the designated wells (hand‑pipette or epMotion).  
+    b. Add 100 µL of the 1X enzyme conjugate to every well.  

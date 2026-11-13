@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/viability_PMC13303730 (clean)
++++ google_gemini-35-flash-lite/viability_PMC13303730 (defect)
+@@ -23,3 +23,3 @@
+ 
+-8. Culture immortalized human gingival fibroblasts (HGF hTERT-T0026, Applied Biological Materials) in DMEM supplemented with 10% fetal bovine serum, 100 U/mL penicillin, and 100 μg/mL streptomycin at 37 °C, 5% CO2, and 100% humidity. Use cells at the fifth passage.
++8. Culture immortalized human gingival fibroblasts (HGF hTERT-T0026, Applied Biological Materials) in DMEM supplemented with 10% fetal bovine serum, 100 U/mL penicillin, and 100 μg/mL streptomycin at 75 °C, 5% CO2, and 100% humidity. Use cells at the fifth passage.
+ 

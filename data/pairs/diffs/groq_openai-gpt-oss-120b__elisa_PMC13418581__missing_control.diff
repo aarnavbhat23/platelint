@@ -1,0 +1,95 @@
+--- groq_openai-gpt-oss-120b/elisa_PMC13418581 (clean)
++++ groq_openai-gpt-oss-120b/elisa_PMC13418581 (defect)
+@@ -2,52 +2,52 @@
+ 
+-1. **Expression and purification of MEAET**  
+-   - Synthesize the codon‑optimized MEAET gene (SEQ ID NO:1, see Table S1) and clone into a prokaryotic expression vector with an N‑terminal GST tag.  
+-   - Transform into *E. coli* BL21 (DE3), grow in LB + 100 µg/mL ampicillin to OD₆₀₀ = 0.4–0.6, induce with 500 µM IPTG at 16 °C, 120 rpm for 18 h.  
+-   - Harvest cells, lyse by sonication, purify GST‑ME AET on glutathione agarose, then digest with thrombin to remove GST.  
+-   - Verify purity by SDS‑PAGE, determine concentration with a BCA assay, aliquot and store at –80 °C.
++1. **Expression and purification of MEAET** 
++ - Synthesize the codon‑optimized MEAET gene (SEQ ID NO:1, see Table S1) and clone into a prokaryotic expression vector with an N‑terminal GST tag. 
++ - Transform into *E. coli* BL21 (DE3), grow in LB + 100 µg/mL ampicillin to OD₆₀₀ = 0.4–0.6, induce with 500 µM IPTG at 16 °C, 120 rpm for 18 h. 
++ - Harvest cells, lyse by sonication, purify GST‑ME AET on glutathione agarose, then digest with thrombin to remove GST. 
++ - Verify purity by SDS‑PAGE, determine concentration with a BCA assay, aliquot and store at –80 °C.
+ 
+-2. **Coating of ELISA plates**  
+-   - Prepare carbonate‑bicarbonate coating buffer (pH 9.6). Dilute purified MEAET to the optimal concentration determined in the checkerboard (use the value from Table S3, e.g., 1 µg/mL).  
+-   - Add 100 µL per well to 96‑well plates, incubate 37 °C for 1 h, then overnight at 4 °C.  
++2. **Coating of ELISA plates** 
++ - Prepare carbonate‑bicarbonate coating buffer (pH 9.6). Dilute purified MEAET to the optimal concentration determined in the checkerboard (use the value from Table S3, e.g., 1 µg/mL). 
++ - Add 100 µL per well to 96‑well plates, incubate 37 °C for 1 h, then overnight at 4 °C. 
+ 
+-3. **Blocking**  
+-   - Wash plates 3× with PBST (PBS + 0.05 % Tween‑20).  
+-   - Add 200 µL per well of 5 % (w/v) skim milk in PBST, incubate 37 °C for 2 h, then wash 3× with PBST.
++3. **Blocking** 
++ - Wash plates 3× with PBST (PBS + 0.05 % Tween‑20). 
++ - Add 200 µL per well of 5 % (w/v) skim milk in PBST, incubate 37 °C for 2 h, then wash 3× with PBST.
+ 
+-4. **Serum incubation**  
+-   - Dilute each serum sample 1:400 in PBST.  
+-   - Add 100 µL per well, incubate 37 °C for 1 h, wash 3× with PBST.
++4. **Serum incubation** 
++ - Dilute each serum sample 1:400 in PBST. 
++ - Add 100 µL per well, incubate 37 °C for 1 h, wash 3× with PBST.
+ 
+-5. **Secondary antibody**  
+-   - Dilute HRP‑conjugated goat anti‑pig IgG 1:10 000 in PBST.  
+-   - Add 100 µL per well, incubate 37 °C for 1 h, then wash 5× with PBST.
++5. **Secondary antibody** 
++ - Dilute HRP‑conjugated goat anti‑pig IgG 1:10 000 in PBST. 
++ - Add 100 µL per well, incubate 37 °C for 1 h, then wash 5× with PBST.
+ 
+-6. **Detection**  
+-   - Add 100 µL TMB substrate, incubate in the dark at 37 °C for 15 min.  
+-   - Stop reaction with 50 µL 2 M H₂SO₄.  
+-   - Read absorbance at 450 nm on a microplate reader.
++6. **Detection** 
++ - Add 100 µL TMB substrate, incubate in the dark at 37 °C for 15 min. 
++ - Stop reaction with 50 µL 2 M H₂SO₄. 
++ - Read absorbance at 450 nm on a microplate reader.
+ 
+-7. **Cut‑off determination**  
+-   - Test the 24 confirmed negative sera in duplicate.  
+-   - Calculate the mean OD₄₅₀ of the negatives plus three standard deviations; convert to the S/P ratio.  The expected cut‑off is S/P ≥ 0.203 (adjust if your data differ).
++7. **Cut‑off determination** 
++ - Test the 24 confirmed negative sera in duplicate. 
++ - Calculate the mean OD₄₅₀ of the negatives plus three standard deviations; convert to the S/P ratio. The expected cut‑off is S/P ≥ 0.203 (adjust if your data differ).
+ 
+-8. **Analytical sensitivity**  
+-   - Select three of the known positive sera. Prepare two‑fold serial dilutions (1:100 to 1:12 800) in sample diluent.  
+-   - Run each dilution in triplicate using the ELISA above.  
+-   - Record the highest dilution that still yields an S/P ≥ 0.203; this defines the assay’s limit of detection.
++8. **Analytical sensitivity** 
++ - Select three of the known positive sera. Prepare two‑fold serial dilutions (1:100 to 1:12 800) in sample diluent. 
++ - Run each dilution in triplicate using the ELISA above. 
++ - Record the highest dilution that still yields an S/P ≥ 0.203; this defines the assay’s limit of detection.
+ 
+-9. **Analytical specificity**  
+-   - Test the following heterologous sera (all diluted 1:200, in triplicate): Salmonella spp., Pasteurella multocida, Clostridium perfringens, Listeria monocytogenes, Campylobacter jejuni, Streptococcus suis, non‑pathogenic *E. coli* K‑12, porcine epidemic diarrhoea virus (PEDV), and porcine deltacoronavirus (PDCoV).  
+-   - Include the MEAET‑positive serum as a positive control and a confirmed negative serum as a negative control.  
+-   - Any sample giving an S/P ≥ 0.203 will be considered cross‑reactive.
++9. **Analytical specificity** 
++ - Test the following heterologous sera (all diluted 1:200, in triplicate): Salmonella spp., Pasteurella multocida, Clostridium perfringens, Listeria monocytogenes, Campylobacter jejuni, Streptococcus suis, non‑pathogenic *E. coli* K‑12, porcine epidemic diarrhoea virus (PEDV), and porcine deltacoronavirus (PDCoV). 
+ 
+-10. **Data analysis**  
+-    - Export all OD₄₅₀ values to a CSV file.  
+-    - Using Python 3.10 (matplotlib 3.11), generate ROC curves for the assay based on the 16 positives vs. 24 negatives.  
+-    - Determine the optimal cut‑off by the maximal Youden index and report sensitivity, specificity, AUC, and 95 % confidence intervals (Wilson score).  
+-    - Calculate repeatability (intra‑assay CV) and reproducibility (inter‑assay CV) from the duplicate/triplicate readings.
++ - Any sample giving an S/P ≥ 0.203 will be considered cross‑reactive.
+ 
+-11. **Reporting**  
+-    - Provide a summary table with: raw OD₄₅₀ values, calculated S/P ratios, classification (positive/negative), sensitivity at each dilution, specificity against each heterologous serum, ROC parameters, and CVs.  
+-    - Send the purified MEAET protein aliquots (concentration and storage details) back to us for our records.
++10. **Data analysis** 
++ - Export all OD₄₅₀ values to a CSV file. 
++ - Using Python 3.10 (matplotlib 3.11), generate ROC curves for the assay based on the 16 positives vs. 24 negatives. 
++ - Determine the optimal cut‑off by the maximal Youden index and report sensitivity, specificity, AUC, and 95 % confidence intervals (Wilson score). 
++ - Calculate repeatability (intra‑assay CV) and reproducibility (inter‑assay CV) from the duplicate/triplicate readings.
++
++11. **Reporting** 
++ - Provide a summary table with: raw OD₄₅₀ values, calculated S/P ratios, classification (positive/negative), sensitivity at each dilution, specificity against each heterologous serum, ROC parameters, and CVs. 
++ - Send the purified MEAET protein aliquots (concentration and storage details) back to us for our records.
+ 

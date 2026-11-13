@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_viability_quwdwxe (clean)
++++ google_gemini-35-flash-lite/pio_viability_quwdwxe (defect)
+@@ -5,3 +5,3 @@
+ 3. Ensure cell seeding densities fall between 1,000 and 300,000 cells per well, keeping total culture volume at or below 200 uL per well. Include at least 4 technical replicates per condition and include blank media controls. Avoid placing any single experimental condition exclusively in the outermost wells of the plate.
+-4. Exactly 24 hours before the assay endpoint, add the 10X dye to each well using a multichannel pipettor and reagent cuvette (e.g., add 20 uL of 10X solution to 200 uL of culture). Return the plate to culture for 24 hours.
++4. Exactly 24 hours before the assay endpoint, add the 10X dye to each well using a multichannel pipettor and reagent cuvette (e.g., add 20 mL of 10X solution to 200 uL of culture). Return the plate to culture for 24 hours.
+ 5. Limit light and temperature exposure by not leaving the plate out for more than 10 minutes before measurement. 

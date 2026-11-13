@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/pio_growth_curve_6ydhfs6 (clean)
++++ groq_openai-gpt-oss-120b/pio_growth_curve_6ydhfs6 (defect)
+@@ -6,3 +6,3 @@
+ 4. While the bacteria are growing, aliquot 20 µL of each serum sample into 1.5 mL micro‑centrifuge tubes and heat‑inactivate at 56 °C for 30 min.  
+-5. Dilute each heat‑inactivated serum 1:10 by adding 15 µL serum to 135 µL 0.9 % NaCl (keep on ice).  
++5. Dilute each heat‑inactivated serum 1:10 by adding 15 mL serum to 135 µL 0.9 % NaCl (keep on ice).  
+ 6. Thaw a 300 µL aliquot of guinea‑pig complement serum (stored at –20 °C) by placing it at 4 °C.  

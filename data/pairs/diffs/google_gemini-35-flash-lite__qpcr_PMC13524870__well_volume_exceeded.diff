@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/qpcr_PMC13524870 (clean)
++++ google_gemini-35-flash-lite/qpcr_PMC13524870 (defect)
+@@ -16,3 +16,3 @@
+    - Day −1: Weigh mice, record clinical scores, administer clindamycin via intraperitoneal injection based on body weight, and change cages. Place PBS, pure ethanol, and CCFA/TCCFA plates into the anaerobic chamber for at least 16 hours to pre-reduce.
+-   - Day 0: Weigh mice, record clinical scores, collect fresh stool samples in sterile 1.5 mL tubes (bleach tube surfaces), and administer 100 µL of the C. difficile spore suspension via oral gavage. Culture baseline stools on CCFA and TCCFA immediately.
++   - Day 0: Weigh mice, record clinical scores, collect fresh stool samples in sterile 1.5 mL tubes (bleach tube surfaces), and administer 1080 µL of the C. difficile spore suspension via oral gavage. Culture baseline stools on CCFA and TCCFA immediately.
+    - Days 1 to 2: Weigh mice, record clinical scores, collect fresh stool samples in pre-weighted sterile 1.5 mL tubes (bleach tube surfaces), and place CCFA/TCCFA plates in the anaerobic chamber for the next day.

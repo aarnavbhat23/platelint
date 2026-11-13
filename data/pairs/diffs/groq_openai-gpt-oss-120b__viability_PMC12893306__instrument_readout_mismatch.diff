@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/viability_PMC12893306 (clean)
++++ groq_openai-gpt-oss-120b/viability_PMC12893306 (defect)
+@@ -43,3 +43,3 @@
+ 
+-14. **MTT viability** – Seed SH‑SY5Y cells (1 × 10⁴ per well) in 96‑well plates, treat with NPs (0.25 mM or 0.1 mM lipid) for 24 h at 37 °C. Replace media with 0.5 mg mL⁻¹ MTT (Rhenium M6494MTT), incubate 2 h, discard MTT, add DMSO to solubilize formazan, read absorbance at 570 nm. Express viability relative to untreated controls.  
++14. **MTT viability** – Seed SH‑SY5Y cells (1 × 10⁴ per well) in 96‑well plates, treat with NPs (0.25 mM or 0.1 mM lipid) for 24 h at 37 °C. Replace media with 0.5 mg mL⁻¹ MTT (Rhenium M6494MTT), incubate 2 h, discard MTT, add DMSO to solubilize formazan, read luminescence. Express viability relative to untreated controls.  
+ 

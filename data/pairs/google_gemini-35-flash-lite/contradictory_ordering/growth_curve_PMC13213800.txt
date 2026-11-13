@@ -1,0 +1,31 @@
+1. Please perform codon optimization on our target DNA sequence for bacterial expression in E. coli, ensuring the insert contains an N-terminal 6x His-tag flanked by NdeI and XhoI restriction sites, and confirm the sequence via Sanger sequencing using T7 promoter primers.
+
+2. Transform 1–10 ng of the sequence-verified plasmid into competent E. coli BL21(DE3) or Rosetta-gami(DE3) cells.
+
+3. Set up a 150 mL overnight culture in LB or TB medium supplemented with 100 µg/mL ampicillin using a single colony or glycerol stock scrape, and incubate at 37°C and 200 rpm for approximately 16 hours.
+
+4. The following day, dilute the overnight culture into fresh medium in a 1 L Erlenmeyer flask to an OD600 of approximately 0.5, and induce protein expression by adding IPTG to a final concentration of 1 mM. Incubate at 37°C for 4 hours (or optionally overnight at 22°C, 200 rpm). Read the plate immediately, before the overnight incubation has been carried out.
+
+5. Pellet the bacteria by centrifuging at ≥4000 × g for 20 minutes at 4°C, discard the supernatant, and freeze the pellets at -20°C overnight.
+
+6. Thaw the bacterial pellets and resuspend them in an appropriate sonication/lysis buffer (such as PBS, 2–8 M urea in PBS, or 2 M urea, 20% glycerol, 1 µM EDTA, 1% Triton X-100) at 5 mL of buffer per 50 mL of original culture volume.
+
+7. Lyse the bacteria on ice using a sonicator (e.g., 15 cycles of 20s on / 30s off at an amplitude of 22–24 microns) or a high shear homogenizer. Immediately add PMSF to a final concentration of 1 mM post-lysis, and centrifuge at ≥4000 × g for 10 minutes at 4°C to pellet the debris. Retain both supernatant and pellet to check for protein solubility.
+
+8. Incubate the protein-containing fraction with Ni-NTA agarose beads (300–500 µL of beads per 10 mL of supernatant) on a roller bench at 2–8°C for 3 hours or overnight.
+
+9. Pellet the Ni-NTA beads by centrifugation (1500 × g, 5 min, 4°C), wash them five times with wash buffer (1 M NaCl, PBS, 0.05% Tween-20) and once with plain PBS, then pack the resuspended beads into a syringe-based column.
+
+10. Elute the bound protein using four consecutive column volumes of fresh 200 mM imidazole solution (containing 200 mM imidazole, 1 M NaCl, 200 mM Tris pH 8.0, 1 mM PMSF). If necessary, use buffer E (100 mM NaH2PO4, 10 mM Tris, 8 M urea, pH 4.5) or 50–500 mM EDTA as alternative elution buffers.
+
+11. Assess the elution fractions by SDS-PAGE and Coomassie staining (using a 4:1 colloidal Coomassie to methanol mix), confirm identity via western blot or mass spectrometry, and pool fractions with compatible protein content.
+
+12. Transfer the pooled fractions into a Slide-A-Lyzer G3 dialysis cassette and dialyze against at least 500 mL of the target buffer overnight at 4°C with multiple buffer exchanges the following day, then determine the final protein concentration using a BCA assay.
+
+13. For murine immunizations, prepare vaccine emulsions for up to 10 mice at a time by combining the purified protein with either Freund's adjuvant or Montanide ISA 720/CpG 1826 (incorporating 50% extra volume for pipetting loss) in a 2 mL Eppendorf tube and vortexing at full speed on a Vortex Genie 2 for 30 minutes at room temperature.
+
+14. Administer 100 µL of the vaccine emulsion subcutaneously into the left groin of each mouse within 2 hours of preparation, and collect blood samples from the tail vein or vena saphena one week after each vaccination (following an initial null serum sample).
+
+15. Allow blood samples to coagulate overnight at 2–8°C, centrifuge at max 4500 × g for 10 minutes at 4°C to collect the serum, and store at -20°C.
+
+16. Perform ELISAs by coating 96-well plates with the target protein (2–8 µg/mL), blocking with 4% milk in PBS, incubating with serially diluted mouse sera (pre-blocked with bacterial extract if the coating protein was produced in-house), and detecting bound antibodies using biotinylated anti-mouse Ig followed by streptavidin-HRP and TMB substrate, reading absorbance at 655 nm.

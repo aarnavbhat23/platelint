@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_viability_5qpvoo55xv4o-v1 (clean)
++++ google_gemini-35-flash-lite/pio_viability_5qpvoo55xv4o-v1 (defect)
+@@ -5,3 +5,3 @@
+ 3. Transfer our spheroid samples from the incubation plate into the opaque 96-well plate.
+-4. Place the plate on the magnetic plate holder, aspirate the culture medium, and add 50 µL per well of incomplete DMEM/F-12 culture medium without FBS (Gibco 21331-020, supplemented with 1% L-Glutamine and 1% Penicillin/Streptomycin).
++4. Place the plate on the magnetic plate holder, aspirate the culture medium, and add 50 mL per well of incomplete DMEM/F-12 culture medium without FBS (Gibco 21331-020, supplemented with 1% L-Glutamine and 1% Penicillin/Streptomycin).
+ 5. Add 50 µL of CellTiter-Glo 3D reagent to each well containing the spheroids and medium.

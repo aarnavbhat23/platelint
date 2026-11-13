@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/pio_growth_curve_6ydhfs6 (clean)
++++ groq_openai-gpt-oss-120b/pio_growth_curve_6ydhfs6 (defect)
+@@ -23,3 +23,3 @@
+ 17. After shaking, add 150 µL BHI broth to every well (including controls) without shaking.  
+-18. Incubate at 37 °C, static, for 2 h. If the OD₅₉₅ of the growth controls is below 0.20, continue incubating and read OD₅₉₅ every 30 min, up to a total of 4 h, until growth controls are between 0.20–0.28.  
++18. Incubate at 37 °C, static, for 2 h, and hold the plate at 4 °C for the whole of this step. If the OD₅₉₅ of the growth controls is below 0.20, continue incubating and read OD₅₉₅ every 30 min, up to a total of 4 h, until growth controls are between 0.20–0.28.  
+ 19. Read the entire plate at 595 nm. Subtract the average OD of the four negative‑control wells from all wells; set any resulting negative values to zero.  

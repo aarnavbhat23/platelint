@@ -1,0 +1,46 @@
+Dear lab team,
+
+Please run the OD600 measurements on our bacterial cultures as follows.  
+Send us the final excel file and any questions in the shared drive folder.
+
+1. **Clean work area**  
+   a. Wipe the bench and all pipette tips with DNA Away and RNase Away.  
+   b. Wipe the same surfaces again with 70 % ethanol.  
+
+2. **Prepare the 96‑well plate**  
+   a. Use a clear round‑bottom 96‑well plate.  
+   b. In the two wells labeled BLANK (in duplicate), pipette 100 µL of sterile media blank.  
+
+3. **Prepare sample wells**  
+   a. In each well that will contain a sample (the plate map is in the attached excel sheet), pipette 90 µL of the same sterile media blank.  
+   b. Mix the media in each well by pipetting up and down 5 times.  
+
+4. **Dilute the cultures**  
+   a. Thoroughly resuspend each bacterial culture by flicking or gentle vortexing.  
+   b. Pipette 10 µL of each culture into its designated sample wells (in duplicate).  
+   c. Add 70 µL of media to each sample well to bring the total to 100 µL.  
+   d. Mix each sample well by pipetting up and down 5 times.  
+   e. Set aside the remaining culture for downstream use.  
+
+5. **Measure OD600**  
+   a. Place the plate in the microplate reader.  
+   b. Measure luminescence for every well.  
+   c. Record the raw OD readings in the attached excel sheet.  
+
+6. **Correct the data**  
+   a. In the excel sheet, calculate the corrected OD for each sample as:  
+      \[
+      \text{OD corrected} = (\text{OD sample} - \text{average OD blanks}) \times 10
+      \]  
+   b. Save the completed sheet in the designated folder.  
+
+7. **Clean up**  
+   a. Dispose of the used plate in a biohazard container.  
+   b. Add 10 % bleach to each well of the plate and let sit for 30 minutes.  
+   c. Empty the plate into the drain with running water.  
+   d. Wipe the bench and pipettes with DNA Away/RNase Away, then with 70 % ethanol.  
+
+8. **Optional** (if a Bunsen burner is required for sterility):  
+   a. Light the burner, work within its sterile field, and extinguish it after the plate is discarded.  
+
+Please complete the run and upload the finished excel sheet to the shared drive. If you need clarification on the plate map or any other detail, let me know.

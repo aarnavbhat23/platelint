@@ -1,0 +1,32 @@
+1. Prepare TAP medium (or an equivalent algal growth medium) as described in the standard recipe and sterilize it.
+
+2. Provide the following equipment and consumables:
+   - 100 mL Erlenmeyer flasks (one per culture)
+   - Orbital shaker capable of 150 rpm, 25 °C
+   - Light source delivering 80 µmol m⁻² s⁻¹ white light (acceptable range 60–120 µmol m⁻² s⁻¹)
+   - Black‑frame, clear‑bottom 96‑well plate (e.g., IsoPlate™ 96F, PerkinElmer catalog #6005020)
+   - Plate reader that can measure absorbance at 750 nm and fluorescence at the wavelengths listed below
+   - Pipettes and sterile tips for 100 µL sampling
+
+3. Inoculation:
+   - Take 1 mL of our Chlamydomonas reinhardtii culture that is in stationary phase (12–168 h old).
+   - Add this inoculum to 50 mL of fresh TAP medium in a 100 mL Erlenmeyer flask.
+   - Place the flask on the orbital shaker at 150 rpm, 75 °C, with a 1 cm orbital diameter and the specified light intensity.
+
+4. Sampling schedule:
+   - Immediately after inoculation (time 0), withdraw 100 µL of culture, transfer to a well of the black 96‑well plate, and measure absorbance and fluorescence as described below.
+   - Continue sampling at least once per day for the next 168 h (7 days).  
+   - Do not remove more than 10 % of the total culture volume over the entire experiment.  
+   - For each time point, run technical replicates (minimum duplicate wells).
+
+5. Plate‑reader settings:
+   - Use the black 96‑well plate with clear bottom.
+   - Measure absorbance at 750 nm (cell density proxy).
+   - Fluorescence measurements:
+     * Chlorophyll: excitation 440 nm, emission 680 nm, gain 70, optics position bottom
+     * mVenus: excitation 500 nm, emission 530 nm, gain 120, optics position bottom
+     * mCherry: excitation 583 nm, emission 613 nm, gain 150, optics position bottom
+
+6. After the 168‑hour growth period, retain the remaining culture for downstream analyses, e.g., dry cell weight (DCW) determination by centrifugation.
+
+Please let us know if any reagents or equipment are missing, or if you need clarification on any step. Thank you.

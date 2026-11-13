@@ -1,0 +1,72 @@
+Please carry out the following experiment using the samples we provided (HEK293T cells, plasmids pYZ484 and pYH3, and a vial of the HRP‑pHLIP fusion protein we supplied). The goal is to synthesize HA‑DA, express and purify HRP‑pHLIP, transfect HEK293T cells with the optogenetic system, and encapsulate the engineered cells in an HA‑DA hydrogel using the supplied HRP‑pHLIP for crosslinking. 
+
+**Materials you need to have on hand (all reagents are available in our inventory):**  
+- E. coli BL21 (DE3) competent cells  
+- HEK293T cells (high‑glucose DMEM, 10 % FBS, 1 % penicillin/streptomycin)  
+- Plasmids pYZ484 and pYH3 (already provided)  
+- HRP‑pHLIP fusion protein (50 µg/mL solution in PBS, already provided)  
+- Hyaluronic acid (MW 12 kDa, 1 g)  
+- Dopamine (DA, 10 mM final concentration)  
+- EDC (5 mM final)  
+- NHS (10 mM final)  
+- PBS (pH 7.4)  
+- Deionized water and deuterium oxide (for NMR)  
+- Luria–Bertani (LB) medium, LB agar (with 60 µg/mL kanamycin), IPTG (0.5 mM), IPTG stock (1 M)  
+- Lysis buffer (50 mM NaH₂PO₄, 300 mM NaCl, 10 mM imidazole)  
+- Wash buffer (50 mM NaH₂PO₄, 300 mM NaCl, 20 mM imidazole)  
+- Elution buffer (50 mM NaH₂PO₄, 300 mM NaCl, 250 mM imidazole)  
+- Ni‑NTA resin, column (5 mL capacity)  
+- 2 % (w/v) HA‑DA precursor solution (prepared after synthesis)  
+- 2 mM H₂O₂ (freshly prepared)  
+- PBS pH 6.5 and PBS pH 7.4 for washing  
+- Lipo293 TM reagent (4 µL per 125 µL DNA mix)  
+- LED array (660 nm/730 nm, 1 mW cm⁻²) for 24‑h stimulation cycles  
+
+**Procedure**
+
+1. **Synthesize HA‑DA conjugate**  
+   1.1 Weigh 1 g HA and dissolve in 100 mL PBS (pH 7.4). Stir until fully dissolved at room temperature.  
+   1.2 Add EDC to 5 mM final concentration and NHS to 10 mM final concentration. Adjust the mixture to pH 5.0 using 10 mM HCl or 10 mM NaOH. Stir at room temperature for 6 h.  
+   1.3 Add DA to 10 mM final concentration. Cover the flask with a nitrogen‑tight valve and stir for 24 h at room temperature (prevent oxidation).  
+   1.4 Transfer the crude product into a 14 kDa MWCO dialysis bag and dialyze against deionized water at 4 °C for 72 h. Replace dialysis water every 8 h.  
+   1.5 Freeze‑dry the dialyzed product to a spongy solid.  
+   1.6 Confirm grafting by ¹H NMR (dissolve in D₂O). Record spectra and integrate peaks to calculate grafting efficiency.
+
+2. **Clone, express, and purify HRP‑pHLIP**  
+   2.1 Use the sequence you already have for the pET28a‑HRP‑pHLIP plasmid. Transform BL21 (DE3) with the plasmid via heat shock (42 °C, 45 s).  
+   2.2 Plate on LB agar + 60 µg/mL kanamycin; incubate 37 °C overnight. Pick a single colony and inoculate 5 mL LB + 60 µg/mL kanamycin; grow 16 h at 37 °C, 200 rpm.  
+   2.3 Dilute 1 % (v/v) into 30 mL fresh LB + kanamycin; grow to OD₆₀₀ ≈ 0.8.  
+   2.4 Induce with IPTG (final 0.5 mM); incubate 8 h at 16 °C, 220 rpm.  
+   2.5 Harvest cells by centrifugation (8 000× g, 10 min, 4 °C). Resuspend pellet in 10 mL cold lysis buffer (1 L per 5 g pellet).  
+   2.6 Lyse by sonication (30 % amplitude, 5 s on/5 s off, 15 min total) on ice.  
+   2.7 Clarify lysate (12 000× g, 30 min, 4 °C). Collect supernatant.  
+   2.8 Equilibrate Ni‑NTA column with 5× column volumes of lysis buffer. Load the clarified lysate, hold 2 min, then wash with 5× column volumes of wash buffer.  
+   2.9 Elute with 10× column volumes of elution buffer. Collect fractions, assay for HRP activity (e.g., TMB substrate). Pool active fractions.  
+   2.10 Final rinses: 3× lysis buffer, 5× water, 2× 20 % ethanol. Store the purified HRP‑pHLIP at 2–-80 °C.
+
+3. **Transient transfection of HEK293T cells**  
+   3.1 Seed 5 × 10⁵ HEK293T cells per well in 6‑well plates; incubate overnight until 70–80 % confluent.  
+   3.2 Replace medium with 1 mL fresh DMEM + 10 % FBS (no antibiotics).  
+   3.3 For each well, prepare two tubes:  
+        – Tube A: 125 µL DMEM (no serum, no antibiotics) + 2.5 µg plasmid DNA (mix pYZ484 and pYH3 in the required ratio).  
+        – Tube B: 125 µL DMEM + 4 µL Lipo293 TM.  
+   3.4 Gently combine the contents of tubes A and B; let sit at room temperature 15 min (or up to 6 h).  
+   3.5 Add the 250 µL mixture dropwise into the corresponding well; gently mix.  
+   3.6 Incubate 24 h, then stimulate with the LED array (660 nm/730 nm, 1 mW cm⁻²). Apply alternating 5 s pulses of 660 nm (“ON”) and 730 nm (“OFF”) for the duration of the 24‑h stimulation cycle.  
+   3.7 Replace medium every 24 h; sample supernatant every 6 h for 72 h to assay SEAP secretion.
+
+4. **Single‑cell encapsulation**  
+   4.1 Harvest engineered HEK293T cells (1 × 10⁶ cells) by trypsinization, wash, and resuspend in 1 mL PBS pH 6.5 containing HRP‑pHLIP (50 µg/mL). Incubate 30 min at room temperature.  
+   4.2 Centrifuge 150× g, 5 min; discard supernatant. Wash cells three times with PBS pH 6.5.  
+   4.3 Prepare a hydrogel precursor: dissolve the HA‑DA product in PBS to make 2 % (w/v); add 2 mM H₂O₂ immediately before use.  
+   4.4 Resuspend the HRP‑pHLIP‑labeled cells in 1 mL of the HA‑DA/H₂O₂ solution; stir gently for 30 min at room temperature to crosslink via HRP catalysis.  
+   4.5 Collect the hydrogel‑encapsulated cells by centrifugation 150× g, 5 min. Wash three times with PBS pH 7.4 to remove excess reagents.  
+   4.6 Store or assay the encapsulated cells as needed (e.g., fluorescence imaging, viability, cytokine secretion).
+
+**Deliverables**  
+- ¹H NMR spectrum of the HA‑DA conjugate with grafting efficiency annotation.  
+- SDS‑PAGE (or Coomassie) of purified HRP‑pHLIP, with a protein marker lane.  
+- SEAP secretion profile (concentration vs. time) for the optogenetically controlled cells.  
+- Representative fluorescence images of encapsulated cells (HA‑DA shell labeled with FAM, nuclei with DAPI).  
+
+Please confirm receipt of the sample list and let us know the estimated timeline for completion. Thank you.

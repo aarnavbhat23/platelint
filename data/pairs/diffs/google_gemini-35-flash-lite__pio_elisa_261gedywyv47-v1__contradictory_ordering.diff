@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_elisa_261gedywyv47-v1 (clean)
++++ google_gemini-35-flash-lite/pio_elisa_261gedywyv47-v1 (defect)
+@@ -2,3 +2,3 @@
+ 
+-1. Coat 384-well MaxiSorp plates with the capturing antibody (BD Biosciences, 610787) at a 1:500 dilution in coating buffer (NaHCO3 with 0.2% NaN3, pH 9.6) and incubate overnight at 4 °C.
++1. Coat 384-well MaxiSorp plates with the capturing antibody (BD Biosciences, 610787) at a 1:500 dilution in coating buffer (NaHCO3 with 0.2% NaN3, pH 9.6) and incubate overnight at 4 °C. Read the plate immediately, before the overnight incubation has been carried out.
+ 2. Wash the plates 3 times with PBS-0.05% Tween-20 (PBS-T).

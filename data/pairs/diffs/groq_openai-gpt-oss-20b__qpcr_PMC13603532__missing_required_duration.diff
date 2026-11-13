@@ -1,0 +1,96 @@
+--- groq_openai-gpt-oss-20b/qpcr_PMC13603532 (clean)
++++ groq_openai-gpt-oss-20b/qpcr_PMC13603532 (defect)
+@@ -2,50 +2,50 @@
+ 
+-1. **Sample handling**  
+-   * Caecal content: weigh ~35 g, add to 9 mL buffered peptone water (BPW, CM0509, Oxoid). Vortex thoroughly. Store the 10⁻¹ dilution at –20 °C for later qPCR.  
+-   * Skin swab: place gauze tampon (10 × 10 cm) into a stomacher bag with 85 mL BPW. Knead 2 min. Store the 10⁻¹ dilution at –20 °C for later qPCR.
++1. **Sample handling** 
++ * Caecal content: weigh ~35 g, add to 9 mL buffered peptone water (BPW, CM0509, Oxoid). Vortex thoroughly. Store the 10⁻¹ dilution at –20 °C for later qPCR. 
++ * Skin swab: place gauze tampon (10 × 10 cm) into a stomacher bag with 85 mL BPW. Knead 2 min. Store the 10⁻¹ dilution at –20 °C for later qPCR.
+ 
+-2. **Enumeration on Petrifilm**  
+-   * Prepare 10‑fold dilution series for each sample in 0.9 % NaCl (use 25 µL 0.9 % NaCl to the dilution when enumerating total E. coli/Enterobacteriaceae).  
+-   * For tetracycline‑resistant E. coli, add 25 µL of a tetracycline solution (T3383, Sigma‑Aldrich) to 1 mL of the chosen dilution to reach a final concentration of 64 mg L⁻¹ in the SEC plates.  
+-   * Plate 1 mL of each appropriate dilution onto:  
+-     - Petrifilm Select E. coli SEC (Neogen) for total E. coli.  
+-     - Petrifilm Enterobacteriaceae EB (Neogen) for total Enterobacteriaceae.  
+-     - Petrifilm Select E. coli SEC (with tetracycline) for tetracycline‑resistant E. coli.  
+-   * Incubate all plates at 37 °C for 16–18 h, then count colonies to obtain CFU g⁻¹ (caecal) or CFU 1400 cm² (skin swab).
++2. **Enumeration on Petrifilm** 
++ * Prepare 10‑fold dilution series for each sample in 0.9 % NaCl (use 25 µL 0.9 % NaCl to the dilution when enumerating total E. coli/Enterobacteriaceae). 
++ * For tetracycline‑resistant E. coli, add 25 µL of a tetracycline solution (T3383, Sigma‑Aldrich) to 1 mL of the chosen dilution to reach a final concentration of 64 mg L⁻¹ in the SEC plates. 
++ * Plate 1 mL of each appropriate dilution onto: 
++ - Petrifilm Select E. coli SEC (Neogen) for total E. coli. 
++ - Petrifilm Enterobacteriaceae EB (Neogen) for total Enterobacteriaceae. 
++ - Petrifilm Select E. coli SEC (with tetracycline) for tetracycline‑resistant E. coli. 
++ * Incubate all plates at 37 °C for 16–18 h, then count colonies to obtain CFU g⁻¹ (caecal) or CFU 1400 cm² (skin swab).
+ 
+-3. **DNA extraction for qPCR**  
+-   * Thaw stored 10⁻¹ dilutions at 5 °C.  
+-   * For caecal: take 0.5 mL of 10⁻¹ dilution; for skin swab: take 10 mL of initial dilution.  
+-   * Centrifuge caecal: 5 min, 13 000 rpm (Eppendorf Mini Spin). Centrifuge skin: 5 min, 10 000 rpm (Eppendorf 5810R).  
+-   * Resuspend pellets in 750 µL Power Beads solution + 60 µL C1 reagent (Qiagen PowerLyzer PowerSoil Kit). Follow kit instructions, elute DNA in 100 µL, store at –20 °C.
++3. **DNA extraction for qPCR** 
++ * Thaw stored 10⁻¹ dilutions at 5 °C. 
++ * For caecal: take 0.5 mL of 10⁻¹ dilution; for skin swab: take 10 mL of initial dilution. 
++ * Centrifuge caecal: 5 min, 13 000 rpm (Eppendorf Mini Spin). Centrifuge skin: 5 min, 10 000 rpm (Eppendorf 5810R). 
++ * Resuspend pellets in 750 µL Power Beads solution + 60 µL C1 reagent (Qiagen PowerLyzer PowerSoil Kit). Follow kit instructions, elute DNA in 100 µL, store at –20 °C.
+ 
+-4. **Standard curves for qPCR**  
+-   * Grow E. coli strains NCTC 50078 (tetA/uidA) and CSH50::Tn10 (tetB) overnight in BHI broth at 37 °C.  
+-   * Determine CFU mL⁻¹ by plating 10⁻ⁿ dilutions on BHI agar with 16 µg mL⁻¹ tetracycline.  
+-   * Extract DNA from ~8 log₁₀ CFU mL⁻¹ cultures as above.  
+-   * Prepare 10‑fold DNA dilutions in MilliQ water covering 1.6–7 log₁₀ CFU mL⁻¹. Use these for each run to build a standard curve for uidA, tetA, and tetB.
++4. **Standard curves for qPCR** 
++ * Grow E. coli strains NCTC 50078 (tetA/uidA) and CSH50::Tn10 (tetB) overnight in BHI broth at 37 °C. 
++ * Determine CFU mL⁻¹ by plating 10⁻ⁿ dilutions on BHI agar with 16 µg mL⁻¹ tetracycline. 
++ * Extract DNA from ~8 log₁₀ CFU mL⁻¹ cultures as above. 
++ * Prepare 10‑fold DNA dilutions in MilliQ water covering 1.6–7 log₁₀ CFU mL⁻¹. Use these for each run to build a standard curve for uidA, tetA, and tetB.
+ 
+-5. **qPCR assay**  
+-   * Master mix per reaction (25 µL):  
+-     - 1× TaqMan™ Environmental Master Mix (Applied Biosystems).  
+-     - 0.5 µM forward primer + 0.5 µM reverse primer.  
+-     - 0.2 µM probe.  
+-   * Primer/probe sequences:  
+-     - **uidA**: F‑CGGAAGCAACGCGTAAACTC, R‑TGAGCGTCGCAGAACATTACA, P‑FAM‑CGCGTCCGATCACCTGCGTC‑TAMRA.  
+-     - **tetA**: F‑TTGGCATTCTGCATTCACTC, R‑GAAGGCAAGCAGGATGTAGC, P‑FAM‑GATCACCGGCCCTGTAGCCG‑BHQ.  
+-     - **tetB**: F‑TTACGTGAATTTATTGCTTCGG, R‑ATACAGCATCCAAAGCGCAC, P‑FAM‑CGCCGACCAAATCGGTCAGA‑BHQ‑1.  
+-   * Add 5 µL of extracted sample DNA.  
+-   * Set up reactions in a 96‑well plate (Mx3000P non‑skirted plate + optical caps). Include:  
+-     - Duplicate reactions for each sample.  
+-     - Negative control (sterile water).  
+-     - Positive control (1 × 10⁶ CFU mL⁻¹ standard for each target).  
+-   * Thermocycler conditions (MX3005P, Agilent):  
+-     - 95 °C for 10 min (polymerase activation).  
+-     - 45 cycles: 95 °C for 15 s, 60 °C for 1 min.  
+-   * Record Ct values; calculate CFU g⁻¹ (caecal) or CFU 1400 cm² (skin swab) using the standard curves and accounting for dilution factors.
++5. **qPCR assay** 
++ * Master mix per reaction (25 µL): 
++ - 1× TaqMan™ Environmental Master Mix (Applied Biosystems). 
++ - 0.5 µM forward primer + 0.5 µM reverse primer. 
++ - 0.2 µM probe. 
++ * Primer/probe sequences: 
++ - **uidA**: F‑CGGAAGCAACGCGTAAACTC, R‑TGAGCGTCGCAGAACATTACA, P‑FAM‑CGCGTCCGATCACCTGCGTC‑TAMRA. 
++ - **tetA**: F‑TTGGCATTCTGCATTCACTC, R‑GAAGGCAAGCAGGATGTAGC, P‑FAM‑GATCACCGGCCCTGTAGCCG‑BHQ. 
++ - **tetB**: F‑TTACGTGAATTTATTGCTTCGG, R‑ATACAGCATCCAAAGCGCAC, P‑FAM‑CGCCGACCAAATCGGTCAGA‑BHQ‑1. 
++ * Add 5 µL of extracted sample DNA. 
++ * Set up reactions in a 96‑well plate (Mx3000P non‑skirted plate + optical caps). Include: 
++ - Duplicate reactions for each sample. 
++ - Negative control (sterile water). 
++ - Positive control (1 × 10⁶ CFU mL⁻¹ standard for each target). 
++ * Thermocycler conditions (MX3005P, Agilent): 
++ - 95 °C for 10 min (polymerase activation). 
++ - 45 cycles: 95 °C, 60 °C for 1 min. 
++ * Record Ct values; calculate CFU g⁻¹ (caecal) or CFU 1400 cm² (skin swab) using the standard curves and accounting for dilution factors.
+ 
+-6. **Reporting**  
+-   * Provide CFU counts for total E. coli, total Enterobacteriaceae, and tetracycline‑resistant E. coli from Petrifilm.  
+-   * Provide log₁₀ CFU/g (caecal) or log₁₀ CFU/1400 cm² (skin) for each target gene (uidA, tetA, tetB) from qPCR.  
+-   * Include the standard curve parameters (slope, R², efficiency) for each gene.  
++6. **Reporting** 
++ * Provide CFU counts for total E. coli, total Enterobacteriaceae, and tetracycline‑resistant E. coli from Petrifilm. 
++ * Provide log₁₀ CFU/g (caecal) or log₁₀ CFU/1400 cm² (skin) for each target gene (uidA, tetA, tetB) from qPCR. 
++ * Include the standard curve parameters (slope, R², efficiency) for each gene. 
+ 

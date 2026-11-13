@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/qpcr_PMC13598650 (clean)
++++ google_gemini-35-flash-lite/qpcr_PMC13598650 (defect)
+@@ -8,3 +8,3 @@
+ 2. Generation of Stable Cell Lines via Retroviral Transduction
+-- Seed HEK293T packaging cells in a 3.5 cm dish at 5 × 10^5 cells/dish in 2 mL complete DMEM. Incubate overnight at 37 °C with 5% CO2.
++- Seed HEK293T packaging cells in a 3.5 cm dish at 5 × 10^5 cells/dish in 2 mL complete DMEM. Incubate overnight at 37 °C with 5% CO2, and hold the plate at 4 °C for the whole of this step.
+ - Prepare transfection mix in 200 μL Opti-MEM: 1.0 μg FlipNanoLuc retroviral vector, 0.7 μg gag-pol plasmid, and 0.3 μg VSV-G plasmid. Add 6 μL PEI MAX (1 mg/mL, 1:3 DNA:PEI ratio), vortex, and incubate at room temperature for 15–20 min.

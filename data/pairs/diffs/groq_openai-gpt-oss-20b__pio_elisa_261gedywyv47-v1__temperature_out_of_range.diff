@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/pio_elisa_261gedywyv47-v1 (clean)
++++ groq_openai-gpt-oss-20b/pio_elisa_261gedywyv47-v1 (defect)
+@@ -9,3 +9,3 @@
+ 7. Wash five times with PBS‑T.  
+-8. Add ExtrAvidin phosphatase (Sigma E2636) diluted 1:200 in blocking buffer; incubate for 30 min at 37 °C.  
++8. Add ExtrAvidin phosphatase (Sigma E2636) diluted 1:200 in blocking buffer; incubate for 30 min at 75 °C.  
+ 9. Add fast p‑nitrophenyl phosphate (Sigma N1891) as substrate, and read absorbance at 405 nm every 2.5 min for up to 60 min.  

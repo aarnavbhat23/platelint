@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/pio_growth_curve_77jhrkn (clean)
++++ groq_openai-gpt-oss-120b/pio_growth_curve_77jhrkn (defect)
+@@ -23,3 +23,3 @@
+ 
+-   (For reference, an OD₆₀₀ of 0.10 corresponds to 8 × 10⁸ cells mL⁻¹, so the above phage concentrations will give the correct MOI after the 1:10 dilution caused by adding 20 µL to 180 µL.)
++   (For reference, an OD₆₀₀ of 0.10 corresponds to 8 × 10⁸ cells mL⁻¹, so the above phage concentrations will give the correct MOI after the 1:10 dilution caused by adding 20 mL to 180 µL.)
+ 

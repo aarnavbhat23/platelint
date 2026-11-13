@@ -25,6 +25,7 @@ runs are not seed-reproducible; every raw response is stored instead.
 """
 
 import argparse
+import concurrent.futures
 import csv
 import json
 import os
@@ -42,7 +43,10 @@ MODELS = [
     # The models endpoint lists gemini-2.5-flash and -flash-lite, but calling
     # them returns 404 "no longer available to new users", naming these as the
     # replacements. Listing a model is not proof you can call it.
-    {"provider": "google", "model": "gemini-3.8-flash",      "sleep": 6.0},
+    # gemini-3.8-flash returned 503 "high demand" on every request over eight
+    # minutes and wrote nothing, so it is replaced by the 3.5 pair: same
+    # generation, full and lite tiers, matching the gpt-oss 120b/20b pair.
+    {"provider": "google", "model": "gemini-3.5-flash",       "sleep": 6.0},
     {"provider": "google", "model": "gemini-3.5-flash-lite", "sleep": 6.0},
     {"provider": "groq",   "model": "openai/gpt-oss-120b",   "sleep": 3.0},
     {"provider": "groq",   "model": "openai/gpt-oss-20b",    "sleep": 3.0},
@@ -95,6 +99,13 @@ def post(url, body, headers, tries=6):
                 retry_after = e.headers.get("retry-after")
                 if retry_after and retry_after.isdigit():
                     wait = max(wait, int(retry_after))
+                # A retry-after of many minutes means a daily quota, not a
+                # per-minute throttle. Blocking on it would stall the whole run,
+                # so fail this request and let the next run resume it.
+                if wait > 300:
+                    raise RuntimeError(
+                        f"rate limited for {wait}s (daily quota reached): "
+                        f"{detail[:120]}") from None
                 print(f"    HTTP {e.code}, waiting {wait}s: {detail[:120]}", flush=True)
                 time.sleep(wait)
                 continue
@@ -213,13 +224,27 @@ def main():
                     help="print the model ids each key can reach, then exit")
     ap.add_argument("--probe", type=int, metavar="N",
                     help="run N protocols per model and report measured usage")
+    ap.add_argument("--workers", type=int, default=1, metavar="N",
+                    help="requests in flight per model. The free tiers limit "
+                         "requests per minute, not concurrency, so N>1 is much "
+                         "faster; retries absorb the 429s it provokes.")
+    ap.add_argument("--only", metavar="PROVIDER:MODEL",
+                    help="run just this one entry from MODELS, so the models can "
+                         "be run concurrently in separate processes")
     a = ap.parse_args()
 
+    global MODELS
     if a.list_models:
         list_models()
         return
     if not MODELS:
         sys.exit("MODELS is empty: run --list-models, then fill in MODELS in this file")
+
+    if a.only:
+        prov, mod = a.only.split(":", 1)
+        MODELS = [m for m in MODELS if m["provider"] == prov and m["model"] == mod]
+        if not MODELS:
+            sys.exit(f"--only {a.only} matches nothing in MODELS")
 
     with open("data/sources_all.csv") as f:
         rows = list(csv.DictReader(f))
@@ -228,33 +253,45 @@ def main():
     print(f"{len(rows)} protocols x {len(MODELS)} models = {len(rows)*len(MODELS)} requests")
 
     usage_rows, failures = [], []
+
+    def one(spec, row):
+        """Runs in a worker thread. list.append is atomic, so the two result
+        lists need no lock."""
+        try:
+            res = run_one(spec, row)
+        except Exception as e:
+            failures.append((tag(spec), row["id"], str(e)[:200]))
+            print(f"  FAILED {tag(spec)} {row['id']}: {str(e)[:160]}", flush=True)
+            return 0
+        usage_rows.append({
+            "provider": spec["provider"], "model": spec["model"],
+            "protocol_id": row["id"],
+            "input_tokens": res["input_tokens"], "output_tokens": res["output_tokens"],
+            "finish_reason": res["finish_reason"], "n_chars": len(res["text"]),
+        })
+        flag = "" if res["text"].strip() else "  EMPTY OUTPUT"
+        print(f"  {tag(spec):<34} {row['id']:<32} in {res['input_tokens']:6d} "
+              f"out {res['output_tokens']:6d} {res['finish_reason']}{flag}", flush=True)
+        return 1
+
     for spec in MODELS:
-        done = skipped = 0
-        for row in rows:
-            if os.path.exists(out_path(spec, row["id"])) and not a.probe:
-                skipped += 1
-                continue
-            try:
-                res = run_one(spec, row)
-            except Exception as e:
-                failures.append((tag(spec), row["id"], str(e)[:200]))
-                print(f"  FAILED {tag(spec)} {row['id']}: {str(e)[:160]}", flush=True)
-                continue
-            done += 1
-            usage_rows.append({
-                "provider": spec["provider"], "model": spec["model"],
-                "protocol_id": row["id"],
-                "input_tokens": res["input_tokens"], "output_tokens": res["output_tokens"],
-                "finish_reason": res["finish_reason"], "n_chars": len(res["text"]),
-            })
-            flag = "" if res["text"].strip() else "  EMPTY OUTPUT"
-            print(f"  {tag(spec):<34} {row['id']:<32} in {res['input_tokens']:6d} "
-                  f"out {res['output_tokens']:6d} {res['finish_reason']}{flag}", flush=True)
-            time.sleep(spec.get("sleep", 2.0))
+        todo = [r for r in rows
+                if a.probe or not os.path.exists(out_path(spec, r["id"]))]
+        skipped = len(rows) - len(todo)
+        if a.workers > 1:
+            with concurrent.futures.ThreadPoolExecutor(max_workers=a.workers) as ex:
+                done = sum(ex.map(lambda r: one(spec, r), todo))
+        else:
+            done = 0
+            for row in todo:
+                done += one(spec, row)
+                time.sleep(spec.get("sleep", 2.0))
         print(f"{tag(spec)}: wrote {done}, skipped {skipped} already present")
 
     if usage_rows:
-        path = os.path.join(OUT, "usage_probe.csv" if a.probe else "usage.csv")
+        name = "usage_probe.csv" if a.probe else (
+            f"usage_{tag(MODELS[0])}.csv" if a.only else "usage.csv")
+        path = os.path.join(OUT, name)
         write_header = not os.path.exists(path) or a.probe
         with open(path, "a" if not write_header else "w", newline="") as f:
             w = csv.DictWriter(f, fieldnames=list(usage_rows[0].keys()))

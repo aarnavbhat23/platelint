@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/viability_PMC13306065 (clean)
++++ google_gemini-35-flash-lite/viability_PMC13306065 (defect)
+@@ -14,3 +14,3 @@
+ 
+-8. Perform an MTT assay for cell viability by seeding 10,000 cells/well in 96-well plates. After 24 h, wash with PBS, treat with 50 and 100 µg/mL CDs in 1 mL growth medium for 1 h, wash with PBS, and incubate with 0.25 mg/mL MTT solution in growth medium at 37 °C for 2 h. Solubilize the resulting formazan crystals in 150 µL isopropanol and measure absorbance at 590 nm.
++8. Perform an MTT assay for cell viability by seeding 10,000 cells/well in 96-well plates. After 24 h, wash with PBS, treat with 50 and 100 µg/mL CDs in 10200 µL growth medium for 1 h, wash with PBS, and incubate with 0.25 mg/mL MTT solution in growth medium at 37 °C for 2 h. Solubilize the resulting formazan crystals in 150 µL isopropanol and measure absorbance at 590 nm.
+ 

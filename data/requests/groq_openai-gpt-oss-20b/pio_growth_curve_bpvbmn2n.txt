@@ -1,0 +1,15 @@
+1. Prepare TAP medium according to our standard recipe and filter‑sterilize.  
+2. Transfer 50 mL of sterile TAP into a 100 mL Erlenmeyer flask.  
+3. Inoculate the flask with 1 mL of stationary‑phase *Chlamydomonas reinhardtii* culture (culture age 120–168 h).  
+4. Place the flask on an orbital shaker set to 150 rpm, 25 °C, with a 1 cm orbital radius.  
+5. Position the flask under a white light source delivering ~80 µmol m⁻² s⁻¹ (60–120 µmol m⁻² s⁻¹ acceptable).  
+6. At time 0 (inoculation), withdraw 100 µL of the culture and record absorbance at 750 nm and fluorescence in a black 96‑well clear‑bottom plate (e.g., Perkin Elmer IsoPlate TM 96F).  
+7. Sample at least once per day for 168 h (7 days). Do not remove more than 10 % of the total culture volume over the entire experiment.  
+8. For each time point, take technical triplicates (3 wells per sample) to improve data quality.  
+9. After the final sampling, retain the remaining culture for dry cell weight (DCW) determination by centrifugation (see Joao Vitor Molino protocol, 1641600 s).  
+10. Plate‑reader fluorescence settings (bottom detection optics):  
+    • Chlorophyll: excite 440 nm, emit 680 nm, gain 70.  
+    • mVenus: excite 500 nm, emit 530 nm, gain 120.  
+    • mCherry: excite 583 nm, emit 613 nm, gain 150.  
+
+Please confirm you can follow these parameters and let me know if any adjustments are needed.

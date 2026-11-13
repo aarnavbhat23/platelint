@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/pio_growth_curve_4fjgtkn (clean)
++++ groq_openai-gpt-oss-20b/pio_growth_curve_4fjgtkn (defect)
+@@ -8,3 +8,3 @@
+    a. Using a non‑coated Starlab CytoOne 96‑well plate, dispense 5 µL of the spore suspension into each well.  
+-   b. Add 195 µL of liquid growth medium (total volume 200 µL per well).  
++   b. Add 195 µL of liquid growth medium (total volume 200 mL per well).  
+    c. Fill the peripheral wells or the spaces between wells with sterile medium or sterile water to minimise edge effects.  

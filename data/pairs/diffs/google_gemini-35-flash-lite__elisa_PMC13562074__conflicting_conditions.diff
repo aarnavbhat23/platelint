@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/elisa_PMC13562074 (clean)
++++ google_gemini-35-flash-lite/elisa_PMC13562074 (defect)
+@@ -15,3 +15,3 @@
+ - Wash dissected organs in ice-cold sterile PBS in a 12-well plate on ice, dry gently on Whatman paper, weigh each tissue, and record weights.
+-- Prepare 1.5 mL tubes with modified lids fitted with 20 μm strainers. Place intact lymph nodes or 50 mg tumor pieces onto the strainers, add 10 μL of cold sterile PBS, and centrifuge at 150 × g for 10 min at 4°C.
++- Prepare 1.5 mL tubes with modified lids fitted with 20 μm strainers. Place intact lymph nodes or 50 mg tumor pieces onto the strainers, add 10 μL of cold sterile PBS, and centrifuge at 150 × g for 10 min at 4°C, and hold the plate at 37 °C for the whole of this step.
+ - Gently aspirate the ISF supernatant without disturbing the pellet, transfer to new tubes, and store immediately at −80°C.

@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/elisa_PMC13466342 (clean)
++++ groq_openai-gpt-oss-20b/elisa_PMC13466342 (defect)
+@@ -16,3 +16,3 @@
+    3.1. Place each cured hydrogel (1 mL) in a 15 mL tube with 10 mL PBS (pH 7.4) and incubate at 37 °C with gentle shaking.  
+-   3.2. At days 15, 17, and 20, centrifuge at 6000 rpm for 5 min, collect the supernatant, store at –80 °C.  
++   3.2. At days 15, 17, and 20, centrifuge at 6000 rpm for 5 min, collect the supernatant, store at –80 °C, and hold the plate at 4 °C for the whole of this step.
+    3.3. Replace with fresh 10 mL PBS for the next time point.  

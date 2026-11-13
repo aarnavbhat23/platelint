@@ -1,0 +1,11 @@
+1. Produce fluorescent ICAM-1-displaying VLPs (along with control VLPs using empty vector and the ICAM-1 E34A mutant) by seeding 5 x 10^6 HEK293T cells per 10 cm dish in complete DMEM (DMEM + 10% heat-inactivated FBS + 10 mM HEPES). Incubate overnight to reach 70–80% confluence. Co-transfect cells with 8 µg of psPAX2 fluorescent plasmid (mNeon, eYFP, TagBFP, or mScarlet) and 4 µg of expression plasmid (wild-type pCMV6-ICAM-1, E34A mutant, or empty vector) using 36 µL X-tremeGENE 9 in 1 mL total Opti-MEM. Replace media with 10 mL fresh complete DMEM after 16–24 hours, and incubate for another 24 hours.
+
+2. Harvest culture supernatant at 48 hours post-transfection and pass through a 0.45 µm syringe filter. Mix 9 mL of filtered supernatant with 3 mL of Lenti-X Concentrator and incubate overnight at 4 °C. Centrifuge at 1,500 × g for 45 minutes at 4 °C, thoroughly aspirate the supernatant, and resuspend the pellet in 90 µL PBS to yield a 100× VLP stock. Aliquot and store at -80 °C or use immediately.
+
+3. For the binding assay, harvest target cells (THP-1, parental Jurkat, αL KO Jurkat, or our submitted cell samples) and resuspend directly in serum-free binding buffer (RPMI + 0.1% BSA) at 1–2 × 10^6 cells/mL. Dispense 50 µL of cell suspension per well into a 96-well V-bottom plate (50,000–100,000 cells/well).
+
+4. Add 50 µL of 2× Mg2+/EGTA activation solution (10 mM MgCl2, 4 mM EGTA in binding buffer) to each well. Immediately add 1–5 µL of concentrated VLP stock per well (titrate as needed for optimal signal-to-background ratio) and mix. Incubate at 37 °C for 10 minutes.
+
+5. Fix cells by adding 33 µL of cold 4% PFA to each well (1% final PFA concentration) and incubate on ice. Centrifuge the plate at 350 × g for 3 minutes, remove supernatant, and wash twice with 250 µL FACS buffer (PBS + 0.2% BSA).
+
+6. Resuspend the cell pellets in 200 µL FACS buffer per well and analyze VLP binding signal using flow cytometry.

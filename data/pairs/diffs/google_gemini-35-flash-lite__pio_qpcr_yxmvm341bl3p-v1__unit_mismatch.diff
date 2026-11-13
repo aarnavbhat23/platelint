@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_qpcr_yxmvm341bl3p-v1 (clean)
++++ google_gemini-35-flash-lite/pio_qpcr_yxmvm341bl3p-v1 (defect)
+@@ -4,3 +4,3 @@
+ 
+-For each sample and gene, add 5 µl of cDNA to the bottom of an 8-tube PCR strip, then add either 25 µl (for duplicates) or 35 µl (for triplicates) of the SYBR Mastermix using the electronic multichannel pipette. Mix thoroughly using the multichannel pipette and perform a quick spin. 
++For each sample and gene, add 5 ml of cDNA to the bottom of an 8-tube PCR strip, then add either 25 µl (for duplicates) or 35 µl (for triplicates) of the SYBR Mastermix using the electronic multichannel pipette. Mix thoroughly using the multichannel pipette and perform a quick spin. 
+ 

@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_qpcr_36wgqdn1ovk5-v1 (clean)
++++ google_gemini-35-flash-lite/pio_qpcr_36wgqdn1ovk5-v1 (defect)
+@@ -4,3 +4,3 @@
+ 
+-Prepare the PCR Master Mix per sample per gene using 6 µl SYBR Green, 2 µl autoclaved MilliQ H2O, and 2 µl of primers (at a final concentration of 1.25 µM each), scaling up with appropriate overage for the sample number. Pour the gene master mix into a reservoir and dispense 10 µl of the master mix into each well according to our pre-arranged plate layout. 
++Prepare the PCR Master Mix per sample per gene using 6 µl SYBR Green, 2 µl autoclaved MilliQ H2O, and 2 ml of primers (at a final concentration of 1.25 µM each), scaling up with appropriate overage for the sample number. Pour the gene master mix into a reservoir and dispense 10 µl of the master mix into each well according to our pre-arranged plate layout. 
+ 

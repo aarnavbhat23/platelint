@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/qpcr_PMC13753574 (clean)
++++ google_gemini-35-flash-lite/qpcr_PMC13753574 (defect)
+@@ -6,3 +6,3 @@
+ 
+-4. Harvest three distinct sample types per genotype at 12 h post-treatment, with at least 8 seedlings per genotype: (i) the wounded leaflet of the first true leaf, (ii) the undamaged second true leaf from the same wounded plant, and (iii) undamaged leaves from independent, untreated control plants. Snap-freeze all harvested tissues immediately in liquid nitrogen and store at −80°C.
++4. Snap-freeze all harvested tissues immediately in liquid nitrogen and store at −80°C.
+ 

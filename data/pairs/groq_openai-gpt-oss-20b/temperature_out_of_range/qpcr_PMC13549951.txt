@@ -1,0 +1,99 @@
+Please perform the following on our prostate samples:
+
+1. **Mouse generation and genotyping**  
+   • Use CRISPR/Cas9 to insert the human SKP2 P2A sequence into exon 1 of the endogenous mouse probasin gene (University of California, Irvine Transgenic Mouse Facility).  
+   • Cross heterozygous hSKP2‑KI females with WT FVB/N males to produce male progeny that express human SKP2 in all prostate lobes.  
+   • Identify male offspring by ear tags and collect tail DNA.  
+   • Genotype using PCR with primers:  
+     – 845: 5’-ATACCTGAAACATGGGATAGGCAC-3’  
+     – 846: 5’-TTGCTACTCAGGTCTGGAATCTC-3’  
+     – 847: 5’-ACCAAGTTCCAGAACATTCGTTTC-3’.  
+   • Confirm genotype and record birthdates.
+
+2. **Tissue collection**  
+   • Dissect prostate lobes from hSKP2‑KI and WT male mice at ages 4, 9, and 14 months (n = 4 per genotype per age).  
+   • Weigh each lobe, then either:  
+     – Fix in 10 % neutral buffered formalin for histology/IHC, or  
+     – Snap‑freeze in liquid nitrogen for RNA and protein extraction.
+
+3. **Human SKP2 confirmation**  
+   • Extract RNA from fresh prostate tissues with RNAStat (Amsbio).  
+   • Synthesize cDNA with Oligo‑dT GoScript™ mix (Promega).  
+   • Perform qPCR using iTaq SYBR Green Super‑Mix (Bio‑Rad) on a CFX Connect system.  
+   • Use primers from Supplementary Table 1 (ordered from OriGene or Eurofins).  
+   • Run samples in triplicate, normalize to mouse Gapdh and human ACTB.  
+   • Calculate fold change with the 2 − ΔΔCt method (N = 4 per group).
+
+4. **Western blot**  
+   • Homogenize prostate tissues in RIPA buffer + protease inhibitors.  
+   • Quantify protein (Bio‑Rad DC assay).  
+   • Load equal amounts on 8–16 % SDS‑PAGE, transfer to PVDF.  
+   • Block with 5 % non‑fat milk, incubate overnight at -80 °C with:  
+     – SKP2 (ab68455, Abcam)  
+     – p27 Kip1 (#610241, BD)  
+     – E‑cadherin (#610181, BD)  
+     – N‑cadherin (#610920, BD)  
+     – Vimentin (#550513, BD)  
+     – Twist1 (#sc15393, Santa Cruz)  
+     – β‑tubulin (sc‑5274, Santa Cruz).  
+   • Use appropriate anti‑mouse or anti‑rabbit secondaries (Cell Signaling).  
+   • Detect with Prometheus Protein ProSignal® Dura ECL (Genesee Scientific) on X‑ray film.
+
+5. **Immunohistochemistry (mouse)**  
+   • Embed formalin‑fixed tissues in paraffin, section at 5 µm.  
+   • Deparaffinize, hydrate, retrieve antigen with sodium citrate (20 min steam).  
+   • Quench peroxidase (3 % H₂O₂, 10 min), block with 3 % normal goat serum (1 h).  
+   • Incubate overnight at 4 °C with primary antibodies: Ki67 (#12202, Cell Signaling), AR (#5153, Cell Signaling), SKP2 (ab68455), p27 Kip1 (#610241).  
+   • Apply HRP‑labeled secondary, visualize with DAB (Cell & Tissue Staining kit, R&D).  
+   • Image on Keyence BZ‑X710, count positive cells in 12 random fields at × 40 (ImageJ).  
+   • Use 4 mice per group for statistical analysis.
+
+6. **Human tissue microarray**  
+   • Acquire TMA from Tissue Array LLC (various pathology).  
+   • Perform SKP2 IHC on Leica Bond RX: EDTA retrieval (20 min, 100 °C), primary SKP2 antibody (Cell Signaling #2652, 1:100, overnight 4 °C), Bond Polymer Refine Detection kit.  
+   • Scan slides, analyze with HALO software.
+
+7. **Masson’s trichrome**  
+   • Deparaffinize, hydrate, mordant in Bouin’s, wash, sequentially stain: Hematoxylin (10 min), Scarlet Acid Fuchsin Red (5 min), phosphotungstic acid (5 min), Aniline Blue (90 s), 1 % acetic acid (1 min).  
+   • Use 12‑month prostate sections, n = 4 per genotype.
+
+8. **RNA‑seq**  
+   • Dissect ventral lobes from 12‑month hSKP2‑KI (n = 4) and WT (n = 4) mice, homogenize in RNAStat.  
+   • Verify RIN 8–10 on Agilent 2100.  
+   • Purify mRNA (poly‑T beads), fragment, synthesize first‑strand cDNA (random hexamers), second‑strand, end‑repair, A‑tail, adapter ligation, size selection, PCR amplify.  
+   • Quantify with Qubit, check size on Bioanalyzer, pool, sequence 20 M paired‑end 150 bp on Illumina (Novogene).  
+   • Trim reads, map to mouse genome, normalize counts.  
+   • Identify DEGs (FDR ≤ 0.05), run GSEA (Broad Institute) for GO/ hallmark pathways.  
+   • Deposit raw/normalized data in GEO (GSE295398).
+
+9. **Migration/invasion assays**  
+   • Use HTS 24‑well plates and BioCoat Matrigel invasion chambers (Corning).  
+   • Employ PC3 and C4‑2B cells (ATCC), stably transfected with pcDNA3.1 control or SKP2.  
+   • After 24‑h serum starvation, seed 30 000 PC3 or 80 000 C4‑2B cells in 500 µl RPMI 1640 (no serum) into the upper insert; add 750 µl RPMI 1640 + 10 % FBS to the lower well (chemoattractant) or serum‑free as control.  
+   • Incubate 72 h, remove non‑migrated cells (cotton swab), fix with cold methanol, stain with hematoxylin.  
+   • Capture images from 5 fields per insert, repeat 3 inserts per line.  
+   • Count cells, analyze statistically.
+
+10. **Prostate organoid culture**  
+    • Mince fresh prostate tissues, digest 2 h at 37 °C in 5 mg/ml Collagenase II + 10 µM Y‑27632 (Life Technologies).  
+    • Wash, further digest ~15 min at 37 °C in TrypLE + 10 µM Y‑27632 (pipette every 5 min).  
+    • Wash, centrifuge, resuspend 20 000 cells in 20 µl cold Matrigel, plate into 48‑well plates, 15 min at 37 °C upside‑down to solidify.  
+    • Add 300–500 µl pre‑warmed medium + 10 µM Y‑27632. Refresh every 2–3 days.  
+    • Passage with TrypLE + Y‑27632.  
+    • Fix organoids with 4 % PFA, embed in HistoGel, section for H&E and IHC (AR, SKP2, p27).  
+    • For inhibitor studies, plate organoids in 96‑well plates, treat with vehicle (0.5 % DMSO), FKA or C1 at indicated concentrations (triplicate).  
+    • Image with Keyence fluorescence, analyze size (ImageJ) and viability via Calcein‑AM (exc 495 nm, em 515 nm).  
+    • Compare to day 0 values; use n = 15 organoids per condition.
+
+11. **Bulk RNA‑seq deconvolution**  
+    • Obtain mouse prostate single‑cell signature from Joseph et al. (GUDMAP, DOI 10.25548/17‑DRBC).  
+    • Process the RDS file in R, extract cell‑type genes and annotation.  
+    • Run CIBERSORTx with S‑mode batch correction on the bulk prostate RNA‑seq data from step 8, generate cell‑fraction estimates.
+
+12. **Statistical analysis**  
+    • Use GraphPad Prism 9.0.  
+    • Perform Student’s t‑test (Welch when variances unequal), one‑way ANOVA with Bonferroni post‑test, log‑rank for survival.  
+    • Express data as mean ± SD, consider p < 0.05 significant.  
+    • Ensure sample sizes meet the power analysis (effect size = 2.0, α = 0.05, >85 % power).
+
+All animal procedures should comply with the University of California, Irvine protocol #: AUP‑19‑109. Please confirm receipt of this request and let us know the expected timeline and any additional materials required.

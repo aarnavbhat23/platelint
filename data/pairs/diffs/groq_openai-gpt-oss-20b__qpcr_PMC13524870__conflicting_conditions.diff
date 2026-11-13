@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/qpcr_PMC13524870 (clean)
++++ groq_openai-gpt-oss-20b/qpcr_PMC13524870 (defect)
+@@ -59,3 +59,3 @@
+     - Perform 1:10 serial dilutions (four steps) in a 96‑well plate; plate 3 µL of each dilution (and undiluted) in triplicate on CCFA/TCCFA.  
+-    - Incubate all plates 48 h at 37 °C anaerobically.
++    - Incubate all plates 48 h at 37 °C anaerobically, and hold the plate at 4 °C for the whole of this step.
+ 

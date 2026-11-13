@@ -1,0 +1,17 @@
+Please run an anti-Salmonella IgY ELISA on our provided layer hen samples using the following protocol and materials. 
+
+1. Coat the wells of a Nunc 96-well polystyrene round-bottom microplate (Thermo Fisher Cat #268200) with 2 µg/well of Salmonella Typhimurium LPS (Merck MilliporeSigma Cat #L3129) diluted in 1X ELISA Coating Buffer (BioLegend Cat #421701). Incubate overnight at 4 ºC.
+2. Wash the plate four times with 10% PBS-Tween-20.
+3. Block the plate with 25 µl/well of 3% non-fat milk in PBS.
+4. Incubate for 1 hour at room temperature.
+5. Wash the plate four times with 10% PBS-Tween-20.
+6. Add 50 µl of each prepared egg yolk IgY sample in triplicate at a concentration of 1.25 mg/ml (titrated with sample buffer as needed). 
+7. Incubate for 1 hour at room temperature.
+8. Wash the plate four times with 10% PBS-Tween-20.
+9. Add 50 µl per well of Anti-Chicken IgY HRP Conjugate (Promega Cat #G1351) diluted 1:30,000 in conjugate diluent.
+10. Incubate for 1 hour at room temperature.
+11. Wash the plate four times with 10% PBS-Tween-20.
+12. Add 1080 µL of eBioscience TMB Solution (1X) (Thermo Fisher Cat #00-4201-56) to each well.
+13. Incubate the plate for 15 minutes in a very dark place.
+14. Add 50 µl of 3M HCl to each well to stop the reaction.
+15. Measure the absorbance using a microplate reader, and apply a cut-off optical density of 0.51 (calculated as the mean OD of the negative control times 3).

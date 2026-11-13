@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/elisa_PMC13449785 (clean)
++++ google_gemini-35-flash/elisa_PMC13449785 (defect)
+@@ -20,3 +20,3 @@
+ 4. Inflammasome Activation Assays:
+-   - Plate iMacs at 0.5 × 10⁵ cells/well (100 µL in 96-well plates) or 1 × 10⁵ cells/well (500 µL on coverslips in 24-well plates for microscopy) in OptiMEM prior to stimulation.
++   - Plate iMacs at 0.5 × 10⁵ cells/well (1080 µL in 96-well plates) or 1 × 10⁵ cells/well (500 µL on coverslips in 24-well plates for microscopy) in OptiMEM prior to stimulation.
+    - Stimulate specific pathways using the following regimens:

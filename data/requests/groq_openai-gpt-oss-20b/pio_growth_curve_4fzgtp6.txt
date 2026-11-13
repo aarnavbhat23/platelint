@@ -1,0 +1,63 @@
+Run a liquid growth assay for each of our Aspergillus isolates in a 96‑well plate to generate growth curves that will later be analysed with the BEAST package.
+
+**Experimental design**
+
+1. **Samples and replicates**  
+   • We have 5 isolates.  
+   • For each isolate prepare 3 technical replicates.  
+   • Use a fresh 96‑well plate for each isolate.  
+   • Plate layout:  
+     - Replicate 1 in wells A1–H12,  
+     - Replicate 2 in the same positions on the next plate,  
+     - Replicate 3 on the third plate.  
+   • Keep the well positions identical across replicates (A5 must stay A5, B2 stays B2, etc.).
+
+2. **Media and inoculum**  
+   • Use liquid minimal medium (MM) supplemented with 1 % glucose.  
+   • Prepare a spore suspension at 1 × 10⁶ spores mL⁻¹ in sterile PBS.  
+   • Add 200 µL of inoculum + 800 µL of MM to each well to give 1 mL total volume (final spore concentration 1 × 10⁵ spores mL⁻¹).
+
+3. **Incubation**  
+   • Incubate plates at 37 °C with shaking at 120 rpm.  
+   • Measure optical density at 600 nm (OD₆₀₀) at 6‑hour intervals from 0 to 30 h (i.e., 0, 6, 12, 18, 24, 30 h).  
+   • Record OD values immediately after reading; do not disturb the plate during measurement.
+
+4. **Data recording**  
+   • For each well record the OD₆₀₀ value at each time point.  
+   • Export the data as a plain‑text file (tab‑delimited) with the following structure:  
+
+     ```
+     Time    Well    OD600
+     0       A1      0.015
+     0       A2      0.016
+     …
+     6       A1      0.102
+     …
+     ```
+
+   • Name the files exactly as:  
+     - plate1-Rep1.txt  
+     - plate1-Rep2.txt  
+     - plate1-Rep3.txt  
+     - plate2-Rep1.txt  
+     - plate2-Rep2.txt  
+     - plate2-Rep3.txt  
+     - plate3-Rep1.txt  
+     - plate3-Rep2.txt  
+     - plate3-Rep3.txt  
+     - plate4-Rep1.txt  
+     - plate4-Rep2.txt  
+     - plate4-Rep3.txt  
+     - plate5-Rep1.txt  
+     - plate5-Rep2.txt  
+     - plate5-Rep3.txt
+
+   • Ensure that the well names (e.g., “A1”, “B2”) and the order of columns match exactly across all files.
+
+5. **Deliverables**  
+   • Provide the 15 text files listed above in a single ZIP archive.  
+   • Include a short README stating the incubation temperature, shaking speed, and measurement schedule.  
+   • If possible, provide a copy of the R script that reads these files and produces the `myDataList` object (the script is supplied in the attached PDF).  
+   • Also provide a single PDF showing all growth curves plotted together (use the `plot(beastRun)` command as described; name the file `beast_plot_fungal_data.pdf`).
+
+Once you have completed the incubations and collected the OD measurements, please send the ZIP archive to our email address. This will allow us to perform the BEAST analysis as outlined in the protocol.

@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/elisa_PMC13519604 (clean)
++++ groq_openai-gpt-oss-120b/elisa_PMC13519604 (defect)
+@@ -26,3 +26,3 @@
+ 4. **Cytosolic nucleic‑acid/STING activation (viral mimic)**
+-   - Reconstitute ISD, poly(dG:dC) and 2′3′‑cGAMP to 1 mg/mL (store 20 µL aliquots, −20 °C).  
++   - Reconstitute ISD, poly(dG:dC) and 2′3′‑cGAMP to 1 mg/mL (store 20 µL aliquots, −75 °C).  
+    - Use final concentrations: ISD 1 µg/mL, poly(dG:dC) 1 µg/mL, 2′3′‑cGAMP 5 µg/mL.  

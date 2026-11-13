@@ -1,0 +1,9 @@
+Please run an indirect ELISA on our provided samples (chicken/layer hen IgY, rat sera, and cat sera) to test for the presence of anti-HIV antibodies, following the protocol below:
+
+1. Coat Nunc 96-Well Polystyrene Round Bottom Microwell Plates (Thermo Fisher #260210) with 50 ng of synthetic gp-120 peptide per well in Coating Buffer (BioLegend #421701), and incubate overnight at 4°C.
+2. Wash the plate 4 times with PBS-Tween-20. Block with 25 µl/well of 3% non-fat milk in PBS for 1 hour at room temperature.
+3. Wash the plate 4 times with PBS-Tween-20. Add our samples in triplicate (25 ml of IgY at 1 mg/ml, or 25 µl of cat/rat sera diluted 1:16 in PBS-non-fat milk). Include human positive serum, turtle serum negative controls, and 0.9% normal saline blanks.
+4. Incubate for 2 hours at room temperature, then wash the plate 4 times with PBS-Tween-20.
+5. Add 25 µl per well of the secondary detection reagent, SpLAG-anti-IgY-HRP (homemade, peroxidase-labelled IgY coupled to proteins A, G, and L), diluted 1:1000 in ELISA Diluent (STEMCELL #1916). Incubate for 1 hour at room temperature.
+6. Wash the plate 4 times with PBS-Tween-20. Add 50 µl of TMB substrate (MilliporeSigma #54827-17-7) to each well and incubate in the dark for 15 minutes at room temperature. 
+7. Stop the reaction once positive controls develop color and blanks/negative controls remain clear. Read the plate and calculate the cut-off point as four times the mean of the negative controls.

@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/qpcr_PMC13561693 (clean)
++++ groq_openai-gpt-oss-120b/qpcr_PMC13561693 (defect)
+@@ -14,3 +14,3 @@
+    a. Thaw and expand mESCs in DMEM+++; change medium every 2–3 days. Passage once cells reach 70‑80 % confluence. Use cells after at least two passages post‑thaw.  
+-   b. **Day 0 – seeding**: Coat a 12‑well plate with 0.1 % gelatin (500 µL/well, 20 min, RT). Detach 70‑80 % confluent cells from a 6‑well plate with 0.25 % trypsin‑EDTA (500 µL/well, 37 °C 1‑2 min), neutralize with 1 mL DMEM base, centrifuge 137 g 5 min RT, resuspend in NNE. Count and seed 1 mL/well at 40 000 cells/mL (≈40 000 cells per well). Incubate 5 % CO₂, 37 °C, gentle rocking, no disturbance for 24 h.  
++   b. **Day 0 – seeding**: Coat a 12‑well plate with 0.1 % gelatin (500 µL/well, 20 min, RT). Detach 70‑80 % confluent cells from a 6‑well plate with 0.25 % trypsin‑EDTA (500 µL/well, 37 °C 1‑2 min), neutralize with 1 mL DMEM base, centrifuge 137 g 5 min RT, resuspend in NNE. Count and seed 1 mL/well at 40 000 cells/mL (≈40 000 cells per well). Incubate 5 % CO₂, 75 °C, gentle rocking, no disturbance for 24 h.  
+    c. **Day 1**: Warm NNE to RT, aspirate medium, wash once with 1 mL PBS, add 1 mL fresh NNE.  

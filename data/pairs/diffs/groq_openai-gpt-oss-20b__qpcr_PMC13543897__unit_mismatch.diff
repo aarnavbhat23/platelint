@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/qpcr_PMC13543897 (clean)
++++ groq_openai-gpt-oss-20b/qpcr_PMC13543897 (defect)
+@@ -79,3 +79,3 @@
+         - 8 µL pre‑amplified product  
+-        - 2 µL primer mix (1:20)  
++        - 2 mL primer mix (1:20)  
+         - 10 µL qPCR master mix (prepared fresh, 100 µL total).  

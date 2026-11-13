@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/viability_PMC12840026 (clean)
++++ google_gemini-35-flash-lite/viability_PMC12840026 (defect)
+@@ -17,3 +17,3 @@
+ 
+-7. Evaluate the impact on inflammatory and metabolic pathways by seeding HCT-116 cells in 6-well plates at 200,000 cells/well. The following day, treat cells in triplicate for 24 hours with either the green extract (250 ng/µL), classic extract (250 ng/µL), or the heteroarylethylene compound PB4 tested at half its IC50 (0.16 µM). Following treatment, remove supernatants and lyse cells directly in the wells using RLT buffer supplemented with β-mercaptoethanol.
++7. Evaluate the impact on inflammatory and metabolic pathways by seeding HCT-116 cells in 6-well plates at 200,000 cells/well. The following day, treat cells in triplicate for 24 hours with either the green extract (250 ng/µL), classic extract (250 mg/µL), or the heteroarylethylene compound PB4 tested at half its IC50 (0.16 µM). Following treatment, remove supernatants and lyse cells directly in the wells using RLT buffer supplemented with β-mercaptoethanol.
+ 

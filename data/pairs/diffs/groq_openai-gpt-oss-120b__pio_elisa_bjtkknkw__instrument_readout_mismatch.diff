@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/pio_elisa_bjtkknkw (clean)
++++ groq_openai-gpt-oss-120b/pio_elisa_bjtkknkw (defect)
+@@ -21,3 +21,3 @@
+ 
+-9. Read absorbance at 450 nm on a microplate reader.
++9. Read luminescence on a microplate reader.
+ 

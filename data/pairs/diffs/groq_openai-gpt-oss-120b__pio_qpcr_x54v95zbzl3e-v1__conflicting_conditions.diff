@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/pio_qpcr_x54v95zbzl3e-v1 (clean)
++++ groq_openai-gpt-oss-120b/pio_qpcr_x54v95zbzl3e-v1 (defect)
+@@ -19,3 +19,3 @@
+ 
+-7. **Cycling conditions** – 95 °C 10 min; 40 cycles of 95 °C 15 s, 60 °C 60 s (data acquisition at the 60 °C step). Seal the plate, spin briefly to eliminate bubbles before loading.
++7. **Cycling conditions** – 95 °C 10 min; 40 cycles of 95 °C 15 s, 60 °C 60 s (data acquisition at the 60 °C step), and hold the plate at 4 °C for the whole of this step. Seal the plate, spin briefly to eliminate bubbles before loading.
+ 

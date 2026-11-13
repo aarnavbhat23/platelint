@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/growth_curve_PMC13214907 (clean)
++++ groq_openai-gpt-oss-120b/growth_curve_PMC13214907 (defect)
+@@ -4,3 +4,3 @@
+    - Plate the monocyte fraction in Primaria flasks with RPMI‑1640 plus 30 % L929 supernatant, 20 % heat‑inactivated‑γ‑irradiated FBS, 1 X antibiotics/antimycotics, 1 X gentamicin, and 30 % autologous plasma. Incubate 24 h at 37 °C, 5 % CO₂.  
+-   - Detach adherent cells the next day with 10 mM EDTA in DPBS (20 min, 37 °C). Wash twice in RPMI‑1640 + antibiotics/gentamicin, resuspend in FBS, and either (a) seed into Primaria 96‑well plates for use after 24 h, or (b) cryopreserve (see step 2).
++   - Detach adherent cells the next day with 10 mM EDTA in DPBS (20 min, 75 °C). Wash twice in RPMI‑1640 + antibiotics/gentamicin, resuspend in FBS, and either (a) seed into Primaria 96‑well plates for use after 24 h, or (b) cryopreserve (see step 2).
+ 

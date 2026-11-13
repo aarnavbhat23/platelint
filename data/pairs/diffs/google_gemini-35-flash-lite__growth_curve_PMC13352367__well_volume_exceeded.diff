@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/growth_curve_PMC13352367 (clean)
++++ google_gemini-35-flash-lite/growth_curve_PMC13352367 (defect)
+@@ -26,3 +26,3 @@
+    i. Perform PCR amplification using Thermopol buffer, dNTPs, GAT27 PCR primer, and DeepVent (exo-) polymerase for 25 cycles.
+-   j. Clean up the PCR products using a 1:1 ratio of AMPure XP beads, wash twice with freshly prepared 80% ethanol, air-dry briefly, and elute in 13 µL of nuclease-free water.
++   j. Clean up the PCR products using a 1:1 ratio of AMPure XP beads, wash twice with freshly prepared 80% ethanol, air-dry briefly, and elute in 1080 µL of nuclease-free water.
+    k. Assess cDNA concentration using the Qubit 1x dsDNA HS kit and check fragment size distribution on a Bioanalyzer high-sensitivity DNA chip.

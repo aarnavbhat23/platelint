@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/qpcr_PMC13627921 (clean)
++++ google_gemini-35-flash-lite/qpcr_PMC13627921 (defect)
+@@ -2,3 +2,3 @@
+ 2. Count cells and assess viability via Trypan Blue exclusion, then prepare a 10⁵ cells/mL suspension in complete medium. 
+-3. Dispense 100 µL of fresh medium followed by 100 µL of the cell suspension into each well of a 96-well ULA microplate to yield 10⁴ cells in 200 µL per well. 
++3. Dispense 100 µL of fresh medium followed by 100 µL of the cell suspension into each well of a 96-well ULA microplate to yield 10⁴ cells in 1080 µL per well. 
+ 4. Centrifuge the ULA microplate at 500 × g for 5 min at 20°C–25°C with no brake, then incubate for 4 days to form spheroids.

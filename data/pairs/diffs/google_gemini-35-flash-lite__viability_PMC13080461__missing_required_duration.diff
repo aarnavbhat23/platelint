@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/viability_PMC13080461 (clean)
++++ google_gemini-35-flash-lite/viability_PMC13080461 (defect)
+@@ -32,3 +32,3 @@
+ 7. Process MC models for single-cell RNA sequencing (scRNA-seq):
+-- Remove adipocyte gels if present. Wash domes with PBS and digest with 1 mg/mL Type I collagenase at 37°C for 15 min with mechanical disruption.
++- Remove adipocyte gels if present. Wash domes with PBS and digest with 1 mg/mL Type I collagenase at 37°C with mechanical disruption.
+ - Pellet cells, resuspend in TrypLE, incubate at 37°C for 30 min, and mechanically dissociate.

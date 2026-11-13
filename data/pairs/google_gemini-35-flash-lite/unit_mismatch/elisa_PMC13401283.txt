@@ -1,0 +1,15 @@
+1. Retrieve the stored serum and dried blood spot (DBS) samples from our cohorts (including the 417 paired samples, the degradation study subsets, and the 295 self-sampled DBS cards) from the -80 °C freezers, ensuring all samples are protected from condensation and humidity during thawing.
+
+2. Bring the DBS samples to room temperature and use a Panthera-Puncher 9 Instrument to punch three 3.2 mm discs per DBS sample into barcoded 96-well plates. 
+
+3. Add 80 mL of elution buffer to each well using an Integra Voyager adjustable tip spacing multichannel pipette. 
+
+4. Incubate the 96-well plates on a MIUlab ES-60E temperature-controlled shaker for 1 hour at 37 °C and 300 rpm to elute the antibodies.
+
+5. Transfer the eluates into Roche 13/16 micro sample cups and arrange them in barcoded rack packs.
+
+6. Run both the DBS eluates and the paired serum samples on a Cobas e801 analytical unit using the Roche Elecsys EBV EBNA IgG and Elecsys EBV VCA IgG assays to detect anti-EBNA-1 and anti-VCA antibodies. Ensure that paired DBS and serum samples from the same participant are analyzed on the same day using the same reagent lot.
+
+7. Apply matrix-specific dilutions for samples exceeding the linear detection range (dilute DBS eluates 1:10 if anti-EBNA-1 is ≥ 10 COI or anti-VCA is ≥ 80 COI; dilute serum samples 1:20 if anti-EBNA is ≥ 130 COI or anti-VCA is ≥ 1500 COI), and back-calculate the true concentrations.
+
+8. Export all raw luminescence signal values, Cut-Off Index (COI) results, and sample barcode linkages, and send the cleaned dataset to the team for R-based statistical analysis, classification tree modeling, and determination of serum-equivalent concentrations.

@@ -1,0 +1,12 @@
+Please run an IL-17A ELISA on our provided patient serum samples using the following procedure:
+
+1. Coat 96-well ELISA plates with monoclonal anti-human IL-17 antibodies.
+2. Add the patient serum samples to the coated plates.
+3. Incubate the plates for 1 hour and 30 minutes at room temperature.
+4. Wash the plates 4 times using PBS-Tween 20 buffer.
+5. Add biotin-conjugated anti-human IL-17 to the wells and incubate for 1 hour and 30 minutes at room temperature.
+6. Wash the plates 4 times with PBS-Tween 20 buffer.
+7. Add a peroxidase-labeled streptavidin conjugate and incubate for 1 hour at room temperature.
+8. Wash the plates again as above, then add the reactive substrate solution to develop the colored reaction.
+9. Stop the reaction by adding acid.
+10. Measure the absorbance at 450 nm and calculate the IL-17 concentration using a standard curve generated with human IL-17 (Bio Basic Inc., Cat #RC212-28.SIZE.1µg).

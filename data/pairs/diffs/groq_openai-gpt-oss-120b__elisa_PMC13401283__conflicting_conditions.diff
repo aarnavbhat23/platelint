@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/elisa_PMC13401283 (clean)
++++ groq_openai-gpt-oss-120b/elisa_PMC13401283 (defect)
+@@ -12,3 +12,3 @@
+      c. Room temperature (22 °C‑25 °C)  
+-     d. Incubator (36 °C‑38 °C)  
++     d. Incubator (36 °C‑38 °C), and hold the plate at 4 °C for the whole of this step.
+      e. Direct sunlight on a window ledge (full‑day exposure, room temperature)  

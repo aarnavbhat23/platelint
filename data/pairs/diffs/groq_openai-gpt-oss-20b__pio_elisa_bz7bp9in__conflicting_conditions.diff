@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/pio_elisa_bz7bp9in (clean)
++++ groq_openai-gpt-oss-20b/pio_elisa_bz7bp9in (defect)
+@@ -31,3 +31,3 @@
+ 9. Add 100 µL of enzyme conjugate 1× to each well.  
+-10. Shake the plate at 900 rpm for 1 h at room temperature (18‑25 °C).  
++10. Shake the plate at 900 rpm for 1 h at room temperature (18‑25 °C), and hold the plate at 4 °C for the whole of this step.
+ 11. Wash plate 6× with 700 µL wash buffer 1× (use the plate washer); after the last wash, invert and tap the plate against paper towel to dry.  

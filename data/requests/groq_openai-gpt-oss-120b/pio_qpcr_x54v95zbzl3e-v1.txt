@@ -1,0 +1,32 @@
+We have differentiated and undifferentiated 3K‑SNCA SH‑SY5Y cells grown in 6‑well plates that we need analyzed for HEXA, GLA and GAPDH expression.
+
+1. **Samples** – Six 6‑well plates (3 wells of differentiated cells, 3 wells of undifferentiated cells). We will ship the plates frozen at –80 °C; keep them on dry ice until you thaw them for extraction.
+
+2. **RNA extraction** – Use the Qiagen RNeasy Mini Kit (Cat #74134). Lyse each well directly in the plate with RLT buffer plus β‑mercaptoethanol, homogenize, bind to spin columns, wash with RW1 and RPE, dry spin, and elute in 30 µL RNase‑free water. Measure RNA concentration and A260/280 for each extract.
+
+3. **Genomic DNA removal** – Perform the optional gDNA wipeout step from the QuantiTect RT Kit (or your standard DNase treatment) on each RNA sample before reverse transcription.
+
+4. **cDNA synthesis** – Use the QuantiTect Reverse Transcription Kit (Cat #205311). For each sample, combine 500 ng–1 µg total RNA with the RT master mix (as per the kit) in a 20 µL reaction. Run the RT program (including the genomic DNA wipeout step) and hold the cDNA on ice.
+
+5. **qPCR set‑up** – Use TaqMan Gene Expression Master Mix (Cat #436016) on the QuantStudio 1 system. Prepare separate master mixes for each assay:
+   * HEXA (Assay ID 4448892)
+   * GLA (Assay ID 4453320)
+   * GAPDH (Assay ID 4331182)
+
+   For each assay, combine Master Mix, 20× assay probe, and nuclease‑free water to a final volume of 20 µL per well. Add 2 µL of cDNA (same volume for all wells) to the master mix.
+
+6. **Plate layout** – Run each target in triplicate technical replicates for every biological sample. Include a No‑Template Control (NTC) and a –RT control for each assay on the same plate.
+
+7. **Cycling conditions** – 95 °C 10 min; 40 cycles of 95 °C 15 s, 60 °C 60 s (data acquisition at the 60 °C step). Seal the plate, spin briefly to eliminate bubbles before loading.
+
+8. **Data analysis** – Provide raw Ct values for all wells. Using GAPDH as the endogenous control, calculate ΔCt (Ct_target – Ct_GAPDH) for each replicate, then ΔΔCt using the undifferentiated samples as the calibrator group. Report fold‑change as 2^(–ΔΔCt) with mean ± SEM for each condition.
+
+9. **Deliverables** – A spreadsheet containing:
+   * Sample ID, differentiation status, biological replicate number
+   * Raw Ct values (triplicates) for HEXA, GLA, GAPDH, NTC, –RT
+   * Calculated ΔCt, ΔΔCt, and fold‑change values
+   * Any notes on RNA quality or anomalies observed
+
+10. **Timeline** – Please complete the full workflow (extraction → cDNA → qPCR → analysis) within 7 business days of receiving the plates and send the results electronically.
+
+Let us know if you need any of the kits supplied or if any of the reagents listed are unavailable in your inventory. Thank you!

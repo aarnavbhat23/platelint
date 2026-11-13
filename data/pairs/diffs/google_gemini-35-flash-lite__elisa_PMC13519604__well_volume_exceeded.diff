@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/elisa_PMC13519604 (clean)
++++ google_gemini-35-flash-lite/elisa_PMC13519604 (defect)
+@@ -11,3 +11,3 @@
+    - NOD agonist: Treat with MDP (1–10 μg/mL) alone or combined with low-dose TLR ligands for 8–24 h. Collect supernatants for ELISA and/or harvest cells for qPCR.
+-   - Cytosolic nucleic acids / STING activation (1–24 h incubation): Transfect BMDMs at ~80%–90% confluency using lipid-based complexes in Opti-MEM. Use final concentrations of ISD (1 μg/mL), poly(dG:dC) (1 μg/mL), or 2′3′-cGAMP (5 μg/mL) combined with transfection reagent (e.g., 1.5 μL per well in 24-well format). 
++   - Cytosolic nucleic acids / STING activation (1–24 h incubation): Transfect BMDMs at ~80%–90% confluency using lipid-based complexes in Opti-MEM. Use final concentrations of ISD (1 μg/mL), poly(dG:dC) (1 μg/mL), or 2′3′-cGAMP (5 μg/mL) combined with transfection reagent (e.g., 5700 µL per well in 24-well format). 
+    - Wound healing / M2 polarization: Stimulate BMDMs with IL-4 (10–20 ng/mL) alone or combined with IL-13 (10–20 ng/mL) for 8–24 h (or up to 48 h for functional assays) to assess Arg1, CD206, and related markers by RT-qPCR or flow cytometry.

@@ -1,0 +1,43 @@
+Please run the glucagon ELISA on the human islet hormone extracts we have shipped to you, following the Vanderbilt HIPP SOP (HIPP‑10‑v01). Below are the specific actions we need you to perform:
+
+1. **Materials** – Use the Quantikine Glucagon ELISA Kit (R&D Systems, Cat #DGCG0) together with the accompanying Glucagon Control Set (Cat #QC100). All kit components are within expiration; keep reagents at 2‑8 °C except the standard, which should be brought to room temperature before use. Also have on hand the 50 µL epMotion tips, 10 mL and 25 mL serological pipets, 2 mL SafeSeal tubes, and filtered 200 µL/1000 µL tips.
+
+2. **Equipment** – The assay should be performed on your epMotion liquid‑handling workstation (or by hand if needed), using the Benchmark Orbi shaker, Fisher AccuWash plate washer, and the BMG Labtech CLARIOstar plate reader (450 nm with 540 nm correction). A vortex mixer and a multi‑channel pipette (20‑200 µL) are also required.
+
+3. **Sample preparation** 
+ a. Thaw the archived islet hormone extracts in a room‑temperature water bath; invert each capped tube ten times to mix. Keep the extracts on ice thereafter. 
+ b. Prepare serial dilutions of each extract in 2 mL SafeSeal tubes using the kit’s Calibrator Diluent (RD5‑59): 1:100, 1:1,000, 1:2,000, 1:5,000, and 1:10,000. Vortex each tube thoroughly before making the next dilution. 
+
+4. **Standard and control preparation** 
+ a. Bring the Glucagon Standard (20,000 pg/mL) to room temperature. Make a 1:10 dilution with Calibrator Diluent, then perform six successive 1:2 dilutions to generate the standard curve. Vortex after each step. 
+ b. Reconstitute each Quality Control stock in 5 mL distilled water (or thaw existing QC aliquots) and keep on ice. 
+
+5. **Wash buffer** – Dilute 100 mL of Wash Buffer concentrate (provided) with 900 mL de‑ionized water. 
+
+6. **Plate preparation** 
+ a. Using the plate washer, pre‑soak the glucagon ELISA plate wells with 800 µL of diluted wash buffer, then wash/aspirate twice with 400 µL wash buffer. 
+ b. Add 150 µL of Assay Diluent (RD1‑110) to every well. 
+ c. Add 50 µL of each standard, QC, and sample dilution (in duplicate) to the appropriate wells using the epMotion (or hand‑pipetting). 
+ d. Cover the plate with the supplied adhesive strip and incubate 3 h at room temperature on the orbital shaker. 
+
+7. **Detection** 
+ a. Wash the plate as in step 6a (three wash cycles). 
+ b. Add 200 µL of ice‑cold Glucagon Conjugate to each well, cover with a fresh adhesive strip, and incubate 1 h at 4 °C (do not stack plates). 
+ c. Wash again as in step 6a (three cycles). 
+ d. Within 15 min of opening, mix Color Reagent A and B 1:1, add 200 µL to each well, and incubate 30 min at room temperature protected from light. 
+ e. Add 50 µL Stop Solution to each well. 
+
+8. **Reading** – Measure absorbance on the CLARIOstar within 30 min of adding stop solution (450 nm, reference 540 nm). Export raw OD values. 
+
+9. **Data analysis** 
+ a. Verify that all standards fall within ±15 % of expected values and that duplicate CV ≤ 20 %; repeat the assay if not. 
+ b. Confirm QC results are within their defined ranges; repeat if they fall outside. 
+ c. Calculate glucagon concentrations for each sample dilution, then average the four dilutions to obtain the extract’s glucagon content (pg/mL). 
+ d. Normalize to islet volume (pg/100 IEQ/min) and compute % content/min. 
+ e. Using GraphPad Prism, generate standard curves, calculate stimulation index and AUC for any secretagogue conditions, and produce the required graphs. 
+
+10. **Reporting** 
+ a. Provide us with the raw OD data, the calculated concentrations, normalized values, and the Prism graphs (SI and AUC). 
+ b. Upload all raw and processed data to the IIDP HIPP database within three business days of assay completion, and send us a confirmation email with the database entry ID. 
+
+If any step deviates from the protocol or you encounter a problem that could affect the results, please document the deviation and notify us immediately so we can decide on next steps. Thank you.

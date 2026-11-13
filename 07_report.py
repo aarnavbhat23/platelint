@@ -109,17 +109,24 @@ def detection_table(checks, split):
 
 
 def fp_table(checks, split):
+    """Flag rate on un-injected requests. This is an UPPER BOUND on the false
+    positive rate, not the false positive rate: an un-injected model request is
+    only un-edited, not verified correct. A request that genuinely omits a
+    control is a real defect, and this table cannot tell the two apart. Stage 5
+    hand labels are what separate them."""
     rows = []
     for c in CHECKERS:
         clean = [r for r in checks.get(c, []) if not r["true_defect"] and r["split"] == split]
         n = len(clean)
         k = sum(1 for r in clean if r["n_flags"])
         p, lo, hi = wilson(k, n)
-        row = {"checker": c, "split": split, "n_clean": n, "flagged": k,
-               "fp_pct": pct(p), "fp_lo": pct(lo), "fp_hi": pct(hi)}
+        row = {"checker": c, "split": split, "n_uninjected": n, "flagged": k,
+               "flag_rate_pct": pct(p), "lo": pct(lo), "hi": pct(hi),
+               "note": "upper bound on false positives; un-injected is not "
+                       "verified defect-free"}
         for d in DEFECT_IDS:
             kd = sum(r["flag_" + d] for r in clean)
-            row["fp_" + d] = pct(wilson(kd, n)[0]) if n else "-"
+            row["flag_" + d] = pct(wilson(kd, n)[0]) if n else "-"
         rows.append(row)
     return rows
 
@@ -293,15 +300,20 @@ def main():
             svg_figure(os.path.join(RESULTS, "figure_detection.svg"), det, present)
 
         fps = fp_table(checks, split)
-        print(f"\n=== false positives on clean requests, {split} split ===")
+        print(f"\n=== flag rate on un-injected requests, {split} split ===")
+        print("    upper bound on false positives: an un-injected request is "
+              "un-edited, not verified correct")
         for r in fps:
-            print(f"  {r['checker']:<10} {ci_str(r['flagged'], r['n_clean']):>28}"
-                  f"   (any flag on a clean request)")
+            print(f"  {r['checker']:<10} {ci_str(r['flagged'], r['n_uninjected']):>28}"
+                  f"   (flagged at least one type)")
         if split == "test":
             write_csv(os.path.join(RESULTS, "table_false_positives.csv"), fps)
             write_md(os.path.join(RESULTS, "table_false_positives.md"),
-                     ["checker", "false-positive rate on clean requests (95% CI, n)"],
-                     [[r["checker"], ci_str(r["flagged"], r["n_clean"])] for r in fps])
+                     ["checker",
+                      "flagged at least one type on un-injected requests "
+                      "(95% CI, n) -- upper bound on false positives"],
+                     [[r["checker"], ci_str(r["flagged"], r["n_uninjected"])]
+                      for r in fps])
 
     mt, why = model_table()
     print("\n=== defect rate per model, from the hand labels ===")
@@ -330,10 +342,12 @@ def main():
                                  "ci": [r[f"{c}_exact_lo"], r[f"{c}_exact_hi"]]}
                              for c in present}
             for r in det_test},
-        "false_positives_test": {r["checker"]: {"k": r["flagged"], "n": r["n_clean"],
-                                                "pct": r["fp_pct"],
-                                                "ci": [r["fp_lo"], r["fp_hi"]]}
-                                 for r in fp_table(checks, "test")},
+        "flag_rate_on_uninjected_test": {
+            r["checker"]: {"k": r["flagged"], "n": r["n_uninjected"],
+                           "pct": r["flag_rate_pct"], "ci": [r["lo"], r["hi"]]}
+            for r in fp_table(checks, "test")},
+        "flag_rate_note": ("upper bound on false positives: un-injected requests "
+                           "are un-edited, not verified defect-free"),
         "defect_rate_by_model": mt,
         "defect_rate_by_model_note": why,
     }

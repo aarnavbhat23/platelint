@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/qpcr_PMC13603532 (clean)
++++ google_gemini-35-flash-lite/qpcr_PMC13603532 (defect)
+@@ -14,3 +14,3 @@
+ - 1× TaqMan Environmental Master Mix (Applied Biosystems 4396838)
+-- 0.5 µM forward and reverse primers (LGC Biosearch)
++- 0.5 mM forward and reverse primers (LGC Biosearch)
+ - 0.2 µM probe (LGC Biosearch)

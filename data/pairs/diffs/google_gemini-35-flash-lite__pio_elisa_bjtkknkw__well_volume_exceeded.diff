@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_elisa_bjtkknkw (clean)
++++ google_gemini-35-flash-lite/pio_elisa_bjtkknkw (defect)
+@@ -5,3 +5,3 @@
+ 3. Wash the microplate 4 times with PBS-Tween-20.
+-4. Add our human serum samples in duplicate, diluted 1:16 at 25 µl per well. Also include a pooled human serum with a high titer of anti-HIV antibodies as a positive control, pooled sera from healthy individuals as a negative control, and a 0.9% normal saline solution as a blank.
++4. Add our human serum samples in duplicate, diluted 1:16 at 1080 µL per well. Also include a pooled human serum with a high titer of anti-HIV antibodies as a positive control, pooled sera from healthy individuals as a negative control, and a 0.9% normal saline solution as a blank.
+ 5. Incubate for 90 minutes at room temperature, then wash the microplate 4 times with PBS-Tween-20.

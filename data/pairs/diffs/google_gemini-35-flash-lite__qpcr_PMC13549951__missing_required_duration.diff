@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/qpcr_PMC13549951 (clean)
++++ google_gemini-35-flash-lite/qpcr_PMC13549951 (defect)
+@@ -8,3 +8,3 @@
+ 
+-For functional assays, perform migration and invasion assays using Falcon 24-well multiwell systems and Corning BioCoat Matrigel Invasion Chambers. Serum-starve PC3 and C4-2B cells (stably transfected with pcDNA3.1 vector control or SKP2) for 24 hours, seed 30,000 PC3 or 80,000 C4-2B cells onto upper inserts in serum-free RPMI 1640, use RPMI 1640 with 10% FBS in the bottom well as a chemoattractant, incubate for 72 hours, scrub non-migrated cells, and fix/stain the remaining cells with cold methanol and hematoxylin for quantification across 5 areas per insert in triplicate.
++For functional assays, perform migration and invasion assays using Falcon 24-well multiwell systems and Corning BioCoat Matrigel Invasion Chambers. Serum-starve PC3 and C4-2B cells (stably transfected with pcDNA3.1 vector control or SKP2), seed 30,000 PC3 or 80,000 C4-2B cells onto upper inserts in serum-free RPMI 1640, use RPMI 1640 with 10% FBS in the bottom well as a chemoattractant, incubate for 72 hours, scrub non-migrated cells, and fix/stain the remaining cells with cold methanol and hematoxylin for quantification across 5 areas per insert in triplicate.
+ 

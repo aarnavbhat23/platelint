@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/qpcr_PMC13583563 (clean)
++++ groq_openai-gpt-oss-20b/qpcr_PMC13583563 (defect)
+@@ -12,3 +12,3 @@
+ 8. Prepare cells for nucleofection: grow Jurkat cells to 1–2×10⁶ cells per condition, spin 500 g for 5 min, wash twice with PBS. Resuspend 1×10⁶ cells in 100 µl Ingenio Nucleofector solution (or equivalent).  
+-9. Add plasmid mixture (equimolar amounts of donor plasmid and sgRNA plasmid; use 2–3 µg of each). Transfer to a 0.2 mm cuvette and electroporate with Amaxa program D‑23 (or test Neon or other device). Immediately add 100 µl warm RPMI + 10 % FBS from the 12‑well prep, then transfer to a 12‑well plate (1 ml per well).  
++9. Add plasmid mixture (equimolar amounts of donor plasmid and sgRNA plasmid; use 2–3 µg of each). Transfer to a 0.2 mm cuvette and electroporate with Amaxa program D‑23 (or test Neon or other device). Immediately add 100 µl warm RPMI + 10 % FBS from the 12‑well prep, then transfer to a 12‑well plate (1 µl per well).  
+ 10. Incubate cells at 37 °C, 5 % CO₂. After 3 days, collect cells, wash with FACS buffer (PBS + 2 % FBS), stain with viability dye (Hoechst 33258, 1:5000).  

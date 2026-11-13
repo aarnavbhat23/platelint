@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/growth_curve_PMC13227985 (clean)
++++ groq_openai-gpt-oss-20b/growth_curve_PMC13227985 (defect)
+@@ -10,3 +10,3 @@
+ 
+-6. Seal the plate with a lid and parafilm.  Incubate the plates at 30 °C with high aeration (≈200 rpm).  For OD measurements, use a BioTek EPOCH 2 plate reader set to 30 °C, 205 rpm.  Measure OD₆₀₀ at the start (time 0) and every 24 h for the required duration (typically 5–7 days).  Record data for each well and each biological replicate (three replicates per condition).  Use GraphPad Prism 9 (default settings) to calculate growth rates and standard deviations.
++6. Seal the plate with a lid and parafilm.  Incubate the plates at 30 °C with high aeration (≈200 rpm), and hold the plate at 4 °C for the whole of this step.  For OD measurements, use a BioTek EPOCH 2 plate reader set to 30 °C, 205 rpm.  Measure OD₆₀₀ at the start (time 0) and every 24 h for the required duration (typically 5–7 days).  Record data for each well and each biological replicate (three replicates per condition).  Use GraphPad Prism 9 (default settings) to calculate growth rates and standard deviations.
+ 

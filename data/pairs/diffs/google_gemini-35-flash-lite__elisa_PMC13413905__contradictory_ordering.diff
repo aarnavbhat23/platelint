@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/elisa_PMC13413905 (clean)
++++ google_gemini-35-flash-lite/elisa_PMC13413905 (defect)
+@@ -4,3 +4,3 @@
+    - Wash 35 mg of each hair sample by manually shaking with 5 mL of isopropanol for 3 min. Repeat this washing step twice using fresh isopropanol each time.
+-   - Leave the washed hair to dry overnight at room temperature.
++   - Leave the washed hair to dry overnight at room temperature. Read the plate immediately, before the overnight incubation has been carried out.
+    - Cut the dried hair into approximately 2 mm fragments using surgical scissors.

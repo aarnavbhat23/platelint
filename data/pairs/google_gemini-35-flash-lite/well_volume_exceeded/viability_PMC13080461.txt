@@ -1,0 +1,36 @@
+Please process our provided patient tissue samples and perform high-throughput drug sensitivity testing and single-cell RNA sequencing using the following protocol. 
+
+1. Prepare all required media (Medium 1, Medium 2, DNA mixture for lentivirus, 2× MEM for Type I collagen, M199+, CAF medium, Medium Mix, and staining buffer) according to the specified formulations. Note that ITS Liquid Media Supplement requires strict handling with chemical-resistant gloves due to toxicity.
+
+2. Process fresh solid tumor samples upon arrival:
+- Transfer tissues to PBS, dissect 2 mm x 2 mm fragments (avoiding fat, blood vessels, and necrosis) for CAF cultures, and dissect 5 mm x 5 mm fatty fragments for adipocytes.
+- Digest fatty fragments with collagenase/hyaluronidase at 37°C for 2–5 h with magnetic stirring, centrifuge at 200 × g for 3 min, and isolate the adipocyte fraction.
+- Seed adipocyte cultures in StemPro Adipogenesis Differentiation Kit medium in a T25 flask for 1 week, then embed in 2.25 mg/mL Type I collagen domes (1:4 ratio) in a 6-well plate.
+
+3. Establish and expand Cancer-Associated Fibroblast (CAF) cultures:
+- Plate tissue pieces in 6-well plates pre-coated with 100 μg/mL Type I collagen using pre-warmed CAF medium.
+- Grow cells to 90% confluency, trypsinize, count, and expand in T25/T75 flasks, maintaining cultures and cryopreserving up to 4.5 × 10^5 cells per vial in CryoStor at every passage.
+- Alternatively, thaw cryopreserved patient tissue digests or ascites samples in a 37°C water bath, wash with serum-free medium, centrifuge at 300 × g for 5 min, and seed for CAF or mesothelial cell cultures on collagen-coated plates or in M199+ medium respectively.
+
+4. Generate the 3D multicellular (MC) tumor model:
+- Thaw and dilute Cultrex to 7.5 mg/mL with cold PBS on ice.
+- Trypsinize and count expanded CAFs and mesothelial cells. Digest patient-derived organoids using TrypLE at 37°C for 15 min.
+- Combine 1.8 × 10^5 CAFs, 3.6 × 10^4 mesothelial cells, and organoid cell suspensions per well equivalent, and pellet at 300 × g for 5 min.
+- Prepare a 1:1 matrix mixture of 4.5 mg/mL Type I collagen (pH adjusted to 7.5–8 with 1 M NaOH) and 7.5 mg/mL Cultrex on ice. Resuspend cells in the matrix mixture.
+- Seed 10 domes of 10200 µL per well in pre-warmed 6-well plates (or 10 μL per well in 384-well plates for high-throughput assays), polymerize at 37°C for 1 h, and add M1/M2-based Medium Mix containing 5 μM Y-27632. Optionally attach adipocyte gels using small collagen droplets. Culture for 10–14 days with medium changes every 2–3 days.
+
+5. Perform miniaturized high-throughput drug sensitivity testing in 384-well plates:
+- Seed MC models in 384-well plates, culture for 7 days with medium changes, and treat with drugs (e.g., carboplatin) on day 7 using an acoustic liquid handler. Include positive (10 μM bortezomib) and vehicle controls.
+- On day 12, perform either CellTox Green Cytotoxicity Assay (with Hoechst 33342) and/or CellTiter-Glo 2.0 Cell Viability Assay, and read out using high-content confocal imaging or a multi-mode detection platform.
+
+6. Perform immunofluorescence staining on 6-well plate MC domes:
+- Fix domes in 4% paraformaldehyde for 30 min at room temperature, wash with PBS, and store at 4°C.
+- Transfer individual domes to 48-well plates using a small spatula, permeabilize with 0.5% Triton X-100 in PBS for 1 h, and block with staining buffer (0.5% BSA, 0.15% glycine, 0.3% Triton X-100 in PBS) for 7 h.
+- Incubate with primary antibodies (e.g., PAX8, Ki67) at 4°C overnight, wash, incubate with secondary antibodies for 3 h in the dark, and wash again.
+- Mount domes onto microscope slides with Prolong Gold Antifade Mountant with DAPI, let coverslips descend by gravity, and image by fluorescence microscopy.
+
+7. Process MC models for single-cell RNA sequencing (scRNA-seq):
+- Remove adipocyte gels if present. Wash domes with PBS and digest with 1 mg/mL Type I collagenase at 37°C for 15 min with mechanical disruption.
+- Pellet cells, resuspend in TrypLE, incubate at 37°C for 30 min, and mechanically dissociate.
+- Wash cells in ice-cold DPBS, incubate in DPBS with 0.1 mM EDTA, filter through a 40 μm strainer, and wash again.
+- Perform sample quality check using PI-acridine orange staining and a cell counter prior to 10× Genomics library preparation.

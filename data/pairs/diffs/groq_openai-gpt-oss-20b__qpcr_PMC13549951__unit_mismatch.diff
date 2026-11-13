@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/qpcr_PMC13549951 (clean)
++++ groq_openai-gpt-oss-20b/qpcr_PMC13549951 (defect)
+@@ -77,3 +77,3 @@
+ 10. **Prostate organoid culture**  
+-    • Mince fresh prostate tissues, digest 2 h at 37 °C in 5 mg/ml Collagenase II + 10 µM Y‑27632 (Life Technologies).  
++    • Mince fresh prostate tissues, digest 2 h at 37 °C in 5 µg/ml Collagenase II + 10 µM Y‑27632 (Life Technologies).  
+     • Wash, further digest ~15 min at 37 °C in TrypLE + 10 µM Y‑27632 (pipette every 5 min).  

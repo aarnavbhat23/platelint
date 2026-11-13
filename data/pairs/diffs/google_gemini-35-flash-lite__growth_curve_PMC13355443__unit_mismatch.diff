@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/growth_curve_PMC13355443 (clean)
++++ google_gemini-35-flash-lite/growth_curve_PMC13355443 (defect)
+@@ -4,3 +4,3 @@
+ 
+-3. Conduct large-scale expression in LB-kanamycin (16 h induction with 0.2 mM IPTG at the optimized temperature), harvest cells by centrifugation, and lyse the pellets in ice-cold lysis buffer (50 mM Tris pH 8.0, 300 mM NaCl, 20 mM imidazole, 1% Triton X-100, 1 mM DTT, 1 mM PMSF) via probe sonication (30–40% power, 20 min total, 3 s ON/6 s OFF).
++3. Conduct large-scale expression in LB-kanamycin (16 h induction with 0.2 mM IPTG at the optimized temperature), harvest cells by centrifugation, and lyse the pellets in ice-cold lysis buffer (50 mM Tris pH 8.0, 300 mM NaCl, 20 mM imidazole, 1% Triton X-100, 1 µM DTT, 1 mM PMSF) via probe sonication (30–40% power, 20 min total, 3 s ON/6 s OFF).
+ 

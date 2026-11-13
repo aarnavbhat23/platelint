@@ -1,0 +1,11 @@
+--- groq_openai-gpt-oss-120b/pio_elisa_bjtkknkw (clean)
++++ groq_openai-gpt-oss-120b/pio_elisa_bjtkknkw (defect)
+@@ -9,5 +9,5 @@
+ 4. Add 25 µL of each serum sample (our samples) diluted 1:16 in PBS‑Tween‑20. Run each sample in duplicate. Include:
+-   - Positive control: pooled human serum with high anti‑HIV titer (provided).
+-   - Negative control: pooled serum from healthy donors (provided).
+-   - Blank: 0.9 % normal saline.
++ - Positive control: pooled human serum with high anti‑HIV titer (provided).
++
++ - Blank: 0.9 % normal saline.
+ 

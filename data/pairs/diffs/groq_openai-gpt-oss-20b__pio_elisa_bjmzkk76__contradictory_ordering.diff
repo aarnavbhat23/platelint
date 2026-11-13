@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/pio_elisa_bjmzkk76 (clean)
++++ groq_openai-gpt-oss-20b/pio_elisa_bjmzkk76 (defect)
+@@ -21,3 +21,3 @@
+ 
+-1. Coat each well with 50 ng of synthetic gp‑120 in 100 µL coating buffer. Seal plates and incubate overnight at 4 °C.  
++1. Coat each well with 50 ng of synthetic gp‑120 in 100 µL coating buffer. Seal plates and incubate overnight at 4 °C.   Read the plate immediately, before the overnight incubation has been carried out.
+ 2. Wash plates 4× with PBS‑Tween‑20, then block with 25 µL/well of 3 % non‑fat milk in PBS. Incubate 1 h at room temperature (RT).  

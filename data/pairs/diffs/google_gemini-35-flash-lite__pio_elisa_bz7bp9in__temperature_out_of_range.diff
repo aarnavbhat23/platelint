@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_elisa_bz7bp9in (clean)
++++ google_gemini-35-flash-lite/pio_elisa_bz7bp9in (defect)
+@@ -9,3 +9,3 @@
+ 7. Add 100 µL of 1X Enzyme Conjugate solution to each well.
+-8. Incubate the plate on a microplate orbital shaker at 900 rpm for 1 hour at room temperature (18–25°C).
++8. Incubate the plate on a microplate orbital shaker at 900 rpm for 1 hour at room temperature (18–75 °C).
+ 9. Wash the plate 6 times with 700 µL of 1X Wash Buffer using a microplate washer without a soak step. After the final wash, invert and firmly tap the plate against absorbent paper.

@@ -1,0 +1,20 @@
+--- google_gemini-35-flash-lite/elisa_PMC13449785 (clean)
++++ google_gemini-35-flash-lite/elisa_PMC13449785 (defect)
+@@ -10,10 +10,10 @@
+ 8. Perform inflammasome activation assays by plating iMCs in 96-well and 24-well plates, switching to OptiMEM, and applying specific stimulation protocols for:
+-   - NLRP3: Prime with 100 ng/mL ultrapure LPS or 1 μg/mL Pam3CSK4 for 4 h; activate with 5 μM nigericin or 5 mM ATP for 2 h.
+-   - Non-canonical inflammasome (NCI): Prime with 1 μg/mL Pam3CSK4 for 16 h; transfect with LPS (10 μg/mL final with 0.25% Lipofectamine LTX) via centrifugation at 1000 × g for 10 min and incubate for 5 h.
+-   - NAIP/NLRC4: Prime for 4 h; treat with 1 ng/mL Lfn-BsaL plus 250 ng/mL Anthrax Protective Antigen for 2 h.
+-   - NLRP1: Prime for 4 h; treat with 10 μM Talabostat mesylate or 10 μM Anisomycin for 24 h.
++ - NLRP3: Prime with 100 ng/mL ultrapure LPS or 1 μg/mL Pam3CSK4 for 4 h; activate with 5 μM nigericin or 5 mM ATP for 2 h.
++ - Non-canonical inflammasome (NCI): Prime with 1 μg/mL Pam3CSK4; transfect with LPS (10 μg/mL final with 0.25% Lipofectamine LTX) via centrifugation at 1000 × g for 10 min and incubate for 5 h.
++ - NAIP/NLRC4: Prime for 4 h; treat with 1 ng/mL Lfn-BsaL plus 250 ng/mL Anthrax Protective Antigen for 2 h.
++ - NLRP1: Prime for 4 h; treat with 10 μM Talabostat mesylate or 10 μM Anisomycin for 24 h.
+ 9. Assess inflammasome activation readouts on the stimulated cultures and collected supernatants:
+-   - Measure cell death (pyroptosis) using the LDH assay kit by combining supernatants with LDH assay buffer and reading absorbance at 490 nm relative to a 100% Triton X-100 lysis control.
+-   - Measure cytokine release (IL-1β and TNF-α) using manufacturer ELISA kits.
+-   - Analyze protein expression and processing via Western blot on cell lysates using 4–20% Mini-PROTEAN TGX gels, semi-dry transfer onto nitrocellulose membranes, blocking with 5% milk in TBS-Tween, and probing with primary and secondary antibodies.
+-   - Quantify ASC speck formation by fixing cells with 4% PFA, staining with anti-mouse ASC primary and Alexa Fluor 488 secondary antibodies alongside DAPI, and imaging via fluorescence microscopy to calculate the percentage of DAPI+ASC+ cells.+ - Measure cell death (pyroptosis) using the LDH assay kit by combining supernatants with LDH assay buffer and reading absorbance at 490 nm relative to a 100% Triton X-100 lysis control.
++ - Measure cytokine release (IL-1β and TNF-α) using manufacturer ELISA kits.
++ - Analyze protein expression and processing via Western blot on cell lysates using 4–20% Mini-PROTEAN TGX gels, semi-dry transfer onto nitrocellulose membranes, blocking with 5% milk in TBS-Tween, and probing with primary and secondary antibodies.
++ - Quantify ASC speck formation by fixing cells with 4% PFA, staining with anti-mouse ASC primary and Alexa Fluor 488 secondary antibodies alongside DAPI, and imaging via fluorescence microscopy to calculate the percentage of DAPI+ASC+ cells.

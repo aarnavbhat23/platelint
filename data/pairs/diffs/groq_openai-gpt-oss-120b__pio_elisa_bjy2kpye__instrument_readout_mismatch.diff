@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/pio_elisa_bjy2kpye (clean)
++++ groq_openai-gpt-oss-120b/pio_elisa_bjy2kpye (defect)
+@@ -13,3 +13,3 @@
+ 11. Stop the reaction by adding 50 µL of 3 M H₂SO₄ to each well.  
+-12. Read absorbance at 450 nm on a plate reader.  
++12. Read luminescence on a plate reader.  
+ 13. Generate a standard curve from the included IL‑23 standards using linear regression and calculate the IL‑17 concentration in each sample based on the curve (the assay’s read‑out is proportional to IL‑17 produced downstream of IL‑23 stimulation).  

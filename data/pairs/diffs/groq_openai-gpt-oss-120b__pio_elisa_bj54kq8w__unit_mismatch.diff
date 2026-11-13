@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/pio_elisa_bj54kq8w (clean)
++++ groq_openai-gpt-oss-120b/pio_elisa_bj54kq8w (defect)
+@@ -6,3 +6,3 @@
+ 
+-3. **Block** – Add 25 µL per well of 3 % non‑fat dry milk in PBS. Incubate 1 h at room temperature (RT).  
++3. **Block** – Add 25 mL per well of 3 % non‑fat dry milk in PBS. Incubate 1 h at room temperature (RT).  
+ 

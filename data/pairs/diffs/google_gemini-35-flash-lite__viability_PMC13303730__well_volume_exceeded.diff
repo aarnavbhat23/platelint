@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/viability_PMC13303730 (clean)
++++ google_gemini-35-flash-lite/viability_PMC13303730 (defect)
+@@ -21,3 +21,3 @@
+ 
+-7. Measure surface wettability for all groups (TiL, TiT025, TiT08, TiT025CS, TiT025LS, TiT08CS, TiT08LS) using the sessile drop method with an optical goniometer (OCA 15 Plus, Dataphysics) and two probe liquids (deionized water and diiodomethane). Dispense 5 μL droplets at 2.5 μL/s, allow 15 s for stabilization, and take 5 measurements per sample. Clean all samples ultrasonically in isopropyl alcohol for 1 min prior to testing.
++7. Measure surface wettability for all groups (TiL, TiT025, TiT08, TiT025CS, TiT025LS, TiT08CS, TiT08LS) using the sessile drop method with an optical goniometer (OCA 15 Plus, Dataphysics) and two probe liquids (deionized water and diiodomethane). Dispense 5 μL droplets at 3000 µL/s, allow 15 s for stabilization, and take 5 measurements per sample. Clean all samples ultrasonically in isopropyl alcohol for 1 min prior to testing.
+ 

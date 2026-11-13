@@ -1,0 +1,12 @@
+Please run an anti-HIV antibody ELISA on our submitted human serum samples using the following procedure:
+
+1. Coat the wells of a 96-well polystyrene microplate (U-shaped bottom, Sigma-Aldrich) with 50 ng per well of a synthetic peptide mixture containing HIV gp41 fragment 579-601 and HIV gp120 fragments 254-274, 308-331, and 421-438. Incubate for 4 hours at 37ºC.
+2. Block the microplate with 25 µl per well of 3% non-fat milk in PBS for 1 hour at room temperature.
+3. Wash the microplate 4 times with PBS-Tween-20.
+4. Add our human serum samples in duplicate, diluted 1:16 at 25 µl per well. 
+5. Incubate for 90 minutes at room temperature, then wash the microplate 4 times with PBS-Tween-20.
+6. Add 25 µl per well of a commercially prepared chimeric recombinant protein LA-HRP conjugate (Sigma-Aldrich) diluted 1:5000.
+7. Incubate for 90 minutes at room temperature, wash again, and add 25 µl of TMB to each well. Incubate for 15 minutes in the dark.
+8. Stop the reaction by adding 3M H2SO4.
+9. Read the microplate in a microplate reader at 450 nm.
+10. Calculate the cut-off point using the mean optical density (XOD) of the negative control plus two standard deviations (SD).

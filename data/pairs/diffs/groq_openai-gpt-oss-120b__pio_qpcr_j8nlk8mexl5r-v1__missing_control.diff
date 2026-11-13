@@ -1,0 +1,30 @@
+--- groq_openai-gpt-oss-120b/pio_qpcr_j8nlk8mexl5r-v1 (clean)
++++ groq_openai-gpt-oss-120b/pio_qpcr_j8nlk8mexl5r-v1 (defect)
+@@ -1,14 +1,14 @@
+-1. Plate our cDNA samples into a 96‑well qPCR plate, ensuring each sample is set up in 2–4 technical replicates.  
+-2. For each well add the following reaction mix (total 10 µL):  
+-   - 5 µL Fast SYBR Green Master Mix (Applied Biosystems, Cat #4385616)  
+-   - 3 µL nuclease‑free water  
+-   - 0.5 µL forward primer (10 µM)  
+-   - 0.5 µL reverse primer (10 µM)  
+-   - 1 µL cDNA template (our prepared cDNA)  
+-3. Include a negative control well containing water instead of cDNA, but with the same primers and master mix.  
+-4. Use the following primers for Atg7 amplification:  
+-   - Forward: 5′‑GTTCGCCCCCTTTAATAGTGC‑3′  
+-   - Reverse: 5′‑TGAACTCCAACGTCAAGCGG‑3′  
+-5. Run the qPCR on your standard instrument and provide the raw Ct values for each well.  
+-6. After the run, normalize the Ct values to GAPDH (our housekeeping gene) and return the normalized data.  
++1. Plate our cDNA samples into a 96‑well qPCR plate, ensuring each sample is set up in 2–4 technical replicates. 
++2. For each well add the following reaction mix (total 10 µL): 
++ - 5 µL Fast SYBR Green Master Mix (Applied Biosystems, Cat #4385616) 
++ - 3 µL nuclease‑free water 
++ - 0.5 µL forward primer (10 µM) 
++ - 0.5 µL reverse primer (10 µM) 
++ - 1 µL cDNA template (our prepared cDNA) 
++3. 
++4. Use the following primers for Atg7 amplification: 
++ - Forward: 5′‑GTTCGCCCCCTTTAATAGTGC‑3′ 
++ - Reverse: 5′‑TGAACTCCAACGTCAAGCGG‑3′ 
++5. Run the qPCR on your standard instrument and provide the raw Ct values for each well. 
++6. After the run, normalize the Ct values to GAPDH (our housekeeping gene) and return the normalized data. 
+ 

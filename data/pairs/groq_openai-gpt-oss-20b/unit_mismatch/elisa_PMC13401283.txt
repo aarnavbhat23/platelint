@@ -1,0 +1,31 @@
+We need you to run the following experiment on our samples.
+
+1. **Participants and sample type** – Use 417 individuals aged 18‑25 who provided paired serum and dried blood spot (DBS) samples from the same visit. For the deterioration study we also have 295 self‑collected DBS samples from a separate recruitment period.
+
+2. **DBS collection** – Use single‑use safety lancets (Sarstedt 85.1016). Collect capillary blood on filter paper cards (8.460.0004.A Rev.1, Ahlstrom‑Munksjö). Fill up to five circular collection areas, but for self‑collection instruct participants to fill at least two. Allow the spots to air‑dry for at least 12 h at room temperature, protected from heat and direct sunlight. After drying, place each card in a zip‑lock bag with a desiccant sachet.
+
+3. **Serum collection** – Draw venous blood into 2.7 µL S‑Monovette® Serum CAT tubes (Sarstedt 04.1943.001). Separate serum following the manufacturer’s instructions. Aliquot and store all serum and DBS samples at –80 °C in temperature‑controlled freezers.
+
+4. **Deterioration conditions** – For a subset of DBS cards, expose them to the following environments for 11 consecutive days post‑collection:
+   - Freezer: –18 °C to –21 °C
+   - Refrigerator: 4 °C to 7 °C
+   - Room temperature: 22 °C to 25 °C
+   - Incubator: 36 °C to 38 °C
+   - Direct sunlight: full‑day exposure on a window ledge at room temperature
+   - Wet packaging: less than 3 h of drying before packaging
+   Return the cards to –80 °C after the 11‑day period and include them in the assay batch.
+
+5. **Self‑collection kit** – Provide each participant with a Euroimmun ZV 9702‑0101 kit, written instructions, and a link to a video tutorial. Ask them to return the cards within three days, sealed in a zip‑lock bag with a desiccant sachet. Scan barcodes upon receipt and log them into the database.
+
+6. **Antibody extraction** – Use the Panthera‑Puncher 9 Instrument to punch three 3.2 mm discs from each DBS card (unless otherwise indicated). Place discs in a barcoded 96‑well plate. Dispense 80 µL of elution buffer into each well (Integra Voyager multichannel pipettes, adjustable tip spacing). Shake on the MIUlab ES‑60E at 37 °C, 300 rpm for 1 h. Transfer the eluate into Roche 13/16 micro sample cups (Roche 05085713001).
+
+7. **Assays** – Run the Roche Elecsys® EBV EBNA IgG and Elecsys® EBV VCA IgG assays on a Cobas e801 analyzer. Use the same reagent lot for all samples and analyze paired serum and DBS on the same day. Record the Cut‑Off Index (COI) for each run.
+
+8. **Dilutions** – Because DBS eluates are already diluted, apply additional dilution thresholds:
+   - If a DBS anti‑EBNA COI ≥ 10 or anti‑VCA COI ≥ 80, dilute the eluate 1:10 before analysis.
+   - If a serum anti‑EBNA COI ≥ 130 or anti‑VCA COI ≥ 1500, dilute the serum 1:20 before analysis.
+   After measurement, back‑calculate the true concentration by multiplying by the dilution factor.
+
+9. **Data handling** – Each DBS card has a unique barcode. The punching machine logs the barcode and well position automatically. Transfer this linkage to the Janus robotic system via a custom script. Load the eluates into micro‑sample cups, arrange in barcoded rack packs (five samples per pack), and generate a worklist for the Cobas analyzer. Export raw luminescence and COI values and link them to the DBS barcode in the database. After analysis, store the DBS cards again at –80 °C in zip‑lock bags with desiccant.
+
+10. **Reporting** – Provide us with the COI values for each sample, the applied dilution factors, and the final back‑calculated concentrations. Flag any samples that required dilution. We will apply our empirically determined cut‑offs (derived from a classification tree against serum reference) to classify serostatus. Please also include a brief report summarizing any obvious assay failures or outliers.

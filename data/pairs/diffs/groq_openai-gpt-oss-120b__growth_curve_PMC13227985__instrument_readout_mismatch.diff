@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/growth_curve_PMC13227985 (clean)
++++ groq_openai-gpt-oss-120b/growth_curve_PMC13227985 (defect)
+@@ -56,3 +56,3 @@
+    - Include three negative controls: (i) no enzyme, (ii) no substrate, (iii) neither enzyme nor substrate.  
+-   - Measure absorbance at 405 nm every 15 min for 2 h on the BioTek EPOCH 2 at 37 °C, no shaking. Triplicate wells per condition.  
++   - Measure luminescence every 15 min for 2 h on the BioTek EPOCH 2 at 37 °C, no shaking. Triplicate wells per condition.  
+ 

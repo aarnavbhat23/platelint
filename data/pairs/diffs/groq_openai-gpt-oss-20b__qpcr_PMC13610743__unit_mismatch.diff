@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/qpcr_PMC13610743 (clean)
++++ groq_openai-gpt-oss-20b/qpcr_PMC13610743 (defect)
+@@ -12,3 +12,3 @@
+    - The NPNPD library comes in 384‑well plates with 10 µg of each fraction in 4 µL DMSO (2.5 µg/µL).  
+-   - Prepare serial dilutions: 5‑fold, then 4‑fold to give 50, 25, 10, 5, 2.5, 1.25 µg/mL final concentrations.  
++   - Prepare serial dilutions: 5‑fold, then 4‑fold to give 50, 25, 10, 5, 2.5, 1.25 mg/mL final concentrations.  
+    - For each well, add 0.5 µL of the working solution to a final volume of 50 µL (final DMSO 1 %).  

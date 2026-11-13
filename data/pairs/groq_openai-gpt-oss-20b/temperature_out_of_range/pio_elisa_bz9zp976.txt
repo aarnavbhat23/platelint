@@ -1,0 +1,66 @@
+Please conduct the glucagon ELISA on the human islet extracts we have shipped to you.  
+Use the Quantikine Glucagon ELISA kit (R&D Systems #DGCG0).  
+
+**Equipment & Supplies**  
+- Micropipettes (10‑100 µL, 20‑200 µL, 100‑1000 µL) and 20‑200 µL multi‑channel pipette  
+- epMotion 5075 (or hand‑pipetting) with 50 µL tips (Eppendorf 30014421)  
+- 20‑200 µL multi‑channel pipette tips (Eppendorf 0030014430)  
+- 200 µL and 1000 µL tips (Fisher P‑200 ART, P‑1250 ART)  
+- 2 mL SafeSeal tubes (Sarstedt 72.695.500)  
+- 10 mL and 25 mL serological pipettes (Fisher 13‑678‑11E / 13‑678‑11)  
+- Bench‑top vortex, Bench‑top shaker (Benchmark Orbi BT1502), plate washer (Fisher accuWash 5165100), microplate reader (BMG CLARIOstar Plus with MARS software)  
+- Computer with Excel and GraphPad Prism  
+
+**Kit Components**  
+- Glucagon microplate (894070), standard (894072), conjugate (894071)  
+- Assay diluent RD1‑110 (895967), calibrator diluent RD5‑59 (895968), wash buffer concentrate (895222)  
+- Color reagents A (895000), B (895001), stop solution (895032)  
+- QC set (R&D QC100)  
+
+Store all unopened kit parts at 2‑-80 °C; thaw QC samples as needed.  
+
+**Sample Preparation**  
+1. Thaw islet extracts at room temperature in a water bath, invert capped tubes 10 times.  
+2. Keep extracts on ice until ready for dilution.  
+3. Prepare serial dilutions of each extract in 2 mL tubes: 1:100, 1:1000, 1:2000, 1:5000, 1:10000 using calibrator diluent RD5‑59. Vortex after each dilution before the next.  
+
+**Standard Dilutions**  
+4. Prepare a 1:10 dilution of the 20 000 pg/mL standard in RD5‑59.  
+5. Perform six 1:2 serial dilutions from that 1:10. Vortex each tube before the next step.  
+
+**QC Preparation**  
+6. Reconstitute QC stock in 5 mL distilled water (or thaw pre‑prepared QC).  
+
+**Wash Buffer**  
+7. Dilute wash buffer concentrate: 100 mL concentrate + 900 mL DI water to make 1× wash buffer.  
+
+**Pre‑Assay Plate Preparation**  
+8. Soak the 96‑well plate: add 800 µL diluted wash buffer to each well, wait 30 s, aspirate. Repeat wash/aspirate twice with 400 µL wash buffer.  
+
+**Assay Steps**  
+9. Add 150 µL assay diluent RD1‑110 to each well.  
+10. Add 50 µL of standards (in duplicate), QC (in duplicate), and each of the five extract dilutions to appropriate wells using epMotion or hand pipetting.  
+11. Seal plate, incubate 3 h at room temperature.  
+12. Wash as in step 8, repeat 3 times (use plate washer).  
+13. Add 200 µL ice‑cold glucagon conjugate to each well.  
+14. Seal again, incubate 1 h at 4 °C (no plate stacking if multiple kits).  
+15. Wash again 3 times as above.  
+16. Mix color reagents A and B in equal volume, add 200 µL to each well within 15 min of mixing.  
+17. Incubate 30 min at room temperature, away from light.  
+18. Add 50 µL stop solution to each well.  
+
+**Reading**  
+19. Read OD at 450 nm with 540 nm correction on the CLARIOstar within 30 min of adding stop solution.  
+
+**Data Analysis**  
+20. Verify standards are within ±15 % of expected values and duplicate CV ≤20 %. If not, repeat assay.  
+21. Verify QC values are within known ranges. If not, repeat assay.  
+22. For each extract, average the glucagon concentrations from the four dilutions (1:100–1:5000).  
+23. Normalize to islet volume: express as pg/100 IEQs/min.  
+24. Use Prism to graph hormone concentrations over time, calculate stimulation index (max response / baseline) and AUC.  
+
+**Reporting**  
+25. Send us the raw OD data, calculated concentrations, and Prism graphs.  
+26. Include any deviations from the protocol that could affect the results.  
+
+Please complete the assay within 3 business days of receipt and forward the data files to our research team. Let us know if any supplies or equipment are missing. Thank you.

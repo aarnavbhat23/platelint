@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/elisa_PMC13413905 (clean)
++++ google_gemini-35-flash/elisa_PMC13413905 (defect)
+@@ -13,3 +13,3 @@
+ 3. Reconstitute the residue in 1 mL LC-MS-grade water and ultrasonicate for 2 minutes.
+-4. Perform SPE cleanup using Strata-X 30 mg cartridges: condition with 1 mL methanol, equilibrate with 1 mL water, load 1 mL of sample, wash with 1 mL water, and elute with 1 mL methanol.
++4. Perform SPE cleanup using Strata-X 30 mg cartridges: condition with 1 mL methanol, equilibrate with 1 µL water, load 1 mL of sample, wash with 1 mL water, and elute with 1 mL methanol.
+ 5. Evaporate/concentrate the eluate to 200 µL and transfer to glass autosampler vials.

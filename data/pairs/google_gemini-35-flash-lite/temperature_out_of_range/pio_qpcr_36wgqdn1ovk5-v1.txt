@@ -1,0 +1,11 @@
+Please run quantitative PCR on our provided cDNA samples using the 384-well format and ABI Sybr Green (ABI 4301955) on the ABI 7900 Prism instrument. 
+
+Thaw our sample cDNA on ice, vortex, and quick spin before plating. Dilute the cDNA 1:10 in DI H2O and add 2 µl of the diluted cDNA to the bottom of each designated well on the 384-well plate (ABI 4309849) kept on ice. 
+
+Prepare the PCR Master Mix per sample per gene using 6 µl SYBR Green, 2 µl autoclaved MilliQ H2O, and 2 µl of primers (at a final concentration of 1.25 µM each), scaling up with appropriate overage for the sample number. Pour the gene master mix into a reservoir and dispense 10 µl of the master mix into each well according to our pre-arranged plate layout. 
+
+Gently blot the top of the plate with a Kimwipe, apply the clear adhesive plate cover (ABI 4311971), and use the brown plastic adhesive helper to smooth it out working from the center out, paying special attention to the edges. Spin the plate for 5 minutes at 3500 rpm at -80 °C. 
+
+Set up the ABI SDS 2.3 program for a 10 µl reaction volume, ensuring unused wells are omitted and used wells have the correct specific gene detectors added. Include a dissociation stage for the SYBR primers configured with the following profile: Stage 1 (50°C for 2:00), Stage 2 (95°C for 10:00), Stage 3 (40 cycles of 95°C for 0:15 and 60°C for 1:00), and the dissociation stage (95°C for 0:15, 60°C for 0:15, 95°C for 0:55). 
+
+Insert the plate into the ABI 7900 Prism aligning A1 to A1, close the door, and run the plate.

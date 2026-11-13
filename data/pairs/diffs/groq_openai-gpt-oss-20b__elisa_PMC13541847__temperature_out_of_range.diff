@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/elisa_PMC13541847 (clean)
++++ groq_openai-gpt-oss-20b/elisa_PMC13541847 (defect)
+@@ -27,3 +27,3 @@
+    e. Wash twice with 500 µL PBS 1× + 0.05 % Tween‑20.  
+-   f. Resuspend in 1 mL PBS 1× + 0.05 % Tween‑20 to achieve 1.25 × 10⁶ beads/mL. Store at 4 °C.  
++   f. Resuspend in 1 mL PBS 1× + 0.05 % Tween‑20 to achieve 1.25 × 10⁶ beads/mL. Store at -80 °C.  
+ 

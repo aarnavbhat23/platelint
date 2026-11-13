@@ -1,0 +1,21 @@
+Please process our hiPSC samples using the following targeted genome editing and amplicon sequencing workflow:
+
+1. Maintain and prepare the hiPSC cultures (e.g., KOLF2.1J cells) in antibiotic-free complete growth medium (mTeSR Plus with 1× penicillin/streptomycin) supplemented with 1× CEPT cocktail on Geltrex-coated plates.
+
+2. Deliver genome-editing reagents using either plasmid transfection (e.g., using Lipofectamine Stem with a 3:1 reagent-to-plasmid ratio, combining 2 μg PX458 plasmid and 1 μg Alt-R HDR donor oligo for knock-ins, or 0.5 μg pegRNA plasmid and 1.5 μg pCMV-PEmax-P2A-GFP for prime editing) or ribonucleoprotein (RNP) electroporation (e.g., Neon NxT system at 1,300 V, 10 ms, single pulse, using RNP complexes prepared by annealing 50 μM sgRNA with 19.5 μM Cas9 nuclease and adding 1 μg HDR donor oligo where applicable). 
+
+3. Twenty-four hours post-transfection, enrich edited cells via fluorescence-activated cell sorting (FACS) using freshly prepared, sterile-filtered FACS buffer (PBS without Ca2+/Mg2+, 2% FCS, 1× CEPT). Sort GFP-positive cells and recover them in growth medium containing CEPT, maintaining antibiotics during sorting to prevent contamination.
+
+4. Expand bulk-sorted cells or isolate single-cell clones by seeding at 1.5 cells per well in 96-well plates with CEPT-supplemented medium until colonies reach 60–80% confluency.
+
+5. Extract genomic DNA by preparing fresh DNA lysis buffer (PBS, 1% Tween 20, 0.2 mg/mL Proteinase K), adding 50 μL to each well containing cell pellets, incubating at 56 °C for 1 h, and inactivating the enzyme at 95 °C for 15 min.
+
+6. Perform targeted amplification of the edited locus using the first PCR mix (1× Blitz PCR buffer, 0.2 mM each dNTPs, 0.36 μM forward and reverse primers, 0.04 U/μL Blitz DNA polymerase, and 20 ng genomic DNA lysate in a 7 μL total reaction volume). Run the thermal cycler at 98 °C for 1 min; 19 cycles of 98 °C for 20 s, 60 °C for 20 s, 72 °C for 30 s; followed by 72 °C for 4 min.
+
+7. Incorporate sample-specific barcodes and sequencing adapters via a second-round index PCR using the same mix composition and thermal cycling conditions, substituting the first PCR product as the template.
+
+8. Pool the indexed PCR products, run them on a 1.5% agarose gel, excise the ~450 bp library band, and purify using a gel extraction kit. 
+
+9. Quantify the purified library using a fluorometric or qPCR-based assay (e.g., Qubit or NEBNext Library Quant Kit). 
+
+10. Sequence the libraries on the appropriate platform (such as an Illumina MiSeq i100 Plus, loading 60 to 80 pM of the final library) and extract the resulting FASTQ files for downstream analysis.

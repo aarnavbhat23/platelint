@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/elisa_PMC13346889 (clean)
++++ groq_openai-gpt-oss-120b/elisa_PMC13346889 (defect)
+@@ -14,3 +14,3 @@
+ 
+-   • Collect the supernatant (~9 mL) with a sterile 10 mL syringe, filter through a 0.45 µm syringe filter into a 15 mL conical tube.
++   • Collect the supernatant (~9 mL) with a sterile 10 mL syringe, filter through a 0.45 µm syringe filter into a 15 µL conical tube.
+ 

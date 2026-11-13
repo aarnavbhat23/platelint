@@ -1,0 +1,17 @@
+Please run anti-EBNA-1 IgG and anti-VCA IgG testing on our submitted paired serum and dried blood spot (DBS) samples using Roche Elecsys EBV EBNA IgG and Elecsys EBV VCA IgG assays on a Cobas e801 platform according to the following instructions:
+
+1. Keep all DBS cards sealed at -80 °C in zip-lock bags with desiccant prior to and after processing, protecting them from moisture and condensation during any freeze-thaw steps.
+
+2. For each DBS sample, punch three 3.2 mm diameter discs into a barcoded 96-well plate.
+
+3. Add 80 mL of elution buffer to each well and incubate on a temperature-controlled shaker at 37 °C and 300 rpm for 1 hour.
+
+4. Transfer the DBS eluates into micro sample cup inserts (e.g., Roche 13/16 micro sample cups) to minimize dead volume, and load them onto the Cobas e801.
+
+5. Analyze paired serum and DBS eluates on the same day using the exact same reagent lot across matrices.
+
+6. Monitor initial Cut-Off Index (COI) outputs and apply dilutions to bring samples within linear detection range:
+   - Dilute DBS eluates 1:10 if anti-EBNA-1 is ≥ 10 COI or anti-VCA is ≥ 80 COI.
+   - Dilute serum samples 1:20 if anti-EBNA-1 is ≥ 130 COI or anti-VCA is ≥ 1500 COI.
+
+7. Deliver a data package containing raw COI values, luminescence signal intensities, applied dilution factors, and back-calculated final concentrations linked to each sample barcode.

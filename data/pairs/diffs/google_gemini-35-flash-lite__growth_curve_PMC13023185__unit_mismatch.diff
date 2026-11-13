@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/growth_curve_PMC13023185 (clean)
++++ google_gemini-35-flash-lite/growth_curve_PMC13023185 (defect)
+@@ -7,3 +7,3 @@
+ 4. Screen the selected bacterial and fungal isolates for plant growth-promoting and stress-tolerance traits in vitro, using three biological and three technical replicates:
+-   - Siderophore production: Spot 50 µL of bacterial suspension (OD₆₀ = 0.5) on NB agar, incubate 48 h at 28 °C, apply CAS-overlay agar, and check for a blue-to-orange color change after 12 h.
++   - Siderophore production: Spot 50 mL of bacterial suspension (OD₆₀ = 0.5) on NB agar, incubate 48 h at 28 °C, apply CAS-overlay agar, and check for a blue-to-orange color change after 12 h.
+    - ACC deaminase production: Spot 25 µL of bacterial suspension (OD₆₀ = 0.5) on M9 medium containing ammonium chloride, ACC, or no nitrogen source; incubate for 10 days at 28 °C alongside Variovorax sp. M92526_27 as a positive control.

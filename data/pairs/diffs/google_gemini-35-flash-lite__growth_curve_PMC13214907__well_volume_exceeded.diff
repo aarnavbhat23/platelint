@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/growth_curve_PMC13214907 (clean)
++++ google_gemini-35-flash-lite/growth_curve_PMC13214907 (defect)
+@@ -8,3 +8,3 @@
+ 
+-4. **Virus Titration**: Perform virus titrations side by side on fresh and cryopreserved primary swine macrophages (24 hours post-seeding). Prepare 10-fold serial dilutions of ASFV samples in macrophage complete media and add 50 μL per well to Primaria 96-well plates (5 × 10^6 cells/plate density). Add 10 μL of the 20% RBC suspension per well 24 hours post-inoculation to test for hemadsorption (HA). Take final readings between 7 and 10 days post-infection, and calculate titers as HAD50/mL using the Reed and Muench method.
++4. **Virus Titration**: Perform virus titrations side by side on fresh and cryopreserved primary swine macrophages (24 hours post-seeding). Prepare 10-fold serial dilutions of ASFV samples in macrophage complete media and add 1080 µL per well to Primaria 96-well plates (5 × 10^6 cells/plate density). Add 10 μL of the 20% RBC suspension per well 24 hours post-inoculation to test for hemadsorption (HA). Take final readings between 7 and 10 days post-infection, and calculate titers as HAD50/mL using the Reed and Muench method.
+ 

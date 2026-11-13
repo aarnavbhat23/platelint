@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_qpcr_yxmvm341bl3p-v1 (clean)
++++ google_gemini-35-flash-lite/pio_qpcr_yxmvm341bl3p-v1 (defect)
+@@ -6,3 +6,3 @@
+ 
+-Dispense 10 µl of the cDNA/Mastermix into each well of a 384-well qPCR plate (ABI 4309849) according to our pre-arranged plate layout, ensuring A1 aligns with A1. Gently blot the top of the plate with a Kimwipe, apply a clear adhesive plate cover (ABI 4311971), and use the brown plastic adhesive helper to smooth it out from the center outwards, paying close attention to the edges. Spin the plate at 3500 rpm for 5 minutes at 4°C. 
++Dispense 10 µl of the cDNA/Mastermix into each well of a 384-well qPCR plate (ABI 4309849) according to our pre-arranged plate layout, ensuring A1 aligns with A1. Gently blot the top of the plate with a Kimwipe, apply a clear adhesive plate cover (ABI 4311971), and use the brown plastic adhesive helper to smooth it out from the center outwards, paying close attention to the edges. Spin the plate at 3500 rpm for 5 minutes at -80 °C. 
+ 

@@ -1,0 +1,17 @@
+1. Germinate tomato seeds by surface-sterilizing with 75% ethanol for 2 min, incubating in 5% sodium hypochlorite for 10 min with gentle shaking, and rinsing 6-7 times with sterile distilled water. Sow seeds on ISTA-compliant germination paper in 9 cm culture dishes, add distilled water without submerging the seeds, and incubate in the dark at room temperature for 2-3 days until radicles emerge.
+
+2. Transplant germinated seeds into square plastic pots containing a 1:1 volume ratio of vermiculite and peat. Grow seedlings in a chamber at 26°C / 18°C (16 h light / 8 h dark) with 60% relative humidity and 180–220 μmol m−2 s−1 light intensity until they reach the two-leaf, one-heart stage. Maintain controlled watering to prevent stress.
+
+3. Perform mechanical wounding on healthy seedlings at the two-leaf, one-heart stage using 14 cm straight hemostatic forceps (sterilized with 75% ethanol between plants). Apply a single clamp with consistent pressure to the lamina of the first true leaf to induce visible drooping, ensuring the wounded area faces downward. 
+
+4. Harvest three distinct sample types per genotype at 12 h post-treatment, with at least 8 seedlings per genotype: (i) the wounded leaflet of the first true leaf, (ii) the undamaged second true leaf from the same wounded plant, and (iii) undamaged leaves from independent, untreated control plants. Snap-freeze all harvested tissues immediately in liquid nitrogen and store at −80°C.
+
+5. Grind frozen leaf tissue into a fine powder in a pre-cooled mortar using liquid nitrogen, ensuring tissues do not thaw. Transfer powder up to the 500 μL line in 1.5 mL centrifuge tubes.
+
+6. Extract total RNA using Trizol reagent and column-based purification. Add 1 mL Trizol to the powder, incubate for 5 min, load onto adsorption columns, and centrifuge at 4°C and 13500 × g for 20 s. Wash the column once with 700 μL Buffer RW1 and twice with 500 μL Buffer RW2. Dry the column by centrifuging for 2 min at 13500 × g, then elute RNA in 30 μL of RNase-free water. Quantify RNA concentration via NanoDrop spectrophotometer and validate integrity using agarose gel electrophoresis before proceeding or storing at −80°C.
+
+7. Perform genomic DNA removal and first-strand cDNA synthesis on ice. Combine 1 μg total RNA, 2 μL 5X gDNA Eraser Buffer, 2 μL gDNA Eraser, and adjust with ddH2O to 10 μL; incubate at 42°C for 2 min. Add 10 μL of RT master mix (containing 4 μL 5× PrimeScript Buffer 2, 1 μL PrimeScript RT Enzyme Mix I, 1 μL RT Primer Mix, and 4 μL ddH2O), incubate at 37°C for 15 min, and terminate at 85°C for 5 s. Store cDNA at −80°C.
+
+8. Set up 20 μL reactions for quantitative real-time PCR using the Kapa Biosystems SYBR Fast qPCR Kit and a Roche LightCycler 480 system. Each reaction should contain 2 μL cDNA, 10 μL SYBR Fast qPCR Kit, 0.5 μL of 0.25 μM forward primer, 0.5 μL of 0.25 μM reverse primer, and ddH2O to 20 μL. Cycle with an initial denaturation at 95°C for 30 s, followed by 40 cycles of 95°C for 5 s and 59°C for 30 s. Include melt curve analysis from 60°C to 95°C at 0.3°C/s with continuous fluorescence acquisition to verify amplicon specificity.
+
+9. Normalize target gene expression levels against tomato ACTIN2. Perform statistical analysis using two-tailed Student’s t-tests for pairwise comparisons, or one-way ANOVA followed by Tukey’s post-hoc tests for datasets with multiple groups.

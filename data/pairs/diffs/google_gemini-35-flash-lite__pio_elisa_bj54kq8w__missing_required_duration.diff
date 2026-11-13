@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_elisa_bj54kq8w (clean)
++++ google_gemini-35-flash-lite/pio_elisa_bj54kq8w (defect)
+@@ -14,3 +14,3 @@
+ 12. Add 50 µl of eBioscience TMB Solution (1X) (Thermo Fisher Cat #00-4201-56) to each well.
+-13. Incubate the plate for 15 minutes in a very dark place.
++13. Incubate the plate in a very dark place.
+ 14. Add 50 µl of 3M HCl to each well to stop the reaction.

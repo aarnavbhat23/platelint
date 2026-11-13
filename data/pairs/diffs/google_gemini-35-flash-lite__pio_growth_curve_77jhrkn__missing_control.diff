@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_growth_curve_77jhrkn (clean)
++++ google_gemini-35-flash-lite/pio_growth_curve_77jhrkn (defect)
+@@ -2,3 +2,3 @@
+ 
+-Prepare LB media with the appropriate antibiotics and our supplied bacteriophage stock solutions. Set up overnight cultures of our samples with their associated antibiotics, measure their OD600, and dilute them to an OD600 of 0.02. Load 180 µL of each diluted culture into the 96-well plate, alongside a series of LB-only wells without bacteria to serve as blanks and controls. 
++Prepare LB media with the appropriate antibiotics and our supplied bacteriophage stock solutions. Set up overnight cultures of our samples with their associated antibiotics, measure their OD600, and dilute them to an OD600 of 0.02. 
+ 

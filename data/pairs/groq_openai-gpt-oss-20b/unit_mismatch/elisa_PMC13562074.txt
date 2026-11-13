@@ -1,0 +1,105 @@
+Materials & reagents (keep all at 4 °C unless noted)
+
+- DMEM (high glucose), 10% FBS, 1 % penicillin‑streptomycin  
+- 0.25 % trypsin‑EDTA (pre‑warmed to 37 °C)  
+- PBS, cold (4 °C)  
+- 2‑Chloroacetamide 30 mM, TCEP‑HCl 10 mM, Tris‑HCl pH 8.5 100 mM (prepare fresh master mix before each batch, protect from light, 21 °C)  
+- Trypsin/LysC (1.5 µg per µl ISF)  
+- Formic acid 0.1 % (for resuspension)  
+- 70 % ethanol (for sterilisation)  
+- 70 % alcohol (for surface disinfection)  
+- 2‑Bromo‑3‑chloro‑5‑bromobenzene (if needed for StageTips, see SOP)  
+- 0.1 µm filters, 20 µm strainers, 1.5 mL tubes, 12‑well plates, Whatman paper, stereomicroscope  
+- Isoflurane, oxygen cylinder (2 L min⁻¹), isoflurane vapouriser  
+- Metamizole (sub‑cutaneous)  
+- Surgical clips, fine‑tip scissors, forceps, 29‑G insulin syringe  
+- Calipers, paper scales, NanoDrop, Thermoshaker, vacuum concentrator, Orbitrap Exploris 480 (or equivalent high‑resolution MS), EASYnLC 1200 UHPLC with 50 cm 75 µm column, StageTip kit (SDB‑RPS)  
+
+Animal requirements: female BALB/c, 6–8 weeks, under approved license. All anesthesia and analgesia must be performed by trained staff.  
+
+---
+
+**1. Cell culture & counting**  
+a. Keep 4T1 and 67NR cells in supplemented DMEM at 37 °C, 5 % CO₂. Avoid >90 % confluence.  
+b. Harvest at passage 2–4 (do not exceed).  
+c. Rinse with pre‑warmed PBS, detach with 0.25 % trypsin‑EDTA (37 °C) until cells detach.  
+d. Quench with excess fresh DMEM, transfer to a 15 mL tube.  
+e. Count with a trypan blue/automated counter; viability ≥80 %.  
+
+**2. Prepare injection suspension**  
+a. Pellet 5 × 10⁵ 4T1 cells (5 × 10⁶ 67NR) in 300 × g, 5 min, 4 °C.  
+b. Wash twice with cold PBS (same centrifugation).  
+c. Resuspend:  
+ • 4T1 → 1 × 10⁵ cells mL⁻¹ (5 × 10³ cells/50 µL) in cold PBS.  
+ • 67NR → 2 × 10⁶ cells mL⁻¹ (1 × 10⁵ cells/50 µL) in 1:1 cold PBS + Matrigel.  
+d. Prepare double the volume to compensate for dead volume. Keep on ice; inject within 1 h.  
+
+**3. Orthotopic injection**  
+a. Shave lower abdomen, sterilise skin with 70 % alcohol.  
+b. Analgesic: metamizole SC, 1 h pre‑op.  
+c. Induce isoflurane: 3.5 % O₂ 2 L min⁻¹; confirm loss of paw reflex.  
+d. Make small incision at 4th mammary site; separate fat pad with sterile cotton swab (alcohol‑free).  
+e. Load 100 µL of cell suspension into a 29‑G insulin syringe.  
+f. Using forceps, expose fat pad, slowly inject 50 µL per side, forming a bubble. Pull needle slowly after injection.  
+g. Repeat on contralateral side.  
+h. Close incision with surgical clips.  
+i. Remove from isoflurane, monitor until fully awake.  
+j. Observe daily for pain, weight, wound, mobility.  
+
+**4. Tumor monitoring**  
+a. Measure each tumor 3× per week from day 5 to endpoint (≈day 21).  
+b. Record length (L) and width (W); calculate volume = π/6 × L × W.  
+
+**5. Tissue harvest**  
+a. At endpoint, euthanise by approved method.  
+b. Pin paws, surface‑sterilise with 70 % alcohol.  
+c. Make midline incision, then two perpendicular cuts to expose axillary region.  
+d. Dissect primary tumour and axillary lymph nodes (TDLNs) with fine‑tip forceps.  
+e. Wash each organ in ice‑cold PBS in a 12‑well plate.  
+f. Dry gently on Whatman paper.  
+g. Weigh each organ; record weight.  
+
+**6. ISF isolation**  
+a. For each organ, place in a 1.5 mL tube with a 20 µm strainer (lid removed).  
+b. Add 10 µL cold PBS on top.  
+ • LNs: leave intact.  
+ • Tumours: cut into ~50 mg pieces (≈10 pieces for a 500 mg tumour).  
+c. Keep on ice; centrifuge 150 × g, 10 min, 4 °C.  
+d. Carefully aspirate supernatant (ISF) without disturbing pellet.  
+e. Transfer ISF to a new tube, place on dry ice, then −80 °C.  
+
+Typical recovery: 2–4 µL (pools of naïve LNs), 8–10 µL (pools of TDLNs), ~50 µL (500 mg tumour).  
+
+**7. Protein reduction & alkylation**  
+a. Add 5× master mix to ISF to reach 10 mM TCEP, 30 µM CAA, 100 mM Tris‑HCl pH 8.5.  
+b. Heat 95 °C, 10 min, 1000 rpm.  
+
+**8. Trypsin/LysC digestion**  
+a. Add 1.5 µg trypsin/LysC per sample.  
+b. Incubate 16 h, 37 °C, 1000 rpm.  
+
+**9. Desalting & resuspension**  
+a. Desalt by SDB‑RPS StageTips (in‑house or commercial).  
+b. Dry in vacuum concentrator.  
+c. Resuspend in 0.1 % formic acid.  
+d. Measure peptide concentration (NanoDrop); normalise all samples.  
+
+**10. LC‑MS/MS**  
+a. Inject 300 ng peptide per run.  
+b. Use 300 nL min⁻¹ flow, 55 °C column.  
+c. Gradient: 3 % B → 98 % B over 120 min.  
+d. MS: data‑independent acquisition, full scan m/z 300‑1650 (AGC 3×10⁶, 120k resolution), 32 DIA windows (AGC 1×10⁶, 30k resolution).  
+
+**11. Data processing**  
+a. Run DIA‑NN v1.8: FASTA digest, deep‑learning spectra & RT prediction, precursor FDR 1 %, RT‑dependent normalisation.  
+b. Enable MBR, “robust LC” quantification.  
+c. Filter protein groups: ≥70 % valid values in any group, 1 % global & 5 % run‑specific FDR.  
+d. Impute missing values in Perseus with normal distribution (σ 0.3, downshift 1.8 SD).  
+
+**12. Downstream analysis**  
+a. Perform two‑tailed t‑tests, BH‑adjusted p‑values.  
+b. Volcano plots: log₂ FC vs –log10(p); cut‑offs |log₂FC| ≥ 1, adjusted p ≤ 0.05.  
+c. UMAP on scaled protein values (UMAP R package).  
+d. Heatmaps of scaled abundances (ggplot2).  
+
+Please proceed with the above steps for our 4T1 and 67NR samples, and report any deviations or issues encountered. Ensure all animal procedures comply with the current license and that all data are stored in our shared repository.

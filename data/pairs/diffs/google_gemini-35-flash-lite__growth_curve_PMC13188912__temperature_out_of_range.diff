@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/growth_curve_PMC13188912 (clean)
++++ google_gemini-35-flash-lite/growth_curve_PMC13188912 (defect)
+@@ -13,3 +13,3 @@
+ 5. Evaluate extraction efficiency and microbial recovery on all processed samples using:
+-   - Viable cell enumeration via serial dilution and spread plating on nutrient agar, incubated at 37°C for 24–48 h (report as CFU MiP⁻¹). Include sterile PET negative controls.
++   - Viable cell enumeration via serial dilution and spread plating on nutrient agar, incubated at 75 °C for 24–48 h (report as CFU MiP⁻¹). Include sterile PET negative controls.
+    - Residual biofilm quantification via crystal violet staining (0.1% wt/vol for 45 min in the dark, washed with PBS, eluted with 95% ethanol, and measured spectrophotometrically at OD 595).

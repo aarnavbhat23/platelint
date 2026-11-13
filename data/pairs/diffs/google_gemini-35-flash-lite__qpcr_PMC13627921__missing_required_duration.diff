@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/qpcr_PMC13627921 (clean)
++++ google_gemini-35-flash-lite/qpcr_PMC13627921 (defect)
+@@ -6,3 +6,3 @@
+ 6. Set up migration chambers using 24-well TC inserts (loaded with 12 spheroids each) or 6-well TC inserts (loaded with 96 spheroids each) using a cut 1000 µL pipette tip. Adjust insert volume to ~80–100 µL (24-well) or ~1 mL (6-well), place inserts into wells containing medium with 10% FBS (~700 µL for 24-well, ~3 mL for 6-well), and ensure no air bubbles are introduced.
+-7. Incubate the migration chambers for 64 hours at standard conditions.
++7. Incubate the migration chambers at standard conditions.
+ 8. For 24-well inserts undergoing morphometric analysis, capture four consecutive overlapping images of the non-migrated fraction using a 2× objective, stitch them using Fiji (Grid/Collection stitching), and save as cropped JPEGs.

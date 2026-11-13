@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_viability_5qpvoo55xv4o-v1 (clean)
++++ google_gemini-35-flash-lite/pio_viability_5qpvoo55xv4o-v1 (defect)
+@@ -2,3 +2,3 @@
+ 
+-1. Thaw the CellTiter-Glo 3D reagent at 4°C the day before the assay, equilibrate it to room temperature for 30 minutes prior to use, and gently mix the solution.
++1. Thaw the CellTiter-Glo 3D reagent at -80 °C the day before the assay, equilibrate it to room temperature for 30 minutes prior to use, and gently mix the solution.
+ 2. Prepare an ATP calibration curve using ATP (Sigma-Aldrich, A7699-1G) and transfer these solutions into an opaque white 96-well plate (Costar 96 Flat Bottom White Polystyrene) for luminescence measurement alongside our samples.

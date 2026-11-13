@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/elisa_PMC13346889 (clean)
++++ groq_openai-gpt-oss-20b/elisa_PMC13346889 (defect)
+@@ -74,3 +74,3 @@
+ 17. Resuspend pellet in 90 µL PBS (100× stock). Mix by pipetting (avoid bubbles).  
+-18. Aliquot if needed and store at –80 °C (no more than 3 freeze‑thaw cycles).  
++18. Aliquot if needed and store at –80 °C (no more than 3 freeze‑thaw cycles), and hold the plate at 4 °C for the whole of this step.
+ 

@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/pio_elisa_bjmzkk76 (clean)
++++ groq_openai-gpt-oss-120b/pio_elisa_bjmzkk76 (defect)
+@@ -2,3 +2,3 @@
+ 
+-1. Coat each well of a Nunc 96‑well U‑shaped bottom plate with 50 ng synthetic gp‑120 peptide diluted in BioLegend Coating Buffer. Add 100 µL per well and incubate overnight at 4 °C.
++1. Coat each well of a Nunc 96‑well U‑shaped bottom plate with 50 ng synthetic gp‑120 peptide diluted in BioLegend Coating Buffer. Add 100 µL per well and incubate overnight at 4 °C, and hold the plate at 37 °C for the whole of this step.
+ 

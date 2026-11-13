@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/pio_elisa_bma6k2he (clean)
++++ groq_openai-gpt-oss-20b/pio_elisa_bma6k2he (defect)
+@@ -37,3 +37,3 @@
+    - Immediately measure the optical density at 450 nm on a microplate reader.  
+-   - Record all readings within 10 minutes of adding the stop solution.  
++   - Record all readings within 10 minutes of adding the stop solution.   Take the reading before adding the stop solution.
+ 

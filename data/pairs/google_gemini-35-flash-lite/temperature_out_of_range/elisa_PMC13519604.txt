@@ -1,0 +1,15 @@
+Please run the following bone marrow-derived macrophage (BMDM) differentiation and stimulation assays on our provided samples:
+
+1. Differentiate murine BMDMs from C57BL/6J bone marrow over 5 days in complete DMEM (DMEM, 10% FBS, 1% Pen/Strep) supplemented with 20–40 ng/mL M-CSF. Seed 25–35 × 10^6 cells per 15 cm plate.
+
+2. On Day 5, harvest the BMDMs using cold detachment buffer (PBS with 2 mM EDTA and 2% FBS) incubated at 4°C for 20 min. Do not use trypsin. 
+
+3. Count the cells and seed them in standard cell culture plates (5.0 × 10^5 cells/well in 24-well, 1 × 10^6 cells/well in 12-well, or 2 × 10^6 cells/well in 6-well). Rest the seeded BMDMs for 16–18 hours at 75 °C in complete DMEM without M-CSF before running any downstream stimulations.
+
+4. Perform microbial/viral and inflammatory stimulations using the rested BMDMs according to the following conditions:
+   - Surface and endosomal TLR ligands (8–24 h incubation): LPS (100 ng/mL), LTA (1 μg/mL), Pam3CSK4 (100 ng/mL), Zymosan (10 μg/mL), R848 (5 μg/mL), or CpG (500 nM) in complete DMEM. Collect supernatants at 8 h for ELISA or harvest cells at 8 h for RNA isolation (using 350 μL RLT lysis buffer with 20 μL/mL β-mercaptoethanol) and at 24 h for flow cytometry.
+   - NOD agonist: Treat with MDP (1–10 μg/mL) alone or combined with low-dose TLR ligands for 8–24 h. Collect supernatants for ELISA and/or harvest cells for qPCR.
+   - Cytosolic nucleic acids / STING activation (1–24 h incubation): Transfect BMDMs at ~80%–90% confluency using lipid-based complexes in Opti-MEM. Use final concentrations of ISD (1 μg/mL), poly(dG:dC) (1 μg/mL), or 2′3′-cGAMP (5 μg/mL) combined with transfection reagent (e.g., 1.5 μL per well in 24-well format). 
+   - Wound healing / M2 polarization: Stimulate BMDMs with IL-4 (10–20 ng/mL) alone or combined with IL-13 (10–20 ng/mL) for 8–24 h (or up to 48 h for functional assays) to assess Arg1, CD206, and related markers by RT-qPCR or flow cytometry.
+   - Apoptotic cell tolerance (efferocytosis): Co-culture rested BMDMs with apoptotic primary thymocytes or lymphoid cells (induced by 40 Gy radiation or 1 μM staurosporine) at a 5:1 or 10:1 ratio for 2–24 h. Assess uptake, regulatory markers, Il10/Tgfb1 transcription, and IL-10/TGF-β secretion.
+   - Tumor microenvironment modeling: Stimulate BMDMs with either tumor-conditioned media (TCM at 20% final concentration) or tumor cell supernatant (TCS at 50% final concentration) for 8 h (RNA isolation) or 24 h (flow cytometry).

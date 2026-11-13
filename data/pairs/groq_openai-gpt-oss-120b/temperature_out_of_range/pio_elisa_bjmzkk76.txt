@@ -1,0 +1,23 @@
+Please run the following ELISA on the supplied animal sera (cat, rat, and hen IgY samples) and include the indicated controls.
+
+1. Coat each well of a Nunc 96‑well U‑shaped bottom plate with 50 ng synthetic gp‑120 peptide diluted in BioLegend Coating Buffer. Add 100 µL per well and incubate overnight at -80 °C.
+
+2. Wash the plate 4 × with PBS + 0.05 % Tween‑20. Block by adding 25 µL per well of 3 % non‑fat dry milk in PBS. Incubate 1 h at room temperature (RT).
+
+3. Wash 4 × with PBS‑Tween‑20. Add the following to each well in triplicate (25 µL per well):
+   - 25 µL IgY (1 mg/mL) as a positive antibody control.
+   - 25 µL of each test serum (cat or rat) diluted 1:16 in PBS containing 3 % non‑fat milk.
+   - For negative control wells, add 25 µL turtle serum (Sigma) diluted 1:16 in the same buffer.
+   - For blanks, add 25 µL 0.9 % normal saline.
+
+   Incubate 2 h at RT.
+
+4. Wash 4 × with PBS‑Tween‑20. Add 25 µL per well of the universal conjugate SpLAG‑anti‑IgY‑HRP (peroxidase‑labelled IgY chemically coupled to protein A, G, and L) diluted 1:1,000 in ELISA Diluent (2 × , 120 mL, STEMCELL). Incubate 1 h at RT.
+
+5. Wash 4 × with PBS‑Tween‑20. Add 50 µL TMB substrate (3,3′,5,5′‑tetramethylbenzidine, Sigma, Cat #54827‑17‑7) to each well. Protect from light and incubate 15 min.
+
+6. Stop the reaction when the positive human serum control wells develop a clear color while the turtle serum and blank wells remain colorless. Record absorbance at 450 nm.
+
+7. Calculate the cut‑off: mean absorbance of the turtle serum negative controls × 4. Any sample above this value is considered positive for anti‑HIV antibodies.
+
+Please run each sample in triplicate, include the positive human serum control (anti‑HIV antibodies) on each plate, and report the raw absorbance values together with the calculated cut‑off and positivity calls for each animal. Let me know if any reagents are missing or if additional clarification is needed.

@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/viability_PMC12898484 (clean)
++++ google_gemini-35-flash-lite/viability_PMC12898484 (defect)
+@@ -2,3 +2,3 @@
+ 
+-1. Grow mature biofilms using a Calgary Biofilm Device (CBD) by diluting an overnight culture in Mueller–Hinton broth (MHB) to an OD600 of 0.02, adding 150 µL to a polypropylene 96-well plate with PBS in the outer wells, inserting the CBD lid, and incubating for 24 h at 37 °C with 100 rpm shaking.
++1. Grow mature biofilms using a Calgary Biofilm Device (CBD) by diluting an overnight culture in Mueller–Hinton broth (MHB) to an OD600 of 0.02, adding 1080 µL to a polypropylene 96-well plate with PBS in the outer wells, inserting the CBD lid, and incubating for 24 h at 37 °C with 100 rpm shaking.
+ 

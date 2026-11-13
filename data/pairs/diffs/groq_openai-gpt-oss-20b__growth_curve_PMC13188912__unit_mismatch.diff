@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/growth_curve_PMC13188912 (clean)
++++ groq_openai-gpt-oss-20b/growth_curve_PMC13188912 (defect)
+@@ -23,3 +23,3 @@
+    - Suspend 50 g wet sediment in 200 mL 1× PBS, stir 200 rpm for 5 min (VM‑30).  
+-   - Filter through 80 µm stainless‑steel sieve under vacuum (−50 kPa). Rinse filter 3 × 50 mL 1× PBS to recover retained particles.  
++   - Filter through 80 µm stainless‑steel sieve under vacuum (−50 kPa). Rinse filter 3 × 50 µL 1× PBS to recover retained particles.  
+    - Transfer filtrates to Petri dishes, inspect under stereomicroscope (10‑40×). Pick microplastic particles (MiPs) with sterile forceps, place each into 1.5 mL tube with 1 mL PBS.  

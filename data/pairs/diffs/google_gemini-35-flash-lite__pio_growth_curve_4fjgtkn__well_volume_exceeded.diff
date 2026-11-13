@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_growth_curve_4fjgtkn (clean)
++++ google_gemini-35-flash-lite/pio_growth_curve_4fjgtkn (defect)
+@@ -2,3 +2,3 @@
+ 
+-First, harvest and dilute the spores in PBS with 0.01% Tween to a concentration of 4 x 10^5 spores/mL. Aliquot 5 uL of this spore stock into each inner well of a non-coated CytoOne 96-well plate (Starlab), yielding an absolute count of 2,000 spores per well. Overlay each well with 195 uL of liquid media to reach a total volume of 200 uL per well. 
++First, harvest and dilute the spores in PBS with 0.01% Tween to a concentration of 4 x 10^5 spores/mL. Aliquot 5 uL of this spore stock into each inner well of a non-coated CytoOne 96-well plate (Starlab), yielding an absolute count of 2,000 spores per well. Overlay each well with 1080 µL of liquid media to reach a total volume of 200 uL per well. 
+ 

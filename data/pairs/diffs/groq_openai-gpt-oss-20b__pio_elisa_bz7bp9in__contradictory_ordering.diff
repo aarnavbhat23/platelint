@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/pio_elisa_bz7bp9in (clean)
++++ groq_openai-gpt-oss-20b/pio_elisa_bz7bp9in (defect)
+@@ -35,3 +35,3 @@
+ 13. Add 50 µL stop solution to each well, mix gently by tapping for 5 s.  
+-14. Measure OD450 within 30 min of adding stop solution.  
++14. Measure OD450 within 30 min of adding stop solution.   Take the reading before adding the stop solution.
+ 

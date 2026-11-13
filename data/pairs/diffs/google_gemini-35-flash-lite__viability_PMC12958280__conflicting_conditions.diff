@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/viability_PMC12958280 (clean)
++++ google_gemini-35-flash-lite/viability_PMC12958280 (defect)
+@@ -5,3 +5,3 @@
+    - Dilute proteins to 0.5 mg/mL in the buffer conditions specified in Table S5 and dispense into a 96-well plate. 
+-   - Overlay with silicone oil, briefly centrifuge at 500 × g for 1 min to remove air bubbles, and run DLS measurements on a Wyatt DynaPro II Plate Reader at 25 °C over 1 week.
++   - Overlay with silicone oil, briefly centrifuge at 500 × g for 1 min to remove air bubbles, and run DLS measurements on a Wyatt DynaPro II Plate Reader at 25 °C over 1 week, and hold the plate at 4 °C for the whole of this step.
+    - For measurements under optimal storage buffer containing 0.05% CHAPS, monitor samples at 25 °C or 37 °C for 72 h. Analyze data using Dynamics software.

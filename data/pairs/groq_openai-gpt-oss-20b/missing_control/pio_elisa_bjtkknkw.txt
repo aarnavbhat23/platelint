@@ -1,0 +1,20 @@
+Please run the following HIV‑antibody ELISA on our serum samples (duplicates per sample). Use the exact volumes, reagents and controls described.
+
+1. Coat a 96‑well polystyrene microplate (U‑shaped bottom, Sigma‑Aldrich) with 50 ng of a peptide mixture in each well (peptides: HIV‑gp41 fragment 579‑601, gp120 fragments 254‑274, 308‑331, 421‑438). Incubate 4 h at 37 °C in a humidified tray. 
+2. Block each well with 25 µl of 3 % non‑fat milk in PBS. Incubate 1 h at room temperature (RT). 
+3. Wash the plate 4 × with PBS‑Tween‑20 (0.05 % Tween‑20). Use ~200 µl per wash and discard the wash buffer. 
+4. Add 25 µl of each serum sample (1:16 dilution in PBS) in duplicate. 
+5. Incubate 90 min at RT. 
+6. Wash 4 × with PBS‑Tween‑20. 
+7. Add 25 µl of LA‑HRP conjugate (Sigma‑Aldrich, commercial recombinant protein) diluted 1:5000 in PBS. Incubate 90 min at RT. 
+8. Wash 4 × with PBS‑Tween‑20. 
+9. Add 25 µl TMB substrate to each well. Incubate 15 min in the dark. 
+10. Stop the reaction with 25 µl of 3 M H₂SO₄. 
+11. Read absorbance at 450 nm with a plate reader (baseline correction at 540 nm optional). 
+12. Include the following controls on each plate: 
+ a. Positive control – pooled human serum with high titre anti‑HIV antibodies (25 µl per well). 
+ b. Negative control – pooled serum from healthy individuals (25 µl per well). 
+ c. 
+13. Calculate the assay cut‑off as the mean OD of the negative control plus two standard deviations. Any sample OD above this value is considered positive. 
+
+Please notify me of any deviations or issues encountered during the run.

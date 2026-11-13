@@ -1,0 +1,29 @@
+Please perform orthotopic breast cancer cell injections, isolate interstitial fluid (ISF) from the resulting primary tumors and tumor-draining lymph nodes, and carry out the downstream DIA-MS proteomics workflow on our provided samples according to the following protocol.
+
+1. Cell Preparation and Injection
+- Maintain murine 4T1 and 67NR breast cancer cells in supplemented DMEM (10% FBS, 1% penicillin-streptomycin) at 37°C with 5% CO2, passaging at 80–90% confluence. 
+- Detach cells using 0.25% Trypsin-EDTA, neutralize with medium, count using trypan blue to ensure >80% viability, and pellet at 300 × g for 5 min at 4°C. Wash once with cold PBS and pellet again.
+- Resuspend 4T1 cells in cold PBS at 1 × 10^5 cells/mL (5,000 cells in 50 μL per injection). Resuspend 67NR cells in a 1:1 mixture of cold PBS and Matrigel at 2 × 10^6 cells/mL (100,000 cells in 50 μL per injection). Prepare double the required volume to account for dead volume, keeping suspensions on ice.
+- Using healthy female BALB/c mice (6–8 weeks old), shave the lower abdomen around the 4th mammary glands. Administer subcutaneous metamizole 1 h prior to surgery, anesthetize with isoflurane, and apply ophthalmic ointment.
+- Make a small skin incision over the 4th mammary fat pad, separate the skin using a sterile disinfectant-wetted cotton swab, and load a 29G insulin syringe with 100 μL of cell suspension. 
+- Inject bilateral mammary fat pads to form a visible bubble, absorb any leaks with a sterile swab, close incisions with surgical clips, apply disinfectant, and monitor animals until fully awake and daily thereafter.
+- Measure tumor growth 3 times per week from day 5 using calipers (calculating size as $\frac{\pi}{6} \times \text{length} \times \text{width}^2$) until tumors reach the day 21 endpoint (~500 mm³).
+
+2. Tissue Harvest and ISF Isolation
+- Euthanize mice, pin paws, sterilize the skin with 70% alcohol, and make a midline incision with perpendicular cuts toward the forelimbs.
+- Dissect primary tumors and axillary lymph nodes (TDLNs) using fine-tip forceps, carefully removing surrounding fat. Process one mouse at a time and keep the time between dissection and centrifugation under 15 min.
+- Wash dissected organs in ice-cold sterile PBS in a 12-well plate on ice, dry gently on Whatman paper, weigh each tissue, and record weights.
+- Prepare 1.5 mL tubes with modified lids fitted with 20 μm strainers. Place intact lymph nodes or 50 mg tumor pieces onto the strainers, add 10 μL of cold sterile PBS, and centrifuge at 150 × g for 10 min at 4°C, and hold the plate at 37 °C for the whole of this step.
+- Gently aspirate the ISF supernatant without disturbing the pellet, transfer to new tubes, and store immediately at −80°C.
+
+3. Proteomic Sample Preparation and Mass Spectrometry
+- Prepare a fresh 5× reduction/alkylation master mix (10 mM TCEP-HCl, 30 mM 2-Chloroacetamide, 100 mM Tris-HCl pH 8.5).
+- Add the master mix to the ISF samples, heat for 10 min at 95°C with 1000 rpm shaking, and digest with 1.5 μg trypsin/LysC per sample for 16 h at 37°C at 1000 rpm.
+- Desalt samples using in-house SDB-RPS StageTips, vacuum-concentrate, and resolubilize in 0.1% formic acid. Measure peptide concentrations via NanoDrop and normalize.
+- Separate 300 ng of peptides per sample on an EASY-nLC 1200 UHPLC system using a 50 cm column packed with 1.9 μm ReproSil C18 beads at a 300 nL/min flow rate at 55°C, employing a 2-hour binary gradient from 3% to 98% buffer B.
+- Analyze samples on an Orbitrap Exploris 480 mass spectrometer operated in data-independent acquisition (DIA) mode: acquire full MS scans from 300–1650 m/z at 120,000 resolution, followed by 32 MS/MS scans at 30,000 resolution.
+
+4. Data Processing and Bioinformatic Analysis
+- Process raw DIA files using DIA-NN (v1.8) against the current mouse UniProt FASTA database with MBR enabled, a 1% precursor FDR, and the `--relaxed-prot-inf` command line option.
+- Filter protein groups using a 1% global and 5% run-specific FDR, retaining those with ≥70% valid values in at least one experimental group. Impute remaining missing values using a left-censored normal distribution (width 0.3, downshift 1.8 standard deviations) in Perseus.
+- Perform differential expression analysis using two-tailed t-tests with Benjamini-Hochberg correction, defining significantly altered proteins as $|\log_2\text{ fold change}| \ge 1$ and adjusted p-value $\le 0.05$. Generate volcano plots, UMAPs, and heatmaps as outlined in the reference protocol.

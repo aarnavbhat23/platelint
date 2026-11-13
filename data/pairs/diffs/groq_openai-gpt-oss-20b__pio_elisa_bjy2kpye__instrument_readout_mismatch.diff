@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/pio_elisa_bjy2kpye (clean)
++++ groq_openai-gpt-oss-20b/pio_elisa_bjy2kpye (defect)
+@@ -13,3 +13,3 @@
+ 9. Plate shaker and incubator (room temperature).  
+-10. Multimode plate reader capable of measuring absorbance at 450 nm.  
++10. Multimode plate reader capable of measuring luminescence.  
+ 

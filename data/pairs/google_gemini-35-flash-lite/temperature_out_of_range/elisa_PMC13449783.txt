@@ -1,0 +1,38 @@
+Please process our samples according to the following experimental workflows:
+
+1. Cell Isolation and Expansion
+- Isolate PBMCs from fresh donor samples using Ficoll density gradient separation (Lymphoprep).
+- Isolate Treg cells (CD4+ CD25+) and conventional T cells (CD4+ CD25−) using Miltenyi magnetic cell separation kits (130-091-301) following the manufacturer's instructions.
+- For patient-derived Tregs from our frozen RA and T1D samples, thaw and rest overnight prior to isolation using the same Miltenyi kit.
+- Expand isolated Treg cells at 0.1 × 10^6 cells/mL in 24-well plates using X-VIVO 15 supplemented with 10% human serum, 1% penicillin-streptomycin, 1% glutamine, 100 nM rapamycin, and anti-CD3/anti-CD28 Dynabeads at a 3:1 or 1:1 bead-to-cell ratio. Replenish IL-2 at 500 IU/mL, 1,000 IU/mL, or 250 IU/mL every 2–3 days. For double-stimulation protocols, collect and reactivate cells with 1:1 beads on day 9, adjust concentration to 0.15 × 10^6 cells/mL, and remove beads magnetically on day 14. Maintain cells in IL-2 for one additional week before freezing. Thaw and rest in cytokine-free medium for 1–2 days before functional testing.
+- Expand conventional CD4+ CD25− T cells (Tconv) at a 1:3 bead-to-cell ratio with anti-CD3/CD28 magnetic beads in RPMI supplemented with 10% FBS, 1% penicillin-streptomycin, and glutamine, alongside 5 ng/mL IL-7 and IL-15 (replenished every 2 days). Remove beads on day 6, maintain cells at approximately 2 × 10^6 cells/mL up to day 14, then freeze. Thaw and rest in cytokine-free medium for 1–2 days prior to assays.
+- Maintain NALM6 cell lines in RPMI 1640 with 10% FBS, 1% penicillin/streptomycin, and 1% glutamine, plating at 0.5–1 × 10^6 cells/mL.
+
+2. Viral Vector Transduction
+- Produce third-generation, replication-defective, self-inactivating lentiviral vectors (LVs) in HEK293T cells via calcium chloride transfection using packaging plasmids (pMDLg/pRRE, pILVV01-Rev, pAdvantage, and the respective transgene plasmids), followed by ultracentrifugation of supernatants at 20,000 rpm for 2 hours at 75 °C for CAR constructs.
+- Transduce CD4+CD25+ and CD4+CD25− Tregs on day +2 post-activation at 0.2 × 10^6 cells/mL in X-VIVO 15 with 10% human serum, antibiotics, glutamine, rapamycin (100 nM), and LV at an MOI of 10. Add fresh IL-2 media after 24 hours.
+- Transduce CD4+CD25− T cells on day +2 post-stimulation in RPMI with 10% FBS, antibiotics, and glutamine at 2.5 × 10^6 cells/mL with LV at an MOI of 10 for 24 hours, then supply with fresh IL-7 and IL-15 medium.
+- Assess transduction efficiency on day 14 by flow cytometry using FMC63 PE for CAR surface staining or GFP expression.
+
+3. Functional Assays
+- Polyclonal Suppression Assay: Co-culture autologous PBMCs (target, stained with Far Red proliferation dye) and engineered Tregs (effector, stained with VioBlue proliferation dye) for 6 days at decreasing ratios with anti-CD3/CD28 beads (1:10 bead-to-T cell ratio). Analyze by flow cytometry to calculate the suppression index.
+- Antigen-Specific Suppression Assay: Isolate CD9+ B lymphocytes from PBMCs using the Miltenyi B cell isolation kit II, label with Far Red dye, and co-culture with VioBlue-stained CAR-Tregs at decreasing ratios. Stimulate B cells with 0.5 μg/mL CD40L, 100 ng/mL IL-21, and 20 μg/mL AffiPure F(ab’)2 Fragment Goat Anti-Human IgA+IgG+IgM for 3 days. Stain for CD80 and CD86 and analyze by flow cytometry to determine the suppression index.
+- Killing Assay: Co-culture NALM6 or primary B cells (Far Red stained) with engineered T/Treg cells (VioBlue stained) at decreasing ratios for 3 days. Analyze via flow cytometry to calculate the elimination index.
+- Multiple Lymphocyte Reaction: Stimulate aPBMCs with anti-CD3/CD28 Dynabeads (2:1 ratio). Simultaneously, stain CAR-Tregs or untransduced Tregs with VioBlue and plate at decreasing ratios with irradiated (60 Gy) alloreactive PBMCs. After 24 hours, remove microbeads from aPBMCs, stain with Far Red, and plate them on top of the Tregs. Analyze by flow cytometry after 5 days of co-culture.
+- IL-6 Challenge Assay: Perform the polyclonal suppression assay setup with allo-PBMCs (target) and CAR-Tregs (effector) stimulated at a 1:10 bead-to-T cell ratio, with the addition of 25 ng/mL IL-6 (run alongside an identical control without IL-6). Analyze by flow cytometry after 6 days.
+
+4. Genomic Integration Site (IS) Analysis and Molecular Biology
+- Extract genomic DNA using QIAamp DNA Blood Mini or Micro Kits. Determine vector copy numbers per genome via digital droplet PCR targeting the LV psi sequence normalized to GAPDH.
+- Perform sonication-based linker-mediated (SLiM) PCR: shear DNA using a Covaris E220 ultrasonicator to ~1,000 bp fragments, perform end repair, 3′ adenylation, and ligation to a linker cassette. Conduct 35 cycles of exponential PCR using primers against the LV LTR and linker cassette, followed by 10 cycles to add sequencing adapters and 8-nucleotide barcodes. Sequence products on an Illumina NextSeq platform.
+- Process sequencing data through the VISPA2 pipeline aligned to the GRCh38/hg38 human reference genome, and calculate clonal diversity (Shannon diversity index) using the ISAnalytics package.
+
+5. In Vivo Humanized Model of Xeno-GvHD
+- Infuse 7- to 8-week-old NSG mice intravenously with 5 × 10^6 healthy donor PBMCs.
+- One week post-infusion, divide mice into four treatment groups: 3.5 × 10^6 standard protocol CAR-Tregs, 3.5 × 10^6 double-activation CAR-Tregs, 5 × 10^6 untransduced Tregs, or PBS control.
+- Monitor clinical score and body weight twice weekly. Collect peripheral blood on days 0, +3, +7, +11, +18, and +25 for engraftment analysis.
+- Euthanize mice at 30 days post-cell injection to harvest spleen and bone marrow for flow cytometry.
+
+6. Flow Cytometry Panels
+- Stain cells for Treg phenotype using antibodies against anti-CD19 CAR (FMC63), CD3, CD4, FOXP3, CD45RA, CD62L, TIGIT, LAP, Helios, CD25, CD27, CD137, CD127, GARP, CTLA-4, ICOS, and GITR.
+- Stain cells for Treg exhaustion phenotype using antibodies against LAG3, CD137, CD25, CD4, HLA-DR, CTLA4, PD1, KLRG1, CD3, CD45RA, CD62L, TIM3, 2B4, TIGIT, TOX, and TCF.
+- Perform intracellular and intra-nuclear staining (Helios and FOXP3) using the Miltenyi FOXP3 staining buffer set following surface staining, fixation, and permeabilization.

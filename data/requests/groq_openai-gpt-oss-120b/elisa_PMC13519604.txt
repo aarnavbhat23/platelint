@@ -1,0 +1,59 @@
+We need you to generate bone‑marrow‑derived macrophages (BMDMs) from C57BL/6J mice and run the following panels on the cells we will provide:
+
+1. **BMDM differentiation (5 days)**
+   - Harvest femurs/tibias, flush marrow into ice‑cold complete DMEM (DMEM + 10 % FBS + 1 % Pen/Strep).  
+   - Lyse red cells with ACK buffer (2–5 min, RT), wash with PBS, filter through a 40 µm strainer.  
+   - Resuspend in complete DMEM, add M‑CSF to a final 20–40 ng/mL, and seed 25–35 × 10⁶ cells per 15 cm dish in 20 mL.  
+   - Incubate 37 °C, 5 % CO₂ for 5 days.  
+   - On day 5 detach with cold detachment buffer (PBS + 10 % FBS + 4 mL 0.2 M EDTA per 500 mL), incubate 4 °C 20 min, collect, count, and re‑plate at the densities listed below (rest 16–18 h in complete DMEM without M‑CSF before any stimulation):
+     * 24‑well: 5 × 10⁵ cells in 500 µL  
+     * 12‑well: 1 × 10⁶ cells in 1 mL  
+     * 6‑well: 2 × 10⁶ cells in 2 mL  
+
+2. **Surface/endosomal TLR stimulation (bacterial/fungal mimics)**
+   - Prepare fresh working solutions in complete DMEM: LPS 100 ng/mL, LTA 1 µg/mL, Pam3CSK4 100 ng/mL, Zymosan 10 µg/mL, R848 5 µg/mL, CpG 500 nM.  
+   - Aspirate media, add 1 mL (12‑well) or 500 µL (24‑well) of the stimulation mix.  
+   - Incubate 8–24 h at 37 °C.  
+   - Collect supernatants after 8 h for ELISA (store −20 °C) and cell lysates after 8 h for RNA (350 µL RLT + β‑ME per well, store −20 °C).  
+   - For flow‑cytometry readouts, harvest after 24 h.
+
+3. **NOD2 agonist (MDP)**
+   - Reconstitute MDP to 5 mg/mL in sterile water, make 20 µL aliquots at −20 °C.  
+   - Prepare working concentrations 1–10 µg/mL in complete DMEM (titrate).  
+   - Stimulate BMDMs alone or together with sub‑maximal LPS/Pam3CSK4 for 8–24 h.  
+   - Collect supernatants for IL‑6, TNF, IL‑1β ELISA and cells for RNA/qPCR as above.
+
+4. **Cytosolic nucleic‑acid/STING activation (viral mimic)**
+   - Reconstitute ISD, poly(dG:dC) and 2′3′‑cGAMP to 1 mg/mL (store 20 µL aliquots, −20 °C).  
+   - Use final concentrations: ISD 1 µg/mL, poly(dG:dC) 1 µg/mL, 2′3′‑cGAMP 5 µg/mL.  
+   - One day before stimulation, let BMDMs rest 16–18 h to reach ~80 % confluence.  
+   - Prepare lipid complexes (e.g., Lipofectamine‑type reagent): per 24‑well, 50 µL Opti‑MEM + ligand (0.5 µg ISD or poly(dG:dC); 2.5 µg cGAMP) mixed with 50 µL Opti‑MEM + 1.5 µL transfection reagent. Incubate 15 min at RT, then add to 400 µL fresh complete DMEM (no M‑CSF) for a total of 500 µL.  
+   - Include mock (Opti‑MEM only) controls.  
+   - Incubate 1–24 h (depending on downstream assay).  
+   - Harvest for ELISA (type I IFN), RT‑qPCR (ISGs), and Western blot as needed.
+
+5. **Alternative activation (wound‑healing)**
+   - Seed BMDMs as in step 1, rest 16–18 h.  
+   - Add IL‑4 10–20 ng/mL (optional IL‑13 10–20 ng/mL) in complete DMEM (no M‑CSF).  
+   - Incubate 8–24 h (up to 48 h for functional assays).  
+   - Read out Arg1, Retnla, Chil3, Mrc1 by RT‑qPCR and Arg1/CD206/PD‑L1 by flow cytometry.
+
+6. **Apoptotic cell clearance (tolerance)**
+   - We will supply thymocytes; induce apoptosis by either 40 Gy irradiation + 6 h culture (RPMI + 1 % BSA) or 1 µM staurosporine 4–6 h. Verify Annexin V⁺/PI⁻ > 80 % by flow.  
+   - Co‑culture apoptotic cells with BMDMs at 5:1 or 10:1 ratio in complete DMEM (no M‑CSF).  
+   - Incubate 2–4 h for efferocytosis assay (fluorescently labeled targets) and 8–24 h for tolerogenic gene expression.  
+   - Measure uptake by flow, expression of Arg1, IL‑10, PD‑L1, MerTK, CD36 (flow) and Il10, Tgfb1, Ahr targets (RT‑qPCR). ELISA for IL‑10 and TGF‑β in supernatants.
+
+7. **Tumor microenvironment mimics**
+   - **Tumor‑conditioned media (TCM):** we will provide frozen TCM (20 % final). Add to BMDMs (12‑ or 24‑well) to reach 20 % v/v, incubate 8 h for RNA or 24 h for flow cytometry.  
+   - **Tumor cell supernatant (TCS):** we will provide TCS (50 % final). Add to BMDMs to reach 50 % v/v, same incubation times as TCM.  
+
+8. **Readouts**
+   - ELISA for cytokines (IL‑6, TNF‑α, IL‑1β, IL‑10, TGF‑β, IFN‑β) from supernatants.  
+   - RNA extraction (RLT + β‑ME) and RT‑qPCR for the gene panels listed above.  
+   - Flow cytometry panels for surface markers (F4/80, CD11b, MHC‑I, CD40, CD86, Arg1, CD206, PD‑L1, MerTK, CD36) and intracellular cytokines as needed.  
+   - Optional Western blot for phospho‑STING/TBK1 and total IRF3 on the nucleic‑acid stimulation samples.  
+
+Please use the reagent stock solutions listed in the original protocol (LPS 10 mg/mL in DPBS, CpG 5 µM, Pam3CSK4 1 mg/mL, Poly I:C 20 mg/mL, LTA 2.5 mg/mL, Zymosan 10 mg/mL, R848 1 mg/mL, ISD 1 mg/mL, poly(dG:dC) 1 mg/mL, MDP 5 mg/mL, 2′3′‑cGAMP 200 µg/mL) and keep aliquots at the temperatures indicated.  
+
+Let us know if any of the reagents need to be ordered or if additional controls are required. We will send the bone‑marrow samples, thymocytes for apoptosis, and frozen TCM/TCS shortly. Thank you.

@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/growth_curve_PMC13403125 (clean)
++++ groq_openai-gpt-oss-120b/growth_curve_PMC13403125 (defect)
+@@ -12,3 +12,3 @@
+    - Obtain the synthetic gene block (HRP plus pHLIP domain, sequence provided) and subclone into pET‑28a(+) using standard restriction enzyme cloning. Verify by sequencing.  
+-   - Transform the verified plasmid into E. coli BL21(DE3) (heat‑shock 42 °C, 45 s). Plate on LB agar + 60 µg/mL kanamycin; incubate overnight 37 °C.  
++   - Transform the verified plasmid into E. coli BL21(DE3) (heat‑shock 42 °C, 45 s). Plate on LB agar + 60 µg/mL kanamycin; incubate overnight 75 °C.  
+    - Pick one colony into 5 mL LB + kanamycin, grow 16 h at 37 °C, 200 rpm. Next day inoculate 30 mL fresh LB + kanamycin at 1 % (v/v) and grow to OD₆₀₀≈0.8.  

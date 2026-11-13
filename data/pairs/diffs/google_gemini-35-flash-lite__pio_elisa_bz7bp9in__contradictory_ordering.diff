@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_elisa_bz7bp9in (clean)
++++ google_gemini-35-flash-lite/pio_elisa_bz7bp9in (defect)
+@@ -13,3 +13,3 @@
+ 11. Add 50 µL of Stop Solution to each well. Mix thoroughly for 5 seconds by gently tapping the sides of the plate without splashing.
+-12. Read the optical density and insulin concentration at 450 nm using the microplate reader within 30 minutes of adding the stop solution.
++12. Read the optical density and insulin concentration at 450 nm using the microplate reader within 30 minutes of adding the stop solution. Take the reading before adding the stop solution.
+ 13. Ensure assay quality control: standard values must be within ±15% of expected values with a replicate CV ≤20%, and quality control samples must fall within their known ranges. If these criteria are not met, repeat the assay.

@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_viability_bd56i89e (clean)
++++ google_gemini-35-flash-lite/pio_viability_bd56i89e (defect)
+@@ -5,3 +5,3 @@
+ 3. Prepare the working reagent by combining the buffer and substrate as supplied in the kit.
+-4. Add an equal volume of the prepared reagent to each well containing sample (specifically, 100 µL of reagent to 100 µL of media in each 96-well plate).
++4. Add an equal volume of the prepared reagent to each well containing sample (specifically, 1080 µL of reagent to 100 µL of media in each 96-well plate).
+ 5. Place the plate on an orbital shaker for 2 minutes, then incubate it at room temperature for an additional 10 minutes.

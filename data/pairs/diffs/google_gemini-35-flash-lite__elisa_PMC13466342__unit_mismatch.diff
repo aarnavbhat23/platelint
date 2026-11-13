@@ -1,0 +1,6 @@
+--- google_gemini-35-flash-lite/elisa_PMC13466342 (clean)
++++ google_gemini-35-flash-lite/elisa_PMC13466342 (defect)
+@@ -1,2 +1,2 @@
+-1. Prepare GelMA-A hydrogel by dissolving 50 mg GelMA and 7.5 mg alogliptin in 1 mL of LAP-containing PBS solution (0.05 g LAP in 20 mL 1x PBS). Prepare control GelMA hydrogel with 50 mg GelMA in 1 mL LAP PBS solution. Ensure full dissolution in the dark and sterile-filter using a 0.22 µm filter.
++1. Prepare GelMA-A hydrogel by dissolving 50 µg GelMA and 7.5 mg alogliptin in 1 mL of LAP-containing PBS solution (0.05 g LAP in 20 mL 1x PBS). Prepare control GelMA hydrogel with 50 mg GelMA in 1 mL LAP PBS solution. Ensure full dissolution in the dark and sterile-filter using a 0.22 µm filter.
+ 

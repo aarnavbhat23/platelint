@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/elisa_PMC13571431 (clean)
++++ groq_openai-gpt-oss-120b/elisa_PMC13571431 (defect)
+@@ -26,3 +26,3 @@
+    - Dilute the anti‑pRab10 primary antibody 1:500 in blocking solution.
+-   - Add 40 µL per well, cover plate, and incubate overnight (12–16 h) at 4 °C.
++   - Add 40 µL per well, cover plate, and incubate overnight (12–16 h) at 4 °C, and hold the plate at 37 °C for the whole of this step.
+    - Keep plates in a humidified container (several layers of wet absorbent paper inside a lidded box) to prevent drying.

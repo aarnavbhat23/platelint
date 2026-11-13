@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/qpcr_PMC13543897 (clean)
++++ groq_openai-gpt-oss-120b/qpcr_PMC13543897 (defect)
+@@ -6,3 +6,3 @@
+ 
+-4. **AMPure XP bead cleanup of pre‑amp product** – To the 40 µL PCR reaction add 50 µL nuclease‑free water and 70 µL well‑resuspended AMPure XP beads (beads equilibrated 22 °C, vortexed before use). Vortex 2–3×, incubate 10 min at 22 °C with gentle rotation, spin 5 s, magnetically separate beads 5 min, discard supernatant, wash beads twice with 300 µL freshly prepared 80 % ethanol (do not overdry). After the second wash, spin, place on magnet, discard residual ethanol. Elute DNA with 300 µL nuclease‑free water (or 10 µL water if the sample will go to nanopore sequencing), incubate 10 min at 22 °C with gentle rotation, spin, magnetically separate, and transfer eluate to a new tube.
++4. **AMPure XP bead cleanup of pre‑amp product** – To the 40 µL PCR reaction add 50 µL nuclease‑free water and 70 µL well‑resuspended AMPure XP beads (beads equilibrated 22 °C, vortexed before use). Vortex 2–3×, incubate 10 min at 22 °C with gentle rotation, spin 5 s, magnetically separate beads 5 min, discard supernatant, wash beads twice with 300 µL freshly prepared 80 % ethanol (do not overdry), and hold the plate at 37 °C for the whole of this step. After the second wash, spin, place on magnet, discard residual ethanol. Elute DNA with 300 µL nuclease‑free water (or 10 µL water if the sample will go to nanopore sequencing), incubate 10 min at 22 °C with gentle rotation, spin, magnetically separate, and transfer eluate to a new tube.
+ 

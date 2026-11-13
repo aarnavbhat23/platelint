@@ -1,0 +1,12 @@
+Please run an MTT cell viability assay on our cell-seeded broccoli stalk scaffolds using the following procedure:
+
+1. Use our provided 3.5 mm decellularized broccoli scaffolds in 96-well plates with at least three replicates per experimental condition. Seed mouse embryonic fibroblasts at 15,000 cells per scaffold (or adjust if using an optimized density for a different cell type). 
+2. Culture the cells for 1 to 7 days.
+3. Use forceps to carefully transfer the scaffolds to new wells to avoid measuring cells that attached to the original well surfaces during seeding, then add 100 µL of culture medium to each well containing a scaffold.
+4. Add 100 µL of culture medium to three empty wells to serve as blanks.
+5. Add 10 mL of MTT reagent (MilliporeSigma Catalog #11465007001) to every well, including the blanks.
+6. Incubate the plate in the cell culture incubator for 4 hours (or up to 24 hours if needed for your cell type).
+7. Add 100 µL of solubilization buffer to each well, including the blanks.
+8. Incubate the plate overnight in the cell culture incubator.
+9. Either use forceps to remove and discard the scaffolds or transfer a 200 µL volume from each well to a new plate so the plant tissue does not interfere with absorbance readings.
+10. Measure the absorbance of each well at 570 nm using a plate reader, using a reference wavelength >650 nm if required.

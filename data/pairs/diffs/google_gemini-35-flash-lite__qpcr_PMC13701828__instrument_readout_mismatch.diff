@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/qpcr_PMC13701828 (clean)
++++ google_gemini-35-flash-lite/qpcr_PMC13701828 (defect)
+@@ -12,3 +12,3 @@
+ 
+-4. Nitrite Measurement: Assess NO-related nitrite levels in the culture medium using the Griess Reagent Kit (Thermo Fisher Scientific). Add 20 µL of Griess Reagent to 150 µL of sample, incubate for 30 min at room temperature, and measure absorbance at 548 nm.
++4. Nitrite Measurement: Assess NO-related nitrite levels in the culture medium using the Griess Reagent Kit (Thermo Fisher Scientific). Add 20 µL of Griess Reagent to 150 µL of sample, incubate for 30 min at room temperature, and measure luminescence.
+ 

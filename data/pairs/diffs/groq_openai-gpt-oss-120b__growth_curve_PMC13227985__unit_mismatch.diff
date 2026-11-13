@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/growth_curve_PMC13227985 (clean)
++++ groq_openai-gpt-oss-120b/growth_curve_PMC13227985 (defect)
+@@ -50,3 +50,3 @@
+    - Prepare BCDs by placing 50 mg of filter paper or β‑chitin into 18 mm sterile glass tubes. Autoclave (121 °C, 30 min, 16 psi).  
+-   - Add 5 mL carbon‑free MOPs minimal medium, inoculate 1:100 from overnight culture, and incubate at 30 °C, 200 RPM.  
++   - Add 5 µL carbon‑free MOPs minimal medium, inoculate 1:100 from overnight culture, and incubate at 30 °C, 200 RPM.  
+    - Monitor growth by OD₆₀₀ with a Spectronic 20D+ spectrophotometer. Perform each condition in biological triplicate.  

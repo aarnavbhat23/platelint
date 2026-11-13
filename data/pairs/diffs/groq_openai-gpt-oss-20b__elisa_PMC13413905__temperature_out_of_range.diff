@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/elisa_PMC13413905 (clean)
++++ groq_openai-gpt-oss-20b/elisa_PMC13413905 (defect)
+@@ -32,3 +32,3 @@
+    b. Column: BEH C18 1.7 µm, 2.1 × 100 mm (Waters).  
+-   c. Column temperature 40 °C, flow 0.2 mL min⁻¹.  
++   c. Column temperature 75 °C, flow 0.2 mL min⁻¹.  
+    d. Mobile phases: A = 0.1 % formic acid in water, B = methanol.  

@@ -1,0 +1,16 @@
+Please process our samples through the following experimental workflow:
+
+1. Cell Culture and Maintenance
+Maintain human prostate cancer cell lines 22Rv1, C4-2B, and the non-malignant prostate epithelial cell line RWPE-1 between passages 3 and 5. Culture 22Rv1 and C4-2B cells in RPMI medium supplemented with 10% fetal bovine serum and 1× penicillin-streptomycin. Maintain RWPE-1 cells in Keratinocyte Serum Free Medium (K-SFM) supplemented with bovine pituitary extract and human recombinant epidermal growth factor. 
+
+2. High-Throughput Screening (HTS) and Resazurin Viability Assay
+Using the Cybio liquid handling platform, seed 22Rv1, C4-2B, and RWPE-1 cells in 384-well black, clear-bottom plates at a density of 500 cells per well (10,000 cells/mL, 50 µL total volume per well) and grow to 60–75% confluency. Incubate at 37 °C with 5% CO2 for 24 hours. Following incubation, add resazurin (0.2 mg/mL), incubate for 16 hours at 37 °C, and measure fluorescence at Ex/Em 560/590 nm. Determine IC50 values for prioritized fractions and pure compounds using CompuSyn.
+
+3. AR-V7 HiBiT Luminescence Assay
+For primary screening, seed the CRISPR-edited AR-HiBiT knock-in 22Rv1 cell line at 10,000 cells/mL (50 µL/well) in opaque white 384-well plates. For confirmatory and mechanistic assays, seed these cells at 3,000 cells/well in 96-well white opaque plates. Following 24 hours of compound treatment, measure luminescence using the Nano-Glo HiBiT Lytic Detection System on a microplate reader. Use parental 22Rv1 cells as HiBiT-negative controls and subtract background luminescence from all readings.
+
+4. Western Blot Analysis
+Treat 22Rv1 and C4-2B cells with IC50 concentrations of NPNPD fraction hits or purified compounds for 24 hours. Extract proteins and perform Western blotting using primary antibodies against AR, PSA, Bcl-2, PARP, and β-actin, followed by HRP-conjugated secondary antibodies. Visualize blots using a ChemiDoc system and quantify band intensities by densitometry using ImageJ.
+
+5. qPCR Analysis
+Treat 22Rv1 and C4-2B cells with isolinderanolide B for 6 hours. Extract total RNA using the RNeasy Mini Kit, perform DNase I treatment, and measure RNA concentration, purity, and integrity. Reverse-transcribe 1 µg of total RNA using iScript Reverse Transcription Supermix. Perform qPCR using SsoAdvanced Universal SYBR Green Supermix on a CFX96 Touch Real-Time PCR Detection System with primers for AR, AR-V7, PSA, and β-actin. Use cycling conditions of 95 °C for 30 s, followed by 40 cycles of 95 °C for 10 s and 60 °C for 20 s, with a final melt curve from 65 °C to 95 °C in 0.5 °C increments. Run each biological replicate in technical triplicate, using β-actin for normalization.

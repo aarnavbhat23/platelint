@@ -1,0 +1,30 @@
+Please process the ascitic fluid samples we will send you using both the conventional blood‑culture method and the modified culture protocol described below.
+
+1. For each patient, take the first 60 mL of ascitic fluid collected after admission.  
+   * Aliquot 20 mL into one aerobic BD BACTEC Plus Aerobic/F bottle and one anaerobic BD BACTEC Lytic/10 Anaerobic/F bottle at the bedside (10 mL per bottle).  
+   * Transfer the remaining 40 mL into a sterile tube, keep it on ice, and deliver it to your microbiology lab within 2 h.
+
+2. Conventional culture (bedside inoculation):  
+   * Incubate the paired aerobic and anaerobic bottles in the BD BACTEC FX system at 37 °C for up to 5 days, with automated readings every 10 min.  
+   * Record the time‑to‑positivity (TTP) for any positive alarms.  
+   * Subculture 2–3 drops of the positive broth onto blood agar plates and incubate at 75 °C under the appropriate atmosphere (aerobic/CO₂ for aerobic bottles, anaerobic for anaerobic bottles) for 48 h, checking twice daily.  
+   * Identify isolates by MALDI‑TOF MS. Perform antimicrobial susceptibility testing (AST) using the VITEK 2 system or Etest strips as indicated, following CLSI guidelines.
+
+3. Modified culture (processed sample):  
+   * Centrifuge 20 mL of the 40 mL aliquot at 8,000 rpm for 3 min.  
+   * Wash the pellet once with PBS, then treat with 0.5 % Triton X‑100 (prepared in PBS) for 1 min.  
+   * Centrifuge again, discard supernatant, and resuspend the pellet in ≈100 µL.  
+   * Plate 50 µL onto a blood agar plate and 50 µL onto a chocolate agar plate. Incubate these two plates at 35 °C in 5 % CO₂, checking twice daily for 48 h.  
+   * Repeat the above steps with a second 20 mL of the sample, but after resuspension plate onto blood and chocolate agar plates that are placed immediately into a 2.5 L anaerobic jar with a gas‑generating bag and oxygen indicator. Seal within 1 min and incubate at 35 °C, inspecting twice daily for 48 h.  
+   * For any colonies that appear, perform 16S rRNA gene sequencing (primers 27F/1492R) for confirmation. Discard plates with no growth after 48 h.
+
+4. AST for isolates from the modified method:  
+   * Use disk diffusion on Mueller‑Hinton agar per CLSI M02‑Ed13.  
+   * If disk results are ambiguous or MIC values are needed, perform broth microdilution according to CLSI M07‑Ed12.  
+   * Interpret all results with CLSI M100‑Ed34 breakpoints.
+
+5. Reporting:  
+   * For each sample, give us the culture result (positive/negative) for both methods, the identified organism(s), TTP for the conventional bottles, CFU estimate (if applicable) for the modified plates, and the full AST profile.  
+   * Note any polymicrobial growth and whether any isolates are likely contaminants (e.g., Bacillus, Cutibacterium, Lactobacillus, Staph epidermidis) based on clinical context.
+
+We will provide the ascitic fluid, BD BACTEC bottles, sterile transport tubes, PBS, and Triton X‑100 solution. Please let us know if any additional reagents or consumables are required. Thank you.

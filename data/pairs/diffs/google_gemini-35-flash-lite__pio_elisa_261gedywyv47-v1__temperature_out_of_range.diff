@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_elisa_261gedywyv47-v1 (clean)
++++ google_gemini-35-flash-lite/pio_elisa_261gedywyv47-v1 (defect)
+@@ -9,3 +9,3 @@
+ 7. Wash 5 times with PBS-T.
+-8. Add ExtrAvidin phosphatase (Sigma, E2636) diluted in blocking buffer and incubate for 30 minutes at 37 °C.
++8. Add ExtrAvidin phosphatase (Sigma, E2636) diluted in blocking buffer and incubate for 30 minutes at 75 °C.
+ 9. Perform color development using fast-p-nitrophenyl phosphate (Sigma, N1891), reading at 405 nm every 2.5 minutes for up to 60 minutes.

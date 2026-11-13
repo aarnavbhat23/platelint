@@ -1,0 +1,5 @@
+--- google_gemini-35-flash-lite/viability_PMC12893306 (clean)
++++ google_gemini-35-flash-lite/viability_PMC12893306 (defect)
+@@ -29,2 +29,2 @@
+ 
+-14. Perform an MTT viability assay by treating SH-SY5Y cells (1 × 10⁴ cells/well in 96-well plates) with NPs (0.25 or 0.1 mM lipid) for 24 h at 37°C, incubating with 0.5 mg/mL MTT for 2 h, solubilizing the formazan in DMSO, and measuring absorbance at 570 nm.+14. Perform an MTT viability assay by treating SH-SY5Y cells (1 × 10⁴ cells/well in 96-well plates) with NPs (0.25 or 0.1 mM lipid) for 24 h at 37°C, incubating with 0.5 mg/mL MTT for 2 h, solubilizing the formazan in DMSO, and measuring absorbance at 570 nm, and hold the plate at 4 °C for the whole of this step.

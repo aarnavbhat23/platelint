@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/elisa_PMC13515976 (clean)
++++ groq_openai-gpt-oss-20b/elisa_PMC13515976 (defect)
+@@ -13,3 +13,3 @@
+    - Positive control: SOD1 at 10, 5, and 2.5 µg/mL.  
+-   - Negative controls: PBS alone, BSA at 10 µg/mL.  
++   - Negative controls: PBS alone, BSA at 10 mg/mL.  
+    - Cross‑reactivity controls: OMP16, OMP19, L7/L12, IalB (10 µg/mL each).  

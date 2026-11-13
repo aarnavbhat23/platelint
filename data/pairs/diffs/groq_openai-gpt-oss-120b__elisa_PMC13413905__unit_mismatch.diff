@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/elisa_PMC13413905 (clean)
++++ groq_openai-gpt-oss-120b/elisa_PMC13413905 (defect)
+@@ -19,3 +19,3 @@
+    c. Load the 1 mL reconstituted extract onto the cartridge, wash with 1 mL water, elute with 1 mL methanol.  
+-   d. Concentrate the eluate to 200 µL, transfer to a glass chromatography vial.  
++   d. Concentrate the eluate to 200 mL, transfer to a glass chromatography vial.  
+ 

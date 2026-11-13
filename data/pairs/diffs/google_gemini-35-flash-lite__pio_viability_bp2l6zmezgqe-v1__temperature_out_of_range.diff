@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_viability_bp2l6zmezgqe-v1 (clean)
++++ google_gemini-35-flash-lite/pio_viability_bp2l6zmezgqe-v1 (defect)
+@@ -5,3 +5,3 @@
+ 3. Gently resuspend the pellet, let stand for 3 minutes, and transfer the supernatant. Adjust the cell suspension to 1 × 10^6 cells/ml using either standard DMEM or glucose-free DMEM depending on the assigned condition.
+-4. Add 150 µl of the appropriate DMEM to each well of a low-attachment 96-well plate, then seed 50 µl of the cell suspension (5 × 10^4 cells) per well. Pre-warm and equilibrate all media to 37 °C prior to use.
++4. Add 150 µl of the appropriate DMEM to each well of a low-attachment 96-well plate, then seed 50 µl of the cell suspension (5 × 10^4 cells) per well. Pre-warm and equilibrate all media to 75 °C prior to use.
+ 5. Centrifuge the 96-well plate at 100 × g for 5 minutes to aggregate the cells into spheroids.

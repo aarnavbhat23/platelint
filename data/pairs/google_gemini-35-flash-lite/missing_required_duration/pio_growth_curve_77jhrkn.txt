@@ -1,0 +1,9 @@
+Please run a phage infection kinetics assay on our provided E. coli samples using Fisher Scientific 96-well black-walled, clear-bottom plates (Catalog #3904). 
+
+Prepare LB media with the appropriate antibiotics and our supplied bacteriophage stock solutions. Set up overnight cultures of our samples with their associated antibiotics, measure their OD600, and dilute them to an OD600 of 0.02. Load 180 µL of each diluted culture into the 96-well plate, alongside a series of LB-only wells without bacteria to serve as blanks and controls. 
+
+Program the plate reader to 37°C with preheating, and run a 15-hour kinetic assay measuring absorbance at 600 nm every 4 minutes, preceded by medium shaking and a normal read speed with a 100 msec delay. 
+
+Start the plate reader and let our samples grow until they reach an OD600 of 0.11. At that point, pause the run and add 20 µL of the appropriate bacteriophage dilutions to the wells to reach a final volume of 200 µL per well. Prepare the phage dilutions in LB with antibiotics to achieve MOI values of 10^1, 10^0, 10^-1, 10^-2, and 10^-3, based on the correlation that an OD600 of 0.10 equals 8.0 x 10^8 cells/mL and accounting for the 1:10 dilution upon addition. Ensure you also include control wells that receive 20 µL of LB media without phages. 
+
+Restart the plate reader protocol immediately after adding the phages and record the growth curves for the full 15-hour duration.

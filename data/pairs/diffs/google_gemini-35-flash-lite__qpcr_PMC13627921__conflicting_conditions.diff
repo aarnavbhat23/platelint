@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/qpcr_PMC13627921 (clean)
++++ google_gemini-35-flash-lite/qpcr_PMC13627921 (defect)
+@@ -10,3 +10,3 @@
+ 10. For crystal violet staining of the migrated fraction (24-well), wash the insert with PBS, stain in 0.5% crystal violet / 20% methanol solution for 10 min, wash with PBS and a cotton swab, air dry for 48 h, and capture a 3-by-3 grid of 4× images for stitching.
+-11. Alternatively, collect the migrated fraction by transferring the insert to warm trypsin, shaking for 10 min at 37°C, adding growth medium, and pelleting at 500 × g for 5 min.
++11. Alternatively, collect the migrated fraction by transferring the insert to warm trypsin, shaking for 10 min at 37°C, adding growth medium, and pelleting at 500 × g for 5 min, and hold the plate at 4 °C for the whole of this step.
+ 12. Process collected pellets for gene expression profiling by extracting RNA, measuring concentration, and performing cDNA synthesis and RT-qPCR.

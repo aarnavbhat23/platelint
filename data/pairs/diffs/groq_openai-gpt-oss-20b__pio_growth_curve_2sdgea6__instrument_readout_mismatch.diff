@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/pio_growth_curve_2sdgea6 (clean)
++++ groq_openai-gpt-oss-20b/pio_growth_curve_2sdgea6 (defect)
+@@ -5,3 +5,3 @@
+ 3. Add 100 µL of sterile ddH₂O into wells A2, B2, C2, and D2.  
+-4. Measure the absorbance at 600 nm for every well in the same measurement mode you will use for our cell OD readings. (If your plate reader has an automatic path‑length correction, turn it off to avoid distortion of highly scattering samples.)  
++4. Measure the luminescence for every well in the same measurement mode you will use for our cell OD readings. (If your plate reader has an automatic path‑length correction, turn it off to avoid distortion of highly scattering samples.)  
+ 5. Record all absorbance values in the table below or in your notebook.  

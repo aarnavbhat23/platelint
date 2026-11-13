@@ -1,0 +1,100 @@
+--- groq_openai-gpt-oss-120b/qpcr_PMC13753574 (clean)
++++ groq_openai-gpt-oss-120b/qpcr_PMC13753574 (defect)
+@@ -3,57 +3,57 @@
+ 1. **Seed germination (3 days in the dark)**
+-   - Use 9 cm culture dishes with sterile germination paper at the bottom.  
+-   - Surface‑sterilize the seeds: 75 % ethanol, 2 min; then 5 % NaOCl, 10 min with gentle shaking; rinse 6–7 times with sterile distilled water.  
+-   - Spread the seeds evenly on the paper, add enough distilled water to moisten (seeds should contact water but not be submerged).  
+-   - Incubate in the dark until the radicle just emerges (≈2‑3 days).
++ - Use 9 cm culture dishes with sterile germination paper at the bottom. 
++ - Surface‑sterilize the seeds: 75 % ethanol, 2 min; then 5 % NaOCl, 10 min with gentle shaking; rinse 6–7 times with sterile distilled water. 
++ - Spread the seeds evenly on the paper, add enough distilled water to moisten (seeds should contact water but not be submerged). 
++ - Incubate in the dark until the radicle just emerges (≈2‑3 days).
+ 
+ 2. **Transplant to pots and grow seedlings**
+-   - Transfer germinated seeds to 7 cm square plastic pots (or equivalent round pots) filled with a 1:1 (v/v) mix of vermiculite and peat.  
+-   - Grow under controlled conditions: 16 h light at 26 °C, 8 h dark at 18 °C, 60 % RH, light intensity 180–220 µmol m⁻² s⁻¹.  
+-   - Water sparingly to avoid excess moisture; no fertilizer is needed.  
+-   - Grow until the plants reach the “two‑leaf, one‑heart” stage (first true leaf fully expanded, second true leaf just emerging).  
+-   - For each genotype, have at least 8 seedlings; plant all genotypes together in the same tray to ensure identical conditions.
++ - Transfer germinated seeds to 7 cm square plastic pots (or equivalent round pots) filled with a 1:1 (v/v) mix of vermiculite and peat. 
++ - Grow under controlled conditions: 16 h light at 26 °C, 8 h dark at 18 °C, 60 % RH, light intensity 180–220 µmol m⁻² s⁻¹. 
++ - Water sparingly to avoid excess moisture; no fertilizer is needed. 
++ - Grow until the plants reach the “two‑leaf, one‑heart” stage (first true leaf fully expanded, second true leaf just emerging). 
++ - For each genotype, have at least 8 seedlings; plant all genotypes together in the same tray to ensure identical conditions.
+ 
+ 3. **Mechanical wounding**
+-   - Sterilize a 14 cm hemostatic forceps with 75 % ethanol and let dry completely.  
+-   - For each seedling, clamp the lamina of the first true leaf once with consistent pressure to produce visible drooping.  
+-   - Label each wounded seedling; keep a matched set of untreated seedlings as controls (grown in separate pots but under identical conditions).  
+-   - After wounding, keep the wounded area facing vertically downward.
++ - Sterilize a 14 cm hemostatic forceps with 75 % ethanol and let dry completely. 
++ - For each seedling, clamp the lamina of the first true leaf once with consistent pressure to produce visible drooping. 
++ - Label each wounded seedling; keep a matched set of untreated seedlings as controls (grown in separate pots but under identical conditions). 
++ - After wounding, keep the wounded area facing vertically downward.
+ 
+ 4. **Tissue harvest (12 h post‑wounding)**
+-   - Harvest three sample types per genotype:  
+-     a) The wounded leaflet of the first true leaf (local tissue).  
+-     b) The undamaged second true leaf from the same plant (systemic tissue).  
+-     c) A leaf from an untreated control plant.  
+-   - Snap‑freeze each leaf in liquid N₂ immediately and store at –80 °C.  
+-   - Clearly label each tube with genotype, tissue type (control, wounded, systemic), time point (12 h) and a unique ID.  
+-   - Avoid any freeze‑thaw cycles; RNA extraction must be performed within 3 months.
++ - Harvest three sample types per genotype: 
++ a) The wounded leaflet of the first true leaf (local tissue). 
++ b) The undamaged second true leaf from the same plant (systemic tissue). 
++
++ - Snap‑freeze each leaf in liquid N₂ immediately and store at –80 °C. 
++ - Clearly label each tube with genotype, tissue type (control, wounded, systemic), time point (12 h) and a unique ID. 
++ - Avoid any freeze‑thaw cycles; RNA extraction must be performed within 3 months.
+ 
+ 5. **RNA extraction (column‑based)**
+-   - Keep all frozen tissue in a pre‑chilled mortar, add liquid N₂ and grind to a fine powder (≤500 µL powder per 1.5 mL tube).  
+-   - Add 1 mL Trizol to the powder, vortex, let stand at RT 5 min.  
+-   - Transfer the lysate to the RNA‑binding column in two portions, centrifuge 20 s at 13 500 g, 4 °C; discard flow‑through.  
+-   - Wash sequentially with 700 µL Buffer RW1 and twice with 500 µL Buffer RW2 (20 s spin each, 4 °C).  
+-   - Spin the column empty for 2 min to dry, then elute with 30 µL RNase‑free water.  
+-   - Measure concentration and purity (NanoDrop, A260/280 ≈ 2.0, A260/230 > 2.0) and check integrity on a 1 % agarose gel.  
+-   - Store RNA at –80 °C.
++ - Keep all frozen tissue in a pre‑chilled mortar, add liquid N₂ and grind to a fine powder (≤500 µL powder per 1.5 mL tube). 
++ - Add 1 mL Trizol to the powder, vortex, let stand at RT 5 min. 
++ - Transfer the lysate to the RNA‑binding column in two portions, centrifuge 20 s at 13 500 g, 4 °C; discard flow‑through. 
++ - Wash sequentially with 700 µL Buffer RW1 and twice with 500 µL Buffer RW2 (20 s spin each, 4 °C). 
++ - Spin the column empty for 2 min to dry, then elute with 30 µL RNase‑free water. 
++ - Measure concentration and purity (NanoDrop, A260/280 ≈ 2.0, A260/230 > 2.0) and check integrity on a 1 % agarose gel. 
++ - Store RNA at –80 °C.
+ 
+ 6. **cDNA synthesis (PrimeScript or equivalent)**
+-   - In a RNase‑free tube on ice, combine per 1 µg RNA: 2 µL 5× gDNA Eraser Buffer, 2 µL gDNA Eraser, 1 µL RNA, ddH₂O to 10 µL. Incubate 42 °C 2 min, chill on ice.  
+-   - Add 10 µL RT master mix (4 µL 5× PrimeScript Buffer, 1 µL PrimeScript RT Enzyme Mix I, 1 µL RT Primer Mix, 4 µL RNase‑free water).  
+-   - Incubate 37 °C 15 min, then 85 °C 5 s.  
+-   - Dilute or store cDNA at –80 °C.
++ - In a RNase‑free tube on ice, combine per 1 µg RNA: 2 µL 5× gDNA Eraser Buffer, 2 µL gDNA Eraser, 1 µL RNA, ddH₂O to 10 µL. Incubate 42 °C 2 min, chill on ice. 
++ - Add 10 µL RT master mix (4 µL 5× PrimeScript Buffer, 1 µL PrimeScript RT Enzyme Mix I, 1 µL RT Primer Mix, 4 µL RNase‑free water). 
++ - Incubate 37 °C 15 min, then 85 °C 5 s. 
++ - Dilute or store cDNA at –80 °C.
+ 
+ 7. **Quantitative real‑time PCR**
+-   - Set up 20 µL reactions (Kapa SYBR Fast qPCR kit): 2 µL cDNA, 10 µL 2× SYBR master mix, 0.5 µL 0.25 µM forward primer, 0.5 µL 0.25 µM reverse primer, add RNase‑free water to 20 µL.  
+-   - Run on a Roche LightCycler 480 with: 95 °C 30 s; 40 cycles of 95 °C 5 s, 59 °C 30 s (adjust annealing temperature if needed for each primer pair).  
+-   - Perform melt‑curve analysis from 60 °C to 95 °C (0.3 °C s⁻¹) to confirm single‑product amplification.  
+-   - Include no‑RT and no‑template controls.
++ - Set up 20 µL reactions (Kapa SYBR Fast qPCR kit): 2 µL cDNA, 10 µL 2× SYBR master mix, 0.5 µL 0.25 µM forward primer, 0.5 µL 0.25 µM reverse primer, add RNase‑free water to 20 µL. 
++ - Run on a Roche LightCycler 480 with: 95 °C 30 s; 40 cycles of 95 °C 5 s, 59 °C 30 s (adjust annealing temperature if needed for each primer pair). 
++ - Perform melt‑curve analysis from 60 °C to 95 °C (0.3 °C s⁻¹) to confirm single‑product amplification. 
++ - Include no‑RT and no‑template controls.
+ 
+ 8. **Data analysis**
+-   - Calculate ΔCt using ACTIN2 as the reference gene.  
+-   - Present relative expression (2^‑ΔΔCt) for each tissue type.  
+-   - Use a two‑tailed Student’s t‑test for pairwise comparisons (control vs. wounded, control vs. systemic) and one‑way ANOVA with Tukey post‑hoc for multi‑genotype data. Significance thresholds: * p < 0.05, ** p < 0.01, *** p < 0.001.
++ - Calculate ΔCt using ACTIN2 as the reference gene. 
++ - Present relative expression (2^‑ΔΔCt) for each tissue type. 
++ - Use a two‑tailed Student’s t‑test for pairwise comparisons (control vs. wounded, control vs. systemic) and one‑way ANOVA with Tukey post‑hoc for multi‑genotype data. Significance thresholds: * p < 0.05, ** p < 0.01, *** p < 0.001.
+ 
+-**Safety notes:**  
+-- Perform all Trizol and chloroform steps in a fume hood wearing nitrile gloves, goggles and a lab coat.  
++**Safety notes:** 
++- Perform all Trizol and chloroform steps in a fume hood wearing nitrile gloves, goggles and a lab coat. 
+ - Dispose of organic waste according to institutional hazardous waste procedures.

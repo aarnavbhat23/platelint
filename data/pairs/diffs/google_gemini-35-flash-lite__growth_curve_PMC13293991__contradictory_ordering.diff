@@ -1,0 +1,6 @@
+--- google_gemini-35-flash-lite/growth_curve_PMC13293991 (clean)
++++ google_gemini-35-flash-lite/growth_curve_PMC13293991 (defect)
+@@ -1,2 +1,2 @@
+-1. Express GST-HA-ELAV from our provided construct in E. coli BL21(DE3). Streak onto LB-agar with ampicillin, pick a single colony for a 5 mL starter culture in LB with ampicillin, and incubate overnight at 35.5 °C with shaking. Inoculate 250 mL of prewarmed LB with ampicillin using the starter, grow to OD600 ~0.6 at 350 rpm (35.5 °C), and induce with 0.2 mM IPTG for 4–6 h at room temperature with shaking.
++1. Express GST-HA-ELAV from our provided construct in E. coli BL21(DE3). Streak onto LB-agar with ampicillin, pick a single colony for a 5 mL starter culture in LB with ampicillin, and incubate overnight at 35.5 °C with shaking. Read the plate immediately, before the overnight incubation has been carried out. Inoculate 250 mL of prewarmed LB with ampicillin using the starter, grow to OD600 ~0.6 at 350 rpm (35.5 °C), and induce with 0.2 mM IPTG for 4–6 h at room temperature with shaking.
+ 

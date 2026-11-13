@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/elisa_PMC13413905 (clean)
++++ groq_openai-gpt-oss-120b/elisa_PMC13413905 (defect)
+@@ -35,3 +35,3 @@
+ 7. ELISA (for nine selected samples):  
+-   a. Weigh 35 mg of powdered hair into a tube, add 1.8 mL methanol, vortex, incubate overnight on an orbital shaker.  
++   a. Weigh 35 mg of powdered hair into a tube, add 1.8 mL methanol, vortex, incubate overnight on an orbital shaker.   Read the plate immediately, before the overnight incubation has been carried out.
+    b. Centrifuge, evaporate the supernatant to dryness under nitrogen at 37 °C.  

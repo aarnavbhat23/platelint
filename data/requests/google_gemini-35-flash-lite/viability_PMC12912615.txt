@@ -1,0 +1,15 @@
+Please perform the following procedures using our provided samples and the specified reagents and equipment:
+
+1. Culture the H3K27M-pDMG cell line SF8628 (SCC127, Millipore Sigma) in DMEM-High Glucose with 10% FBS at 37°C with 5% CO2. Routinely test for mycoplasma, maintain cells within 10 passages, split at ~70–80% confluency using Trypsin-EDTA, and refresh media every 3–4 days.
+
+2. Generate the SF8628 GEDI reporter line by cloning the pMe:GC150-p2A-mApple construct into a pLenti-CMV-Puro destination vector using Gateway LR Clonase II. Produce lentivirus in HEK293T cells using psPAX2, pMD2.g, and TransIT reagent, concentrate viral supernatants with Lenti-X, transduce the SF8628 cells, and enrich positive populations by FACS for mApple and GC150 expression.
+
+3. Plate the GEDI-expressing SF8628 cells at 5,000 cells/well in 96-well optical plates with 100 µL of media for endpoint assays, or at ≤5,000 cells/well for live-cell imaging.
+
+4. Treat the plates with X-ray irradiation using an XRAD 225XL irradiator at 13.3mA, SSD = 40, 225kV, 2.2Gy/min with a fixed rotation speed for an 8 Gy dose (~3 minutes), or perform sham irradiation for 0 Gy controls. Alternatively, treat cells with JQ1 (S7110, Selleck Chemicals) prepared by dissolving in DMSO to 50 mM and diluting to 10 mM in 200 Proof Ethanol.
+
+5. Conduct endpoint viability assays using Caspase-Glo 3/7 or Cell Titer-Glo according to the manufacturer’s protocol, measuring luminescence on a Synergy LX Multi-Mode Reader with media-only wells as blanks.
+
+6. Perform time-lapse live-cell imaging on a Lionheart FX imager with red and green filter sets at 20X magnification (150 ms mApple exposure, 300 ms GC150 exposure), capturing 10x10 montages. Image radiation-treated cells at 0, 3, 6, 12, 18, 24, 36, and 72 hours, and drug-treated cells at 0, 24, and 72 hours.
+
+7. Process images using Gen5 v3.11 software for background correction, deconvolution, and stitching. Quantify GEDI ratios (GC150/mApple) using ImageJ scripts, perform automated cell tracking using TrackMate v7.14 with loG detection and LAP Tracker, and analyze data with at least 2 biological replicates and 3 technical replicates using one-way ANOVA with Tukey’s post-hoc test or 2-sample t-tests as appropriate.

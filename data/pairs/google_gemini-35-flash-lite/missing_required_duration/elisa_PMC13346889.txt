@@ -1,0 +1,15 @@
+1. Produce fluorescent virus-like particles (VLPs) in HEK293T cells by cotransfecting 8 µg of fluorescent psPAX2 plasmid (mNeon, eYFP, TagBFP, or mScarlet) and 4 µg of the transmembrane ligand expression plasmid (pCMV6-ICAM-1 or variant, or empty vector control) per 10 cm dish using X-tremeGENE 9 transfection reagent.
+
+2. Replace the culture medium with fresh complete DMEM at 16–24 hours post-transfection, and harvest the cell supernatant at 48 hours post-transfection by filtering through a 0.45 µm syringe filter.
+
+3. Concentrate the filtered supernatant by adding Lenti-X Concentrator at a 1:3 (v/v) ratio, incubating overnight at 4 °C, centrifuging at 1500× g for 45 min at 4 °C, and resuspending the resulting VLP pellet in 90 µL of PBS to yield a 100× stock.
+
+4. Prepare target cells (THP-1 or Jurkat cells) by pelleting at 350× g for 5 min, aspirating the supernatant, and resuspending the cells directly in serum-free binding buffer (RPMI + GlutaMAX with 0.1% BSA) at 1–2 × 10 6 cells/mL.
+
+5. Distribute 50 µL of the cell suspension (0.5–1 × 10 5 cells) per well into a 96-well polypropylene V-bottom plate, add 50 µL of 2× Mg 2+ /EGTA binding solution (or alternative activating stimulus) to each well, and mix thoroughly.
+
+6. Immediately add 1 to 5 µL of the 100× concentrated VLP stock to each well, mix by pipetting, and incubate at 37 °C for 10 min.
+
+7. Fix the samples by adding 33 µL of cold 4% PFA per well for a final concentration of 1%, mix, place the plate on ice, and then wash the cells twice with FACS buffer (PBS with 0.2% BSA) using 350× g centrifugation for 3 min per wash.
+
+8. Resuspend the final cell pellet in 200 µL of FACS buffer per well and acquire the samples on the Attune NxT flow cytometer.

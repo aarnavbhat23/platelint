@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/elisa_PMC13515976 (clean)
++++ google_gemini-35-flash-lite/elisa_PMC13515976 (defect)
+@@ -15,3 +15,3 @@
+    - Precision (repeatability), testing at 20 and 5 µg/mL across three independent series with three replicates each ($n=9$) to determine means, standard deviations, and ensure CV $\le 10\%$.
+-   - Robustness, testing 20 and 5 µg/mL SOD1 under slight variations in temperature ($25 \pm 3 °C$), agarose thickness (2.5–3.0 mm), incubation time (20–24 h), and operator/lot factors, maintaining CV $\le 10\%$.
++   - Robustness, testing 20 and 5 µg/mL SOD1 under slight variations in temperature ($25 \pm 3 °C$), agarose thickness (2.5–3.0 mm), incubation time (20–24 h), and operator/lot factors, maintaining CV $\le 10\%$, and hold the plate at 37 °C for the whole of this step.
+ 

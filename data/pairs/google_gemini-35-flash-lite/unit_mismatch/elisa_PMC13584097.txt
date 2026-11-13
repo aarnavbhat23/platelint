@@ -1,0 +1,41 @@
+Please process our mouse skin samples using the following protocol to generate precision-cut skin slices (PCSS), maintain them in culture, and perform the requested downstream assays.
+
+1. Sample Preparation and Embedding
+   - Trim superfluous fat, fascia, and hair from the skin samples. Cut the tissue into rectangles measuring approximately 10 × 20 mm.
+   - Prepare a sandwich by placing the skin between two histology foam pads of matching dimensions, with the hypodermal face on the bottom pad and the epidermis on top.
+   - Secure the base of the sandwich to the Compresstome specimen holder piston using cyanoacrylate glue.
+   - Embed the mounted sandwich in an 8% low-melting-point agarose solution at 42°C, ensuring no air bubbles are present, particularly along the edges.
+   - Chill the specimen holder at −20°C for 1 min 30 s, then hold at 4°C for 15 min to solidify the agarose.
+
+2. PCSS Generation and Maintenance
+   - Section the embedded skin using a Compresstome VF-300OZ with an ultra-sharp razor blade in cold PBS (4°C) at settings: 500 μm thickness, 4 to 6 speed, and oscillation 4.
+   - Discard the first section and any final sections containing glue. Collect tissue slices into 37°C PBS, separate them from the foam pads, and place each slice into a 24-well plate containing 500 μL of DMEM with 20% FBS and supplements.
+   - Incubate the plates at 37°C with 5% CO2 for 5 h to remove toxic byproducts from sectioning.
+   - Aspirate the medium, wash with 500 μL of warm PBS, and replace with fresh DMEM containing 10% FBS and supplements. Maintain cultures at 37°C with 5% CO2, refreshing the medium every 24 h for up to 8 days.
+
+3. LDH Assay
+   - Collect culture media at designated time points. For positive controls, add Triton X-100 to a final concentration of 2% and incubate for 10 min before collection.
+   - Centrifuge collected media at 500 × g at 4°C for 5 min, then transfer the cleared supernatant to new tubes, avoiding lipids and cell debris.
+   - Combine 100 μL of sample or control with 100 μL of freshly prepared LDH reaction mixture in a 96-well plate. Incubate in the dark for 10 min and measure absorbance at 490 nm.
+
+4. ATP Quantification
+   - Rinse PCSS with warm PBS, collect individual slices into bead-beating tubes containing 500 μL of TE buffer and four 2.8 mm zirconium beads.
+   - Homogenize using a Bead Mill 24 at 4 m/s for 40 s, with a 60 s pause, for 2 cycles (with a 5 min room temperature incubation between cycles).
+   - Centrifuge homogenates at 1,000 × g at 4°C for 1 min and collect the supernatant on ice.
+   - Add 50 μL of sample in duplicate to a 96-well plate alongside ATP standards and TE buffer blanks. Add 50 μL of reconstituted Luciferase Reagent to each well and immediately measure luminescence.
+
+5. RNA and Protein Extraction
+   - Rinse PCSS with warm PBS, collect individual slices for RNA extraction (or pairs for protein extraction) into bead-beating tubes containing 750 μL of TRIzol and four 2.8 mm zirconium beads.
+   - Homogenize using the Bead Mill 24 (4 m/s, 40 s cycle, 60 s pause, 2 cycles with a 5 min room temperature rest).
+   - Incubate homogenates at −70°C for 30 min, 60°C for 5 min, and 5 min on ice. Add 150 μL of chloroform, vortex for 10 s, incubate for 3 min, and centrifuge at 12,000 × g at 4°C for 15 min to separate phases.
+   - For RNA: Mix the aqueous phase with 350 μL of 70% ethanol, apply to a Macherey-Nagel column, perform on-column DNase digestion, wash with MDB, RAW2, and RA3 buffers, and elute in RNase-free water. Quantify using a spectrophotometer.
+   - For proteins: Precipitate DNA from the organic phase with 100% ethanol, isolate proteins using isopropanol, wash pellets, resolubilize in Tris/Urea/SDS buffer, and quantify using a BCA assay.
+
+6. Dissociation and Cell Counting
+   - Cut rinsed PCSS into 2 mm pieces, pool in pairs, and dissociate in 4 mL of 1x collagenase/dispase solution overnight at 37°C.
+   - Add 1 mL of FBS, pipette to homogenize, filter through a 70 μm strainer, and centrifuge at 500 × g for 5 min.
+   - Resuspend the cell pellet in 1 mL of DMEM with 10% FBS and supplements. Combine 18 μL of cell suspension with 2 mL of Acridine Orange/Propidium Iodide and count cells and viability using a fluorescence cell counter.
+
+7. Histology and TUNEL Staining
+   - Fix PCSS samples in 4% buffered PFA, dehydrate through graded ethanol, clear with xylene, and embed in paraffin wax with the epidermis oriented above the dermis.
+   - Cut 4 μm sections on a microtome, mount on Superfrost slides, deparaffinize, and perform Hematoxylin-Eosin staining or TUNEL labeling using Proteinase K permeabilization, TdT enzyme, and DAPI counterstaining. Mount with anti-fade reagent and image by fluorescence microscopy.

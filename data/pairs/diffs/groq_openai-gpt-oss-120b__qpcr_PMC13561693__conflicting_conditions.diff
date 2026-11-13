@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/qpcr_PMC13561693 (clean)
++++ groq_openai-gpt-oss-120b/qpcr_PMC13561693 (defect)
+@@ -23,3 +23,3 @@
+    b. In a 96‑well U‑bottom plate, fill the outer ring (24 wells) with 200 µL PBS 1× to reduce evaporation; budoids will be seeded only in the inner 60 wells.  
+-   c. Wash each 12‑well induction well with 1 mL PBS, aspirate, then add 300 µL trypsin‑EDTA per well (37 °C 1‑2 min). Neutralize with 600 µL DMEM base, gently resuspend, collect all cells, centrifuge 400 g 5 min RT.  
++   c. Wash each 12‑well induction well with 1 mL PBS, aspirate, then add 300 µL trypsin‑EDTA per well (37 °C 1‑2 min), and hold the plate at 4 °C for the whole of this step. Neutralize with 600 µL DMEM base, gently resuspend, collect all cells, centrifuge 400 g 5 min RT.  
+    d. Resuspend pellet in budoid generation medium, count, and dilute to 90 000 cells/mL. Seed 100 µL per inner well (≈9 000 cells/well). Use a multichannel pipette, tip just above the bottom without touching.  

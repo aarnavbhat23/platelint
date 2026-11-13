@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/pio_elisa_bz9zp976 (clean)
++++ groq_openai-gpt-oss-20b/pio_elisa_bz9zp976 (defect)
+@@ -19,3 +19,3 @@
+ 
+-Store all unopened kit parts at 2‑8 °C; thaw QC samples as needed.  
++Store all unopened kit parts at 2‑-80 °C; thaw QC samples as needed.  
+ 

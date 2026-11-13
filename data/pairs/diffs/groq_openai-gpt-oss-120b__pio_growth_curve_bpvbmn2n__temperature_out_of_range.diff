@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/pio_growth_curve_bpvbmn2n (clean)
++++ groq_openai-gpt-oss-120b/pio_growth_curve_bpvbmn2n (defect)
+@@ -13,3 +13,3 @@
+    - Add this inoculum to 50 mL of fresh TAP medium in a 100 mL Erlenmeyer flask.
+-   - Place the flask on the orbital shaker at 150 rpm, 25 °C, with a 1 cm orbital diameter and the specified light intensity.
++   - Place the flask on the orbital shaker at 150 rpm, 75 °C, with a 1 cm orbital diameter and the specified light intensity.
+ 

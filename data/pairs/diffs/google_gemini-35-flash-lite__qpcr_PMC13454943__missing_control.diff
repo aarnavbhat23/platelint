@@ -1,0 +1,37 @@
+--- google_gemini-35-flash-lite/qpcr_PMC13454943 (clean)
++++ google_gemini-35-flash-lite/qpcr_PMC13454943 (defect)
+@@ -9,21 +9,21 @@
+ 4. Seed Jurkat E6-1 cells in 6 cm dishes at a final density of 0.6 million cells/mL in a total volume of 5 mL. Treat the cells in technical triplicates with:
+-   - Untreated medium (negative control)
+-   - Anti-CD3/CD28 antibodies at 1 µg/mL each (positive control)
+-   - Recombinant human galectins at final concentrations of 10 µg/mL, 25 µg/mL, and 50 µg/mL
+-   Incubate at 37 °C with 5% CO2 for 16–20 hours.
++ - Untreated medium (negative control)
++
++ - Recombinant human galectins at final concentrations of 10 µg/mL, 25 µg/mL, and 50 µg/mL
++ Incubate at 37 °C with 5% CO2 for 16–20 hours.
+ 
+ 5. Following incubation, observe and record cell morphology and agglutination. Harvest the cells, determine density and viability via trypan blue exclusion, and split each sample:
+-   - Fix 2 million cells per condition in freshly prepared 4% PFA (pH 7.4–7.6) for 15 minutes at room temperature, wash with PBS, and store in 333 µL PBS at -80 °C for flow cytometry.
+-   - Pellet the remaining cells and store at -80 °C for RNA extraction.
++ - Fix 2 million cells per condition in freshly prepared 4% PFA (pH 7.4–7.6) for 15 minutes at room temperature, wash with PBS, and store in 333 µL PBS at -80 °C for flow cytometry.
++ - Pellet the remaining cells and store at -80 °C for RNA extraction.
+ 
+ 6. Perform flow cytometry for CD69 expression:
+-   - Seed 0.3 million fixed cells in 50 µL per well in a 96-well V-bottom plate.
+-   - Stain with anti-CD69-APC (1:10 dilution) and PE mouse IgG1 isotype control (1:20 dilution) to reach final working concentrations of 5 µg/mL in 100 µL total volume.
+-   - Incubate at 4 °C for 1 hour on an orbital shaker at 575 rpm, protected from light.
+-   - Wash twice with PBS, resuspend in 150 µL PBS, and acquire a minimum of 10,000 events per sample on a CytoFLEX S flow cytometer to measure CD69 mean fluorescence intensity.
++ - Seed 0.3 million fixed cells in 50 µL per well in a 96-well V-bottom plate.
++ - Stain with anti-CD69-APC (1:10 dilution) and PE mouse IgG1 isotype control (1:20 dilution) to reach final working concentrations of 5 µg/mL in 100 µL total volume.
++ - Incubate at 4 °C for 1 hour on an orbital shaker at 575 rpm, protected from light.
++ - Wash twice with PBS, resuspend in 150 µL PBS, and acquire a minimum of 10,000 events per sample on a CytoFLEX S flow cytometer to measure CD69 mean fluorescence intensity.
+ 
+ 7. Perform RT-qPCR for IL-2 expression:
+-   - Extract total RNA from the frozen cell pellets using the Zymo Quick-RNA Miniprep kit, including on-column DNase I digestion to remove genomic DNA.
+-   - Measure RNA concentration and purity (target A260/A280 of 1.8–2.1).
+-   - Perform genomic DNA removal and reverse transcription using the HiScript III RT SuperMix (+gDNA wiper) on 1 pg to 500 ng of template RNA.
+-   - Run real-time PCR on a StepOnePlus Real-Time PCR System using FastSYBR Mixture, 500 nM of IL-2 primers (Forward: AGAACTCAAACCTCTGGAGGAAG, Reverse: GCTGTCTCATCAGCATATTCACAC), and 500 nM of GAPDH primers (Forward: GACGCTGGGGCTGGCATTG, Reverse: GCTGGTGGTCCAGGGGTC) with an amplification profile of 95 °C for 2 min, followed by 45 cycles of 95 °C for 15 s and 60 °C for 30 s. Calculate relative IL-2 gene expression using the comparative Ct method normalized to GAPDH.+ - Extract total RNA from the frozen cell pellets using the Zymo Quick-RNA Miniprep kit, including on-column DNase I digestion to remove genomic DNA.
++ - Measure RNA concentration and purity (target A260/A280 of 1.8–2.1).
++ - Perform genomic DNA removal and reverse transcription using the HiScript III RT SuperMix (+gDNA wiper) on 1 pg to 500 ng of template RNA.
++ - Run real-time PCR on a StepOnePlus Real-Time PCR System using FastSYBR Mixture, 500 nM of IL-2 primers (Forward: AGAACTCAAACCTCTGGAGGAAG, Reverse: GCTGTCTCATCAGCATATTCACAC), and 500 nM of GAPDH primers (Forward: GACGCTGGGGCTGGCATTG, Reverse: GCTGGTGGTCCAGGGGTC) with an amplification profile of 95 °C for 2 min, followed by 45 cycles of 95 °C for 15 s and 60 °C for 30 s. Calculate relative IL-2 gene expression using the comparative Ct method normalized to GAPDH.

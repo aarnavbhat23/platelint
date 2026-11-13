@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_viability_quwdwxe (clean)
++++ google_gemini-35-flash-lite/pio_viability_quwdwxe (defect)
+@@ -2,3 +2,3 @@
+ 
+-1. Prepare the 1000X stock (44 mM) by dissolving 5 grams of resazurin sodium salt (Sigma-Aldrich, Cat #R7017) in 500 mL of our provided PBS. Mix vigorously until completely dissolved, sterile filter the solution, divide into ten 50 mL aliquots, and store at -20°C protected from light using aluminum foil or a cardboard box. One 1000X stock aliquot may be kept at 4°C for convenience if assays will be run frequently.
++1. Prepare the 1000X stock (44 mM) by dissolving 5 grams of resazurin sodium salt (Sigma-Aldrich, Cat #R7017) in 500 mL of our provided PBS. Mix vigorously until completely dissolved, sterile filter the solution, divide into ten 50 mL aliquots, and store at -20°C protected from light using aluminum foil or a cardboard box. One 1000X stock aliquot may be kept at -80 °C for convenience if assays will be run frequently.
+ 2. Prepare the 10X working solution (440 uM) by adding 500 uL of the 1000X stock to 50 mL of PBS in a falcon tube. Wrap the tube in aluminum foil to protect it from light and store at 4°C.

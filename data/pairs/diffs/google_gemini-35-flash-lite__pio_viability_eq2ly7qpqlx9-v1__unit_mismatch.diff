@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_viability_eq2ly7qpqlx9-v1 (clean)
++++ google_gemini-35-flash-lite/pio_viability_eq2ly7qpqlx9-v1 (defect)
+@@ -22,3 +22,3 @@
+ 
+-12. Thaw and equilibrate CellTiter-Glo reagent to room temperature, transfer 10 mL to a reagent reservoir, and add 100 µL of CellTiter-Glo reagent to each well of the 96-well plate using an 8-channel p200 pipette.
++12. Thaw and equilibrate CellTiter-Glo reagent to room temperature, transfer 10 mL to a reagent reservoir, and add 100 mL of CellTiter-Glo reagent to each well of the 96-well plate using an 8-channel p200 pipette.
+ 

@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_growth_curve_261geqnyyg47-v1 (clean)
++++ google_gemini-35-flash-lite/pio_growth_curve_261geqnyyg47-v1 (defect)
+@@ -4,3 +4,3 @@
+ 2. Download the attached `OD600_analysis.xlsx` sheet and record your planned plate map.
+-3. Obtain a clear, round-bottom 96-well plate. Pipette 100 µL of the media blank in duplicate into the designated blank wells.
++3. Obtain a clear, round-bottom 96-well plate. 
+ 4. Pipette 90 µL of the media blank into each designated sample well. 

@@ -1,0 +1,116 @@
+--- groq_openai-gpt-oss-20b/pio_growth_curve_2pvgdn6 (clean)
++++ groq_openai-gpt-oss-20b/pio_growth_curve_2pvgdn6 (defect)
+@@ -2,62 +2,62 @@
+ 
+-1. **Materials & Setup**  
+-   - 1.5 mL Eppendorf tubes (for starting samples and dilutions 4‑5)  
+-   - 2.0 mL Eppendorf tubes (for dilutions 1‑3)  
+-   - 96‑well black flat‑bottom plate (for OD measurement)  
+-   - LB broth, LB agar, chloramphenicol 25 mg mL⁻¹ in EtOH (prepare LB + Cam media: 50 µg mL⁻¹ final concentration)  
+-   - Pipettes and fresh tips  
+-   - Vortex mixer  
+-   - 37 °C incubator  
+-   - Plate reader (linear OD600 range)
++1. **Materials & Setup** 
++ - 1.5 mL Eppendorf tubes (for starting samples and dilutions 4‑5) 
++ - 2.0 mL Eppendorf tubes (for dilutions 1‑3) 
++ - 96‑well black flat‑bottom plate (for OD measurement) 
++ - LB broth, LB agar, chloramphenicol 25 mg mL⁻¹ in EtOH (prepare LB + Cam media: 50 µg mL⁻¹ final concentration) 
++ - Pipettes and fresh tips 
++ - Vortex mixer 
++ - 37 °C incubator 
++ - Plate reader (linear OD600 range)
+ 
+-2. **Measure OD600 of each overnight culture**  
+-   - Dilute each culture in LB + Cam to fall in the linear range (e.g., 1:8 dilution).  
+-   - Measure OD600, subtract the blank (media only), and multiply by the dilution factor to get true C₁ (e.g., C₁ = (OD₁₋₈ – blank) × 8).
++2. **Measure OD600 of each overnight culture** 
++ - Dilute each culture in LB + Cam to fall in the linear range (e.g., 1:8 dilution). 
+ 
+-3. **Prepare starting samples at OD600 = 0.1**  
+-   - Use C₁ × V₁ = C₂ × V₂ where C₂ = 0.1 OD600 and V₂ = 1000 µL.  
+-   - Example: if C₁ = 1.224, V₁ = (0.1 × 1000) / 1.224 ≈ 82 µL culture + 918 µL media.  
+-   - Do this in triplicate for each culture (18 total starting samples).  
+-   - Verify OD600 of each diluted sample; it should be ~0.1.
+ 
+-4. **Set up serial dilutions**  
+-   For each of the 18 starting samples:  
+-   a. **Dilution 1‑3**: use 3 × 2.0 mL tubes. Add 1900 µL LB + Cam to each tube.  
+-   b. **Dilution 4‑5**: use 2 × 1.5 mL tubes. Add 900 µL LB + Cam to each tube.  
+-   c. Label tubes: “Sample X – Dilution 1” … “Sample X – Dilution 5”.  
+-   d. Pipette 100 µL of the starting sample into Dilution 1, discard tip, vortex 5–10 s.  
+-   e. For Dilution 2: pipette 100 µL from Dilution 1 into Dilution 2, discard tip, vortex.  
+-   f. Repeat for Dilution 3.  
+-   g. For Dilution 4: pipette 100 µL from Dilution 3 into Dilution 4, discard tip, vortex.  
+-   h. For Dilution 5: pipette 100 µL from Dilution 4 into Dilution 5, discard tip, vortex.  
+-   i. Do not pipette up/down; use a fresh tip for each transfer.
++3. **Prepare starting samples at OD600 = 0.1** 
++ - Use C₁ × V₁ = C₂ × V₂ where C₂ = 0.1 OD600 and V₂ = 1000 µL. 
++ - Example: if C₁ = 1.224, V₁ = (0.1 × 1000) / 1.224 ≈ 82 µL culture + 918 µL media. 
++ - Do this in triplicate for each culture (18 total starting samples). 
++ - Verify OD600 of each diluted sample; it should be ~0.1.
+ 
+-5. **Plate the dilutions**  
+-   - For each starting sample, spread 100 µL of Dilution 3 onto one LB + Cam agar plate, 100 µL of Dilution 4 onto a second plate, and 100 µL of Dilution 5 onto a third plate.  
+-   - In total: 18 samples × 3 plates = 54 agar plates.  
+-   - Label plates accordingly.
++4. **Set up serial dilutions** 
++ For each of the 18 starting samples: 
++ a. **Dilution 1‑3**: use 3 × 2.0 mL tubes. Add 1900 µL LB + Cam to each tube. 
++ b. **Dilution 4‑5**: use 2 × 1.5 mL tubes. Add 900 µL LB + Cam to each tube. 
++ c. Label tubes: “Sample X – Dilution 1” … “Sample X – Dilution 5”. 
++ d. Pipette 100 µL of the starting sample into Dilution 1, discard tip, vortex 5–10 s. 
++ e. For Dilution 2: pipette 100 µL from Dilution 1 into Dilution 2, discard tip, vortex. 
++ f. Repeat for Dilution 3. 
++ g. For Dilution 4: pipette 100 µL from Dilution 3 into Dilution 4, discard tip, vortex. 
++ h. For Dilution 5: pipette 100 µL from Dilution 4 into Dilution 5, discard tip, vortex. 
++ i. Do not pipette up/down; use a fresh tip for each transfer.
+ 
+-6. **Incubation**  
+-   - Incubate all plates at 37 °C overnight (18–20 h).
++5. **Plate the dilutions** 
++ - For each starting sample, spread 100 µL of Dilution 3 onto one LB + Cam agar plate, 100 µL of Dilution 4 onto a second plate, and 100 µL of Dilution 5 onto a third plate. 
++ - In total: 18 samples × 3 plates = 54 agar plates. 
++ - Label plates accordingly.
+ 
+-7. **Colony counting**  
+-   - After incubation, count colonies on each plate that has fewer than 300 colonies.  
+-   - Discard plates with >300 colonies or re‑dilute if necessary.
++6. **Incubation** 
++ - Incubate all plates at 37 °C overnight (18–20 h).
+ 
+-8. **CFU calculation**  
+-   - For each counted plate, multiply the colony count by the final dilution factor:  
+-     *Dilution 3*: 1 : 8000 → factor = 8 × 10³  
+-     *Dilution 4*: 1 : 80000 → factor = 8 × 10⁴  
+-     *Dilution 5*: 1 : 800000 → factor = 8 × 10⁵  
+-   - CFU mL⁻¹ = colony count × factor.  
+-   - This gives CFU per 1 mL of an OD600 = 0.1 culture.
++7. **Colony counting** 
++ - After incubation, count colonies on each plate that has fewer than 300 colonies. 
++ - Discard plates with >300 colonies or re‑dilute if necessary.
+ 
+-9. **Data reporting**  
+-   - Provide a table with: sample ID, control type (positive/negative), OD600 measured, dilution factor, colony counts per plate, CFU mL⁻¹ for each dilution, and average CFU mL⁻¹ per sample.  
+-   - Attach raw images of plates and the spreadsheet.
++8. **CFU calculation** 
++ - For each counted plate, multiply the colony count by the final dilution factor: 
++ *Dilution 3*: 1 : 8000 → factor = 8 × 10³ 
++ *Dilution 4*: 1 : 80000 → factor = 8 × 10⁴ 
++ *Dilution 5*: 1 : 800000 → factor = 8 × 10⁵ 
++ - CFU mL⁻¹ = colony count × factor. 
++ - This gives CFU per 1 mL of an OD600 = 0.1 culture.
+ 
+-10. **Quality notes**  
+-    - If any plate has >300 colonies, note the issue and omit that data point.  
+-    - Use fresh tips for each transfer to avoid cross‑contamination.  
+-    - Record the exact times of incubation and counting for reproducibility.
++9. **Data reporting** 
++ - Provide a table with: sample ID, control type (positive/negative), OD600 measured, dilution factor, colony counts per plate, CFU mL⁻¹ for each dilution, and average CFU mL⁻¹ per sample. 
++ - Attach raw images of plates and the spreadsheet.
++
++10. **Quality notes** 
++ - If any plate has >300 colonies, note the issue and omit that data point. 
++ - Use fresh tips for each transfer to avoid cross‑contamination. 
++ - Record the exact times of incubation and counting for reproducibility.
+ 

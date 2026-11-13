@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/pio_growth_curve_6ydhfs6 (clean)
++++ groq_openai-gpt-oss-20b/pio_growth_curve_6ydhfs6 (defect)
+@@ -6,3 +6,3 @@
+ - 15 mL sterile Falcon tubes & rack  
+-- 25 mL reservoir  
++- 25 µL reservoir  
+ - Brain Heart Infusion (BHI) broth (Oxoid CM1135-UK)  

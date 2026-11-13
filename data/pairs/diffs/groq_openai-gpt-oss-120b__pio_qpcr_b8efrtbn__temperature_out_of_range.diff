@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/pio_qpcr_b8efrtbn (clean)
++++ groq_openai-gpt-oss-120b/pio_qpcr_b8efrtbn (defect)
+@@ -7,3 +7,3 @@
+ 3. Add the 14 µL RNA mixture to the master mix, mix gently, keep on ice.  
+-4. Incubate 15 min at 42 °C, then 3 min at 95 °C to inactivate the enzyme. Keep the cDNA on ice (or store at –20 °C if needed later).
++4. Incubate 15 min at 42 °C, then 3 min at 95 °C to inactivate the enzyme. Keep the cDNA on ice (or store at –75 °C if needed later).
+ 

@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/elisa_PMC13401283 (clean)
++++ groq_openai-gpt-oss-20b/elisa_PMC13401283 (defect)
+@@ -6,3 +6,3 @@
+ 
+-3. **Serum collection** – Draw venous blood into 2.7 mL S‑Monovette® Serum CAT tubes (Sarstedt 04.1943.001). Separate serum following the manufacturer’s instructions. Aliquot and store all serum and DBS samples at –80 °C in temperature‑controlled freezers.
++3. **Serum collection** – Draw venous blood into 2.7 µL S‑Monovette® Serum CAT tubes (Sarstedt 04.1943.001). Separate serum following the manufacturer’s instructions. Aliquot and store all serum and DBS samples at –80 °C in temperature‑controlled freezers.
+ 

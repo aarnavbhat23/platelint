@@ -1,0 +1,71 @@
+Use the following protocol for each wolf hair sample (35 mg powder):
+
+1. **Materials & reagents**  
+   - LC‑MS‑grade water, methanol, isopropanol, acetic acid, formic acid (VWR).  
+   - Isotopically labeled internal standards: CORT‑D4 and CORN‑D8 (15 ng mL⁻¹ in methanol).  
+   - Hormone standards: CORT and CORN (Merck).  
+   - Strata‑X SPE cartridges, 30 mg sorbent, 8B‑S100‑TAK (Phenomenex).  
+   - 1 mL methanol for extraction, 1 mL water for equilibrations.  
+   - ELISA kit: Cortisol ELISA Kit (Cayman Chemical, Cat. No. 500360).
+
+2. **Sample pretreatment**  
+   a. Shake each hair sample with 5 mL isopropanol for 3 min, discard solution, repeat once with fresh isopropanol.  
+   b. Dry overnight at room temperature, then cut into ~2 mm fragments.  
+   c. Weigh 35 mg into a Falcon tube.  
+   d. Homogenize with five steel balls in a Bioprep‑24R homogenizer (5 × 30 s cycles at 10 °C, cooling).  
+   e. Keep homogenized powder on ice until extraction.
+
+3. **Extraction for LC‑MS/MS**  
+   a. Add 1 mL methanol containing 15 ng mL⁻¹ of each internal standard.  
+   b. Rock on a SSL4 see‑saw at 70 rpm, room temperature, 24 h.  
+   c. Centrifuge 10 min at 13 000 rpm.  
+   d. Transfer 800 µL supernatant to a new tube.  
+   e. Evaporate to dryness in an EZ‑2 Elite evaporator.  
+   f. Reconstitute in 1 mL LC‑MS‑grade water, ultrasonicate 2 min.  
+   g. Load 1 mL of reconstituted sample onto a conditioned Strata‑X cartridge (condition with 1 mL methanol, equilibrate with 1 mL water).  
+   h. Wash cartridge with 1 mL water, elute with 1 mL methanol.  
+   i. Concentrate eluate to 200 µL, transfer to a glass vial.  
+   j. Perform three replicate injections per sample.
+
+4. **LC‑MS/MS analysis**  
+   a. System: Agilent 1290 Infinity UHPLC + Agilent 6460 QQQ with Jet‑Stream ESI.  
+   b. Column: BEH C18 1.7 µm, 2.1 × 100 mm (Waters).  
+   c. Column temperature 75 °C, flow 0.2 mL min⁻¹.  
+   d. Mobile phases: A = 0.1 % formic acid in water, B = methanol.  
+   e. Gradient: 0–4 min 20–60 % B, 4–5 min 60 % B, 5–7 min 60–70 % B, 7–9 min 70 % B, 9–11 min 70 % B.  
+   f. Injection volume 5 µL, dMRM mode, positive ionization.  
+   g. Transitions:  
+      – CORN (m/z 361.1 → 163, 121)  fragmentor 160 V, CE 24/36 eV, RT 6.3 min.  
+      – CORN‑D8 (m/z 369.1 → 169.1) 160 V, CE 30 eV, RT 6.3 min.  
+      – CORT (m/z 363 → 121.2, 97.5) 80 V, CE 26/36 eV, RT 6.8 min.  
+      – CORT‑D4 (m/z 367.1 → 121.1) 80 V, CE 26 eV, RT 6.8 min.  
+   h. Source: nebulizer 35 psi, drying gas 300 °C 8 L min⁻¹, sheath gas 300 °C 10 L min⁻¹, capillary 4500 V, nozzle 300 V.  
+   i. Acquire data in MassHunter Acquisition vB10.1, analyse with MassHunter Quantitative Analysis vB12.1.
+
+5. **Calibration & QC**  
+   a. Prepare matrix‑matched calibration standards (pooled low‑CORT/CORN hair) at nine concentrations: 0.144 ng mL⁻¹ (CORT) / 0.087 ng mL⁻¹ (CORN) up to 0.1 µg mL⁻¹.  
+   b. Include internal standards at 15 ng mL⁻¹ each.  
+   c. Run each calibration point in triplicate.  
+   d. Define LOD = 3.3 × σ/slope; LLOQ = 10 × σ/slope.  
+   e. QC levels:  
+      – LQC ≈ LLOQ (≈0.15 ng mL⁻¹),  
+      – MQC 50 ng mL⁻¹,  
+      – HQC 80 ng mL⁻¹.  
+   f. Evaluate precision (RSD ≤ 15 % MQC/HQC, ≤ 20 % LQC) and accuracy (85–115 % MQC/HQC, 80–120 % LQC).  
+   g. Compute extraction recovery (RE) and matrix effect (ME) at each QC level.  
+   h. Test autosampler stability (24 h at 25 °C) and freeze‑thaw stability (3 cycles –20 → +25 °C), accept deviations ≤ 10 % (MQC/HQC) or ≤ 15 % (LQC).
+
+6. **ELISA comparison (nine samples)**  
+   a. Weigh 35 mg powdered hair into a tube.  
+   b. Add 1.8 mL methanol, vortex, incubate overnight on orbital shaker.  
+   c. Centrifuge, evaporate supernatant to dryness under N₂ at 37 °C.  
+   d. Reconstitute in 400 µL ELISA buffer, vortex.  
+   e. Follow Cayman kit instructions: wash with ELx50 washer, incubate on ELMI DTS‑4 shaker, read at 410 nm on Synergy 2 reader.  
+   f. Correct absorbance, calculate B/B₀, use calibration curve to obtain pg mL⁻¹, convert to pg mg⁻¹ hair using reconstitution volume and 35 mg hair.
+
+7. **Documentation & Reporting**  
+   a. Provide raw chromatograms, calibration curves, QC data, and ELISA absorbance tables.  
+   b. Include all instrument settings, transition lists, and validation summary.  
+   c. Report CORT and CORN concentrations (pg mg⁻¹ hair) for each sample.  
+
+Please complete the above workflow and send us the quantified results and validation metrics.

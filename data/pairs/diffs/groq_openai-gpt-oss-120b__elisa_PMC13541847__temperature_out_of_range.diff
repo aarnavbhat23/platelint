@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/elisa_PMC13541847 (clean)
++++ groq_openai-gpt-oss-120b/elisa_PMC13541847 (defect)
+@@ -23,3 +23,3 @@
+    f. Block with 500 µL PBS 1× + 0.05 % Tween‑20 + 0.2 % BSA, vortex, rotate 30 min at RT, protected from light.  
+-   g. Wash twice as above, then resuspend in 1000 µL PBS 1× + 0.05 % Tween‑20 (final 1.25 × 10⁶ beads mL⁻¹). Store at 4 °C protected from light until use.
++   g. Wash twice as above, then resuspend in 1000 µL PBS 1× + 0.05 % Tween‑20 (final 1.25 × 10⁶ beads mL⁻¹). Store at -80 °C protected from light until use.
+ 

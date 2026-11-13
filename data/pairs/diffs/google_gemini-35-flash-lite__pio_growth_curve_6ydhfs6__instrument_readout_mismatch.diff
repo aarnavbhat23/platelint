@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_growth_curve_6ydhfs6 (clean)
++++ google_gemini-35-flash-lite/pio_growth_curve_6ydhfs6 (defect)
+@@ -10,3 +10,3 @@
+ 8. Wash the cell pellet twice by resuspending in 10 mL of saline, centrifuging at 3000 rpm for 10 minutes at room temperature, and discarding the supernatant.
+-9. After the second wash, resuspend the cell pellet in 1 mL of 0.9% NaCl. Transfer 200 µL into a 96-well plate and measure the OD at 600 nm (OD600). Prepare 1 mL of a working bacterial dilution in saline adjusted to an OD600 of approximately 0.3.
++9. After the second wash, resuspend the cell pellet in 1 mL of 0.9% NaCl. Transfer 200 µL into a 96-well plate and measure the luminescence (OD600). Prepare 1 mL of a working bacterial dilution in saline adjusted to an OD600 of approximately 0.3.
+ 10. Prepare the 96-well assay plates as follows:

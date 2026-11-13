@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_elisa_bma6k2he (clean)
++++ google_gemini-35-flash-lite/pio_elisa_bma6k2he (defect)
+@@ -13,3 +13,3 @@
+ 11. Add 50 μl of substrate solution A followed by 50 μl of substrate solution B to every well.
+-12. Cover the plate with a new sealer and incubate for 10 minutes at 37°C in the dark.
++12. Cover the plate with a new sealer and incubate at 37°C in the dark.
+ 13. Add 50 μl of Stop Solution to each well to transition the blue color to yellow.

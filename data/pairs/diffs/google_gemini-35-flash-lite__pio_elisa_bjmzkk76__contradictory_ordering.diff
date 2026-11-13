@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_elisa_bjmzkk76 (clean)
++++ google_gemini-35-flash-lite/pio_elisa_bjmzkk76 (defect)
+@@ -2,3 +2,3 @@
+ 
+-1. Coat Nunc 96-Well Polystyrene Round Bottom Microwell Plates (Thermo Fisher #260210) with 50 ng of synthetic gp-120 peptide per well in Coating Buffer (BioLegend #421701), and incubate overnight at 4°C.
++1. Coat Nunc 96-Well Polystyrene Round Bottom Microwell Plates (Thermo Fisher #260210) with 50 ng of synthetic gp-120 peptide per well in Coating Buffer (BioLegend #421701), and incubate overnight at 4°C. Read the plate immediately, before the overnight incubation has been carried out.
+ 2. Wash the plate 4 times with PBS-Tween-20. Block with 25 µl/well of 3% non-fat milk in PBS for 1 hour at room temperature.

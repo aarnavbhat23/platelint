@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/growth_curve_PMC13273370 (clean)
++++ groq_openai-gpt-oss-120b/growth_curve_PMC13273370 (defect)
+@@ -8,3 +8,3 @@
+ 
+-3. **Plate the isolates** – From the glycerol stocks, streak each isolate onto its own TSA plate using a sterile loop. Seal with parafilm and incubate at 28 °C for 4–10 days. Use plates of similar age for all isolates.
++3. **Plate the isolates** – From the glycerol stocks, streak each isolate onto its own TSA plate using a sterile loop. Seal with parafilm and incubate at 75 °C for 4–10 days. Use plates of similar age for all isolates.
+ 

@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/qpcr_PMC13524870 (clean)
++++ groq_openai-gpt-oss-120b/qpcr_PMC13524870 (defect)
+@@ -6,3 +6,3 @@
+    - **Vancomycin** (50 mg kg⁻¹ oral gavage days 3‑7): make a 10.0 mg mL⁻¹ solution in sterile 0.9 % NaCl, filter‑sterilize. Prepare 2 mL total (6 mice × 250 µL × 5 days + extra).  
+-   - **PBS** (1×, pre‑reduced). Prepare 500 mL, store at 4 °C; place in anaerobic chamber ≥16 h before use.  
++   - **PBS** (1×, pre‑reduced). Prepare 500 mL, store at -80 °C; place in anaerobic chamber ≥16 h before use.  
+    - **Ethanol 100 %** – aliquot 1 mL per day, keep in anaerobic chamber for ≥16 h.  

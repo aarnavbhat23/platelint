@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/growth_curve_PMC13188912 (clean)
++++ google_gemini-35-flash-lite/growth_curve_PMC13188912 (defect)
+@@ -7,3 +7,3 @@
+ 4. Run the biofilm extraction and disaggregation workflow using our samples across the following test parameters, maintaining $n \ge 3$ biological replicates per treatment:
+-   - Extraction solution screening (FS1–FS4): Test 50 MiP particles per replicate in 300 µL of either 0.85% NaCl, 1× PBS, 1× PBS + 0.1% Tween 20, or 1× PBS + 0.1% Tween 80, alongside five 3 mm sterile glass beads. Perform two sequential extraction cycles consisting of ultrasonication (40 kHz, 100 W, 10 min) followed by vortexing (3,000 rpm, 1 min), and pool the resulting supernatants.
++   - Extraction solution screening (FS1–FS4): Test 50 MiP particles per replicate in 300 mL of either 0.85% NaCl, 1× PBS, 1× PBS + 0.1% Tween 20, or 1× PBS + 0.1% Tween 80, alongside five 3 mm sterile glass beads. Perform two sequential extraction cycles consisting of ultrasonication (40 kHz, 100 W, 10 min) followed by vortexing (3,000 rpm, 1 min), and pool the resulting supernatants.
+    - Disaggregation optimization (SV1–SV4): Process the pooled suspensions using either double vortexing (3,000 rpm, 30 s × 2) then a single 10-min sonication (40 kHz), or the reverse order, in buffers of either 1× PBS or 1× PBS + 0.1% Tween 80.

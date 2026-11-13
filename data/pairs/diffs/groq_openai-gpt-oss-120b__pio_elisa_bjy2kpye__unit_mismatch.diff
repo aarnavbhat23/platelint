@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/pio_elisa_bjy2kpye (clean)
++++ groq_openai-gpt-oss-120b/pio_elisa_bjy2kpye (defect)
+@@ -9,3 +9,3 @@
+ 7. Wash again 4 × with PBS‑Tween 20.  
+-8. Add 100 µL of peroxidase‑labeled streptavidin to each well and incubate 1 h at room temperature.  
++8. Add 100 mL of peroxidase‑labeled streptavidin to each well and incubate 1 h at room temperature.  
+ 9. Perform a final wash (4 × PBS‑Tween 20).  

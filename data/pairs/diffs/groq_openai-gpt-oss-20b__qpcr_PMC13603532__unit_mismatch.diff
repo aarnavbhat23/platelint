@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/qpcr_PMC13603532 (clean)
++++ groq_openai-gpt-oss-20b/qpcr_PMC13603532 (defect)
+@@ -19,3 +19,3 @@
+    * Centrifuge caecal: 5 min, 13 000 rpm (Eppendorf Mini Spin). Centrifuge skin: 5 min, 10 000 rpm (Eppendorf 5810R).  
+-   * Resuspend pellets in 750 µL Power Beads solution + 60 µL C1 reagent (Qiagen PowerLyzer PowerSoil Kit). Follow kit instructions, elute DNA in 100 µL, store at –20 °C.
++   * Resuspend pellets in 750 µL Power Beads solution + 60 µL C1 reagent (Qiagen PowerLyzer PowerSoil Kit). Follow kit instructions, elute DNA in 100 mL, store at –20 °C.
+ 

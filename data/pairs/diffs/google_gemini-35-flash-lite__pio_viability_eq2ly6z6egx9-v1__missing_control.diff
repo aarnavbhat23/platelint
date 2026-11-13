@@ -1,0 +1,5 @@
+--- google_gemini-35-flash-lite/pio_viability_eq2ly6z6egx9-v1 (clean)
++++ google_gemini-35-flash-lite/pio_viability_eq2ly6z6egx9-v1 (defect)
+@@ -24,2 +24 @@
+ 
+-Please provide the raw absorbance readings at 637 nm and 590 nm for all replicates, along with the calculated fraction of live cells relative to the untreated controls.

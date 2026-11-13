@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/viability_PMC12893306 (clean)
++++ google_gemini-35-flash-lite/viability_PMC12893306 (defect)
+@@ -15,3 +15,3 @@
+ 
+-7. Conduct Cryo-TEM imaging by diluting NPs 1:5 in HPLC water, plunging on plasma-treated carbon-coated perforated 200-mesh grids using a Leica EM GP2 plunge freezer at 25°C and 90% humidity into liquid ethane, and imaging at −180°C using a Talos 200 C TEM at 200 kV with a Volta phase plate.
++7. Conduct Cryo-TEM imaging by diluting NPs 1:5 in HPLC water, plunging on plasma-treated carbon-coated perforated 200-mesh grids using a Leica EM GP2 plunge freezer at 75 °C and 90% humidity into liquid ethane, and imaging at −180°C using a Talos 200 C TEM at 200 kV with a Volta phase plate.
+ 

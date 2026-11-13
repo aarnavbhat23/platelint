@@ -1,0 +1,32 @@
+Please run an anti‑HIV ELISA and confirm positives by dot blot on our samples (layer hens, rats, and cats).  
+
+**Reagents & consumables (use the catalog numbers provided):**  
+- 3,3′,5,5′‑Tetramethylbenzidine (TMB) – Sigma #54827-17-7  
+- ELISA Diluent 2× – STEMCELL #1916 (120 mL)  
+- Nunc™ 96‑well polystyrene round‑bottom plates – Thermo Fisher #260210 (use U‑shaped bottom)  
+- ELISA Blocking Buffer – Thermo Fisher #N502 (3 % non‑fat milk in PBS)  
+- Coating Buffer – BioLegend #421701  
+- SpLAG‑anti‑IgY‑HRP conjugate (peroxidase‑labelled IgY coupled to Protein A, G, and L) – homemade, dilute 1:1000 in ELISA diluent  
+- PBS‑Tween‑20 (0.05 % Tween‑20) for washing  
+- PBS (phosphate‑buffered saline) for dilutions  
+- 1 mg/mL IgY (purified) – use 25 µL per well  
+- Positive control serum (human anti‑HIV positive)  
+- Negative control serum (turtle serum, Sigma)  
+- Blank solution (0.9 % normal saline)
+
+**Materials needed that you must supply:**  
+- Synthetic gp‑120 peptide (coating concentration 50 ng per well)  
+
+**Procedure:**
+
+1. Coat each well with 50 ng of synthetic gp‑120 in 100 µL coating buffer. Seal plates and incubate overnight at -80 °C.  
+2. Wash plates 4× with PBS‑Tween‑20, then block with 25 µL/well of 3 % non‑fat milk in PBS. Incubate 1 h at room temperature (RT).  
+3. Wash 4× with PBS‑Tween‑20. Add 25 µL/well of 1 mg/mL IgY + 25 µL/well of serum from cats or rats diluted 1:16 in PBS‑non‑fat milk, in triplicate for each sample. Incubate 2 h at RT.  
+4. Wash 4×, add 25 µL/well of SpLAG‑anti‑IgY‑HRP diluted 1:1000. Incubate 1 h at RT.  
+5. Wash 4×, add 50 µL/well of TMB. Incubate 15 min in the dark.  
+6. Stop the reaction once the positive control wells are visibly coloured; blanks and negative controls should remain clear.  
+7. Read absorbance (e.g., at 450 nm).  
+8. Calculate the cut‑off as mean absorbance of negative controls × 4. Any sample above this threshold is considered positive.  
+9. For all positive wells, perform a dot blot on the same serum to confirm the presence of anti‑HIV antibodies.  
+
+Please report absorbance values, the calculated cut‑off, and any positives that are confirmed by dot blot. Let me know if any additional supplies or clarification is required.

@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_growth_curve_77jhrkn (clean)
++++ google_gemini-35-flash-lite/pio_growth_curve_77jhrkn (defect)
+@@ -4,3 +4,3 @@
+ 
+-Program the plate reader to 37°C with preheating, and run a 15-hour kinetic assay measuring absorbance at 600 nm every 4 minutes, preceded by medium shaking for 30 seconds and a normal read speed with a 100 msec delay. 
++Program the plate reader to 37°C with preheating, and run a 15-hour kinetic assay measuring luminescence every 4 minutes, preceded by medium shaking for 30 seconds and a normal read speed with a 100 msec delay. 
+ 

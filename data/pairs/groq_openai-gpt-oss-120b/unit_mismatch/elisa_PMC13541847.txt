@@ -1,0 +1,69 @@
+Please perform the Luminex multiplex assay for MenA, MenC, MenW and MenY on the vaccine samples we are sending, following the exact protocol below.
+
+1. **Reagents and consumables**  
+   - Luminex MagPlex‑C microspheres (catalogues MC10020‑01, MC10025‑01, MC10033‑01, MC10077‑01).  
+   - 1‑Ethyl‑3‑(3‑dimethylaminopropyl) carbodiimide (EDC, ThermoFisher cat. 22980) and N‑hydroxysulfosuccinimide (sNHS, ThermoFisher cat. 24510).  
+   - Sodium phosphate buffer, 100 mM, pH 6.2; MES buffer, 50 mM, pH 5.0.  
+   - PBS 1×, 0.05 % Tween‑20, 0.5 % BSA (prepare from PBS tablets, Tween‑20 and BSA as listed).  
+   - NaCl 9 g L⁻¹ solution for reconstituting the lyophilized vaccine.  
+   - Greiner flat‑bottom plates (cat. 655904).  
+   - Magnetic plate washer (405‑type).  
+
+2. **Antibodies**  
+   - Mouse monoclonal anti‑MenA (batch 28022017), anti‑MenC (13072017), anti‑MenW (04052017), anti‑MenY (23082017). Each will be coupled to the corresponding bead colour (B20, B25, B33, B77).  
+   - Rabbit anti‑CRM197 poly‑clonal antiserum (Abcam ab53828), purified on Protein‑G spin‑trap columns (Cytiva cat. 28408347) as per manufacturer instructions.  
+   - Goat anti‑rabbit Fab‑R‑Phycoerythrin (Jackson ImmunoResearch cat. 111‑117‑008).  
+
+3. **Bead‑antibody coupling (once, store for assay)**  
+   a. Transfer 100 µL of each bead set (≈1.25 × 10⁶ beads) to a low‑binding 1.5 mL tube, wash with water.  
+   b. Add 80 µL sodium phosphate (100 mM, pH 6.2).  
+   c. Add 10 µL sNHS (50 mg mL⁻¹) then 10 µL EDC (50 mg mL⁻¹). Vortex, rotate 360° for 20 min at RT, protected from light.  
+   d. Add serotype‑specific mAb (volume to give the recommended µg per 1.25 × 10⁶ beads) in 500 µL MES (50 mM, pH 5.0). Vortex, rotate 360° for 2 h at RT, protected from light.  
+   e. Wash twice with 500 µL PBS 1× + 0.05 % Tween‑20.  
+   f. Block with 500 µL PBS 1× + 0.05 % Tween‑20 + 0.2 % BSA, vortex, rotate 30 min at RT, protected from light.  
+   g. Wash twice as above, then resuspend in 1000 µL PBS 1× + 0.05 % Tween‑20 (final 1.25 × 10⁶ beads mL⁻¹). Store at 4 °C protected from light until use.
+
+4. **Sample preparation**  
+   - Reconstitute each lyophilized MenACWY‑CRM197 vial with 600 µL NaCl 9 g L⁻¹ to obtain target concentrations of 20 µg mL⁻¹ (MenA) and 10 µg mL⁻¹ (MenC, MenW, MenY).  
+   - Dilute the reconstituted material 1 : 1000 in PBS 1× + 0.05 % Tween‑20 (sample diluent).  
+   - Prepare a standard curve using the provided bulk conjugate, reconstituted and diluted identically.
+
+5. **Plate setup**  
+   - Dispense 50 mL of each sample or standard (in duplicate) into the first column of the plate. Fill the remaining wells of the column with 50 µL sample diluent.  
+   - Perform a 2.5‑fold serial dilution across the plate (add 50 µL diluent to the next well, mix, transfer 50 µL to the following well, etc.) to generate the titration series for both samples and standards.
+
+6. **Bead addition**  
+   - Dilute the coupled bead mixture 1 : 10 in sample diluent.  
+   - Add 10 µL of the diluted bead cocktail to each well (final bead concentration ≈1.25 × 10⁴ beads per well).  
+
+7. **Incubation 1**  
+   - Incubate the plate at room temperature for 1 h with shaking at 800 rpm.  
+
+8. **Wash 1**  
+   - Using the magnetic washer, wash wells three times with 100 µL sample diluent (PBS 1× + 0.05 % Tween‑20).  
+
+9. **Primary antibody**  
+   - Add 100 µL of the purified anti‑CRM197 rabbit poly‑clonal antibody (diluted to the concentration you used for purification; the original protocol used the undiluted purified prep).  
+   - Incubate 1 h at RT, 800 rpm shaking.  
+
+10. **Wash 2**  
+    - Wash three times as in step 8.  
+
+11. **Secondary antibody**  
+    - Add 50 µL of goat anti‑rabbit Fab‑R‑PE diluted 1 : 200 in sample diluent.  
+    - Incubate 30 min at RT, 800 rpm shaking.  
+
+12. **Final wash and read**  
+    - Wash three times as before, then add 100 µL PBS 1× to each well.  
+    - Agitate briefly, then read the plate on a Bio‑Plex 200 (high‑sensitivity setting). Collect median fluorescence intensity (MFI) for each bead region.  
+
+13. **Data analysis**  
+    - Export the MFI data and analyze with Bio‑Plex Manager 6.0 to generate standard curves for each serotype.  
+    - Perform parallel‑line assay (PLA) on the log10 dose vs. log10 response data (minimum four points per curve). Verify: significant regression (p < 0.05), no non‑linearity (p > 0.05), no non‑parallelism (p > 0.05).  
+    - Calculate antigen concentrations for each sample relative to the standards, with 95 % confidence intervals, using the online Combistat EDQM tool.  
+
+14. **Reporting**  
+    - Provide the raw MFI files, the processed concentration values for each serotype, and the statistical validation outputs (ANOVA tables, regression parameters).  
+    - Note any deviations from the protocol or problems encountered.  
+
+If any reagents listed are unavailable, let us know immediately so we can supply alternatives. Thank you.

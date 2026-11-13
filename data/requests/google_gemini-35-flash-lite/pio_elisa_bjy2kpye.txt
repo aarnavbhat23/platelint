@@ -1,0 +1,11 @@
+1. Coat 96-well ELISA plates with monoclonal anti-human IL-23 antibodies.
+2. Add our provided patient serum samples and user-contributed IL-23 from IBL Corporation Germany to the plates.
+3. Incubate the plates for 1 hour and 30 minutes at room temperature.
+4. Wash the plates 4 times with PBS-Tween 20 buffer.
+5. Add biotin-conjugated anti-human IL-23 to the wells and incubate for 1 hour and 30 minutes at room temperature.
+6. Repeat the 4-times washing procedure with PBS-Tween 20 buffer.
+7. Add a peroxidase-labeled streptavidin conjugate to the plates and incubate for 1 hour at room temperature.
+8. Perform a further washing procedure using the same buffer.
+9. Add the reactive substrate solution and allow color to develop in the positive controls.
+10. Stop the reaction by adding 3M H2SO4.
+11. Measure the absorbance at 450 nm to determine IL-17 concentrations, which are proportional to the colored product, by generating a standard curve using linear regression.

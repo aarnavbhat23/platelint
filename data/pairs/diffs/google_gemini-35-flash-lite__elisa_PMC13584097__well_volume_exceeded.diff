@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/elisa_PMC13584097 (clean)
++++ google_gemini-35-flash-lite/elisa_PMC13584097 (defect)
+@@ -24,3 +24,3 @@
+    - Centrifuge homogenates at 1,000 × g at 4°C for 1 min and collect the supernatant on ice.
+-   - Add 50 μL of sample in duplicate to a 96-well plate alongside ATP standards and TE buffer blanks. Add 50 μL of reconstituted Luciferase Reagent to each well and immediately measure luminescence.
++   - Add 5700 µL of sample in duplicate to a 96-well plate alongside ATP standards and TE buffer blanks. Add 50 μL of reconstituted Luciferase Reagent to each well and immediately measure luminescence.
+ 

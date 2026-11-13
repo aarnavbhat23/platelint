@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/elisa_PMC13449783 (clean)
++++ groq_openai-gpt-oss-120b/elisa_PMC13449783 (defect)
+@@ -6,3 +6,3 @@
+ 
+-   • For Tconv, plate at 0.1 × 10⁶ cells mL⁻¹ in RPMI + 10 % FBS, 1 % pen‑strep, 1 % glutamine and add anti‑CD3/CD28 beads at a 1:3 bead‑to‑cell ratio. Include IL‑7 and IL‑15 (5 ng mL⁻¹ each).
++   • For Tconv, plate at 0.1 × 10⁶ cells mL⁻¹ in RPMI + 10 % FBS, 1 % pen‑strep, 1 % glutamine and add anti‑CD3/CD28 beads at a 1:3 bead‑to‑cell ratio. Include IL‑7 and IL‑15 (5 mg mL⁻¹ each).
+ 

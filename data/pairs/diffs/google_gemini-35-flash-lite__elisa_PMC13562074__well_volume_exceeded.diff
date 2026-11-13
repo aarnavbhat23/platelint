@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/elisa_PMC13562074 (clean)
++++ google_gemini-35-flash-lite/elisa_PMC13562074 (defect)
+@@ -5,3 +5,3 @@
+ - Detach cells using 0.25% Trypsin-EDTA, neutralize with medium, count using trypan blue to ensure >80% viability, and pellet at 300 × g for 5 min at 4°C. Wash once with cold PBS and pellet again.
+-- Resuspend 4T1 cells in cold PBS at 1 × 10^5 cells/mL (5,000 cells in 50 μL per injection). Resuspend 67NR cells in a 1:1 mixture of cold PBS and Matrigel at 2 × 10^6 cells/mL (100,000 cells in 50 μL per injection). Prepare double the required volume to account for dead volume, keeping suspensions on ice.
++- Resuspend 4T1 cells in cold PBS at 1 × 10^5 cells/mL (5,000 cells in 50 μL per injection). Resuspend 67NR cells in a 1:1 mixture of cold PBS and Matrigel at 2 × 10^6 cells/mL (100,000 cells in 7200 µL per injection). Prepare double the required volume to account for dead volume, keeping suspensions on ice.
+ - Using healthy female BALB/c mice (6–8 weeks old), shave the lower abdomen around the 4th mammary glands. Administer subcutaneous metamizole 1 h prior to surgery, anesthetize with isoflurane, and apply ophthalmic ointment.

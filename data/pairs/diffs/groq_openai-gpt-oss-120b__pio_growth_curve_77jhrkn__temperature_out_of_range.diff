@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/pio_growth_curve_77jhrkn (clean)
++++ groq_openai-gpt-oss-120b/pio_growth_curve_77jhrkn (defect)
+@@ -3,3 +3,3 @@
+ 2. Set up the Synergy Mx plate reader with the following kinetic protocol:  
+-   - Temperature 37 °C (pre‑heat)  
++   - Temperature 75 °C (pre‑heat)  
+    - Total runtime 15 h, read interval every 4 min  

@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_viability_bp2l6zmezgqe-v1 (clean)
++++ google_gemini-35-flash-lite/pio_viability_bp2l6zmezgqe-v1 (defect)
+@@ -8,3 +8,3 @@
+ 6. Monitor spheroid morphology via bright-field imaging at 72 h, 120 h, and 168 h. 
+-7. Perform medium exchanges by removing 100 µl of medium from the wells and adding 100 µl of fresh, condition-specific DMEM at 72 h (for 120 h and 168 h samples) and at 120 h (for 168 h samples).
++7. Perform medium exchanges by removing 100 µl of medium from the wells and adding 1080 µL of fresh, condition-specific DMEM at 72 h (for 120 h and 168 h samples) and at 120 h (for 168 h samples).
+ 8. Perform Live/Dead staining using the Cyto3D Live-Dead Assay Kit (AO/PI) at 72 h and 168 h. For these time points, remove 100 µl of medium from the designated wells, add 2 µl of the room-temperature equilibrated assay kit per 100 µl per well, and incubate for 10 minutes at 37 °C.

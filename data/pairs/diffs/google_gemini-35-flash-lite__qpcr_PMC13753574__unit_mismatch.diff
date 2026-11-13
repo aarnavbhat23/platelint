@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/qpcr_PMC13753574 (clean)
++++ google_gemini-35-flash-lite/qpcr_PMC13753574 (defect)
+@@ -12,3 +12,3 @@
+ 
+-7. Perform genomic DNA removal and first-strand cDNA synthesis on ice. Combine 1 μg total RNA, 2 μL 5X gDNA Eraser Buffer, 2 μL gDNA Eraser, and adjust with ddH2O to 10 μL; incubate at 42°C for 2 min. Add 10 μL of RT master mix (containing 4 μL 5× PrimeScript Buffer 2, 1 μL PrimeScript RT Enzyme Mix I, 1 μL RT Primer Mix, and 4 μL ddH2O), incubate at 37°C for 15 min, and terminate at 85°C for 5 s. Store cDNA at −80°C.
++7. Perform genomic DNA removal and first-strand cDNA synthesis on ice. Combine 1 μg total RNA, 2 μL 5X gDNA Eraser Buffer, 2 μL gDNA Eraser, and adjust with ddH2O to 10 μL; incubate at 42°C for 2 min. Add 10 μL of RT master mix (containing 4 mL 5× PrimeScript Buffer 2, 1 μL PrimeScript RT Enzyme Mix I, 1 μL RT Primer Mix, and 4 μL ddH2O), incubate at 37°C for 15 min, and terminate at 85°C for 5 s. Store cDNA at −80°C.
+ 

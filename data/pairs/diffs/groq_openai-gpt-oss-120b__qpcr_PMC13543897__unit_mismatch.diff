@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/qpcr_PMC13543897 (clean)
++++ groq_openai-gpt-oss-120b/qpcr_PMC13543897 (defect)
+@@ -2,3 +2,3 @@
+ 
+-2. **cDNA synthesis (gene‑specific oligo‑dT)** – In a 200 µL PCR tube combine 1 µg RNA with nuclease‑free water to 8 µL total, heat 5 min at 65 °C, place on ice 5 min, spin down. Add 2 µL gDNA wiper (HiScript IV kit), mix, incubate 2 min at 42 °C. Prepare fresh RT master mix (per reaction: 5 µL HiScript IV RT SuperMix 4×, 1 µL GSoligo(dT) 50 µM, 4 µL nuclease‑free water) on ice; add 10 µL master mix to each sample, mix gently, incubate 5 min at 50 °C, then 10 s at 85 °C to inactivate RT. Use the cDNA immediately or store at –20 °C (up to 1 week) or –80 °C for longer.
++2. **cDNA synthesis (gene‑specific oligo‑dT)** – In a 200 µL PCR tube combine 1 µg RNA with nuclease‑free water to 8 µL total, heat 5 min at 65 °C, place on ice 5 min, spin down. Add 2 mL gDNA wiper (HiScript IV kit), mix, incubate 2 min at 42 °C. Prepare fresh RT master mix (per reaction: 5 µL HiScript IV RT SuperMix 4×, 1 µL GSoligo(dT) 50 µM, 4 µL nuclease‑free water) on ice; add 10 µL master mix to each sample, mix gently, incubate 5 min at 50 °C, then 10 s at 85 °C to inactivate RT. Use the cDNA immediately or store at –20 °C (up to 1 week) or –80 °C for longer.
+ 

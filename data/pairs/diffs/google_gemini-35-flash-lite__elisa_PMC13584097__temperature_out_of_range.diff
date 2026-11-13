@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/elisa_PMC13584097 (clean)
++++ google_gemini-35-flash-lite/elisa_PMC13584097 (defect)
+@@ -23,3 +23,3 @@
+    - Homogenize using a Bead Mill 24 at 4 m/s for 40 s, with a 60 s pause, for 2 cycles (with a 5 min room temperature incubation between cycles).
+-   - Centrifuge homogenates at 1,000 × g at 4°C for 1 min and collect the supernatant on ice.
++   - Centrifuge homogenates at 1,000 × g at -80 °C for 1 min and collect the supernatant on ice.
+    - Add 50 μL of sample in duplicate to a 96-well plate alongside ATP standards and TE buffer blanks. Add 50 μL of reconstituted Luciferase Reagent to each well and immediately measure luminescence.

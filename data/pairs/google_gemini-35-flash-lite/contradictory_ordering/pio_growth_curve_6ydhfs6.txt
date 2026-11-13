@@ -1,0 +1,27 @@
+Please perform vibriocidal assays on our provided serum samples using V. cholerae (O1 Ogawa or Inaba) according to the following protocol:
+
+1. Streak V. cholerae onto a blood agar plate and incubate overnight at 37 °C. Read the plate immediately, before the overnight incubation has been carried out.
+2. Inoculate 10 mL of sterile BHI broth (equilibrated to room temperature for at least 1 hour) with 1-2 colonies from the blood agar plate. 
+3. Incubate the culture in an orbital shaker-incubator at 37 °C and 220 rpm for 3 to 4 hours.
+4. While the bacteria are growing, heat-inactivate the native complement system in our serum samples by aliquoting 20 µL of each sample into Eppendorf tubes and placing them in a 56 °C water bath for 30 minutes.
+5. Prepare a 1:10 initial dilution of the heat-inactivated sera (15 µL serum + 135 µL of 0.9% NaCl saline) to achieve a starting titer of 10, and keep on ice.
+6. Thaw an aliquot of guinea pig complement serum (300 µL per plate) at 4 °C.
+7. Transfer the grown bacterial culture to a 15 mL centrifuge tube and centrifuge at 3000 rpm for 10 minutes at room temperature (22 °C–25 °C). Discard the supernatant into a 1:10 bleach solution or biohazard waste.
+8. Wash the cell pellet twice by resuspending in 10 mL of saline, centrifuging at 3000 rpm for 10 minutes at room temperature, and discarding the supernatant.
+9. After the second wash, resuspend the cell pellet in 1 mL of 0.9% NaCl. Transfer 200 µL into a 96-well plate and measure the OD at 600 nm (OD600). Prepare 1 mL of a working bacterial dilution in saline adjusted to an OD600 of approximately 0.3.
+10. Prepare the 96-well assay plates as follows:
+    - Add 25 µL of saline to all wells in columns 1 through 12, EXCEPT for column 2.
+    - Add 50 µL of the 1:10 diluted serum samples to column 2 in duplicate (e.g., Sample 1 in 2A/2B, Sample 2 in 2C/2D, etc.).
+    - Add 50 µL of V. cholerae monoclonal antibody in PBS (1 µg/mL) to wells 2G and 2H as assay controls.
+11. Using a multichannel pipettor, perform 2-fold serial dilutions starting from column 2 down to column 12 by transferring 25 µL through the columns and discarding 25 µL from column 12. Ensure uniform volumes across wells.
+12. Prepare the Growth Indicator solution (per 96-well plate): combine 2.85 mL saline, 150 µL of the diluted bacteria working solution, and 300 µL guinea pig complement serum in a 25 mL reservoir.
+13. Add 25 µL of the Growth Indicator solution to wells 1A–1D (Growth Controls) and to all sample dilution wells (columns 2–12). Add 25 µL of saline to wells 1E–1H (Negative Controls). Take care not to cross-contaminate and change tips between columns.
+14. Incubate the plate on an orbital shaker-incubator at 37 °C and 50 rpm for 1 hour.
+15. Remove the plate from the shaker and add 150 µL of BHI to all wells (including controls), avoiding cross-contamination.
+16. Incubate the plate at 37 °C without shaking for 2 hours, then read the OD at 595 nm (OD595). 
+17. Check the Growth Control wells; their OD595 must fall between 0.20 and 0.28. If below 0.20, continue incubating and measuring every 30 minutes (up to 4 hours total). 
+18. Validate the monoclonal antibody controls: the 50% kill titer must fall within 0.0625–0.03125 (Col 5 or 6) for Ogawa, and 0.125–0.0625 (Col 4 or 5) for Inaba. Reject the plate if controls are out of range.
+19. Calculate the 50% kill OD by taking the average OD of the four Growth Controls and dividing by 2. (If ≥2 growth control wells are out of the 0.2–0.28 range, reject the plate; if only one is out, exclude it and average the remaining three).
+20. Blank the plate by subtracting the average OD of the 4 negative control wells from all wells (set any negative values to zero).
+21. Determine sample titers by taking the reciprocal of the highest dilution factor where the OD595 reading is less than the 50% kill OD. Assign a titer value of 5 for samples that do not reach this threshold (below limit of detection).
+22. Check technical replicates: they must agree within one 2-fold dilution. If they differ by more than one dilution, reject the sample; if they differ by one dilution, assign the lower of the two titers.

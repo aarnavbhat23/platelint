@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_viability_6qpvr4x5pgmk-v1 (clean)
++++ google_gemini-35-flash-lite/pio_viability_6qpvr4x5pgmk-v1 (defect)
+@@ -13,3 +13,3 @@
+ 11. Remove the MTT solution from the well plate.
+-12. Add 100 μl per well of 100% DMSO to dissolve the precipitate.
++12. Add 1080 µL per well of 100% DMSO to dissolve the precipitate.
+ 13. Shake the plate for 0.5 minutes, then measure the absorbance at 560 nm and 750 nm.

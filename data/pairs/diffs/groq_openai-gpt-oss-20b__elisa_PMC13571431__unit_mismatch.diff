@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/elisa_PMC13571431 (clean)
++++ groq_openai-gpt-oss-20b/elisa_PMC13571431 (defect)
+@@ -31,3 +31,3 @@
+    - Remove medium, add fresh DMEM containing either:  
+-     * MLi‑2 (100 nM) or  
++     * MLi‑2 (100 nm) or  
+      * LLOME (1 mM) for 2 h, or  

@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/elisa_PMC13418581 (clean)
++++ google_gemini-35-flash/elisa_PMC13418581 (defect)
+@@ -3,3 +3,3 @@
+ 2. Using the purified MEAET protein, set up an indirect ELISA using the following steps:
+-- Coat 96-well microtiter plates with 100 µL/well of MEAET antigen diluted in carbonate-bicarbonate buffer (pH 9.6). Incubate at 37 °C for 1 h, then at 4 °C overnight.
++- Coat 96-well microtiter plates with 100 µL/well of MEAET antigen diluted in carbonate-bicarbonate buffer (pH 9.6). Incubate at 37 °C for 1 h, then at -80 °C overnight.
+ - Wash 3 times with PBST (PBS containing 0.05% Tween-20).

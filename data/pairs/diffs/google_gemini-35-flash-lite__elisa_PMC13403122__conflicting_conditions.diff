@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/elisa_PMC13403122 (clean)
++++ google_gemini-35-flash-lite/elisa_PMC13403122 (defect)
+@@ -5,3 +5,3 @@
+ 3. Transduce 1 × 10^5 single-cell organoids per well in a 6-well plate using an MOI of 10 in the presence of 8 µg/mL polybrene overnight at 37 °C.
+-4. On Day 6, harvest the infected organoids, wash them in basal organoid media, embed them in 120 µL of reduced growth factor Matrigel (six 20 µL domes per well in a 6-well plate), solidify at 37 °C for 25 minutes, and culture in organoid culture medium for 3 days.
++4. On Day 6, harvest the infected organoids, wash them in basal organoid media, embed them in 120 µL of reduced growth factor Matrigel (six 20 µL domes per well in a 6-well plate), solidify at 37 °C for 25 minutes, and culture in organoid culture medium for 3 days, and hold the plate at 4 °C for the whole of this step.
+ 5. On Day 9, dissociate the organoids into single cells with TrypLE Express, re-embed them in Matrigel, and begin selection using organoid culture medium supplemented with 5 µg/mL blasticidin. Perform a media change with fresh blasticidin-containing medium on Day 11, passage the organoids on Day 13, and allow them to expand.

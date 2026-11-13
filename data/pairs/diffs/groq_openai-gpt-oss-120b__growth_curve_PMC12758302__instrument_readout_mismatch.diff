@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/growth_curve_PMC12758302 (clean)
++++ groq_openai-gpt-oss-120b/growth_curve_PMC12758302 (defect)
+@@ -13,3 +13,3 @@
+ 
+-5. Treat cells with mifepristone (MF, Sigma M8046) or RU‑486 and with ulipristal acetate (UPA) as described in the supplementary methods. Use 0.01 % DMSO as the vehicle control. For the dose‑response MTT assay, seed U87, U251, and C6 cells at 1 500 cells per well in 96‑well plates, let them attach for 24 h, then add MF/UPA at concentrations ranging from 1 µM to 125 µM (final DMSO = 0.01 %). Incubate for 72 h (the optimal time point from our growth curve), add MTT (5 mg ml⁻¹), incubate 3 h, dissolve formazan crystals in 200 µL DMSO, and read absorbance at 570 nm (reference 630 nm). Plot viability versus concentration and calculate IC₅₀ and IC₂₀ values.
++5. Treat cells with mifepristone (MF, Sigma M8046) or RU‑486 and with ulipristal acetate (UPA) as described in the supplementary methods. Use 0.01 % DMSO as the vehicle control. For the dose‑response MTT assay, seed U87, U251, and C6 cells at 1 500 cells per well in 96‑well plates, let them attach for 24 h, then add MF/UPA at concentrations ranging from 1 µM to 125 µM (final DMSO = 0.01 %). Incubate for 72 h (the optimal time point from our growth curve), add MTT (5 mg ml⁻¹), incubate 3 h, dissolve formazan crystals in 200 µL DMSO, and read luminescence (reference 630 nm). Plot viability versus concentration and calculate IC₅₀ and IC₂₀ values.
+ 

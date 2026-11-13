@@ -1,0 +1,81 @@
+--- groq_openai-gpt-oss-120b/growth_curve_PMC13214907 (clean)
++++ groq_openai-gpt-oss-120b/growth_curve_PMC13214907 (defect)
+@@ -1,43 +1,43 @@
+-1. **Generate primary swine macrophage cultures**  
+-   - Use heparin‑treated blood from six 5‑6 month old Yorkshire gilts (≈250‑300 lb).  
+-   - Let blood sit at 37 °C for 1–2 h for RBC sedimentation, then isolate mononuclear cells by Ficoll‑Paque (SG = 1.079).  
+-   - Plate the monocyte fraction in Primaria flasks with RPMI‑1640 plus 30 % L929 supernatant, 20 % heat‑inactivated‑γ‑irradiated FBS, 1 X antibiotics/antimycotics, 1 X gentamicin, and 30 % autologous plasma. Incubate 24 h at 37 °C, 5 % CO₂.  
+-   - Detach adherent cells the next day with 10 mM EDTA in DPBS (20 min, 37 °C). Wash twice in RPMI‑1640 + antibiotics/gentamicin, resuspend in FBS, and either (a) seed into Primaria 96‑well plates for use after 24 h, or (b) cryopreserve (see step 2).
++1. **Generate primary swine macrophage cultures** 
++ - Use heparin‑treated blood from six 5‑6 month old Yorkshire gilts (≈250‑300 lb). 
++ - Let blood sit at 37 °C for 1–2 h for RBC sedimentation, then isolate mononuclear cells by Ficoll‑Paque (SG = 1.079). 
++ - Plate the monocyte fraction in Primaria flasks with RPMI‑1640 plus 30 % L929 supernatant, 20 % heat‑inactivated‑γ‑irradiated FBS, 1 X antibiotics/antimycotics, 1 X gentamicin, and 30 % autologous plasma. Incubate 24 h at 37 °C, 5 % CO₂. 
++ - Detach adherent cells the next day with 10 mM EDTA in DPBS (20 min, 37 °C). Wash twice in RPMI‑1640 + antibiotics/gentamicin, resuspend in FBS, and either (a) seed into Primaria 96‑well plates for use after 24 h, or (b) cryopreserve (see step 2).
+ 
+-2. **Cryopreserve macrophages**  
+-   - After detachment, wash cells twice (240 × g, 10 min, RT) in RPMI‑1640 + antibiotics/gentamicin.  
+-   - Resuspend pellet in chilled 7 % DMSO / 93 % heat‑inactivated‑γ‑irradiated FBS at 1 × 10⁷ cells/mL. Aliquot into cryovials, place in Mr. Frosty™ container, freeze at –70 °C for 48 h, then transfer to liquid N₂ for long‑term storage.  
+-   - For each assay, thaw a vial quickly in a 37 °C water bath, wash twice in complete macrophage medium (RPMI‑1640 + 30 % L929 supernatant + 20 % FBS + antibiotics/gentamicin), count viability with Trypan blue, and seed 5 × 10⁶ cells per 96‑well plate (or 1 × 10⁶ cells per 6‑well plate for growth curves). Allow 24 h before infection.
++2. **Cryopreserve macrophages** 
++ - After detachment, wash cells twice (240 × g, 10 min, RT) in RPMI‑1640 + antibiotics/gentamicin. 
++ - Resuspend pellet in chilled 7 % DMSO / 93 % heat‑inactivated‑γ‑irradiated FBS at 1 × 10⁷ cells/mL. Aliquot into cryovials, place in Mr. Frosty™ container, freeze at –70 °C for 48 h, then transfer to liquid N₂ for long‑term storage. 
++ - For each assay, thaw a vial quickly in a 37 °C water bath, wash twice in complete macrophage medium (RPMI‑1640 + 30 % L929 supernatant + 20 % FBS + antibiotics/gentamicin), count viability with Trypan blue, and seed 5 × 10⁶ cells per 96‑well plate (or 1 × 10⁶ cells per 6‑well plate for growth curves). Allow 24 h before infection.
+ 
+-3. **Prepare red blood cells for hemadsorption (HA) readout**  
+-   - From the same heparin‑treated blood used for macrophages, collect the RBC layer after the 1–2 h sedimentation step.  
+-   - Wash RBCs twice (240 × g, 10 min, RT) in DPBS, resuspend at 20 % v/v in DPBS, store at 4 °C (use within 7–14 days).  
+-   - In parallel, obtain heterologous swine RBCs (different donors) and commercially sourced porcine RBCs (Innovative Research, Inc.) prepared identically for comparison.
++3. **Prepare red blood cells for hemadsorption (HA) readout** 
++ - From the same heparin‑treated blood used for macrophages, collect the RBC layer after the 1–2 h sedimentation step. 
++ - Wash RBCs twice (240 × g, 10 min, RT) in DPBS, resuspend at 20 % v/v in DPBS, store at 4 °C (use within 7–14 days). 
++ - In parallel, obtain heterologous swine RBCs (different donors) and commercially sourced porcine RBCs (Innovative Research, Inc.) prepared identically for comparison.
+ 
+-4. **Virus stocks**  
+-   - Use the following ASFV isolates (all propagated only in primary swine macrophages, ≤ 2 passages): Georgia 2007/1, Lisbon‑60, Killean‑III, Kimakia‑64, DR‑2, DR‑21, Haiti‑21, Malawi Lil‑20/1, Pretoria‑4/1.  
+-   - Prepare working stocks by a single passage in fresh macrophages, aliquot, and store at –70 °C.
++4. **Virus stocks** 
++ - Use the following ASFV isolates (all propagated only in primary swine macrophages, ≤ 2 passages): Georgia 2007/1, Lisbon‑60, Killean‑III, Kimakia‑64, DR‑2, DR‑21, Haiti‑21, Malawi Lil‑20/1, Pretoria‑4/1. 
++ - Prepare working stocks by a single passage in fresh macrophages, aliquot, and store at –70 °C.
+ 
+-5. **Virus titration (HA assay)**  
+-   - Thaw and seed fresh macrophages and 1‑month‑old cryopreserved macrophages in Primaria 96‑well plates (5 × 10⁶ cells/plate).  
+-   - Serially dilute each ASFV isolate 10‑fold in complete macrophage medium. Include the 24 EDTA‑treated blood samples (12 Georgia‑infected, 12 Lisbon‑60‑infected) and the 10 naïve pig blood samples as negative controls.  
+-   - Add 50 µL of each dilution to the corresponding well (in duplicate).  
+-   - Incubate 24 h at 37 °C, 5 % CO₂, then add 10 µL of the prepared RBC suspension to each well.  
+-   - Read HA rosettes between 7 and 10 days post‑infection. Calculate HAD₅₀/mL by Reed‑Muench; the detection limit is the lowest dilution showing HA.
++5. **Virus titration (HA assay)** 
++ - Thaw and seed fresh macrophages and 1‑month‑old cryopreserved macrophages in Primaria 96‑well plates (5 × 10⁶ cells/plate). 
++ - Serially dilute each ASFV isolate 10‑fold in complete macrophage medium. 
++ - Add 50 µL of each dilution to the corresponding well (in duplicate). 
++ - Incubate 24 h at 37 °C, 5 % CO₂, then add 10 µL of the prepared RBC suspension to each well. 
++ - Read HA rosettes between 7 and 10 days post‑infection. Calculate HAD₅₀/mL by Reed‑Muench; the detection limit is the lowest dilution showing HA.
+ 
+-6. **Growth‑curve experiment**  
+-   - Seed fresh macrophages and 1‑month‑old cryopreserved macrophages in Primaria 6‑well plates (1 × 10⁶ cells/well). Incubate 24 h.  
+-   - Infect each well in triplicate with Georgia 2007/1 or Lisbon‑60 at MOI = 0.01. After 1 h adsorption at 37 °C, remove inoculum, wash twice with complete medium, then add 2 mL fresh medium.  
+-   - Collect supernatants at 0 h, 1, 2, 5, 7, and 9 days post‑infection, store at –70 °C.  
+-   - Titrate each time point on fresh macrophages (HA assay) and report HAD₅₀/mL.
++6. **Growth‑curve experiment** 
++ - Seed fresh macrophages and 1‑month‑old cryopreserved macrophages in Primaria 6‑well plates (1 × 10⁶ cells/well). Incubate 24 h. 
++ - Infect each well in triplicate with Georgia 2007/1 or Lisbon‑60 at MOI = 0.01. After 1 h adsorption at 37 °C, remove inoculum, wash twice with complete medium, then add 2 mL fresh medium. 
++ - Collect supernatants at 0 h, 1, 2, 5, 7, and 9 days post‑infection, store at –70 °C. 
++ - Titrate each time point on fresh macrophages (HA assay) and report HAD₅₀/mL.
+ 
+-7. **Repeatability / reproducibility study**  
+-   - Use three macrophage sources: (a) fresh cells, (b) cryopreserved cells stored 2 months, (c) cryopreserved cells stored 6 months. Seed each in 96‑well plates (5 × 10⁶ cells/plate).  
+-   - Prepare ten‑fold serial dilutions of Georgia 2007/1 in triplicate and infect each plate as in the titration assay.  
+-   - Perform the entire experiment on three consecutive days. Record HA results, calculate HAD₅₀/mL for each day and each cell source, and assess intra‑day and inter‑day variation.
++7. **Repeatability / reproducibility study** 
++ - Use three macrophage sources: (a) fresh cells, (b) cryopreserved cells stored 2 months, (c) cryopreserved cells stored 6 months. Seed each in 96‑well plates (5 × 10⁶ cells/plate). 
++ - Prepare ten‑fold serial dilutions of Georgia 2007/1 in triplicate and infect each plate as in the titration assay. 
++ - Perform the entire experiment on three consecutive days. Record HA results, calculate HAD₅₀/mL for each day and each cell source, and assess intra‑day and inter‑day variation.
+ 
+-8. **Reporting**  
+-   - Provide raw HA readouts (positive/negative wells per dilution), calculated titers, and standard deviations across replicates and days.  
+-   - Summarize viability of fresh vs. cryopreserved macrophages (Trypan blue counts).  
+-   - Include any observations on RBC source performance (homologous vs. heterologous vs. commercial).  
++8. **Reporting** 
++ - Provide raw HA readouts (positive/negative wells per dilution), calculated titers, and standard deviations across replicates and days. 
++ - Summarize viability of fresh vs. cryopreserved macrophages (Trypan blue counts). 
++ - Include any observations on RBC source performance (homologous vs. heterologous vs. commercial). 
+ 

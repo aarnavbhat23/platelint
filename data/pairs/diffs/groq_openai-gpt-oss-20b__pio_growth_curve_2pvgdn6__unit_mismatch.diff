@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/pio_growth_curve_2pvgdn6 (clean)
++++ groq_openai-gpt-oss-20b/pio_growth_curve_2pvgdn6 (defect)
+@@ -24,3 +24,3 @@
+    For each of the 18 starting samples:  
+-   a. **Dilution 1‑3**: use 3 × 2.0 mL tubes. Add 1900 µL LB + Cam to each tube.  
++   a. **Dilution 1‑3**: use 3 × 2.0 µL tubes. Add 1900 µL LB + Cam to each tube.  
+    b. **Dilution 4‑5**: use 2 × 1.5 mL tubes. Add 900 µL LB + Cam to each tube.  

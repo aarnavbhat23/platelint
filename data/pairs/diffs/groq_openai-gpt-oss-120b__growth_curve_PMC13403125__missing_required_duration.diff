@@ -1,0 +1,57 @@
+--- groq_openai-gpt-oss-120b/growth_curve_PMC13403125 (clean)
++++ groq_openai-gpt-oss-120b/growth_curve_PMC13403125 (defect)
+@@ -3,31 +3,31 @@
+ 1. **HA‑DA synthesis**
+-   - Dissolve 1 g of 12 kDa hyaluronic acid in 100 mL PBS (room‑temperature, stir until fully dissolved).  
+-   - Add EDC to 5 mM final concentration and NHS to 10 mM; adjust pH to 5.0 with 10 mM HCl or NaOH. Stir 6 h at RT.  
+-   - Add dopamine to 10 mM final concentration, keep under N₂ (vacuum‑valve flask) and stir 24 h at RT.  
+-   - Transfer reaction mixture to a 14 kDa MWCO dialysis bag; dialyze against deionized water at 4 °C for 72 h, changing water every 8 h.  
+-   - Freeze‑dry the dialyzed solution to obtain HA‑DA as a spongy solid.  
+-   - Verify structure by ^1H‑NMR (dissolve sample in D₂O) and confirm dopamine grafting by peak integration.
++ - Dissolve 1 g of 12 kDa hyaluronic acid in 100 mL PBS (room‑temperature, stir until fully dissolved). 
++ - Add EDC to 5 mM final concentration and NHS to 10 mM; adjust pH to 5.0 with 10 mM HCl or NaOH. Stir 6 h at RT. 
++ - Add dopamine to 10 mM final concentration, keep under N₂ (vacuum‑valve flask) and stir 24 h at RT. 
++ - Transfer reaction mixture to a 14 kDa MWCO dialysis bag; dialyze against deionized water at 4 °C for 72 h, changing water every 8 h. 
++ - Freeze‑dry the dialyzed solution to obtain HA‑DA as a spongy solid. 
++ - Verify structure by ^1H‑NMR (dissolve sample in D₂O) and confirm dopamine grafting by peak integration.
+ 
+ 2. **Cloning, expression, and purification of HRP‑pHLIP**
+-   - Obtain the synthetic gene block (HRP plus pHLIP domain, sequence provided) and subclone into pET‑28a(+) using standard restriction enzyme cloning. Verify by sequencing.  
+-   - Transform the verified plasmid into E. coli BL21(DE3) (heat‑shock 42 °C, 45 s). Plate on LB agar + 60 µg/mL kanamycin; incubate overnight 37 °C.  
+-   - Pick one colony into 5 mL LB + kanamycin, grow 16 h at 37 °C, 200 rpm. Next day inoculate 30 mL fresh LB + kanamycin at 1 % (v/v) and grow to OD₆₀₀≈0.8.  
+-   - Induce with 0.5 mM IPTG; incubate 8 h at 16 °C, 220 rpm.  
+-   - Harvest cells (8 000 × g, 10 min, 4 °C); resuspend pellet in chilled lysis buffer (50 mM Na₂HPO₄·2H₂O, 300 mM NaCl, 10 mM imidazole, pH 8.0).  
+-   - Lyse on ice with ultrasonication (30 % amplitude, 5 s on/5 s off, total 15 min). Centrifuge lysate 12 000 × g, 30 min, 4 °C; keep supernatant.  
+-   - Load supernatant onto a Ni‑NTA column pre‑equilibrated with lysis buffer (5 column volumes). Wash with 5 × CV wash buffer (20 mM imidazole). Elute protein with 5 × CV elution buffer (250 mM imidazole).  
+-   - After elution, rinse column sequentially with lysis buffer (3 × CV), deionized water (5 × CV), and 20 % ethanol (2 × CV). Store collected protein at 2–8 °C.
++ - Obtain the synthetic gene block (HRP plus pHLIP domain, sequence provided) and subclone into pET‑28a(+) using standard restriction enzyme cloning. Verify by sequencing. 
++ - Transform the verified plasmid into E. coli BL21(DE3) (heat‑shock 42 °C, 45 s). Plate on LB agar + 60 µg/mL kanamycin; incubate overnight 37 °C. 
++ - Pick one colony into 5 mL LB + kanamycin, grow 16 h at 37 °C, 200 rpm. Next day inoculate 30 mL fresh LB + kanamycin at 1 % (v/v) and grow to OD₆₀₀≈0.8. 
++ - Induce with 0.5 mM IPTG; incubate 8 h at 16 °C, 220 rpm. 
++ - Harvest cells (8 000 × g, 10 min, 4 °C); resuspend pellet in chilled lysis buffer (50 mM Na₂HPO₄·2H₂O, 300 mM NaCl, 10 mM imidazole, pH 8.0). 
++ - Lyse on ice with ultrasonication (30 % amplitude, 5 s on/5 s off, total 15 min). Centrifuge lysate 12 000 × g, 30 min, 4 °C; keep supernatant. 
++ - Load supernatant onto a Ni‑NTA column pre‑equilibrated with lysis buffer (5 column volumes). Wash with 5 × CV wash buffer (20 mM imidazole). Elute protein with 5 × CV elution buffer (250 mM imidazole). 
++ - After elution, rinse column sequentially with lysis buffer (3 × CV), deionized water (5 × CV), and 20 % ethanol (2 × CV). Store collected protein at 2–8 °C.
+ 
+ 3. **HEK‑293T culture and transfection**
+-   - Grow HEK‑293T cells in high‑glucose DMEM + 10 % heat‑inactivated FBS + 1 % penicillin/streptomycin at 37 °C, 5 % CO₂.  
+-   - Seed cells in 6‑well plates at 5 × 10⁵ cells/well; let them attach overnight (70‑80 % confluence).  
+-   - Replace medium with 1 mL fresh DMEM (serum present, no antibiotics) per well.  
+-   - For each well, prepare two sterile 1.5 mL tubes: (a) 125 µL DMEM + 2.5 µg each of plasmids pYZ484 and pYH3; (b) 125 µL DMEM + 4 µL Lipo293™ reagent. Mix gently, combine the two tubes, incubate 15 min at RT, then add the mixture dropwise to the well.  
+-   - After ~24 h, expose cells to alternating 5‑s pulses of 660 nm (ON) and 730 nm (OFF) light at 1 mW cm⁻² using the custom LED array (repeat cycles every 24 h). Collect supernatant every 6 h for 72 h to measure SEAP secretion.
++ - Grow HEK‑293T cells in high‑glucose DMEM + 10 % heat‑inactivated FBS + 1 % penicillin/streptomycin at 37 °C, 5 % CO₂. 
++ - Seed cells in 6‑well plates at 5 × 10⁵ cells/well; let them attach overnight (70‑80 % confluence). 
++ - Replace medium with 1 mL fresh DMEM (serum present, no antibiotics) per well. 
++ - For each well, prepare two sterile 1.5 mL tubes: (a) 125 µL DMEM + 2.5 µg each of plasmids pYZ484 and pYH3; (b) 125 µL DMEM + 4 µL Lipo293™ reagent. Mix gently, combine the two tubes, incubate 15 min at RT, then add the mixture dropwise to the well. 
++ - After ~24 h, expose cells to alternating 5‑s pulses of 660 nm (ON) and 730 nm (OFF) light at 1 mW cm⁻² using the custom LED array (repeat cycles every 24 h). Collect supernatant every 6 h for 72 h to measure SEAP secretion.
+ 
+ 4. **Single‑cell encapsulation**
+-   - Harvest 1 × 10⁶ HEK‑293T cells, resuspend in 1 mL PBS (pH 6.5) containing HRP‑pHLIP at 50 µg/mL; incubate 30 min at RT.  
+-   - Centrifuge 150 × g, 5 min; discard supernatant and wash cells three times with PBS (pH 6.5).  
+-   - Prepare a hydrogel precursor: 2 % (w/v) HA‑DA dissolved in PBS, add 2 mM H₂O₂, then mix the washed cells into this solution and stir gently for 30 min to allow HRP‑catalyzed cross‑linking.  
+-   - Collect the encapsulated cells by 150 × g centrifugation, remove supernatant, and wash three times with PBS (pH 7.4) to eliminate residual reagents.  
++ - Harvest 1 × 10⁶ HEK‑293T cells, resuspend in 1 mL PBS (pH 6.5) containing HRP‑pHLIP at 50 µg/mL; incubate 30 min at RT. 
++ - Centrifuge 150 × g, 5 min; discard supernatant and wash cells three times with PBS (pH 6.5). 
++ - Prepare a hydrogel precursor: 2 % (w/v) HA‑DA dissolved in PBS, add 2 mM H₂O₂, then mix the washed cells into this solution and stir gently to allow HRP‑catalyzed cross‑linking. 
++ - Collect the encapsulated cells by 150 × g centrifugation, remove supernatant, and wash three times with PBS (pH 7.4) to eliminate residual reagents. 
+ 

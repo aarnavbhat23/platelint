@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/qpcr_PMC13682476 (clean)
++++ groq_openai-gpt-oss-20b/qpcr_PMC13682476 (defect)
+@@ -19,3 +19,3 @@
+ 7. Perform viability/proliferation assays:  
+-  - Calcein‑AM/PI at days 1, 4, 7, 14. Stain 1 µL Calcein‑AM + 1 µL PI + 1000 µL PBS, 30 min 37 °C dark, wash 3× PBS, image on Olympus FV3000. Quantify live/dead ratio with ImageJ.  
++  - Calcein‑AM/PI at days 1, 4, 7, 14. Stain 1 µL Calcein‑AM + 1 µL PI + 1000 µL PBS, 30 min 75 °C dark, wash 3× PBS, image on Olympus FV3000. Quantify live/dead ratio with ImageJ.  
+   - CCK‑8 at same timepoints: wash with PBS, add 10 % CCK‑8 in medium, incubate 1 h 37 °C light‑protected, transfer 100 µL supernatant to 96‑well plate, read A₄₅₀ with microplate reader.

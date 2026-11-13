@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/qpcr_PMC13583563 (clean)
++++ groq_openai-gpt-oss-20b/qpcr_PMC13583563 (defect)
+@@ -13,3 +13,3 @@
+ 9. Add plasmid mixture (equimolar amounts of donor plasmid and sgRNA plasmid; use 2–3 µg of each). Transfer to a 0.2 mm cuvette and electroporate with Amaxa program D‑23 (or test Neon or other device). Immediately add 100 µl warm RPMI + 10 % FBS from the 12‑well prep, then transfer to a 12‑well plate (1 ml per well).  
+-10. Incubate cells at 37 °C, 5 % CO₂. After 3 days, collect cells, wash with FACS buffer (PBS + 2 % FBS), stain with viability dye (Hoechst 33258, 1:5000).  
++10. Incubate cells at 37 °C, 5 % CO₂, and hold the plate at 4 °C for the whole of this step. After 3 days, collect cells, wash with FACS buffer (PBS + 2 % FBS), stain with viability dye (Hoechst 33258, 1:5000).  
+ 11. Sort live cells that are GFP⁺/DsRed⁻ into 96‑well plates containing 200 µl RPMI + 10 % FBS. Avoid outer wells; wrap plates in foil to prevent evaporation.  

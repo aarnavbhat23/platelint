@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_qpcr_yxmvm341bl3p-v1 (clean)
++++ google_gemini-35-flash-lite/pio_qpcr_yxmvm341bl3p-v1 (defect)
+@@ -2,3 +2,3 @@
+ 
+-Keep all samples, master mixes, and plates on ice during setup. Thaw our cDNA samples, vortex, and quick spin before plating. Prepare the PCR Master Mix per reaction using 10.20 µl autoclaved MilliQ H2O, 20 µl SYBR Green, and 4.80 µl primers (at a final concentration of 1.25 µM each, prepared by adding 12.5 µl of each primer stock to 1 mL MilliQ H2O). 
++Keep all samples, master mixes, and plates on ice during setup. Thaw our cDNA samples, vortex, and quick spin before plating. Prepare the PCR Master Mix per reaction using 10.20 µl autoclaved MilliQ H2O, 20 µl SYBR Green, and 336 µL primers (at a final concentration of 1.25 µM each, prepared by adding 12.5 µl of each primer stock to 1 mL MilliQ H2O). 
+ 

@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_viability_eq2ly7qpqlx9-v1 (clean)
++++ google_gemini-35-flash-lite/pio_viability_eq2ly7qpqlx9-v1 (defect)
+@@ -20,3 +20,3 @@
+ 
+-11. Apply white opaque tape to the bottom of the 96-well plate to prevent luminescence crosstalk.
++11. Apply white opaque tape to the bottom of the 96-well plate to prevent absorbance at 570 nm crosstalk.
+ 

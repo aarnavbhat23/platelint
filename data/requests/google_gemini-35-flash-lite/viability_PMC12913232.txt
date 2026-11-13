@@ -1,0 +1,16 @@
+Please perform the following experiments on our provided compound samples:
+
+1. Determine the physicochemical and binding profiles for compounds A–G, thalidomide, and EM12, specifically running:
+   - In vitro microscale thermophoresis (MST) binding assays using human thalidomide binding domain (hTBD) and BODIPY-uracil as a reporter.
+   - Cellular CRBN NanoBRET engagement assays in HEK293T cells expressing NanoLuc-CRBN with the BODIPY-lenalidomide tracer.
+   - Biomimetic HPLC-derived parameters including log D7.4 and human serum albumin (HSA) binding via immobilized artificial membrane chromatography.
+
+2. Synthesize linker conjugates for the cereblon recruiters (compounds 6–13) using our nickel-catalyzed C(sp2)–C(sp3) decarboxylative cross-electrophile coupling procedure. Combine the respective aryl bromides and alkyl N-hydroxyphthalimide (NHP) esters in the presence of NiCl2(DME), 5-methoxypicolinimidamide hydrochloride, TBAI, TFA, and zinc dust in DMAc. 
+
+3. Profile the synthesized molecular glue degraders (MGDs, such as compound 16 vs. eragidomide) and PROTACs (compounds 17–20 vs. 44b) by measuring:
+   - Log D7.4 and plasma protein binding (%PPB/HSA binding).
+   - Cancer cell growth inhibition in Molt4 cells after a 5-day treatment using the CellTiter-Glo (CTG) assay.
+   - Target degradation potency (DC50, Dmax, or % degradation) using the appropriate cellular reporter assays:
+     - GSPT1 degradation in Flp293T GSPT1 389–499-eGFP reporter cells (5 h treatment).
+     - BRD4 degradation in HEK293T BRD4-HiBiT knock-in cells (5 h treatment).
+     - SALL4A degradation in transiently transfected HEK293T Artichoke reporter cells (16 h treatment).

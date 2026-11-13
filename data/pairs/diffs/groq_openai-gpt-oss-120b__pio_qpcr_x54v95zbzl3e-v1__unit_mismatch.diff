@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/pio_qpcr_x54v95zbzl3e-v1 (clean)
++++ groq_openai-gpt-oss-120b/pio_qpcr_x54v95zbzl3e-v1 (defect)
+@@ -15,3 +15,3 @@
+ 
+-   For each assay, combine Master Mix, 20× assay probe, and nuclease‑free water to a final volume of 20 µL per well. Add 2 µL of cDNA (same volume for all wells) to the master mix.
++   For each assay, combine Master Mix, 20× assay probe, and nuclease‑free water to a final volume of 20 µL per well. Add 2 mL of cDNA (same volume for all wells) to the master mix.
+ 

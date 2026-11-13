@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/pio_growth_curve_2pvgdn6 (clean)
++++ groq_openai-gpt-oss-120b/pio_growth_curve_2pvgdn6 (defect)
+@@ -11,3 +11,3 @@
+    a. Prepare three 2.0 mL tubes per sample (Dilution 1, 2, 3) each containing 1900 µL LB + Cam.  
+-   b. Prepare two 1.5 mL tubes per sample (Dilution 4, 5) each containing 900 µL LB + Cam.  
++   b. Prepare two 1.5 mL tubes per sample (Dilution 4, 5) each containing 900 mL LB + Cam.  
+    c. Label all tubes clearly with sample ID and dilution number.

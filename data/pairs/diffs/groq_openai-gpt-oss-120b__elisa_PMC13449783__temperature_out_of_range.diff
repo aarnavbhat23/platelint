@@ -1,0 +1,6 @@
+--- groq_openai-gpt-oss-120b/elisa_PMC13449783 (clean)
++++ groq_openai-gpt-oss-120b/elisa_PMC13449783 (defect)
+@@ -1,2 +1,2 @@
+-1. Take the cryopreserved PBMCs we have (healthy donor and patient samples). Thaw them, let them rest overnight at 37 °C in RPMI + 10 % FBS, 1 % pen‑strep, 1 % glutamine.
++1. Take the cryopreserved PBMCs we have (healthy donor and patient samples). Thaw them, let them rest overnight at 75 °C in RPMI + 10 % FBS, 1 % pen‑strep, 1 % glutamine.
+ 

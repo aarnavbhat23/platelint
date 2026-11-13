@@ -1,0 +1,6 @@
+--- groq_openai-gpt-oss-20b/growth_curve_PMC12758302 (clean)
++++ groq_openai-gpt-oss-20b/growth_curve_PMC12758302 (defect)
+@@ -1,2 +1,2 @@
+-1. Provide the following human glioma cell lines (U87, U251) and murine glioma cell line C6, as well as human breast cancer lines T47D and HCC70.  Culture each line in DMEM (or RPMI for the breast lines) plus 10 % FBS and 1 % Pen/Strep at 37 °C, 5 % CO₂.  Human glial cells derived from hESCs should also be cultured under the same conditions, with 95 % air/5 % CO₂, and passaged according to the modified protocol from reference 67.  Confirm identity of U251 by PCR (LDG‑INMEGEN:00451).
++1. Provide the following human glioma cell lines (U87, U251) and murine glioma cell line C6, as well as human breast cancer lines T47D and HCC70.  Culture each line in DMEM (or RPMI for the breast lines) plus 10 % FBS and 1 % Pen/Strep at 75 °C, 5 % CO₂.  Human glial cells derived from hESCs should also be cultured under the same conditions, with 95 % air/5 % CO₂, and passaged according to the modified protocol from reference 67.  Confirm identity of U251 by PCR (LDG‑INMEGEN:00451).
+ 

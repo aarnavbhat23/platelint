@@ -1,0 +1,30 @@
+1. Prepare 1 L of LB broth containing the appropriate antibiotics for our strains and keep a stock of the bacteriophage in the same LB (record its titer in PFU mL⁻¹).
+
+2. Set up the Synergy Mx plate reader with the following kinetic protocol:  
+   - Temperature 37 °C (pre‑heat)  
+   - Total runtime 15 h, read interval every 4 min  
+   - Medium shaking for 30 s before each read  
+   - Measure absorbance at 600 nm, full‑plate read, normal speed, 100 ms delay.
+
+3. Grow overnight cultures of each of our E. coli strains (including any plasmid‑carrying or engineered constructs) in LB with the same antibiotics you will use in the assay.
+
+4. Measure the OD₆₀₀ of the overnight cultures and dilute each to an OD₆₀₀ of 0.02 in fresh LB‑antibiotic medium.
+
+5. Dispense 180 µL of each diluted culture into a flat‑bottom, tissue‑culture‑treated 96‑well plate (black wall, clear bottom, Fisher #3904). Include wells that contain 180 µL of LB only (no bacteria) to serve as blank controls and zero‑point references for OD₆₀₀.
+
+6. Start the plate‑reader protocol from step 2 and let the cultures grow until they reach an OD₆₀₀ of 0.11 (≈8 × 10⁸ cells mL⁻¹). Pause the run at that point.
+
+7. Prepare a series of phage dilutions in LB‑antibiotic medium so that, when 20 µL of each dilution is added to 180 µL of culture (final volume 200 µL), the desired multiplicities of infection (MOI) are achieved:  
+
+   - MOI 10⁰: 4 × 10⁹ PFU mL⁻¹  
+   - MOI 10⁻¹: 8 × 10⁸ PFU mL⁻¹  
+   - MOI 10⁻²: 8 × 10⁷ PFU mL⁻¹  
+   - MOI 10⁻³: 8 × 10⁶ PFU mL⁻¹  
+
+   (For reference, an OD₆₀₀ of 0.10 corresponds to 8 × 10⁸ cells mL⁻¹, so the above phage concentrations will give the correct MOI after the 1:10 dilution caused by adding 20 µL to 180 µL.)
+
+8. While the plate is still in the reader, add 20 µL of the appropriate phage dilution to each corresponding well (including the LB‑only wells). Also set up a set of control wells that receive 20 µL of plain LB‑antibiotic medium (no phage) to monitor bacterial growth without infection.
+
+9. Resume the kinetic run and let the plate reader record OD₆₀₀ every 4 min for the remaining 15 h.
+
+Please use the same antibiotics throughout the assay as were used for the overnight cultures, and keep the plate sealed to avoid evaporation. Let me know if any reagents or additional materials are needed.

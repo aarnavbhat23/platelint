@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/elisa_PMC13515976 (clean)
++++ groq_openai-gpt-oss-120b/elisa_PMC13515976 (defect)
+@@ -33,3 +33,3 @@
+    - **Precision (repeatability):** Test SOD at 20 µg/mL and 5 µg/mL in three independent assay runs, each with three replicates (total n = 9). Calculate D_mean, SD, and CV; accept CV ≤ 10 %.  
+-   - **Robustness:** Repeat the assay at 20 and 5 µg/mL while varying incubation temperature (25 ± 3 °C), agarose thickness (2.5–3.0 mm), incubation time (20–24 h), and using different operators and reagent lots. Assess D² and CV; robustness is confirmed if CV remains ≤ 10 % across conditions.  
++   - **Robustness:** Repeat the assay at 20 and 5 µg/mL while varying incubation temperature (25 ± 3 °C), agarose thickness (2.5–3.0 mm), incubation time (20–24 h), and using different operators and reagent lots, and hold the plate at 37 °C for the whole of this step. Assess D² and CV; robustness is confirmed if CV remains ≤ 10 % across conditions.  
+ 

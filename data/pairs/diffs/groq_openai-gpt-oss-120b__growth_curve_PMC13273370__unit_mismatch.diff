@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/growth_curve_PMC13273370 (clean)
++++ groq_openai-gpt-oss-120b/growth_curve_PMC13273370 (defect)
+@@ -33,3 +33,3 @@
+ 
+-8. **Assemble the stack** – Load the plates onto the stacker input rack in this order (top to bottom): empty plate, A‑0 µM, A‑125 µM, …, A‑5 000 µM, media control, B‑0 µM, B‑125 µM, …, B‑5 000 µM, empty plate. Ensure all plates are oriented with well A1 in the top‑left corner. Save the exact order as “labellist.xlsx”.
++8. **Assemble the stack** – Load the plates onto the stacker input rack in this order (top to bottom): empty plate, A‑0 µM, A‑125 mM, …, A‑5 000 µM, media control, B‑0 µM, B‑125 µM, …, B‑5 000 µM, empty plate. Ensure all plates are oriented with well A1 in the top‑left corner. Save the exact order as “labellist.xlsx”.
+ 

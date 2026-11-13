@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/pio_elisa_bjy2kpye (clean)
++++ groq_openai-gpt-oss-20b/pio_elisa_bjy2kpye (defect)
+@@ -25,3 +25,3 @@
+ 8. Wash the plate 4 times with PBS‑Tween 20.  
+-9. Add 100 µL of the substrate solution to each well. Allow the color to develop for 10–15 minutes at RT (monitor the reaction).  
++9. Add 100 mL of the substrate solution to each well. Allow the color to develop for 10–15 minutes at RT (monitor the reaction).  
+ 10. Add 50 µL of 3 M H₂SO₄ to each well to stop the reaction.  

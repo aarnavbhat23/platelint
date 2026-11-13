@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/elisa_PMC13466342 (clean)
++++ google_gemini-35-flash/elisa_PMC13466342 (defect)
+@@ -13,3 +13,3 @@
+ - M group: receiving daily oral metformin gavage (10 mM) starting 5 days post-op
+-- GelMA group: receiving local injection of 10 μL blank hydrogel into the implant bed prior to implant placement
++
+ - GelMA+A group: receiving local injection of 10 μL alogliptin-loaded hydrogel (1%) into the implant bed prior to placement

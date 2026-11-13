@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/pio_growth_curve_261geqnyyg47-v1 (clean)
++++ groq_openai-gpt-oss-120b/pio_growth_curve_261geqnyyg47-v1 (defect)
+@@ -8,3 +8,3 @@
+ 
+-4. Using a clear round‑bottom 96‑well plate, add 100 µL of sterile growth media to the two designated BLANK wells (duplicate).  
++4. Using a clear round‑bottom 96‑well plate, add 100 mL of sterile growth media to the two designated BLANK wells (duplicate).  
+ 

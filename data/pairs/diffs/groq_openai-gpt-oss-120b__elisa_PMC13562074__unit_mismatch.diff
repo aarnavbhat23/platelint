@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/elisa_PMC13562074 (clean)
++++ groq_openai-gpt-oss-120b/elisa_PMC13562074 (defect)
+@@ -26,3 +26,3 @@
+    - Centrifuge at 150 × g for 10 min at 4 °C. Carefully collect the supernatant (ISF) without disturbing the tissue.
+-   - Transfer ISF to fresh 1.5 mL tubes, snap‑freeze on dry ice, and store at −80 °C. Expected yields: ~2‑4 µL per pooled naïve LN, ~8‑10 µL per pooled TDLN, ~50 µL per 500 mg tumor.
++   - Transfer ISF to fresh 1.5 µL tubes, snap‑freeze on dry ice, and store at −80 °C. Expected yields: ~2‑4 µL per pooled naïve LN, ~8‑10 µL per pooled TDLN, ~50 µL per 500 mg tumor.
+ 

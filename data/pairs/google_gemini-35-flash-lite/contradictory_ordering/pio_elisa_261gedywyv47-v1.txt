@@ -1,0 +1,12 @@
+Please run an alpha-Synuclein ELISA on our provided samples using the following protocol:
+
+1. Coat 384-well MaxiSorp plates with the capturing antibody (BD Biosciences, 610787) at a 1:500 dilution in coating buffer (NaHCO3 with 0.2% NaN3, pH 9.6) and incubate overnight at 4 °C. Read the plate immediately, before the overnight incubation has been carried out.
+2. Wash the plates 3 times with PBS-0.05% Tween-20 (PBS-T).
+3. Block the plates for 1 hour at 37 °C using blocking buffer (1.125% fish skin gelatin in PBS-T).
+4. Load the samples and standards in duplicate into the wells.
+5. Incubate at room temperature for 2 hours.
+6. Add the detection antibody and incubate for 1 hour at 37 °C.
+7. Wash 5 times with PBS-T.
+8. Add ExtrAvidin phosphatase (Sigma, E2636) diluted in blocking buffer and incubate for 30 minutes at 37 °C.
+9. Perform color development using fast-p-nitrophenyl phosphate (Sigma, N1891), reading at 405 nm every 2.5 minutes for up to 60 minutes.
+10. Identify and report the time point(s) where both the standards and sample dilutions are in the log phase.

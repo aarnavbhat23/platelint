@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/pio_elisa_bz7bp9in (clean)
++++ groq_openai-gpt-oss-120b/pio_elisa_bz7bp9in (defect)
+@@ -30,3 +30,3 @@
+    b. Add 100 µL of the 1X enzyme conjugate to every well.  
+-   c. Incubate on the orbital shaker at 900 rpm for 1 hour at room temperature (18‑25 °C).  
++   c. Incubate on the orbital shaker at 900 rpm for 1 hour at room temperature (18‑25 °C), and hold the plate at 4 °C for the whole of this step.
+ 

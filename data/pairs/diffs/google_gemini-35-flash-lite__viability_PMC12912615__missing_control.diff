@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/viability_PMC12912615 (clean)
++++ google_gemini-35-flash-lite/viability_PMC12912615 (defect)
+@@ -10,3 +10,3 @@
+ 
+-5. Conduct endpoint viability assays using Caspase-Glo 3/7 or Cell Titer-Glo according to the manufacturer’s protocol, measuring luminescence on a Synergy LX Multi-Mode Reader with media-only wells as blanks.
++5. 
+ 

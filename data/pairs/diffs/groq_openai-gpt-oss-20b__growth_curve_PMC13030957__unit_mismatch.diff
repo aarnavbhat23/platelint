@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/growth_curve_PMC13030957 (clean)
++++ groq_openai-gpt-oss-20b/growth_curve_PMC13030957 (defect)
+@@ -14,3 +14,3 @@
+    - Add chloramphenicol at 0, 1.6, 8, or 40 µg/mL (for B. subtilis & L. plantarum).  
+-   - Add erythromycin at 0, 0.1, 0.5, or 2.5 µg/mL (for B. subtilis & L. plantarum).  
++   - Add erythromycin at 0, 0.1, 0.5, or 2.5 mg/mL (for B. subtilis & L. plantarum).  
+    - For the C. difficile isolates, add erythromycin at 0, 1, or 256 µg/mL.  

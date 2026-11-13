@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/pio_elisa_bz9zp976 (clean)
++++ groq_openai-gpt-oss-120b/pio_elisa_bz9zp976 (defect)
+@@ -24,3 +24,3 @@
+    a. Wash the plate as in step 6a (three wash cycles).  
+-   b. Add 200 µL of ice‑cold Glucagon Conjugate to each well, cover with a fresh adhesive strip, and incubate 1 h at 4 °C (do not stack plates).  
++   b. Add 200 µL of ice‑cold Glucagon Conjugate to each well, cover with a fresh adhesive strip, and incubate 1 h at 4 °C (do not stack plates), and hold the plate at 37 °C for the whole of this step.
+    c. Wash again as in step 6a (three cycles).  

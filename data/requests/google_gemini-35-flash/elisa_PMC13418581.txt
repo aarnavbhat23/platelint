@@ -1,0 +1,19 @@
+1. Please synthesize the codon-optimized MEAET gene sequence (SEQ ID NO: 1) and clone it into a prokaryotic expression vector containing a GST tag. Transform the plasmid into E. coli BL21 (DE3) and culture in LB medium with 100 µg/mL ampicillin until an OD600 of 0.4–0.6 is reached. Induce protein expression using 500 µM IPTG at 16 °C and 120 rpm for 18 h. Harvest and lyse the cells by sonication, purify the GST-tagged protein using glutathione agarose affinity chromatography, cleavage-remove the GST tag with thrombin, measure concentration using a BCA assay kit, and aliquot/store at −80 °C.
+
+2. Using the purified MEAET protein, set up an indirect ELISA using the following steps:
+- Coat 96-well microtiter plates with 100 µL/well of MEAET antigen diluted in carbonate-bicarbonate buffer (pH 9.6). Incubate at 37 °C for 1 h, then at 4 °C overnight.
+- Wash 3 times with PBST (PBS containing 0.05% Tween-20).
+- Block wells with 200 µL/well of 5% (w/v) skim milk in PBST at 37 °C for 2 h, then wash 3 times with PBST.
+- Add serum samples diluted 1:400 in PBST at 100 µL/well and incubate at 37 °C for 1 h, then wash 3 times with PBST.
+- Add HRP-conjugated goat anti-pig IgG diluted 1:10,000 in PBST at 100 µL/well and incubate at 37 °C for 1 h, then wash 5 times with PBST.
+- Add 100 µL/well TMB substrate, incubate in the dark at 37 °C for 15 min, stop the reaction with 50 µL/well 2 M H2SO4, and read the optical density at 450 nm.
+
+3. Test our submitted clinical pig serum panels (diarrheic, asymptomatic, positive control, and confirmed negative control samples) using the indirect ELISA protocol. 
+
+4. Perform assay cut-off determination and validation:
+- Establish the cut-off value using the 24 confirmed negative serum samples (calculated as mean OD450 + 3 SD converted to S/P ratio, threshold S/P ≥ 0.203).
+- Perform ROC curve analysis to evaluate diagnostic performance.
+- Perform analytical sensitivity testing on three positive clinical samples using two-fold serial dilutions from 1:100 to 1:12,800.
+- Perform analytical specificity testing in triplicate at a 1:200 dilution against antisera for Salmonella spp., Pasteurella multocida, Clostridium perfringens, Listeria monocytogenes, Campylobacter jejuni, Streptococcus suis, E. coli K-12, PEDV, and PDCoV.
+
+5. Provide a final data report including raw OD450 values, calculated S/P ratios, sensitivity and specificity determinations, intra- and inter-assay repeatability/reproducibility CVs, and chi-square analysis with 95% confidence intervals (Wilson score method) comparing seropositivity between clinical groups.

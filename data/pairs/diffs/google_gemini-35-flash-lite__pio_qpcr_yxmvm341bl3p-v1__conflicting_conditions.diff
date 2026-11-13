@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_qpcr_yxmvm341bl3p-v1 (clean)
++++ google_gemini-35-flash-lite/pio_qpcr_yxmvm341bl3p-v1 (defect)
+@@ -8,3 +8,3 @@
+ 
+-Set up the run in the ABI SDS 2.3 program by navigating to File > New, connecting to the real-time instrument, omitting unused wells on the layout tab, adding detectors for each specific gene to the used wells, and setting the reaction volume to 10 µl. Program the following thermal cycling stages, including the dissociation stage for SYBR primers: 50°C for 2:00; 95°C for 10:00; 40 cycles of (95°C for 0:15, 60°C for 1:00); followed by the dissociation stage (95°C for 0:15, 60°C for 0:15, 95°C for 0:55). 
++Set up the run in the ABI SDS 2.3 program by navigating to File > New, connecting to the real-time instrument, omitting unused wells on the layout tab, adding detectors for each specific gene to the used wells, and setting the reaction volume to 10 µl. Program the following thermal cycling stages, including the dissociation stage for SYBR primers: 50°C for 2:00; 95°C for 10:00; 40 cycles of (95°C for 0:15, 60°C for 1:00); followed by the dissociation stage (95°C for 0:15, 60°C for 0:15, 95°C for 0:55), and hold the plate at 4 °C for the whole of this step. 
+ 

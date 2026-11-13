@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/elisa_PMC13346889 (clean)
++++ google_gemini-35-flash/elisa_PMC13346889 (defect)
+@@ -8,3 +8,3 @@
+ 
+-5. Fix cells by adding 33 µL of cold 4% PFA to each well (1% final PFA concentration) and incubate on ice for 20 minutes. Centrifuge the plate at 350 × g for 3 minutes, remove supernatant, and wash twice with 250 µL FACS buffer (PBS + 0.2% BSA).
++5. Fix cells by adding 33 µL of cold 4% PFA to each well (1% final PFA concentration) and incubate on ice. Centrifuge the plate at 350 × g for 3 minutes, remove supernatant, and wash twice with 250 µL FACS buffer (PBS + 0.2% BSA).
+ 

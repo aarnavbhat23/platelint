@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/pio_elisa_bj54kq8w (clean)
++++ groq_openai-gpt-oss-120b/pio_elisa_bj54kq8w (defect)
+@@ -22,3 +22,3 @@
+ 
+-11. **Read** – Measure absorbance at 450 nm using a microplate reader (e.g., Synergy™ Neo Hybrid Multi‑Mode). Record each well’s OD.
++11. **Read** – Measure luminescence using a microplate reader (e.g., Synergy™ Neo Hybrid Multi‑Mode). Record each well’s OD.
+ 

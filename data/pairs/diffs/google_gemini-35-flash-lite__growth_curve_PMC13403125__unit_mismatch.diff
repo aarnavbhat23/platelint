@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/growth_curve_PMC13403125 (clean)
++++ google_gemini-35-flash-lite/growth_curve_PMC13403125 (defect)
+@@ -2,3 +2,3 @@
+ 
+-1. Synthesize and characterize the HA-DA conjugate: Dissolve 1 g of 12 kDa HA in 100 mL PBS, activate carboxyl groups with 5 mM EDC and 10 mM NHS at pH 5.0 for 6 h, and conjugate with 10 mM dopamine under a nitrogen atmosphere for 24 h. Purify the product via dialysis against deionized water (14 kDa MWCO, 4 °C, 72 h with buffer changes every 8 h), freeze-dry to yield the spongy solid, and confirm the chemical structure and grafting efficiency using 1H NMR in D2O.
++1. Synthesize and characterize the HA-DA conjugate: Dissolve 1 g of 12 kDa HA in 100 µL PBS, activate carboxyl groups with 5 mM EDC and 10 mM NHS at pH 5.0 for 6 h, and conjugate with 10 mM dopamine under a nitrogen atmosphere for 24 h. Purify the product via dialysis against deionized water (14 kDa MWCO, 4 °C, 72 h with buffer changes every 8 h), freeze-dry to yield the spongy solid, and confirm the chemical structure and grafting efficiency using 1H NMR in D2O.
+ 

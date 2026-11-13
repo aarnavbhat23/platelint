@@ -1,0 +1,6 @@
+--- google_gemini-35-flash-lite/pio_growth_curve_2pvgdn6 (clean)
++++ google_gemini-35-flash-lite/pio_growth_curve_2pvgdn6 (defect)
+@@ -1,2 +1,2 @@
+-Please run an OD 600 to CFU calibration assay on our overnight cultures, which include two biological replicates each of our positive control (BBa_I20270) and negative control (BBa_R0040) strains. Please use LB broth supplemented with 25 mg/mL chloramphenicol for all media and dilutions. 
++Please run an OD 600 to CFU calibration assay on our overnight cultures, which include two biological replicates each of our positive control (BBa_I20270) and negative control (BBa_R0040) strains. Please use LB broth supplemented with 25 µg/mL chloramphenicol for all media and dilutions. 
+ 

@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/qpcr_PMC13701828 (clean)
++++ groq_openai-gpt-oss-120b/qpcr_PMC13701828 (defect)
+@@ -14,3 +14,3 @@
+ 
+-8. Assess intracellular ROS using CM‑H₂DCFDA (Thermo Fisher). After treatment, incubate cells with 10 µM dye for 30 min at 37 °C in the dark, wash with PBS, and measure fluorescence (excitation 485 nm, emission 530 nm) in fresh PBS on the plate reader. Run five biological replicates.
++8. Assess intracellular ROS using CM‑H₂DCFDA (Thermo Fisher). After treatment, incubate cells with 10 mM dye for 30 min at 37 °C in the dark, wash with PBS, and measure fluorescence (excitation 485 nm, emission 530 nm) in fresh PBS on the plate reader. Run five biological replicates.
+ 

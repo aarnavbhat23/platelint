@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/qpcr_PMC13719729 (clean)
++++ google_gemini-35-flash-lite/qpcr_PMC13719729 (defect)
+@@ -2,3 +2,3 @@
+ 
+-2. Perform EDTA-based clump passaging when the iPSCs reach 60–75% confluence by washing with DPBS -/-, incubating with 0.5 mM EDTA for 2–3 min at 37 °C, 5% CO2, and splitting at a 1:4 ratio onto VTN-coated 6-well plates using Complete E8 medium. 
++2. Perform EDTA-based clump passaging when the iPSCs reach 60–75% confluence by washing with DPBS -/-, incubating with 0.5 mM EDTA for 2–3 min at 75 °C, 5% CO2, and splitting at a 1:4 ratio onto VTN-coated 6-well plates using Complete E8 medium. 
+ 

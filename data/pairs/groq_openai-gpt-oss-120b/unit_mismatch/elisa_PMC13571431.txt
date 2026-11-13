@@ -1,0 +1,76 @@
+1. Prepare reagents the day before the experiment (store at ‑20 °C, thaw once and keep on ice):
+   - 4 % paraformaldehyde (PFA) in DPBS: mix 10 mL 16 % PFA with 30 mL DPBS (total 40 mL). Aliquot and keep on ice.
+   - Permeabilization solution: 0.1 % Triton X‑100 in DPBS (50 µL Triton X‑100 + 49.95 mL DPBS). Prepare fresh just before use.
+   - Blocking solution: 5 % fetal bovine serum (FBS) in DPBS (2.5 mL FBS + 47.5 mL DPBS). Prepare fresh just before use.
+
+2. Cell seeding (Day 0):
+   - When our astrocyte‑enriched primary cultures reach ~80 % confluence, seed 50 000 cells per well into a black‑walled, clear‑bottom 96‑well plate (Greiner μClear). Do **not** use the outermost wells; fill those with DPBS to avoid edge effects.
+   - Incubate 48 h in standard growth medium (DMEM) to reach confluence.
+
+3. Treatment (Day 2, after 48 h):
+   - Remove medium and add fresh DMEM containing the desired compound.
+   - **MLi‑2 dose‑response:** start at 1 µM and perform 1:5 serial dilutions across wells (final concentrations: 1 µM, 200 nM, 40 nM, 8 nM, 1.6 nM, etc.). Include a DMSO‑only control matching the highest DMSO concentration used.
+   - **LLOME experiment:** add either 1 mM LLOME alone, 100 nM MLi‑2 alone, or a combination of 1 mM LLOME + 100 nM MLi‑2. Treat for 2 h. Use DMSO control as above.
+   - After the indicated incubation (90 min for MLi‑2 alone, 2 h for LLOME conditions), proceed to fixation.
+
+4. Fixation (Day 2):
+   - Add 100 µL per well of 4 % PFA (prepared in step 1) gently along the well edge. Incubate 20 min at room temperature (RT) in a fume hood.
+   - Aspirate PFA with a multichannel pipette, taking care not to disturb cells. Wash 5× with DPBS (use multichannel pipette for the first wash, then add fresh DPBS and discard by inverting the plate).  
+   - **Pause point:** plates can be stored in DPBS + 0.05 % NaN₃ at 4 °C for up to 2 weeks (sealed).
+
+5. Permeabilization & blocking (Day 2):
+   - Add 100 µL per well of the 0.1 % Triton X‑100 solution, incubate 20 min at RT.
+   - Without washing, add 100 µL per well of 5 % FBS blocking solution, incubate 1 h at RT.
+
+6. Primary antibody (Day 2–3):
+   - Dilute the anti‑pRab10 primary antibody 1:500 in blocking solution.
+   - Add 40 mL per well, cover plate, and incubate overnight (12–16 h) at 4 °C.
+   - Keep plates in a humidified container (several layers of wet absorbent paper inside a lidded box) to prevent drying.
+
+7. Secondary staining (Day 3):
+   - Wash 5× with DPBS (same procedure as step 4).
+   - Prepare a cocktail in DPBS containing:
+     * Goat anti‑rabbit Alexa 488 (1:500)
+     * Phalloidin Alexa 647 (1:1 000)
+   - Add 40 µL per well, incubate 1 h at RT in the dark.
+   - Wash 5× with DPBS (protected from light).
+
+8. Nuclear staining (Day 3):
+   - Add Hoechst 33342 diluted 1:10 000 in DPBS (100 µL per well), incubate 5 min at RT, protected from light.
+   - Wash 3× with DPBS, then leave plates in DPBS + 0.05 % NaN₃, sealed and dark at 4 °C.  
+   - **Pause point:** stained plates are stable for up to 3 weeks, but imaging the same day is preferred.
+
+9. Image acquisition (Operetta CLS, same day if possible):
+   - Use a 40× water‑immersion objective (NA 1.1). The system will automatically supply water to the objective.
+   - Acquire 29 random fields per well, 7 Z‑planes per field (full stack).
+   - Channel settings:
+     * Hoechst: excitation 355‑385 nm, emission 430‑500 nm.
+     * Alexa 488 (pRab10): excitation 460‑490 nm, emission 500‑550 nm (EGFP channel).
+     * Alexa 647 (phalloidin): excitation 615‑645 nm, emission 655‑760 nm.
+   - Use the default exposure and binning (1) as defined in the Operetta CLS protocol; do not alter between plates.
+   - Perform a quick test acquisition on a representative well to confirm focus and Z‑stack depth before running the full plate.
+
+10. Image analysis (Harmony software, same day as acquisition):
+    - Load the dataset and apply the following building‑block workflow:
+      a. Gaussian smoothing filter on the Alexa 647 channel → “Gaussian Smoothed”.
+      b. Find image region on the smoothed channel (threshold 0.5, min area to exclude debris).
+      c. Calculate morphology and intensity for the identified cell regions; select the cell population.
+      d. Find nuclei in the Hoechst channel (Method B, intensity 0.40, area > 30 µm²) and calculate morphology.
+      e. In the Alexa 488 channel, apply Sliding Parabola filter (curvature 4) to generate a background‑subtracted image.
+      f. Find image region on the filtered Alexa 488 image, then “Find spots” (Method B) to detect individual vesicles.
+      g. Calculate spot properties (area, roundness, width/length). Keep spots with W/L > 0.2.
+      h. For each spot, define a background region (Resize Region, outer border ‑95 %) and subtract background intensity.
+      i. Filter spots by roundness and mean intensity to retain bona‑fide vesicles.
+      j. Classify vesicles into four size bins:
+         - < 0.3 µm²  
+         - 0.3–0.8 µm²  
+         - 0.8–3.5 µm² (these and the next bin are considered pRab10 vesicles)  
+         - > 3.5 µm²
+      k. For each bin compute number of vesicles, mean intensity, total intensity, and morphological stats.
+    - Run the protocol on the entire plate and export results as an Excel file.
+
+11. Data analysis (GraphPad Prism):
+    - **MLi‑2 dose‑response:** plot log(concentration) vs. mean number of pRab10‑positive vesicles per well, fit with “log(inhibitor) vs. response – Variable slope” to obtain IC₅₀.
+    - **LLOME experiment:** generate grouped bar graphs of vesicle counts (normalized to nuclei) for DMSO, LLOME, and LLOME + MLi‑2. Perform one‑way ANOVA with Tukey’s post‑test on biological replicate means.
+
+Please let us know if any reagents need to be ordered or if you have questions about the plate layout. Thank you!

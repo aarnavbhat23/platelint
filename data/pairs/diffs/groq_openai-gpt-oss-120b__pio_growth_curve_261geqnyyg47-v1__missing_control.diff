@@ -1,0 +1,45 @@
+--- groq_openai-gpt-oss-120b/pio_growth_curve_261geqnyyg47-v1 (clean)
++++ groq_openai-gpt-oss-120b/pio_growth_curve_261geqnyyg47-v1 (defect)
+@@ -2,28 +2,28 @@
+ 
+-1. Decontaminate the bench and all pipettes: wipe with DNA Away and RNase Away, then wipe again with 70 % ethanol (≈2 min).  
++1. Decontaminate the bench and all pipettes: wipe with DNA Away and RNase Away, then wipe again with 70 % ethanol (≈2 min). 
+ 
+-2. Light the Bunsen burner and work within its sterile field for the remainder of the protocol.  
++2. Light the Bunsen burner and work within its sterile field for the remainder of the protocol. 
+ 
+-3. Download the attached **OD600_analysis.xlsx** file and record the plate map for this run in the sheet (use duplicate wells for each sample and for blanks).  
++3. 
+ 
+-4. Using a clear round‑bottom 96‑well plate, add 100 µL of sterile growth media to the two designated BLANK wells (duplicate).  
++4. Using a clear round‑bottom 96‑well plate, add 100 µL of sterile growth media to the two designated BLANK wells (duplicate). 
+ 
+-5. Add 90 µL of the same sterile media to each well that will receive a sample (duplicate per sample).  
++5. Add 90 µL of the same sterile media to each well that will receive a sample (duplicate per sample). 
+ 
+-6. Mix each bacterial culture gently to resuspend any settled cells. Pipette 10 µL of each culture into its corresponding sample wells (duplicate), creating a 1:10 dilution. After adding the culture, pipette the well up and down five times to mix thoroughly. Set the remaining culture aside for downstream work.  
++6. Mix each bacterial culture gently to resuspend any settled cells. Pipette 10 µL of each culture into its corresponding sample wells (duplicate), creating a 1:10 dilution. After adding the culture, pipette the well up and down five times to mix thoroughly. Set the remaining culture aside for downstream work. 
+ 
+-7. Place the plate in the microplate reader and measure absorbance at 600 nm. Save the raw run data in the same location as the Excel sheet.  
++7. Place the plate in the microplate reader and measure absorbance at 600 nm. Save the raw run data in the same location as the Excel sheet. 
+ 
+-8. Enter the blank and sample OD values into the **OD600_analysis.xlsx** file. The spreadsheet will calculate the corrected OD using:  
+-   **OD corrected = (OD sample – average OD blanks) × 10**.  
++8. Enter the blank and sample OD values into the **OD600_analysis.xlsx** file. The spreadsheet will calculate the corrected OD using: 
++ **OD corrected = (OD sample – average OD blanks) × 10**. 
+ 
+-9. Save and file the completed Excel sheet in the designated folder.  
++9. Save and file the completed Excel sheet in the designated folder. 
+ 
+-10. Add 10 % bleach to each well of the used plate, let it sit for 30 min, then empty the plate down the drain with water.  
++10. Add 10 % bleach to each well of the used plate, let it sit for 30 min, then empty the plate down the drain with water. 
+ 
+-11. Discard the plate in a biohazard waste container.  
++11. Discard the plate in a biohazard waste container. 
+ 
+-12. Perform a second decontamination of the bench and pipettes (DNA Away/RNase Away followed by 70 % ethanol).  
++12. Perform a second decontamination of the bench and pipettes (DNA Away/RNase Away followed by 70 % ethanol). 
+ 
+-13. Extinguish the Bunsen burner.  
++13. Extinguish the Bunsen burner. 
+ 

@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/pio_growth_curve_2pvgdn6 (clean)
++++ groq_openai-gpt-oss-20b/pio_growth_curve_2pvgdn6 (defect)
+@@ -40,3 +40,3 @@
+ 6. **Incubation**  
+-   - Incubate all plates at 37 °C overnight (18–20 h).
++   - Incubate all plates at 37 °C overnight (18–20 h). Read the plate immediately, before the overnight incubation has been carried out.
+ 

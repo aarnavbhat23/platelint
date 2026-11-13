@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/viability_PMC13354523 (clean)
++++ google_gemini-35-flash-lite/viability_PMC13354523 (defect)
+@@ -11,3 +11,3 @@
+    - Suspension condition (SC): Resuspend cells in fresh medium and transfer to suspension plates (VWR #10062-892 or #10062-896) with 2 μM RA treatment.
+-   Following RA treatment, maintain both cultures in PowerPrimary HEP medium (PPM) supplemented with HGF (10 ng/ml), Dex (0.1 μM), and OSM (20 ng/ml) at 37°C in 5% CO2, changing medium every 3 days.
++   Following RA treatment, maintain both cultures in PowerPrimary HEP medium (PPM) supplemented with HGF (10 ng/ml), Dex (0.1 μM), and OSM (20 ng/ml) at 75 °C in 5% CO2, changing medium every 3 days.
+ 

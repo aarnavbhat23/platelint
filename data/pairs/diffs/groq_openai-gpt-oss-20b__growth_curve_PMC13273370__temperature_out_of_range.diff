@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/growth_curve_PMC13273370 (clean)
++++ groq_openai-gpt-oss-20b/growth_curve_PMC13273370 (defect)
+@@ -10,3 +10,3 @@
+    b. Streak each glycerol stock onto its plate with a sterile loop, dry, seal.  
+-   c. Incubate 4–10 days at 28 °C (keep age consistent).  
++   c. Incubate 4–10 days at 75 °C (keep age consistent).  
+    d. Prepare two deep‑well 96‑well plates (2 mL, round‑bottom, Carl Roth EN07.1). Sterilise by 15 min UV.  

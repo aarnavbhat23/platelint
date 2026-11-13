@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/elisa_PMC13418581 (clean)
++++ google_gemini-35-flash/elisa_PMC13418581 (defect)
+@@ -5,3 +5,3 @@
+ - Wash 3 times with PBST (PBS containing 0.05% Tween-20).
+-- Block wells with 200 µL/well of 5% (w/v) skim milk in PBST at 37 °C for 2 h, then wash 3 times with PBST.
++- Block wells with 200 µL/well of 5% (w/v) skim milk in PBST at 37 °C for 2 h, then wash 3 times with PBST, and hold the plate at 4 °C for the whole of this step.
+ - Add serum samples diluted 1:400 in PBST at 100 µL/well and incubate at 37 °C for 1 h, then wash 3 times with PBST.

@@ -1,0 +1,80 @@
+**Request to Wet Lab**
+
+1. **Reagents & Supplies** 
+ - 1× Phosphate‑Buffered Saline (10 mM, pH 7.2‑7.4). Prepare 1 L: mix 2 g NaH₂PO₄ with 8 g Na₂HPO₄, add 22.8 g NaCl, fill to 1 L with distilled water. Filter‑sterilize (0.22 µm). 
+ - Tween 20 and Tween 80 (10 % v/v stocks). Dilute 1 % v/v in 1× PBS just before use. 
+ - 0.1 % (w/v) Crystal Violet (Sigma‑Aldrich). 
+ - 70 % and 95 % ethanol (Merck). 
+ - Nutrient agar (10 g/L peptone, 5 g/L yeast extract, 5 g/L NaCl, 15 g/L agar). 
+ - 3 mm sterile glass beads (autoclave 121 °C, 20 min). 
+ - 80 µm stainless‑steel sieve (Endecotts). 
+ - 80 µm pore‑size filter membrane (47 mm diameter). 
+ - 1.5 mL microcentrifuge tubes, 200 µL pipette tips. 
+ - Sterile Petri dishes, sterile forceps (Dumont #5). 
+ - Microplate reader capable of 595 nm. 
+ - PowerSoil Pro Kit (Qiagen) plus 600 µL Solution CD1, 200 µL 1× PBS, 50 µL Solution C6. 
+ - GoTaq Green Master Mix (Promega), primers for E. coli, P. aeruginosa, Aeromonas spp., S. enterica (see Table S1). 
+ - GelRed, 2 % agarose, UV imaging system (ChemiDoc XRS+). 
+ - 70 % ethanol, sterile wipes, disposable gloves, lab coats, masks. 
+
+2. **Sample Preparation** 
+ - Use surface‑sediment (0‑10 cm) or surface‑water microplastic samples. 
+ - For sediments: remove coarse debris (> 2 mm) with sterile forceps, homogenise, keep at 4 °C until use (≤ 7 days). 
+ - Suspend 50 g wet sediment in 200 mL 1× PBS, stir 200 rpm for 5 min (VM‑30). 
+ - Filter through 80 µm stainless‑steel sieve under vacuum (−50 kPa). Rinse filter 3 × 50 mL 1× PBS to recover retained particles. 
+ - Transfer filtrates to Petri dishes, inspect under stereomicroscope (10‑40×). Pick microplastic particles (MiPs) with sterile forceps, place each into 1.5 mL tube with 1 mL PBS. 
+ - Keep tubes at 4 °C overnight. 
+
+3. **Master MiP Pool & Aliquots** 
+ - Combine all isolated MiPs into a single “master mixture.” 
+ - For each replicate, randomly draw 50 particles into a fresh tube. 
+
+4. **Cleaning MiPs** 
+ - Transfer each aliquot to a sterile Petri dish, rinse 3 × 1 mL PBS with sterile pipettes. 
+ - Inspect at 40×; if any contaminants remain, repeat rinse. 
+ - Dry by pressing between sterile wipes, air‑dry 10 min in laminar flow hood. 
+
+5. **Biofilm Extraction** 
+ - Add 300 µL of extraction solution (1× PBS + 0.1 % Tween 80) to each tube. Add 5 glass beads. 
+ - Ultrasonicate: 40 kHz, 100 W, 10 min (Au‑220, Agro Lab). 
+ - Vortex: 3 000 rpm, 1 min (VM‑30). 
+ - Transfer 290 µL of suspension to a fresh tube. 
+ - Repeat the same extraction (fresh 300 µL solution) with the retained MiPs; pool both extracts. 
+
+6. **Disaggregation (optional for DNA)** 
+ - For DNA runs, dilute pooled extract 1:10 in 1× PBS + 0.1 % Tween 80. 
+ - Perform double vortex (30 s × 2 at 3 000 rpm) then 10 min sonication (40 kHz, 100 W). 
+ - Alternatively, reverse order if desired. 
+
+7. **Residual Biofilm Check** 
+ - After extraction, stain MiPs with 500 µL 0.1 % crystal violet, shake 50 rpm. 
+ - Wash 3 × 1 mL PBS, dry 45 min, elute dye with 1 mL 95 % ethanol, vortex 5 min. 
+ - Measure absorbance at 595 nm, normalize to particle number. Lower OD 595 = better extraction. 
+
+8. **Viable Cell Enumeration** 
+ - Serially dilute pooled extract 10‑fold, plate 100 µL onto nutrient agar. 
+ - Incubate 24‑48 h at 37 °C. Count colonies, calculate CFU / MiP (CFU MiP⁻¹). 
+ - Include negative control: sterile PET MiPs processed identically. 
+
+9. **DNA Extraction** 
+ - Transfer remaining pooled extract to PowerBead Pro tubes, spin 16 000 × g, 15 min, 4 °C. 
+ - Discard supernatant, add 600 µL Solution CD1, incubate 30 min at 37 °C, vortex 10 min. 
+ - Resuspend pellet in 200 µL PBS, transfer to PowerBead Pro tube. 
+ - Follow Qiagen kit from Solution CD2 onward, using Solution C6 (50 µL) for elution. 
+ - Measure DNA concentration and A260/A280 with NanoDrop. 
+
+10. **PCR Screening** 
+ - Prepare 25‑50 µL reactions: 2× Master Mix, 0.4–1 µM primers, 1‑5 µL template. 
+ - Cycle: 95 °C 5 min; 35 cycles of 95 °C 30 s, anneal (see Table S1) 30‑60 s, 72 °C 45 s; final 72 °C 10 min. 
+ - Run on 2 % agarose, stain with GelRed, image. 
+
+11. **Quality Control** 
+ - Perform all steps in a Class II cabinet, use 70 % ethanol to wipe surfaces. 
+ - Autoclave glassware and sieves. 
+ - Include extraction blanks (solution only) in DNA prep to check reagent contamination. 
+
+12. **Data Recording** 
+ - Record CFU / MiP, OD595/particle, DNA yield (ng µL⁻¹), PCR band presence/absence. 
+ - Provide a log of all batch numbers, dates, and any deviations. 
+
+Please process our 30 sediment samples (50 g each) and 20 water samples (filtered to > 80 µm) following the above steps. Let us know if any additional supplies or clarifications are needed.

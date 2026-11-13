@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_growth_curve_77jhrkn (clean)
++++ google_gemini-35-flash-lite/pio_growth_curve_77jhrkn (defect)
+@@ -6,3 +6,3 @@
+ 
+-Start the plate reader and let our samples grow until they reach an OD600 of 0.11. At that point, pause the run and add 20 µL of the appropriate bacteriophage dilutions to the wells to reach a final volume of 200 µL per well. Prepare the phage dilutions in LB with antibiotics to achieve MOI values of 10^1, 10^0, 10^-1, 10^-2, and 10^-3, based on the correlation that an OD600 of 0.10 equals 8.0 x 10^8 cells/mL and accounting for the 1:10 dilution upon addition. Ensure you also include control wells that receive 20 µL of LB media without phages. 
++Start the plate reader and let our samples grow until they reach an OD600 of 0.11. At that point, pause the run and add 20 µL of the appropriate bacteriophage dilutions to the wells to reach a final volume of 200 mL per well. Prepare the phage dilutions in LB with antibiotics to achieve MOI values of 10^1, 10^0, 10^-1, 10^-2, and 10^-3, based on the correlation that an OD600 of 0.10 equals 8.0 x 10^8 cells/mL and accounting for the 1:10 dilution upon addition. Ensure you also include control wells that receive 20 µL of LB media without phages. 
+ 

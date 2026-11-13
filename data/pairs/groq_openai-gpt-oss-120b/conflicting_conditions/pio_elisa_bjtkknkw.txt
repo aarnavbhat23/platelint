@@ -1,0 +1,26 @@
+Please run the following ELISA on our set of human serum samples to detect anti‑HIV antibodies.
+
+1. Use a 96‑well polystyrene microplate (U‑shaped bottom, Sigma‑Aldrich). Coat each well with 50 ng of the peptide mixture (synthetic fragments 579‑601 of HIV‑gp41 and 254‑274, 308‑331, 421‑438 of HIV‑gp120) in coating buffer. Incubate 4 h at 37 °C, and hold the plate at 4 °C for the whole of this step.
+
+2. Block the plate with 25 µL per well of 3 % non‑fat milk in PBS. Incubate 1 h at room temperature (RT).
+
+3. Wash the plate 4 times with PBS‑Tween‑20 (0.05 % Tween‑20).
+
+4. Add 25 µL of each serum sample (our samples) diluted 1:16 in PBS‑Tween‑20. Run each sample in duplicate. Include:
+   - Positive control: pooled human serum with high anti‑HIV titer (provided).
+   - Negative control: pooled serum from healthy donors (provided).
+   - Blank: 0.9 % normal saline.
+
+5. Incubate 90 min at RT, then wash 4× with PBS‑Tween‑20.
+
+6. Add 25 µL per well of the chimeric LA‑HRP conjugate (Sigma‑Aldrich), diluted 1:5000 in PBS‑Tween‑20.
+
+7. Incubate 90 min at RT, wash 4× with PBS‑Tween‑20, then add 25 µL per well of TMB substrate. Develop for 15 min in the dark.
+
+8. Stop the reaction by adding 25 µL per well of 3 M H₂SO₄.
+
+9. Read absorbance at 450 nm on a microplate reader.
+
+10. Calculate the cut‑off as: mean OD of the negative control wells + 2 × standard deviation of those wells. Any sample with an OD above this cut‑off is considered positive.
+
+Please use the same plate layout and timing as described, and report the raw OD values together with the calculated cut‑off and the interpretation (positive/negative) for each of our samples. Let me know if any reagents are unavailable or if you need clarification on any step. Thank you.

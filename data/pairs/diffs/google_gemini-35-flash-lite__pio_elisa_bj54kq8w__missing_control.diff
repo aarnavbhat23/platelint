@@ -1,0 +1,5 @@
+--- google_gemini-35-flash-lite/pio_elisa_bj54kq8w (clean)
++++ google_gemini-35-flash-lite/pio_elisa_bj54kq8w (defect)
+@@ -16,2 +16,2 @@
+ 14. Add 50 µl of 3M HCl to each well to stop the reaction.
+-15. Measure the absorbance using a microplate reader, and apply a cut-off optical density of 0.51 (calculated as the mean OD of the negative control times 3).+15. 

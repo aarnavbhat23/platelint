@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/pio_growth_curve_4fjgtkn (clean)
++++ groq_openai-gpt-oss-120b/pio_growth_curve_4fjgtkn (defect)
+@@ -4,3 +4,3 @@
+ 
+-2. In a non‑coated CytoOne 96‑well plate (Starlab), add 5 µL of the spore suspension to each well. Then add 195 µL of the appropriate liquid growth medium to bring the total volume to 200 µL per well (≈2000 spores per well). This step should take about 20 min.
++2. In a non‑coated CytoOne 96‑well plate (Starlab), add 5 µL of the spore suspension to each well. Then add 195 µL of the appropriate liquid growth medium to bring the total volume to 200 mL per well (≈2000 spores per well). This step should take about 20 min.
+ 

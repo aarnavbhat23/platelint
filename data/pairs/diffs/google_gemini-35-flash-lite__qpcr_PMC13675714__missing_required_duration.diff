@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/qpcr_PMC13675714 (clean)
++++ google_gemini-35-flash-lite/qpcr_PMC13675714 (defect)
+@@ -11,3 +11,3 @@
+ 9. Resuspend skin-derived single-cell suspensions in FACS buffer, block Fc receptors on ice for 5 min, and stain with the appropriate flow cytometry antibody panel (diluted 1:200 for CD45-FITC, CD11b-APC, MERTK-APC-Cy7, Ly-6G-BV421, Ly-6C-PE, MHC-II-APC, CD11c-PE-Cy7, Vimentin-APC, CD31-PE, CD326-APC-Cy7, CD90.2-Pacific Blue, Podoplanin-AF647, CD140a-PE-Cy7, and Ly-6A/E-PE) for 45 min at 4°C in the dark.
+-10. Wash cells twice in PBS, stain with Ultraviolet Live/Dead fixable viability dye (1:50) for 10 min at 20–25°C in the dark, wash twice with FACS buffer, fix in 4% paraformaldehyde for 30 min, and store at 4°C in the dark prior to flow cytometric acquisition of mCherry-positive infected cells alongside unstained, FMO, and single-stained controls.
++10. Wash cells twice in PBS, stain with Ultraviolet Live/Dead fixable viability dye (1:50) at 20–25°C in the dark, wash twice with FACS buffer, fix in 4% paraformaldehyde for 30 min, and store at 4°C in the dark prior to flow cytometric acquisition of mCherry-positive infected cells alongside unstained, FMO, and single-stained controls.
+ 11. If performing optional fibroblast enrichment, resuspend single-cell suspensions in MACS buffer, apply the Non-Tumor-Associated Fibroblast Depletion Cocktail, run over an LD magnetic column to collect the flow-through, label with CD90.2 MicroBeads, run over an MS column, and elute the CD90.2+ fibroblasts.

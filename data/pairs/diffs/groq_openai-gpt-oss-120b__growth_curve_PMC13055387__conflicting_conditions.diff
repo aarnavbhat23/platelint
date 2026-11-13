@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/growth_curve_PMC13055387 (clean)
++++ groq_openai-gpt-oss-120b/growth_curve_PMC13055387 (defect)
+@@ -16,3 +16,3 @@
+    * Centrifuge again, discard supernatant, and resuspend the pellet in ≈100 µL.  
+-   * Plate 50 µL onto a blood agar plate and 50 µL onto a chocolate agar plate. Incubate these two plates at 35 °C in 5 % CO₂, checking twice daily for 48 h.  
++   * Plate 50 µL onto a blood agar plate and 50 µL onto a chocolate agar plate. Incubate these two plates at 35 °C in 5 % CO₂, checking twice daily for 48 h, and hold the plate at 4 °C for the whole of this step.
+    * Repeat the above steps with a second 20 mL of the sample, but after resuspension plate onto blood and chocolate agar plates that are placed immediately into a 2.5 L anaerobic jar with a gas‑generating bag and oxygen indicator. Seal within 1 min and incubate at 35 °C, inspecting twice daily for 48 h.  

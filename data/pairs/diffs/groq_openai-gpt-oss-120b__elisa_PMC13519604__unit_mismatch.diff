@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/elisa_PMC13519604 (clean)
++++ groq_openai-gpt-oss-120b/elisa_PMC13519604 (defect)
+@@ -7,3 +7,3 @@
+    - Incubate 37 °C, 5 % CO₂ for 5 days.  
+-   - On day 5 detach with cold detachment buffer (PBS + 10 % FBS + 4 mL 0.2 M EDTA per 500 mL), incubate 4 °C 20 min, collect, count, and re‑plate at the densities listed below (rest 16–18 h in complete DMEM without M‑CSF before any stimulation):
++   - On day 5 detach with cold detachment buffer (PBS + 10 % FBS + 4 mL 0.2 M EDTA per 500 µL), incubate 4 °C 20 min, collect, count, and re‑plate at the densities listed below (rest 16–18 h in complete DMEM without M‑CSF before any stimulation):
+      * 24‑well: 5 × 10⁵ cells in 500 µL  

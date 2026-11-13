@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/qpcr_PMC13598650 (clean)
++++ google_gemini-35-flash-lite/qpcr_PMC13598650 (defect)
+@@ -22,3 +22,3 @@
+ - Seed HEK293T cells stably expressing Casp3A-FlipNanoLuc in 24-well plates at 7 × 10^4 cells/well. Incubate overnight.
+-- Treat cells with 1 μM staurosporine (diluted from 200 mM DMSO stock into complete DMEM) or an equivalent vehicle control for 6 h at 37 °C, alongside a 0-h vehicle control.
++
+ - Collect culture medium from each well into a 1.5 mL microcentrifuge tube, centrifuge at 500 × g for 5 min at 4 °C, and aspirate supernatant down to ~50 μL before removing completely.

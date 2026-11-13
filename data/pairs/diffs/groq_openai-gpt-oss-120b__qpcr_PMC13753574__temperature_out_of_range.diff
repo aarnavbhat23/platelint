@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/qpcr_PMC13753574 (clean)
++++ groq_openai-gpt-oss-120b/qpcr_PMC13753574 (defect)
+@@ -33,3 +33,3 @@
+    - Add 1 mL Trizol to the powder, vortex, let stand at RT 5 min.  
+-   - Transfer the lysate to the RNA‑binding column in two portions, centrifuge 20 s at 13 500 g, 4 °C; discard flow‑through.  
++   - Transfer the lysate to the RNA‑binding column in two portions, centrifuge 20 s at 13 500 g, -80 °C; discard flow‑through.  
+    - Wash sequentially with 700 µL Buffer RW1 and twice with 500 µL Buffer RW2 (20 s spin each, 4 °C).  

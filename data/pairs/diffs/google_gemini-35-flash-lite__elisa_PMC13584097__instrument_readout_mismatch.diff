@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/elisa_PMC13584097 (clean)
++++ google_gemini-35-flash-lite/elisa_PMC13584097 (defect)
+@@ -18,3 +18,3 @@
+    - Centrifuge collected media at 500 × g at 4°C for 5 min, then transfer the cleared supernatant to new tubes, avoiding lipids and cell debris.
+-   - Combine 100 μL of sample or control with 100 μL of freshly prepared LDH reaction mixture in a 96-well plate. Incubate in the dark for 10 min and measure absorbance at 490 nm.
++   - Combine 100 μL of sample or control with 100 μL of freshly prepared LDH reaction mixture in a 96-well plate. Incubate in the dark for 10 min and measure luminescence.
+ 

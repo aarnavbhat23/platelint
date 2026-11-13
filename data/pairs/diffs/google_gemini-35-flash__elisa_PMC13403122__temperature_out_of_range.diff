@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/elisa_PMC13403122 (clean)
++++ google_gemini-35-flash/elisa_PMC13403122 (defect)
+@@ -4,3 +4,3 @@
+ 
+-3. Embed the transduced cells into Matrigel domes (six 20 µL domes per well), solidify at 37 °C for 25 minutes, overlay with organoid culture medium, and culture for 3 days. 
++3. Embed the transduced cells into Matrigel domes (six 20 µL domes per well), solidify at 75 °C for 25 minutes, overlay with organoid culture medium, and culture for 3 days. 
+ 

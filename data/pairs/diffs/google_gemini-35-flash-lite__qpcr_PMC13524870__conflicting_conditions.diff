@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/qpcr_PMC13524870 (clean)
++++ google_gemini-35-flash-lite/qpcr_PMC13524870 (defect)
+@@ -29,3 +29,3 @@
+ 4. Perform ribotyping on colonies grown from CCFA plates from days 0, 3, and 11:
+-   - Inoculate colonies into BHIS broth and incubate for 16 hours at 37°C anaerobically.
++   - Inoculate colonies into BHIS broth and incubate for 16 hours at 37°C anaerobically, and hold the plate at 4 °C for the whole of this step.
+    - Extract genomic DNA.

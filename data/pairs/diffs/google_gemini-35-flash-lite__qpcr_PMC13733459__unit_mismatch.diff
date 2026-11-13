@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/qpcr_PMC13733459 (clean)
++++ google_gemini-35-flash-lite/qpcr_PMC13733459 (defect)
+@@ -53,3 +53,3 @@
+ - Combine equal volumes of Lipofectamine mix and DNA mix, incubate 10–20 min at 22 ± 1°C, and add 10 μL of transfection mix to each well. Incubate for 24 h at 37°C, 5% CO2.
+-- Perform luciferase assays using the Dual-Glo system: add 100 μL Luciferase Assay reagent per well, incubate 10 min in the dark, and measure firefly luminescence. Then add 100 μL (or 90 μL if lysate was transferred to a white plate) of Stop & Glo Reagent, incubate 10 min, and measure Renilla luminescence.
++- Perform luciferase assays using the Dual-Glo system: add 100 μL Luciferase Assay reagent per well, incubate 10 min in the dark, and measure firefly luminescence. Then add 100 mL (or 90 μL if lysate was transferred to a white plate) of Stop & Glo Reagent, incubate 10 min, and measure Renilla luminescence.
+ - Subtract background, calculate normalized firefly signal (FF/Ren), and normalize to the mock control group within each biological replicate.

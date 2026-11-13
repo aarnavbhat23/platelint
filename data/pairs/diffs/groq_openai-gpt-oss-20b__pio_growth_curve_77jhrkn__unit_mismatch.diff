@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/pio_growth_curve_77jhrkn (clean)
++++ groq_openai-gpt-oss-20b/pio_growth_curve_77jhrkn (defect)
+@@ -33,3 +33,3 @@
+      – 8.0 × 10⁶ PFU ml⁻¹ (MOI = 10⁻³)  
+-   • Include a set of LB-only wells that receive only 20 µL LB (no phage) as a control.  
++   • Include a set of LB-only wells that receive only 20 mL LB (no phage) as a control.  
+ 

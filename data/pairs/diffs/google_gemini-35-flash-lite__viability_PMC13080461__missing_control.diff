@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/viability_PMC13080461 (clean)
++++ google_gemini-35-flash-lite/viability_PMC13080461 (defect)
+@@ -22,3 +22,3 @@
+ 5. Perform miniaturized high-throughput drug sensitivity testing in 384-well plates:
+-- Seed MC models in 384-well plates, culture for 7 days with medium changes, and treat with drugs (e.g., carboplatin) on day 7 using an acoustic liquid handler. Include positive (10 μM bortezomib) and vehicle controls.
++- Seed MC models in 384-well plates, culture for 7 days with medium changes, and treat with drugs (e.g., carboplatin) on day 7 using an acoustic liquid handler. 
+ - On day 12, perform either CellTox Green Cytotoxicity Assay (with Hoechst 33342) and/or CellTiter-Glo 2.0 Cell Viability Assay, and read out using high-content confocal imaging or a multi-mode detection platform.

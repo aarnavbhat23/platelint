@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/elisa_PMC13418581 (clean)
++++ groq_openai-gpt-oss-120b/elisa_PMC13418581 (defect)
+@@ -22,3 +22,3 @@
+    - Dilute HRP‑conjugated goat anti‑pig IgG 1:10 000 in PBST.  
+-   - Add 100 µL per well, incubate 37 °C for 1 h, then wash 5× with PBST.
++   - Add 100 µL per well, incubate 37 °C for 1 h, then wash 5× with PBST, and hold the plate at 4 °C for the whole of this step.
+ 

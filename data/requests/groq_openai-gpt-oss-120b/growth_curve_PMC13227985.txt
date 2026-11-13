@@ -1,0 +1,68 @@
+1. **3‑D‑print agar pipettes (APs)**  
+   - Use OpenSCAD 2021.01 and PreForm 3.42.0.443 to generate the STL (same geometry as Fig 1: total height 40 mm; top outer Ø 7 mm, inner Ø 4 mm; bottom outer Ø 4.2 mm, inner Ø 4 mm; internal X‑grid catch pocket 5 × 0.5 × 0.5 mm; four external guide fins 1.1 × 0.5 × 7 mm).  
+   - Print on a Form 3+ (low‑force) SLA printer with Clear Resin V4 (RS‑F2‑GPCL‑04). Print ten devices per batch, full support matrix, 12 touchpoints, 0.1 mm layer height (≈468 layers).  
+   - Post‑cure at 405 nm for 15 min at 60 °C using Form Cure.  
+   - Autoclave (30 min, 121 °C, 16 psi) – APs survive sterilization and can be reused.
+
+2. **Prepare substrate‑agar 96‑well plates**  
+   - For each substrate, make a 4× concentrated stock in 3 % (w/v) agar (Fisher BP1423). Autoclave 121 °C, 30 min (liquid cycle).  
+   - Cool tubes in a water‑filled bin that has also been autoclaved to keep agar molten longer.  
+   - Add substrates to the molten agar to reach the final concentrations (after dilution in the well):  
+
+     | Substrate | Final conc. (w/v) |
+     |-----------|-------------------|
+     | Glucose (control) | 0.2 % |
+     | Barley β‑glucan (MegaZyme P‑BGBM) | 0.2 % |
+     | Potato starch (Fisher 50‑136‑8532) | 0.2 % |
+     | Autoclaved S. cerevisiae cells (ATCC 204508) | 2 % |
+     | Apple pectin (Sigma 76282‑100G) | 0.2 % |
+     | Potato galactan (MegaZyme P‑GALPOT) | 0.2 % |
+     | Chitin (Sigma C7170) | 0.2 % |
+     | β‑1,3‑glucan (Sigma 89862) | 0.2 % |
+     | Freeze‑dried A. bisporus stipe necromass | 0.2 % |
+     | Insoluble cornstarch (Signature SELECT) | 0.5 % |
+     | Filter paper (BioRad 1703965) | 1 % (in BCD) |
+     | β‑chitin (France Chitin) | 1 % (in BCD) |
+
+   - For substrates whose pH ≤ 5, sterilize substrate and agar separately, then combine after autoclaving; verify pH with full‑range pH paper (Hydrion JH‑613).  
+   - Dispense 135 µL of each agar‑substrate mix into each well of a sterile Corning 96‑well flat‑bottom plate (cat. 3370) using a multichannel pipette.  
+   - Let plates sit at room temperature (≈25 °C) for 2 h, then seal lid edges with parafilm and store at 4 °C overnight (≈12 h) before use. Plates are stable at 4 °C for up to 3 days (longer if sealed and stored inverted).
+
+3. **Agar plug extraction and inoculation (APE assay)**  
+   - Attach a sterile rubber bulb (Fisher HS20629AF) to each printed AP.  
+   - In each well, use the AP to remove a 4 mm cylindrical plug from the centre, leaving ≈50 µL of substrate‑agar. Discard the plug.  
+   - Add 148 µL of MOPs minimal medium (TeKNova M2101) **without carbon source** to each well.  
+   - Inoculate with the appropriate bacterial or yeast culture at a 1:100 dilution from an overnight starter (30 °C, 200 RPM shaking).  
+   - For environmental isolates, use the same procedure but supplement the wells with 140 µL of 1× M9 basal media (M9 salts + CaCl₂, trace elements, FeCl₃, MgSO₄). Inoculate with 10 µL of a 500 µL cell suspension (≈1 × 10⁶ CFU/mL).  
+
+4. **Controls**  
+   - Include wells with soluble glucose (0.2 % w/v) as a positive control.  
+   - Include wells with agar only (no added carbon) as a negative control.  
+   - For each plate, fill the outermost rows/columns (A, H, 1, 12) with 200 µL sterile water to minimize evaporation; do not use these wells for data.  
+
+5. **Incubation and growth monitoring**  
+   - Incubate plates at 30 °C (for C. japonicus and most bacteria) with high aeration (≈205 RPM) in a BioTek EPOCH 2 plate reader.  
+   - Measure OD₆₀₀ every 30 min (or at least every hour) for 24–48 h, depending on growth rate.  
+   - For longer assays (environmental microbes), incubate at 30 °C and read OD₆₀₀ daily for up to 7 days using a SpectraMax i3x.  
+   - Maintain humidity > 50 % (sealed lid + parafilm; optional humidified chamber) to prevent evaporation.  
+
+6. **Biomass contaminant device (BCD) assays (insoluble substrates)**  
+   - Prepare BCDs by placing 50 mg of filter paper or β‑chitin into 18 mm sterile glass tubes. Autoclave (121 °C, 30 min, 16 psi).  
+   - Add 5 mL carbon‑free MOPs minimal medium, inoculate 1:100 from overnight culture, and incubate at 30 °C, 200 RPM.  
+   - Monitor growth by OD₆₀₀ with a Spectronic 20D+ spectrophotometer. Perform each condition in biological triplicate.  
+
+7. **N‑acetylglucosaminidase (NAG) assay**  
+   - Prepare reaction mixture in a 96‑well plate: 1 µL β‑N‑Acetylglucosaminidase S (NEB P0744L) + 0.18 % (w/v) 4‑nitrophenyl N‑acetyl‑β‑D‑glucosaminide (Sigma N9376) + 3 % agar (prepared as in the APE assay). Add 1× Glycobuffer (5 mM CaCl₂, 50 mM sodium acetate).  
+   - Include three negative controls: (i) no enzyme, (ii) no substrate, (iii) neither enzyme nor substrate.  
+   - Measure absorbance at 405 nm every 15 min for 2 h on the BioTek EPOCH 2 at 37 °C, no shaking. Triplicate wells per condition.  
+
+8. **Cornstarch digestion (GAGO) assay**  
+   - Use a substrate‑agar plate containing either 0.2 % glucose, 0.5 % insoluble cornstarch, or agar only (no carbon). Add 148 µL MOPs minimal medium, incubate at 40 °C for 24 h.  
+   - Add 2 µL thermostable α‑amylase (MegaZyme E‑BSTAA, 6 U) to the appropriate wells.  
+   - After incubation, take 100 µL from each well and quantify glucose with the Sigma GAGO20‑1KT glucose assay kit per the manufacturer’s protocol. Perform all conditions in triplicate.  
+
+9. **Data analysis**  
+   - Calculate growth rates (max slope of log‑OD vs. time) and standard deviations using GraphPad Prism 9 (default settings).  
+   - Plot enzyme assay kinetics similarly in Prism.  
+
+Please run all the above assays on the bacterial and yeast strains we have supplied (wild‑type C. japonicus Ueda107, its deletion mutants, and the environmental isolates listed in Table S1B). Use biological triplicates for every condition and include the specified controls. Let us know if any reagents or equipment are unavailable so we can provide alternatives. Thank you.

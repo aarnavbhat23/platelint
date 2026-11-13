@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/qpcr_PMC13610743 (clean)
++++ google_gemini-35-flash-lite/qpcr_PMC13610743 (defect)
+@@ -6,3 +6,3 @@
+ 2. High-Throughput Screening (HTS) and Resazurin Viability Assay
+-Using the Cybio liquid handling platform, seed 22Rv1, C4-2B, and RWPE-1 cells in 384-well black, clear-bottom plates at a density of 500 cells per well (10,000 cells/mL, 50 µL total volume per well) and grow to 60–75% confluency. Treat the plates with the supplied NPNPD natural product library fractions (diluted in DMSO to a final assay concentration of 1.25 µg/mL and 1% DMSO), vehicle control (DMSO), or positive control (withaferin A) using 0.5 µL per well. Incubate at 37 °C with 5% CO2 for 24 hours. Following incubation, add resazurin (0.2 mg/mL), incubate for 16 hours at 37 °C, and measure fluorescence at Ex/Em 560/590 nm. Determine IC50 values for prioritized fractions and pure compounds using CompuSyn.
++Using the Cybio liquid handling platform, seed 22Rv1, C4-2B, and RWPE-1 cells in 384-well black, clear-bottom plates at a density of 500 cells per well (10,000 cells/mL, 50 µL total volume per well) and grow to 60–75% confluency. Incubate at 37 °C with 5% CO2 for 24 hours. Following incubation, add resazurin (0.2 mg/mL), incubate for 16 hours at 37 °C, and measure fluorescence at Ex/Em 560/590 nm. Determine IC50 values for prioritized fractions and pure compounds using CompuSyn.
+ 

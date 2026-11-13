@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_viability_eq2ly6z6egx9-v1 (clean)
++++ google_gemini-35-flash-lite/pio_viability_eq2ly6z6egx9-v1 (defect)
+@@ -5,3 +5,3 @@
+ Perform the Alphazurine A assay according to the following steps:
+-1. Centrifuge the culture plate at 1200 rpm for 2 minutes.
++1. Centrifuge the culture plate at 1200 rpm.
+ 2. Add Alphazurine A (using MP Biomedicals ref #ICNA0215473025 or ThermoFisher ref #AC189370100) directly to the fresh medium in all wells to reach a final concentration of 0.2 mg/ml (from a 10 mg/ml water stock).

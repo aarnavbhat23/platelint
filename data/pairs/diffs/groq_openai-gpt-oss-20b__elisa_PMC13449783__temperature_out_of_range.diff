@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/elisa_PMC13449783 (clean)
++++ groq_openai-gpt-oss-20b/elisa_PMC13449783 (defect)
+@@ -31,3 +31,3 @@
+    - Transfect HEK293T via calcium chloride; harvest supernatant at 48 h, filter (0.22 µm).  
+-   - For CAR constructs, ultracentrifuge at 20 000 rpm, 20 °C, 2 h, aliquot and freeze.  
++   - For CAR constructs, ultracentrifuge at 20 000 rpm, 75 °C, 2 h, aliquot and freeze.  
+    - Titrate LVs and use 10 MOI for transduction.

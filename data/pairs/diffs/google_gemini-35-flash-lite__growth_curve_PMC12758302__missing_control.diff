@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/growth_curve_PMC12758302 (clean)
++++ google_gemini-35-flash-lite/growth_curve_PMC12758302 (defect)
+@@ -17,3 +17,3 @@
+ - Rinse with PBS, then incubate with anti-mouse Alexa-Fluor-594 and anti-rabbit Alexa-Fluor-488 secondary antibodies (Invitrogen) alongside a Hoechst counterstain. 
+-- Image the samples on an Olympus Bx43F microscope and process the merged images using ImageJ, including negative controls omitting the primary antibody.
++
+ 

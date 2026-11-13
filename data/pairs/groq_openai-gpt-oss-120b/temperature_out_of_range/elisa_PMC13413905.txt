@@ -1,0 +1,44 @@
+1. Use LC‑MS‑grade water, methanol, isopropanol, acetic acid and formic acid (all from Merck) for all solutions.  
+2. Prepare methanolic working solutions of cortisol (CORT), cortisone (CORN) and the isotopically‑labelled internal standards CORT‑D₄ and CORN‑D₈ (15 ng mL⁻¹ each) and store at –20 °C until use.  
+3. For each hair sample (≈35 mg dry weight) do the following pretreatment:  
+   a. Place the hair in a tube, add 5 mL isopropanol, shake manually for 3 min, discard the liquid; repeat twice with fresh isopropanol.  
+   b. Dry the hair overnight at room temperature, then cut into ~2 mm pieces with surgical scissors.  
+   c. Weigh 35 mg of the cut hair into a 15 mL Falcon tube.  
+   d. Homogenise with five 2 mm steel balls in a Bioprep‑24R Homogeniser (5 × 30 s cycles, 10 °C, with cooling intervals).  
+
+4. Extraction for UHPLC‑ESI‑MS/MS:  
+   a. Add 1 mL methanol containing the internal standards (CORT‑D₄ and CORN‑D₈, 15 ng mL⁻¹) to the powdered hair.  
+   b. Incubate 24 h on a SSL4 see‑saw rocker (70 rpm, room temperature).  
+   c. Centrifuge 10 min at 13 000 rpm (Eppendorf 5415R).  
+   d. Transfer 800 µL supernatant to a new tube and evaporate to dryness in a Genevac EZ‑2 Elite evaporator.  
+   e. Re‑constitute the residue in 1 mL LC‑MS‑grade water, sonicate 2 min.  
+
+5. Solid‑phase extraction (SPE):  
+   a. Use a Gilson GX‑271 ASPEC system with Strata‑X 30 mg cartridges (p/n 8B‑S100‑TAK).  
+   b. Condition each cartridge with 1 mL methanol, equilibrate with 1 mL water.  
+   c. Load the 1 mL reconstituted extract onto the cartridge, wash with 1 mL water, elute with 1 mL methanol.  
+   d. Concentrate the eluate to 200 µL, transfer to a glass chromatography vial.  
+
+6. UHPLC‑ESI‑MS/MS analysis:  
+   a. Instrument: Agilent 1290 Infinity UHPLC + Agilent 6460 triple‑quadrupole (Jet Stream ESI).  
+   b. Column: Waters BEH C18, 1.7 µm, 2.1 × 100 mm, maintained at 75 °C.  
+   c. Mobile phase A = 0.1 % formic acid in water; mobile phase B = methanol.  
+   d. Flow = 0.2 mL min⁻¹; gradient: 0‑4 min 20 %→60 % B, 4‑5 min 60 % B, 5‑7 min 60 %→70 % B, 7‑9 min 70 % B, post‑run 2 min.  
+   e. Injection volume = 5 µL.  
+   f. Acquire in dMRM mode, positive ionisation; use the following transitions (precursor → product, fragmentor V, collision eV, RT min):  
+      - CORN 361.1 → 163 (160 V, 24 eV, 6.3 ± 0.4) and 361.1 → 121 (160 V, 36 eV).  
+      - CORN‑D₈ 369.1 → 169.1 (160 V, 30 eV, 6.3 ± 0.4).  
+      - CORT 363 → 121.2 (80 V, 26 eV, 6.8 ± 0.4) and 363 → 97.5 (80 V, 36 eV).  
+      - CORT‑D₄ 367.1 → 121.1 (80 V, 26 eV, 6.8 ± 0.4).  
+   g. Source settings: nebuliser 35 psi, drying gas 300 °C at 8 L min⁻¹, sheath gas 300 °C at 10 L min⁻¹, capillary 4500 V, nozzle 300 V.  
+
+7. ELISA (for nine selected samples):  
+   a. Weigh 35 mg of powdered hair into a tube, add 1.8 mL methanol, vortex, incubate overnight on an orbital shaker.  
+   b. Centrifuge, evaporate the supernatant to dryness under nitrogen at 37 °C.  
+   c. Re‑constitute in 400 µL ELISA buffer (Cayman Chemical Cortisol ELISA Kit, cat. 500360).  
+   d. Follow the manufacturer’s protocol for assay setup, washing (ELx50 plate washer), incubation (ELMI DTS‑4 shaker) and detection (Synergy 2 plate reader, 410 nm).  
+   e. Convert the calibration curve results from pg mL⁻¹ to pg mg⁻¹ hair using the re‑constitution volume and the original hair mass.  
+
+8. Provide us with the raw LC‑MS/MS data (chromatograms, peak areas), the calculated concentrations (ng mg⁻¹ hair), and the ELISA results for the nine comparison samples.  
+
+Please let us know if any of the required reagents, consumables (Strata‑X cartridges, internal standards) or equipment (Bioprep‑24R, Gilson GX‑271, Agilent 6460) are unavailable, and we will arrange alternatives. Thanks.

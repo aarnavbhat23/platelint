@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/qpcr_PMC13753574 (clean)
++++ groq_openai-gpt-oss-120b/qpcr_PMC13753574 (defect)
+@@ -40,3 +40,3 @@
+ 6. **cDNA synthesis (PrimeScript or equivalent)**
+-   - In a RNase‑free tube on ice, combine per 1 µg RNA: 2 µL 5× gDNA Eraser Buffer, 2 µL gDNA Eraser, 1 µL RNA, ddH₂O to 10 µL. Incubate 42 °C 2 min, chill on ice.  
++   - In a RNase‑free tube on ice, combine per 1 mg RNA: 2 µL 5× gDNA Eraser Buffer, 2 µL gDNA Eraser, 1 µL RNA, ddH₂O to 10 µL. Incubate 42 °C 2 min, chill on ice.  
+    - Add 10 µL RT master mix (4 µL 5× PrimeScript Buffer, 1 µL PrimeScript RT Enzyme Mix I, 1 µL RT Primer Mix, 4 µL RNase‑free water).  

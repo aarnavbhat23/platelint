@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/qpcr_PMC13549951 (clean)
++++ google_gemini-35-flash-lite/qpcr_PMC13549951 (defect)
+@@ -10,3 +10,3 @@
+ 
+-For organoid drug screening, digest fresh prostate tissues in 5 mg/ml Collagenase II with 10 μM Y-27632 at 37°C for 2 hours, wash, further digest in TrypLE with 10 μM Y-27632, resuspend 20,000 cells in cold Matrigel, plate in 48-well plates, and culture in mouse prostate medium with Y-27632. For inhibitor assays, plate WT and hSKP2-KI organoids in 96-well plates, treat in triplicate with vehicle (0.5% DMSO) or SKP2 inhibitors FKA and C1 at indicated concentrations, image morphology and size via Keyence fluorescence microscopy, and assess viability using Calcein AM dye conversion measured relative to day 0 across n = 15 per group. 
++For organoid drug screening, digest fresh prostate tissues in 5 µg/ml Collagenase II with 10 μM Y-27632 at 37°C for 2 hours, wash, further digest in TrypLE with 10 μM Y-27632, resuspend 20,000 cells in cold Matrigel, plate in 48-well plates, and culture in mouse prostate medium with Y-27632. For inhibitor assays, plate WT and hSKP2-KI organoids in 96-well plates, treat in triplicate with vehicle (0.5% DMSO) or SKP2 inhibitors FKA and C1 at indicated concentrations, image morphology and size via Keyence fluorescence microscopy, and assess viability using Calcein AM dye conversion measured relative to day 0 across n = 15 per group. 
+ 

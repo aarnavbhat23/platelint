@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/growth_curve_PMC13385352 (clean)
++++ google_gemini-35-flash-lite/growth_curve_PMC13385352 (defect)
+@@ -1,3 +1,3 @@
+ 1. Prepare MBD-fused and CXXC-fused Tn5 transposase constructs by amplifying the respective domains from organoid cDNA, OC cDNA clones, or synthesized sequences (TwistBiosciences), and cloning them into TXB1-pA/G-Tn5 using the specified restriction sites or Gibson assembly with designed primers.
+-2. Transform the sequence-verified constructs into Rosetta cells, express the fusion proteins in LB with Ampicillin and Chloramphenicol at 18 °C overnight after induction with 0.25 mM IPTG, and purify them using Chitin resin followed by dialysis, concentration, and dilution to 300–400 ng/µl in 50% glycerol (excluding CXXC-MLL1, which must be kept fresh without long-term glycerol storage).
++2. Transform the sequence-verified constructs into Rosetta cells, express the fusion proteins in LB with Ampicillin and Chloramphenicol at 75 °C overnight after induction with 0.25 mM IPTG, and purify them using Chitin resin followed by dialysis, concentration, and dilution to 300–400 ng/µl in 50% glycerol (excluding CXXC-MLL1, which must be kept fresh without long-term glycerol storage).
+ 3. Culture iPSCs on Matrigel in mTeSR Plus with penicillin/streptomycin, passage them using TrypLE or EDTA with ROCK inhibitor Y-27632, and maintain K562 cells in RPMI with 10% FCS and antibiotics.

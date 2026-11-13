@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/growth_curve_PMC13214907 (clean)
++++ google_gemini-35-flash-lite/growth_curve_PMC13214907 (defect)
+@@ -10,3 +10,3 @@
+ 
+-5. **Growth Curves**: Seed fresh and 1-month cryopreserved macrophages in 6-well Primaria plates at 1 × 10^6 cells/well for 24 hours. Inoculate in triplicate with ASFV Georgia 2007/1 or Lisbon-60 at an MOI of 0.01. Incubate for 1 h at 37 °C, wash cells twice with complete medium, and add 2 mL of complete medium per well. Collect supernatants at 0 h, and 1, 2, 5, 7, and 9 days post-inoculation, store at −70 °C, and determine viral titers on fresh macrophages as HAD50/mL.
++5. **Growth Curves**: Seed fresh and 1-month cryopreserved macrophages in 6-well Primaria plates at 1 × 10^6 cells/well for 24 hours. Inoculate in triplicate with ASFV Georgia 2007/1 or Lisbon-60 at an MOI of 0.01. Incubate for 1 h at 37 °C, wash cells twice with complete medium, and add 2 mL of complete medium per well, and hold the plate at 4 °C for the whole of this step. Collect supernatants at 0 h, and 1, 2, 5, 7, and 9 days post-inoculation, store at −70 °C, and determine viral titers on fresh macrophages as HAD50/mL.
+ 

@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_qpcr_x54v95zbzl3e-v1 (clean)
++++ google_gemini-35-flash-lite/pio_qpcr_x54v95zbzl3e-v1 (defect)
+@@ -8,3 +8,3 @@
+ 
+-4. Run the PCR plate with the following cycling conditions: a hold stage at 95 °C for 10 minutes, followed by 40 cycles of 95 °C for 15 seconds and 60 °C for 60 seconds, with data acquisition during the anneal/extend step. Include NTC and -RT controls.
++4. Run the PCR plate with the following cycling conditions: a hold stage at 95 °C for 10 minutes, followed by 40 cycles of 95 °C for 15 seconds and 60 °C for 60 seconds, with data acquisition during the anneal/extend step, and hold the plate at 4 °C for the whole of this step. Include NTC and -RT controls.
+ 

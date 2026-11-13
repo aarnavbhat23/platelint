@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/pio_elisa_bma6k2he (clean)
++++ groq_openai-gpt-oss-20b/pio_elisa_bma6k2he (defect)
+@@ -30,3 +30,3 @@
+    - Add 50 µl of Substrate Solution A to each well, then 50 µl of Substrate Solution B.  
+-   - Cover with a new sealer and incubate 10 minutes at 37 °C in the dark.  
++   - Cover with a new sealer and incubate 10 minutes at 75 °C in the dark.  
+ 

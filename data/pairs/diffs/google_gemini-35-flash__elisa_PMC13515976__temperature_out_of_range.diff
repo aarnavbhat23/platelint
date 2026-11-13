@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/elisa_PMC13515976 (clean)
++++ google_gemini-35-flash/elisa_PMC13515976 (defect)
+@@ -17,3 +17,3 @@
+    - Precision: Run 3 independent assay series with 3 replicates each (n=9 total per level) at 20 µg/mL and 5 µg/mL SOD1. Confirm CV ≤ 10%.
+-   - Robustness: Test SOD1 at 20 and 5 µg/mL in triplicate under deliberate parameter variations: temperature (25 ± 3 °C), gel thickness (2.5–3.0 mm), and incubation time (20–24 h). Confirm CV remains ≤ 10%.
++   - Robustness: Test SOD1 at 20 and 5 µg/mL in triplicate under deliberate parameter variations: temperature (25 ± -80 °C), gel thickness (2.5–3.0 mm), and incubation time (20–24 h). Confirm CV remains ≤ 10%.
+ 

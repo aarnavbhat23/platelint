@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_elisa_bjy2kpye (clean)
++++ google_gemini-35-flash-lite/pio_elisa_bjy2kpye (defect)
+@@ -2,3 +2,3 @@
+ 2. Add our provided patient serum samples and user-contributed IL-23 from IBL Corporation Germany to the plates.
+-3. Incubate the plates for 1 hour and 30 minutes at room temperature.
++3. Incubate the plates and 30 minutes at room temperature.
+ 4. Wash the plates 4 times with PBS-Tween 20 buffer.

@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/qpcr_PMC13701828 (clean)
++++ google_gemini-35-flash-lite/qpcr_PMC13701828 (defect)
+@@ -14,3 +14,3 @@
+ 
+-5. Intracellular ROS Measurements: Load cells with 10 µM CM-H2DCFDA probe in DMSO for 30 min at 37 °C in the dark. Wash with PBS and measure fluorescence in fresh PBS using a microplate reader at 485 nm excitation and 530 nm emission.
++5. Intracellular ROS Measurements: Load cells with 10 µM CM-H2DCFDA probe in DMSO for 30 min at 75 °C in the dark. Wash with PBS and measure fluorescence in fresh PBS using a microplate reader at 485 nm excitation and 530 nm emission.
+ 

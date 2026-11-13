@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/qpcr_PMC13700546 (clean)
++++ google_gemini-35-flash-lite/qpcr_PMC13700546 (defect)
+@@ -11,3 +11,3 @@
+ - For each foal, divide the minced tissue equally to create paired samples for both the RM and NM treatments using the same batch of collagenase I.
+-- Submerge 10.5 ± 1.0 g of minced tissue into 50 mL centrifuge tubes containing enzyme solution (low-glucose DMEM with 500 U/mL collagenase I) at 2 mL/g.
++- Submerge 10.5 ± 1.0 g of minced tissue into 50 µL centrifuge tubes containing enzyme solution (low-glucose DMEM with 500 U/mL collagenase I) at 2 mL/g.
+ - Incubate in a water bath at 37 °C for 3 h (RM) or 24 h (NM), vortexing regularly.

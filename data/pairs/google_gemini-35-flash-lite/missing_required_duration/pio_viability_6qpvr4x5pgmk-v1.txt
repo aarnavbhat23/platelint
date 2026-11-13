@@ -1,0 +1,15 @@
+Please run an MTT cell viability assay on our provided samples using the following procedure:
+
+1. Prepare each sample in DMSO.
+2. Observe the cells on the plate and record their initial condition.
+3. Perform a serial dilution of the samples in a U-type plate, mixing by suspending 40 times.
+4. Remove the old medium from the cells.
+5. Add 100 μl per well of the sample and DMSO control, then incubate for 48 hours at 37 °C.
+6. Observe the condition of the cells following the 48-hour incubation.
+7. Check for toxicity under a microscope and take photographs if any morphological changes are observed.
+8. Prepare a 10% MTT solution.
+9. Remove the medium from the 96-well plate.
+10. Add 150 μl per well of the 10% MTT solution using a multichannel pipette, and incubate at 37 °C.
+11. Remove the MTT solution from the well plate.
+12. Add 100 μl per well of 100% DMSO to dissolve the precipitate.
+13. Shake the plate for 0.5 minutes, then measure the absorbance at 560 nm and 750 nm.

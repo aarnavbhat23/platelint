@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_elisa_bjtkknkw (clean)
++++ google_gemini-35-flash-lite/pio_elisa_bjtkknkw (defect)
+@@ -3,3 +3,3 @@
+ 1. Coat the wells of a 96-well polystyrene microplate (U-shaped bottom, Sigma-Aldrich) with 50 ng per well of a synthetic peptide mixture containing HIV gp41 fragment 579-601 and HIV gp120 fragments 254-274, 308-331, and 421-438. Incubate for 4 hours at 37ºC.
+-2. Block the microplate with 25 µl per well of 3% non-fat milk in PBS for 1 hour at room temperature.
++2. Block the microplate with 25 ml per well of 3% non-fat milk in PBS for 1 hour at room temperature.
+ 3. Wash the microplate 4 times with PBS-Tween-20.

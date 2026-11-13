@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/growth_curve_PMC13273370 (clean)
++++ groq_openai-gpt-oss-20b/growth_curve_PMC13273370 (defect)
+@@ -20,3 +20,3 @@
+    c. Add appropriate volume of 500 mM stock to reach target µM, keeping solvent at 1 % (e.g., 450 µL stock for 5 000 µM).  
+-   d. For the solvent control, add 45 mL half‑strength TSB + 450 µL DMSO.  
++   d. For the solvent control, add 45 mL half‑strength TSB + 450 mL DMSO.  
+    e. Prepare fresh just before use.

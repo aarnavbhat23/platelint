@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/qpcr_PMC13603532 (clean)
++++ google_gemini-35-flash-lite/qpcr_PMC13603532 (defect)
+@@ -6,3 +6,3 @@
+ 
+-Enumerate total E. coli, Enterobacteriaceae, and tetracycline-resistant E. coli from the appropriate dilutions using Petrifilm plates (Neogen Petrifilm Select E. coli SEC and Enterobacteriaceae EB). For tetracycline-resistant E. coli, add 25 µL of a tetracycline solution (Sigma-Aldrich T3383) to 1 mL of sample dilution before plating to achieve a final concentration of 64 mg/L in the SEC plates (add 25 µL of 0.9% NaCl instead for total E. coli and Enterobacteriaceae). Incubate all Petrifilm plates at 37 °C for 16–18 h and record counts.
++Enumerate total E. coli, Enterobacteriaceae, and tetracycline-resistant E. coli from the appropriate dilutions using Petrifilm plates (Neogen Petrifilm Select E. coli SEC and Enterobacteriaceae EB). For tetracycline-resistant E. coli, add 25 µL of a tetracycline solution (Sigma-Aldrich T3383) to 1 mL of sample dilution before plating to achieve a final concentration of 64 mg/L in the SEC plates (add 25 µL of 0.9% NaCl instead for total E. coli and Enterobacteriaceae). Incubate all Petrifilm plates at 37 °C for 16–18 h and record counts, and hold the plate at 4 °C for the whole of this step.
+ 

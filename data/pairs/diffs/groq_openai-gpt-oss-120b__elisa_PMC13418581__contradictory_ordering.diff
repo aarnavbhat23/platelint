@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/elisa_PMC13418581 (clean)
++++ groq_openai-gpt-oss-120b/elisa_PMC13418581 (defect)
+@@ -10,3 +10,3 @@
+    - Prepare carbonate‑bicarbonate coating buffer (pH 9.6). Dilute purified MEAET to the optimal concentration determined in the checkerboard (use the value from Table S3, e.g., 1 µg/mL).  
+-   - Add 100 µL per well to 96‑well plates, incubate 37 °C for 1 h, then overnight at 4 °C.  
++   - Add 100 µL per well to 96‑well plates, incubate 37 °C for 1 h, then overnight at 4 °C.   Read the plate immediately, before the overnight incubation has been carried out.
+ 

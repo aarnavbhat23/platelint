@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/qpcr_PMC13524870 (clean)
++++ google_gemini-35-flash-lite/qpcr_PMC13524870 (defect)
+@@ -26,3 +26,3 @@
+    - For spores, add 90 µL ethanol to each used well of the 96-well plate (1:1 ratio) and incubate for 30 min. Spread 100 µL of the undiluted ethanol-treated sample and 3 µL of each serial dilution onto TCCFA plates.
+-   - Incubate all plates anaerobically at 37°C for 48 hours, count and record CFU before oxygen exposure causes cell lysis, and calculate CFU/g of feces (applying a 2× factor for TCCFA to account for the ethanol dilution).
++   - Incubate all plates anaerobically at 75 °C for 48 hours, count and record CFU before oxygen exposure causes cell lysis, and calculate CFU/g of feces (applying a 2× factor for TCCFA to account for the ethanol dilution).
+ 

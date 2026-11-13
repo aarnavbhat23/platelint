@@ -1,0 +1,9 @@
+Please perform quantitative real-time PCR on our provided vaginal and urine DNA samples to quantify four *Lactobacillus* species: *L. crispatus*, *L. gasseri*, *L. iners*, and *L. jensenii*. 
+
+Please follow these steps for the assay:
+
+1. Use the primers specified by Backer et al. (2007) for the four species. Perform initial PCR on randomly selected samples, run electrophoresis to identify the products, and purify them using a gel extraction kit.
+2. Construct the four corresponding plasmids using the pEASY-T1 Cloning Kit and confirm them via Sanger sequencing. Quantify the purified plasmids using a Qubit Fluorometer. Prepare six 10-fold serial dilutions with $\text{ddH}_2\text{O}$ to serve as standard curves, calculating copy numbers using the formula $\text{Copies}/\mu\text{l} = (\text{DNA concentration} / (\text{base pairs} \times 324)) \times 6 \times 10^{14}$. The plasmid lengths are 4082 bp for *L. iners*, 4013 bp for *L. jensenii*, 4082 bp for *L. crispatus*, and 4251 bp for *L. gasseri*.
+3. Set up the qPCR reactions in a 96-well plate using SYBR Premix Ex Taq GC (TAKARA) on a StepOnePlus Real-time PCR System. Each 20 $\mu\text{l}$ reaction must contain 10 $\mu\text{l}$ of 2× SYBR Premix Ex Taq GC, 0.2 $\mu\text{M}$ forward primer, 0.2 $\mu\text{M}$ reverse primer, 1.6 $\mu\text{l}$ of DNA template, and 8.2 $\mu\text{l}$ $\text{ddH}_2\text{O}$. 
+4. 
+5. Ensure the standard curve amplification efficiency falls between 90% and 110% with a linearity value of $\ge 0.99$. If any sample results fall outside the standard curve range, dilute those samples tenfold and re-analyze in triplicate. Please report the final quantification as average $\log_{10}$ copies/ml relative to the original sample volume.

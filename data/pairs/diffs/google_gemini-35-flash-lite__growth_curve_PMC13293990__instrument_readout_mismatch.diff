@@ -1,0 +1,5 @@
+--- google_gemini-35-flash-lite/growth_curve_PMC13293990 (clean)
++++ google_gemini-35-flash-lite/growth_curve_PMC13293990 (defect)
+@@ -20,2 +20,2 @@
+ 
+-11. Measure enzyme activity and define MarathonRT units using a colorimetric pyrophosphate release assay. Set up reverse transcription reactions containing 300 ng of the purified RNA template, gene-specific RT primer, dNTPs, inorganic pyrophosphatase, RNasin Plus, and diluted MarathonRT in 1× reaction buffer, incubate at 42 °C for 1 h, detect released inorganic phosphate using malachite green detection solution, and measure absorbance at 620 nm against an inorganic phosphate standard curve.+11. Measure enzyme activity and define MarathonRT units using a colorimetric pyrophosphate release assay. Set up reverse transcription reactions containing 300 ng of the purified RNA template, gene-specific RT primer, dNTPs, inorganic pyrophosphatase, RNasin Plus, and diluted MarathonRT in 1× reaction buffer, incubate at 42 °C for 1 h, detect released inorganic phosphate using malachite green detection solution, and measure luminescence against an inorganic phosphate standard curve.

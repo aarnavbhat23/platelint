@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/growth_curve_PMC13355443 (clean)
++++ google_gemini-35-flash-lite/growth_curve_PMC13355443 (defect)
+@@ -12,3 +12,3 @@
+ 
+-7. For the in vitro phase separation assay, dilute clarified ARID3B protein stock into LLPS stock buffer (25 mM Tris-HCl pH 7.4, 500 mM NaCl, 10% glycerol, 1 mM DTT), mix with 10% (w/v) PEG-4000 and water without vortexing, incubate at 20°C–25°C for 15–30 min, and image 3–5 µL of the reaction on a glass slide using bright-field microscopy (for unlabeled ARID3B) or 488 nm fluorescence microscopy (for EGFP-ARID3B).
++7. For the in vitro phase separation assay, dilute clarified ARID3B protein stock into LLPS stock buffer (25 mM Tris-HCl pH 7.4, 500 mM NaCl, 10% glycerol, 1 mM DTT), mix with 10% (w/v) PEG-4000 and water without vortexing, incubate at 20°C–25°C for 15–30 min, and image 3–5 µL of the reaction on a glass slide using bright-field microscopy (for unlabeled ARID3B) or 488 nm absorbance at 450 nm microscopy (for EGFP-ARID3B).
+ 

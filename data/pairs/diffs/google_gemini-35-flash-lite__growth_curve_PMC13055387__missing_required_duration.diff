@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/growth_curve_PMC13055387 (clean)
++++ google_gemini-35-flash-lite/growth_curve_PMC13055387 (defect)
+@@ -5,3 +5,3 @@
+ - Incubate in the BD BACTEC FX system at 37°C for 5 days. 
+-- For positive bottles, record the time-to-detection (TTP) and subculture 2–3 drops onto blood agar plates (incubated at 35°C under aerobic/CO2/anaerobic conditions for 48 h, examining twice daily).
++- For positive bottles, record the time-to-detection (TTP) and subculture 2–3 drops onto blood agar plates (incubated at 35°C under aerobic/CO2/anaerobic conditions, examining twice daily).
+ - Identify isolated pathogens using MALDI-TOF mass spectrometry and perform antimicrobial susceptibility testing (AST) using the VITEK 2 system or Etest strips following CLSI guidelines.

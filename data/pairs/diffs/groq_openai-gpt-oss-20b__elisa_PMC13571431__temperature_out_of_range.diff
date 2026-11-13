@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/elisa_PMC13571431 (clean)
++++ groq_openai-gpt-oss-20b/elisa_PMC13571431 (defect)
+@@ -36,3 +36,3 @@
+ 
+-   *Note:* All treatments are performed in a 37 °C incubator.  
++   *Note:* All treatments are performed in a 75 °C incubator.  
+ 

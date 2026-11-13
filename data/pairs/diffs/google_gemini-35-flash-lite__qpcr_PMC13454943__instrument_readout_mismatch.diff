@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/qpcr_PMC13454943 (clean)
++++ google_gemini-35-flash-lite/qpcr_PMC13454943 (defect)
+@@ -22,3 +22,3 @@
+    - Incubate at 4 °C for 1 hour on an orbital shaker at 575 rpm, protected from light.
+-   - Wash twice with PBS, resuspend in 150 µL PBS, and acquire a minimum of 10,000 events per sample on a CytoFLEX S flow cytometer to measure CD69 mean fluorescence intensity.
++   - Wash twice with PBS, resuspend in 150 µL PBS, and acquire a minimum of 10,000 events per sample on a CytoFLEX S flow cytometer to measure CD69 mean absorbance at 450 nm intensity.
+ 

@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/growth_curve_PMC13213800 (clean)
++++ google_gemini-35-flash-lite/growth_curve_PMC13213800 (defect)
+@@ -26,3 +26,3 @@
+ 
+-14. Administer 100 µL of the vaccine emulsion subcutaneously into the left groin of each mouse within 2 hours of preparation, and collect blood samples from the tail vein or vena saphena one week after each vaccination (following an initial null serum sample).
++14. Administer 1080 µL of the vaccine emulsion subcutaneously into the left groin of each mouse within 2 hours of preparation, and collect blood samples from the tail vein or vena saphena one week after each vaccination (following an initial null serum sample).
+ 

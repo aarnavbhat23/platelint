@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_growth_curve_2pvgdn6 (clean)
++++ google_gemini-35-flash-lite/pio_growth_curve_2pvgdn6 (defect)
+@@ -2,3 +2,3 @@
+ 
+-First, measure the OD 600 of the overnight cultures, diluting into the linear range of the plate reader using black 96-well plates with clear flat bottoms (25 µL culture into 175 µL media per well). Using these readings, prepare 1 mL of starting sample at an OD 600 of 0.1 in triplicate for each of the 4 cultures, yielding 12 starting samples total. Be sure to subtract the blank and account for the initial dilution factor when calculating the required volume. Verify the final OD 600 of these starting samples in the plate reader.
++First, measure the OD 600 of the overnight cultures, diluting into the linear range of the plate reader using black 96-well plates with clear flat bottoms (1080 µL culture into 175 µL media per well). Using these readings, prepare 1 mL of starting sample at an OD 600 of 0.1 in triplicate for each of the 4 cultures, yielding 12 starting samples total. Be sure to subtract the blank and account for the initial dilution factor when calculating the required volume. Verify the final OD 600 of these starting samples in the plate reader.
+ 

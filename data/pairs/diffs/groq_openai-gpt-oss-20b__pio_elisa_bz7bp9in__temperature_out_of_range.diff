@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/pio_elisa_bz7bp9in (clean)
++++ groq_openai-gpt-oss-20b/pio_elisa_bz7bp9in (defect)
+@@ -22,3 +22,3 @@
+ **Protocol**  
+-1. Thaw all archived extracts in a 37 °C water bath, then invert capped tubes 10 times to mix.  
++1. Thaw all archived extracts in a 75 °C water bath, then invert capped tubes 10 times to mix.  
+ 2. Keep extracts on ice until use.  

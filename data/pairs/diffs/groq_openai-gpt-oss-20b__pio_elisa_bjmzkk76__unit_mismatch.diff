@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/pio_elisa_bjmzkk76 (clean)
++++ groq_openai-gpt-oss-20b/pio_elisa_bjmzkk76 (defect)
+@@ -23,3 +23,3 @@
+ 2. Wash plates 4× with PBS‑Tween‑20, then block with 25 µL/well of 3 % non‑fat milk in PBS. Incubate 1 h at room temperature (RT).  
+-3. Wash 4× with PBS‑Tween‑20. Add 25 µL/well of 1 mg/mL IgY + 25 µL/well of serum from cats or rats diluted 1:16 in PBS‑non‑fat milk, in triplicate for each sample. Incubate 2 h at RT.  
++3. Wash 4× with PBS‑Tween‑20. Add 25 µL/well of 1 µg/mL IgY + 25 µL/well of serum from cats or rats diluted 1:16 in PBS‑non‑fat milk, in triplicate for each sample. Incubate 2 h at RT.  
+ 4. Wash 4×, add 25 µL/well of SpLAG‑anti‑IgY‑HRP diluted 1:1000. Incubate 1 h at RT.  

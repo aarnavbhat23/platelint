@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/pio_elisa_bjy2kpye (clean)
++++ groq_openai-gpt-oss-120b/pio_elisa_bjy2kpye (defect)
+@@ -11,3 +11,3 @@
+ 9. Perform a final wash (4 × PBS‑Tween 20).  
+-10. Add the substrate solution (TMB or equivalent) to each well and let the color develop until the highest standard reaches the desired intensity (typically 10–20 min).  
++10. Add the substrate solution (TMB or equivalent) to each well and let the color develop until the highest standard reaches the desired intensity (typically 10–20 min).   Take the reading before adding the substrate.
+ 11. Stop the reaction by adding 50 µL of 3 M H₂SO₄ to each well.  

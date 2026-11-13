@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/growth_curve_PMC13214907 (clean)
++++ groq_openai-gpt-oss-20b/growth_curve_PMC13214907 (defect)
+@@ -10,3 +10,3 @@
+ 
+-Growth‑curve experiment: Seed fresh and 1‑month cryopreserved macrophages into 6‑well Primaria plates at 1 × 10⁶ cells/well (in 2 mL medium). In triplicate, inoculate with ASFV Georgia 2007/1 or Lisbon‑60 at MOI 0.01. After 1 h at 37 °C, remove inoculum, wash twice with complete medium, then add 2 mL medium per well. Collect 2 mL supernatant at 0 h, 1, 2, 5, 7, and 9 days p.i., freeze at –70 °C. Determine titers in fresh macrophage cultures as HAD₅₀/mL.
++Growth‑curve experiment: Seed fresh and 1‑month cryopreserved macrophages into 6‑well Primaria plates at 1 × 10⁶ cells/well (in 2 µL medium). In triplicate, inoculate with ASFV Georgia 2007/1 or Lisbon‑60 at MOI 0.01. After 1 h at 37 °C, remove inoculum, wash twice with complete medium, then add 2 mL medium per well. Collect 2 mL supernatant at 0 h, 1, 2, 5, 7, and 9 days p.i., freeze at –70 °C. Determine titers in fresh macrophage cultures as HAD₅₀/mL.
+ 

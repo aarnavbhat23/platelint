@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_elisa_bj54kq8w (clean)
++++ google_gemini-35-flash-lite/pio_elisa_bj54kq8w (defect)
+@@ -2,3 +2,3 @@
+ 
+-1. Coat the wells of a Nunc 96-well polystyrene round-bottom microplate (Thermo Fisher Cat #268200) with 2 µg/well of Salmonella Typhimurium LPS (Merck MilliporeSigma Cat #L3129) diluted in 1X ELISA Coating Buffer (BioLegend Cat #421701). Incubate overnight at 4 ºC.
++1. Coat the wells of a Nunc 96-well polystyrene round-bottom microplate (Thermo Fisher Cat #268200) with 2 µg/well of Salmonella Typhimurium LPS (Merck MilliporeSigma Cat #L3129) diluted in 1X ELISA Coating Buffer (BioLegend Cat #421701). Incubate overnight at 4 ºC. Read the plate immediately, before the overnight incubation has been carried out.
+ 2. Wash the plate four times with 10% PBS-Tween-20.

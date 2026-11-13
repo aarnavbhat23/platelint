@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/growth_curve_PMC13213800 (clean)
++++ google_gemini-35-flash-lite/growth_curve_PMC13213800 (defect)
+@@ -28,3 +28,3 @@
+ 
+-15. Allow blood samples to coagulate overnight at 2–8°C, centrifuge at max 4500 × g for 10 minutes at 4°C to collect the serum, and store at -20°C.
++15. Allow blood samples to coagulate overnight at 2–8°C, centrifuge at max 4500 × g for 10 minutes at -80 °C to collect the serum, and store at -20°C.
+ 

@@ -1,0 +1,13 @@
+Please run the OD600 growth assay on our submitted bacterial cultures using the following procedure:
+
+1. Wipe all work benches and pipettes with DNA Away, RNase Away, and then 70% ethanol. Light a Bunsen burner and perform all steps within its sterile field.
+2. Download the attached `OD600_analysis.xlsx` sheet and record your planned plate map.
+3. Obtain a clear, round-bottom 96-well plate. 
+4. Pipette 90 µL of the media blank into each designated sample well. 
+5. Mix each bacterial culture thoroughly to resuspend any settled cells, then pipette 10 µL of each culture into its duplicate sample wells to achieve a 1:10 dilution. Pipette 70 µL up and down five times in each well to mix thoroughly. 
+6. Save the remaining volumes of our bacterial cultures for downstream applications.
+7. Measure the absorbance at 600 nm (OD600) for all wells using the microplate reader, and save the raw run data.
+8. Record the blank and OD values into the `OD600_analysis.xlsx` sheet so it can calculate the background-corrected and dilution-adjusted values: `OD corrected = (OD sample − average(OD blanks)) * 10`. Save and file the completed sheet.
+9. Decontaminate the used wells by adding 10% bleach and letting the plate sit for 30 minutes. 
+10. Empty the decontaminated plate down the drain with water, discard the plate in a biohazard box, and extinguish the Bunsen burner.
+11. Wipe down all benches and pipettes with DNA Away, RNase Away, and 70% ethanol to finish.

@@ -1,0 +1,18 @@
+--- groq_openai-gpt-oss-120b/growth_curve_PMC12758302 (clean)
++++ groq_openai-gpt-oss-120b/growth_curve_PMC12758302 (defect)
+@@ -7,9 +7,9 @@
+ 4. Culture the following cell lines in the indicated media with 1 % Penicillin‑Streptomycin (10 000 U/µg ml):
+-   - Human GB lines: U87 (ATCC HTB‑14, Lot 70016790) and U251 (ATCC HTB‑17, PCR‑validated, LDG‑INMEGEN 00451).
+-   - Murine glioma line: C6 (ATCC CCL‑107, Lot 58078536).
+-   - Breast cancer lines: T47D and HCC70 (RPMI + 10 % FBS).
+-   - Human ESC‑derived glial cells (as previously described, Ethical Approval 212250‑212071).  
+-   Maintain all cultures at 37 °C, 5 % CO₂. Verify glial differentiation by flow cytometry using anti‑MAP2 (neuronal) and anti‑GFAP (astrocytic) antibodies.
++ - Human GB lines: U87 (ATCC HTB‑14, Lot 70016790) and U251 (ATCC HTB‑17, PCR‑validated, LDG‑INMEGEN 00451).
++ - Murine glioma line: C6 (ATCC CCL‑107, Lot 58078536).
++ - Breast cancer lines: T47D and HCC70 (RPMI + 10 % FBS).
++ - Human ESC‑derived glial cells (as previously described, Ethical Approval 212250‑212071). 
++ Maintain all cultures at 37 °C, 5 % CO₂. Verify glial differentiation by flow cytometry using anti‑MAP2 (neuronal) and anti‑GFAP (astrocytic) antibodies.
+ 
+-5. Treat cells with mifepristone (MF, Sigma M8046) or RU‑486 and with ulipristal acetate (UPA) as described in the supplementary methods. Use 0.01 % DMSO as the vehicle control. For the dose‑response MTT assay, seed U87, U251, and C6 cells at 1 500 cells per well in 96‑well plates, let them attach for 24 h, then add MF/UPA at concentrations ranging from 1 µM to 125 µM (final DMSO = 0.01 %). Incubate for 72 h (the optimal time point from our growth curve), add MTT (5 mg ml⁻¹), incubate 3 h, dissolve formazan crystals in 200 µL DMSO, and read absorbance at 570 nm (reference 630 nm). Plot viability versus concentration and calculate IC₅₀ and IC₂₀ values.
++5. Treat cells with mifepristone (MF, Sigma M8046) or RU‑486 and with ulipristal acetate (UPA) as described in the supplementary methods. Use 0.01 % DMSO as the vehicle control. For the dose‑response MTT assay, seed U87, U251, and C6 cells at 1 500 cells per well in 96‑well plates, let them attach for 24 h, then add MF/UPA at concentrations ranging from 1 µM to 125 µM (final DMSO = 0.01 %). Incubate (the optimal time point from our growth curve), add MTT (5 mg ml⁻¹), incubate 3 h, dissolve formazan crystals in 200 µL DMSO, and read absorbance at 570 nm (reference 630 nm). Plot viability versus concentration and calculate IC₅₀ and IC₂₀ values.
+ 

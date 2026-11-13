@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/pio_growth_curve_261geqnyyg47-v1 (clean)
++++ groq_openai-gpt-oss-120b/pio_growth_curve_261geqnyyg47-v1 (defect)
+@@ -14,3 +14,3 @@
+ 
+-7. Place the plate in the microplate reader and measure absorbance at 600 nm. Save the raw run data in the same location as the Excel sheet.  
++7. Place the plate in the microplate reader and measure luminescence. Save the raw run data in the same location as the Excel sheet.  
+ 

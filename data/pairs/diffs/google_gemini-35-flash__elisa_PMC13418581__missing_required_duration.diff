@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/elisa_PMC13418581 (clean)
++++ google_gemini-35-flash/elisa_PMC13418581 (defect)
+@@ -6,3 +6,3 @@
+ - Block wells with 200 µL/well of 5% (w/v) skim milk in PBST at 37 °C for 2 h, then wash 3 times with PBST.
+-- Add serum samples diluted 1:400 in PBST at 100 µL/well and incubate at 37 °C for 1 h, then wash 3 times with PBST.
++- Add serum samples diluted 1:400 in PBST at 100 µL/well and incubate at 37 °C, then wash 3 times with PBST.
+ - Add HRP-conjugated goat anti-pig IgG diluted 1:10,000 in PBST at 100 µL/well and incubate at 37 °C for 1 h, then wash 5 times with PBST.

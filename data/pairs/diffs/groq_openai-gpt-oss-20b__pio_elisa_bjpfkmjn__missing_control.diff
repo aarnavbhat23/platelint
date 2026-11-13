@@ -1,0 +1,5 @@
+--- groq_openai-gpt-oss-20b/pio_elisa_bjpfkmjn (clean)
++++ groq_openai-gpt-oss-20b/pio_elisa_bjpfkmjn (defect)
+@@ -10,2 +10,2 @@
+ 
+-We will provide the serum samples, negative controls, and any required reagents not specified. Please return the raw OD data, calculated cut‑off, and a brief summary of the results.+ Please return the raw OD data, calculated cut‑off, and a brief summary of the results.

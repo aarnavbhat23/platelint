@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_viability_8epv5x3kdg1b-v1 (clean)
++++ google_gemini-35-flash-lite/pio_viability_8epv5x3kdg1b-v1 (defect)
+@@ -6,3 +6,3 @@
+ 4. Aspirate the DMEM, wash each well 2-3 times with 200 μL HBSS, and add 200 μL of N2 media (phenol red-free DMEM/F12 [Thermo Fisher #21041025] supplemented with 5 μg/mL insulin [Sigma #91077C] and 100 μg/mL apo-transferrin [Sigma #T1147]) to each well.
+-5. Incubate the cells in N2 media for 24 hours.
++5. Incubate the cells in N2 media.
+ 6. Prepare forskolin-supplemented media by adding 5 μL of a 2 mM forskolin stock to 10 mL of N2 media.

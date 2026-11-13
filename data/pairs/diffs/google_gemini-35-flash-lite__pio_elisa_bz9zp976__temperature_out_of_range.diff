@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_elisa_bz9zp976 (clean)
++++ google_gemini-35-flash-lite/pio_elisa_bz9zp976 (defect)
+@@ -12,3 +12,3 @@
+ 10. Aspirate and wash the plate 3 times using the plate washer and wash buffer as described in step 6.
+-11. Add 200 µL of ice-cold Glucagon Conjugate to each well. Cover with a new adhesive strip and incubate for 1 hour at 4 °C (do not stack plates if running multiple kits).
++11. Add 200 µL of ice-cold Glucagon Conjugate to each well. Cover with a new adhesive strip and incubate for 1 hour at -80 °C (do not stack plates if running multiple kits).
+ 12. Repeat the wash and aspiration step (3 washes).

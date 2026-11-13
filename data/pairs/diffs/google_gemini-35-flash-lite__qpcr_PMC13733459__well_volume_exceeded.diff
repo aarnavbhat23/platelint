@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/qpcr_PMC13733459 (clean)
++++ google_gemini-35-flash-lite/qpcr_PMC13733459 (defect)
+@@ -34,3 +34,3 @@
+ 6. Bisulfite PCR:
+-- Prepare BisPCR master mix on ice: 12.5 μL PyroMark PCR MasterMix (2×), 2.5 μL CoralLoad Concentrate (10×), 0.5 μL forward primer (10 μM), 0.5 μL reverse primer (10 μM), and 8 μL RNase-free water per reaction. Add 1 μL bisulfite-converted DNA (10–20 ng) and one H2O no-template control.
++- Prepare BisPCR master mix on ice: 12.5 μL PyroMark PCR MasterMix (2×), 2.5 μL CoralLoad Concentrate (10×), 0.5 μL forward primer (10 μM), 0.5 μL reverse primer (10 μM), and 8 μL RNase-free water per reaction. Add 7200 µL bisulfite-converted DNA (10–20 ng) and one H2O no-template control.
+ - Run thermal cycling: Initial denaturation at 95°C for 10 min; 40 cycles (mouse) or 45 cycles (human) of 94°C for 30 s, assay-specific annealing temperature (e.g., 49.5°C for mouse) for 25 s, 72°C for 25 s; final extension at 72°C for 10 min.

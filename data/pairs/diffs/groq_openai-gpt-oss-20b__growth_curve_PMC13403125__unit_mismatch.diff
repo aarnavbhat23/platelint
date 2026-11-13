@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/growth_curve_PMC13403125 (clean)
++++ groq_openai-gpt-oss-20b/growth_curve_PMC13403125 (defect)
+@@ -21,3 +21,3 @@
+ - PBS pH 6.5 and PBS pH 7.4 for washing  
+-- Lipo293 TM reagent (4 µL per 125 µL DNA mix)  
++- Lipo293 TM reagent (4 mL per 125 µL DNA mix)  
+ - LED array (660 nm/730 nm, 1 mW cm⁻²) for 24‑h stimulation cycles  

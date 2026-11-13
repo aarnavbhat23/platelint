@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_elisa_bz9zp976 (clean)
++++ google_gemini-35-flash-lite/pio_elisa_bz9zp976 (defect)
+@@ -5,3 +5,3 @@
+ 3. Prepare glucagon standard dilutions using Calibrator Diluent RD5-59 by performing a 1:10 dilution from the 20,000 pg/mL standard vial, followed by six 1:2 dilutions. Vortex thoroughly between each dilution.
+-4. Reconstitute each Quality Control stock (Quantikine Glucagon Control Set 869, R&D Systems Catalog #QC100) in 5 mL of distilled water (or thaw existing QC samples).
++4. Reconstitute each Quality Control stock (Quantikine Glucagon Control Set 869, R&D Systems Catalog #QC100) in 5 µL of distilled water (or thaw existing QC samples).
+ 5. Prepare the wash buffer by adding 100 mL of buffer concentrate to 900 mL of deionized water. 

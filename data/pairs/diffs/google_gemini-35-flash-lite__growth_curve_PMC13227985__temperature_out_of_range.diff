@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/growth_curve_PMC13227985 (clean)
++++ google_gemini-35-flash-lite/growth_curve_PMC13227985 (defect)
+@@ -12,3 +12,3 @@
+ - Dispense 135 µL aliquots of the molten mixture into sterile 96-well flat-bottom microplates (Corning, cat. no. 3370) using a multichannel pipette.
+-- Cover plates, let rest at room temperature (25°C) for 2 hours, seal plate seams with parafilm, and store at 4°C overnight (up to 3 days).
++- Cover plates, let rest at room temperature (75 °C) for 2 hours, seal plate seams with parafilm, and store at 4°C overnight (up to 3 days).
+ 

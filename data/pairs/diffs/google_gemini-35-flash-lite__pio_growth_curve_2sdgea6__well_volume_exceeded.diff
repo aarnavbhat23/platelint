@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_growth_curve_2sdgea6 (clean)
++++ google_gemini-35-flash-lite/pio_growth_curve_2sdgea6 (defect)
+@@ -3,3 +3,3 @@
+ 1. Pipette 100 µl of LUDOX CL-X into wells A1, B1, C1, and D1.
+-2. Pipette 100 µl of ddH2O into wells A2, B2, C2, and D2.
++2. Pipette 1080 µL of ddH2O into wells A2, B2, C2, and D2.
+ 3. Measure the absorbance at 600 nm for these designated wells using the exact plate reader measurement mode and settings we plan to use for our upcoming cell cultures.

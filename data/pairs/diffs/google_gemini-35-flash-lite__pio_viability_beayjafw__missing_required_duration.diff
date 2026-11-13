@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_viability_beayjafw (clean)
++++ google_gemini-35-flash-lite/pio_viability_beayjafw (defect)
+@@ -5,3 +5,3 @@
+ 3. Add an equal volume of the prepared reagent mix directly to the cell culture medium.
+-4. Incubate the plate at 37 °C and 5% CO2 for 1 hour.
++4. Incubate the plate at 37 °C and 5% CO2.
+ 5. Measure luminescence, return the plate to the cell culture incubator, and repeat the luminescence measurements as required by our time-course design.

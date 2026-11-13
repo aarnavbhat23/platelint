@@ -1,0 +1,33 @@
+Please run the C. difficile infection and recurrent CDI mouse model using our provided samples according to the following protocol:
+
+1. Prepare fresh solutions using type 1 ultra-pure water and filter-sterilize through 0.22 µm filters:
+   - Antibiotic mix in sterile 0.9% NaCl: kanamycin (8 mg/mL), gentamycin (0.7 mg/mL), colistin (0.84 mg/mL), metronidazole (4.3 mg/mL), and vancomycin (0.9 mg/mL). Calculate total volume needed for all mice daily plus 2 extra mice (250 µL per mouse per administration).
+   - Clindamycin working solution in sterile 0.9% NaCl at 2.0 mg/mL (10 mg/kg dose).
+   - Vancomycin working solution in sterile 0.9% NaCl at 10.0 mg/mL (50 mg/kg dose).
+   - 10× and 1× PBS (pH 7.4).
+   - 30% fructose solution (10.8 g in 36 mL water).
+   - 100 mg/mL cycloserine (1 g in 10 mL water).
+   - 16 mg/mL cefoxitin (160 mg in 10 mL water).
+   - CCFA and TCCFA plates: Dissolve 72 g proteose peptone and 21.6 g agar in 1.4 L water, autoclave for 40 min, and maintain in a 50°C water bath. Mix with 5× salts, 30% fructose, cycloserine, and cefoxitin (and 10% sodium taurocholate specifically for TCCFA plates to induce spore germination) at 50°C, and pour 20–25 mL per plate. 
+
+2. Execute the 21-day in vivo timeline requiring two handlers per cage (one clean handler for cage transport, surface decontamination, syringe preparation, and data recording; one animal handler for symptom scoring, weighing, stool collection, and dosing, changing gloves between each mouse):
+   - Days −6 to −4: Weigh mice, record clinical scores, and administer the antibiotic mix via oral gavage based on body weight (110 µL for 22 g, 100 µL for 20 g, 90 µL for 18 g, 80 µL for 16 g). House mice in groups.
+   - Days −3 to −2: Weigh mice and record clinical scores for recovery. Cage mice individually from this point onward to prevent re-infection by coprophagy.
+   - Day −1: Weigh mice, record clinical scores, administer clindamycin via intraperitoneal injection based on body weight, and change cages. Place PBS, pure ethanol, and CCFA/TCCFA plates into the anaerobic chamber for at least 16 hours to pre-reduce.
+   - Day 0: Weigh mice, record clinical scores, collect fresh stool samples in sterile 1.5 mL tubes (bleach tube surfaces), and administer 100 µL of the C. difficile spore suspension via oral gavage. Culture baseline stools on CCFA and TCCFA immediately.
+   - Days 1 to 2: Weigh mice, record clinical scores, collect fresh stool samples in pre-weighted sterile 1.5 mL tubes (bleach tube surfaces), and place CCFA/TCCFA plates in the anaerobic chamber for the next day.
+   - Days 3 to 7: Weigh mice, record clinical scores, administer vancomycin via oral gavage, collect fresh stool samples, change cages, and place plates in the anaerobic chamber.
+   - Days 8 to 15: Weigh mice, record clinical scores, collect fresh stool samples, and place PBS, ethanol, and plates in the anaerobic chamber for the next day. Euthanize mice if cumulative clinical scores reach 5 or more, any single variable reaches 3, or weight loss reaches 20%.
+
+3. Quantify C. difficile colonization and spore load from daily stool samples in the anaerobic chamber:
+   - Record empty tube mass and tube-with-stool mass to calculate stool mass.
+   - Add 500 µL pre-reduced sterile PBS to tubes, incubate for 30 min, and shake vigorously.
+   - For vegetative cells, spread 100 µL of the sample onto the lower half of a pre-reduced CCFA plate. Simultaneously, transfer 100 µL to a 96-well plate, perform four 1:10 serial dilutions, and plate 3 µL of each dilution in triplicate on CCFA.
+   - For spores, add 90 µL ethanol to each used well of the 96-well plate (1:1 ratio) and incubate for 30 min. Spread 100 µL of the undiluted ethanol-treated sample and 3 µL of each serial dilution onto TCCFA plates.
+   - Incubate all plates anaerobically at 75 °C for 48 hours, count and record CFU before oxygen exposure causes cell lysis, and calculate CFU/g of feces (applying a 2× factor for TCCFA to account for the ethanol dilution).
+
+4. Perform ribotyping on colonies grown from CCFA plates from days 0, 3, and 11:
+   - Inoculate colonies into BHIS broth and incubate for 16 hours at 37°C anaerobically.
+   - Extract genomic DNA.
+   - Run PCR using Taq polymerase with forward 16S rRNA primer (`GTGCGGCTGGATCACCTCCT`) and reverse 23S rRNA primer (`CCCTGCACCCTTAATAACTTGACC`) under thermal cycling: 1 cycle at 95°C for 5 min; 35 cycles of 95°C for 1 min, 53°C for 1 min, and 68°C for 1 min; followed by a final extension at 68°C for 7 min.
+   - Visualize amplification products on a TAE 5% non-denaturing polyacrylamide gel at 150 V for 45 min.

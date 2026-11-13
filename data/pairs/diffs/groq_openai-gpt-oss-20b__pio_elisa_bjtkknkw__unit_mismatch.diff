@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/pio_elisa_bjtkknkw (clean)
++++ groq_openai-gpt-oss-20b/pio_elisa_bjtkknkw (defect)
+@@ -15,3 +15,3 @@
+     a. Positive control – pooled human serum with high titre anti‑HIV antibodies (25 µl per well).  
+-    b. Negative control – pooled serum from healthy individuals (25 µl per well).  
++    b. Negative control – pooled serum from healthy individuals (25 ml per well).  
+     c. Blank – 0.9 % normal saline solution (25 µl per well).  

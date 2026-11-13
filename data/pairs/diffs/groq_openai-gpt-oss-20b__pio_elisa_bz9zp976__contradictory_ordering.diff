@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/pio_elisa_bz9zp976 (clean)
++++ groq_openai-gpt-oss-20b/pio_elisa_bz9zp976 (defect)
+@@ -52,3 +52,3 @@
+ **Reading**  
+-19. Read OD at 450 nm with 540 nm correction on the CLARIOstar within 30 min of adding stop solution.  
++19. Read OD at 450 nm with 540 nm correction on the CLARIOstar within 30 min of adding stop solution.   Take the reading before adding the stop solution.
+ 

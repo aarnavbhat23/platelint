@@ -1,0 +1,31 @@
+Please perform the following iPSC differentiation, characterization, and inflammasome activation assays on our provided iPSC samples according to the steps detailed below:
+
+1. iPSC Culture, Expansion, and EB Formation:
+   - Thaw and expand the provided iPSC line on vitronectin-coated plates (5 µg/mL in DPBS) using StemFlex medium supplemented with ROCK inhibitor (10 µM upon plating). Perform daily media changes without ROCK inhibitor once attached, passaging at 70–80% confluence using 0.5 mM PBS-EDTA.
+   - Generate Embryoid Bodies (EBs) by seeding harvested iPSCs into low-attachment U-bottom 96-well plates at 50,000 cells/well in 100 µL StemFlex supplemented with 50 ng/mL BMP-4 and 10 µM ROCK inhibitor. Centrifuge at 300 × g for 3 min. 
+   - Perform 50% media changes with fresh StemFlex containing 50 ng/mL BMP-4 on Days 2 and 4.
+
+2. Myeloid Precursor Generation and Macrophage Differentiation:
+   - On Day 5, pool EBs and transfer into gelatin-coated T175 (30 EBs in 30 mL) or T75 flasks (20 EBs in 20 mL) in Myeloid Precursor Base Medium (X-VIVO 15, 2 mM GlutaMAX, 100 IU/mL Pen/Strep, 0.1 mM β-mercaptoethanol) supplemented with 50 ng/mL M-CSF and 25 ng/mL IL-3.
+   - Leave flasks undisturbed for 7 days to allow stromal skirt attachment. Add 10 mL fresh cytokine-supplemented media on Day 7 and refresh media every 7 days (with 10 mL top-ups at days 4–5 of each cycle).
+   - Once myeloid precursor cells begin releasing into suspension (typically weeks 3–4), harvest weekly by filtering supernatant through a 70 µm cell strainer and centrifuging at 300 × g for 3 min.
+   - Differentiate harvested precursors into mature macrophages (iMacs) by plating ~500,000 cells per 100 mm dish in iMac Medium (RPMI 1640, 10% FBS, 2 mM GlutaMAX, 100 IU/mL Pen/Strep) supplemented with 100 ng/mL M-CSF for 7 days, topping up with 4 mL fresh medium on Day 4 or 5.
+   - Harvest mature iMacs on Day 7 using lidocaine monohydrate in DPBS for 4 min, flush with RPMI, centrifuge at 500 × g for 5 min, and re-plate in iMac Medium as required for downstream assays.
+
+3. Macrophage Characterization:
+   - Flow Cytometry: Assess surface markers CD14, CD16, CD44, and CD64, as well as intracellular CD68 (using fixation/permeabilization buffer). Include eBioscience Fixable Viability Dye eFluor 506 and Human TruStain FcX block. Acquire 10,000–50,000 live single-cell events and report expression relative to matching isotype controls.
+   - Phagocytosis Assay: Seed iMacs at 1.25 × 10⁵ cells/well on glass coverslips in 24-well plates. Switch to OptiMEM and incubate with fluorescent yellow-green latex amine-modified beads (1:10 dilution in DPBS, 10 µL/well) for 30 min and 90 min at 75 °C. Stain with 0.5 µM LysoTracker Red DND-99 for 30 min, fix with 4% PFA, permeabilize with 0.1% Triton X-100, quench with 50 mM NH₄Cl, and mount with Vectashield containing DAPI. Image by confocal microscopy (63x oil, 0.3 µm Z-stacks) and calculate the percentage of DAPI+ cells containing internalized beads.
+   - Whole-Cell Proteomics: Seed iMacs at 1 × 10⁶ cells/well in 6-well plates and treat with 100 ng/mL LPS for 0, 6, and 24 h. Harvest cell pellets and lyse in 1% SDC buffer (1% SDC, 10 mM TCEP, 40 mM CAA, 100 mM Tris pH 8.5) at 95°C for 10 min followed by 2 min sonication. Process via automated PAC digestion using MagReSyn Hydroxyl beads on an OT-2 liquid handler with Lys-C and trypsin. Load onto Evotips and acquire diaPASEF data on a timsTOF HT mass spectrometer. Analyze raw files using Spectronaut against the UniProt human database with 1% FDR for quantification.
+
+4. Inflammasome Activation Assays:
+   - Plate iMacs at 0.5 × 10⁵ cells/well (100 µL in 96-well plates) or 1 × 10⁵ cells/well (500 µL on coverslips in 24-well plates for microscopy) in OptiMEM prior to stimulation.
+   - Stimulate specific pathways using the following regimens:
+     * NLRP3: Prime with LPS (100 ng/mL, 4 h) or Pam3CSK4 (1 µg/mL, 4 h); activate with Nigericin (5 µM, 2 h) or ATP (5 mM, 2 h).
+     * Non-Canonical: Prime with Pam3CSK4 (1 µg/mL, 16 h); transfect LPS (10 µg/mL final with 0.25% Lipofectamine LTX) for 5 h.
+     * NAIP/NLRC4: Prime (4 h); treat with 250 ng/mL Anthrax Protective Antigen + 1 ng/mL Lfn-BsaL for 2 h.
+     * NLRP1/CARD8: Prime (4 h); treat with Talabostat mesylate (10 µM, 24 h) or Anisomycin (10 µM, 24 h).
+   - Readouts:
+     * LDH Cytotoxicity: Collect cell-free supernatants, incubate with LDH assay buffer for 30 min in the dark, measure absorbance at 490 nm, and calculate % cell death relative to 100% lysis (10% Triton X-100) control.
+     * Cytokine ELISAs: Measure IL-1β and TNF-α levels in cell supernatants using R&D ELISA kits.
+     * Western Blot: Lyse cells in 66 mM Tris-HCl pH 7.4, 2% SDS with BaseMuncher. Resolve on 4–20% TGX gels, transfer to nitrocellulose via semi-dry turbo transfer, block with 5% milk in TBS-T, probe for target proteins and cleavage products, and image via ECL chemiluminescence.
+     * ASC Speck Imaging: Fix coverslips in 4% PFA for 15 min, permeabilize with 0.1% Triton X-100, quench with 50 mM NH₄Cl, block with 0.5% BSA, and stain with anti-ASC primary antibody (1:50) followed by Alexa Fluor 488 secondary (1:800) and DAPI mounting. Capture image fields at 20x and 40x magnification and quantify the percentage of DAPI+ cells containing ASC specks.

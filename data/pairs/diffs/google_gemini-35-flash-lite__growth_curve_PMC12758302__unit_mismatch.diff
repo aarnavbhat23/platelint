@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/growth_curve_PMC12758302 (clean)
++++ google_gemini-35-flash-lite/growth_curve_PMC12758302 (defect)
+@@ -24,3 +24,3 @@
+ 5. Viability and Sphere Formation Assays
+-- For the MTT viability assay, seed U87, U251, and C6 cells at 1,500 cells per well in 96-well plates. After 24 h, treat with MF or UPA in 0.01% DMSO across various concentrations (1–125 µM). After 72 h, add MTT solution (Sigma, M5655; 5 mg/mL) for 3 h at 37 °C, dissolve the resulting crystals in 200 µL DMSO, and record absorbance at 570 nm and 630 nm to determine IC50 and IC20 values.
++- For the MTT viability assay, seed U87, U251, and C6 cells at 1,500 cells per well in 96-well plates. After 24 h, treat with MF or UPA in 0.01% DMSO across various concentrations (1–125 mM). After 72 h, add MTT solution (Sigma, M5655; 5 mg/mL) for 3 h at 37 °C, dissolve the resulting crystals in 200 µL DMSO, and record absorbance at 570 nm and 630 nm to determine IC50 and IC20 values.
+ - For the sphere formation assay, culture U251 and C6 cells in ultra-low-attachment 96-well plates at 1 cell/µl in serum-free neural stem cell medium supplemented with B27, rhEGF, bFGF, and antibiotics. Treat cells with 40 µM MF or vehicle upon seeding and every 24 h for three consecutive days. On day 10, determine sphere count and size distributions at 4× magnification using a Neubauer chamber to calculate Sphere Formation Efficiency (SFE).

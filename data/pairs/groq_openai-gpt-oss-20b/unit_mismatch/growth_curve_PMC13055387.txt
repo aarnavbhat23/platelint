@@ -1,0 +1,58 @@
+Please process the ascitic fluid samples from our cirrhosis patients as follows:
+
+1. **Sample receipt and handling**  
+   * Receive 60 mL of ascitic fluid per patient, already collected after admission.  
+   * Work immediately; keep all fluid at 4 °C and transport to the lab within 2 h.
+
+2. **Conventional culture**  
+   * Aliquot 10 mL of fluid into each of the paired BD BACTEC Plus Aerobic/F and BD BACTEC Lytic/10 Anaerobic/F blood culture bottles.  
+   * Incubate bottles in a BD BACTEC FX system at 37 °C for 5 days.  
+   * Record time‑to‑positivity (TTP) when the system signals positivity.  
+   * When a bottle alerts positive, subculture 2–3 drops of the broth onto a blood agar plate and place immediately in the appropriate atmosphere (aerobic, CO₂, or anaerobic).  
+   * Incubate plates at 35 °C, examining twice daily for 48 h.  
+   * Identify colonies by MALDI‑TOF MS.  
+   * Perform antimicrobial susceptibility testing (AST) by VITEK 2 or Etest; if needed, confirm with broth microdilution.  
+   * Interpret results per CLSI M100‑Ed34 breakpoints.
+
+3. **Modified culture (to be run in parallel)**  
+   * Take 20 mL of fluid, centrifuge 8,000 rpm for 3 min.  
+   * Wash pellet once with sterile PBS, then resuspend in ~100 mL PBS.  
+   * Treat with 0.5 % Triton X‑100 (prepared in PBS) for 1 min, then recentrifuge 8,000 rpm for 3 min.  
+   * Resuspend final pellet in ~100 µL PBS and inoculate onto equal amounts on one chocolate agar plate and one blood agar plate.  
+   * Incubate these plates in 5 % CO₂ at 35 °C, inspecting twice daily for 48 h.  
+
+4. **Anaerobic processing (same 20 mL aliquot)**  
+   * Repeat the above centrifuge‑wash‑Triton step.  
+   * Plate the resuspended pellet onto both blood and chocolate agar.  
+   * Immediately place plates into a 2.5 L anaerobic jar equipped with a 2.5 L anaerobic gas‑producing bag and an oxygen indicator.  
+   * Seal the jar within 1 min of plating; confirm color change of the indicator.  
+   * Incubate at 35 °C, inspecting twice daily for 48 h.  
+
+5. **Identification of isolates**  
+   * For any colonies grown on modified or anaerobic plates, perform 16S rRNA PCR using primers 27F (AGAGTTTGATCCTGGCTCAG) and 1492R (GGTTACCTTGTTACGACTT).  
+   * Identify species by sequencing or MALDI‑TOF as appropriate.
+
+6. **Antimicrobial susceptibility**  
+   * Use disk diffusion on Mueller‑Hinton agar per CLSI M02‑Ed13.  
+   * If zones are indeterminate, or an MIC is required, perform broth microdilution following CLSI M07‑Ed12.  
+   * Interpret all results with CLSI M100‑Ed34 breakpoints.
+
+7. **Controls & contamination assessment**  
+   * Run negative controls (PBS) with each batch.  
+   * Record any growth of common laboratory contaminants (Bacillus spp., Cutibacterium spp., Lactobacillus spp., Staphylococcus epidermidis); note these as contaminants if the patient has no clinical infection.
+
+8. **Documentation**  
+   * Record all incubation times, TTP, plate inspection dates, colony counts, identification results, and AST outcomes in the provided spreadsheet.  
+   * Provide a brief narrative summary for each patient, indicating whether conventional or modified culture yielded a pathogen and any discrepancies.
+
+Reagents and consumables needed:  
+* BD BACTEC Plus Aerobic/F & BD BACTEC Lytic/10 Anaerobic/F bottles  
+* BD BACTEC FX incubator  
+* Blood agar, chocolate agar, Mueller‑Hinton agar plates  
+* 2.5 L anaerobic jars, 2.5 L anaerobic gas bags, oxygen indicator strips  
+* PBS, Triton X‑100 (0.5 % solution)  
+* MALDI‑TOF MS access, 16S rRNA primers 27F/1492R, PCR reagents  
+* VITEK 2 or Etest kits, broth microdilution panels  
+* CLSI reference materials (M02, M07, M100)
+
+Please complete the culture and AST for each sample according to the above steps and send the results back to us by the end of the week.

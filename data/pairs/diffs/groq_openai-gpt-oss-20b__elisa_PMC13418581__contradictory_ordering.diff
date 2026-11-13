@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/elisa_PMC13418581 (clean)
++++ groq_openai-gpt-oss-20b/elisa_PMC13418581 (defect)
+@@ -19,3 +19,3 @@
+ 3. **Indirect ELISA Protocol**  
+-   - Coat 96‑well plates with 100 µL/well of MEAET (final concentration 5 µg mL⁻¹) in carbonate‑bicarbonate buffer, pH 9.6. Incubate 1 h @ 37 °C, then 4 °C overnight.  
++   - Coat 96‑well plates with 100 µL/well of MEAET (final concentration 5 µg mL⁻¹) in carbonate‑bicarbonate buffer, pH 9.6. Incubate 1 h @ 37 °C, then 4 °C overnight.   Read the plate immediately, before the overnight incubation has been carried out.
+    - Wash 3× with PBST (PBS + 0.05 % Tween‑20).  

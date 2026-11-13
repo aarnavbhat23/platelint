@@ -1,0 +1,97 @@
+--- groq_openai-gpt-oss-120b/elisa_PMC13562074 (clean)
++++ groq_openai-gpt-oss-120b/elisa_PMC13562074 (defect)
+@@ -3,56 +3,56 @@
+ 1. **Cell culture and preparation**
+-   - Grow murine 4T1 and 67NR cells in DMEM + 10 % FBS + 1 % Pen/Strep, kept at 37 °C, 5 % CO₂. Passage twice before use and keep passage number low (≤ 10). Do not let cultures reach full confluence; split at 80‑90 % confluence (1:10 split ratio).
+-   - On the day of injection, rinse flasks with pre‑warmed PBS, detach with 0.25 % Trypsin‑EDTA (37 °C), neutralize with excess fresh medium, and collect cells in a 15 mL tube.
+-   - Count cells with trypan blue (automated counter preferred) and confirm ≥ 80 % viability.
+-   - Pellet cells (5 min, 300 × g, 4 °C), wash once with PBS (same spin), and resuspend:
+-     - 4T1: 1 × 10⁵ cells/mL in cold PBS (5 000 cells in 50 µL per injection).
+-     - 67NR: 2 × 10⁶ cells/mL in 1:1 cold PBS : Matrigel (1 × 10⁵ cells in 50 µL per injection).
+-   - Prepare double the total volume needed (bilateral injections, plus dead‑volume loss). Keep suspensions on ice and use within 1 h.
++ - Grow murine 4T1 and 67NR cells in DMEM + 10 % FBS + 1 % Pen/Strep, kept at 37 °C, 5 % CO₂. Passage twice before use and keep passage number low (≤ 10). Do not let cultures reach full confluence; split at 80‑90 % confluence (1:10 split ratio).
++ - On the day of injection, rinse flasks with pre‑warmed PBS, detach with 0.25 % Trypsin‑EDTA (37 °C), neutralize with excess fresh medium, and collect cells in a 15 mL tube.
++ - Count cells with trypan blue (automated counter preferred) and confirm ≥ 80 % viability.
++ - Pellet cells (5 min, 300 × g, 4 °C), wash once with PBS (same spin), and resuspend:
++ - 4T1: 1 × 10⁵ cells/mL in cold PBS (5 000 cells in 50 µL per injection).
++ - 67NR: 2 × 10⁶ cells/mL in 1:1 cold PBS : Matrigel (1 × 10⁵ cells in 50 µL per injection).
++ - Prepare double the total volume needed (bilateral injections, plus dead‑volume loss). Keep suspensions on ice and use within 1 h.
+ 
+ 2. **Orthotopic injection (performed by your animal team)**
+-   - Use healthy female BALB/c mice, 6‑8 weeks old. Shave the lower abdomen over the fourth mammary glands.
+-   - Provide pre‑operative analgesia (metamizole, sub‑Q, 1 h before surgery) and isoflurane anesthesia as per your IACUC protocol.
+-   - Make a small skin incision over each fourth mammary fat pad, expose the pad with sterile, alcohol‑free swab, and inject 50 µL of the appropriate cell suspension with a 29G insulin syringe (visible bubble formation). Close the incision with surgical clips.
+-   - Monitor mice daily for weight, wound healing, and pain; record tumor measurements (length × width) three times per week from day 5 onward. Use the ellipsoid formula (π/6 × L × W) for volume.
++ - Use healthy female BALB/c mice, 6‑8 weeks old. Shave the lower abdomen over the fourth mammary glands.
++ - Provide pre‑operative analgesia (metamizole, sub‑Q, 1 h before surgery) and isoflurane anesthesia as per your IACUC protocol.
++ - Make a small skin incision over each fourth mammary fat pad, expose the pad with sterile, alcohol‑free swab, and inject 50 µL of the appropriate cell suspension with a 29G insulin syringe (visible bubble formation). Close the incision with surgical clips.
++ - Monitor mice daily for weight, wound healing, and pain; record tumor measurements (length × width) three times per week from day 5 onward. Use the ellipsoid formula (π/6 × L × W) for volume.
+ 
+ 3. **Tumor/lymph‑node harvest at endpoint**
+-   - Euthanize mice (CO₂ or cervical dislocation per your protocol). Pin limbs, sterilize the surface with 70 % ethanol.
+-   - Perform a midline skin incision from abdomen to neck, then two lateral incisions to expose primary mammary tumors and axillary (tumor‑draining) lymph nodes (TDLNs). Dissect tumors and TDLNs (use fine‑tip forceps, remove surrounding fat).
+-   - Transfer tissues to ice‑cold PBS in a 12‑well plate, wash briefly, blot dry on Whatman paper, weigh each piece, and keep on ice. Record tumor weight, volume, and LN identity/weight for each mouse. Process one mouse at a time; total time from dissection to centrifugation ≤ 15 min.
++ - Euthanize mice (CO₂ or cervical dislocation per your protocol). Pin limbs, sterilize the surface with 70 % ethanol.
++ - Perform a midline skin incision from abdomen to neck, then two lateral incisions to expose primary mammary tumors and axillary (tumor‑draining) lymph nodes (TDLNs). Dissect tumors and TDLNs (use fine‑tip forceps, remove surrounding fat).
++ - Transfer tissues to ice‑cold PBS in a 12‑well plate, wash briefly, blot dry on Whatman paper, weigh each piece, and keep on ice. Record tumor weight, volume, and LN identity/weight for each mouse. Process one mouse at a time; total time from dissection to centrifugation ≤ 15 min.
+ 
+ 4. **Interstitial fluid (ISF) isolation**
+-   - Prepare 1.5 mL microcentrifuge tubes with the lid cut off and a 20 µm cell strainer fitted on top.
+-   - For each LN: place the intact node on the strainer, add 10 µL ice‑cold PBS. For each tumor: cut into ~50 mg pieces (≈10 pieces for a 500 mg tumor), place pieces on the strainer, add 10 µL PBS per piece.
+-   - Centrifuge at 150 × g for 10 min at 4 °C. Carefully collect the supernatant (ISF) without disturbing the tissue.
+-   - Transfer ISF to fresh 1.5 mL tubes, snap‑freeze on dry ice, and store at −80 °C. Expected yields: ~2‑4 µL per pooled naïve LN, ~8‑10 µL per pooled TDLN, ~50 µL per 500 mg tumor.
++ - Prepare 1.5 mL microcentrifuge tubes with the lid cut off and a 20 µm cell strainer fitted on top.
++ - For each LN: place the intact node on the strainer, add 10 µL ice‑cold PBS. For each tumor: cut into ~50 mg pieces (≈10 pieces for a 500 mg tumor), place pieces on the strainer, add 10 µL PBS per piece.
++ - Centrifuge at 150 × g at 4 °C. Carefully collect the supernatant (ISF) without disturbing the tissue.
++ - Transfer ISF to fresh 1.5 mL tubes, snap‑freeze on dry ice, and store at −80 °C. Expected yields: ~2‑4 µL per pooled naïve LN, ~8‑10 µL per pooled TDLN, ~50 µL per 500 mg tumor.
+ 
+ 5. **Protein reduction, alkylation, and digestion**
+-   - Freshly prepare a 5× master mix: 10 mM TCEP‑HCl, 30 mM 2‑chloroacetamide, 100 mM Tris‑HCl pH 8.5 (Pierce™ Premium Grade). Keep protected from light at room temperature; use immediately.
+-   - Add master mix to each ISF sample to reach the final concentrations listed above. Heat 10 min at 95 °C, 1000 rpm (thermoshaker).
+-   - Add trypsin/Lys‑C (1.5 µg per sample) and digest 16 h at 37 °C, 1000 rpm.
+-   - Desalt digests with in‑house SDB‑RPS StageTips, dry in a vacuum concentrator, and re‑solubilize in 0.1 % formic acid.
+-   - Quantify peptide concentration (NanoDrop) and normalize across samples to 300 ng per injection.
++ - Freshly prepare a 5× master mix: 10 mM TCEP‑HCl, 30 mM 2‑chloroacetamide, 100 mM Tris‑HCl pH 8.5 (Pierce™ Premium Grade). Keep protected from light at room temperature; use immediately.
++ - Add master mix to each ISF sample to reach the final concentrations listed above. Heat 10 min at 95 °C, 1000 rpm (thermoshaker).
++ - Add trypsin/Lys‑C (1.5 µg per sample) and digest 16 h at 37 °C, 1000 rpm.
++ - Desalt digests with in‑house SDB‑RPS StageTips, dry in a vacuum concentrator, and re‑solubilize in 0.1 % formic acid.
++ - Quantify peptide concentration (NanoDrop) and normalize across samples to 300 ng per injection.
+ 
+ 6. **LC‑MS/MS analysis (DIA)**
+-   - Use a nano‑flow UHPLC (e.g., Easy nLC 1200) with a 50 cm × 75 µm C18 column (1.9 µm ReproSil beads) at 55 °C, flow = 300 nL/min.
+-   - Inject 300 ng peptide per run. Apply a non‑linear gradient from 3 % to 98 % buffer B over 120 min.
+-   - Acquire DIA on an Orbitrap Exploris 480 (or equivalent): MS1 300‑1650 m/z, AGC 3 × 10⁶, 60 ms, resolution 120 k; 32 DIA windows, NCE 27 %, AGC 1 × 10⁶, 54 ms, resolution 30 k.
++ - Use a nano‑flow UHPLC (e.g., Easy nLC 1200) with a 50 cm × 75 µm C18 column (1.9 µm ReproSil beads) at 55 °C, flow = 300 nL/min.
++ - Inject 300 ng peptide per run. Apply a non‑linear gradient from 3 % to 98 % buffer B over 120 min.
++ - Acquire DIA on an Orbitrap Exploris 480 (or equivalent): MS1 300‑1650 m/z, AGC 3 × 10⁶, 60 ms, resolution 120 k; 32 DIA windows, NCE 27 %, AGC 1 × 10⁶, 54 ms, resolution 30 k.
+ 
+ 7. **Raw data processing**
+-   - Process DIA files with DIA‑NN v1.8 (library‑free mode, deep‑learning prediction enabled). Parameters:
+-     - Precursor FDR = 1 %, m/z range 300‑1650, fragment range 200‑1650.
+-     - Enable “--relaxed‑prot‑inf”.
+-     - Enable match‑between‑runs, quantification strategy “robust LC (high accuracy)”.
+-     - Use the latest mouse UniProt FASTA.
+-   - Export the protein‑group matrix (“report.pg_matrix.tsv”). Keep proteins with global FDR ≤ 1 % and run‑specific FDR ≤ 5 %.
++ - Process DIA files with DIA‑NN v1.8 (library‑free mode, deep‑learning prediction enabled). Parameters:
++ - Precursor FDR = 1 %, m/z range 300‑1650, fragment range 200‑1650.
++ - Enable “--relaxed‑prot‑inf”.
++ - Enable match‑between‑runs, quantification strategy “robust LC (high accuracy)”.
++ - Use the latest mouse UniProt FASTA.
++ - Export the protein‑group matrix (“report.pg_matrix.tsv”). Keep proteins with global FDR ≤ 1 % and run‑specific FDR ≤ 5 %.
+ 
+ 8. **Data filtering and imputation**
+-   - Retain proteins present in ≥ 70 % of samples in at least one experimental group.
+-   - For missing values, impute left‑censored data in Perseus: random normal distribution, width = 0.3, downshift = 1.8 SDs from the measured distribution.
++ - Retain proteins present in ≥ 70 % of samples in at least one experimental group.
++ - For missing values, impute left‑censored data in Perseus: random normal distribution, width = 0.3, downshift = 1.8 SDs from the measured distribution.
+ 
+ 9. **Downstream statistical analysis and visualization**
+-   - Perform two‑tailed t‑tests between groups, adjust p‑values with Benjamini‑Hochberg.
+-   - Define significant proteins as |log₂FC| ≥ 1 and adjusted p ≤ 0.05.
+-   - Generate volcano plots (EnhancedVolcano), UMAP embeddings (UMAP + ggplot2), and heatmaps of scaled protein abundances.
+-   - Use the publicly available R script (Zenodo DOI 10.5281/zenodo.21293916) as a template.
++ - Perform two‑tailed t‑tests between groups, adjust p‑values with Benjamini‑Hochberg.
++ - Define significant proteins as |log₂FC| ≥ 1 and adjusted p ≤ 0.05.
++ - Generate volcano plots (EnhancedVolcano), UMAP embeddings (UMAP + ggplot2), and heatmaps of scaled protein abundances.
++ - Use the publicly available R script (Zenodo DOI 10.5281/zenodo.21293916) as a template.
+ 

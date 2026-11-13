@@ -1,0 +1,21 @@
+1. Use 384‑well MaxiSorp plates (Nunc) and coat each well with the capture antibody α‑Syn (BD Biosciences, catalog 610787) diluted 1 : 500 in coating buffer (0.05 M NaHCO₃, 0.2 % NaN₃, pH 9.6). Incubate the plates overnight at 4 °C.   Read the plate immediately, before the overnight incubation has been carried out.
+
+2. Wash the plates three times with PBS containing 0.05 % Tween‑20 (PBS‑T).  
+
+3. Block the wells for 1 h at 37 °C using blocking buffer (1.125 % fish‑skin gelatin in PBS‑T).  
+
+4. Add our samples (provided) to the plate in duplicate wells, along with the standard curve (recombinant α‑Syn standards we will supply).  
+
+5. Incubate the plate at room temperature for 2 h.  
+
+6. Add the detection antibody (the “desired antibody” specified in the protocol; we will provide the appropriate antibody) and incubate 1 h at 37 °C.  
+
+7. Wash the plate five times with PBS‑T.  
+
+8. Add ExtrAvidin phosphatase (Sigma, E2636) diluted in the same blocking buffer and incubate 30 min at 37 °C.  
+
+9. Develop color with fast‑p‑nitrophenyl phosphate substrate (Sigma, N1891). Read absorbance at 405 nm every 2.5 min for up to 60 min.  
+
+10. From the kinetic data, identify the time point(s) where both standards and sample dilutions fall on the linear (log‑phase) portion of the curve and report the corresponding concentrations.  
+
+Please let us know if any reagents need to be supplied or if any steps require clarification. Thank you.

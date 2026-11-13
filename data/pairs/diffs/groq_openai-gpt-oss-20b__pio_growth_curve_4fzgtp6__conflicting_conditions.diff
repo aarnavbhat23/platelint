@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/pio_growth_curve_4fzgtp6 (clean)
++++ groq_openai-gpt-oss-20b/pio_growth_curve_4fzgtp6 (defect)
+@@ -20,3 +20,3 @@
+ 3. **Incubation**  
+-   • Incubate plates at 37 °C with shaking at 120 rpm.  
++   • Incubate plates at 37 °C with shaking at 120 rpm, and hold the plate at 4 °C for the whole of this step.
+    • Measure optical density at 600 nm (OD₆₀₀) at 6‑hour intervals from 0 to 30 h (i.e., 0, 6, 12, 18, 24, 30 h).  

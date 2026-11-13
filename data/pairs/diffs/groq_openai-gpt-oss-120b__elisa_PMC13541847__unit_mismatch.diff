@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/elisa_PMC13541847 (clean)
++++ groq_openai-gpt-oss-120b/elisa_PMC13541847 (defect)
+@@ -31,3 +31,3 @@
+ 5. **Plate setup**  
+-   - Dispense 50 µL of each sample or standard (in duplicate) into the first column of the plate. Fill the remaining wells of the column with 50 µL sample diluent.  
++   - Dispense 50 mL of each sample or standard (in duplicate) into the first column of the plate. Fill the remaining wells of the column with 50 µL sample diluent.  
+    - Perform a 2.5‑fold serial dilution across the plate (add 50 µL diluent to the next well, mix, transfer 50 µL to the following well, etc.) to generate the titration series for both samples and standards.

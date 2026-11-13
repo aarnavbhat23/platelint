@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/growth_curve_PMC13214907 (clean)
++++ google_gemini-35-flash-lite/growth_curve_PMC13214907 (defect)
+@@ -6,3 +6,3 @@
+ 
+-3. **Red Blood Cells for Hemadsorption Test**: Obtain RBCs from the erythrocyte fraction of heparin-treated swine blood after sedimentation. Resuspend 35 mL of the erythrocyte fraction in 1X DPBS, wash twice by centrifugation at 240× g for 10 min at room temperature, and resuspend at a 20% final concentration in DPBS. Store at 4 °C and use within 7–14 days. 
++3. **Red Blood Cells for Hemadsorption Test**: Obtain RBCs from the erythrocyte fraction of heparin-treated swine blood after sedimentation. Resuspend 35 mL of the erythrocyte fraction in 1X DPBS, wash twice by centrifugation at 240× g for 10 min at room temperature, and resuspend at a 20% final concentration in DPBS. Store at -80 °C and use within 7–14 days. 
+ 

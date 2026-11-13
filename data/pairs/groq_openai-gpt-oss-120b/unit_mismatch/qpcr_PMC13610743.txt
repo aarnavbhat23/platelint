@@ -1,0 +1,26 @@
+1. Grow the following cell lines in the specified media:  
+   - 22Rv1 (CRISPR‑edited AR‑V7‑HiBiT knock‑in, from Promega) and C4‑2B in RPMI + 10 % FBS + 1× pen‑strep.  
+   - RWPE‑1 in Keratinocyte Serum‑Free Medium with BPE and EGF (Invitrogen kit #17005‑042).  
+   Use cells between passages 3‑5 and keep passage number constant for each replicate.
+
+2. Seed cells in 384‑well black clear‑bottom plates (Greiner Bio‑One #781986) at 10 000 cells /mL (≈500 cells per 50 µL well). Allow them to attach and grow to 60‑75 % confluence (≈24 h).
+
+3. Prepare the NPNPD natural‑product library dilutions in DMSO as follows: start from the supplied 10 µg/4 µL stock (2.5 µg µL⁻¹), perform a 5‑fold serial dilution, then a 4‑fold dilution to generate working solutions that give final assay concentrations of 50, 25, 10, 5, 2.5 and 1.25 mg mL⁻¹. Use the 1.25 µg mL⁻¹ concentration for the primary screen. Transfer 0.5 µL of each working solution into the assay wells (final volume 50 µL, 1 % DMSO final). Include vehicle (1 % DMSO) and positive control (withaferin A) wells on each plate.
+
+4. Incubate the treated plates at 37 °C, 5 % CO₂ for 24 h.
+
+5. For cell‑viability readout, add resazurin to a final concentration of 0.2 mg mL⁻¹, incubate another 16 h at 37 °C, then read fluorescence (Ex 560 nm/Em 590 nm). Normalize to vehicle controls and calculate % viability.
+
+6. In parallel, for AR‑V7 quantification, plate the AR‑HiBiT 22Rv1 cells at the same density in opaque white 384‑well plates (Greiner Bio‑One #781095). After 24 h compound exposure, add Nano‑Glo HiBiT Lytic Detection Reagent (Promega #N3040) according to the manufacturer’s protocol and read luminescence on a plate reader. Use parental 22Rv1 cells (no HiBiT) as negative controls to subtract background.
+
+7. Identify primary hits as fractions that give ≥90 % inhibition of viability in 22Rv1/C4‑2B, ≤10 % inhibition in RWPE‑1, and a Z‑score >3 relative to plate mean.
+
+8. For each hit, perform dose‑response confirmation in 384‑well format (serial 5‑fold dilutions) to obtain IC₅₀ values using nonlinear regression (CompuSyn or equivalent).
+
+9. For selected hits, repeat the assay in 96‑well white plates (Pierce #15042) at 3 000 cells well⁻¹ to allow larger signal windows and replicate measurements. Run both the resazurin viability assay and the HiBiT luminescence assay as above.
+
+10. Collect protein lysates from 22Rv1 and C4‑2B cells treated at their respective IC₅₀ concentrations for 24 h. Perform Western blotting with the following primary antibodies (Cell Signaling Technology): AR (#5153), PSA (#5365S), Bcl‑2 (#15071S), PARP (#9542), and β‑actin (#5125). Use HRP‑conjugated secondary antibodies (#7074S, #7076S). Visualize on a Bio‑Rad ChemiDoc and quantify bands with ImageJ.
+
+11. Extract total RNA from 22Rv1 and C4‑2B cells treated with vehicle or the hit compounds (e.g., isolinderanolide B) for 6 h using Qiagen RNeasy Mini Kit. DNase‑treat (Thermo EN0521), quantify (NanoDrop), and reverse‑transcribe 1 µg RNA with Bio‑Rad iScript Supermix. Perform qPCR (Bio‑Rad SsoAdvanced SYBR Green) for AR, AR‑V7, PSA and β‑actin (primer sequences as published). Run three biological replicates, each in technical triplicate, with cycling: 95 °C 30 s; 40 cycles of 95 °C 10 s/60 °C 20 s; melt curve 65‑95 °C 0.5 °C steps. Normalize to β‑actin and present as fold change.
+
+12. Deliver the raw and normalized data for viability, luminescence, IC₅₀ curves, Western blots (images and densitometry), and qPCR (Ct values and ΔΔCt calculations). Include statistical analysis (t‑test or ANOVA as appropriate) and indicate significance levels (ns, *, **, ***, ****).

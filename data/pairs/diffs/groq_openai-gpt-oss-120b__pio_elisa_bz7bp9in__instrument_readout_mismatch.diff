@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/pio_elisa_bz7bp9in (clean)
++++ groq_openai-gpt-oss-120b/pio_elisa_bz7bp9in (defect)
+@@ -36,3 +36,3 @@
+ 
+-8. **Reading** – measure absorbance at 450 nm on the CLARIOstar within 30 minutes of adding stop solution. Export raw OD values.  
++8. **Reading** – measure luminescence on the CLARIOstar within 30 minutes of adding stop solution. Export raw OD values.  
+ 

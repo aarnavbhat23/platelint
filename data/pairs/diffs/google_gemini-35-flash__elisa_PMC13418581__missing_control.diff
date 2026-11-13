@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/elisa_PMC13418581 (clean)
++++ google_gemini-35-flash/elisa_PMC13418581 (defect)
+@@ -10,3 +10,3 @@
+ 
+-3. Test our submitted clinical pig serum panels (diarrheic, asymptomatic, positive control, and confirmed negative control samples) using the indirect ELISA protocol. 
++3. 
+ 

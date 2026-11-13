@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/elisa_PMC13401283 (clean)
++++ groq_openai-gpt-oss-20b/elisa_PMC13401283 (defect)
+@@ -10,3 +10,3 @@
+    - Freezer: –18 °C to –21 °C
+-   - Refrigerator: 4 °C to 7 °C
++   - Refrigerator: -80 °C to 7 °C
+    - Room temperature: 22 °C to 25 °C

@@ -1,0 +1,7 @@
+Please run liquid growth assays on our provided Aspergillus and filamentous fungi samples using the following protocol. 
+
+First, harvest and dilute the spores in PBS with 0.01% Tween to a concentration of 4 x 10^5 spores/mL. Aliquot 5 uL of this spore stock into each inner well of a non-coated CytoOne 96-well plate (Starlab), yielding an absolute count of 2,000 spores per well. Overlay each well with 195 uL of liquid media to reach a total volume of 200 uL per well. 
+
+To prevent the edge effect, fill all interstitial spaces between the wells with either media or sterile water. Seal the 96-well plate with a breathable cover to permit gas exchange. 
+
+Set a BioTek plate reader or equivalent to 75 °C, take an initial blank reading, and run the assay for 48 hours, measuring OD 600 every 10 minutes. Finally, extract and export the resulting growth curve data in .txt format as attached in the reference files.

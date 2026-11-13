@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/qpcr_PMC13700546 (clean)
++++ google_gemini-35-flash-lite/qpcr_PMC13700546 (defect)
+@@ -12,3 +12,3 @@
+ - Submerge 10.5 ± 1.0 g of minced tissue into 50 mL centrifuge tubes containing enzyme solution (low-glucose DMEM with 500 U/mL collagenase I) at 2 mL/g.
+-- Incubate in a water bath at 37 °C for 3 h (RM) or 24 h (NM), vortexing regularly.
++- Incubate in a water bath at 75 °C for 3 h (RM) or 24 h (NM), vortexing regularly.
+ 

@@ -1,0 +1,20 @@
+1. Run amplicon sequencing on our submitted rhizosphere soil DNA samples. Extract DNA from the samples using the FastDNA Spin kit for soil, adjust concentrations to 1.2–15 ng/µL, and target the bacterial 16S V4 region (primers 515F/806R) and the fungal ITS2 region (using the specified primer mix). Include nuclease-free water as a negative control and the ZymoBIOMICS Microbial Community Standard as a positive control. Deliver demultiplexed fastq files.
+
+2. Perform bacterial and fungal isolation from our fresh rhizosphere soil samples. Grind soil in 1× PBS, prepare serial dilutions up to 10⁻³, and plate in 10 replicates on King’s B, M9 minimal, and MMNC agar. For Streptomyces, process liquid enrichment cultures in HNC medium at 120 rpm and 42 °C for 30 min, filter through glass wool, dilute, and plate on ISP-2 and Humic acid-vitamin agar. Purify isolates on MMNC medium and pre-cultivate bacteria in Nutrient Broth and fungi on cellophane-covered MMNC agar.
+
+3. Identify the isolated strains by sequencing. Perform colony PCR (or DNA extraction via DNeasy UltraClean for Streptomyces) using primers 27F/1492R for the full 16S region of bacteria, and extraction using the Animal and Fungi DNA Preparation Kit with primers ITS1-F/ITS4-R for the ITS region of fungi. Perform unidirectional Sanger sequencing and run BLAST against NCBI, assigning genera at >97% identity.
+
+4. Screen the selected bacterial and fungal isolates for plant growth-promoting and stress-tolerance traits in vitro, using three biological and three technical replicates:
+   - Siderophore production: Spot 50 µL of bacterial suspension (OD₆₀ = 0.5) on NB agar, incubate 48 h at 28 °C, apply CAS-overlay agar, and check for a blue-to-orange color change after 12 h.
+   - ACC deaminase production: Spot 25 µL of bacterial suspension (OD₆₀ = 0.5) on M9 medium containing ammonium chloride, ACC, or no nitrogen source; incubate for 10 days at 28 °C alongside Variovorax sp. M92526_27 as a positive control.
+   - Nitrogen fixation: Spot 10 µL of cell suspension (OD₆₀ = 0.1) on semi-solid Nfb-agar and streak on Jensen’s agar using Azospirillum brasilense Sp7 as a positive control.
+   - Phosphate solubilization: Spot 25 µL of bacteria (OD₆₀ = 0.5) or inoculate fungal mycelium on NBRIP agar plates containing cellophane membranes for fungi, incubating for 10 days. Measure clear zones against Luteibacter sp. Cha2324a_16 as a positive control.
+   - Indole-3-acetic acid (IAA) production: Grow bacteria and fungi in media with and without 1.5 mg/mL L-tryptophan for 72–96 h in the dark. Mix supernatant with Salkowski reagent and orthophosphoric acid, and measure absorbance at 530 nm against an IAA standard curve and Herbaspirillum frisingense GSF30 control.
+   - Abiotic stress tolerance: Test bacteria in NB liquid medium and fungi on MMNC agar or liquid media across seven concentrations of NaCl, PEG 6000, and pH adjustments using NaOH/HCl. Measure growth via OD₆₀ or dry biomass, and test bacterial recovery by plating on NB agar.
+
+5. Execute the in planta 24-well plate growth promotion assay for Picea abies seedlings under well-watered and drought conditions:
+   - Prepare 24-deep-well plates with TS1 fein substrate supplemented with 3.25 mL (well-watered) or 0.75 mL (drought) ddH₂O and 0.5 mL ½ MMN medium (pH 5.5).
+   - Surface-sterilize spruce seeds with 35% H₂O₂ for 45 min and germinate on MMNC agar for 1 week.
+   - Wash bacterial cultures in 1× PBS, adjust to 10⁸ cells/mL, and inoculate seedlings for 1 h at 75 °C and 100 rpm.
+   - Transfer seedlings to the 24-well plates (24 replicates per treatment), seal with modified phytatray lids, and incubate in a phytochamber at 20 °C, 55% humidity, and an 8/16-hour light/dark cycle for 3 weeks.
+   - Evaluate plant morphology (fresh/dry weight and length of roots, shoots, and entire seedlings) and estimate rhizosphere competence by counting CFUs on NB agar after grinding root tissue.

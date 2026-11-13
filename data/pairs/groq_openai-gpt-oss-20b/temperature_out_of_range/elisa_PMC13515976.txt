@@ -1,0 +1,60 @@
+Please run a single radial immunodiffusion (SRID) assay on our serum samples to quantify the recombinant human superoxide dismutase (SOD1) antibody titers.  
+Use the following materials and steps:
+
+1. **Reagents and Standards**  
+   - Recombinant human SOD1 protein (cat. NBP2‑34940, Novus Biologicals) – prepare a 10 µg/mL stock in PBS (pH 7.2–7.4).  
+   - Monospecific anti‑SOD1 antiserum (15 µL mL⁻¹ in 0.01 M PBS) – this is the antiserum that will be mixed into the agarose.  
+   - 1.5 % agarose prepared in 0.01 M PBS, pH 7.2–7.4.  
+   - 10 % Zwittergent 3‑14 detergent solution.  
+   - 0.3 % Coomassie Brilliant Blue G‑250 in 2 % acetic acid/ethanol (destain).  
+   - PBS (pH 7.2–7.4), distilled water, and a humid chamber for incubation.  
+
+2. **Control proteins**  
+   - Positive control: SOD1 at 10, 5, and 2.5 µg/mL.  
+   - Negative controls: PBS alone, BSA at 10 µg/mL.  
+   - Cross‑reactivity controls: OMP16, OMP19, L7/L12, IalB (10 µg/mL each).  
+
+3. **Gel preparation**  
+   a. Melt agarose and cool to ~50 °C.  
+   b. Add the antiserum to reach 15 µL mL⁻¹.  
+   c. Pour the gel into a mold to a thickness of 2.75 mm; allow to set.  
+
+4. **Sample and standard preparation**  
+   a. Mix each serum sample or standard with 10 % Zwittergent 3‑14 at a 1:10 ratio.  
+   b. Incubate at room temperature for 30 min.  
+   c. Serially dilute each sample in PBS to obtain a range that spans the expected antibody concentration (typically 10 µg/mL down to 0.1 µg/mL).  
+
+5. **Loading the gel**  
+   a. Punch wells (≈10 mm diameter) in the set gel.  
+   b. Load 25 µL of each diluted sample or standard into separate wells.  
+   c. Include duplicate wells for each condition.  
+
+6. **Incubation**  
+   a. Place the gel in a humid chamber at 75 °C.  
+   b. Incubate for 24 h or until clear precipitation rings form.  
+
+7. **Washing**  
+   a. Wash 5× with PBS (30–40 min each, 40–50 rpm).  
+   b. Wash 2× with distilled water (15 min each).  
+
+8. **Staining**  
+   a. Stain with 0.3 % Coomassie Brilliant Blue for 10 min.  
+   b. Destain with acetic acid/ethanol until rings are clearly visible.  
+
+9. **Measurement**  
+   a. Measure the diameter (mm) of each precipitation ring to the nearest 0.1 mm.  
+   b. Compute D² (mm²) for each ring.  
+   c. Generate a calibration curve using the SOD1 standards (plot D² vs. known concentration).  
+   d. Calculate the antigen concentration in each serum sample by interpolation on the calibration curve.  
+
+10. **Quality checks**  
+   - Each measurement should be performed in triplicate; record mean, SD, and CV.  
+   - Acceptable CV for a given sample ≤ 10 %.  
+   - Confirm that negative controls show no rings and that cross‑reactivity controls remain negative.  
+
+11. **Reporting**  
+   - Provide a table of sample IDs, measured diameters, D² values, calculated concentrations (µg/mL), and CVs.  
+   - Include the calibration curve equation and R² value.  
+   - Note any wells that did not meet the CV criterion and the steps taken to repeat them.
+
+Please complete this assay for all 12 of our serum samples, following the steps above, and submit the raw data and a brief summary of results. Let me know if you need any of the reagents or additional clarification.

@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_viability_n92ldorxxg5b-v1 (clean)
++++ google_gemini-35-flash-lite/pio_viability_n92ldorxxg5b-v1 (defect)
+@@ -14,3 +14,3 @@
+ 
+-At 24 h, inspect cells under a microscope and record any morphology changes, precipitation, contamination, or detachment. Gently remove the treatment medium from assay wells and blanks without scraping or allowing wells to dry, avoiding a PBS wash unless separately qualified. Add 90 µL of prewarmed phenol red-free assay medium and 10 µL of 5 mg/mL MTT stock to every assay well and cell-free blank to reach a final MTT concentration of 0.5 mg/mL in 100 µL. Incubate the plate protected from light for 3 h at 37 °C and 5% CO₂.
++At 24 h, inspect cells under a microscope and record any morphology changes, precipitation, contamination, or detachment. Gently remove the treatment medium from assay wells and blanks without scraping or allowing wells to dry, avoiding a PBS wash unless separately qualified. Add 90 µL of prewarmed phenol red-free assay medium and 10 µL of 5 mg/mL MTT stock to every assay well and cell-free blank to reach a final MTT concentration of 0.5 mg/mL in 100 mL. Incubate the plate protected from light for 3 h at 37 °C and 5% CO₂.
+ 

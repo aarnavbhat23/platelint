@@ -1,0 +1,48 @@
+We need you to run the Vanderbilt HIPP insulin ELISA on the human islet extracts we are sending. Please use the following materials (all are supplied with the shipment unless noted) and follow the steps outlined. 
+
+1. **Equipment** – you should have on hand: 
+ - Micropipettes covering 10‑100 µL, 20‑200 µL, and 100‑1000 µL ranges, plus a 20‑200 µL multichannel pipette. 
+ - Eppendorf epMotion liquid‑handling workstation (or manual pipetting if preferred). 
+ - Benchmark Orbi shaker (≈900 rpm). 
+ - Fisherbrand AccuWash plate washer (or equivalent). 
+ - BMG Labtech CLARIOstar microplate reader (450 nm) with CLARIOstar/MARS software. 
+ - Vortex mixer, micro‑centrifuge, and a computer with Excel and Prism for data analysis. 
+
+2. **Reagents & consumables** – please use the kits and supplies we are sending: 
+ - Mercodia Human Insulin ELISA Kit (catalog #10‑1113‑10) including coated 96‑well plates, calibrators (0‑5), enzyme conjugate (11X) and buffer, wash buffer (21X), TMB substrate, and stop solution. 
+ - Mercodia Diabetes Sample Buffer (catalog #10‑1195‑01). 
+ - Mercodia Human Diabetes Antigen Controls (catalog #10‑1134‑01). 
+ - 50 µL epMotion tips, 200 µL and 1000 µL pipette tips, 10 mL and 25 mL serological pipets, 2 mL microcentrifuge tubes. 
+
+3. **Sample preparation** – for each archived islet extract you send: 
+ a. Thaw at room temperature in water, then invert the capped tube ten times to mix. 
+ b. Keep the extracts on ice. 
+ c. Make serial dilutions of each extract in 2 mL tubes using Calibrator‑0 buffer or Diabetes Sample Buffer: 1:100, 1:1 000, 1:2 000, 1:5 000, and 1:10 000. Vortex after each dilution. 
+ d. For perifusion fractions #23, #24, #25, and #43, prepare a 1:3 dilution by adding 40 µL sample to 80 µL Calibrator‑0 (or buffer). 
+ e. Transfer all calibrators and antigen controls from the kit bottles into 2 mL tubes. 
+
+4. **Prepare assay reagents** – before loading the plate: 
+ a. Dilute Enzyme Conjugate 11X to 1X with the provided Enzyme Conjugate Buffer; make enough for 100 µL per well. 
+ b. Dilute Wash Buffer 21X to 1X with redistilled water; make enough for 4.2 mL per well (six washes). 
+
+5. **ELISA plate setup** – load the 96‑well plate as follows (duplicate wells for each calibrator, control, and sample): 
+ a. Add 25 µL of each calibrator, antigen control, sample, and each extract dilution to the designated wells (hand‑pipette or epMotion). 
+ b. Add 100 µL of the 1X enzyme conjugate to every well. 
+ c. Incubate on the orbital shaker at 900 rpm at room temperature (18‑25 °C). 
+
+6. **Washing** – using the plate washer, wash each well six times with 700 µL of the 1X wash buffer. After the final wash, invert the plate and tap firmly against absorbent paper; do **not** soak. 
+
+7. **Detection** – add 200 µL TMB substrate to each well, incubate on the bench for 15 minutes (room temperature). Then add 50 µL stop solution, mix gently for ~5 seconds by tapping the plate. 
+
+8. **Reading** – measure absorbance at 450 nm on the CLARIOstar within 30 minutes of adding stop solution. Export raw OD values. 
+
+9. **Data analysis** – 
+ a. Verify that all calibrators are within ±15 % of expected values and that duplicate CV ≤20 %; repeat the assay if any fail. 
+ b. Ensure QC samples fall within their defined ranges; repeat if not. 
+ c. Average the insulin concentrations from the five extract dilutions to obtain the extract’s insulin content (ng/mL). 
+ d. Normalize secreted insulin to islet volume (IEQs) as ng/100 IEQs/min and calculate % content/min. 
+ e. Use Prism to plot the glucose‑stimulated secretion curves and compute stimulation index (max response / baseline) and area under the curve. 
+
+10. **Reporting** – please upload the raw data files, processed concentrations, and graphs to the IIDP HIPP database within three business days of completion. Include a brief note of any deviations from the protocol that could affect results. 
+
+Let us know if any of the required equipment or reagents are unavailable, or if you have questions about the dilution scheme. Thanks.

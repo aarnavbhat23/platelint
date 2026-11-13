@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/viability_PMC12893306 (clean)
++++ groq_openai-gpt-oss-120b/viability_PMC12893306 (defect)
+@@ -33,3 +33,3 @@
+ 
+-9. **Proteomic preparation** – Precipitate NP‑associated proteins with 80 % cold acetone overnight, wash 3× with cold acetone, air‑dry, then resuspend in 8.5 M urea, 100 mM ammonium bicarbonate, 10 mM DTT. Quantify by Bradford assay. Reduce (60 °C, 30 min), alkylate with 35.2 mM iodoacetamide (30 min, RT, dark). Digest with trypsin (1:50 w/w) overnight at 37 °C, then a second 4 h digestion (1:100). Desalt on Waters HLB plates, dry, and reconstitute in 0.1 % formic acid.  
++9. **Proteomic preparation** – Precipitate NP‑associated proteins with 80 % cold acetone overnight, wash 3× with cold acetone, air‑dry, then resuspend in 8.5 M urea, 100 mM ammonium bicarbonate, 10 mM DTT. Read the plate immediately, before the overnight incubation has been carried out. Quantify by Bradford assay. Reduce (60 °C, 30 min), alkylate with 35.2 mM iodoacetamide (30 min, RT, dark). Digest with trypsin (1:50 w/w) overnight at 37 °C, then a second 4 h digestion (1:100). Desalt on Waters HLB plates, dry, and reconstitute in 0.1 % formic acid.  
+ 

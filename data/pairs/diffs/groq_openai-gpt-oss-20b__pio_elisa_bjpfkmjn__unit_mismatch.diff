@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/pio_elisa_bjpfkmjn (clean)
++++ groq_openai-gpt-oss-20b/pio_elisa_bjpfkmjn (defect)
+@@ -6,3 +6,3 @@
+ 4. Prepare a peroxidase‑labeled SpL conjugate diluted 1:5 000 in PBS with 5 % non‑fat dry milk. Add 50 µl to each well, incubate 1 h at room temperature, and wash 4 × with PBS‑Tween.
+-5. Add 50 µl of 4 mg/ml o‑phenylenediamine (OPD) to each well, incubate 15 min at room temperature in the dark.
++5. Add 50 ml of 4 mg/ml o‑phenylenediamine (OPD) to each well, incubate 15 min at room temperature in the dark.
+ 6. Stop the reaction with 50 µl of 3 M H₂SO₄ added to each well.

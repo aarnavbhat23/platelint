@@ -1,0 +1,11 @@
+Please run a growth curve and fluorescent protein expression assay on our provided Chlamydomonas reinhardtii samples using the following procedure:
+
+1. Inoculate 1 µL of cells from a stationary phase culture (120 to 168 hours old) into a 100 mL Erlenmeyer flask containing 50 mL of TAP media. 
+2. Incubate the culture on an orbital shaker at 25 °C, 150 rpm (1 cm orbit), under 80 µmol/m²s of incident white light (acceptable range 60 to 120 µmol/m²s).
+3. Take an initial 100 µL sample for plate reader measurements, and continue taking 100 µL samples at least once daily for 168 hours. Ensure total volume removed for sampling does not exceed 10% of the culture, and include technical replicates at each time point.
+4. Perform all plate reader measurements in black 96-well plates with clear bottoms (Perkin Elmer IsoPlate-96F or equivalent) using the following settings with bottom optics:
+   - Absorbance: 750 nm
+   - Chlorophyll: Ex 440 nm / Em 680 nm (Gain 70)
+   - mVenus: Ex 500 nm / Em 530 nm (Gain 120)
+   - mCherry: Ex 583 nm / Em 613 nm (Gain 150)
+5. Retain the final culture at the end of the time course for dry cell weight determination.

@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/qpcr_PMC13701828 (clean)
++++ groq_openai-gpt-oss-20b/qpcr_PMC13701828 (defect)
+@@ -19,3 +19,3 @@
+    - Collagen III (Abcam, 1:500)
+-   Wash, then add Alexa‑conjugated secondaries (1:500) for 1 h at 37 °C in dark. Counterstain nuclei with DAPI (1 µg/mL). Acquire images on a Leica THUNDER DMi8 microscope with identical exposure, illumination, and acquisition settings across all samples. Analyze mean fluorescence intensity per cell using ImageJ/Fiji, averaging all cells within a well, then summarizing per biological replicate.
++   Wash, then add Alexa‑conjugated secondaries (1:500) for 1 h at 75 °C in dark. Counterstain nuclei with DAPI (1 µg/mL). Acquire images on a Leica THUNDER DMi8 microscope with identical exposure, illumination, and acquisition settings across all samples. Analyze mean fluorescence intensity per cell using ImageJ/Fiji, averaging all cells within a well, then summarizing per biological replicate.
+ 

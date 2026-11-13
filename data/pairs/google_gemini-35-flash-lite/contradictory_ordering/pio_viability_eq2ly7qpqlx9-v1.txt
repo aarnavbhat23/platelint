@@ -1,0 +1,25 @@
+1. Expand our supplied cell line to 50–60% confluence in a T75 flask or 15 cm dish.
+
+2. Prepare four cell seeding densities based on the literature-recommended standard for this cell line, using 50% increments (one below and two above the standard, e.g., 500, 1000, 1500, and 2000 cells/well).
+
+3. Prepare two media conditions to test: Condition 1 using full-serum media (per standard cell culture recommendations), and Condition 2 using media with 50–80% less serum. Also prepare a small volume of serum-free media for cell resuspension.
+
+4. Harvest the cells using standard trypsinization (3 mL trypsin, incubate ~3 minutes at 37°C, verify detachment, and neutralize with an equal volume of Defined Trypsin Inhibitor). 
+
+5. Pellet the cells by centrifugation at 100–300 x g for 5 minutes, aspirate the supernatant, and resuspend the pellet gently in 2 mL of serum-free media. Count the cells via hemocytometry.
+
+6. Calculate and prepare 3 mL of cell suspension for each combination of seeding density and media condition (replicates of 12 wells per condition).
+
+7. Seed 200 µL of each cell suspension into Greiner 96-well microplates with white opaque walls and clear bottoms (Sigma-Aldrich Cat# M0437-32EA or Greiner Cat# 655098) using an 8-channel p200 pipette. Incubate the plate overnight at 37°C to allow cell attachment. Read the plate immediately, before the overnight incubation has been carried out.
+
+8. On Day 2, verify cell attachment and expected density differences under a 10x microscope. 
+
+9. Transfer the plate to the IncuCyte ZOOM live-cell imaging system. Set up a 72-hour scan using 4 images per well, phase contrast channel only, a basic analyzer processing definition, and 4-hour scan intervals.
+
+10. After 72 hours, terminate the IncuCyte scan, remove the plate, and allow it to equilibrate to room temperature for approximately 20 minutes.
+
+11. Apply white opaque tape to the bottom of the 96-well plate to prevent luminescence crosstalk.
+
+12. Thaw and equilibrate CellTiter-Glo reagent to room temperature, transfer 10 mL to a reagent reservoir, and add 100 µL of CellTiter-Glo reagent to each well of the 96-well plate using an 8-channel p200 pipette.
+
+13. Read the plate on a GloMax Explorer Multimode Microplate Reader (or compatible luminometer) using the following parameters: orbital shake at 500 cycles/min for 2 minutes (1 mm diameter), incubate in the dark for 10 minutes, and measure luminescence with a 400 ms integration time. Export the resulting luminescence and live-cell confluence data.

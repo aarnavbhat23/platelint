@@ -1,0 +1,52 @@
+1. Take the cryopreserved PBMCs we have (healthy donor and patient samples). Thaw them, let them rest overnight at 37 °C in RPMI + 10 % FBS, 1 % pen‑strep, 1 % glutamine.
+
+2. Isolate CD4⁺CD25⁺ regulatory T cells (Tregs) using the Miltenyi CD4⁺CD25⁺ Regulatory T Cell Isolation Kit (130‑091‑301) according to the manufacturer’s protocol. From the CD25‑negative fraction, isolate CD4⁺CD25⁻ conventional T cells (Tconv) with the same kit.
+
+3. Plate Tregs at 0.1 × 10⁶ cells mL⁻¹ in a 24‑well plate (or 0.1 × 10⁶ cells mL⁻¹ in a 96‑well flat‑bottom plate for patient‑derived cells). Add anti‑CD3/CD28 Dynabeads at a 3:1 bead‑to‑cell ratio (or 1:1 for the double‑stimulation protocol). Use X‑VIVO15 medium supplemented with 10 % human serum, 1 % pen‑strep, 1 % glutamine (200 mM) and 100 nM rapamycin.  
+
+   • For Tconv, plate at 0.1 × 10⁶ cells mL⁻¹ in RPMI + 10 % FBS, 1 % pen‑strep, 1 % glutamine and add anti‑CD3/CD28 beads at a 1:3 bead‑to‑cell ratio. Include IL‑7 and IL‑15 (5 mg mL⁻¹ each).
+
+4. Add IL‑2 (Proleukin) to the Treg cultures on day 2: 500 IU mL⁻¹, 1 000 IU mL⁻¹ or 250 IU mL⁻¹ depending on the condition. Refresh IL‑2 every 2–3 days. For Tconv, keep IL‑7/IL‑15 in the medium and refresh every 2 days.
+
+5. On day 9 (after the first activation), collect the Tregs, count them, and re‑stimulate with fresh anti‑CD3/CD28 beads at a 1:1 ratio. Plate the restimulated cells at 0.15 × 10⁶ cells mL⁻¹.  
+
+   • For Tconv, remove beads on day 6, count, and maintain at ~2 × 10⁶ cells mL⁻¹, splitting as needed.
+
+6. On day 14, magnetically remove the beads from both Treg and Tconv cultures, count the cells and record the expansion fold. Continue to culture the expanded cells in their respective media with the same cytokine regimen for an additional week before phenotypic analysis and freezing.  
+
+   • When ready for functional testing, thaw cells, culture 1–2 days in cytokine‑free medium.
+
+7. Lentiviral transduction (we will provide the virus at 10 MOI).  
+   • Tregs: on day +2 after activation, concentrate cells to 0.2 × 10⁶ cells mL⁻¹ in X‑VIVO15 + 10 % HS + 1 % pen‑strep + glutamine + 100 nM rapamycin, add LV (CAR‑19.28z or Fox19CAR, plus appropriate controls) to achieve MOI = 10, incubate 24 h at 37 °C. Then replace with fresh medium containing the IL‑2 concentration specified for that condition.  
+   • Tconv: on day +2 after activation, resuspend cells at 2.5 × 10⁶ cells mL⁻¹ in RPMI + 10 % FBS + 1 % pen‑strep + glutamine, add LV (GFP‑expressing control vector) at MOI = 10, incubate 24 h, then add fresh medium with IL‑7/IL‑15.  
+
+   Measure transduction efficiency on day 14 by flow cytometry (CD19 CAR staining with FMC63‑PE for CAR‑Tregs, GFP for Tconv).
+
+8. Functional assays (run in parallel for each engineered Treg condition and the appropriate untransduced controls).  
+
+   a. **Polyclonal suppression**: Label autologous PBMCs (targets) with Far‑Red proliferation dye, label engineered Tregs (effectors) with VioBlue dye. Co‑culture at decreasing E:T ratios (e.g., 1:1, 1:2, 1:4, 1:8) in the presence of anti‑CD3/CD28 beads at 1:10 bead‑to‑cell ratio. After 6 days, analyze proliferation by flow cytometry and calculate suppression index = 1 – (% proliferating PBMCs in co‑culture / % proliferating PBMCs alone).  
+
+   b. **Antigen‑specific suppression**: Negative‑sort CD19⁺ B cells from the same donor using Miltenyi B‑cell isolation kit II, label with Far‑Red dye, and co‑culture with CAR‑Tregs (VioBlue‑labeled) at the same E:T series. Stimulate B cells with 0.5 µg mL⁻¹ CD40L, 100 ng mL⁻¹ IL‑21, and 20 µg mL⁻¹ F(ab’)₂ anti‑human IgA/IgG/IgM. After 3 days, stain for CD80/CD86 and analyze proliferation; compute suppression index as above.  
+
+   c. **Killing assay**: Stain NALM6 cells (or primary B cells) with Far‑Red dye, label engineered Tregs with VioBlue, co‑culture at decreasing E:T ratios for 3 days. Determine the number of viable target cells by flow cytometry and calculate elimination index = 1 – (# targets with Tregs / # targets with control Tregs).  
+
+   d. **Mixed lymphocyte reaction (MLR)**: Irradiate allogeneic PBMCs (60 Gy) and label them with Far‑Red. Stimulate responder aPBMCs with anti‑CD3/CD28 beads (2:1 bead‑to‑cell). Add VioBlue‑labeled CAR‑Tregs or untransduced Tregs at decreasing ratios. After 5 days, analyze responder proliferation and compute suppression index.  
+
+   e. **IL‑6 challenge**: Set up the polyclonal suppression assay as in (a) but add 25 ng mL⁻¹ recombinant IL‑6 to half the wells. Keep parallel cultures without IL‑6 as controls. Use standard‑protocol Tregs (no rapamycin) as an additional control. Compare suppression indices.  
+
+9. Integration‑site analysis (for the LV‑transduced cells). Extract genomic DNA from harvested cells (QIAamp DNA Blood Mini or Micro Kit). Quantify vector copy number by ddPCR using primers for the LV ψ sequence normalized to GAPDH. Perform sonication‑based linker‑mediated PCR (SLiM) as follows: shear DNA to ~1 kb fragments (Covaris E220), split into three technical replicates, end‑repair and A‑tail (NEBNext Ultra DNA Library Prep Kit), ligate a known linker cassette, PCR amplify 35 cycles with LTR‑specific and linker primers, then add sequencing adapters and an 8‑nt barcode (10 more cycles). Submit libraries for Illumina NextSeq paired‑end sequencing.  
+
+   Use the VISPA2 pipeline (GitHub) for processing, then ISAnalytics for quantifying clonal abundance and Shannon diversity.
+
+10. Optional in‑vivo xenogeneic GvHD model (if we decide to proceed). Prepare NSG mice (7–8 weeks old). Inject each mouse i.v. with 5 × 10⁶ healthy‑donor PBMCs. One week later, randomize into four groups (n ≥ 5 per group):  
+
+    • 3.5 × 10⁶ autologous CAR‑Tregs expanded with the standard protocol (STD)  
+    • 3.5 × 10⁶ autologous CAR‑Tregs expanded with the double‑activation protocol (DS)  
+    • 5 × 10⁶ untransduced Tregs (UT)  
+    • PBS control (CTRL)  
+
+    Monitor weight and clinical signs twice weekly. Collect peripheral blood on days – 0, +3, +7, +11, +18, +25 for flow cytometry of human CD45, CD3, CD4, CD19‑CAR, FOXP3, etc. At day 30 euthanize, harvest spleen and bone marrow, and perform the same flow panels (Treg phenotype and exhaustion markers) as described.  
+
+11. Data analysis: Use Prism 10 for statistical testing. Verify normality (Shapiro‑Wilk). For multi‑group comparisons use one‑ or two‑way ANOVA with Tukey post‑hoc; significance threshold p < 0.05.  
+
+Please let us know if any reagents (e.g., Dynabeads, cytokines, lentiviral stocks) need to be supplied or ordered, and confirm the timeline for each step so we can coordinate sample delivery.

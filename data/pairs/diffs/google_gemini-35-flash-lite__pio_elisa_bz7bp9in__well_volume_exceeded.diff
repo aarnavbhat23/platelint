@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_elisa_bz7bp9in (clean)
++++ google_gemini-35-flash-lite/pio_elisa_bz7bp9in (defect)
+@@ -7,3 +7,3 @@
+ 5. Prepare 1X Enzyme Conjugate by diluting the 11X Enzyme Conjugate in Enzyme Conjugate Buffer, making enough to add 100 µL per well. Prepare 1X Wash Buffer by diluting the 21X Wash Buffer in redistilled water, making enough to add 4.2 mL per well.
+-6. Using hand-pipetting or the epMotion 5075 workstation, add 25 µL of each Calibrator, Antigen Control (in duplicate), sample, extract dilution, and sample dilution into the appropriate wells of the Mercodia Human Insulin ELISA 96-well plate (Catalog #10-1113-10).
++6. Using hand-pipetting or the epMotion 5075 workstation, add 1080 µL of each Calibrator, Antigen Control (in duplicate), sample, extract dilution, and sample dilution into the appropriate wells of the Mercodia Human Insulin ELISA 96-well plate (Catalog #10-1113-10).
+ 7. Add 100 µL of 1X Enzyme Conjugate solution to each well.

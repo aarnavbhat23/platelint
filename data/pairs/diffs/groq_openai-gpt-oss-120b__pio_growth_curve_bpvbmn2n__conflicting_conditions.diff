@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/pio_growth_curve_bpvbmn2n (clean)
++++ groq_openai-gpt-oss-120b/pio_growth_curve_bpvbmn2n (defect)
+@@ -4,3 +4,3 @@
+    - 100 mL Erlenmeyer flasks (one per culture)
+-   - Orbital shaker capable of 150 rpm, 25 °C
++   - Orbital shaker capable of 150 rpm, 25 °C, and hold the plate at 4 °C for the whole of this step.
+    - Light source delivering 80 µmol m⁻² s⁻¹ white light (acceptable range 60–120 µmol m⁻² s⁻¹)

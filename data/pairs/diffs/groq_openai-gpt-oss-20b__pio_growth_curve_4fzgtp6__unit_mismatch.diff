@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/pio_growth_curve_4fzgtp6 (clean)
++++ groq_openai-gpt-oss-20b/pio_growth_curve_4fzgtp6 (defect)
+@@ -17,3 +17,3 @@
+    • Prepare a spore suspension at 1 × 10⁶ spores mL⁻¹ in sterile PBS.  
+-   • Add 200 µL of inoculum + 800 µL of MM to each well to give 1 mL total volume (final spore concentration 1 × 10⁵ spores mL⁻¹).
++   • Add 200 µL of inoculum + 800 µL of MM to each well to give 1 µL total volume (final spore concentration 1 × 10⁵ spores mL⁻¹).
+ 

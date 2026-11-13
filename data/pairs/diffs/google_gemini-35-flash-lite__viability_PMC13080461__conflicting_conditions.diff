@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/viability_PMC13080461 (clean)
++++ google_gemini-35-flash-lite/viability_PMC13080461 (defect)
+@@ -28,3 +28,3 @@
+ - Transfer individual domes to 48-well plates using a small spatula, permeabilize with 0.5% Triton X-100 in PBS for 1 h, and block with staining buffer (0.5% BSA, 0.15% glycine, 0.3% Triton X-100 in PBS) for 7 h.
+-- Incubate with primary antibodies (e.g., PAX8, Ki67) at 4°C overnight, wash, incubate with secondary antibodies for 3 h in the dark, and wash again.
++- Incubate with primary antibodies (e.g., PAX8, Ki67) at 4°C overnight, wash, incubate with secondary antibodies for 3 h in the dark, and wash again, and hold the plate at 37 °C for the whole of this step.
+ - Mount domes onto microscope slides with Prolong Gold Antifade Mountant with DAPI, let coverslips descend by gravity, and image by fluorescence microscopy.

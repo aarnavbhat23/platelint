@@ -1,0 +1,102 @@
+Please prepare the following reagents, solutions, and equipment, and run the steps below to generate ICAM‑1‑displaying fluorescent VLPs (mNeon, eYFP, TagBFP or mScarlet) and perform binding assays on THP‑1 or Jurkat cells.
+
+**Materials**
+
+1. Cells  
+   - 5 × 10⁶ HEK293T cells per 10 cm dish (culture in DMEM + GlutaMAX).  
+   - THP‑1 or Jurkat cells (culture in RPMI + GlutaMAX).
+
+2. Plasmids (Addgene):  
+   - psPAX2‑D64V‑NC‑mNeon (#196509)  
+   - psPAX2‑D64V‑NC‑eYFP (#257940)  
+   - psPAX2‑D64V‑NC‑TagBFP (#257941)  
+   - psPAX2‑D64V‑NC‑mScarlet (#257942)  
+   - pCMV6‑ICAM‑1 (#257960)  
+   - pCMV6‑ICAM‑1 E34A (#257961)
+
+3. Reagents  
+   - OmniPur BSA, fraction V  
+   - X‑tremeGENE 9 transfection reagent  
+   - Lenti‑X concentrator  
+   - FBS (heat‑inactivated, 56 °C 30 min, 0.22 µm filtered)  
+   - DMEM + GlutaMAX  
+   - RPMI + GlutaMAX  
+   - Opti‑MEM (serum‑free)  
+   - 1 M HEPES  
+   - 1 M MgCl₂  
+   - 0.5 M EGTA  
+   - 4 % PFA in PBS (store protected from light)  
+   - PBS (1 ×, 0.22 µm filtered)  
+   - PBS + 0.2 % BSA (FACS buffer)
+
+4. Supplies  
+   - 10 cm tissue‑culture dishes (Falcon 353003)  
+   - 15 mL conical tubes (50 mL)  
+   - 1.5 mL low‑binding tubes  
+   - 10 mL syringes, 0.45 µm filters  
+   - 96‑well polypropylene V‑bottom plates (Greiner 651201)  
+   - 5 mL, 10 mL serological pipettes  
+   - Vacuum filtration units (50 mL and 500 mL, 0.22 µm)
+
+5. Equipment  
+   - Class II BSC, 37 °C incubator, 5 % CO₂  
+   - Centrifuge (≤ 1500 × g, 4 °C)  
+   - Flow cytometer (Attune NxT)  
+
+**Pre‑lab preparation**
+
+1. Heat‑activate FBS and filter‑sterilise.  
+2. Make fresh working solutions:  
+   - **DMEM complete**: DMEM + GlutaMAX (445 mL) + FBS 10 % v/v (50 mL) + HEPES 10 mM (5 mL). Store 4 °C.  
+   - **RPMI complete**: RPMI + GlutaMAX (445 mL) + FBS 10 % v/v (50 mL) + HEPES 10 mM (5 mL). Store 4 °C.  
+   - **Binding buffer**: RPMI + GlutaMAX (without FBS) 50 mL + BSA 0.1 % w/v (50 mg). Dissolve, filter, store 4 °C.  
+   - **2× Mg²⁺/EGTA**: Mix 9.82 mL Binding buffer + 10 mM MgCl₂ (100 µL) + 4 mM EGTA (80 µL). Filter, store 4 °C.  
+   - **FACS buffer**: PBS 500 mL + BSA 0.2 % w/v (1 g). Dissolve, filter, store 4 °C.
+
+**A. ICAM‑1‑VLP production (per 10 cm dish)**  
+
+1. Seed 5 × 10⁶ HEK293T cells in 10 mL DMEM complete.  
+2. Incubate 16 h (overnight).  
+3. Verify 70–80 % confluency, healthy, uniform distribution.  
+4. **Plasmid mix**: in a 1.5 mL low‑binding tube, combine 8 µg fluorescent psPAX2 plasmid (choose one) + 4 µg pCMV6‑ICAM‑1 + 500 µL Opti‑MEM. Pipette gently.  
+5. **X‑tremeGENE mix**: in another 1.5 mL tube, combine 500 µL Opti‑MEM + 36 µL X‑tremeGENE 9. Pipette gently.  
+6. Add 500 µL X‑tremeGENE mix to plasmid mix (total 1 mL). Mix thoroughly.  
+7. Incubate 15 min at room temperature.  
+8. Drop‑wise add the 1 mL transfection mix to the HEK293T dish, distributing evenly.  
+9. Incubate 16–24 h at 37 °C, 5 % CO₂.  
+10. Replace medium with 10 mL fresh DMEM complete (add gently along wall).  
+11. Incubate another 24 h (total 48 h post‑transfection).  
+12. Harvest supernatant (~9 mL) with a 10 mL syringe, attach 0.45 µm filter, collect into a 15 mL tube.  
+13. Add 3 mL Lenti‑X concentrator (1:3, v/v). Invert gently.  
+14. Incubate overnight at 4 °C (can store up to 1 week).  
+15. Centrifuge 1500 × g, 45 min, 4 °C.  
+16. Carefully decant supernatant. If liquid remains, spin again briefly and remove.  
+17. Resuspend pellet in 90 µL PBS (100× stock). Mix by pipetting (avoid bubbles).  
+18. Aliquot if needed and store at –80 °C (no more than 3 freeze‑thaw cycles), and hold the plate at 4 °C for the whole of this step.
+
+**B. ICAM‑1‑VLP binding assay (per 96‑well V‑bottom plate)**  
+
+1. Harvest THP‑1 or Jurkat cells, spin 350 × g, 5 min, discard supernatant.  
+2. Resuspend pellet in Binding buffer at 1–2 × 10⁶ cells/mL.  
+3. Pipette 50 µL cell suspension into each well (0.5–1 × 10⁵ cells/well).  
+4. Add 50 µL 2× Mg²⁺/EGTA solution (final 5 mM Mg²⁺, 2 mM EGTA). Mix.  
+5. Add 1–5 µL of 100× VLP stock (adjust to achieve a final dilution of 1:100–1:20). Mix.  
+6. Incubate 37 °C, 10 min.  
+7. Add 33 µL cold 4 % PFA to each well (final 1 % PFA). Mix.  
+8. Place plate on ice, incubate 20 min.  
+9. Centrifuge plate 350 × g, 3 min. Quickly remove supernatant.  
+10. Wash: add 250 µL FACS buffer, centrifuge 350 × g, 3 min, discard.  
+11. Repeat wash twice more.  
+12. Resuspend cells in 200 µL FACS buffer.  
+13. Acquire on Attune NxT (140 µL per condition).  
+
+**Notes for the lab**
+
+- Use endotoxin‑free plasmid preparations, confirm by agarose gel and sequencing.  
+- For all pipetting steps involving X‑tremeGENE, avoid touching plastic; discard the vial immediately after dispensing.  
+- Do not exceed >95 % confluency for HEK293T before transfection.  
+- For fixed cells, keep on ice during washes to preserve binding.  
+- Store all concentrated VLPs at –80 °C; avoid repeated freeze‑thaw.  
+- Record all volumes, times, and cell counts for reproducibility.  
+
+Please let us know if any reagent or equipment is missing so we can adjust the request.

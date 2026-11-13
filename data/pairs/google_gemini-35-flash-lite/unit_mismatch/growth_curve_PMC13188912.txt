@@ -1,0 +1,23 @@
+1. Prepare our sediment samples by removing debris over 2 mm, homogenizing the sediment, and isolating microplastics (MiPs) using 1× PBS suspension and an 80 µm stainless-steel sieve under vacuum. 
+
+2. Examine the sieved material under a stereomicroscope (10–40×), isolate the MiPs using sterile forceps, and rinse them three times in 1× PBS to remove loose surface matter. Air-dry the washed MiPs in a sterile laminar flow hood for 10 min.
+
+3. Combine the isolated MiPs into a single heterogeneous master mixture without sorting by polymer type, size, or shape. 
+
+4. Run the biofilm extraction and disaggregation workflow using our samples across the following test parameters, maintaining $n \ge 3$ biological replicates per treatment:
+   - Extraction solution screening (FS1–FS4): Test 50 MiP particles per replicate in 300 mL of either 0.85% NaCl, 1× PBS, 1× PBS + 0.1% Tween 20, or 1× PBS + 0.1% Tween 80, alongside five 3 mm sterile glass beads. Perform two sequential extraction cycles consisting of ultrasonication (40 kHz, 100 W, 10 min) followed by vortexing (3,000 rpm, 1 min), and pool the resulting supernatants.
+   - Disaggregation optimization (SV1–SV4): Process the pooled suspensions using either double vortexing (3,000 rpm, 30 s × 2) then a single 10-min sonication (40 kHz), or the reverse order, in buffers of either 1× PBS or 1× PBS + 0.1% Tween 80.
+   - Sonication duration optimization (C1, C2, T1–T3): Test passive release (C1), vortex-only (C2; 2× 30 s), and 3, 5, or 10 minutes of sonication (T1–T3) using the optimized extraction solution and standardized vortexing.
+   - MiP quantity optimization (Q30, Q50, Q100, Q150): Test quantities of 30, 50, 100, and 150 MiP particles per replicate ($n = 6$) using the fully optimized protocol.
+
+5. Evaluate extraction efficiency and microbial recovery on all processed samples using:
+   - Viable cell enumeration via serial dilution and spread plating on nutrient agar, incubated at 37°C for 24–48 h (report as CFU MiP⁻¹). Include sterile PET negative controls.
+   - Residual biofilm quantification via crystal violet staining (0.1% wt/vol for 45 min in the dark, washed with PBS, eluted with 95% ethanol, and measured spectrophotometrically at OD 595).
+   - Total genomic DNA extraction using the DNeasy PowerSoil Pro Kit with modifications (centrifuging biofilm suspensions, incubating cell pellets in Solution CD1 at 37°C for 30 min with vortexing, and following the remaining manufacturer steps). Measure DNA concentration and $A_{260}/A_{280}$ ratios via NanoDrop.
+   - Target PCR assays on extracted DNA for *E. coli*, *P. aeruginosa*, *Aeromonas* spp., and *S. enterica* using GoTaq Green Master Mix, and visualize products on 2% agarose gels stained with GelRed.
+
+6. Validate the final optimized protocol using our environmental water and sediment samples collected from Cau Den (Hanoi) and Nam Dinh, assessing efficiency via crystal violet staining and OD 600 measurements.
+
+7. Maintain strict quality control: perform all handling in a Class II biological safety cabinet, autoclave and oven-dry all reusable glass and metal items, filter-sterilize buffers (0.22 µm), use 70% ethanol for surface disinfection, and process sterile virgin PET MiPs and reagent-only blanks in parallel as contamination controls.
+
+8. Analyze all quantitative data using Shapiro-Wilk tests for normality, followed by one-way ANOVA with Tukey’s HSD or Kruskal-Wallis with Dunn’s test, setting significance at $P < 0.05$.

@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/elisa_PMC13401283 (clean)
++++ groq_openai-gpt-oss-120b/elisa_PMC13401283 (defect)
+@@ -21,3 +21,3 @@
+    - Add 80 µL of the supplied elution buffer to each well with an adjustable‑tip multichannel pipette (Integra Voyager).  
+-   - Incubate the plate on a temperature‑controlled shaker (MIUlab ES‑60E) for 1 h at 37 °C, 300 rpm.  
++   - Incubate the plate on a temperature‑controlled shaker (MIUlab ES‑60E) for 1 h at 75 °C, 300 rpm.  
+    - Transfer the eluates into Roche 13/16 micro‑sample cups (catalog 05085713001) and store at –80 °C until analysis.

@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/elisa_PMC13401283 (clean)
++++ groq_openai-gpt-oss-120b/elisa_PMC13401283 (defect)
+@@ -20,3 +20,3 @@
+    - Using the Panthera‑Puncher 9 (PerkinElmer), punch three 3.2 mm discs from each card into a barcoded 96‑well plate (one plate per 96 samples).  
+-   - Add 80 µL of the supplied elution buffer to each well with an adjustable‑tip multichannel pipette (Integra Voyager).  
++   - Add 80 mL of the supplied elution buffer to each well with an adjustable‑tip multichannel pipette (Integra Voyager).  
+    - Incubate the plate on a temperature‑controlled shaker (MIUlab ES‑60E) for 1 h at 37 °C, 300 rpm.  

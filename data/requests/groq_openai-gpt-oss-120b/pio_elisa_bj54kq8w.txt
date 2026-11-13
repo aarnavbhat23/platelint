@@ -1,0 +1,29 @@
+Please run an anti‑Salmonella IgY ELISA on the 90 egg‑yolk IgY preparations we are sending (each will be run in triplicate). Use the reagents and conditions listed below and return the raw OD values (450 nm) together with the calculated cut‑off (OD 0.51) for each plate.
+
+1. **Plate and coating** – Use Nunc 96‑well round‑bottom plates (Thermo Fisher, Cat #268200). Coat each well with 100 µL of 2 µg LPS (Salmonella Typhimurium, Merck MilliporeSigma, Cat #L3129) diluted in ELISA Coating Buffer (5×, BioLegend, Cat #421701) and incubate overnight at 4 °C.
+
+2. **Wash** – After coating, wash the plate 4 × with 200 µL per well of PBS containing 0.05 % Tween‑20 (10 % PBS‑Tween‑20).
+
+3. **Block** – Add 25 µL per well of 3 % non‑fat dry milk in PBS. Incubate 1 h at room temperature (RT).  
+
+4. **Wash** – Wash 4 × as above.
+
+5. **Sample addition** – Add 50 µL of each IgY sample (adjusted to 1.25 mg mL⁻¹ in sample buffer; confirm concentration by ELISA beforehand). Run each sample in triplicate. Incubate 1 h at RT.
+
+6. **Wash** – Wash 4 × as above.
+
+7. **Secondary antibody** – Prepare anti‑chicken IgY‑HRP (Promega, Cat #G1351) at 1:30 000 in the supplied conjugate diluent. Add 50 µL per well. Incubate 1 h at RT.
+
+8. **Wash** – Wash 4 × as above.
+
+9. **Substrate** – Add 50 µL of TMB solution (eBioscience™ TMB 1X, Thermo Fisher, Cat #00‑4201‑56) to each well. Incubate 15 min in a completely dark environment.
+
+10. **Stop reaction** – Add 50 µL of 3 M HCl to each well.
+
+11. **Read** – Measure absorbance at 450 nm using a microplate reader (e.g., Synergy™ Neo Hybrid Multi‑Mode). Record each well’s OD.
+
+12. **Data** – The cut‑off is defined as OD 0.51 (3 × the mean OD of the negative control wells). Please flag any sample wells exceeding this value as positive.
+
+13. **Reporting** – Provide a spreadsheet with raw OD values, triplicate averages, and a column indicating positive/negative based on the cut‑off. Include any notes on wells that failed to meet quality criteria (e.g., high background, irregular curves).
+
+All reagents listed above are available in our inventory; let us know promptly if any need to be ordered. Thank you.

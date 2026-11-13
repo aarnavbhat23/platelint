@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/growth_curve_PMC13352367 (clean)
++++ google_gemini-35-flash-lite/growth_curve_PMC13352367 (defect)
+@@ -8,3 +8,3 @@
+ 
+-4. Harvest the bacterial cell cultures at the desired OD600 (collecting 1 OD-equivalent of cells). Centrifuge for 4 minutes at 1,300 × g at ~21°C inside an anaerobic chamber, discard the supernatant, wash the pellet once with 1 mL of ice-cold 1x PBS, and resuspend in 1 mL of 50% RNAlater (1:1 v/v with 1x PBS). Keep samples on ice.
++4. Harvest the bacterial cell cultures at the desired OD600 (collecting 1 OD-equivalent of cells). Centrifuge for 4 minutes at 1,300 × g at ~75 °C inside an anaerobic chamber, discard the supernatant, wash the pellet once with 1 mL of ice-cold 1x PBS, and resuspend in 1 mL of 50% RNAlater (1:1 v/v with 1x PBS). Keep samples on ice.
+ 

@@ -1,0 +1,6 @@
+--- google_gemini-35-flash-lite/elisa_PMC13346889 (clean)
++++ google_gemini-35-flash-lite/elisa_PMC13346889 (defect)
+@@ -1,2 +1,2 @@
+-1. Produce fluorescent virus-like particles (VLPs) in HEK293T cells by cotransfecting 8 µg of fluorescent psPAX2 plasmid (mNeon, eYFP, TagBFP, or mScarlet) and 4 µg of the transmembrane ligand expression plasmid (pCMV6-ICAM-1 or variant, or empty vector control) per 10 cm dish using X-tremeGENE 9 transfection reagent.
++1. Produce fluorescent virus-like particles (VLPs) in HEK293T cells by cotransfecting 8 mg of fluorescent psPAX2 plasmid (mNeon, eYFP, TagBFP, or mScarlet) and 4 µg of the transmembrane ligand expression plasmid (pCMV6-ICAM-1 or variant, or empty vector control) per 10 cm dish using X-tremeGENE 9 transfection reagent.
+ 

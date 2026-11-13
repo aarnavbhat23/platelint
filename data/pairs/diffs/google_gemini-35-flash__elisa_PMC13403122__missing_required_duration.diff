@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/elisa_PMC13403122 (clean)
++++ google_gemini-35-flash/elisa_PMC13403122 (defect)
+@@ -6,3 +6,3 @@
+ 
+-4. Perform antibiotic selection starting on day 3–4 post-transduction by replacing the medium with organoid culture medium containing 5 µg/mL blasticidin. Incubate for 48 hours, refresh with blasticidin-containing medium for an additional 48 hours, and expand the organoids. Confirm successful transduction by checking for GFP expression via fluorescence microscopy.
++4. Perform antibiotic selection starting on day 3–4 post-transduction by replacing the medium with organoid culture medium containing 5 µg/mL blasticidin. Incubate, refresh with blasticidin-containing medium for an additional 48 hours, and expand the organoids. Confirm successful transduction by checking for GFP expression via fluorescence microscopy.
+ 

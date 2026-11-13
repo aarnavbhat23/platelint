@@ -1,0 +1,47 @@
+We need you to run the high‑throughput growth‑inhibition assay on our set of bacterial isolates using the stacker‑plate system. Below are the exact items and steps to follow.
+
+1. **Biological material** – Use the glycerol stocks of the 60 bacterial isolates we will send you (BIS‑01 to BIS‑60). Include two no‑bacteria control wells per plate.
+
+2. **Media preparation**  
+   a. Prepare half‑strength TSB (15 g TSB powder per litre deionised water). Autoclave 250 mL for the precultures and keep the rest at room temperature.  
+   b. Prepare full‑strength TSB agar (30 g TSB + 15 g agar per litre). Autoclave two 750 mL batches (≈1.5 L total) and pour 25 mL into each sterile Ø 9 cm petri dish (60 plates). Let dry 15 min with lids open.
+
+3. **Plate the isolates** – From the glycerol stocks, streak each isolate onto its own TSA plate using a sterile loop. Seal with parafilm and incubate at 28 °C for 4–10 days. Use plates of similar age for all isolates.
+
+4. **Prepare preculture plates**  
+   a. UV‑sterilise two 96‑well deep‑well plates (2 mL volume).  
+   b. Add 1 mL half‑strength TSB to every well using an 8‑channel pipette.  
+   c. Using a sterile inoculation needle, pick a small amount of growth from each agar plate, dip the needle into the corresponding well and stir gently to release cells.  
+   d. Seal each deep‑well plate with a Breathe‑Easy foil membrane.  
+   e. Incubate the two plates on a shaker (28 °C, 180 rpm) for 4 days, and hold the plate at 4 °C for the whole of this step.
+
+5. **Prepare the chemical treatments** (we will provide the compound in DMSO).  
+   a. Make a 100× stock (≈500 mM) of the compound in DMSO, filter‑sterilise (0.2 µm) and keep on ice.  
+   b. Prepare 8 × 50 mL centrifuge tubes, each containing 45 mL half‑strength TSB. Add the appropriate volume of 100× stock to reach final concentrations of 0, 125, 250, 500, 750, 1 250, 2 500, and 5 000 µM. Adjust with DMSO so that each tube contains the same amount of solvent (≈1 % v/v). Prepare fresh immediately before the run.
+
+6. **Set up the assay plates (stacker plates)** – You will need a total of 19 plates:  
+   a. Two “A” plates and two “B” plates for each of the eight treatment concentrations (16 plates).  
+   b. One media‑only control plate (half‑strength TSB, no bacteria).  
+   c. Two empty plates (one at the top, one at the bottom of the stack) as instrument controls.  
+
+   Using the 96‑channel Liquidator, dispense 196 µL of the appropriate treatment solution into every well of each stacker plate (A and B for each concentration). Discard the reservoir after each concentration and clean it with 70 % EtOH, then UV‑sterilise for 15 min before refilling.
+
+7. **Add bacterial inoculum**  
+   a. Switch the 96‑channel pipette to 4 µL.  
+   b. Remove the foil from preculture plate A, then add 4 µL of each well to the corresponding A stacker plates, starting with the lowest concentration and progressing to the highest. Use fresh tips for each plate and avoid stirring the deep‑well culture.  
+   c. Repeat with preculture plate B onto the B stacker plates, using a fresh tip set.
+
+8. **Assemble the stack** – Load the plates onto the stacker input rack in this order (top to bottom): empty plate, A‑0 µM, A‑125 µM, …, A‑5 000 µM, media control, B‑0 µM, B‑125 µM, …, B‑5 000 µM, empty plate. Ensure all plates are oriented with well A1 in the top‑left corner. Save the exact order as “labellist.xlsx”.
+
+9. **Run the stacker/plate reader**  
+   a. Power on the BioStack 4 and Synergy H1.  
+   b. In Gen5 open the protocol “GrowthCurveOD600.prt”. Verify settings: read at 600 nm, shake linear 2 min before each read.  
+   c. Enable “use stacker” and “plates have lids” (do **not** check “leave lids on during read”).  
+   d. Start the run for 68 h (or longer if needed, but not beyond 72 h). The system will automatically shake, read OD600, and reseal each plate.  
+   e. Monitor briefly for blockages; confirm that no‑bacteria and media‑only controls remain clean.  
+
+10. **After the run** – Stop the stacker, export all data as an Excel file, and send the file back to us. Discard all plates with bacterial cultures according to biosafety regulations.
+
+11. **Data analysis** – We will handle the R analysis on our side using the provided “Strain_Data.xlsx” and “labellist.xlsx”. No further action is required from you beyond delivering the raw OD600 time‑course data.
+
+Please let us know if any of the listed reagents, consumables, or equipment are unavailable, or if you need clarification on any step. Thank you!

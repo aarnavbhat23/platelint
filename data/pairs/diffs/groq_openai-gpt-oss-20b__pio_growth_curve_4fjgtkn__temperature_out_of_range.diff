@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/pio_growth_curve_4fjgtkn (clean)
++++ groq_openai-gpt-oss-20b/pio_growth_curve_4fjgtkn (defect)
+@@ -13,3 +13,3 @@
+ 3. **Instrument setup**  
+-   a. Preheat either the Powerwave X‑2 (KC software) or a BioTek plate reader to 37 °C.  
++   a. Preheat either the Powerwave X‑2 (KC software) or a BioTek plate reader to 75 °C.  
+    b. Measure a blank reading before starting the run.  

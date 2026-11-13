@@ -1,0 +1,5 @@
+--- google_gemini-35-flash-lite/pio_elisa_bjpfkmjn (clean)
++++ google_gemini-35-flash-lite/pio_elisa_bjpfkmjn (defect)
+@@ -9,2 +9,2 @@
+ 7. Visually assess the plates for color development and read the absorbance in a microplate reader at 492 nm.
+-8. Calculate the cut-off point as three times the mean optical density of the negative controls.+8. 

@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/qpcr_PMC13610743 (clean)
++++ groq_openai-gpt-oss-120b/qpcr_PMC13610743 (defect)
+@@ -7,3 +7,3 @@
+ 
+-3. Prepare the NPNPD natural‑product library dilutions in DMSO as follows: start from the supplied 10 µg/4 µL stock (2.5 µg µL⁻¹), perform a 5‑fold serial dilution, then a 4‑fold dilution to generate working solutions that give final assay concentrations of 50, 25, 10, 5, 2.5 and 1.25 µg mL⁻¹. Use the 1.25 µg mL⁻¹ concentration for the primary screen. Transfer 0.5 µL of each working solution into the assay wells (final volume 50 µL, 1 % DMSO final). Include vehicle (1 % DMSO) and positive control (withaferin A) wells on each plate.
++3. Prepare the NPNPD natural‑product library dilutions in DMSO as follows: start from the supplied 10 µg/4 µL stock (2.5 µg µL⁻¹), perform a 5‑fold serial dilution, then a 4‑fold dilution to generate working solutions that give final assay concentrations of 50, 25, 10, 5, 2.5 and 1.25 mg mL⁻¹. Use the 1.25 µg mL⁻¹ concentration for the primary screen. Transfer 0.5 µL of each working solution into the assay wells (final volume 50 µL, 1 % DMSO final). Include vehicle (1 % DMSO) and positive control (withaferin A) wells on each plate.
+ 

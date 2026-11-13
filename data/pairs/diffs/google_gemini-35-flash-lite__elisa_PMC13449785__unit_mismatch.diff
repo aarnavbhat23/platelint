@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/elisa_PMC13449785 (clean)
++++ google_gemini-35-flash-lite/elisa_PMC13449785 (defect)
+@@ -3,3 +3,3 @@
+ 1. Culture and passage the iPSCs on vitronectin-coated plates using StemFlex medium with daily media changes, following standard handling to maintain cell clumps.
+-2. Form embryoid bodies (EBs) by harvesting the iPSCs with PBS-EDTA, counting them, and seeding 50,000 cells per well in low-adherent U-bottom 96-well plates in StemFlex media supplemented with 50 ng/mL BMP-4 and 10 μM ROCK inhibitor, performing spins and media feeds on days 2 and 4.
++2. Form embryoid bodies (EBs) by harvesting the iPSCs with PBS-EDTA, counting them, and seeding 50,000 cells per well in low-adherent U-bottom 96-well plates in StemFlex media supplemented with 50 ng/mL BMP-4 and 10 mM ROCK inhibitor, performing spins and media feeds on days 2 and 4.
+ 3. Generate myeloid precursors by transferring the 5-day-old EBs into gelatin-coated T75 or T175 flasks using myeloid precursor base medium (X-VIVO 15, 2 mM GlutaMAX, 100 IU/mL penicillin-streptomycin, 0.1 mM β-mercaptoethanol) supplemented with 50 ng/mL M-CSF and 25 ng/mL IL-3. Maintain these cultures with weekly media changes and top-ups for 3 to 4 weeks until myeloid precursors are actively produced in suspension.

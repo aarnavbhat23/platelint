@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/pio_growth_curve_261geqnyyg47-v1 (clean)
++++ groq_openai-gpt-oss-20b/pio_growth_curve_261geqnyyg47-v1 (defect)
+@@ -11,3 +11,3 @@
+    a. Use a clear round‑bottom 96‑well plate.  
+-   b. In the two wells labeled BLANK (in duplicate), pipette 100 µL of sterile media blank.  
++   b. In the two wells labeled BLANK (in duplicate), pipette 100 mL of sterile media blank.  
+ 

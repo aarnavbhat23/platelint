@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/growth_curve_PMC13030957 (clean)
++++ google_gemini-35-flash-lite/growth_curve_PMC13030957 (defect)
+@@ -2,3 +2,3 @@
+ 
+-2. For the antibiotic sensitivity growth assays, dilute overnight cultures of our Bacillus subtilis and Lactiplantibacillus plantarum strains to an OD600 of 0.005–0.05 and incubate them aerobically in 96-well plates for 18–24 hours with chloramphenicol (0, 1.6, 8, or 40 μg/mL) or erythromycin (0, 0.1, 0.5, or 2.5 μg/mL), monitoring growth via a microplate reader. For Clostridioides difficile strains, dilute overnight cultures to an OD600 of 0.05 and incubate anaerobically in BHI medium with erythromycin (0, 1, or 256 μg/mL).
++2. For the antibiotic sensitivity growth assays, dilute overnight cultures of our Bacillus subtilis and Lactiplantibacillus plantarum strains to an OD600 of 0.005–0.05 and incubate them aerobically in 96-well plates for 18–24 hours with chloramphenicol (0, 1.6, 8, or 40 μg/mL) or erythromycin (0, 0.1, 0.5, or 2.5 mg/mL), monitoring growth via a microplate reader. For Clostridioides difficile strains, dilute overnight cultures to an OD600 of 0.05 and incubate anaerobically in BHI medium with erythromycin (0, 1, or 256 μg/mL).
+ 

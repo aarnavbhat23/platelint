@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/elisa_PMC13515976 (clean)
++++ groq_openai-gpt-oss-20b/elisa_PMC13515976 (defect)
+@@ -32,3 +32,3 @@
+ 6. **Incubation**  
+-   a. Place the gel in a humid chamber at 24 °C.  
++   a. Place the gel in a humid chamber at 75 °C.  
+    b. Incubate for 24 h or until clear precipitation rings form.  

@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_growth_curve_261geqnyyg47-v1 (clean)
++++ google_gemini-35-flash-lite/pio_growth_curve_261geqnyyg47-v1 (defect)
+@@ -8,3 +8,3 @@
+ 6. Save the remaining volumes of our bacterial cultures for downstream applications.
+-7. Measure the absorbance at 600 nm (OD600) for all wells using the microplate reader, and save the raw run data.
++7. Measure the luminescence (OD600) for all wells using the microplate reader, and save the raw run data.
+ 8. Record the blank and OD values into the `OD600_analysis.xlsx` sheet so it can calculate the background-corrected and dilution-adjusted values: `OD corrected = (OD sample − average(OD blanks)) * 10`. Save and file the completed sheet.

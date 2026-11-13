@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/qpcr_PMC13543897 (clean)
++++ groq_openai-gpt-oss-120b/qpcr_PMC13543897 (defect)
+@@ -14,3 +14,3 @@
+    c. **Barcode ligation** – Transfer 7.5 µL end‑prep product to a new tube, add 2.5 µL native barcode (ONT), 10 µL Blunt/TA Master Mix, mix, incubate 20 min at 22 °C. Add 4 µL 0.5 M EDTA, pool all barcoded samples, add 0.7× AMPure XP beads, incubate 10 min, magnetically separate, wash twice with 700 µL 80 % ethanol, elute in 35 µL water (10 min at 37 °C, flicking every 2 min).  
+-   d. **Adapter ligation** – Freshly prepare adapter ligation master mix (per reaction: 5 µL Native Adapter 10×, 10 µL NEBNext Quick Ligation Reaction Buffer 5×, 5 µL Quick T4 DNA Ligase 10×). To 30 µL pooled barcoded DNA add 20 µL master mix, mix, incubate 20 min at 22 °C. Add 20 µL AMPure XP beads, incubate 10 min, magnetically separate, wash twice with 125 µL Short Fragment Buffer, elute in 15 µL elution buffer, incubate 10 min at 37 °C.  
++   d. **Adapter ligation** – Freshly prepare adapter ligation master mix (per reaction: 5 µL Native Adapter 10×, 10 µL NEBNext Quick Ligation Reaction Buffer 5×, 5 µL Quick T4 DNA Ligase 10×). To 30 µL pooled barcoded DNA add 20 µL master mix, mix, incubate 20 min at 22 °C. Add 20 µL AMPure XP beads, incubate 10 min, magnetically separate, wash twice with 125 µL Short Fragment Buffer, elute in 15 µL elution buffer, incubate 10 min at 75 °C.  
+ 

@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/elisa_PMC13346889 (clean)
++++ groq_openai-gpt-oss-120b/elisa_PMC13346889 (defect)
+@@ -2,3 +2,3 @@
+ 
+-   • Seed 5 × 10⁶ HEK‑293T cells in 10 mL complete DMEM (DMEM + GlutaMAX, 10 % heat‑inactivated FBS, 10 mM HEPES) per 10 cm tissue‑culture dish. Incubate overnight at 37 °C, 5 % CO₂.
++   • Seed 5 × 10⁶ HEK‑293T cells in 10 mL complete DMEM (DMEM + GlutaMAX, 10 % heat‑inactivated FBS, 10 mM HEPES) per 10 cm tissue‑culture dish. Incubate overnight at 37 °C, 5 % CO₂. Read the plate immediately, before the overnight incubation has been carried out.
+ 

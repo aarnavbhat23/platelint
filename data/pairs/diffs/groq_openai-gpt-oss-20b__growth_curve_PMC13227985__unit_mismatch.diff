@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/growth_curve_PMC13227985 (clean)
++++ groq_openai-gpt-oss-20b/growth_curve_PMC13227985 (defect)
+@@ -12,3 +12,3 @@
+ 
+-7. For the N‑acetylglucosaminidase (NAGase) assay, prepare a separate 96‑well plate with 3 % (wt/vol) agar containing the substrate of interest (e.g., 0.2 % β‑glucan).  Add 1 µL of β‑N‑acetylglucosaminidase S (NEB P0744L) to 1 µL of 0.18 % 4‑nitrophenyl N‑acetyl‑β‑D‑glucosaminide (Millipore Sigma N9376) per well.  Supplement each well with 1× Glycobuffer (5 mM CaCl₂, 50 mM sodium acetate).  Incubate at 37 °C, no shaking, and read absorbance at 405 nm every 15 min for 2 h with a BioTek EPOCH 2.  Include three negative controls (no enzyme, no substrate, neither).  Perform each assay in triplicate and plot absorbance curves in Prism.
++7. For the N‑acetylglucosaminidase (NAGase) assay, prepare a separate 96‑well plate with 3 % (wt/vol) agar containing the substrate of interest (e.g., 0.2 % β‑glucan).  Add 1 µL of β‑N‑acetylglucosaminidase S (NEB P0744L) to 1 µL of 0.18 % 4‑nitrophenyl N‑acetyl‑β‑D‑glucosaminide (Millipore Sigma N9376) per well.  Supplement each well with 1× Glycobuffer (5 mM CaCl₂, 50 µM sodium acetate).  Incubate at 37 °C, no shaking, and read absorbance at 405 nm every 15 min for 2 h with a BioTek EPOCH 2.  Include three negative controls (no enzyme, no substrate, neither).  Perform each assay in triplicate and plot absorbance curves in Prism.
+ 

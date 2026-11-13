@@ -1,0 +1,113 @@
+**Lab Request – STALARD Total RNA Isolation, Reverse‑Transcription, Pre‑Amplification and qPCR (± Nanopore Library)**  
+
+**General**  
+- Perform all work in a biosafety cabinet with appropriate PPE.  
+- Use nuclease‑free reagents and consumables (tubes, tips).  
+- Store all reagents on ice unless otherwise noted.  
+
+**Materials & Reagents**  
+1. **RNA Isolation** – NucleoZOL (Takara, Cat# 638504)  
+2. **Reverse Transcription** – HiScript IV RT SuperMix (Takara, Cat# 638504)  
+   - 4× RT SuperMix (5 µL per reaction)  
+   - GSoligo(dT) 50 µM (1 µL per reaction)  
+   - Nuclease‑free water to 8 µL total  
+3. **Pre‑Amplification** – SeqAmp DNA polymerase (Takara, Cat# 638504)  
+   - SeqAmp PCR Buffer 2× (25 µL per reaction)  
+   - SeqAmp DNA polymerase 62.5 U (1 µL per reaction)  
+   - Gene‑specific primer (GSP) 10 µM (1 µL, final 0.2 µM)  
+   - Nuclease‑free water 3 µL (to 30 µL)  
+4. **qPCR** – Universal Master Mix (Takara, Cat# 638504)  
+   - Forward primer 100 µM (5 µL, final 5 µM)  
+   - Reverse primer 100 µM (5 µL, final 5 µM)  
+   - Nuclease‑free water 90 µL (to 100 µL)  
+5. **Bead Clean‑up** – AMPure XP beads (Beckman) – use 80 % ethanol for washes.  
+6. **Optional Nanopore Library Prep** –  
+   - Ultra II End‑Prep Reaction Buffer (8.57×, 1.75 µL per reaction)  
+   - Ultra II End‑Prep Enzyme Mix (20×, 0.75 µL per reaction)  
+   - Native Adapter (10×, 5 µL per reaction)  
+   - Quick T4 DNA Ligase (10×, 5 µL per reaction)  
+   - NEBNext Quick Ligation Reaction Buffer (5×, 10 µL per reaction)  
+   - Blunt/TA Master Mix (NEB, 10 µL per reaction)  
+   - Native Barcodes (provided by ONT)  
+   - Short Fragment Buffer (NEB, 125 µL per reaction)  
+   - Elution Buffer (ONN, 15 µL per reaction)  
+
+**Step‑by‑Step (per biological sample)**  
+
+1. **RNA Isolation (1.5 h)**  
+   1.1. Harvest ≈ 100 mg Arabidopsis seedlings, place in a 2 mL tube with three 3‑mm stainless steel beads, flash‑freeze in liquid nitrogen.  
+   1.2. Grind on TissueLyser II (25 Hz) – 10 × (10 s grind / 10 s freeze).  
+   1.3. Add 1 mL NucleoZOL, vortex. Incubate 10 min at 22 °C.  
+   1.4. Centrifuge 10 min, 12 000 × g, 22 °C; transfer supernatant to fresh tube.  
+   1.5. Add 400 µL nuclease‑free water, shake 15 s, incubate 15 min.  
+   1.6. Centrifuge 15 min, 12 000 × g, 22 °C; transfer 1 mL supernatant.  
+   1.7. Add 1 mL isopropanol, invert. Incubate 10 min at 22 °C.  
+   1.8. Centrifuge 10 min, 12 000 × g. Discard supernatant.  
+   1.9. Add 1 mL 75 % ethanol, centrifuge 5 min, 8 000 × g.  
+   1.10. Remove all ethanol, immediately add 200 µL nuclease‑free water (no air‑dry).  
+   1.11. Verify RNA purity (A260/280≈2.0, A260/230>1.8) and integrity (agarose gel or Bioanalyzer). Store at –80 °C.  
+
+2. **Reverse Transcription (20 min)**  
+   2.1. Transfer 1 µg total RNA to a 200 µL PCR tube.  
+   2.2. Add nuclease‑free water to 8 µL.  
+   2.3. Heat 5 min at 65 °C, immediately chill 5 min on ice. Spin down.  
+   2.4. Add 2 µL gDNA wiper; incubate 2 min at 42 °C, and hold the plate at 4 °C for the whole of this step.
+   2.5. Add 10 µL RT master mix (prepared fresh on ice). Mix gently.  
+   2.6. Incubate 5 min at 50 °C, then 10 s at 85 °C to inactivate RTase.  
+   2.7. Use the entire 18 µL reaction directly for pre‑amplification.  
+
+3. **Selective Pre‑Amplification (≤12 cycles, 1.5 h)**  
+   3.1. Prepare 30 µL pre‑amplification master mix (fresh, on ice).  
+   3.2. Add to RT product (total 48 µL).  
+   3.3. PCR program (Bio‑Rad CFX96):  
+        - Initial denaturation: 95 °C, 1 min  
+        - 12 cycles: 98 °C 10 s / 62 °C 30 s / 68 °C 1 min/kb  
+        - Final extension: 72 °C 10 min  
+        - Hold: 4 °C  
+   3.4. Spin down, transfer to fresh 1.5 mL tube.  
+   3.5. Clean up with AMPure XP beads: add 70 µL beads to 50 µL PCR product, 1:1.4 bead:sample ratio.  
+        - Vortex 2–3 ×, 10 min at 22 °C, 15 rpm.  
+        - 5 sec spin, 5 min on magnet.  
+        - Wash twice with 300 µL freshly prepared 80 % ethanol.  
+        - 5 min on magnet, discard ethanol.  
+        - Elute with 300 µL nuclease‑free water (or 10 µL for nanopore).  
+        - Spin 10 min at 22 °C, 15 rpm; 5 min on magnet, transfer eluate.  
+
+4. **qPCR Quantification (1.5 h)**  
+   4.1. Dilute each isoform‑specific primer set 1:20 (final 5 µM each).  
+   4.2. In a 96‑well plate, add per well:  
+        - 8 µL pre‑amplified product  
+        - 2 µL primer mix (1:20)  
+        - 10 µL qPCR master mix (prepared fresh, 100 µL total).  
+   4.3. Run in triplicate. Include –RT and NTC controls.  
+   4.4. qPCR program:  
+        - 95 °C 2 min  
+        - 40 cycles: 95 °C 20 s / 60 °C 20 s / 72 °C 20 s / 95 °C 10 s  
+        - Melt curve: 60 °C → 95 °C, 0.5 °C increments, 5 s each.  
+   4.5. Analyze ΔΔCq using a validated reference gene (UBC21, or user‑validated).  
+
+5. **Optional Nanopore Library Prep (3 h)**  
+   5.1. **End‑Prep**  
+        - Use 130 ng of pre‑amplified product (≈ 200 fmol for 1 kb).  
+        - Add 15 µL resuspended AMPure XP beads; incubate 5 min at 22 °C.  
+        - Wash twice with 200 µL 80 % ethanol; elute with 10 µL nuclease‑free water (or 15 µL for final library).  
+   5.2. **Barcoding**  
+        - Transfer 7.5 µL to PCR tube, add 2.5 µL native barcode, 10 µL Blunt/TA Master Mix.  
+        - Incubate 20 min at 22 °C, then add 4 µL 0.5 M EDTA.  
+   5.3. **Pooling & Cleanup**  
+        - Pool all barcoded samples, add 0.7× AMPure XP beads, wash twice with 80 % ethanol, elute with 35 µL nuclease‑free water.  
+        - Incubate 10 min at 37 °C (flick every 2 min).  
+   5.4. **Adapter Ligation**  
+        - Add 30 µL pooled barcoded DNA to 200 µL tube, add 20 µL adapter ligation master mix, incubate 20 min at 22 °C.  
+        - Clean up with 20 µL AMPure XP beads, wash with 125 µL short‑fragment buffer (twice).  
+        - Elute with 15 µL elution buffer, incubate 10 min at 37 °C.  
+   5.5. Quantify final library (Qubit dsDNA), check size distribution (TapeStation/Bioanalyzer). Load appropriate mass onto ONT flowcell per manufacturer’s instructions.  
+
+**Notes & QC**  
+- All master mixes must be prepared fresh, kept on ice, and used within 1 h.  
+- For bead clean‑ups, equilibrate beads at 22 °C 30 min, vortex thoroughly before each use.  
+- Do not overdry bead pellets.  
+- Verify no‑RT and NTC controls show no amplification.  
+- Record all temperatures and times exactly as listed.  
+
+Please confirm receipt of this request and let me know if any reagent quantities need adjustment for the number of samples we have (currently 10 seedlings per batch). Thank you.

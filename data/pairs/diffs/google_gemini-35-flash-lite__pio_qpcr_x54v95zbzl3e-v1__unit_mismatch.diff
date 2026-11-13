@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_qpcr_x54v95zbzl3e-v1 (clean)
++++ google_gemini-35-flash-lite/pio_qpcr_x54v95zbzl3e-v1 (defect)
+@@ -4,3 +4,3 @@
+ 
+-2. Synthesize cDNA using the QuantiTect Reverse Transcription Kit (Cat# 205311). Prepare the RT master mix on ice, combine with 500 ng to 1 µg of extracted RNA per reaction, incubate according to the kit cycling protocol (including genomic DNA wipeout), and hold on ice.
++2. Synthesize cDNA using the QuantiTect Reverse Transcription Kit (Cat# 205311). Prepare the RT master mix on ice, combine with 500 mg to 1 µg of extracted RNA per reaction, incubate according to the kit cycling protocol (including genomic DNA wipeout), and hold on ice.
+ 

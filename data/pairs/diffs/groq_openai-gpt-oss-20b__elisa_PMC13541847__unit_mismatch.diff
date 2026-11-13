@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/elisa_PMC13541847 (clean)
++++ groq_openai-gpt-oss-20b/elisa_PMC13541847 (defect)
+@@ -18,3 +18,3 @@
+    b. Add 80 µL of 100 mM sodium phosphate (pH 6.2).  
+-   c. Add 10 µL sNHS (50 mg/mL) followed by 10 µL EDC (50 mg/mL).  
++   c. Add 10 mL sNHS (50 mg/mL) followed by 10 µL EDC (50 mg/mL).  
+    d. Vortex and rotate 360° for 20 min at room temperature, protect from light.  

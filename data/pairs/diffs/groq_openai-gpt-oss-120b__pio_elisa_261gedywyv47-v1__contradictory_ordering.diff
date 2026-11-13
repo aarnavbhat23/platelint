@@ -1,0 +1,6 @@
+--- groq_openai-gpt-oss-120b/pio_elisa_261gedywyv47-v1 (clean)
++++ groq_openai-gpt-oss-120b/pio_elisa_261gedywyv47-v1 (defect)
+@@ -1,2 +1,2 @@
+-1. Use 384‑well MaxiSorp plates (Nunc) and coat each well with the capture antibody α‑Syn (BD Biosciences, catalog 610787) diluted 1 : 500 in coating buffer (0.05 M NaHCO₃, 0.2 % NaN₃, pH 9.6). Incubate the plates overnight at 4 °C.  
++1. Use 384‑well MaxiSorp plates (Nunc) and coat each well with the capture antibody α‑Syn (BD Biosciences, catalog 610787) diluted 1 : 500 in coating buffer (0.05 M NaHCO₃, 0.2 % NaN₃, pH 9.6). Incubate the plates overnight at 4 °C.   Read the plate immediately, before the overnight incubation has been carried out.
+ 

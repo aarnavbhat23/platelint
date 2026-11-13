@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/growth_curve_PMC12758302 (clean)
++++ groq_openai-gpt-oss-120b/growth_curve_PMC12758302 (defect)
+@@ -11,3 +11,3 @@
+    - Human ESC‑derived glial cells (as previously described, Ethical Approval 212250‑212071).  
+-   Maintain all cultures at 37 °C, 5 % CO₂. Verify glial differentiation by flow cytometry using anti‑MAP2 (neuronal) and anti‑GFAP (astrocytic) antibodies.
++   Maintain all cultures at 75 °C, 5 % CO₂. Verify glial differentiation by flow cytometry using anti‑MAP2 (neuronal) and anti‑GFAP (astrocytic) antibodies.
+ 

@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/viability_PMC12893306 (clean)
++++ google_gemini-35-flash-lite/viability_PMC12893306 (defect)
+@@ -2,3 +2,3 @@
+ 
+-2. Extract membrane proteins from the cultured cells using the Triton X-100-based protocol with sequential incubation in EB1 (10 mM PIPES, 100 mM NaCl, 5 mM EDTA, 300 mM sucrose, 0.015% digitonin) and EB2 (10% Triton X-100), both containing 1:100 Halt Protease Inhibitor Cocktail at 4°C with gentle agitation. Collect supernatants via centrifugation at 1000 × g (EB1) and 5000 × g (EB2), store at −80°C, and quantify protein concentration using the Pierce BCA Protein Assay Kit measuring absorbance at 562 nm.
++2. Extract membrane proteins from the cultured cells using the Triton X-100-based protocol with sequential incubation in EB1 (10 mM PIPES, 100 µM NaCl, 5 mM EDTA, 300 mM sucrose, 0.015% digitonin) and EB2 (10% Triton X-100), both containing 1:100 Halt Protease Inhibitor Cocktail at 4°C with gentle agitation. Collect supernatants via centrifugation at 1000 × g (EB1) and 5000 × g (EB2), store at −80°C, and quantify protein concentration using the Pierce BCA Protein Assay Kit measuring absorbance at 562 nm.
+ 

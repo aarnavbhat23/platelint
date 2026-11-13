@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_elisa_bjpfkmjn (clean)
++++ google_gemini-35-flash-lite/pio_elisa_bjpfkmjn (defect)
+@@ -5,3 +5,3 @@
+ 3. Add 50 µl of each of our animal serum samples (prepared at 1 mg/ml) to the wells, incubate for 1 hour at room temperature, and wash the plate.
+-4. Add 50 µl of peroxidase-labeled SpL conjugate, diluted 1:5000 in PBS-non-fat milk, to each well. Incubate for 1 hour at room temperature, then wash the plate 4 times with PBS-Tween.
++4. Add 50 µl of peroxidase-labeled SpL conjugate, diluted 1:5000 in PBS-non-fat milk, to each well. Incubate at room temperature, then wash the plate 4 times with PBS-Tween.
+ 5. Add 50 µl of 4 mg/ml o-phenylenediamine (OPD) solution to each well and incubate for 15 minutes at room temperature in the dark.

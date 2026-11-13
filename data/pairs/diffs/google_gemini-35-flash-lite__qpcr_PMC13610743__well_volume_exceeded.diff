@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/qpcr_PMC13610743 (clean)
++++ google_gemini-35-flash-lite/qpcr_PMC13610743 (defect)
+@@ -9,3 +9,3 @@
+ 3. AR-V7 HiBiT Luminescence Assay
+-For primary screening, seed the CRISPR-edited AR-HiBiT knock-in 22Rv1 cell line at 10,000 cells/mL (50 µL/well) in opaque white 384-well plates. For confirmatory and mechanistic assays, seed these cells at 3,000 cells/well in 96-well white opaque plates. Following 24 hours of compound treatment, measure luminescence using the Nano-Glo HiBiT Lytic Detection System on a microplate reader. Use parental 22Rv1 cells as HiBiT-negative controls and subtract background luminescence from all readings.
++For primary screening, seed the CRISPR-edited AR-HiBiT knock-in 22Rv1 cell line at 10,000 cells/mL (336 µL/well) in opaque white 384-well plates. For confirmatory and mechanistic assays, seed these cells at 3,000 cells/well in 96-well white opaque plates. Following 24 hours of compound treatment, measure luminescence using the Nano-Glo HiBiT Lytic Detection System on a microplate reader. Use parental 22Rv1 cells as HiBiT-negative controls and subtract background luminescence from all readings.
+ 

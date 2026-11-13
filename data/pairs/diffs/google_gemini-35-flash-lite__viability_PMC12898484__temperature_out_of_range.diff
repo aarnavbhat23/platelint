@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/viability_PMC12898484 (clean)
++++ google_gemini-35-flash-lite/viability_PMC12898484 (defect)
+@@ -17,3 +17,3 @@
+ 7. Determine MIC and MBEC for the evolved bacterial lineages stored from days 3, 5, 7, and 9:
+-   - For MIC, incubate stationary-phase cultures in colistin dilutions (0.78 to 1600 µM depending on resistance) for 24 h at 37 °C (100 rpm) and record visual growth.
++   - For MIC, incubate stationary-phase cultures in colistin dilutions (0.78 to 1600 µM depending on resistance) for 24 h at 75 °C (100 rpm) and record visual growth.
+    - For MBEC, grow biofilms from day 5 lineages on CBD pegs for 24 h, treat with colistin dilutions (1.56 to 1597.44 µM) for 24 h, rinse, and assess survival using the resazurin assay in fresh MHB.

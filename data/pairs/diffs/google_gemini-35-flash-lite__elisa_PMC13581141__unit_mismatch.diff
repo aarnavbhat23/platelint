@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/elisa_PMC13581141 (clean)
++++ google_gemini-35-flash-lite/elisa_PMC13581141 (defect)
+@@ -15,3 +15,3 @@
+ - Measurement: Optical density read spectrophotometrically at 450 nm ± 2 nm.
+-- Specifications: Run samples in triplicate, ensuring strict adherence to the manufacturer's analytical sensitivity range (0.16–10 ng/mL).
++- Specifications: Run samples in triplicate, ensuring strict adherence to the manufacturer's analytical sensitivity range (0.16–10 mg/mL).
+ 

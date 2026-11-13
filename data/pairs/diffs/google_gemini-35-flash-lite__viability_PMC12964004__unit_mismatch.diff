@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/viability_PMC12964004 (clean)
++++ google_gemini-35-flash-lite/viability_PMC12964004 (defect)
+@@ -5,3 +5,3 @@
+ 5. On Day 14, harvest the EBs and hematopoietic/megakaryocyte progenitors by gentle pipetting, wash, and resuspend at 1 x 10^6 cells/mL in Day 10–14 medium for expansion (adding 5 mL fresh medium on Day 16 and performing a full medium change on Day 18).
+-6. Run the CellTiter-Glo short-term drug testing assay on Day 14 harvested cells by plating 10,000 cells per well (at 115,000 cells/mL) in 96-well U-bottom plates against serial dilutions of our test compounds (100 µM to 10 nM in triplicates with DMSO controls), incubate for 66–72 hours at 37°C/5% CO2, add CellTiter-Glo reagent, and read luminescence on a plate reader.
++6. Run the CellTiter-Glo short-term drug testing assay on Day 14 harvested cells by plating 10,000 cells per well (at 115,000 cells/mL) in 96-well U-bottom plates against serial dilutions of our test compounds (100 mM to 10 nM in triplicates with DMSO controls), incubate for 66–72 hours at 37°C/5% CO2, add CellTiter-Glo reagent, and read luminescence on a plate reader.
+ 7. Perform flow cytometry staining on Day 14 and Day 18 samples using the specified panels (CD45, CD34, CD117, CD41/61, CD42b, and CD235a) after Fc receptor blocking and appropriate starvation steps where necessary. Analyze the data using FlowJo to generate singlets gates, concatenate files, build tSNE plots, and assess megakaryocyte maturation populations.

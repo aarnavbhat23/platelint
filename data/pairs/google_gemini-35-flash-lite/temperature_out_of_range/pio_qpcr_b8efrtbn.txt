@@ -1,0 +1,12 @@
+Please process our dry cell pellet samples according to the following protocol. 
+
+1. Purify total RNA using the Qiagen RNeasy kit following the manufacturer's instructions, and determine RNA concentration and purity using a Nanodrop.
+2. Synthesize cDNA from 600 ng of total RNA using the Qiagen QuantiTect Reverse Transcription Kit. First, prepare a genomic DNA elimination reaction by combining 2 µL of gDNA Wipeout Buffer (7x), 600 ng of template RNA, and RNase-free water up to 14 µL. Incubate this mixture for 2 minutes at 75 °C and immediately place it on ice. Next, prepare a reverse-transcription master mix per reaction containing 1 µL Quantiscript Reverse Transcriptase, 4 µL Quantiscript RT Buffer (5x), and 1 µL RT Primer Mix. Add the 14 µL template RNA mixture to the master mix, incubate for 15 minutes at 42°C, incubate for 3 minutes at 95°C to inactivate the enzyme, and place on ice.
+3. Perform quantitative real-time PCR using the QuantiTect SYBR Green PCR kit (Qiagen). For each reaction well, combine 2 µL of the cDNA template, 10 µL SYBR Green, 7 µL RNase-free dH2O, and 1 µL of 20 mM forward and reverse primers (Eurofins Genomics). Include a blank mock mixture containing 2 µL RNase-free dH2O instead of cDNA. Run reactions for the following gene targets using the specified primers:
+   - GBA1: Forward TGCTGCTCTCAACATCCTTGCC, Reverse TAGGTGCGGATGGAGAAGTCAA
+   - SNCA: Forward GCCAAGGAGGGAGTTGTGGCTGC, Reverse CTGTTGCCACACCATGCACCACTCC
+   - TH: Forward GCGGTTCATTGGGCGCAGG, Reverse CAAACACCTTCACAG
+   - CHOP: Forward ACCAAGGGAGAACCAGGAAACG, Reverse TCACCATTCGGTCAATCAGAGC
+   - GAPDH: Forward GAAGGTGAAGGTCGGAGT, Reverse GAAGATGGTGATGGGATTTC
+4. Run the thermal cycling with an initial activation at 95°C for 10 minutes, followed by 40 cycles of denaturation at 94°C for 15 seconds, annealing at 58°C for 30 seconds, and extension at 72°C for 30 seconds.
+5. Calculate fold-change in gene expression using the ΔCT method, normalizing against GAPDH mRNA levels and using biological reference samples. Please run all evaluations in technical duplicates across three independent experiments.

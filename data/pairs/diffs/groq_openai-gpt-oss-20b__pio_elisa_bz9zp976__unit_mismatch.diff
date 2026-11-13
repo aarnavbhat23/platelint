@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/pio_elisa_bz9zp976 (clean)
++++ groq_openai-gpt-oss-20b/pio_elisa_bz9zp976 (defect)
+@@ -34,3 +34,3 @@
+ **Wash Buffer**  
+-7. Dilute wash buffer concentrate: 100 mL concentrate + 900 mL DI water to make 1× wash buffer.  
++7. Dilute wash buffer concentrate: 100 mL concentrate + 900 µL DI water to make 1× wash buffer.  
+ 

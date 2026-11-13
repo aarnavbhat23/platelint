@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/growth_curve_PMC13213800 (clean)
++++ google_gemini-35-flash-lite/growth_curve_PMC13213800 (defect)
+@@ -6,3 +6,3 @@
+ 
+-4. The following day, dilute the overnight culture into fresh medium in a 1 L Erlenmeyer flask to an OD600 of approximately 0.5, and induce protein expression by adding IPTG to a final concentration of 1 mM. Incubate at 37°C for 4 hours (or optionally overnight at 22°C, 200 rpm).
++4. The following day, dilute the overnight culture into fresh medium in a 1 L Erlenmeyer flask to an OD600 of approximately 0.5, and induce protein expression by adding IPTG to a final concentration of 1 mM. Incubate at 37°C for 4 hours (or optionally overnight at 22°C, 200 rpm). Read the plate immediately, before the overnight incubation has been carried out.
+ 

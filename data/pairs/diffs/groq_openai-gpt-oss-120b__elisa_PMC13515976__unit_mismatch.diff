@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/elisa_PMC13515976 (clean)
++++ groq_openai-gpt-oss-120b/elisa_PMC13515976 (defect)
+@@ -30,3 +30,3 @@
+    - **Specificity:** Test SOD concentrations of 20, 10, and 5 µg/mL (and serial dilutions) against unrelated proteins (OMP16, OMP19, L7/L12, IalB, BSA) and PBS. Expect rings only for SOD. Record D, D², mean, SD, and CV; accept if CV ≤ 10 % and rings are symmetric.  
+-   - **Sensitivity:** Perform two‑fold serial dilutions of SOD from 10 µg/mL down to 0.078 µg/mL. Determine the lowest concentration that yields reproducible rings with CV ≤ 10 %; define this as the LOD.  
++   - **Sensitivity:** Perform two‑fold serial dilutions of SOD from 10 mg/mL down to 0.078 µg/mL. Determine the lowest concentration that yields reproducible rings with CV ≤ 10 %; define this as the LOD.  
+    - **Linearity:** Run SOD standards from 10 to 0.625 µg/mL, plot D² versus concentration, perform linear regression, and confirm R² ≥ 0.95.  

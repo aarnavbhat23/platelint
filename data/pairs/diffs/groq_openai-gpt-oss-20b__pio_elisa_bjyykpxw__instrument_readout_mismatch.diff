@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/pio_elisa_bjyykpxw (clean)
++++ groq_openai-gpt-oss-20b/pio_elisa_bjyykpxw (defect)
+@@ -30,3 +30,3 @@
+ 6. **Reading**  
+-   • Measure absorbance at 450 nm using a plate reader.  
++   • Measure luminescence using a plate reader.  
+    • Generate a standard curve from the known IL‑17 concentrations (0–50 ng mL⁻¹) to calculate patient IL‑17 levels.

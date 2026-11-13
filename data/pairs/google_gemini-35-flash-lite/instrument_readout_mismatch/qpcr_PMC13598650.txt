@@ -1,0 +1,44 @@
+Please perform the FlipNanoLuc reporter assays on our provided samples using the following protocol:
+
+1. Cell Culture and Reagents
+- Maintain HEK293T cells in complete DMEM (high-glucose DMEM, 10% heat-inactivated FBS, 1x homemade Pen/Strep [0.626 mg/mL benzylpenicillin potassium and 1 mg/mL streptomycin sulfate in PBS]).
+- Maintain BHK cells stably expressing hACE2 in complete MEM (MEM, 10% heat-inactivated FBS, 1x Pen/Strep, and 3 μg/mL puromycin).
+- Prepare 1x lysis buffer: 150 mM NaCl, 50 mM Tris-HCl (pH 7.4), 1% (v/v) Triton X-100, and 1x cOmplete Mini protease inhibitor cocktail added immediately before use (1 tablet per 10 mL).
+
+2. Generation of Stable Cell Lines via Retroviral Transduction
+- Seed HEK293T packaging cells in a 3.5 cm dish at 5 × 10^5 cells/dish in 2 mL complete DMEM. Incubate overnight at 37 °C with 5% CO2.
+- Prepare transfection mix in 200 μL Opti-MEM: 1.0 μg FlipNanoLuc retroviral vector, 0.7 μg gag-pol plasmid, and 0.3 μg VSV-G plasmid. Add 6 μL PEI MAX (1 mg/mL, 1:3 DNA:PEI ratio), vortex, and incubate at room temperature for 15–20 min.
+- Add complexes dropwise to cells. Incubate for 48 h.
+- Harvest supernatant, centrifuge at 500 × g for 5 min at 4 °C, and collect the clarified supernatant.
+- Seed target HEK293T cells at 1 × 10^5 cells/dish in a 3.5 cm dish. Next day, aspirate medium, add 200 μL clarified retroviral supernatant, and bring volume to 2 mL with complete DMEM. Incubate for 48 h.
+- Select stable populations using complete DMEM containing 1.0 μg/mL puromycin until non-transduced control cells die (3–5 days). Maintain thereafter without puromycin.
+
+3. Protease Overexpression Assay
+- Seed HEK293T cells in 24-well plates at 7 × 10^4 cells/well in 500 μL complete DMEM. Incubate overnight.
+- Co-transfect 0.5 μg FlipNanoLuc reporter plasmid and 0.5 μg protease expression plasmid (or pCAG-empty mock control) per well using Opti-MEM and PEI MAX (1:3 DNA:PEI ratio, 3 μL per well). Do not change medium.
+- Harvest by aspirating medium and lysing in 100 μL 1x lysis buffer at 48 h post-transfection for 3CLpro, or 24 h post-transfection for Caspase-3. Keep lysates on ice for no more than 10 min.
+
+4. Apoptosis Detection Assay (Staurosporine Treatment)
+- Seed HEK293T cells stably expressing Casp3A-FlipNanoLuc in 24-well plates at 7 × 10^4 cells/well. Incubate overnight.
+- Treat cells with 1 μM staurosporine (diluted from 200 mM DMSO stock into complete DMEM) or an equivalent vehicle control for 6 h at 37 °C, alongside a 0-h vehicle control.
+- Collect culture medium from each well into a 1.5 mL microcentrifuge tube, centrifuge at 500 × g for 5 min at 4 °C, and aspirate supernatant down to ~50 μL before removing completely.
+- Add 100 μL 1x lysis buffer to the emptied well to lyse adherent cells, transfer lysate to the corresponding tube, and thoroughly resuspend the cell pellet.
+
+5. Human Coronavirus OC43 Infection Assay
+- Seed HEK293T cells stably expressing 3CLpro-SL1-FlipNanoLuc in 96-well plates at 3.0 × 10^4 cells/well in 100 μL complete DMEM. Incubate overnight.
+- Infect cells with OC43 inoculum at MOI 1 (or MOI 0.5 and 1.0 for dose-response tests) in 100 μL complete DMEM, or add virus-free medium for mock controls. Incubate for 48 h at 37 °C (or 72 h where specified) without medium replacement.
+- Aspirate medium and lyse cells directly in 50 μL 1x lysis buffer.
+
+6. SARS-CoV-2 Infection Assay (BSL-3 Facility)
+- Seed BHK-hACE2 cells in 24-well plates at 1.5 × 10^5 cells/well in 500 μL complete MEM. Incubate overnight.
+- Transfect cells with 1.0 μg 3CLpro-SL1-FlipNanoLuc reporter plasmid using 3 μL PEI MAX in 100 μL Opti-MEM per well. Incubate for 24 h.
+- Aspirate transfection medium completely, wash once with plain MEM, and infect with SARS-CoV-2 inocula at MOI 1, 3, 5, or 10 in 100 μL plain MEM (or plain MEM for mock). Adsorb for 3 h at 37 °C.
+- Aspirate inoculum, add 500 μL complete MEM, and incubate for 24 h at 37 °C.
+- Aspirate medium and lyse cells in 100 μL 1x lysis buffer.
+
+7. absorbance at 570 nm Measurement and Normalization
+- Set up a white 384-well plate, dispensing samples into every other well to minimize crosstalk.
+- For each lysate, set up two separate wells: add 10 μL lysate + 10 μL Nano-Glo reagent in one well, and 10 μL lysate + 10 μL Bright-Glo reagent in the other. Mix by pipetting three times.
+- Wait 2–5 min, then measure NanoLuc and firefly luminescence on a Varioskan LUX luminometer using top reading, 1,000 ms integration time, and default gain.
+- Calculate normalized activity as NanoLuc luminescence divided by firefly luminescence. Calculate fold induction relative to the appropriate control (mock-infected, empty vector, or 0-h vehicle set to 1.0).
+- Perform assays with three biological replicates per condition and repeat independent experiments at least twice.

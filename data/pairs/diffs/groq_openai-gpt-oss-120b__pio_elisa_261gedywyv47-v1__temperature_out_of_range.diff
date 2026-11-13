@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/pio_elisa_261gedywyv47-v1 (clean)
++++ groq_openai-gpt-oss-120b/pio_elisa_261gedywyv47-v1 (defect)
+@@ -10,3 +10,3 @@
+ 
+-6. Add the detection antibody (the “desired antibody” specified in the protocol; we will provide the appropriate antibody) and incubate 1 h at 37 °C.  
++6. Add the detection antibody (the “desired antibody” specified in the protocol; we will provide the appropriate antibody) and incubate 1 h at 75 °C.  
+ 

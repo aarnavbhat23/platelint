@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/qpcr_PMC13524870 (clean)
++++ groq_openai-gpt-oss-20b/qpcr_PMC13524870 (defect)
+@@ -42,3 +42,3 @@
+    - Cefoxitin: 160 mg in 10 mL water → 16 mg mL⁻¹, filter‑sterilize.  
+-   - Store 4 °C ≤2 days or –20 °C ≤1 month.
++   - Store 4 °C ≤2 days or –75 °C ≤1 month.
+ 

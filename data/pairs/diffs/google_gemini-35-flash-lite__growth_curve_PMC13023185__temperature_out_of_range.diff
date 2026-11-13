@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/growth_curve_PMC13023185 (clean)
++++ google_gemini-35-flash-lite/growth_curve_PMC13023185 (defect)
+@@ -17,3 +17,3 @@
+    - Surface-sterilize spruce seeds with 35% H₂O₂ for 45 min and germinate on MMNC agar for 1 week.
+-   - Wash bacterial cultures in 1× PBS, adjust to 10⁸ cells/mL, and inoculate seedlings for 1 h at 28 °C and 100 rpm.
++   - Wash bacterial cultures in 1× PBS, adjust to 10⁸ cells/mL, and inoculate seedlings for 1 h at 75 °C and 100 rpm.
+    - Transfer seedlings to the 24-well plates (24 replicates per treatment), seal with modified phytatray lids, and incubate in a phytochamber at 20 °C, 55% humidity, and an 8/16-hour light/dark cycle for 3 weeks.

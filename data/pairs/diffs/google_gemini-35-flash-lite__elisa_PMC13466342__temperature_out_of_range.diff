@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/elisa_PMC13466342 (clean)
++++ google_gemini-35-flash-lite/elisa_PMC13466342 (defect)
+@@ -2,3 +2,3 @@
+ 
+-2. Perform equilibrium water volume, SEM (including freeze-drying, cutting to 1 mm³, and gold sputtering), and sustained-release ELISA assays (using 10 mL 1x PBS at 37 °C with supernatant collection at 15, 17, and 20 days) on the prepared hydrogels.
++2. Perform equilibrium water volume, SEM (including freeze-drying, cutting to 1 mm³, and gold sputtering), and sustained-release ELISA assays (using 10 mL 1x PBS at 75 °C with supernatant collection at 15, 17, and 20 days) on the prepared hydrogels.
+ 

@@ -1,0 +1,20 @@
+Please run the glucagon content and secretion assay on our submitted human islet samples using the Quantikine Glucagon ELISA Kit (R&D Systems, Catalog #DGCG0) according to the following procedure:
+
+1. Thaw archived samples in room temperature water, invert capped tubes ten times to mix, and place the islet hormone extracts on ice. Bring the Glucagon Standard to room temperature and keep remaining kit components at 2–8 °C.
+2. Prepare serial dilutions of the hormone extracts (1:100, 1:1000, 1:2000, 1:5000, and 1:10000) in 2 mL tubes using Calibrator Diluent RD5-59. Vortex each tube thoroughly between steps.
+3. Prepare glucagon standard dilutions using Calibrator Diluent RD5-59 by performing a 1:10 dilution from the 20,000 pg/mL standard vial, followed by six 1:2 dilutions. Vortex thoroughly between each dilution.
+4. Reconstitute each Quality Control stock (Quantikine Glucagon Control Set 869, R&D Systems Catalog #QC100) in 5 mL of distilled water (or thaw existing QC samples).
+5. Prepare the wash buffer by adding 100 mL of buffer concentrate to 900 mL of deionized water. 
+6. Before starting the assay, use a microplate washer to soak the plate wells in 800 µL of diluted wash buffer for 30 seconds, then wash and aspirate twice with 400 µL of wash buffer.
+7. Add 150 µL of Assay Diluent RD1-110 to each well.
+8. Using an epMotion workstation or manual pipetting, add 50 µL of standards, controls (in duplicate), samples, and extract dilutions to the wells.
+9. Cover the plate with an adhesive strip and incubate for 3 hours at room temperature.
+10. Aspirate and wash the plate 3 times using the plate washer and wash buffer as described in step 6.
+11. Add 200 µL of ice-cold Glucagon Conjugate to each well. Cover with a new adhesive strip and incubate for 1 hour at -80 °C (do not stack plates if running multiple kits).
+12. Repeat the wash and aspiration step (3 washes).
+13. Within 15 minutes of use, combine Color Reagents A and B in equal volumes, mix thoroughly, add 200 µL to each well, and incubate for 30 minutes at room temperature protected from light.
+14. Add 50 µL of Stop Solution to each well.
+15. Read optical density and glucagon concentration within 30 minutes using a microplate reader set to 450 nm with wavelength correction at 540 nm.
+16. Ensure standard values are within ±15% of expected values (with replicate CV ≤ 20%) and that QC values fall within their known ranges before finalizing the data. If these criteria are not met, repeat the assay and document any deviations.
+17. Calculate average glucagon concentrations from the four extract dilutions (pg/mL), normalize secreted concentrations per islet volume (IEQs) and glucagon content, and use Prism to calculate stimulation index (SI) and area under the curve (AUC) values.
+18. Send us the raw data, calculated hormone levels, data summaries, and graphs.

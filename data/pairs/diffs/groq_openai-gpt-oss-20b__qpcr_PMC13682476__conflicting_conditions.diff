@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/qpcr_PMC13682476 (clean)
++++ groq_openai-gpt-oss-20b/qpcr_PMC13682476 (defect)
+@@ -28,3 +28,3 @@
+ 
+-10. Western blot: harvest after 10 days, wash PBS, lyse 200 µL RIPA + protease/phosphatase inhibitors + EDTA, 30 min ice, centrifuge 12000 g 5 min 4 °C, BCA protein assay. Load 25 µg per lane on 10 % SDS‑PAGE, run 80 V 30 min, 120 V 60 min, transfer to PVDF 300 mA 100 min ice‑cooled. Block 15 min protein‑free buffer, primary antibodies (Collagen I, RUNX2, GAPDH; 1:1000, 1:1000, 1:2000) overnight 4 °C, wash TBST 10 min ×3, secondary HRP 1:500 1.5 h RT, visualize Omni‑ECL on Bio‑Rad.
++10. Western blot: harvest after 10 days, wash PBS, lyse 200 µL RIPA + protease/phosphatase inhibitors + EDTA, 30 min ice, centrifuge 12000 g 5 min 4 °C, BCA protein assay. Load 25 µg per lane on 10 % SDS‑PAGE, run 80 V 30 min, 120 V 60 min, transfer to PVDF 300 mA 100 min ice‑cooled. Block 15 min protein‑free buffer, primary antibodies (Collagen I, RUNX2, GAPDH; 1:1000, 1:1000, 1:2000) overnight 4 °C, wash TBST 10 min ×3, secondary HRP 1:500 1.5 h RT, visualize Omni‑ECL on Bio‑Rad, and hold the plate at 37 °C for the whole of this step.
+ 

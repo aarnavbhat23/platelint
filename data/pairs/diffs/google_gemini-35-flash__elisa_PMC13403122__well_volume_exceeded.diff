@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/elisa_PMC13403122 (clean)
++++ google_gemini-35-flash/elisa_PMC13403122 (defect)
+@@ -2,3 +2,3 @@
+ 
+-2. Dissociate our organoid samples into a single-cell suspension using TrypLE Express, filter through a 40 µm strainer, and seed 1 × 10^5 cells per well in a 6-well plate. Transduce the cells overnight using 1 mL of lentiviral supernatant (target MOI of ~10) supplemented with 8 µg/mL polybrene.
++2. Dissociate our organoid samples into a single-cell suspension using TrypLE Express, filter through a 40 µm strainer, and seed 1 × 10^5 cells per well in a 6-well plate. Transduce the cells overnight using 10200 µL of lentiviral supernatant (target MOI of ~10) supplemented with 8 µg/mL polybrene.
+ 

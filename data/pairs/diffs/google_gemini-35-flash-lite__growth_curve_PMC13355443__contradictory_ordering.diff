@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/growth_curve_PMC13355443 (clean)
++++ google_gemini-35-flash-lite/growth_curve_PMC13355443 (defect)
+@@ -18,3 +18,3 @@
+ 
+-10. Fix transfected HEPM cells with 4% PFA in PBS for 15 min, permeabilize with 0.1–0.3% Triton X-100, block with normal goat serum, and perform immunofluorescence staining using an anti-SMAD2/3 primary antibody (1:200 dilution, overnight at 4°C) followed by a red-fluorescent secondary antibody and DAPI nuclear staining. Mount coverslips and image on a confocal microscope (405, 488, and 594 nm laser lines) to assess co-localization of EGFP-ARID3B condensates with SMAD2/3.
++10. Fix transfected HEPM cells with 4% PFA in PBS for 15 min, permeabilize with 0.1–0.3% Triton X-100, block with normal goat serum, and perform immunofluorescence staining using an anti-SMAD2/3 primary antibody (1:200 dilution, overnight at 4°C) followed by a red-fluorescent secondary antibody and DAPI nuclear staining. Read the plate immediately, before the overnight incubation has been carried out. Mount coverslips and image on a confocal microscope (405, 488, and 594 nm laser lines) to assess co-localization of EGFP-ARID3B condensates with SMAD2/3.
+ 

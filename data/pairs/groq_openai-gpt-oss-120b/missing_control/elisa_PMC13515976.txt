@@ -1,0 +1,38 @@
+1. Produce recombinant SOD protein in E. coli using the pET‑28a vector with an N‑terminal 6×His tag, purify it by IMAC, and verify >95 % purity by SDS‑PAGE (expected MW ≈ 18.1 kDa). 
+
+2. Prepare two vaccine formulations: 
+ a. Mix the purified SOD (100 µg per dose) 1:1 (v/v) with aluminum hydroxide to a final Al(OH)₃ concentration of 0.2 %. 
+ b. Mix the same amount of SOD 1:1 (v/v) with the oil‑in‑water nano‑emulsion adjuvant AddaS03™ (InvivoGen, cat. vac‑as03‑10). 
+
+3. Include the following controls in the immunization study: 
+ - Recombinant human SOD1 (Novus, cat. 
+ - Brucella OMP16, OMP19, L7/L12, and IalB (purified at the Research Institute for Biological Safety Problems) as heterologous antigens for cross‑reactivity checks. 
+ - BSA and PBS (pH 7.2–7.4) as negative controls. 
+
+4. Immunize a cohort of clinically healthy, brucellosis‑seronegative sheep (6–12 months old, ≥ 20 kg) under the approved protocol (Bioethics Committee No. 1, 24 May 2024). Use a prime‑boost schedule identical to Figure 1 of the source paper, administering 100 µg of SOD per injection. Collect blood on days 21, 28, 35, and 42 post‑first immunization; process serum and store at –80 °C until analysis. 
+
+5. Perform agar gel immunodiffusion (AGID) on each serum sample: 
+ - Use 1 % agarose in physiological saline with rivanol, set in a humid chamber at 24 °C. 
+ - Prepare Brucella antigen (IDvet, AGID activity 1:8) as the test antigen. 
+ - Run two‑fold serial dilutions of serum from 1:2 to 1:32, incubate 24–36 h, and read precipitation lines. 
+
+6. Perform quantitative Brucella IgG ELISA on the same sera using the MyBioSource commercial kit, following the manufacturer’s protocol; read absorbance at 450 nm. 
+
+7. Set up a single radial immunodiffusion (SRID) assay to quantify SOD: 
+ - Prepare 1.5 % agarose in 0.01 M PBS (pH 7.2–7.4) containing monospecific antiserum at 15 µL/mL. 
+ - Pre‑treat standard SOD and test samples with 10 % Zwittergent 3‑14 (1:10 v/v), incubate 30 min at room temperature, then dilute in PBS. 
+ - Add 25 µL of each standard or sample to wells, incubate in a humid chamber at room temperature for 24 h. 
+ - Wash gels five times with PBS (30–40 min each, 40–50 rpm shaking), then twice with distilled water (15 min each). 
+ - Stain with 0.3 % Coomassie Brilliant Blue G‑250, destain in acetic‑ethanol until clear precipitation rings appear. 
+ - Measure ring diameters (to 0.1 mm), calculate D², and generate a calibration curve from the reference standard. 
+
+8. Validate the SRID assay as follows (run each condition in triplicate): 
+ - **Specificity:** Test SOD concentrations of 20, 10, and 5 µg/mL (and serial dilutions) against unrelated proteins (OMP16, OMP19, L7/L12, IalB, BSA) and PBS. Expect rings only for SOD. Record D, D², mean, SD, and CV; accept if CV ≤ 10 % and rings are symmetric. 
+ - **Sensitivity:** Perform two‑fold serial dilutions of SOD from 10 µg/mL down to 0.078 µg/mL. Determine the lowest concentration that yields reproducible rings with CV ≤ 10 %; define this as the LOD. 
+ - **Linearity:** Run SOD standards from 10 to 0.625 µg/mL, plot D² versus concentration, perform linear regression, and confirm R² ≥ 0.95. 
+ - **Precision (repeatability):** Test SOD at 20 µg/mL and 5 µg/mL in three independent assay runs, each with three replicates (total n = 9). Calculate D_mean, SD, and CV; accept CV ≤ 10 %. 
+ - **Robustness:** Repeat the assay at 20 and 5 µg/mL while varying incubation temperature (25 ± 3 °C), agarose thickness (2.5–3.0 mm), incubation time (20–24 h), and using different operators and reagent lots. Assess D² and CV; robustness is confirmed if CV remains ≤ 10 % across conditions. 
+
+9. Analyze all quantitative data using GraphPad Prism 10: report mean ± SD, compute CVs, perform linear regression for D² vs. concentration, and record R² values. Provide the full data set and statistical outputs in the final report. 
+
+Please let us know if any reagents are unavailable or if adjustments to the schedule are needed. Thank you.

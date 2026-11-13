@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/qpcr_PMC13610743 (clean)
++++ groq_openai-gpt-oss-20b/qpcr_PMC13610743 (defect)
+@@ -22,3 +22,3 @@
+ 4. **Incubation**  
+-   - 24 h at 37 °C, 5 % CO₂.  
++   - 24 h at 75 °C, 5 % CO₂.  
+    - After 24 h, add resazurin (0.2 mg/mL) and incubate 16 h.  

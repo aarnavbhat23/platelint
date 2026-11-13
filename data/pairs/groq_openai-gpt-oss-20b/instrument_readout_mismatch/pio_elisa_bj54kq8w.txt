@@ -1,0 +1,35 @@
+Please perform the following Salmonella‑specific IgY ELISA on our 90 egg‑yolk IgY preparations (triplicate wells for each sample).
+
+**Materials (catalog numbers provided)**
+- Anti‑Chicken IgY, HRP conjugate, 300 µl – Promega G1351
+- Salmonella Typhimurium LPS – Merck MilliporeSigma L3129
+- eBioscience™ TMB Solution (1X) – Thermo Fisher 00‑4201‑56
+- Nunc™ 96‑well polystyrene round‑bottom plate, non‑treated, with lid – Thermo Fisher 268200
+- ELISA Coating Buffer (5X) – BioLegend 421701
+- 10 % PBS‑Tween‑20 (PBS + 0.1 % Tween‑20)
+- 3 % non‑fat milk in PBS
+- Conjugate diluent (use the same buffer as the HRP conjugate manufacturer recommends)
+- 3 M HCl (for stopping the reaction)
+- Synergy™ Neo Hybrid Multi‑Mode Microplate Reader (or equivalent)
+
+**Procedure**
+
+1. Coat the plates with Salmonella LPS at 2 µg / well in 100 µl of 5X coating buffer. Incubate overnight at 4 °C.
+2. Wash plates four times with 10 % PBS‑Tween‑20 (1 ml per wash, aspirate between washes).
+3. Block with 25 µl per well of 3 % non‑fat milk in PBS. Incubate 1 hr at room temperature (RT).
+4. Wash plates four times with 10 % PBS‑Tween‑20.
+5. Add 50 µl of each IgY sample (1.25 mg ml⁻¹; titrate if necessary to achieve this concentration) to wells in triplicate. Incubate 1 hr at RT.
+6. Wash plates four times with 10 % PBS‑Tween‑20.
+7. Dilute the anti‑IgY‑HRP conjugate 1:30 000 in conjugate diluent, add 50 µl per well. Incubate 1 hr at RT.
+8. Wash plates four times with 10 % PBS‑Tween‑20.
+9. Add 50 µl TMB substrate to each well. Incubate 15 min in the dark.
+10. Stop the reaction by adding 50 µl 3 M HCl to each well.
+11. Measure luminescence (OD450) with the microplate reader. Keep plates in the dark after substrate addition to avoid light‑induced background.
+12. Include a negative control (PBS only) to calculate the cut‑off: ODcut‑off = 3 × OD of the negative control. Report any sample with OD > 0.51 as positive for anti‑Salmonella IgY.
+
+**Deliverables**
+- Raw OD450 readings for each well.
+- Calculated mean OD for each sample (triplicate).
+- Identification of positive/negative samples based on the 0.51 cut‑off.
+
+Please confirm receipt of the samples and let me know if any additional reagents are needed.

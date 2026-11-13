@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/growth_curve_PMC13403125 (clean)
++++ groq_openai-gpt-oss-120b/growth_curve_PMC13403125 (defect)
+@@ -17,3 +17,3 @@
+    - Lyse on ice with ultrasonication (30 % amplitude, 5 s on/5 s off, total 15 min). Centrifuge lysate 12 000 × g, 30 min, 4 °C; keep supernatant.  
+-   - Load supernatant onto a Ni‑NTA column pre‑equilibrated with lysis buffer (5 column volumes). Wash with 5 × CV wash buffer (20 mM imidazole). Elute protein with 5 × CV elution buffer (250 mM imidazole).  
++   - Load supernatant onto a Ni‑NTA column pre‑equilibrated with lysis buffer (5 column volumes). Wash with 5 × CV wash buffer (20 mM imidazole). Elute protein with 5 × CV elution buffer (250 µM imidazole).  
+    - After elution, rinse column sequentially with lysis buffer (3 × CV), deionized water (5 × CV), and 20 % ethanol (2 × CV). Store collected protein at 2–8 °C.

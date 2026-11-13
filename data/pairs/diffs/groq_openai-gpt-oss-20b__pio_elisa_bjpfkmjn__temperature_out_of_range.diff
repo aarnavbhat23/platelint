@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/pio_elisa_bjpfkmjn (clean)
++++ groq_openai-gpt-oss-20b/pio_elisa_bjpfkmjn (defect)
+@@ -2,3 +2,3 @@
+ 
+-1. Coat a 96‑well microtitre plate with 1 µl of unlabeled protein L (SpL) at 1 mg/ml in carbonate–bicarbonate buffer, pH 9.6. Cover and incubate overnight at 4 °C.
++1. Coat a 96‑well microtitre plate with 1 µl of unlabeled protein L (SpL) at 1 mg/ml in carbonate–bicarbonate buffer, pH 9.6. Cover and incubate overnight at -80 °C.
+ 2. Block the plate by adding 200 µl per well of 1 % bovine serum albumin (BSA) in PBS, incubate 30 min at room temperature, then wash 4 × with PBS‑Tween (0.05 % Tween‑20).

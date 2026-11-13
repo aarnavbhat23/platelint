@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/elisa_PMC13571431 (clean)
++++ groq_openai-gpt-oss-120b/elisa_PMC13571431 (defect)
+@@ -18,3 +18,3 @@
+    - Aspirate PFA with a multichannel pipette, taking care not to disturb cells. Wash 5× with DPBS (use multichannel pipette for the first wash, then add fresh DPBS and discard by inverting the plate).  
+-   - **Pause point:** plates can be stored in DPBS + 0.05 % NaN₃ at 4 °C for up to 2 weeks (sealed).
++   - **Pause point:** plates can be stored in DPBS + 0.05 % NaN₃ at -80 °C for up to 2 weeks (sealed).
+ 

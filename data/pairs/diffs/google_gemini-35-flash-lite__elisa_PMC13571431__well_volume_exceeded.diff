@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/elisa_PMC13571431 (clean)
++++ google_gemini-35-flash-lite/elisa_PMC13571431 (defect)
+@@ -14,3 +14,3 @@
+ 
+-7. Wash the wells 5 times with DPBS, then incubate with goat anti-rabbit Alexa Fluor 488 (1:500) and Alexa Fluor 647 phalloidin (1:1,000) in DPBS (40 µL per well) for 1 hour at RT, protecting the samples from light from this step onward.
++7. Wash the wells 5 times with DPBS, then incubate with goat anti-rabbit Alexa Fluor 488 (1:500) and Alexa Fluor 647 phalloidin (1:1,000) in DPBS (1080 µL per well) for 1 hour at RT, protecting the samples from light from this step onward.
+ 

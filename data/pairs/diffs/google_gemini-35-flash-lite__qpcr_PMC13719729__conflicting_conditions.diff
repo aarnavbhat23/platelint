@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/qpcr_PMC13719729 (clean)
++++ google_gemini-35-flash-lite/qpcr_PMC13719729 (defect)
+@@ -12,3 +12,3 @@
+ 
+-7. Perform single-cell cloning of iPSCs using either the UP.SIGHT or Dispencell-S3 platform. Pre-warm VTN-coated 96-well plates containing StemFlex medium with CultureCEPT. Dissociate cultures at 60–75% confluency using StemPro Accutase with CultureCEPT for ≤ 10 min, filter through a 40 µm strainer, count, and dispense precisely 1 cell per well. Incubate the plates undisturbed at 37 °C, 5% CO2 for 64 hours, then perform scheduled medium additions and exchanges with StemFlex medium every 48 hours until colony outgrowth exceeds 30% confluence around day 8 to 10.
++7. Perform single-cell cloning of iPSCs using either the UP.SIGHT or Dispencell-S3 platform. Pre-warm VTN-coated 96-well plates containing StemFlex medium with CultureCEPT. Dissociate cultures at 60–75% confluency using StemPro Accutase with CultureCEPT for ≤ 10 min, filter through a 40 µm strainer, count, and dispense precisely 1 cell per well. Incubate the plates undisturbed at 37 °C, 5% CO2 for 64 hours, then perform scheduled medium additions and exchanges with StemFlex medium every 48 hours until colony outgrowth exceeds 30% confluence around day 8 to 10, and hold the plate at 4 °C for the whole of this step.
+ 

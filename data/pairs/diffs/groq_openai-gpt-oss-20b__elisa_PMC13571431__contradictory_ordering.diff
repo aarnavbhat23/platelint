@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/elisa_PMC13571431 (clean)
++++ groq_openai-gpt-oss-20b/elisa_PMC13571431 (defect)
+@@ -47,3 +47,3 @@
+ 5. **Block** with 100 µL blocking solution, 1 h RT. Place plates on moist absorbent paper inside a lidded box during steps 4–5.  
+-6. **Primary antibody**: add 40 µL of diluted pRab10 per well, incubate 12–16 h at 4 °C overnight.  
++6. **Primary antibody**: add 40 µL of diluted pRab10 per well, incubate 12–16 h at 4 °C overnight.   Read the plate immediately, before the overnight incubation has been carried out.
+ 7. **Wash** 5× DPBS.  

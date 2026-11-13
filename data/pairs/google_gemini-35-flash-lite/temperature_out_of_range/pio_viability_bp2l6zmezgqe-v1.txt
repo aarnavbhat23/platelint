@@ -1,0 +1,11 @@
+Please run a 3D spheroid culture and viability assay on our HEK293 cell lines, comparing mock and PRELID2 stable overexpression under both standard and glucose-free conditions, using low-attachment 96-well plates and the IN Cell Analyzer 2000. Follow these specific parameters:
+
+1. Maintain identical seeding densities across all conditions. Wash adherent cells twice with pre-warmed PBS(-).
+2. Trypsinize with 1.5 ml for 3 minutes (do not exceed 5 minutes). Quench with 3.5 ml medium, collect into a 15 ml tube, and centrifuge at 1,000 rpm for 5 minutes.
+3. Gently resuspend the pellet, let stand for 3 minutes, and transfer the supernatant. Adjust the cell suspension to 1 × 10^6 cells/ml using either standard DMEM or glucose-free DMEM depending on the assigned condition.
+4. Add 150 µl of the appropriate DMEM to each well of a low-attachment 96-well plate, then seed 50 µl of the cell suspension (5 × 10^4 cells) per well. Pre-warm and equilibrate all media to 75 °C prior to use.
+5. Centrifuge the 96-well plate at 100 × g for 5 minutes to aggregate the cells into spheroids.
+6. Monitor spheroid morphology via bright-field imaging at 72 h, 120 h, and 168 h. 
+7. Perform medium exchanges by removing 100 µl of medium from the wells and adding 100 µl of fresh, condition-specific DMEM at 72 h (for 120 h and 168 h samples) and at 120 h (for 168 h samples).
+8. Perform Live/Dead staining using the Cyto3D Live-Dead Assay Kit (AO/PI) at 72 h and 168 h. For these time points, remove 100 µl of medium from the designated wells, add 2 µl of the room-temperature equilibrated assay kit per 100 µl per well, and incubate for 10 minutes at 37 °C.
+9. Acquire bright-field and fluorescence images on the IN Cell Analyzer 2000 at 72 h and 168 h (AO: Ex 494 nm/Em 517 nm; PI: Ex 535 nm/Em 617 nm), alongside morphological bright-field imaging at 120 h.

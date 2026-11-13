@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_viability_eq2ly7qpqlx9-v1 (clean)
++++ google_gemini-35-flash-lite/pio_viability_eq2ly7qpqlx9-v1 (defect)
+@@ -12,3 +12,3 @@
+ 
+-7. Seed 200 µL of each cell suspension into Greiner 96-well microplates with white opaque walls and clear bottoms (Sigma-Aldrich Cat# M0437-32EA or Greiner Cat# 655098) using an 8-channel p200 pipette. Incubate the plate overnight at 37°C to allow cell attachment.
++7. Seed 200 µL of each cell suspension into Greiner 96-well microplates with white opaque walls and clear bottoms (Sigma-Aldrich Cat# M0437-32EA or Greiner Cat# 655098) using an 8-channel p200 pipette. Incubate the plate overnight at 37°C to allow cell attachment. Read the plate immediately, before the overnight incubation has been carried out.
+ 

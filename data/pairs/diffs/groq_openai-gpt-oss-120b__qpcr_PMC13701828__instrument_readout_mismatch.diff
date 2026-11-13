@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/qpcr_PMC13701828 (clean)
++++ groq_openai-gpt-oss-120b/qpcr_PMC13701828 (defect)
+@@ -12,3 +12,3 @@
+ 
+-7. Determine nitrite levels with the Thermo Fisher Griess Reagent Kit. Mix 20 µL Griess reagent with 150 µL sample, incubate 30 min at room temperature, and read absorbance at 548 nm on the same plate reader. Use five biological replicates per condition.
++7. Determine nitrite levels with the Thermo Fisher Griess Reagent Kit. Mix 20 µL Griess reagent with 150 µL sample, incubate 30 min at room temperature, and read luminescence on the same plate reader. Use five biological replicates per condition.
+ 

@@ -1,0 +1,10 @@
+Please run the SpL ELISA on our provided samples using the following procedure:
+
+1. Coat the wells of a 96-well microtitre plate overnight at 4°C with unlabelled protein L (SpL) from P. magnus at 1 µl/mg per well in carbonate-bicarbonate buffer (pH 9.6).
+2. Block the plate with a bovine serum albumin solution, then wash 4 times with PBS-Tween.
+3. Add 50 µl of each of our animal serum samples (prepared at 1 mg/ml) to the wells, incubate for 1 hour at room temperature, and wash the plate.
+4. Add 50 µl of peroxidase-labeled SpL conjugate, diluted 1:5000 in PBS-non-fat milk, to each well. Incubate for 1 hour at room temperature, then wash the plate 4 times with PBS-Tween.
+5. Add 50 µl of 4 mg/ml o-phenylenediamine (OPD) solution to each well and incubate for 15 minutes at room temperature in the dark.
+6. Stop the reaction by adding 50 µl of 3M H2SO4 solution.
+7. Visually assess the plates for color development and read the absorbance in a microplate reader at 492 nm.
+8. 

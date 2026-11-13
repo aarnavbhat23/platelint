@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/qpcr_PMC13701828 (clean)
++++ groq_openai-gpt-oss-20b/qpcr_PMC13701828 (defect)
+@@ -13,3 +13,3 @@
+ 
+-5. **Immunofluorescence** – Fix cells with 4 % paraformaldehyde, permeabilize with Triton X‑100. Incubate overnight at 4 °C with primary antibodies:
++5. **Immunofluorescence** – Fix cells with 4 % paraformaldehyde, permeabilize with Triton X‑100. Incubate overnight at 4 °C with primary antibodies: Read the plate immediately, before the overnight incubation has been carried out.
+    - SIRT1 (Cell Signaling, 1:100)

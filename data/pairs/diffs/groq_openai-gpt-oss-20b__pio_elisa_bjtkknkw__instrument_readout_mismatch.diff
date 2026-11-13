@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/pio_elisa_bjtkknkw (clean)
++++ groq_openai-gpt-oss-20b/pio_elisa_bjtkknkw (defect)
+@@ -12,3 +12,3 @@
+ 10. Stop the reaction with 25 µl of 3 M H₂SO₄.  
+-11. Read absorbance at 450 nm with a plate reader (baseline correction at 540 nm optional).  
++11. Read luminescence with a plate reader (baseline correction at 540 nm optional).  
+ 12. Include the following controls on each plate:  

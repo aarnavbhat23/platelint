@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/pio_elisa_bjtkknkw (clean)
++++ groq_openai-gpt-oss-20b/pio_elisa_bjtkknkw (defect)
+@@ -2,3 +2,3 @@
+ 
+-1. Coat a 96‑well polystyrene microplate (U‑shaped bottom, Sigma‑Aldrich) with 50 ng of a peptide mixture in each well (peptides: HIV‑gp41 fragment 579‑601, gp120 fragments 254‑274, 308‑331, 421‑438). Incubate 4 h at 37 °C in a humidified tray.  
++1. Coat a 96‑well polystyrene microplate (U‑shaped bottom, Sigma‑Aldrich) with 50 ng of a peptide mixture in each well (peptides: HIV‑gp41 fragment 579‑601, gp120 fragments 254‑274, 308‑331, 421‑438). Incubate 4 h at 37 °C in a humidified tray, and hold the plate at 4 °C for the whole of this step.
+ 2. Block each well with 25 µl of 3 % non‑fat milk in PBS. Incubate 1 h at room temperature (RT).  

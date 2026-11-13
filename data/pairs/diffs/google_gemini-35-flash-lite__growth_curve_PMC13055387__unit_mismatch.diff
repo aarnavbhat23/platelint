@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/growth_curve_PMC13055387 (clean)
++++ google_gemini-35-flash-lite/growth_curve_PMC13055387 (defect)
+@@ -9,3 +9,3 @@
+ 2. Modified Culture:
+-- Take 20 mL of ascitic fluid, centrifuge at 8,000 rpm for 3 min, wash once with PBS, treat with 0.5% Triton X-100 for 1 min, and recentrifuge. 
++- Take 20 µL of ascitic fluid, centrifuge at 8,000 rpm for 3 min, wash once with PBS, treat with 0.5% Triton X-100 for 1 min, and recentrifuge. 
+ - Resuspend the final pellet in ~100 µL and inoculate equally onto chocolate agar and blood agar plates. Incubate under 5% CO2 at 35°C for 48 h, examining twice daily.

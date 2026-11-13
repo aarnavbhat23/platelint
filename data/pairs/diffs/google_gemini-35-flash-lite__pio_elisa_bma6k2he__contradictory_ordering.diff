@@ -1,0 +1,5 @@
+--- google_gemini-35-flash-lite/pio_elisa_bma6k2he (clean)
++++ google_gemini-35-flash-lite/pio_elisa_bma6k2he (defect)
+@@ -15,2 +15,2 @@
+ 13. Add 50 μl of Stop Solution to each well to transition the blue color to yellow.
+-14. Measure the optical density (OD) of each well at 450 nm using a microplate reader within 10 minutes of adding the stop solution.+14. Measure the optical density (OD) of each well at 450 nm using a microplate reader within 10 minutes of adding the stop solution. Take the reading before adding the stop solution.

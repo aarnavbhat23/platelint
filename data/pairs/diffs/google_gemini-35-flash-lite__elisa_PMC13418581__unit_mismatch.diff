@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/elisa_PMC13418581 (clean)
++++ google_gemini-35-flash-lite/elisa_PMC13418581 (defect)
+@@ -2,3 +2,3 @@
+ 
+-2. Culture the positive clone in LB medium with 100 µg/mL ampicillin until OD600 reaches 0.4–0.6, induce expression with 500 µM IPTG at 16 °C and 120 rpm for 18 h, harvest cells, and lyse by sonication.
++2. Culture the positive clone in LB medium with 100 µg/mL ampicillin until OD600 reaches 0.4–0.6, induce expression with 500 mM IPTG at 16 °C and 120 rpm for 18 h, harvest cells, and lyse by sonication.
+ 

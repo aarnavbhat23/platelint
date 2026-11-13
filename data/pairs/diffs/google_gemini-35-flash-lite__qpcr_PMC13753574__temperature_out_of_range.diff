@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/qpcr_PMC13753574 (clean)
++++ google_gemini-35-flash-lite/qpcr_PMC13753574 (defect)
+@@ -10,3 +10,3 @@
+ 
+-6. Extract total RNA using Trizol reagent and column-based purification. Add 1 mL Trizol to the powder, incubate for 5 min, load onto adsorption columns, and centrifuge at 4°C and 13500 × g for 20 s. Wash the column once with 700 μL Buffer RW1 and twice with 500 μL Buffer RW2. Dry the column by centrifuging for 2 min at 13500 × g, then elute RNA in 30 μL of RNase-free water. Quantify RNA concentration via NanoDrop spectrophotometer and validate integrity using agarose gel electrophoresis before proceeding or storing at −80°C.
++6. Extract total RNA using Trizol reagent and column-based purification. Add 1 mL Trizol to the powder, incubate for 5 min, load onto adsorption columns, and centrifuge at -80 °C and 13500 × g for 20 s. Wash the column once with 700 μL Buffer RW1 and twice with 500 μL Buffer RW2. Dry the column by centrifuging for 2 min at 13500 × g, then elute RNA in 30 μL of RNase-free water. Quantify RNA concentration via NanoDrop spectrophotometer and validate integrity using agarose gel electrophoresis before proceeding or storing at −80°C.
+ 

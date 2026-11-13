@@ -1,0 +1,27 @@
+1. Prepare the standard: reconstitute 120 µL of the supplied 4800 ng/L TGFβ1 standard with 120 µL of the standard diluent to make a 2400 ng/L stock. Let it sit 15 min at room temperature with gentle agitation.  
+
+2. From the 2400 ng/L stock make duplicate serial‑dilution points (1:2) with standard diluent to obtain standards of 1200, 600, 300, and 150 ng/L. Use undiluted diluent as the zero standard (0 ng/L).  
+
+3. Prepare 1× Wash Buffer by diluting 20 mL of the 25× Wash Buffer concentrate into distilled water and bring the final volume to 500 mL.  
+
+4. Bring all reagents (standards, diluent, wash buffer, antibodies, streptavidin‑HRP, substrate A/B, stop solution) to room temperature before use.  
+
+5. Determine how many assay strips are needed for our serum samples and place the strips into the provided frames.  
+
+6. For each assay well: add 50 µL of the appropriate standard to the standard wells.  
+
+7. For each sample well: add 40 µL of our serum, then add 10 µL of anti‑TGFβ1 antibody, then add 50 µL of streptavidin‑HRP. Mix gently and cover the plate with a sealing film.  
+
+8. Incubate the sealed plate for 60 min at 37 °C.  
+
+9. Remove the seal and wash the plate 5 times with 1× Wash Buffer. For each wash, fill wells with at least 0.35 mL wash buffer, let sit 30 s–1 min, then discard and blot the plate on absorbent paper.  
+
+10. Add 50 µL of substrate solution A to each well followed immediately by 50 µL of substrate solution B.  
+
+11. Cover the plate with a fresh seal and incubate 10 min at 37 °C in the dark.  
+
+12. Add 50 µL of stop solution to each well; the color will change from blue to yellow.  
+
+13. Read the plate on a microplate reader at 450 nm within 10 min of adding the stop solution and record the OD values for all wells. Take the reading before adding the stop solution.  
+
+Please run this assay on the batch of serum samples we have provided, using the above procedure and the reagents supplied in the kit. Let us know if any reagents are missing or if you encounter any issues.

@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/growth_curve_PMC13030957 (clean)
++++ groq_openai-gpt-oss-20b/growth_curve_PMC13030957 (defect)
+@@ -7,3 +7,3 @@
+    - Grow E. faecalis anaerobically at 37 °C in NYCIII.  
+-   - Grow C. difficile strains anaerobically at 37 °C in brain‑heart infusion (BHI).  
++   - Grow C. difficile strains anaerobically at 75 °C in brain‑heart infusion (BHI).  
+    - For the clinical isolates, start from a single colony, grow overnight in BHI, then dilute to OD600 = 0.05.

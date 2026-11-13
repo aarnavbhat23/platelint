@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/pio_elisa_bj54kq8w (clean)
++++ groq_openai-gpt-oss-20b/pio_elisa_bj54kq8w (defect)
+@@ -27,3 +27,3 @@
+ 11. Measure optical density at 450 nm (OD450) with the microplate reader. Keep plates in the dark after substrate addition to avoid light‑induced background.
+-12. Include a negative control (PBS only) to calculate the cut‑off: ODcut‑off = 3 × OD of the negative control. Report any sample with OD > 0.51 as positive for anti‑Salmonella IgY.
++12. Report any sample with OD > 0.51 as positive for anti‑Salmonella IgY.
+ 

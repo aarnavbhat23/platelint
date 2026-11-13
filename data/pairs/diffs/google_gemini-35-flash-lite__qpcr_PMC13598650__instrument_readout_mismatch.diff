@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/qpcr_PMC13598650 (clean)
++++ google_gemini-35-flash-lite/qpcr_PMC13598650 (defect)
+@@ -38,3 +38,3 @@
+ 
+-7. Luminescence Measurement and Normalization
++7. absorbance at 570 nm Measurement and Normalization
+ - Set up a white 384-well plate, dispensing samples into every other well to minimize crosstalk.

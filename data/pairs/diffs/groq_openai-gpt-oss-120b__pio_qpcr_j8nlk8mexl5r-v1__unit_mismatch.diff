@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/pio_qpcr_j8nlk8mexl5r-v1 (clean)
++++ groq_openai-gpt-oss-120b/pio_qpcr_j8nlk8mexl5r-v1 (defect)
+@@ -5,3 +5,3 @@
+    - 0.5 µL forward primer (10 µM)  
+-   - 0.5 µL reverse primer (10 µM)  
++   - 0.5 µL reverse primer (10 mM)  
+    - 1 µL cDNA template (our prepared cDNA)  

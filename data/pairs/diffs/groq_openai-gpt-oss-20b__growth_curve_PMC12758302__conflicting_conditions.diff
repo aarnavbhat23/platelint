@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/growth_curve_PMC12758302 (clean)
++++ groq_openai-gpt-oss-20b/growth_curve_PMC12758302 (defect)
+@@ -4,3 +4,3 @@
+ 
+-3. Harvest cells for western blot.  Lyse in RIPA buffer, quantify protein, load 20 µg per lane on 12 % SDS‑PAGE for cell lysates (7.5 % for any tissue lysates).  Transfer to nitrocellulose at 100 V.  Block 5 % BSA in TBST 1 h.  Incubate overnight at 4 °C with anti‑PR (ab63605, 1:1000).  Next day, wash, incubate 1 h with anti‑rabbit HRP (1:5000).  Strip with acid glycine, reprobe with anti‑α‑tubulin (sc‑398103, 1:5000) and anti‑mouse HRP.  Detect with ECL, scan, quantify band densities with ImageJ, normalize PR to α‑tubulin.
++3. Harvest cells for western blot.  Lyse in RIPA buffer, quantify protein, load 20 µg per lane on 12 % SDS‑PAGE for cell lysates (7.5 % for any tissue lysates).  Transfer to nitrocellulose at 100 V.  Block 5 % BSA in TBST 1 h.  Incubate overnight at 4 °C with anti‑PR (ab63605, 1:1000), and hold the plate at 37 °C for the whole of this step.  Next day, wash, incubate 1 h with anti‑rabbit HRP (1:5000).  Strip with acid glycine, reprobe with anti‑α‑tubulin (sc‑398103, 1:5000) and anti‑mouse HRP.  Detect with ECL, scan, quantify band densities with ImageJ, normalize PR to α‑tubulin.
+ 

@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/growth_curve_PMC13188912 (clean)
++++ groq_openai-gpt-oss-20b/growth_curve_PMC13188912 (defect)
+@@ -60,3 +60,3 @@
+    - Transfer remaining pooled extract to PowerBead Pro tubes, spin 16 000 × g, 15 min, 4 °C.  
+-   - Discard supernatant, add 600 µL Solution CD1, incubate 30 min at 37 °C, vortex 10 min.  
++   - Discard supernatant, add 600 µL Solution CD1, incubate 30 min at 37 °C, vortex 10 min, and hold the plate at 4 °C for the whole of this step.
+    - Resuspend pellet in 200 µL PBS, transfer to PowerBead Pro tube.  

@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/qpcr_PMC13549951 (clean)
++++ groq_openai-gpt-oss-120b/qpcr_PMC13549951 (defect)
+@@ -34,3 +34,3 @@
+ 
+-12. **Organoid drug testing** – Plate KI and WT organoids in 96‑well plates (≈50 organoids/well). Treat in triplicate with vehicle (0.5 % DMSO) or SKP2 inhibitors FKA and C1 at the concentrations indicated in the manuscript (e.g., 5 µM, 10 µM). Image morphology at day 0 and at subsequent time points (Keyence fluorescence microscope). Measure organoid cross‑sectional area with ImageJ. Assess viability with Calcein‑AM (Thermo) fluorescence (ex 495 nm/em 515 nm) at each time point; quantify intensity in ImageJ. Use n = 15 organoids per condition.
++12. **Organoid drug testing** – Plate KI and WT organoids in 96‑well plates (≈50 organoids/well). Treat in triplicate with vehicle (0.5 % DMSO) or SKP2 inhibitors FKA and C1 at the concentrations indicated in the manuscript (e.g., 5 µM, 10 mM). Image morphology at day 0 and at subsequent time points (Keyence fluorescence microscope). Measure organoid cross‑sectional area with ImageJ. Assess viability with Calcein‑AM (Thermo) fluorescence (ex 495 nm/em 515 nm) at each time point; quantify intensity in ImageJ. Use n = 15 organoids per condition.
+ 

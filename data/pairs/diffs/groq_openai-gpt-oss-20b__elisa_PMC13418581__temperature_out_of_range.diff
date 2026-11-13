@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/elisa_PMC13418581 (clean)
++++ groq_openai-gpt-oss-20b/elisa_PMC13418581 (defect)
+@@ -24,3 +24,3 @@
+    - Wash 3× PBST, add 100 µL HRP‑conjugated goat anti‑pig IgG (1:10 000 in PBST), incubate 1 h @ 37 °C.  
+-   - Wash 5× PBST, add 100 µL TMB substrate, 15 min @ 37 °C in dark, stop with 50 µL 2 M H₂SO₄.  
++   - Wash 5× PBST, add 100 µL TMB substrate, 15 min @ 75 °C in dark, stop with 50 µL 2 M H₂SO₄.  
+    - Read OD₄₅₀ (microplate reader).  

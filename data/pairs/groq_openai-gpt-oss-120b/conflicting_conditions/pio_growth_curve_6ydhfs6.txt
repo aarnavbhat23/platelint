@@ -1,0 +1,33 @@
+Please perform a vibriocidal assay on the serum samples we are sending, using the V. cholerae O1 (Ogawa or Inaba) strain we will provide. The assay should be run exactly as described below.
+
+1. Streak the supplied V. cholerae O1 isolate onto a blood‑agar plate and incubate overnight at 37 °C.  
+2. Pick 1–2 colonies with a loop and inoculate into a 15 mL tube containing 10 mL sterile Brain‑Heart Infusion (BHI) broth (pre‑warmed to 22–25 °C for at least 1 h).  
+3. Grow the culture in an orbital shaker‑incubator at 37 °C, 220 rpm for 3–4 h.  
+4. While the bacteria are growing, aliquot 20 µL of each serum sample into 1.5 mL micro‑centrifuge tubes and heat‑inactivate at 56 °C for 30 min.  
+5. Dilute each heat‑inactivated serum 1:10 by adding 15 µL serum to 135 µL 0.9 % NaCl (keep on ice).  
+6. Thaw a 300 µL aliquot of guinea‑pig complement serum (stored at –20 °C) by placing it at 4 °C.  
+7. When bacterial growth is complete, transfer the culture to a 15 mL centrifuge tube and spin at 3000 rpm, 22–25 °C for 10 min. Discard the supernatant in 1:10 bleach.  
+8. Wash the pellet twice: resuspend in 10 mL 0.9 % NaCl, centrifuge again (3000 rpm, 10 min, 22–25 °C), discard supernatant each time. After the second wash resuspend the final pellet in 1 mL 0.9 % NaCl.  
+9. Transfer 200 µL of this suspension to a 96‑well plate and read OD₆₀₀. Adjust the bacterial suspension with 0.9 % NaCl to obtain a working concentration of approximately OD₆₀₀ ≈ 0.3 (e.g., if OD₆₀₀ = 1.0 add 300 µL bacterial suspension + 700 µL saline to make 1 mL).  
+10. Prepare a fresh 96‑well plate: add 25 µL sterile 0.9 % NaCl to every well except column 2.  
+11. Add 50 µL of each 1:10 diluted serum (from step 5) to column 2, placing each sample in duplicate (e.g., sample 1 in wells 2A and 2B, sample 2 in 2C and 2D, etc.).  
+12. Perform two‑fold serial dilutions across the plate: using a multichannel pipette, transfer 25 µL from column 2 to column 3, mix, then 25 µL from column 3 to column 4, and continue through column 12, discarding the 25 µL remaining in column 12. Verify that all wells contain the same final volume after dilution.  
+13. Prepare the Growth Indicator mix for one plate:  
+    • 2.85 mL sterile 0.9 % NaCl  
+    • 150 µL of the bacterial working dilution (from step 9)  
+    • 300 µL guinea‑pig complement serum (thawed)  
+    Mix gently and dispense 25 µL into wells 1A–1D (growth controls) and into every sample well (columns 2–12). Change tips between columns to avoid cross‑contamination.  
+14. Add 50 µL of V. cholerae monoclonal antibody (1 µg/mL in PBS) to wells 2G and 2H as assay controls.  
+15. Add 25 µL sterile saline to wells 1E, 1F, 1G, 1H (negative controls).  
+16. Incubate the plate in an orbital shaker‑incubator at 37 °C, 50 rpm for 1 h.  
+17. After shaking, add 150 µL BHI broth to every well (including controls) without shaking.  
+18. Incubate at 37 °C, static, for 2 h, and hold the plate at 4 °C for the whole of this step. If the OD₅₉₅ of the growth controls is below 0.20, continue incubating and read OD₅₉₅ every 30 min, up to a total of 4 h, until growth controls are between 0.20–0.28.  
+19. Read the entire plate at 595 nm. Subtract the average OD of the four negative‑control wells from all wells; set any resulting negative values to zero.  
+20. Calculate the 50 % kill OD: average the four growth‑control ODs and divide by 2. If two or more growth‑control wells fall outside 0.20–0.28, reject the plate; if only one is out of range, discard that well and use the remaining three.  
+21. Determine each sample’s titer: find the highest dilution where the OD₅₉₅ is below the 50 % kill OD, then report the reciprocal of that dilution. If no dilution meets the criterion, assign a titer of 5 (below limit of detection).  
+22. Verify that technical replicates for each sample are within one two‑fold dilution of each other. If replicates differ by more than one dilution, reject the sample; if they differ by exactly one dilution, assign the lower titer.  
+
+Materials needed (all supplied or available in the lab):  
+- Blood‑agar plates, BHI broth, 0.9 % NaCl, 70 % ethanol, 1.5 mL micro‑centrifuge tubes, 15 mL and 50 mL Falcon tubes, 25 mL reagent reservoir, 96‑well tissue‑culture plates, multichannel pipettes (1–10 µL and 200 µL) with sterile tips, orbital shaker‑incubator, swinging‑bucket centrifuge, plate reader capable of OD₅₉₅ and OD₆₀₀, guinea‑pig complement serum, V. cholerae monoclonal antibody (1 µg/mL), bleach for waste.  
+
+Please run the assay on all serum samples we provide and return the calculated vibriocidal titers together with the raw OD data. Let us know promptly if any reagents are missing or if any step needs clarification.

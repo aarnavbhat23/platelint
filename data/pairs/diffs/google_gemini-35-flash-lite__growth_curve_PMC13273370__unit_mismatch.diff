@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/growth_curve_PMC13273370 (clean)
++++ google_gemini-35-flash-lite/growth_curve_PMC13273370 (defect)
+@@ -11,3 +11,3 @@
+ 5. Set up the assay plates using a 96-channel pipetting system at room temperature in a sterile hood:
+-   - Prepare a media control plate by adding 200 mL of half-strength TSB to each well.
++   - Prepare a media control plate by adding 200 µL of half-strength TSB to each well.
+    - Assemble stacker plates for each concentration, starting from the lowest to the highest, by adding 196 μL of the respective treatment solution to each well of stacker plates A and B.

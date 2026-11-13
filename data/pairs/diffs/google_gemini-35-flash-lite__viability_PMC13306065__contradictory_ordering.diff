@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/viability_PMC13306065 (clean)
++++ google_gemini-35-flash-lite/viability_PMC13306065 (defect)
+@@ -18,3 +18,3 @@
+ 
+-10. Perform laser scanning confocal microscopy (LSCM) on 3T3 and KRAS cells treated with CDs (50 or 100 µg/mL) by co-staining with organelle trackers: MitoTracker Orange-Red (0.3 µM for 15 min, fixed with 4% PFA), Golgi Tracker (CellLight Golgi-GFP, overnight incubation), LysoTracker Green DND-26 (75 nM for 30 min, live-cell), or ER-Tracker Green (1 µM for 30 min, live-cell). Image using excitation at 405 nm for CDs and appropriate matching channels for the trackers, quantifying mean fluorescence intensity per cell across approximately 5 fields per sample.
++10. Perform laser scanning confocal microscopy (LSCM) on 3T3 and KRAS cells treated with CDs (50 or 100 µg/mL) by co-staining with organelle trackers: MitoTracker Orange-Red (0.3 µM for 15 min, fixed with 4% PFA), Golgi Tracker (CellLight Golgi-GFP, overnight incubation), LysoTracker Green DND-26 (75 nM for 30 min, live-cell), or ER-Tracker Green (1 µM for 30 min, live-cell). Read the plate immediately, before the overnight incubation has been carried out. Image using excitation at 405 nm for CDs and appropriate matching channels for the trackers, quantifying mean fluorescence intensity per cell across approximately 5 fields per sample.
+ 

@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/growth_curve_PMC13292553 (clean)
++++ google_gemini-35-flash-lite/growth_curve_PMC13292553 (defect)
+@@ -2,3 +2,3 @@
+ 
+-1. Transform the plasmids into BL21(DE3) cells via heat shock, plate on LB agar with 50 μg/mL kanamycin, and incubate at 37°C for 16–24 hours.
++1. Transform the plasmids into BL21(DE3) cells via heat shock, plate on LB agar with 50 μg/mL kanamycin, and incubate at 37°C for 16–24 hours, and hold the plate at 4 °C for the whole of this step.
+ 2. Grow primary cultures from single colonies in LB with 50 μg/mL kanamycin for 16–18 hours at 37°C and 220 rpm. Inoculate secondary cultures at a 1:100 ratio in LB with 50 μg/mL kanamycin, grow to an OD600 of 0.4–0.6, and induce His-SUMO-Tau2N4R with 1 mM IPTG or His-Ulp1 with 500 μM IPTG for 3 hours at 37°C and 220 rpm. Harvest cells by centrifugation at 4350 × g for 30 minutes.

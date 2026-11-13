@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/growth_curve_PMC13403125 (clean)
++++ groq_openai-gpt-oss-20b/growth_curve_PMC13403125 (defect)
+@@ -36,3 +36,3 @@
+    2.1 Use the sequence you already have for the pET28a‑HRP‑pHLIP plasmid. Transform BL21 (DE3) with the plasmid via heat shock (42 °C, 45 s).  
+-   2.2 Plate on LB agar + 60 µg/mL kanamycin; incubate 37 °C overnight. Pick a single colony and inoculate 5 mL LB + 60 µg/mL kanamycin; grow 16 h at 37 °C, 200 rpm.  
++   2.2 Plate on LB agar + 60 µg/mL kanamycin; incubate 37 °C overnight, and hold the plate at 4 °C for the whole of this step. Pick a single colony and inoculate 5 mL LB + 60 µg/mL kanamycin; grow 16 h at 37 °C, 200 rpm.  
+    2.3 Dilute 1 % (v/v) into 30 mL fresh LB + kanamycin; grow to OD₆₀₀ ≈ 0.8.  

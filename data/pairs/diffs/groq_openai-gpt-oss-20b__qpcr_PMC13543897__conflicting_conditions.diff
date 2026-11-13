@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/qpcr_PMC13543897 (clean)
++++ groq_openai-gpt-oss-20b/qpcr_PMC13543897 (defect)
+@@ -53,3 +53,3 @@
+    2.3. Heat 5 min at 65 °C, immediately chill 5 min on ice. Spin down.  
+-   2.4. Add 2 µL gDNA wiper; incubate 2 min at 42 °C.  
++   2.4. Add 2 µL gDNA wiper; incubate 2 min at 42 °C, and hold the plate at 4 °C for the whole of this step.
+    2.5. Add 10 µL RT master mix (prepared fresh on ice). Mix gently.  

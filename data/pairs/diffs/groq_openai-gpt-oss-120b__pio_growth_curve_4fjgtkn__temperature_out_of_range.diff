@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/pio_growth_curve_4fjgtkn (clean)
++++ groq_openai-gpt-oss-120b/pio_growth_curve_4fjgtkn (defect)
+@@ -12,3 +12,3 @@
+ 
+-6. Load the plate into the plate reader (PowerWave X‑2 with KC software or BioTek reader). Pre‑heat the instrument to 37 °C, set the run time to 48 h, and program OD₆₀₀ readings every 10 minutes.
++6. Load the plate into the plate reader (PowerWave X‑2 with KC software or BioTek reader). Pre‑heat the instrument to 75 °C, set the run time to 48 h, and program OD₆₀₀ readings every 10 minutes.
+ 

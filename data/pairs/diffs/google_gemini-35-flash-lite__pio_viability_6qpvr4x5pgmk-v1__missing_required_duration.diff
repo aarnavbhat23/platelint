@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_viability_6qpvr4x5pgmk-v1 (clean)
++++ google_gemini-35-flash-lite/pio_viability_6qpvr4x5pgmk-v1 (defect)
+@@ -11,3 +11,3 @@
+ 9. Remove the medium from the 96-well plate.
+-10. Add 150 μl per well of the 10% MTT solution using a multichannel pipette, and incubate for 4 hours at 37 °C.
++10. Add 150 μl per well of the 10% MTT solution using a multichannel pipette, and incubate at 37 °C.
+ 11. Remove the MTT solution from the well plate.

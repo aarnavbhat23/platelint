@@ -1,0 +1,12 @@
+Please run a SpL ELISA on our animal serum samples using the following protocol:
+
+1. Coat a 96‑well microtitre plate overnight at 4 °C with 100 µL per well of unlabelled protein‑L (SpL) from *P. magnus* at 1 µg/mL in carbonate‑bicarbonate buffer, pH 9.6.  
+2. Block the plate with 200 mL per well of 1 % (w/v) bovine serum albumin (BSA) in PBS; incubate 1 h at room temperature (RT). Wash the plate 4 × with PBS containing 0.05 % Tween‑20 (PBS‑Tween).  
+3. Add 50 µL of each animal serum sample (adjusted to 1 mg/mL total Ig) to the appropriate wells, including at least three negative‑control wells (serum known to lack SpL‑binding antibodies). Incubate 1 h at RT. Wash 4 × with PBS‑Tween.  
+4. Prepare peroxidase‑labeled SpL conjugate diluted 1:5 000 in PBS containing 5 % non‑fat dry milk. Add 50 µL to each well and incubate 1 h at RT. Wash 4 × with PBS‑Tween.  
+5. Add 50 µL of 4 mg/mL o‑phenylenediamine (OPD) substrate solution to each well. Incubate 15 min at RT in the dark.  
+6. Stop the reaction by adding 50 µL of 3 M H₂SO₄ to each well.  
+7. Read the plate at 492 nm on a microplate reader. Record the optical densities.  
+8. Calculate the cut‑off value as three times the mean OD of the negative‑control wells. Any sample with an OD above this cut‑off is considered positive for SpL‑binding antibodies.  
+
+We will provide the unlabelled protein‑L, peroxidase‑SpL conjugate, BSA, OPD solution, and H₂SO₄. Please let us know if any additional reagents or consumables are needed. Thank you.

@@ -1,0 +1,32 @@
+Please conduct the following experiment on our fibroblast samples:
+
+1. **Cell culture** – Thaw HFF1 (ATCC SCRC‑1041) and expand in DMEM + 10 % FBS + 2 mM L‑glutamine + 1 % penicillin/streptomycin. Keep cells at 37 °C, 5 % CO₂, 95 % humidity. Use cells at the same passage number and confluence for all conditions; seed control and treatment plates in parallel.
+
+2. **REAC CO‑IBZ treatment** – Use a BENE‑110 device (ASMED, Scandicci). Apply the built‑in CO‑IBZ protocol: nine 30‑min sessions over three days (3 sessions per day). Start each session one hour after the previous one. Keep the asymmetric conveyor probe (ACP) in contact with the culture for 30 min each session. Leave untreated wells in the same incubator as controls.
+
+3. **Post‑treatment sampling** – After the final session, harvest cells for:
+   - RNA isolation (RNeasy Mini Kit, Qiagen) – measure concentration/purity.
+   - Protein extraction for immunofluorescence.
+   - Medium collection for TAC, nitrite, and ROS assays (keep samples on ice, then freeze if not used immediately).
+
+4. **RT‑qPCR** – Use Luna One‑Step RT‑qPCR Kit (NEB). Target genes: SIRT1, NOX4, VEGF, p16, p21, HAS2. Reference: GAPDH. Run in triplicate technical replicates per sample. Calculate ΔΔCt (assuming similar efficiencies) and express as fold change vs control.
+
+5. **Immunofluorescence** – Fix cells with 4 % paraformaldehyde, permeabilize with Triton X‑100. Incubate overnight at 4 °C with primary antibodies:
+   - SIRT1 (Cell Signaling, 1:100)
+   - NOX4 (Santa Cruz, 1:500 from 1:50 stock)
+   - PARP1 (Cell Signaling, 1:800)
+   - vWF (Santa Cruz, 1:500 from 1:50 stock)
+   - Collagen III (Abcam, 1:500)
+   Wash, then add Alexa‑conjugated secondaries (1:500) for 1 h at 75 °C in dark. Counterstain nuclei with DAPI (1 µg/mL). Acquire images on a Leica THUNDER DMi8 microscope with identical exposure, illumination, and acquisition settings across all samples. Analyze mean fluorescence intensity per cell using ImageJ/Fiji, averaging all cells within a well, then summarizing per biological replicate.
+
+6. **Total antioxidant capacity (TAC)** – Use the Abcam Colorimetric TAC kit. Add 100 µL Cu²⁺ working solution to each 96‑well (standard or sample), shake, incubate 90 min at room temperature in the dark. Read absorbance at 570 nm (Akribis reader). Calculate TAC as (Ts/Sv) × D, where Ts = sample TAC from standard curve (nmol), Sv = sample volume (µL), D = dilution factor. Perform 3 technical replicates per biological sample.
+
+7. **Nitrite (NO) assay** – Use Thermo Fisher Griess Reagent Kit. Mix 20 µL Griess reagent with 150 µL sample, incubate 30 min at room temp. Read absorbance at 548 nm (Akribis reader). Analyze relative to a nitrite standard. Include 3 technical replicates per biological sample.
+
+8. **Intracellular ROS** – Stain cells with 10 µM CM‑H₂DCFDA (reconstituted in DMSO) for 30 min at 37 °C in the dark. Wash with PBS, then measure fluorescence in PBS (exc 485 nm, em 530 nm) on an Akribis reader. Use 3 technical replicates per biological sample.
+
+9. **Replicates** – Perform 5 biological replicates per condition (treated vs untreated). Technical replicates are for assay consistency; average them to obtain one value per biological sample.
+
+10. **Statistics** – Use GraphPad Prism 9. Test for normality (Shapiro‑Wilk). Compare control vs CO‑IBZ using unpaired two‑tailed Welch’s t‑test at the biological‑replicate level (p < 0.05 considered significant). Report mean ± SD.
+
+Please confirm receipt and let us know the anticipated timeline for completion.

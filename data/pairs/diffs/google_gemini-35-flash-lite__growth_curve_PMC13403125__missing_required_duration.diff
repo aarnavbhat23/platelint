@@ -1,0 +1,5 @@
+--- google_gemini-35-flash-lite/growth_curve_PMC13403125 (clean)
++++ google_gemini-35-flash-lite/growth_curve_PMC13403125 (defect)
+@@ -8,2 +8,2 @@
+ 
+-4. Perform single-cell encapsulation: Harvest 1 × 10^6 HEK 293T cells, resuspend in 1 mL PBS (pH 6.5) containing 50 µg/mL purified HRP-pHLIP, and incubate at room temperature for 30 min. Wash the cells three times with PBS (pH 6.5) to remove unbound protein, then resuspend in a hydrogel precursor solution containing 2% (w/v) HA-DA and 2 mM H2O2. Gently stir for 30 min to induce HRP-catalyzed crosslinking. Collect the encapsulated cells by centrifugation (150 × g, 5 min) and wash three times with PBS (pH 7.4).+4. Perform single-cell encapsulation: Harvest 1 × 10^6 HEK 293T cells, resuspend in 1 mL PBS (pH 6.5) containing 50 µg/mL purified HRP-pHLIP, and incubate at room temperature. Wash the cells three times with PBS (pH 6.5) to remove unbound protein, then resuspend in a hydrogel precursor solution containing 2% (w/v) HA-DA and 2 mM H2O2. Gently stir for 30 min to induce HRP-catalyzed crosslinking. Collect the encapsulated cells by centrifugation (150 × g, 5 min) and wash three times with PBS (pH 7.4).

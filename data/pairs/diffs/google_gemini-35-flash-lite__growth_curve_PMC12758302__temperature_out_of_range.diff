@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/growth_curve_PMC12758302 (clean)
++++ google_gemini-35-flash-lite/growth_curve_PMC12758302 (defect)
+@@ -4,3 +4,3 @@
+ - Culture human glioblastoma cell lines U87 and U251, and murine glioma cell line C6, in DMEM medium with 10% FBS and 1% antibiotic-antimycotic. Culture T47D and HCC70 breast cancer cells in RPMI medium with 10% FBS and 1% antibiotic-antimycotic. 
+-- Maintain all cells at 37 °C with 5% CO2.
++- Maintain all cells at 75 °C with 5% CO2.
+ - Treat the cells with MF/RU486 (Sigma, M8046) or UPA using 0.01% DMSO as the vehicle.

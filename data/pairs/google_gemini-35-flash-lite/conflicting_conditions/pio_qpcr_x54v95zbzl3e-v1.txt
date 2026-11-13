@@ -1,0 +1,13 @@
+Please run gene expression analysis on our shipped differentiated and undifferentiated 3K-SNCA SH-SY5Y cell samples using the following protocol:
+
+1. Extract total RNA from the 6-well plates using the Qiagen RNeasy Mini Kit (Cat# 74134). Lyse cells directly in the wells using RLT buffer with β-mercaptoethanol, homogenise the lysate, bind to the RNeasy spin column, wash with RW1 and RPE buffers, and perform a dry spin. Elute the RNA in 30–50 µL of RNase-free water, and measure concentration and purity via A260/280. Include an optional gDNA wipeout or DNase treatment per your lab SOP.
+
+2. Synthesize cDNA using the QuantiTect Reverse Transcription Kit (Cat# 205311). Prepare the RT master mix on ice, combine with 500 ng to 1 µg of extracted RNA per reaction, incubate according to the kit cycling protocol (including genomic DNA wipeout), and hold on ice.
+
+3. Set up TaqMan qRT-PCR on the QuantStudio 1 Real-Time PCR System using TaqMan Gene Expression Master Mix (Cat# 436016) and the following TaqMan assays: HEXA (Cat# 4448892), GLA (Cat# 4453320), and GAPDH (Cat# 4331182). Prepare master mixes for each target, dispense into the reaction plate, add equal volumes of cDNA template per well, seal the plate, and briefly spin to remove bubbles.
+
+4. Run the PCR plate with the following cycling conditions: a hold stage at 95 °C for 10 minutes, followed by 40 cycles of 95 °C for 15 seconds and 60 °C for 60 seconds, with data acquisition during the anneal/extend step, and hold the plate at 4 °C for the whole of this step. Include NTC and -RT controls.
+
+5. Analyze the data using the ΔΔCt method. Confirm valid amplification plots and no signal in controls. For each sample and target, calculate ΔCt = Ct(target) − Ct(GAPDH), then compute ΔΔCt relative to the undifferentiated control calibrator group, and determine fold-change as 2^(−ΔΔCt). 
+
+Please report the final mean ± SEM fold-changes from biological replicates, ensuring triplicate Ct values meet the quality control threshold of SD ≤ 0.3 cycles.

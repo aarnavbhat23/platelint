@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/elisa_PMC13466342 (clean)
++++ groq_openai-gpt-oss-20b/elisa_PMC13466342 (defect)
+@@ -70,3 +70,3 @@
+    9.6. **Osteogenic differentiation**  
+-       - Seed 2 × 10⁵ cells cm⁻² in 6‑well plates; after 3 days, switch to OIM (10 % FBS, 0.001 mM dexamethasone, 10 mM β‑glycerophosphate, 0.05 mM ascorbate‑2‑phosphate).  
++       - Seed 2 × 10⁵ cells cm⁻² in 6‑well plates; after 3 days, switch to OIM (10 % FBS, 0.001 mM dexamethasone, 10 µM β‑glycerophosphate, 0.05 mM ascorbate‑2‑phosphate).  
+        - Change medium every 3 days.  

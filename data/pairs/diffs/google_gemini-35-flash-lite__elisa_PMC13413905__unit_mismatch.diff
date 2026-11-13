@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/elisa_PMC13413905 (clean)
++++ google_gemini-35-flash-lite/elisa_PMC13413905 (defect)
+@@ -12,3 +12,3 @@
+    - Transfer 800 µL of the supernatant to a new tube and evaporate to dryness.
+-   - Reconstitute the dried residue in 1 mL of LC-MS-grade water and ultrasonicate for 2 min.
++   - Reconstitute the dried residue in 1 µL of LC-MS-grade water and ultrasonicate for 2 min.
+    - Purify the samples using an automated SPE system with Strata-X cartridges (30 mg): condition with 1 mL of methanol, equilibrate with 1 mL of water, load 1 mL of sample, wash with 1 mL of water, and elute analytes with 1 mL of methanol.

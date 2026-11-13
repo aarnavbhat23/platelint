@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/qpcr_PMC13733459 (clean)
++++ google_gemini-35-flash-lite/qpcr_PMC13733459 (defect)
+@@ -5,3 +5,3 @@
+ - Perform sequential transfections per well:
+-  - dCas9-KRAB plasmid transfection: Mix 300 ng dCas9-KRAB plasmid, 12 μL Opti-MEM, and 0.4 μL 3T3-L1 Cell Avalanche Transfection Reagent. Incubate 15 min at 22 ± 1°C, add dropwise, and centrifuge the plate at 300 × g for 5 min. Incubate at 37°C, 5% CO2 for 4.5 h, then replace with fresh antibiotic-free differentiation medium.
++  - dCas9-KRAB plasmid transfection: Mix 300 ng dCas9-KRAB plasmid, 12 μL Opti-MEM, and 0.4 μL 3T3-L1 Cell Avalanche Transfection Reagent. Incubate 15 min at 22 ± 1°C, add dropwise, and centrifuge the plate at 300 × g for 5 min. Incubate at 75 °C, 5% CO2 for 4.5 h, then replace with fresh antibiotic-free differentiation medium.
+   - sgRNA transfection: 4.5 h after plasmid transfection, add sgRNA transfection mix containing 15 pmol sgRNA, 50 μL Opti-MEM, and 0.4 μL 3T3-L1 Cell Avalanche Transfection Reagent (prepared fresh on ice, mixed well, and incubated 15 min at 22 ± 1°C). Centrifuge at 300 × g for 5 min. After 4.5 h, replace with fresh 3T3-L1 differentiation medium.

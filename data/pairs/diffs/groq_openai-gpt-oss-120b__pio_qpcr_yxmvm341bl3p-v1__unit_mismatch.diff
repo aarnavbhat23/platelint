@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/pio_qpcr_yxmvm341bl3p-v1 (clean)
++++ groq_openai-gpt-oss-120b/pio_qpcr_yxmvm341bl3p-v1 (defect)
+@@ -10,3 +10,3 @@
+    - Electronic multichannel pipette (the “Hilda” you have in the lab).
+-   - Primers for each target gene, pre‑diluted to give a final concentration of **1.25 µM** in the reaction.
++   - Primers for each target gene, pre‑diluted to give a final concentration of **1.25 mM** in the reaction.
+    - Autoclaved Milli‑Q H₂O.

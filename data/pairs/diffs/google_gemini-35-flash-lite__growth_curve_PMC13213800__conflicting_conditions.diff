@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/growth_curve_PMC13213800 (clean)
++++ google_gemini-35-flash-lite/growth_curve_PMC13213800 (defect)
+@@ -4,3 +4,3 @@
+ 
+-3. Set up a 150 mL overnight culture in LB or TB medium supplemented with 100 µg/mL ampicillin using a single colony or glycerol stock scrape, and incubate at 37°C and 200 rpm for approximately 16 hours.
++3. Set up a 150 mL overnight culture in LB or TB medium supplemented with 100 µg/mL ampicillin using a single colony or glycerol stock scrape, and incubate at 37°C and 200 rpm for approximately 16 hours, and hold the plate at 4 °C for the whole of this step.
+ 

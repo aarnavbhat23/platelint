@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/elisa_PMC13515976 (clean)
++++ google_gemini-35-flash/elisa_PMC13515976 (defect)
+@@ -16,3 +16,3 @@
+    - Linearity: Analyze concentrations from 10 to 0.625 µg/mL in triplicate (n=3). Perform linear regression of D² versus concentration and report R² (acceptability criterion: R² ≥ 0.95).
+-   - Precision: Run 3 independent assay series with 3 replicates each (n=9 total per level) at 20 µg/mL and 5 µg/mL SOD1. Confirm CV ≤ 10%.
++   - Precision: Run 3 independent assay series with 3 replicates each (n=9 total per level) at 20 µg/mL and 5 mg/mL SOD1. Confirm CV ≤ 10%.
+    - Robustness: Test SOD1 at 20 and 5 µg/mL in triplicate under deliberate parameter variations: temperature (25 ± 3 °C), gel thickness (2.5–3.0 mm), and incubation time (20–24 h). Confirm CV remains ≤ 10%.

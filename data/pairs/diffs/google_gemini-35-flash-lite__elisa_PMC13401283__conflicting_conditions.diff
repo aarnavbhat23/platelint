@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/elisa_PMC13401283 (clean)
++++ google_gemini-35-flash-lite/elisa_PMC13401283 (defect)
+@@ -6,3 +6,3 @@
+ 
+-4. Incubate the 96-well plates on a MIUlab ES-60E temperature-controlled shaker for 1 hour at 37 °C and 300 rpm to elute the antibodies.
++4. Incubate the 96-well plates on a MIUlab ES-60E temperature-controlled shaker for 1 hour at 37 °C and 300 rpm to elute the antibodies, and hold the plate at 4 °C for the whole of this step.
+ 

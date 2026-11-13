@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/elisa_PMC13413905 (clean)
++++ google_gemini-35-flash/elisa_PMC13413905 (defect)
+@@ -7,3 +7,3 @@
+ 4. Weigh 35 mg of chopped hair per sample into homogenization tubes. 
+-5. Add five steel balls per tube and ground using a bead homogenizer at 10 °C with active cooling for 5 minutes total (run as five 30-second grinding cycles with cooling intervals between cycles).
++5. Add five steel balls per tube and ground using a bead homogenizer at -80 °C with active cooling for 5 minutes total (run as five 30-second grinding cycles with cooling intervals between cycles).
+ 

@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/viability_PMC13306065 (clean)
++++ google_gemini-35-flash-lite/viability_PMC13306065 (defect)
+@@ -10,3 +10,3 @@
+ 
+-6. Culture NIH3T3 (3T3) and KRAS-transformed NIH3T3 (KRAS) cells in DMEM High Glucose supplemented with 10% FBS, 4 mM Glutamine, and 1% Penicillin/Streptomycin at 37 °C and 5% CO2. 
++6. Culture NIH3T3 (3T3) and KRAS-transformed NIH3T3 (KRAS) cells in DMEM High Glucose supplemented with 10% FBS, 4 mM Glutamine, and 1% Penicillin/Streptomycin at 75 °C and 5% CO2. 
+ 

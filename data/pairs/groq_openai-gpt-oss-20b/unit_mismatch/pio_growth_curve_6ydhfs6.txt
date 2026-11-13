@@ -1,0 +1,66 @@
+We would like you to perform vibriocidal assays on our serum samples using the protocol below.  
+All materials you need are listed; please let us know if any item is missing.
+
+**Materials (to have on hand):**  
+- Petri dishes (P212121, LI-PD01100)  
+- 15 mL sterile Falcon tubes & rack  
+- 25 µL reservoir  
+- Brain Heart Infusion (BHI) broth (Oxoid CM1135-UK)  
+- 0.9 % NaCl (saline)  
+- 96‑well tissue‑culture plate (Bio‑Basic TCP20‑96)  
+- 1.5 mL micro‑centrifuge tubes (Ambion AM12450)  
+- Multichannel pipettes P1‑10, P200 and new tips for each use  
+- 70 % ethanol  
+- Centrifuge (Eppendorf 5810, 3000 rpm, 10 min)  
+- Blood agar plates (5 % sheep blood in Tryptic Soy Agar)  
+- 50 mL Falcon tubes  
+- Biotek microplate absorbance reader  
+- Orbital shaker‑incubator (set to 37 °C, 50–220 rpm)  
+- Guinea pig complement serum (300 µL aliquots)  
+- V. cholerae O1 strains (Ogawa or Inaba) on blood agar  
+- Monoclonal antibody (1 µg/mL in PBS) for assay control  
+- 56 °C water bath for heat inactivation  
+
+**Procedure (one plate per batch, all samples in duplicate):**
+
+1. **Bacterial culture:**  
+   a. Streak a single colony of V. cholerae (O1 Ogawa or Inaba) onto a blood agar plate. Incubate at 37 °C overnight (~12 h).  
+   b. Transfer 1–2 colonies to a 15 mL BHI culture tube. Incubate in an orbital shaker‑incubator at 37 °C, 220 rpm for 3–4 h.  
+   c. After growth, transfer the culture to a 15 mL centrifuge tube, centrifuge 3000 rpm, 10 min, 22–25 °C. Discard supernatant to 1:10 bleach or biohazard waste. Repeat wash twice (resuspend pellet in 10 mL saline, centrifuge, discard supernatant).  
+   d. After washes, resuspend the final pellet in 1 mL 0.9 % NaCl. Transfer 200 µL to a 96‑well plate and read OD600. Prepare 1 mL of this suspension diluted with saline to OD600 ≈ 0.3 (e.g., if OD600 = 1.0, mix 300 µL suspension + 700 µL saline).  
+
+2. **Serum preparation:**  
+   a. Aliquot 20 µL of each serum sample into separate Eppendorf tubes. Heat‑inactivate at 56 °C for 30 min.  
+   b. Dilute heat‑inactivated serum 1:10 (15 µL serum + 135 µL 0.9 % NaCl) – this is the 1:10 starting titer. Keep on ice.  
+
+3. **Plate layout:**  
+   a. Add 25 µL saline to all wells except column 2.  
+   b. In column 2 (rows A–H) add 50 µL of the 1:10 diluted serum (two wells per sample, e.g., Sample 1 in 2A & 2B, Sample 2 in 2C & 2D, etc.).  
+   c. Add 50 µL of the 0.3 OD bacterial working dilution to each well in column 2.  
+   d. Perform 2‑fold serial dilutions across columns 3–12 using a multichannel pipettor (25 µL from column n into column n+1, mix, repeat). Use new tips between columns to prevent cross‑contamination.  
+   e. In wells 1A–1D (growth controls), add 25 µL saline + 25 µL bacterial suspension + 25 µL guinea pig complement serum (prepared in a 25 mL reservoir).  
+   f. In wells 2G & 2H (monoclonal antibody controls) add 50 µL of 1 µg/mL mAb in PBS.  
+   g. In wells 1E, 1F, 1G, 1H add 25 µL saline (negative controls).  
+
+4. **Incubation:**  
+   a. Incubate the entire plate at 37 °C, 50 rpm on the orbital shaker‑incubator for 1 h.  
+   b. Remove the plate, add 150 µL BHI to all wells (including controls). Mix gently.  
+   c. Incubate at 37 °C, static, for 2 h.  
+
+5. **Reading:**  
+   a. Measure OD595 for all wells with the plate reader.  
+   b. Subtract the average OD of the four negative control wells (1E–1H) from each reading to obtain blanked OD values. Set any negative values to zero.  
+
+6. **Data analysis:**  
+   a. Verify that average growth‑control OD595 (1A–1D) is between 0.20–0.28. If not, reject the plate (or repeat if only one out of range).  
+   b. Determine the 50 % kill OD = (average growth‑control OD) ÷ 2.  
+   c. For each sample, locate the first dilution where the OD595 is less than the 50 % kill OD; the titer is the reciprocal of that dilution. If no dilution meets the criterion, assign a titer of 5 (below detection).  
+   d. Technical replicates must agree within one 2‑fold dilution; otherwise reject the sample.  
+   e. Report the lower titer if replicates differ by one 2‑fold step.  
+
+**Notes:**  
+- Keep all samples and reagents cold until use (except the heat‑inactivation step).  
+- Use fresh tips for every column to avoid cross‑contamination.  
+- Confirm that the monoclonal antibody controls fall within the acceptance range: 50 % kill titer for Ogawa 0.0625–0.03125 (col 5–6) and for Inaba 0.125–0.0625 (col 4–5). If not, reject the plate.  
+
+Please let us know once the assay is completed and provide the titers for each serum sample.

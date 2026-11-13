@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/elisa_PMC13519604 (clean)
++++ google_gemini-35-flash-lite/elisa_PMC13519604 (defect)
+@@ -6,3 +6,3 @@
+ 
+-3. Count the cells and seed them in standard cell culture plates (5.0 × 10^5 cells/well in 24-well, 1 × 10^6 cells/well in 12-well, or 2 × 10^6 cells/well in 6-well). Rest the seeded BMDMs for 16–18 hours at 37°C in complete DMEM without M-CSF before running any downstream stimulations.
++3. Count the cells and seed them in standard cell culture plates (5.0 × 10^5 cells/well in 24-well, 1 × 10^6 cells/well in 12-well, or 2 × 10^6 cells/well in 6-well). Rest the seeded BMDMs for 16–18 hours at 75 °C in complete DMEM without M-CSF before running any downstream stimulations.
+ 

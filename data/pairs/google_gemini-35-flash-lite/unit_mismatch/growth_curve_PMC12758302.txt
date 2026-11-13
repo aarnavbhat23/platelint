@@ -1,0 +1,26 @@
+Please process our provided cell and tissue samples according to the following experimental plan:
+
+1. Cell Culture and Treatments
+- Culture human glioblastoma cell lines U87 and U251, and murine glioma cell line C6, in DMEM medium with 10% FBS and 1% antibiotic-antimycotic. Culture T47D and HCC70 breast cancer cells in RPMI medium with 10% FBS and 1% antibiotic-antimycotic. 
+- Maintain all cells at 37 °C with 5% CO2.
+- Treat the cells with MF/RU486 (Sigma, M8046) or UPA using 0.01% DMSO as the vehicle.
+
+2. Western Blotting
+- Prepare protein extracts from the provided cell and tissue samples. Run cell samples on 12% SDS-PAGE gels and tissue samples on 7.5% gels at 100 V, then transfer to nitrocellulose membranes and block with 5% BSA.
+- Probe membranes with anti-PR primary antibody (Abcam, ab63605) followed by an HRP-conjugated anti-rabbit secondary antibody. 
+- Strip the membranes with acid glycine, reprove with anti-α-tubulin antibody (Santa Cruz Biotechnologies, sc-398103), and incubate with HRP-conjugated goat anti-mouse secondary antibody (Abcam, ab6789).
+- Detect chemiluminescence signals and normalize PR content to α-tubulin using ImageJ.
+
+3. Immunofluorescence
+- Plate cells on glass slides at 8,000 cells per well, fix with 4% paraformaldehyde, permeabilize with methanol, and block with 1% BSA.
+- Incubate samples with anti-PR antibody (Santa Cruz Biotechnology, sc-166169) and anti-GFAP (Abcam, ab68428).
+- Rinse with PBS, then incubate with anti-mouse Alexa-Fluor-594 and anti-rabbit Alexa-Fluor-488 secondary antibodies (Invitrogen) alongside a Hoechst counterstain. 
+- Image the samples on an Olympus Bx43F microscope and process the merged images using ImageJ, including negative controls omitting the primary antibody.
+
+4. Metabolite Extraction and LC/MS Analysis
+- Using 10 × 10^6 U87 and U251 cells, remove the culture media and lyse the cells by sonication (Ultrasonic Processor Model GEX130) in an ice bath using 10 kHz, 10 s pulses for 1.5 min.
+- Extract progesterone (P4) and 5α-reduced metabolites (5α-DHP) and identify them using Liquid Chromatography/Mass Spectrometry (LC/MS) with a dynamic multiple reaction monitoring (MRM) method, referencing standard curves generated with P4 (Sigma, P8783) and 5α-DHP (MP Biomedicals, 195886).
+
+5. Viability and Sphere Formation Assays
+- For the MTT viability assay, seed U87, U251, and C6 cells at 1,500 cells per well in 96-well plates. After 24 h, treat with MF or UPA in 0.01% DMSO across various concentrations (1–125 mM). After 72 h, add MTT solution (Sigma, M5655; 5 mg/mL) for 3 h at 37 °C, dissolve the resulting crystals in 200 µL DMSO, and record absorbance at 570 nm and 630 nm to determine IC50 and IC20 values.
+- For the sphere formation assay, culture U251 and C6 cells in ultra-low-attachment 96-well plates at 1 cell/µl in serum-free neural stem cell medium supplemented with B27, rhEGF, bFGF, and antibiotics. Treat cells with 40 µM MF or vehicle upon seeding and every 24 h for three consecutive days. On day 10, determine sphere count and size distributions at 4× magnification using a Neubauer chamber to calculate Sphere Formation Efficiency (SFE).

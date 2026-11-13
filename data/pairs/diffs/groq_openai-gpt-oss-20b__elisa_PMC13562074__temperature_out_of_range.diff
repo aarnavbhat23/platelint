@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/elisa_PMC13562074 (clean)
++++ groq_openai-gpt-oss-20b/elisa_PMC13562074 (defect)
+@@ -22,3 +22,3 @@
+ **1. Cell culture & counting**  
+-a. Keep 4T1 and 67NR cells in supplemented DMEM at 37 °C, 5 % CO₂. Avoid >90 % confluence.  
++a. Keep 4T1 and 67NR cells in supplemented DMEM at 75 °C, 5 % CO₂. Avoid >90 % confluence.  
+ b. Harvest at passage 2–4 (do not exceed).  

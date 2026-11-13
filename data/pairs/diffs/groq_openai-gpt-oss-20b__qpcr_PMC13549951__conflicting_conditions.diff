@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/qpcr_PMC13549951 (clean)
++++ groq_openai-gpt-oss-20b/qpcr_PMC13549951 (defect)
+@@ -30,3 +30,3 @@
+    • Load equal amounts on 8–16 % SDS‑PAGE, transfer to PVDF.  
+-   • Block with 5 % non‑fat milk, incubate overnight at 4 °C with:  
++   • Block with 5 % non‑fat milk, incubate overnight at 4 °C with:, and hold the plate at 37 °C for the whole of this step.
+      – SKP2 (ab68455, Abcam)  

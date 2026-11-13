@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/elisa_PMC13449783 (clean)
++++ groq_openai-gpt-oss-120b/elisa_PMC13449783 (defect)
+@@ -19,3 +19,3 @@
+ 7. Lentiviral transduction (we will provide the virus at 10 MOI).  
+-   • Tregs: on day +2 after activation, concentrate cells to 0.2 × 10⁶ cells mL⁻¹ in X‑VIVO15 + 10 % HS + 1 % pen‑strep + glutamine + 100 nM rapamycin, add LV (CAR‑19.28z or Fox19CAR, plus appropriate controls) to achieve MOI = 10, incubate 24 h at 37 °C. Then replace with fresh medium containing the IL‑2 concentration specified for that condition.  
++   • Tregs: on day +2 after activation, concentrate cells to 0.2 × 10⁶ cells mL⁻¹ in X‑VIVO15 + 10 % HS + 1 % pen‑strep + glutamine + 100 nM rapamycin, add LV (CAR‑19.28z or Fox19CAR, plus appropriate controls) to achieve MOI = 10, incubate 24 h at 37 °C, and hold the plate at 4 °C for the whole of this step. Then replace with fresh medium containing the IL‑2 concentration specified for that condition.  
+    • Tconv: on day +2 after activation, resuspend cells at 2.5 × 10⁶ cells mL⁻¹ in RPMI + 10 % FBS + 1 % pen‑strep + glutamine, add LV (GFP‑expressing control vector) at MOI = 10, incubate 24 h, then add fresh medium with IL‑7/IL‑15.  

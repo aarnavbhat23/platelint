@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/growth_curve_PMC13214907 (clean)
++++ groq_openai-gpt-oss-120b/growth_curve_PMC13214907 (defect)
+@@ -24,3 +24,3 @@
+    - Add 50 µL of each dilution to the corresponding well (in duplicate).  
+-   - Incubate 24 h at 37 °C, 5 % CO₂, then add 10 µL of the prepared RBC suspension to each well.  
++   - Incubate 24 h at 37 °C, 5 % CO₂, then add 10 mL of the prepared RBC suspension to each well.  
+    - Read HA rosettes between 7 and 10 days post‑infection. Calculate HAD₅₀/mL by Reed‑Muench; the detection limit is the lowest dilution showing HA.

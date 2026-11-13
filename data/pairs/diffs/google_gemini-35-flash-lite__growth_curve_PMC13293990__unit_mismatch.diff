@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/growth_curve_PMC13293990 (clean)
++++ google_gemini-35-flash-lite/growth_curve_PMC13293990 (defect)
+@@ -12,3 +12,3 @@
+ 
+-7. Wash the resin sequentially with 20 mL of Buffer A, 20 mL of Buffer B, and 20 mL of Buffer C, then elute the protein with 10 mL of Buffer D, collecting six 1 mL fractions.
++7. Wash the resin sequentially with 20 mL of Buffer A, 20 µL of Buffer B, and 20 mL of Buffer C, then elute the protein with 10 mL of Buffer D, collecting six 1 mL fractions.
+ 

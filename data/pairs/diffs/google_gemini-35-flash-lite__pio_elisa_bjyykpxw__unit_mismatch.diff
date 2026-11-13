@@ -1,0 +1,5 @@
+--- google_gemini-35-flash-lite/pio_elisa_bjyykpxw (clean)
++++ google_gemini-35-flash-lite/pio_elisa_bjyykpxw (defect)
+@@ -11,2 +11,2 @@
+ 9. Stop the reaction by adding acid.
+-10. Measure the absorbance at 450 nm and calculate the IL-17 concentration using a standard curve generated with human IL-17 (Bio Basic Inc., Cat #RC212-28.SIZE.1mg).+10. Measure the absorbance at 450 nm and calculate the IL-17 concentration using a standard curve generated with human IL-17 (Bio Basic Inc., Cat #RC212-28.SIZE.1µg).

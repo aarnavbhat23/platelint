@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_viability_8epv5x3kdg1b-v1 (clean)
++++ google_gemini-35-flash-lite/pio_viability_8epv5x3kdg1b-v1 (defect)
+@@ -12,3 +12,3 @@
+ 10. Using the CyQUANT MTT Cell Viability Assay Kit (Thermo Fisher), prepare a 12-mM MTT stock solution by dissolving the MTT powder in 1 mL of sterile PBS with vortexing. Wrap the vial in aluminum foil and store at 4°C if not used immediately.
+-11. Following the incubation period, warm the MTT solution briefly, add 10 μL of MTT to each well, and incubate the plate for 2-3 hours.
++11. Following the incubation period, warm the MTT solution briefly, add 1080 µL of MTT to each well, and incubate the plate for 2-3 hours.
+ 12. Prepare the SDS-HCl mixture by adding 10 mL of 0.01 M HCl to the kit's SDS bottle, mixing slowly to avoid bubbles.

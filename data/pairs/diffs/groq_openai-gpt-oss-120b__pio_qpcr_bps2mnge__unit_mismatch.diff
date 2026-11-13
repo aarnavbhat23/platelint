@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/pio_qpcr_bps2mnge (clean)
++++ groq_openai-gpt-oss-120b/pio_qpcr_bps2mnge (defect)
+@@ -19,3 +19,3 @@
+       \[
+-      \text{copies/µL} = \frac{\text{DNA concentration (ng/µL)}}{\text{(bp × 324 ng/mol)}} \times 6 \times 10^{14}
++      \text{copies/µL} = \frac{\text{DNA concentration (ng/µL)}}{\text{(bp × 324 mg/mol)}} \times 6 \times 10^{14}
+       \]

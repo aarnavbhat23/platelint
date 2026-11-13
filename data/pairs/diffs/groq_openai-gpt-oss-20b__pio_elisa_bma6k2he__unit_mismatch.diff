@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/pio_elisa_bma6k2he (clean)
++++ groq_openai-gpt-oss-20b/pio_elisa_bma6k2he (defect)
+@@ -8,3 +8,3 @@
+    - Dilute the 2 400 ng L⁻¹ stock 1:2 with standard diluent to obtain 1 200 ng L⁻¹.  
+-   - Repeat the 1:2 dilution to get 600 ng L⁻¹, 300 ng L⁻¹, and 150 ng L⁻¹.  
++   - Repeat the 1:2 dilution to get 600 ng L⁻¹, 300 mg L⁻¹, and 150 ng L⁻¹.  
+    - Use standard diluent alone as the zero standard (0 ng L⁻¹).  

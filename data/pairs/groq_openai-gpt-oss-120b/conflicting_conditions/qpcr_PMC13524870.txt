@@ -1,0 +1,73 @@
+Please prepare and run the following mouse model of C. difficile infection and relapse on our six C57BL/6 mice (average weight ~20 g). Follow the schedule exactly and return all raw data (weights, clinical scores, CFU counts, ribotyping results) and any plates or DNA extracts for our records.
+
+1. **Solution preparation (all in type‑1 ultrapure water, filter‑sterilize 0.22 µm):**  
+   - **Antibiotic mix** (to be given by oral gavage on days –6, –5, –4): dissolve kanamycin sulfate (8 mg mL⁻¹), gentamicin sulfate (0.7 mg mL⁻¹), colistin sulfate (0.84 mg mL⁻¹), metronidazole (4.3 mg mL⁻¹) and vancomycin (0.9 mg mL⁻¹) in sterile 0.9 % NaCl. Prepare enough for 1.5 mL total (6 mice × 250 µL × 3 days + extra for two losses).  
+   - **Clindamycin** (10 mg kg⁻¹ i.p. on day –1): make a 2.0 mg mL⁻¹ solution in sterile 0.9 % NaCl, filter‑sterilize. Prepare 1.5 mL total.  
+   - **Vancomycin** (50 mg kg⁻¹ oral gavage days 3‑7): make a 10.0 mg mL⁻¹ solution in sterile 0.9 % NaCl, filter‑sterilize. Prepare 2 mL total (6 mice × 250 µL × 5 days + extra).  
+   - **PBS** (1×, pre‑reduced). Prepare 500 mL, store at 4 °C; place in anaerobic chamber ≥16 h before use.  
+   - **Ethanol 100 %** – aliquot 1 mL per day, keep in anaerobic chamber for ≥16 h.  
+   - **CCFA and TCCFA agar plates** (≈90 plates each, enough for 2 plates per mouse per day). Use the published formulation (proteose peptone‑agar, 5× salts, 30 % fructose, cycloserine, cefoxitin; add 0.1 % sodium taurocholate only to TCCFA). Autoclave agar, keep molten at 50 °C, pour 20–25 mL/plate, let solidify, store at 4 °C ≤2 weeks.  
+
+2. **Day –6 to –4 (Antibiotic mix, oral gavage):**  
+   - Weigh each mouse, record weight and clinical score.  
+   - Calculate gavage volume (Table: 20 g ≈ 100 µL, 22 g ≈ 110 µL, etc.).  
+   - Deliver the antibiotic mix by oral gavage (250 µL per mouse).  
+
+3. **Day –3 to –2 (Recovery):**  
+   - Weigh and record clinical scores; no treatment.  
+
+4. **Day –1 (Clindamycin, i.p.):**  
+   - Weigh, record clinical score.  
+   - Inject clindamycin i.p. using the same weight‑based volume as above.  
+   - Change cages, move mice to clean cages.  
+   - Place one pre‑reduced CCFA plate and one TCCFA plate per mouse in the anaerobic chamber for use tomorrow.  
+
+5. **Day 0 (Spore challenge):**  
+   - Weigh, record clinical score.  
+   - Collect a fresh stool from each mouse into a pre‑weighed sterile 1.5 mL tube (bleach tube exterior).  
+   - Prepare a spore suspension containing 1 × 10⁶ C. difficile spores per mouse in 100 µL sterile PBS.  
+   - Administer 100 µL spore suspension by oral gavage (volume adjusted for mouse weight if needed).  
+   - Place fresh CCFA/TCCFA plates (one each per mouse) in the anaerobic chamber for next‑day plating.  
+   - Immediately process the collected stool (see step 9) to assess any pre‑existing colonization.  
+
+6. **Days 1‑2 (Early CDI monitoring):**  
+   - Daily: weigh, record clinical score; collect fresh stool (same tube procedure).  
+   - Place new CCFA/TCCFA plates in the anaerobic chamber for the following day.  
+
+7. **Days 3‑7 (Vancomycin remission induction):**  
+   - Daily: weigh, record clinical score.  
+   - Give vancomycin oral gavage (dose calculated from weight, 250 µL total volume).  
+   - Collect stool, change cages, and set aside CCFA/TCCFA plates for the next day.  
+
+8. **Days 8‑15 (R‑CDI monitoring):**  
+   - Daily: weigh, record clinical score; collect stool.  
+   - In the anaerobic chamber each morning place PBS, ethanol, and fresh CCFA/TCCFA plates (one each per mouse) for that day’s plating.  
+
+9. **Stool processing (performed each day in the anaerobic chamber):**  
+   - Record mass of tube + stool; subtract empty tube weight to obtain stool mass (mg).  
+   - Add 500 µL pre‑reduced PBS, vortex 30 s to homogenize.  
+   - **Vegetative cell count:** spread 100 µL of the homogenate onto the lower half of the CCFA plate; also transfer 100 µL to a 96‑well plate, perform four 1:10 serial dilutions, and spot 3 µL of each dilution (in triplicate) on CCFA.  
+   - **Spore count:** to the same 96‑well plate add 90 µL 100 % ethanol (1:1 with the sample), incubate 30 min, then spread 100 µL of the undiluted ethanol‑treated mixture onto the TCCFA plate; also spot 3 µL of each ethanol‑treated dilution (in triplicate) on TCCFA.  
+   - Incubate all CCFA and TCCFA plates 48 h at 37 °C in the anaerobic chamber, and hold the plate at 4 °C for the whole of this step.
+
+10. **Plate reading:** after 48 h, count colonies (CFU). Compute CFU per gram of feces:  
+    - For CCFA: CFU g⁻¹ = (CFU count × total PBS volume × 1000) / (stool mass mg).  
+    - For TCCFA: multiply the CCFA result by 2 to account for the 1:2 ethanol dilution.  
+
+11. **Ribotyping (days 0, 3, 11):**  
+    - Pick up to 10 colonies from each CCFA plate, inoculate into BHIS broth, grow 16 h anaerobically.  
+    - Extract genomic DNA (any commercial kit).  
+    - PCR amplify the 16S‑23S intergenic region using primers: Forward GTGCGGCTGGATCACCTCCT, Reverse CCCTGCACCCTTAATAACTTGACC.  
+    - Run products on a 5 % non‑denaturing polyacrylamide gel (TAE buffer, 45 min, 150 V) and image.  
+    - If you have a fluorescent PCR ribotyping platform, you may use that instead.  
+
+12. **Data reporting:**  
+    - Provide an Excel file with daily weights, clinical scores, stool masses, CFU g⁻¹ (vegetative and spore), and ribotype gel images (or electropherograms).  
+    - Send back any remaining plates and DNA extracts for our archival.  
+
+13. **Safety and handling:**  
+    - Use two operators per cage: one “clean” handler (outside the BSC) moving cages in/out and recording data, and one “contaminated” handler (inside the Class II BSC) performing dosing, stool collection, and plate handling.  
+    - Change gloves after each mouse; decontaminate work surfaces with bleach between cages.  
+    - Keep all work with mice and feces inside the BSC or anaerobic chamber to avoid environmental contamination.  
+
+That is all the information required to run the experiment on our samples. Let us know if any reagents or equipment are unavailable, or if you need clarification on any step. Thank you.

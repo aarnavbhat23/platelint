@@ -1,0 +1,21 @@
+1. Synthesize N-CDs by dissolving 0.75 g citric acid and 0.75 g urea in distilled water to a 5 mL final volume. Synthesize BN-CDs using 0.75 g citric acid, 0.37 g urea, and 0.37 g boric acid dissolved in distilled water to 5 mL. 
+
+2. Perform microwave-assisted synthesis for both mixtures in open borosilicate glass tubes using a 1000 W, 2.45 GHz microwave oven at 540 W (324 kJ) for 10 min. 
+
+3. Dilute the resulting brown solutions 4:1 (v/v) with distilled water and sonicate in a water bath at 40 kHz and 143 W for 15 min at room temperature. 
+
+4. Purify the crude suspensions by centrifuging at 3000 G to remove coarse precipitate, filtering the supernatant sequentially through 0.45 µm and 0.22 µm nylon syringe filters, and performing a final centrifugation of the filtrate at 1000 G. Determine the final carbon dot (CD) concentration gravimetrically by freeze-drying a 1 mL aliquot to constant weight, and prepare 5 mg/mL stock solutions in autoclaved pure water.
+
+5. Characterize the CD suspensions using UV-Vis absorption (200–800 nm, 1 cm quartz cuvette, deionized water reference), steady-state fluorescence spectroscopy, absolute photoluminescence quantum yield (PLQY) via an integrating sphere, transmission electron microscopy (STEM-HAADF at 200 kV), and EELS (0.05 eV/channel dispersion, 200 kV).
+
+6. Culture NIH3T3 (3T3) and KRAS-transformed NIH3T3 (KRAS) cells in DMEM High Glucose supplemented with 10% FBS, 4 mM Glutamine, and 1% Penicillin/Streptomycin at 37 °C and 5% CO2. 
+
+7. For cellular treatments, seed cells on sterilized glass coverslips in 6-well plates at 400,000 cells/well. At 80% confluency, wash three times with PBS and incubate cells for 1 h at 37 °C and 5% CO2 with N-CDs or BN-CDs at 50 and 100 µg/mL (using 20 and 40 µL of the 5 mg/mL stock, respectively) in 2 mL growth medium.
+
+8. Perform an MTT assay for cell viability by seeding 10,000 cells/well in 96-well plates. After 24 h, wash with PBS, treat with 50 and 100 µg/mL CDs in 1 mL growth medium for 1 h, wash with PBS, and incubate with 0.25 mg/mL MTT solution in growth medium at 37 °C for 2 h. Solubilize the resulting formazan crystals in 150 µL isopropanol and measure absorbance at 590 nm.
+
+9. Prepare samples for scanning electron microscopy (SEM) by fixing cells treated with BN-CDs in 2.5% glutaraldehyde in PBS for 30–60 min at room temperature, dehydrating through a graded ethanol series (30% to 100%), drying, and imaging at low voltage (1–5 keV) without coating.
+
+10. Perform laser scanning confocal microscopy (LSCM) on 3T3 and KRAS cells treated with CDs (50 or 100 µg/mL) by co-staining with organelle trackers: MitoTracker Orange-Red (0.3 µM for 15 min, fixed with 4% PFA), Golgi Tracker (CellLight Golgi-GFP, overnight incubation), LysoTracker Green DND-26 (75 nM for 30 min, live-cell), or ER-Tracker Green (1 µM for 30 min, live-cell). Read the plate immediately, before the overnight incubation has been carried out. Image using excitation at 405 nm for CDs and appropriate matching channels for the trackers, quantifying mean fluorescence intensity per cell across approximately 5 fields per sample.
+
+11. Conduct bioenergetic analysis using a Seahorse XFe24 analyzer and XF Cell Mito Stress Test. Seed 800 cells/mm² in XFe24 plates in XF RPMI medium supplemented with 10 mM glucose, 2 mM L-glutamine, and 1 mM sodium pyruvate. Measure OCR and ECAR baselines, followed by sequential injections of 1 µM oligomycin, 1.5 µM FCCP, and 1 µM rotenone + 1 µM antimycin A, concluding with 50 mM 2-deoxy-d-glucose for glycolysis correction, using five technical replicates per condition.

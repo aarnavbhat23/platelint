@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/elisa_PMC13581141 (clean)
++++ google_gemini-35-flash-lite/elisa_PMC13581141 (defect)
+@@ -10,3 +10,3 @@
+ - Measurement: Absorbance read at 550 nm.
+-- Specifications: Run samples in duplicate using internal controls and water blanks. Maintain an intra-assay precision CV below 10% (target <2.8%).
++ Maintain an intra-assay precision CV below 10% (target <2.8%).
+ 

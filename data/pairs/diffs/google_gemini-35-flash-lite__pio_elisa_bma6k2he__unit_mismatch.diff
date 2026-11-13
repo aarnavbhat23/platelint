@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_elisa_bma6k2he (clean)
++++ google_gemini-35-flash-lite/pio_elisa_bma6k2he (defect)
+@@ -4,3 +4,3 @@
+ 2. Prepare the 2400 ng/L standard stock solution by reconstituting 120 μl of the 4800 ng/L standard with 120 μl of standard diluent. Let it sit for 15 minutes with gentle agitation. 
+-3. Prepare duplicate standard points by serially diluting the 2400 ng/L stock 1:2 with standard diluent to yield 1200, 600, 300, and 150 ng/L solutions. Use standard diluent alone as the 0 ng/L zero standard.
++3. Prepare duplicate standard points by serially diluting the 2400 ng/L stock 1:2 with standard diluent to yield 1200, 600, 300, and 150 ng/L solutions. Use standard diluent alone as the 0 mg/L zero standard.
+ 4. Prepare the 1x wash buffer by diluting 20 ml of the 25x wash buffer concentrate into 480 ml of deionized or distilled water to yield 500 ml total.

@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/qpcr_PMC13543897 (clean)
++++ google_gemini-35-flash-lite/qpcr_PMC13543897 (defect)
+@@ -8,3 +8,3 @@
+ 
+-5. Perform downstream relative quantification of the isoforms via qPCR on a Bio-Rad CFX96 using technical triplicates, including -RT and no-template controls, and inspect the resulting melt curves for a single sharp peak.
++5. 
+ 

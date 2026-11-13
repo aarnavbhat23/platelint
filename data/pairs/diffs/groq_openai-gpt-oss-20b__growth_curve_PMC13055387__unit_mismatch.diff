@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/growth_curve_PMC13055387 (clean)
++++ groq_openai-gpt-oss-20b/growth_curve_PMC13055387 (defect)
+@@ -18,3 +18,3 @@
+    * Take 20 mL of fluid, centrifuge 8,000 rpm for 3 min.  
+-   * Wash pellet once with sterile PBS, then resuspend in ~100 µL PBS.  
++   * Wash pellet once with sterile PBS, then resuspend in ~100 mL PBS.  
+    * Treat with 0.5 % Triton X‑100 (prepared in PBS) for 1 min, then recentrifuge 8,000 rpm for 3 min.  

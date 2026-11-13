@@ -1,0 +1,72 @@
+Please perform the following steps to assay our MenACWY‑CRM197 vaccine samples using the Luminex bead‑based multiplex ELISA. 
+
+1. **Materials** 
+ - Luminex MagPlex‑C microspheres (color codes: B20 for anti‑MenA, B25 for anti‑MenC, B33 for anti‑MenW, B77 for anti‑MenY). 1.25 × 10⁶ beads per color. 
+ - Serotype‑specific mouse mAbs (anti‑MenA batch 28022017, anti‑MenC 13072017, anti‑MenW 04052017, anti‑MenY 23082017). 
+ - 1‑Ethyl‑3‑(3‑dimethylaminopropyl) carbodiimide (EDC, 50 mg/mL) and N‑hydroxy‑sulfosuccinimide (sNHS, 50 mg/mL). 
+ - Sodium phosphate buffer 100 mM, pH 6.2 (for activation). 
+ - MES buffer 50 mM, pH 5.0 (for coupling). 
+ - PBS 1× + 0.05 % Tween‑20 (for washes and storage). 
+ - PBS 1× + 0.05 % Tween‑20 + 0.2 % BSA (for bead saturation). 
+ - NaCl 9.0 g/L (for vaccine reconstitution). 
+ - Rabbit anti‑CRM 197 whole antiserum (purified by Protein‑G spin‑trap, 28408347, 28903059 kit). 
+ - Goat anti‑rabbit Fab‑conjugated R‑Phycoerythrin (cat. 111‑117‑008). 
+ - 96‑well Greiner plates (cat. 655904). 
+
+2. **Bead activation** 
+ a. Transfer 100 µL of each bead color (1.25 × 10⁶ beads) to low‑binding 1.5 mL tubes, wash with water. 
+ b. Add 80 µL of 100 mM sodium phosphate (pH 6.2). 
+ c. Add 10 µL sNHS (50 mg/mL) followed by 10 µL EDC (50 mg/mL). 
+ d. Vortex and rotate 360° for 20 min at room temperature, protect from light. 
+
+3. **Coupling of antibodies** 
+ a. Add the appropriate mAb (amount per manufacturer’s recommendation; use the same batch for all beads) in 500 µL MES buffer. 
+ b. Vortex, rotate 360° for 2 h at room temperature, cover from light. 
+ c. Wash twice with 500 µL PBS 1× + 0.05 % Tween‑20. 
+ d. Saturate unreacted groups with 500 µL PBS 1× + 0.05 % Tween‑20 + 0.2 % BSA; vortex, rotate 360° for 30 min. 
+ e. Wash twice with 500 µL PBS 1× + 0.05 % Tween‑20. 
+ f. Resuspend in 1 mL PBS 1× + 0.05 % Tween‑20 to achieve 1.25 × 10⁶ beads/mL. Store at 4 °C. 
+
+4. **Preparation of standards and samples** 
+ a. Reconstitute each lyophilized vaccine vial in 600 µL NaCl 9.0 g/L to reach target antigen concentrations: 20 µg/mL for MenA, 10 µg/mL for MenC, MenW, MenY. 
+ b. Perform a 1:1000 dilution of each reconstituted sample and standard in sample diluent (PBS 1× + 0.05 % Tween‑20). 
+ c. Dispense 100 µL of each diluted standard and sample in duplicate into the first column of a Greiner 96‑well plate; fill remaining wells with diluent only. 
+ d. Prepare a 2.5‑fold serial dilution series for each standard and sample across the plate. 
+
+5. **Bead mixture** 
+ a. Dilute the coupled bead mixture 1:10 in sample diluent (PBS 1× + 0.05 % Tween‑20). 
+ b. Add 10 µL of bead mixture to each well of the assay plate. 
+
+6. **Primary antibody incubation** 
+ a. Incubate the plate at room temperature with gentle agitation (800 rpm). 
+
+7. **Wash** 
+ a. Wash plate 3× with sample diluent using a 405‑µL microplate magnetic washer. 
+
+8. **Anti‑CRM 197 antibody** 
+ a. Add 100 µL of diluted and purified rabbit anti‑CRM 197 pAb to each well. 
+ b. Incubate 1 h at room temperature, 800 rpm. 
+
+9. **Second wash** 
+ a. Wash plate 3× with sample diluent as before. 
+
+10. **Secondary antibody** 
+ a. Dilute goat anti‑rabbit Fab‑PE to 1:200 in sample diluent. 
+ b. Add 50 µL to each well; incubate 30 min at room temperature, 800 rpm. 
+
+11. **Final wash and read** 
+ a. Wash plate 3× with sample diluent. 
+ b. Reconstitute wells in 100 µL PBS 1×. 
+ c. Read the plate on a Luminex Bio‑plex 200 (high‑sensitivity mode). 
+
+12. **Data analysis** 
+ a. Export MFI values using Bio‑plex Pro 6.0. 
+ b. Perform a parallel line analysis (PLA) in Combistat EDQM online. 
+ c. Verify regression p < 0.05, non‑linearity p > 0.05, non‑parallelism p > 0.05. 
+ d. Calculate sample concentrations relative to standards with 95 % confidence intervals. 
+
+13. **Optional HPAEC‑PAD** 
+ a. For monosaccharide analysis, treat samples per Rech et al. (sample pre‑treatment) and separate by HPAEC‑PAD following De Ricco et al. (separation conditions). 
+ b. Provide chromatograms and quantification of individual saccharides. 
+
+Please confirm receipt of this request and provide an estimated turnaround time.

@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/elisa_PMC13449785 (clean)
++++ google_gemini-35-flash/elisa_PMC13449785 (defect)
+@@ -22,3 +22,3 @@
+    - Stimulate specific pathways using the following regimens:
+-     * NLRP3: Prime with LPS (100 ng/mL, 4 h) or Pam3CSK4 (1 µg/mL, 4 h); activate with Nigericin (5 µM, 2 h) or ATP (5 mM, 2 h).
++     * NLRP3: Prime with LPS (100 ng/mL, 4 h) or Pam3CSK4 (1 µg/mL, 4 h); activate with Nigericin (5 mM, 2 h) or ATP (5 mM, 2 h).
+      * Non-Canonical: Prime with Pam3CSK4 (1 µg/mL, 16 h); transfect LPS (10 µg/mL final with 0.25% Lipofectamine LTX) for 5 h.

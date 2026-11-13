@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/elisa_PMC13515976 (clean)
++++ groq_openai-gpt-oss-120b/elisa_PMC13515976 (defect)
+@@ -14,3 +14,3 @@
+ 5. Perform agar gel immunodiffusion (AGID) on each serum sample:  
+-   - Use 1 % agarose in physiological saline with rivanol, set in a humid chamber at 24 °C.  
++   - Use 1 % agarose in physiological saline with rivanol, set in a humid chamber at 75 °C.  
+    - Prepare Brucella antigen (IDvet, AGID activity 1:8) as the test antigen.  

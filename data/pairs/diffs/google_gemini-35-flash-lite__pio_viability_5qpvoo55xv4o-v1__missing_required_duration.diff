@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_viability_5qpvoo55xv4o-v1 (clean)
++++ google_gemini-35-flash-lite/pio_viability_5qpvoo55xv4o-v1 (defect)
+@@ -7,3 +7,3 @@
+ 5. Add 50 µL of CellTiter-Glo 3D reagent to each well containing the spheroids and medium.
+-6. Cover the plate with aluminum foil to protect it from light and incubate at room temperature for a total of 25 minutes. During this incubation period, shake the plate on a vortex for 5 minutes at 2 rpm.
++6. Cover the plate with aluminum foil to protect it from light and incubate at room temperature for a total of 25 minutes. During this incubation period, shake the plate on a vortex at 2 rpm.
+ 7. Set up the Tecan Infinite M Plex luminescence reader with the following parameters: orbital shaking mode, 3 s shaking time, no attenuation, 1000 ms integration time, 0 ms settle time, and a temperature of 22°C.

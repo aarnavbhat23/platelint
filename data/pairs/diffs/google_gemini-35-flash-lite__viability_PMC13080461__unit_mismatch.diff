@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/viability_PMC13080461 (clean)
++++ google_gemini-35-flash-lite/viability_PMC13080461 (defect)
+@@ -18,3 +18,3 @@
+ - Combine 1.8 × 10^5 CAFs, 3.6 × 10^4 mesothelial cells, and organoid cell suspensions per well equivalent, and pellet at 300 × g for 5 min.
+-- Prepare a 1:1 matrix mixture of 4.5 mg/mL Type I collagen (pH adjusted to 7.5–8 with 1 M NaOH) and 7.5 mg/mL Cultrex on ice. Resuspend cells in the matrix mixture.
++- Prepare a 1:1 matrix mixture of 4.5 µg/mL Type I collagen (pH adjusted to 7.5–8 with 1 M NaOH) and 7.5 mg/mL Cultrex on ice. Resuspend cells in the matrix mixture.
+ - Seed 10 domes of 20 μL per well in pre-warmed 6-well plates (or 10 μL per well in 384-well plates for high-throughput assays), polymerize at 37°C for 1 h, and add M1/M2-based Medium Mix containing 5 μM Y-27632. Optionally attach adipocyte gels using small collagen droplets. Culture for 10–14 days with medium changes every 2–3 days.

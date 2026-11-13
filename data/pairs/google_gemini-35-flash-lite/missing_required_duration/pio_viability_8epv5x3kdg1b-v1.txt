@@ -1,0 +1,16 @@
+Please test our provided immortalized rat Schwann cell lines (RT4-D6P2T, ATCC #CRL-2768, and S16, ATCC #CRL-2941) to evaluate the effects of forskolin-mediated cAMP activation on LPS-treated cell viability using the following protocol:
+
+1. Culture the cells in poly-L-lysine-coated dishes using DMEM (ATCC #30-2002) supplemented with 10% FBS (Thermo Fisher #16000044) and 1% penicillin/streptomycin/amphotericin B at 37°C and 5% CO2.
+2. At 80% confluency, split and seed the cells into poly-L-lysine-coated 96-well plates in DMEM at a density of ~35,000 cells/well in 200 μL per well.
+3. Incubate the cells in DMEM for 24 hours.
+4. Aspirate the DMEM, wash each well 2-3 times with 200 μL HBSS, and add 200 μL of N2 media (phenol red-free DMEM/F12 [Thermo Fisher #21041025] supplemented with 5 μg/mL insulin [Sigma #91077C] and 100 μg/mL apo-transferrin [Sigma #T1147]) to each well.
+5. Incubate the cells in N2 media.
+6. Prepare forskolin-supplemented media by adding 5 μL of a 2 mM forskolin stock to 10 mL of N2 media.
+7. Add 200 μL of either plain N2 media (control) or forskolin-supplemented N2 media (2 µM final concentration) to the appropriate wells according to the experimental layout.
+8. Add LPS to the appropriate wells to achieve final concentrations of 0.1, 1, or 10 μg/mL, following the plate layout.
+9. Incubate the treatment combinations for 1, 3, 12, or 24 hours as specified in our experimental design.
+10. Using the CyQUANT MTT Cell Viability Assay Kit (Thermo Fisher), prepare a 12-mM MTT stock solution by dissolving the MTT powder in 1 mL of sterile PBS with vortexing. Wrap the vial in aluminum foil and store at 4°C if not used immediately.
+11. Following the incubation period, warm the MTT solution briefly, add 10 μL of MTT to each well, and incubate the plate for 2-3 hours.
+12. Prepare the SDS-HCl mixture by adding 10 mL of 0.01 M HCl to the kit's SDS bottle, mixing slowly to avoid bubbles.
+13. After the MTT incubation, add 100 μL of the SDS/HCl mixture to each well and incubate for an additional 1 to 1.5 hours, checking continuously until the cells are completely lysed and purple precipitate is visible.
+14. Read the plate on a SpectraMax ABS Microplate Reader at 570 nm to measure optical density as an indicator of cell viability.

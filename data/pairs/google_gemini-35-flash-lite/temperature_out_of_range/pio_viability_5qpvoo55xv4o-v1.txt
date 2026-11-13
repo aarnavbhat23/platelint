@@ -1,0 +1,10 @@
+Please run a viability measurement on our 3D spheroid samples using the CellTiter-Glo 3D Cell Viability Assay according to the following procedure:
+
+1. Thaw the CellTiter-Glo 3D reagent at -80 °C the day before the assay, equilibrate it to room temperature for 30 minutes prior to use, and gently mix the solution.
+2. Prepare an ATP calibration curve using ATP (Sigma-Aldrich, A7699-1G) and transfer these solutions into an opaque white 96-well plate (Costar 96 Flat Bottom White Polystyrene) for luminescence measurement alongside our samples.
+3. Transfer our spheroid samples from the incubation plate into the opaque 96-well plate.
+4. Place the plate on the magnetic plate holder, aspirate the culture medium, and add 50 µL per well of incomplete DMEM/F-12 culture medium without FBS (Gibco 21331-020, supplemented with 1% L-Glutamine and 1% Penicillin/Streptomycin).
+5. Add 50 µL of CellTiter-Glo 3D reagent to each well containing the spheroids and medium.
+6. Cover the plate with aluminum foil to protect it from light and incubate at room temperature for a total of 25 minutes. During this incubation period, shake the plate on a vortex for 5 minutes at 2 rpm.
+7. Set up the Tecan Infinite M Plex luminescence reader with the following parameters: orbital shaking mode, 3 s shaking time, no attenuation, 1000 ms integration time, 0 ms settle time, and a temperature of 22°C.
+8. Place the plate on the reader platform without the lid, run the luminescence reading, and save the resulting data as an Excel file.

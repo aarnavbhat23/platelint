@@ -1,0 +1,7 @@
+Please run the RealTime-Glo MT Cell Viability Assay (Promega Catalog #G9711) on our provided samples using the following procedure:
+
+1. Seed the cells at the required density in a 96-well white-walled multiwell plate.
+2. Equilibrate the assay reagents to 37 °C. Prepare the MT Cell Viability Substrate and NanoLuc Enzyme at 2X concentration. For the continuous read format, include our test compounds or controls in the reagent mix also at 2X concentration.
+3. Add an equal volume of the prepared reagent mix directly to the cell culture medium.
+4. Incubate the plate at 37 °C and 5% CO2.
+5. Measure luminescence, return the plate to the cell culture incubator, and repeat the luminescence measurements as required by our time-course design.

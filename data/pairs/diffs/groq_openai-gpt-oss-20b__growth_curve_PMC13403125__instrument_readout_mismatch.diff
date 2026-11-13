@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/growth_curve_PMC13403125 (clean)
++++ groq_openai-gpt-oss-20b/growth_curve_PMC13403125 (defect)
+@@ -63,3 +63,3 @@
+    4.5 Collect the hydrogel‑encapsulated cells by centrifugation 150× g, 5 min. Wash three times with PBS pH 7.4 to remove excess reagents.  
+-   4.6 Store or assay the encapsulated cells as needed (e.g., fluorescence imaging, viability, cytokine secretion).
++   4.6 Store or assay the encapsulated cells as needed (e.g., absorbance at 450 nm imaging, viability, cytokine secretion).
+ 

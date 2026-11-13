@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/qpcr_PMC13745738 (clean)
++++ google_gemini-35-flash-lite/qpcr_PMC13745738 (defect)
+@@ -4,3 +4,3 @@
+ 
+-2. Deliver genome-editing reagents using either plasmid transfection (e.g., using Lipofectamine Stem with a 3:1 reagent-to-plasmid ratio, combining 2 μg PX458 plasmid and 1 μg Alt-R HDR donor oligo for knock-ins, or 0.5 μg pegRNA plasmid and 1.5 μg pCMV-PEmax-P2A-GFP for prime editing) or ribonucleoprotein (RNP) electroporation (e.g., Neon NxT system at 1,300 V, 10 ms, single pulse, using RNP complexes prepared by annealing 50 μM sgRNA with 19.5 μM Cas9 nuclease and adding 1 μg HDR donor oligo where applicable). 
++2. Deliver genome-editing reagents using either plasmid transfection (e.g., using Lipofectamine Stem with a 3:1 reagent-to-plasmid ratio, combining 2 mg PX458 plasmid and 1 μg Alt-R HDR donor oligo for knock-ins, or 0.5 μg pegRNA plasmid and 1.5 μg pCMV-PEmax-P2A-GFP for prime editing) or ribonucleoprotein (RNP) electroporation (e.g., Neon NxT system at 1,300 V, 10 ms, single pulse, using RNP complexes prepared by annealing 50 μM sgRNA with 19.5 μM Cas9 nuclease and adding 1 μg HDR donor oligo where applicable). 
+ 

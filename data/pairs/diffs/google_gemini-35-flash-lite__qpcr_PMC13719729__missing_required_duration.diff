@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/qpcr_PMC13719729 (clean)
++++ google_gemini-35-flash-lite/qpcr_PMC13719729 (defect)
+@@ -10,3 +10,3 @@
+ 
+-6. Perform PCR and Sanger sequencing to verify edits by amplifying target loci using AmpliTaq Gold 360 Master Mix with 10 ng gDNA and 10 µM forward and reverse primers, running initial denaturation at 98 °C for 30 s, 35 cycles of 98 °C for 30 s, annealing, and 72 °C extension, followed by agarose gel electrophoresis and sequencing submission.
++6. Perform PCR and Sanger sequencing to verify edits by amplifying target loci using AmpliTaq Gold 360 Master Mix with 10 ng gDNA and 10 µM forward and reverse primers, running initial denaturation at 98 °C, 35 cycles of 98 °C for 30 s, annealing, and 72 °C extension, followed by agarose gel electrophoresis and sequencing submission.
+ 

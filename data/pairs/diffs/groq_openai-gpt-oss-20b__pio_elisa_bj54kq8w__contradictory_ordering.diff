@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/pio_elisa_bj54kq8w (clean)
++++ groq_openai-gpt-oss-20b/pio_elisa_bj54kq8w (defect)
+@@ -16,3 +16,3 @@
+ 
+-1. Coat the plates with Salmonella LPS at 2 µg / well in 100 µl of 5X coating buffer. Incubate overnight at 4 °C.
++1. Coat the plates with Salmonella LPS at 2 µg / well in 100 µl of 5X coating buffer. Incubate overnight at 4 °C. Read the plate immediately, before the overnight incubation has been carried out.
+ 2. Wash plates four times with 10 % PBS‑Tween‑20 (1 ml per wash, aspirate between washes).

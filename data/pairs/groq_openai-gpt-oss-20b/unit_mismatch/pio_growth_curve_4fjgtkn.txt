@@ -1,0 +1,26 @@
+Please run the following liquid growth assay for our Aspergillus spore samples:
+
+1. **Prepare spore suspension**  
+   a. Harvest spores from a fresh plate and resuspend in PBS containing 0.01 % Tween‑20.  
+   b. Dilute to 4 × 10⁵ spores mL⁻¹ (approximately 2000 spores per 5 µL aliquot).  
+
+2. **Plate setup**  
+   a. Using a non‑coated Starlab CytoOne 96‑well plate, dispense 5 µL of the spore suspension into each well.  
+   b. Add 195 µL of liquid growth medium (total volume 200 mL per well).  
+   c. Fill the peripheral wells or the spaces between wells with sterile medium or sterile water to minimise edge effects.  
+   d. Cover the plate with a breathable lid to allow gas exchange.
+
+3. **Instrument setup**  
+   a. Preheat either the Powerwave X‑2 (KC software) or a BioTek plate reader to 37 °C.  
+   b. Measure a blank reading before starting the run.  
+   c. Program the reader to record OD₆₀₀ every 10 minutes for a total of 48 h (time‑course will generate the growth curve).  
+
+4. **Run the assay**  
+   a. Place the plate in the reader and start the 48 h run.  
+   b. After completion, export the raw OD₆₀₀ data as a TXT file (or the format specified in the attached example).  
+
+5. **Data handling**  
+   a. Perform any required data manipulation to match the format of the reference growth curves (see attached example).  
+   b. Forward the processed data to us for further analysis (the next protocol covers downstream processing).  
+
+Please confirm receipt of this request and let us know if any materials or additional details are needed. Thank you.

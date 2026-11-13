@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/growth_curve_PMC13273370 (clean)
++++ groq_openai-gpt-oss-120b/growth_curve_PMC13273370 (defect)
+@@ -15,3 +15,3 @@
+    d. Seal each deep‑well plate with a Breathe‑Easy foil membrane.  
+-   e. Incubate the two plates on a shaker (28 °C, 180 rpm) for 4 days.
++   e. Incubate the two plates on a shaker (28 °C, 180 rpm) for 4 days, and hold the plate at 4 °C for the whole of this step.
+ 

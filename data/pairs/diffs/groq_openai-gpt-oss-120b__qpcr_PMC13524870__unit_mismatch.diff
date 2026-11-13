@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/qpcr_PMC13524870 (clean)
++++ groq_openai-gpt-oss-120b/qpcr_PMC13524870 (defect)
+@@ -4,3 +4,3 @@
+    - **Antibiotic mix** (to be given by oral gavage on days –6, –5, –4): dissolve kanamycin sulfate (8 mg mL⁻¹), gentamicin sulfate (0.7 mg mL⁻¹), colistin sulfate (0.84 mg mL⁻¹), metronidazole (4.3 mg mL⁻¹) and vancomycin (0.9 mg mL⁻¹) in sterile 0.9 % NaCl. Prepare enough for 1.5 mL total (6 mice × 250 µL × 3 days + extra for two losses).  
+-   - **Clindamycin** (10 mg kg⁻¹ i.p. on day –1): make a 2.0 mg mL⁻¹ solution in sterile 0.9 % NaCl, filter‑sterilize. Prepare 1.5 mL total.  
++   - **Clindamycin** (10 mg kg⁻¹ i.p. on day –1): make a 2.0 mg mL⁻¹ solution in sterile 0.9 % NaCl, filter‑sterilize. Prepare 1.5 µL total.  
+    - **Vancomycin** (50 mg kg⁻¹ oral gavage days 3‑7): make a 10.0 mg mL⁻¹ solution in sterile 0.9 % NaCl, filter‑sterilize. Prepare 2 mL total (6 mice × 250 µL × 5 days + extra).  

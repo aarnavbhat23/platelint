@@ -1,0 +1,3 @@
+1. Isolate primary human PBMCs from healthy donor samples using Ficoll density gradient separation. Isolate CD4+CD25+ regulatory T cells (Tregs) using the Miltenyi human CD4+CD25+ isolation kit, retaining the CD25-negative fraction to isolate CD4+CD25- conventional T cells (Tconv). For patient samples (RA and T1D), thaw frozen PBMCs, rest them overnight, and perform the same Treg isolation protocol.
+
+2. Cultivate isolated Tregs at 0.1 x 10^6 cells/mL in X-VIVO15 medium supplemented with 10% human serum, 1% penicillin-streptomycin, 1% glutamine, and 100 nm

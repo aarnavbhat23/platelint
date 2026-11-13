@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/qpcr_PMC13745738 (clean)
++++ google_gemini-35-flash-lite/qpcr_PMC13745738 (defect)
+@@ -6,3 +6,3 @@
+ 
+-3. Twenty-four hours post-transfection, enrich edited cells via fluorescence-activated cell sorting (FACS) using freshly prepared, sterile-filtered FACS buffer (PBS without Ca2+/Mg2+, 2% FCS, 1× CEPT). Sort GFP-positive cells and recover them in growth medium containing CEPT, maintaining antibiotics during sorting to prevent contamination.
++3. Twenty-four hours post-transfection, enrich edited cells via absorbance at 450 nm-activated cell sorting (FACS) using freshly prepared, sterile-filtered FACS buffer (PBS without Ca2+/Mg2+, 2% FCS, 1× CEPT). Sort GFP-positive cells and recover them in growth medium containing CEPT, maintaining antibiotics during sorting to prevent contamination.
+ 

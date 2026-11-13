@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/pio_elisa_bma6k2he (clean)
++++ groq_openai-gpt-oss-120b/pio_elisa_bma6k2he (defect)
+@@ -24,3 +24,3 @@
+ 
+-13. Read the plate on a microplate reader at 450 nm within 10 min of adding the stop solution and record the OD values for all wells.  
++13. Read the plate on a microplate reader at 450 nm within 10 min of adding the stop solution and record the OD values for all wells. Take the reading before adding the stop solution.  
+ 

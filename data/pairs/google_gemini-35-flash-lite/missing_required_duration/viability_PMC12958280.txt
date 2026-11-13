@@ -1,0 +1,30 @@
+Please process our supplied recombinant protein samples according to the following workflow:
+
+1. **Buffer Optimization (DLS):**
+ - Filter samples through a 0.1 µm membrane and centrifuge at 10,000 × g. 
+ - Dilute proteins to 0.5 mg/mL in the buffer conditions specified in Table S5 and dispense into a 96-well plate. 
+ - Overlay with silicone oil, briefly centrifuge at 500 × g for 1 min to remove air bubbles, and run DLS measurements on a Wyatt DynaPro II Plate Reader at 25 °C over 1 week.
+ - For measurements under optimal storage buffer containing 0.05% CHAPS, monitor samples at 25 °C or 37 °C for 72 h. Analyze data using Dynamics software.
+
+2. **Uptake Studies & Cytotoxicity:**
+ - Prior to cellular assays, perform an MTT assay to evaluate cytotoxicity and determine appropriate working concentrations (standard starting range: 0.5 µM to 5 µM; 8–15 µM for short motif constructs).
+ - Perform live-cell fluorescence microscopy, imaging flow cytometry (IFC), and ImageXpress Pico uptake experiments using murine NIH3T3 fibroblasts (or HeLa/HEK293T cells as applicable).
+ - Standard incubation: 1 h. Include a heparin wash post-incubation to remove membrane-adhering, non-internalized protein.
+ - For endosomal involvement studies, coincubate with chloroquine (0.1 mM) or sucrose (80 mM). For trafficking mode studies, preincubate with amiloride, indomethacin, or chlorpromazine (0.5 mM each).
+
+3. **Imaging Flow Cytometry (IFC):**
+ - Detach adherent cells using 0.05% (v/v) trypsin (avoid prolonged exposure). Stain nuclei with Hoechst.
+ - Acquire data immediately on an ImageStreamX Mark II imaging flow cytometer using 405 nm (Hoechst) and 488 nm (GFP) lasers alongside bright-field.
+ - Analyze using IDEAS v6.2 and INSPIRE v201.1.0.693 software. Gate singlets using Gradient RMS_BF, AREA_BF, and Aspect ratio_BF parameters (collect 5,000 events per sample in biological triplicates). Quantify colocalization using the Bright Detail Similarity R3_MC_Ch02_Ch07_Median metric. Perform statistical analysis via ordinary one-way ANOVA with multiple comparisons in GraphPad Prism.
+
+4. **ImageXpress Pico Analysis:**
+ - Prepare samples following the live-cell imaging protocol with adjusted cell density and higher Hoechst concentration. 
+ - Quantify nuclear GFP/Hoechst double-positive signals and total nuclei using CellReporterXpress software.
+
+5. **Motif Mapping & Deletion Mutants:**
+ - Scan primary sequences using CPPSite 2.0 to identify candidate CPP motifs, clone them as eGFP fusion constructs, and evaluate cellular internalization via live-cell imaging.
+ - Purify generated SPΔCPP deletion mutants and assess uptake via microscopy/IFC to confirm motif functionality.
+
+6. **Coimmunoprecipitation (CoIP):**
+ - Incubate NIH3T3 cells with recombinant proteins, isolate the nuclear fraction (verifying separation using histone and β-tubulin markers), and capture complexes via Strep-beads.
+ - Run samples on an acrylamide gel, transfer, and blot with anti-GFP and anti-HDAC3 antibodies (alongside markers for other interactors) to confirm CPP-FP/SP binding activity. Include a control of untreated nuclear isolates spiked with recombinant protein.

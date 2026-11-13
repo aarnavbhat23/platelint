@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_elisa_bjtkknkw (clean)
++++ google_gemini-35-flash-lite/pio_elisa_bjtkknkw (defect)
+@@ -8,3 +8,3 @@
+ 6. Add 25 µl per well of a commercially prepared chimeric recombinant protein LA-HRP conjugate (Sigma-Aldrich) diluted 1:5000.
+-7. Incubate for 90 minutes at room temperature, wash again, and add 25 µl of TMB to each well. Incubate for 15 minutes in the dark.
++7. Incubate at room temperature, wash again, and add 25 µl of TMB to each well. Incubate for 15 minutes in the dark.
+ 8. Stop the reaction by adding 3M H2SO4.

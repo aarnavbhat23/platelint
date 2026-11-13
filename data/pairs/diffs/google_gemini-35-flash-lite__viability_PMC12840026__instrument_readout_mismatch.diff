@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/viability_PMC12840026 (clean)
++++ google_gemini-35-flash-lite/viability_PMC12840026 (defect)
+@@ -15,3 +15,3 @@
+ 
+-6. Assess cell viability and proliferation using the MTT assay. Solubilize both pistachio extracts in a 1:1 v/v mixture of PBS and 70% ethanol. Seed HCT-116 cells in 96-well plates at 5000 cells/well in 100 µL medium. The day after seeding, treat cells in quadruplicate with the green extract, classic extract, or vehicle control at a final concentration of 250 ng/µL for 24, 48, and 72 hours. At each time point, add 10 µL of MTT solution (5 mg/mL in 1× PBS) per well, incubate for 3 h at 37 °C, remove supernatant, solubilize formazan crystals in DMSO, and measure absorbance at 570 nm. Repeat across at least three independent biological experiments.
++6. Assess cell viability and proliferation using the MTT assay. Solubilize both pistachio extracts in a 1:1 v/v mixture of PBS and 70% ethanol. Seed HCT-116 cells in 96-well plates at 5000 cells/well in 100 µL medium. The day after seeding, treat cells in quadruplicate with the green extract, classic extract, or vehicle control at a final concentration of 250 ng/µL for 24, 48, and 72 hours. At each time point, add 10 µL of MTT solution (5 mg/mL in 1× PBS) per well, incubate for 3 h at 37 °C, remove supernatant, solubilize formazan crystals in DMSO, and measure luminescence. Repeat across at least three independent biological experiments.
+ 

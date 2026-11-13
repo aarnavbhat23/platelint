@@ -1,0 +1,29 @@
+1. Set up 96‑well plates with the liquid growth medium we supplied and inoculate each well with the Aspergillus (or other filamentous fungus) isolates listed in the attached spreadsheet. Use the same plate layout as in the spreadsheet (e.g., A5 in the spreadsheet is A5 on the plate). Include the required number of biological replicates; each replicate must be in a separate file later.
+
+2. Incubate the plates at the temperature and shaking speed specified in our protocol (30 °C, 200 rpm) and record optical density (or other growth read‑out) every 30 minutes for 48 hours using the plate reader, and hold the plate at 4 °C for the whole of this step. Export the raw read‑outs as tab‑delimited text files, one file per replicate, naming them exactly as follows:  
+   plate1‑Rep1.txt, plate1‑Rep2.txt, plate1‑Rep3.txt, plate2‑Rep1.txt … plate5‑Rep3.txt.  
+   Ensure the well identifiers in each file match the plate layout (e.g., “A5”) and that the column order is consistent across all files.
+
+3. Using R Studio (Desktop 1.1.463 or later), run the preprocessing script we have attached. Adjust the two header lines of the script to reflect the number of plates and replicates we are using. The script will read the raw text files, merge the replicates, and create the object `myDataList` required for downstream analysis.
+
+4. Install the BEAST R package from CRAN (https://rdrr.io/cran/beast) and load it in the same R session.
+
+5. Run the BEAST analysis on our data:  
+
+   ```R
+   library(beast)
+   # myDataList should already exist from step 3
+   beastRun <- beast(myDataList = myDataList)
+   print(beastRun)
+   plot(beastRun, fileName = "growth_beast_plot.pdf", timeScale = 1/6,
+        xlab = "hours", ylab = "growth")
+   ```
+
+   Use the default MCMC settings (70 000 iterations) unless we advise otherwise.
+
+6. Return the following deliverables to us:  
+
+   - The processed R object `myDataList` (saved as an .RData file).  
+   - The printed BEAST output (text file).  
+   - The PDF file “growth_beast_plot.pdf” containing all growth curves, clustered by change‑point groups and individual curves for each isolate.  
+   - A brief note confirming that the plate layout and replicate files matched the naming convention.  

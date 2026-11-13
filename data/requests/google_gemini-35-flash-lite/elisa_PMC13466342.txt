@@ -1,0 +1,28 @@
+1. Prepare GelMA-A hydrogel by dissolving 50 mg GelMA and 7.5 mg alogliptin in 1 mL of LAP-containing PBS solution (0.05 g LAP in 20 mL 1x PBS). Prepare control GelMA hydrogel with 50 mg GelMA in 1 mL LAP PBS solution. Ensure full dissolution in the dark and sterile-filter using a 0.22 µm filter.
+
+2. Perform equilibrium water volume, SEM (including freeze-drying, cutting to 1 mm³, and gold sputtering), and sustained-release ELISA assays (using 10 mL 1x PBS at 37 °C with supernatant collection at 15, 17, and 20 days) on the prepared hydrogels.
+
+3. Isolate and culture SD rat BMSCs, BMMs (induced with M-CSF and LPS to form M1-BMMs), and HUVECs. Characterize the cell populations using flow cytometry for surface markers (CD29, CD34, CD90 for BMSCs; CD11b for BMMs; morphology and VE-cadherin for HUVECs).
+
+4. Perform CCK-8 cell viability and proliferation assays on cells treated with varying drug concentrations to confirm optimal non-cytotoxic doses (100 nM alogliptin, 200 µM metformin).
+
+5. Conduct in vitro functional assays:
+   - ELISA on BMSC supernatants after 48 h treatment to measure VEGF, TNF-α, and IL-10.
+   - BMSC adhesion assays using Ki-67 and FITC-Phalloidin staining.
+   - Osteogenic differentiation of BMSCs cultured in osteogenesis induction medium.
+   - ALP activity assays and staining at 7 days, and Alizarin Red S staining and quantification at 21 days.
+   - HUVEC tube formation assays on Matrigel after 4-6 hours.
+   - Total RNA extraction, cDNA synthesis, and qRT-PCR to measure osteogenic and Wnt/β-catenin signaling genes using GAPDH normalization and the 2^-ΔΔCt method.
+
+6. Use T2DM-induced SD rats (high-fat diet plus 35 mg/kg STZ, verified by blood glucose > 16.7 mmol/L), divided into appropriate groups (7 rats per group) for in vivo testing with femoral implants (3 x 1.5 mm). 
+
+7. Administer treatments: 
+   - Oral gavage of 10 mM alogliptin, 10 mM metformin, or saline starting 5 days post-surgery.
+   - Local injection of 10 µL of blank GelMA or GelMA-A hydrogel into the implant bed prior to implantation.
+
+8. Harvest samples at 8 weeks post-surgery and perform:
+   - Micro-CT scanning to evaluate osseointegration parameters (BV/TV, Tb.N, Tb.Th within a 100 µm annular ROI).
+   - Fluorescence microscopy on 50 µm hard tissue sections for Alizarin Red bone labeling (injected 10 days prior to euthanasia).
+   - Histological and immunohistochemical staining (HE, modified Masson, Safranin O/Fast Green, VG, Toluidine Blue, GLP1R, β-catenin, GSK-3β, RUNX2, BMP2, and ALP) on 10 µm undecalcified paraffin sections and 250-300 µm resin-mounted hard tissue sections.
+
+9. Analyze all quantitative data using one-way ANOVA with Tukey’s post-hoc test in GraphPad Prism 9.0, reporting results as mean ± SD with significance set at p < 0.05 across at least three independent biological replicates.

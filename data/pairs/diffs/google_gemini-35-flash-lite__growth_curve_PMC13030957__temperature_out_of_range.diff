@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/growth_curve_PMC13030957 (clean)
++++ google_gemini-35-flash-lite/growth_curve_PMC13030957 (defect)
+@@ -10,3 +10,3 @@
+    - Block ribosomal RNA using 0.4 μM of universal blocking oligos and 4 μM of species-specific 16S/23S oligos in 50 mM NaCl, using a thermal profile of 75°C for 5 min, 65°C for 5 min, and stepwise 3°C decreases every 2 min down to 35°C.
+-   - Ligate single-stranded RNA adapters containing UMIs and barcodes to the RNA using T4 RNA ligase 1, 1 mM ATP, and 1X T4 ligation buffer at 25°C for 1 h.
++   - Ligate single-stranded RNA adapters containing UMIs and barcodes to the RNA using T4 RNA ligase 1, 1 mM ATP, and 1X T4 ligation buffer at 75 °C for 1 h.
+    - Purify ligated RNA using RNA CleanXP beads (1.8X volume).

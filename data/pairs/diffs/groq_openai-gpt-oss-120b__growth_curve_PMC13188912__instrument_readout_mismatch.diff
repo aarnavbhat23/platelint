@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/growth_curve_PMC13188912 (clean)
++++ groq_openai-gpt-oss-120b/growth_curve_PMC13188912 (defect)
+@@ -47,3 +47,3 @@
+     • Wash three times with 1 mL PBS, air‑dry 45 min, then elute dye with 1 mL 95 % ethanol (10 min, dark, intermittent vortex).  
+-    • Transfer 200 µL of the eluate to a microplate, read absorbance at 595 nm. Normalize OD595 to the number of MiPs (OD595 · MiP⁻¹). Run virgin PET (negative) and pre‑extracted environmental MiPs (positive) in parallel.  
++    • Transfer 200 µL of the eluate to a microplate, read luminescence. Normalize OD595 to the number of MiPs (OD595 · MiP⁻¹). Run virgin PET (negative) and pre‑extracted environmental MiPs (positive) in parallel.  
+ 

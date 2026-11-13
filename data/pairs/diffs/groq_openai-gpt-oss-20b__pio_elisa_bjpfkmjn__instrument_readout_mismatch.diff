@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/pio_elisa_bjpfkmjn (clean)
++++ groq_openai-gpt-oss-20b/pio_elisa_bjpfkmjn (defect)
+@@ -8,3 +8,3 @@
+ 6. Stop the reaction with 50 µl of 3 M H₂SO₄ added to each well.
+-7. Measure optical density at 492 nm on a microplate reader. Calculate the cut‑off as the mean OD of the negative controls multiplied by 3. Record the OD values, the cut‑off, and any visual colour development for each well.
++7. Measure luminescence on a microplate reader. Calculate the cut‑off as the mean OD of the negative controls multiplied by 3. Record the OD values, the cut‑off, and any visual colour development for each well.
+ 

@@ -1,0 +1,23 @@
+1. Expand and maintain the human iPSC line ChiPSC18 using the Cellartis DEF-CS Culture System. Passage cells every 3–5 days by dissociating with 1× TrypLE Select for 5–7 minutes at 37°C and seeding at 2–5 × 10^4 cells/cm² on DEF-CS COAT-1 coated dishes in DEF-CS medium.
+
+2. Differentiate the human iPSCs into hepatic lineage spheroids (HLOs). Dissociate iPSCs with TrypLE Select and seed at 1 × 10^5 cells/cm² on 24-well (Falcon #353047) or 6-well (Costar #3736) plates. Initiate differentiation when cells reach 90%–95% confluency:
+   - Day 1: RPMI 1640 supplemented with 100 ng/ml Activin A and 50 ng/ml BMP4.
+   - Day 2: RPMI 1640 containing 100 ng/ml Activin A and 0.2% fetal calf serum (FCS).
+   - Day 3: RPMI 1640 containing 100 ng/ml Activin A and 2% Knockout SR.
+   - Days 4–6: Advanced DMEM/F12 supplemented with 2% B-27, 1% N-2, 500 ng/ml FGF4, 2 mM L-glutamine, 10 µM HEPES, and 3 μM CHIR99021. Maintain at 37°C in 5% CO2 with daily medium changes.
+
+3. On day 6, harvest spheroids and attached cells by gentle pipetting, centrifuge at 300 rpm for 3 min, remove supernatant, and process into two conditions:
+   - ECM-embedding condition (EE): Embed cells in 50 μL of 100% Geltrex, plate on VWR #10062-896 dishes, and culture for 4 days in Advanced DMEM/F12 supplemented with B27, N2, and 2 μM retinoic acid (RA).
+   - Suspension condition (SC): Resuspend cells in fresh medium and transfer to suspension plates (VWR #10062-892 or #10062-896) with 2 μM RA treatment.
+   Following RA treatment, maintain both cultures in PowerPrimary HEP medium (PPM) supplemented with HGF (10 ng/ml), Dex (0.1 μM), and OSM (20 ng/ml) at 37°C in 5% CO2, changing medium every 3 days.
+
+4. Perform whole-mount immunostaining on day 30 HLO samples. Collect organoids from suspension, rinse with PBS, fix in 4% paraformaldehyde on ice for 45 min, wash with PBS containing 0.1% Tween-20, permeabilize (0.2% BSA, 0.1% Triton X-100, 0.01% SDS), and block. Incubate with primary antibodies (Table S2) at 4°C overnight, wash, block again, and incubate with fluorophore-conjugated secondary antibodies at room temperature for 2 h in the dark. Counterstain nuclei with DAPI (1:2000, Dojindo 340-07971). Mount in Fluoromount and acquire images using the Olympus FLUOVIEW FV3000 laser scanning confocal microscope system.
+
+5. Assess HLO function and viability across time points:
+   - Quantify albumin secretion from culture supernatants using the Human Albumin ELISA Kit (Bethyl Laboratories, E88-129).
+   - Measure Cytochrome P450 activity using the P450-Glo CYP3A4 Assay and Screening System (Promega, V9002) and determine cellular ATP levels from the same organoid suspension using the CellTiter-Glo 3D Cell Viability Assay (Promega, G9681). Read absorbance and luminescence on a TriStar 2 LB 942 Multimode Microplate Reader. Normalize CYP3A4 activity to ATP luminescence and scale by 10^6.
+
+6. Perform bulk RNA sequencing on day 25 HLO samples alongside iPS controls (three biological replicates per group):
+   - Isolate total cellular RNA using the NucleoSpin RNA kit (Takara Bio, #740955) and quantify using a Qubit fluorometric assay.
+   - Send purified RNA to Azenta Life Sciences for library preparation and sequencing on the DNBSEQ platform (paired-end 2 × 150 bp reads).
+   - Process raw reads (adapter trimming, filtering for quality Phred score < 20 and length ≥ 75 bp) and align to the human reference genome (Ensembl GRCh38 release 101) using HISAT2 (v2.2.0). Provide raw data, processed expression values, and differential expression outputs.

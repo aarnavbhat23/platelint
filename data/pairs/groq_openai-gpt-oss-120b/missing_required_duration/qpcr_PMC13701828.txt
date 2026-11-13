@@ -1,0 +1,19 @@
+1. Culture human foreskin fibroblasts (HFF1, ATCC SCRC‑1041) in DMEM supplemented with 10 % FBS, 2 mM L‑glutamine, and 1 % penicillin/streptomycin. Keep cells at standard temperature, humidity, and 5 % CO₂. Seed control and experimental plates at the same confluence and passage number; aim for stable proliferation before treatment.
+
+2. Treat the experimental plates with the REAC CO‑IBZ protocol using a BENE 110 device (ASMED). Apply the Asymmetric Conveyor Probe (ACP) directly onto the culture for nine 30‑min sessions total: three sessions per day on three consecutive days, with each session starting one hour after the previous one ends. Handle control plates in parallel under identical culture conditions but without the ACP.
+
+3. After the final CO‑IBZ session, harvest cells from each biological replicate (n = 5 per condition). Extract total RNA using the Qiagen RNeasy Mini Kit, measure concentration and purity spectrophotometrically, and store at –80 °C until analysis.
+
+4. Perform one‑step quantitative RT‑PCR (Luna Universal One‑Step RT‑qPCR Kit, NEB) on a Bio‑Rad CFX thermal cycler for the following targets: SIRT1, NOX4, VEGF, p16, p21, HAS2. Use GAPDH as the reference gene. Run each biological sample in technical triplicate, average the triplicates, and calculate relative expression with the 2⁻ΔΔCt method. Confirm that GAPDH Cq values do not differ between groups.
+
+5. For immunofluorescence, fix and permeabilize cells from each replicate. Incubate overnight at 4 °C with primary antibodies at the indicated dilutions: SIRT1 (1:100, Cell Signaling), NOX4 (1:500 from a 1:50 stock, Santa Cruz), PARP1 (1:800, Cell Signaling), vWF (1:500 from a 1:50 stock, Santa Cruz), collagen III (1:500, Abcam). After washing, apply fluorescence‑conjugated secondary antibodies (Life Technologies) at 1:500 for 1 h at 37 °C in the dark. Counterstain nuclei with DAPI (1 µg/mL). Acquire images on a Leica THUNDER Imager DMi8 using identical exposure, illumination, and acquisition settings for all samples. Quantify mean fluorescence intensity with ImageJ/Fiji, collapsing technical images into one value per biological replicate.
+
+6. Measure total antioxidant capacity (TAC) in the culture supernatant using the Abcam Total Antioxidant Capacity Colorimetric Assay Kit. Add 100 µL Cu²⁺ working solution to each well, incubate 90 min at room temperature on an orbital shaker protected from light, then read absorbance at 570 nm on an Akribis plate reader. Calculate TAC as (Ts/Sv) × D using the standard curve (Ts = nmol, Sv = µL added, D = dilution factor). Perform the assay on five independent biological replicates per condition.
+
+7. Determine nitrite levels with the Thermo Fisher Griess Reagent Kit. Mix 20 µL Griess reagent with 150 µL sample, incubate 30 min at room temperature, and read absorbance at 548 nm on the same plate reader. Use five biological replicates per condition.
+
+8. Assess intracellular ROS using CM‑H₂DCFDA (Thermo Fisher). After treatment, incubate cells with 10 µM dye at 37 °C in the dark, wash with PBS, and measure fluorescence (excitation 485 nm, emission 530 nm) in fresh PBS on the plate reader. Run five biological replicates.
+
+9. For all quantitative assays (RT‑qPCR, immunofluorescence intensity, TAC, nitrite, ROS), average technical replicates within each biological replicate before any statistical testing. Use GraphPad Prism 9 to assess normality (Shapiro–Wilk) and compare control vs. CO‑IBZ groups with an unpaired two‑tailed Welch’s t‑test. Report results as mean ± SD; consider p < 0.05 significant.
+
+Please process our HFF1 samples according to the above workflow and return raw data files, processed results, and a brief statistical summary for each assay. Let us know promptly if any reagents or equipment are unavailable.

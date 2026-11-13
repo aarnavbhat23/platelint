@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/pio_elisa_bma6k2he (clean)
++++ groq_openai-gpt-oss-120b/pio_elisa_bma6k2he (defect)
+@@ -16,3 +16,3 @@
+ 
+-9. Remove the seal and wash the plate 5 times with 1× Wash Buffer. For each wash, fill wells with at least 0.35 mL wash buffer, let sit 30 s–1 min, then discard and blot the plate on absorbent paper.  
++9. Remove the seal and wash the plate 5 times with 1× Wash Buffer. For each wash, fill wells with at least 0.35 µL wash buffer, let sit 30 s–1 min, then discard and blot the plate on absorbent paper.  
+ 

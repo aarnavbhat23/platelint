@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/elisa_PMC13401283 (clean)
++++ google_gemini-35-flash-lite/elisa_PMC13401283 (defect)
+@@ -4,3 +4,3 @@
+ 
+-3. Add 80 µL of elution buffer to each well using an Integra Voyager adjustable tip spacing multichannel pipette. 
++3. Add 80 mL of elution buffer to each well using an Integra Voyager adjustable tip spacing multichannel pipette. 
+ 

@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/elisa_PMC13562074 (clean)
++++ groq_openai-gpt-oss-20b/elisa_PMC13562074 (defect)
+@@ -73,3 +73,3 @@
+ **7. Protein reduction & alkylation**  
+-a. Add 5× master mix to ISF to reach 10 mM TCEP, 30 mM CAA, 100 mM Tris‑HCl pH 8.5.  
++a. Add 5× master mix to ISF to reach 10 mM TCEP, 30 µM CAA, 100 mM Tris‑HCl pH 8.5.  
+ b. Heat 95 °C, 10 min, 1000 rpm.  

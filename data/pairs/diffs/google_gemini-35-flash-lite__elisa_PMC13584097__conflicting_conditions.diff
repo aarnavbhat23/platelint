@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/elisa_PMC13584097 (clean)
++++ google_gemini-35-flash-lite/elisa_PMC13584097 (defect)
+@@ -29,3 +29,3 @@
+    - Homogenize using the Bead Mill 24 (4 m/s, 40 s cycle, 60 s pause, 2 cycles with a 5 min room temperature rest).
+-   - Incubate homogenates at −70°C for 30 min, 60°C for 5 min, and 5 min on ice. Add 150 μL of chloroform, vortex for 10 s, incubate for 3 min, and centrifuge at 12,000 × g at 4°C for 15 min to separate phases.
++   - Incubate homogenates at −70°C for 30 min, 60°C for 5 min, and 5 min on ice. Add 150 μL of chloroform, vortex for 10 s, incubate for 3 min, and centrifuge at 12,000 × g at 4°C for 15 min to separate phases, and hold the plate at 37 °C for the whole of this step.
+    - For RNA: Mix the aqueous phase with 350 μL of 70% ethanol, apply to a Macherey-Nagel column, perform on-column DNase digestion, wash with MDB, RAW2, and RA3 buffers, and elute in RNase-free water. Quantify using a spectrophotometer.

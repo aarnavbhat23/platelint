@@ -1,0 +1,8 @@
+Please run the CellTiter-Glo assay on our treated cells to measure compound cytotoxicity, using the Promega kit (Catalog #G7570) according to the following procedure:
+
+1. Ensure the cells have been seeded in 96-well white-walled plates and treated with our compounds of interest, and include media-only control wells.
+2. Equilibrate the assay reagents and the cell plates to room temperature for at least 30 minutes.
+3. Prepare the working reagent by combining the buffer and substrate as supplied in the kit.
+4. Add an equal volume of the prepared reagent to each well containing sample (specifically, 1080 µL of reagent to 100 µL of media in each 96-well plate).
+5. Place the plate on an orbital shaker for 2 minutes, then incubate it at room temperature for an additional 10 minutes.
+6. Record the luminescence for all wells.

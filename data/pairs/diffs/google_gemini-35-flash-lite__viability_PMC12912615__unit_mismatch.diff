@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/viability_PMC12912615 (clean)
++++ google_gemini-35-flash-lite/viability_PMC12912615 (defect)
+@@ -6,3 +6,3 @@
+ 
+-3. Plate the GEDI-expressing SF8628 cells at 5,000 cells/well in 96-well optical plates with 100 µL of media for endpoint assays, or at ≤5,000 cells/well for live-cell imaging.
++3. Plate the GEDI-expressing SF8628 cells at 5,000 cells/well in 96-well optical plates with 100 mL of media for endpoint assays, or at ≤5,000 cells/well for live-cell imaging.
+ 

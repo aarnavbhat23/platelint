@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/elisa_PMC13418581 (clean)
++++ google_gemini-35-flash-lite/elisa_PMC13418581 (defect)
+@@ -10,3 +10,3 @@
+ 
+-6. Add our provided clinical serum samples (diluted 1:400 in PBST, 100 µL/well) to the plates, incubate at 37 °C for 1 h, and wash three times with PBST.
++6. Add our provided clinical serum samples (diluted 1:400 in PBST, 100 µL/well) to the plates, incubate at 37 °C, and wash three times with PBST.
+ 

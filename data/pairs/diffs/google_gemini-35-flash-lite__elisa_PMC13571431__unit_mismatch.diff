@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/elisa_PMC13571431 (clean)
++++ google_gemini-35-flash-lite/elisa_PMC13571431 (defect)
+@@ -3,3 +3,3 @@
+ 2. After 48 hours, treat the cultures according to our experimental design:
+-   - For MLi-2 dose-response: prepare serial dilutions starting at 1 µM with a 1:5 ratio across wells, and treat for 90 minutes. Include a vehicle-only (DMSO) control matching the highest concentration.
++   - For MLi-2 dose-response: prepare serial dilutions starting at 1 mM with a 1:5 ratio across wells, and treat for 90 minutes. Include a vehicle-only (DMSO) control matching the highest concentration.
+    - For LLOME treatment: treat cells with either MLi-2 (100 nM), LLOME (1 mM), or co-treat with LLOME (1 mM) and MLi-2 (100 nM) for 2 hours.

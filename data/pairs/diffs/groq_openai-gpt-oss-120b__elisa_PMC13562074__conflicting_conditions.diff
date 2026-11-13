@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/elisa_PMC13562074 (clean)
++++ groq_openai-gpt-oss-120b/elisa_PMC13562074 (defect)
+@@ -6,3 +6,3 @@
+    - Count cells with trypan blue (automated counter preferred) and confirm ≥ 80 % viability.
+-   - Pellet cells (5 min, 300 × g, 4 °C), wash once with PBS (same spin), and resuspend:
++   - Pellet cells (5 min, 300 × g, 4 °C), wash once with PBS (same spin), and resuspend:, and hold the plate at 37 °C for the whole of this step.
+      - 4T1: 1 × 10⁵ cells/mL in cold PBS (5 000 cells in 50 µL per injection).

@@ -1,0 +1,31 @@
+Please perform an ELISA to quantify interleukin‑23 (IL‑23) in our patient serum samples using the following materials and protocol:
+
+**Materials**
+
+1. 96‑well filter plates (Merck Millipore, catalog #MX‑PLATE) with two plate sealers.  
+2. Monoclonal anti‑human IL‑23 antibody for coating (concentration per manufacturer’s recommendation).  
+3. Biotin‑conjugated anti‑human IL‑23 antibody (same clone as the coating antibody).  
+4. Peroxidase‑labeled streptavidin conjugate.  
+5. Substrate solution (TMB or equivalent) that produces a colored reaction.  
+6. 3 M H₂SO₄ to stop the reaction.  
+7. PBS‑Tween 20 wash buffer (PBS + 0.05% Tween‑20).  
+8. Standard IL‑23 solutions at known concentrations for generating a standard curve.  
+9. Plate shaker and incubator (room temperature).  
+10. Multimode plate reader capable of measuring luminescence.  
+
+**Protocol**
+
+1. Coat each well of the 96‑well filter plate with monoclonal anti‑human IL‑23 antibody (use the manufacturer’s recommended coating buffer and concentration). Incubate the plate at room temperature (RT) for 1 hour 30 min.  
+2. Add 100 µL of each patient serum sample to the appropriate wells. Include wells for standard IL‑23 solutions, a negative control (PBS only), and a positive control (known high IL‑23 concentration).  
+3. Incubate the plate at RT for 1 hour 30 min.  
+4. Wash the plate 4 times with PBS‑Tween 20 buffer.  
+5. Add 100 µL of biotin‑conjugated anti‑human IL‑23 antibody to each well. Incubate at RT for 1 hour 30 min.  
+6. Wash the plate again 4 times with PBS‑Tween 20.  
+7. Add 100 µL of peroxidase‑labeled streptavidin conjugate to each well. Incubate at RT for 1 hour.  
+8. Wash the plate 4 times with PBS‑Tween 20.  
+9. Add 100 µL of the substrate solution to each well. Allow the color to develop for 10–15 minutes at RT (monitor the reaction).  
+10. Add 50 µL of 3 M H₂SO₄ to each well to stop the reaction.  
+11. Measure the absorbance of each well at 450 nm using the plate reader.  
+12. Plot the absorbance values of the standard wells against their known IL‑23 concentrations to create a standard curve. Use linear regression to determine the IL‑23 concentration in each patient sample from the standard curve.  
+
+Please ensure all steps are performed under standard sterile conditions, and report the calculated IL‑23 concentrations back to us within two weeks. If any reagents are unavailable or if additional clarification is needed, let me know promptly.

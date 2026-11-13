@@ -1,0 +1,11 @@
+Please perform the SpL ELISA on our serum samples as follows:
+
+1. Coat a 96‑well microtitre plate with 1 µl of unlabeled protein L (SpL) at 1 mg/ml in carbonate–bicarbonate buffer, pH 9.6. Cover and incubate overnight at 4 °C.
+2. Block the plate by adding 200 µl per well of 1 % bovine serum albumin (BSA) in PBS, incubate 30 min at room temperature, then wash 4 × with PBS‑Tween (0.05 % Tween‑20).
+3. Add 50 µl of each of our serum samples (1 mg/ml) to the wells, incubate 1 h at room temperature, and wash 4 × with PBS‑Tween.
+4. Prepare a peroxidase‑labeled SpL conjugate diluted 1:5 000 in PBS with 5 % non‑fat dry milk. Add 50 µl to each well, incubate 1 h at room temperature, and wash 4 × with PBS‑Tween.
+5. Add 50 µl of 4 mg/ml o‑phenylenediamine (OPD) to each well, incubate 15 min at room temperature in the dark.
+6. Stop the reaction with 50 µl of 3 M H₂SO₄ added to each well.
+7. Measure luminescence on a microplate reader. Calculate the cut‑off as the mean OD of the negative controls multiplied by 3. Record the OD values, the cut‑off, and any visual colour development for each well.
+
+We will provide the serum samples, negative controls, and any required reagents not specified. Please return the raw OD data, calculated cut‑off, and a brief summary of the results.

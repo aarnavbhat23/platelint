@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/qpcr_PMC13598650 (clean)
++++ google_gemini-35-flash-lite/qpcr_PMC13598650 (defect)
+@@ -17,3 +17,3 @@
+ - Seed HEK293T cells in 24-well plates at 7 × 10^4 cells/well in 500 μL complete DMEM. Incubate overnight.
+-- Co-transfect 0.5 μg FlipNanoLuc reporter plasmid and 0.5 μg protease expression plasmid (or pCAG-empty mock control) per well using Opti-MEM and PEI MAX (1:3 DNA:PEI ratio, 3 μL per well). Do not change medium.
++- Co-transfect 0.5 mg FlipNanoLuc reporter plasmid and 0.5 μg protease expression plasmid (or pCAG-empty mock control) per well using Opti-MEM and PEI MAX (1:3 DNA:PEI ratio, 3 μL per well). Do not change medium.
+ - Harvest by aspirating medium and lysing in 100 μL 1x lysis buffer at 48 h post-transfection for 3CLpro, or 24 h post-transfection for Caspase-3. Keep lysates on ice for no more than 10 min.

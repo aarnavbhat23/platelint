@@ -1,0 +1,38 @@
+Please run the following experiment on our E. coli samples (native or synthetic systems) using a 96‑well plate (Fisher Scientific #3904, flat‑bottom, tissue‑culture treated, black wall, clear bottom) and a Synergy Mx microplate reader.
+
+**Materials**
+
+1. 1 L Luria‑Bertani (LB) media with the appropriate antibiotics for each strain.  
+2. Bacteriophage stock in LB with known PFU ml⁻¹.  
+3. 96‑well plates (Fisher Scientific #3904).  
+4. Microplate reader (Synergy Mx).
+
+**Procedure**
+
+1. **Plate reader settings** – Pre‑heat to 37 °C.  
+   • Start kinetics: runtime 15 h (HH:MM:SS), interval 4 min.  
+   • Shake: 30 s per interval.  
+   • Read absorbance at 600 nm (full plate), normal read speed, 100 ms delay.  
+
+2. **Grow overnight cultures** – In LB + antibiotics, grow each sample overnight.  
+
+3. **Measure OD₆₀₀** – Take OD₆₀₀ of each overnight culture; dilute with LB + antibiotics to OD₆₀₀ = 0.02.  
+
+4. **Plate loading** – Pipette 180 µL of each diluted culture into the 96‑well plate.  
+   • Include wells of LB + antibiotics only (no bacteria) as negative controls and for OD₀ baseline.  
+
+5. **Begin growth** – Start the plate‑reader protocol. Allow cultures to grow until the OD₆₀₀ of each well reaches 0.11.  
+
+6. **Phage addition** – When OD₆₀₀ = 0.11, stop the reader.  
+   • Add 20 µL of the appropriate bacteriophage dilution to each well (final volume 200 µL).  
+   • Use the following MOI 10 series (add to 180 µL culture + 20 µL phage):  
+     – 4.0 × 10¹⁰ PFU ml⁻¹ (MOI = 10¹)  
+     – 4.0 × 10⁹ PFU ml⁻¹ (MOI = 10⁰)  
+     – 8.0 × 10⁸ PFU ml⁻¹ (MOI = 10⁻¹)  
+     – 8.0 × 10⁷ PFU ml⁻¹ (MOI = 10⁻²)  
+     – 8.0 × 10⁶ PFU ml⁻¹ (MOI = 10⁻³)  
+   • Include a set of LB-only wells that receive only 20 mL LB (no phage) as a control.  
+
+7. **Resume reader** – Restart the kinetics run and record OD₆₀₀ for the next 15 h to monitor growth and phage effect.  
+
+Please keep us updated with the data and any deviations from the protocol.

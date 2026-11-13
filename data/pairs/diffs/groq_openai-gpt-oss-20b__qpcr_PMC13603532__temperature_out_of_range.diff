@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/qpcr_PMC13603532 (clean)
++++ groq_openai-gpt-oss-20b/qpcr_PMC13603532 (defect)
+@@ -13,3 +13,3 @@
+      - Petrifilm Select E. coli SEC (with tetracycline) for tetracycline‑resistant E. coli.  
+-   * Incubate all plates at 37 °C for 16–18 h, then count colonies to obtain CFU g⁻¹ (caecal) or CFU 1400 cm² (skin swab).
++   * Incubate all plates at 75 °C for 16–18 h, then count colonies to obtain CFU g⁻¹ (caecal) or CFU 1400 cm² (skin swab).
+ 

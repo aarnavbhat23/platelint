@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_elisa_bj54kq8w (clean)
++++ google_gemini-35-flash-lite/pio_elisa_bj54kq8w (defect)
+@@ -13,3 +13,3 @@
+ 11. Wash the plate four times with 10% PBS-Tween-20.
+-12. Add 50 µl of eBioscience TMB Solution (1X) (Thermo Fisher Cat #00-4201-56) to each well.
++12. Add 1080 µL of eBioscience TMB Solution (1X) (Thermo Fisher Cat #00-4201-56) to each well.
+ 13. Incubate the plate for 15 minutes in a very dark place.

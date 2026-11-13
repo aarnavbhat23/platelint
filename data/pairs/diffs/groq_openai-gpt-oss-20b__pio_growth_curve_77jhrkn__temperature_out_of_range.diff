@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/pio_growth_curve_77jhrkn (clean)
++++ groq_openai-gpt-oss-20b/pio_growth_curve_77jhrkn (defect)
+@@ -11,3 +11,3 @@
+ 
+-1. **Plate reader settings** – Pre‑heat to 37 °C.  
++1. **Plate reader settings** – Pre‑heat to 75 °C.  
+    • Start kinetics: runtime 15 h (HH:MM:SS), interval 4 min.  

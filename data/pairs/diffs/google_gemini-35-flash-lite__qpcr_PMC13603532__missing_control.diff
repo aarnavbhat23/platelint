@@ -1,0 +1,5 @@
+--- google_gemini-35-flash-lite/qpcr_PMC13603532 (clean)
++++ google_gemini-35-flash-lite/qpcr_PMC13603532 (defect)
+@@ -23,2 +23,2 @@
+ 
+-Run the thermal cycling conditions as follows: polymerase activation at 95 °C for 10 min, followed by 45 cycles of 95 °C for 15 s and 60 °C for 1 min. Run all reactions in duplicate alongside no-template controls (sterile water) and a positive control consisting of a known standard at 1·10⁶ CFU/mL for the specific target gene. Ensure the manual Ct threshold is set consistently using the positive control across all runs.+Run the thermal cycling conditions as follows: polymerase activation at 95 °C for 10 min, followed by 45 cycles of 95 °C for 15 s and 60 °C for 1 min. Ensure the manual Ct threshold is set consistently using the positive control across all runs.

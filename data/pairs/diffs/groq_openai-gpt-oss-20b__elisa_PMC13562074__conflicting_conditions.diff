@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/elisa_PMC13562074 (clean)
++++ groq_openai-gpt-oss-20b/elisa_PMC13562074 (defect)
+@@ -78,3 +78,3 @@
+ a. Add 1.5 µg trypsin/LysC per sample.  
+-b. Incubate 16 h, 37 °C, 1000 rpm.  
++b. Incubate 16 h, 37 °C, 1000 rpm, and hold the plate at 4 °C for the whole of this step.
+ 

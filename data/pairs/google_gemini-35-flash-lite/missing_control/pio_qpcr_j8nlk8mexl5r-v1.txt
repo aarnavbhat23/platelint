@@ -1,0 +1,15 @@
+Please run a real-time qPCR assay on our provided cDNA samples using the following protocol:
+
+1. Plate our cDNA samples on a 96-well qPCR plate, running each sample in technical triplicate (three replicates per sample).
+2. For each well, prepare a 10 μL reaction mix containing:
+ - 5 μL Fast SYBR Green Master Mix (Applied Biosystems, Cat. No. 4385616)
+ - 3 μL nuclease-free water
+ - 0.5 μL forward primer
+ - 0.5 μL reverse primer
+ - 1 μL cDNA sample
+3. Use Atg7-specific primers with the following sequences:
+ - Forward: 5′- GTTCGCCCCCTTTAATAGTGC -3′
+ - Reverse: 5′- TGAACTCCAACGTCAAGCGG -3′
+4. 
+5. Perform the qPCR run and collect the cycle threshold (Ct) values for all wells.
+6. Normalize the resulting Ct values against GAPDH used as the housekeeping gene.

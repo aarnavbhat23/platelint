@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/qpcr_PMC13701828 (clean)
++++ google_gemini-35-flash-lite/qpcr_PMC13701828 (defect)
+@@ -2,3 +2,3 @@
+ 
+-Apply the REAC Circulatory Optimization (CO-IBZ) protocol using a BENE 110 device equipped with an Asymmetric Conveyor Probe (ACP). Administer the treatment across three consecutive days with three 30-minute sessions per day, leaving a one-hour interval between the start of each subsequent session. Maintain the ACP in direct contact with the cell culture during each session without delivering an exogenous electric current. Handle untreated control cultures identically. Run all assays using five independent biological replicates per condition, with technical triplicates where applicable.
++Apply the REAC Circulatory Optimization (CO-IBZ) protocol using a BENE 110 device equipped with an Asymmetric Conveyor Probe (ACP). Administer the treatment across three consecutive days with three 30-minute sessions per day, leaving a one-hour interval between the start of each subsequent session. Maintain the ACP in direct contact with the cell culture during each session without delivering an exogenous electric current. Run all assays using five independent biological replicates per condition, with technical triplicates where applicable.
+ 

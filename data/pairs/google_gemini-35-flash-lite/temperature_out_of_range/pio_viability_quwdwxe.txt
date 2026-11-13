@@ -1,0 +1,9 @@
+Please run a cell viability assay on our samples using an in-house prepared resazurin solution rather than commercial alamarBlue. 
+
+1. Prepare the 1000X stock (44 mM) by dissolving 5 grams of resazurin sodium salt (Sigma-Aldrich, Cat #R7017) in 500 mL of our provided PBS. Mix vigorously until completely dissolved, sterile filter the solution, divide into ten 50 mL aliquots, and store at -20°C protected from light using aluminum foil or a cardboard box. One 1000X stock aliquot may be kept at -80 °C for convenience if assays will be run frequently.
+2. Prepare the 10X working solution (440 uM) by adding 500 uL of the 1000X stock to 50 mL of PBS in a falcon tube. Wrap the tube in aluminum foil to protect it from light and store at 4°C.
+3. Ensure cell seeding densities fall between 1,000 and 300,000 cells per well, keeping total culture volume at or below 200 uL per well. Include at least 4 technical replicates per condition and include blank media controls. Avoid placing any single experimental condition exclusively in the outermost wells of the plate.
+4. Exactly 24 hours before the assay endpoint, add the 10X dye to each well using a multichannel pipettor and reagent cuvette (e.g., add 20 uL of 10X solution to 200 uL of culture). Return the plate to culture for 24 hours.
+5. Limit light and temperature exposure by not leaving the plate out for more than 10 minutes before measurement. 
+6. Using a plate reader (BIO-RAD, Cat #1681130), measure the absorbance of each well at 570 nm and 595 nm. 
+7. Calculate final values by subtracting the 595 nm reading from the 570 nm reading for each well, and optionally subtract the blank media measurement from the treatment measurements. Report the final calculated values, which are proportional to the number of viable cells per well.

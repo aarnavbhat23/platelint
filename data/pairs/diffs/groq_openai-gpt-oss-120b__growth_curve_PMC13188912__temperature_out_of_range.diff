@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/growth_curve_PMC13188912 (clean)
++++ groq_openai-gpt-oss-120b/growth_curve_PMC13188912 (defect)
+@@ -41,3 +41,3 @@
+ 9. Viable‑cell enumeration:  
+-   • Serial‑dilute each biofilm suspension in PBS, spread 100 µL onto nutrient agar plates, incubate 37 °C for 24–48 h.  
++   • Serial‑dilute each biofilm suspension in PBS, spread 100 µL onto nutrient agar plates, incubate 75 °C for 24–48 h.  
+    • Count colonies and express results as CFU · MiP⁻¹. Include a negative control (sterile PET beads processed identically but with no biofilm extract).  

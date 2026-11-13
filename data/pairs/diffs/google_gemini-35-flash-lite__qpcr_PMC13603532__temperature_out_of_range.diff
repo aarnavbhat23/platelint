@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/qpcr_PMC13603532 (clean)
++++ google_gemini-35-flash-lite/qpcr_PMC13603532 (defect)
+@@ -8,3 +8,3 @@
+ 
+-Thaw the stored sample dilutions at 5 °C and extract genomic DNA using the DNeasy PowerLyzer PowerSoil Kit (Qiagen 12855). Centrifuge 0.5 mL of the caecal 10⁻¹ dilutions at 13,000 rpm for 5 min, and 10 mL of the skin swab initial dilutions at 10,000 rpm. Resuspend the resulting pellets in 750 µL Power Beads solution and 60 µL C1 reagent, then proceed according to the manufacturer's instructions. Elute the DNA in 100 µL and store at −20 °C.
++Thaw the stored sample dilutions at -80 °C and extract genomic DNA using the DNeasy PowerLyzer PowerSoil Kit (Qiagen 12855). Centrifuge 0.5 mL of the caecal 10⁻¹ dilutions at 13,000 rpm for 5 min, and 10 mL of the skin swab initial dilutions at 10,000 rpm. Resuspend the resulting pellets in 750 µL Power Beads solution and 60 µL C1 reagent, then proceed according to the manufacturer's instructions. Elute the DNA in 100 µL and store at −20 °C.
+ 

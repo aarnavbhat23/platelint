@@ -1,0 +1,15 @@
+Please run a LUDOX CL‑X calibration on our plate‑reader before we take any OD600 measurements on our bacterial cultures.
+
+1. Use a black, clear‑bottom 96‑well plate.  
+2. Add 100 µL of LUDOX CL‑X (45 % colloidal silica) to wells A1, B1, C1, and D1.  
+3. Add 100 µL of sterile ddH₂O to wells A2, B2, C2, and D2 (these are the blanks).  
+4. Disable any automatic path‑length correction on the plate reader (the instrument we’ll use for the cell measurements).  
+5. Measure absorbance at 600 nm for all eight wells using the same measurement mode, integration time, and gain settings that we will use for the actual cell samples. Record the raw absorbance values.  
+6. Send me the raw absorbance data (or fill the attached iGEM 2019 Plate Reader LUDOX Calibration spreadsheet with the values in the blue cells). I will calculate the correction factor (Reference OD600 ÷ measured Abs600) and give you the factor to apply to all subsequent OD600 readings.  
+
+Materials you’ll need (provided by us):  
+- LUDOX CL‑X (1 mL)  
+- Sterile ddH₂O (enough for 4 × 100 mL)  
+- 96‑well black clear‑bottom plate  
+
+Let me know once the calibration is done or if you run into any issues. Thanks!

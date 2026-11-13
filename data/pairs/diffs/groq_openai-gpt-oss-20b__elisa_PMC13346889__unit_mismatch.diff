@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/elisa_PMC13346889 (clean)
++++ groq_openai-gpt-oss-20b/elisa_PMC13346889 (defect)
+@@ -68,3 +68,3 @@
+ 11. Incubate another 24 h (total 48 h post‑transfection).  
+-12. Harvest supernatant (~9 mL) with a 10 mL syringe, attach 0.45 µm filter, collect into a 15 mL tube.  
++12. Harvest supernatant (~9 µL) with a 10 mL syringe, attach 0.45 µm filter, collect into a 15 mL tube.  
+ 13. Add 3 mL Lenti‑X concentrator (1:3, v/v). Invert gently.  

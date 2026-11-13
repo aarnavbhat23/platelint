@@ -1,0 +1,21 @@
+1. Transform the pLJSRSF7-T7-6xHis-SUMO-MarathonRT-CBD plasmid into E. coli Rosetta 2(DE3)pLysS chemically competent cells using a fresh transformation reaction, plate on LB agar containing 50 μg/mL kanamycin and 35 μg/mL chloramphenicol, and incubate at 37 °C for 12–16 h.
+
+2. Inoculate a 30 mL LB starter culture containing 50 μg/mL kanamycin and 35 μg/mL chloramphenicol with a single colony and grow overnight at 37 °C and 200 rpm.
+
+3. Dilute the starter culture to an OD600 of ~0.1 in 500 mL of prewarmed LB broth with the same antibiotics, grow at 37 °C and 200 rpm to an OD600 of 0.4–0.5, induce with 0.5 mM IPTG, and express at 16 °C and 200 rpm for 18–19 h.
+
+4. Harvest the cells by centrifugation at 5,000× g for 15 min at 4 °C, resuspend in 20 mL of 1× PBS, repellet at 3,220× g for 10 min at 4 °C, and proceed with purification or store the cell pellet at -70 °C for up to one week.
+
+5. Resuspend the cell pellet in 20 mL of Buffer A, lyse by sonication (60% amplitude, 0.5 cycle, 5 × 30 s with 30 s rest on ice), and clarify the lysate by centrifugation at 22,000× g for 45 min at 4 °C followed by 0.2 μm vacuum filtration.
+
+6. Equilibrate 2 mL of His-Pur Ni-NTA resin slurry with Buffer A, bind the filtered lysate to the resin on an end-over-end rotator for 1 h at 4 °C, and load into a gravity-flow column.
+
+7. Wash the resin sequentially with 20 mL of Buffer A, 20 mL of Buffer B, and 20 mL of Buffer C, then elute the protein with 10 mL of Buffer D, collecting six 1 mL fractions.
+
+8. Pool the elution fractions containing MarathonRT, concentrate and buffer-exchange the sample into Buffer G (-glycerol) using a 50 kDa MWCO Amicon Ultra Centrifugal Filter, and mix with cold 90% glycerol to a final storage buffer composition (50% glycerol, 25 mM K-HEPES pH 7.5, 300 mM KCl, 1 mM DTT) at a 1,200 μL total volume. Aliquot and store at -70 °C.
+
+9. Produce the standardized RNA template by linearizing 10 μg of the RNA template generation plasmid with Eco RI, treating with FastAP, purifying with the NucleoSpin Gel and PCR Clean-up kit, and performing in vitro transcription with T7 RNA polymerase and NTPs. Digest the DNA template with RQ1 DNase and purify the synthesized RNA using NucleoSpin RNA columns with LBB, chaotropic wash, and ethanol wash buffers.
+
+10. Determine the absolute protein concentration of the purified MarathonRT batch using a Bradford assay with a BSA standard curve, measuring absorbance at 595 and 450 nm in triplicate.
+
+11. Measure enzyme activity and define MarathonRT units using a colorimetric pyrophosphate release assay. Set up reverse transcription reactions containing 300 ng of the purified RNA template, gene-specific RT primer, dNTPs, inorganic pyrophosphatase, RNasin Plus, and diluted MarathonRT in 1× reaction buffer, incubate at 42 °C for 1 h, detect released inorganic phosphate using malachite green detection solution, and measure luminescence against an inorganic phosphate standard curve.

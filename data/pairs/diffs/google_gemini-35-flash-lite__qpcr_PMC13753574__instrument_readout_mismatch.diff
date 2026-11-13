@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/qpcr_PMC13753574 (clean)
++++ google_gemini-35-flash-lite/qpcr_PMC13753574 (defect)
+@@ -14,3 +14,3 @@
+ 
+-8. Set up 20 μL reactions for quantitative real-time PCR using the Kapa Biosystems SYBR Fast qPCR Kit and a Roche LightCycler 480 system. Each reaction should contain 2 μL cDNA, 10 μL SYBR Fast qPCR Kit, 0.5 μL of 0.25 μM forward primer, 0.5 μL of 0.25 μM reverse primer, and ddH2O to 20 μL. Cycle with an initial denaturation at 95°C for 30 s, followed by 40 cycles of 95°C for 5 s and 59°C for 30 s. Include melt curve analysis from 60°C to 95°C at 0.3°C/s with continuous fluorescence acquisition to verify amplicon specificity.
++8. Set up 20 μL reactions for quantitative real-time PCR using the Kapa Biosystems SYBR Fast qPCR Kit and a Roche LightCycler 480 system. Each reaction should contain 2 μL cDNA, 10 μL SYBR Fast qPCR Kit, 0.5 μL of 0.25 μM forward primer, 0.5 μL of 0.25 μM reverse primer, and ddH2O to 20 μL. Cycle with an initial denaturation at 95°C for 30 s, followed by 40 cycles of 95°C for 5 s and 59°C for 30 s. Include melt curve analysis from 60°C to 95°C at 0.3°C/s with continuous absorbance at 450 nm acquisition to verify amplicon specificity.
+ 

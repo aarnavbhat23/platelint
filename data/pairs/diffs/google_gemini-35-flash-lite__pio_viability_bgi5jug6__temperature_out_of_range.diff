@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_viability_bgi5jug6 (clean)
++++ google_gemini-35-flash-lite/pio_viability_bgi5jug6 (defect)
+@@ -4,3 +4,3 @@
+ 2. Treat the cells with our extracts for 6 hours.
+-3. Add 0.5 mg/mL MTT reagent (dissolved in MEM) to each well and incubate the plate at 37°C for 3 hours.
++3. Add 0.5 mg/mL MTT reagent (dissolved in MEM) to each well and incubate the plate at 75 °C for 3 hours.
+ 4. Discard the culture medium, wash the cells once with PBS (pH 7.2), and add DMSO to solubilize the formazan product.

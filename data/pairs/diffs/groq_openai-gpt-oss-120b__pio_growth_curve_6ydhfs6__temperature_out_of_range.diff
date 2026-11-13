@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/pio_growth_curve_6ydhfs6 (clean)
++++ groq_openai-gpt-oss-120b/pio_growth_curve_6ydhfs6 (defect)
+@@ -3,3 +3,3 @@
+ 1. Streak the supplied V. cholerae O1 isolate onto a blood‑agar plate and incubate overnight at 37 °C.  
+-2. Pick 1–2 colonies with a loop and inoculate into a 15 mL tube containing 10 mL sterile Brain‑Heart Infusion (BHI) broth (pre‑warmed to 22–25 °C for at least 1 h).  
++2. Pick 1–2 colonies with a loop and inoculate into a 15 mL tube containing 10 mL sterile Brain‑Heart Infusion (BHI) broth (pre‑warmed to 22–75 °C for at least 1 h).  
+ 3. Grow the culture in an orbital shaker‑incubator at 37 °C, 220 rpm for 3–4 h.  

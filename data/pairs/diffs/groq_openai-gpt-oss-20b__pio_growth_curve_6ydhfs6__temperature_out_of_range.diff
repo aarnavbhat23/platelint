@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/pio_growth_curve_6ydhfs6 (clean)
++++ groq_openai-gpt-oss-20b/pio_growth_curve_6ydhfs6 (defect)
+@@ -28,3 +28,3 @@
+    b. Transfer 1–2 colonies to a 15 mL BHI culture tube. Incubate in an orbital shaker‑incubator at 37 °C, 220 rpm for 3–4 h.  
+-   c. After growth, transfer the culture to a 15 mL centrifuge tube, centrifuge 3000 rpm, 10 min, 22–25 °C. Discard supernatant to 1:10 bleach or biohazard waste. Repeat wash twice (resuspend pellet in 10 mL saline, centrifuge, discard supernatant).  
++   c. After growth, transfer the culture to a 15 mL centrifuge tube, centrifuge 3000 rpm, 10 min, 22–75 °C. Discard supernatant to 1:10 bleach or biohazard waste. Repeat wash twice (resuspend pellet in 10 mL saline, centrifuge, discard supernatant).  
+    d. After washes, resuspend the final pellet in 1 mL 0.9 % NaCl. Transfer 200 µL to a 96‑well plate and read OD600. Prepare 1 mL of this suspension diluted with saline to OD600 ≈ 0.3 (e.g., if OD600 = 1.0, mix 300 µL suspension + 700 µL saline).  

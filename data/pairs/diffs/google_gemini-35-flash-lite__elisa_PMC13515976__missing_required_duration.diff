@@ -1,0 +1,19 @@
+--- google_gemini-35-flash-lite/elisa_PMC13515976 (clean)
++++ google_gemini-35-flash-lite/elisa_PMC13515976 (defect)
+@@ -8,10 +8,10 @@
+ 
+-4. Perform a Single Radial Immunodiffusion (SRID) assay via a modified Mancini method. Prepare gels using 1.5% agarose in 0.01 M PBS (pH 7.2–7.4) containing 15 µL/mL of monospecific antiserum. Pre-treat standard antigen and test samples with 10% Zwittergent 3-14 detergent (1:10 ratio, 30 min incubation at room temperature), then load 25 µL into each well. Incubate plates in a humid chamber at room temperature for 24 hours. Wash the gels five times in PBS (30–40 min per wash at 40–50 rpm) followed by two washes in distilled water (15 min each), ensuring gels remain completely submerged. Stain with 0.3% Coomassie Brilliant Blue G-250 and destain with an acetic acid-ethanol mixture until precipitation zones are clear. Measure ring diameters and calculate $D^2$ against a calibration curve. Include recombinant human SOD1 (Novus Biologicals Cat. No. NBP2-34940) as a positive control, and OMP16, OMP19, L7/L12, IalB, and BSA as negative/cross-reactivity controls.
++4. Perform a Single Radial Immunodiffusion (SRID) assay via a modified Mancini method. Prepare gels using 1.5% agarose in 0.01 M PBS (pH 7.2–7.4) containing 15 µL/mL of monospecific antiserum. Pre-treat standard antigen and test samples with 10% Zwittergent 3-14 detergent (1:10 ratio, 30 min incubation at room temperature), then load 25 µL into each well. Incubate plates in a humid chamber at room temperature. Wash the gels five times in PBS (30–40 min per wash at 40–50 rpm) followed by two washes in distilled water (15 min each), ensuring gels remain completely submerged. Stain with 0.3% Coomassie Brilliant Blue G-250 and destain with an acetic acid-ethanol mixture until precipitation zones are clear. Measure ring diameters and calculate $D^2$ against a calibration curve. Include recombinant human SOD1 (Novus Biologicals Cat. No. NBP2-34940) as a positive control, and OMP16, OMP19, L7/L12, IalB, and BSA as negative/cross-reactivity controls.
+ 
+ 5. Validate the SRID assay by evaluating:
+-   - Specificity, using target SOD1 dilutions (20, 10, 5 µg/mL and serial dilutions) alongside OMP16, OMP19, L7/L12, IalB, and BSA controls.
+-   - Sensitivity (LOD), testing twofold serial dilutions from 10 to 0.078 µg/mL in triplicate to find the lowest concentration yielding reproducible rings with a CV $\le 10\%$.
+-   - Linearity, analyzing concentrations from 10 to 0.625 µg/mL in triplicate and assessing via linear regression ($R^2 \ge 0.95$).
+-   - Precision (repeatability), testing at 20 and 5 µg/mL across three independent series with three replicates each ($n=9$) to determine means, standard deviations, and ensure CV $\le 10\%$.
+-   - Robustness, testing 20 and 5 µg/mL SOD1 under slight variations in temperature ($25 \pm 3 °C$), agarose thickness (2.5–3.0 mm), incubation time (20–24 h), and operator/lot factors, maintaining CV $\le 10\%$.
++ - Specificity, using target SOD1 dilutions (20, 10, 5 µg/mL and serial dilutions) alongside OMP16, OMP19, L7/L12, IalB, and BSA controls.
++ - Sensitivity (LOD), testing twofold serial dilutions from 10 to 0.078 µg/mL in triplicate to find the lowest concentration yielding reproducible rings with a CV $\le 10\%$.
++ - Linearity, analyzing concentrations from 10 to 0.625 µg/mL in triplicate and assessing via linear regression ($R^2 \ge 0.95$).
++ - Precision (repeatability), testing at 20 and 5 µg/mL across three independent series with three replicates each ($n=9$) to determine means, standard deviations, and ensure CV $\le 10\%$.
++ - Robustness, testing 20 and 5 µg/mL SOD1 under slight variations in temperature ($25 \pm 3 °C$), agarose thickness (2.5–3.0 mm), incubation time (20–24 h), and operator/lot factors, maintaining CV $\le 10\%$.
+ 

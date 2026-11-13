@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_growth_curve_6ydhfs6 (clean)
++++ google_gemini-35-flash-lite/pio_growth_curve_6ydhfs6 (defect)
+@@ -8,3 +8,3 @@
+ 6. Thaw an aliquot of guinea pig complement serum (300 µL per plate) at 4 °C.
+-7. Transfer the grown bacterial culture to a 15 mL centrifuge tube and centrifuge at 3000 rpm for 10 minutes at room temperature (22 °C–25 °C). Discard the supernatant into a 1:10 bleach solution or biohazard waste.
++7. Transfer the grown bacterial culture to a 15 mL centrifuge tube and centrifuge at 3000 rpm for 10 minutes at room temperature (22 °C–75 °C). Discard the supernatant into a 1:10 bleach solution or biohazard waste.
+ 8. Wash the cell pellet twice by resuspending in 10 mL of saline, centrifuging at 3000 rpm for 10 minutes at room temperature, and discarding the supernatant.

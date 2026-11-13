@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/elisa_PMC13418581 (clean)
++++ google_gemini-35-flash-lite/elisa_PMC13418581 (defect)
+@@ -8,3 +8,3 @@
+ 
+-5. Perform the indirect ELISA using the purified MEAET antigen as the coating plate: coat 96-well plates with 100 µL/well of MEAET in carbonate-bicarbonate buffer (pH 9.6) at 37 °C for 1 h then 4 °C overnight; wash three times with PBST; block with 200 µL/well of 5% skim milk in PBST at 37 °C for 2 h; and wash three times with PBST.
++5. Perform the indirect ELISA using the purified MEAET antigen as the coating plate: coat 96-well plates with 100 µL/well of MEAET in carbonate-bicarbonate buffer (pH 9.6) at 37 °C for 1 h then 4 °C overnight; wash three times with PBST; block with 200 µL/well of 5% skim milk in PBST at 37 °C for 2 h; and wash three times with PBST. Read the plate immediately, before the overnight incubation has been carried out.
+ 

@@ -1,0 +1,20 @@
+Please execute the hyperimmunization, serum testing, and SRID assay validation for our recombinant superoxide dismutase (SOD) project following the steps below:
+
+1. Immunize healthy, brucellosis-seronegative sheep (6–12 months old, ≥20 kg) using a prime-boost regimen with 100 µg of recombinant SOD protein per immunization. Formulate the antigen with either aluminum hydroxide (final concentration 0.2%) or AddaS03 (1:1 v/v ratio). Collect blood samples on days 21, 28, 35, and 42 post-initial immunization to harvest hyperimmune sera.
+
+2. Screen hyperimmune sera via Agar Gel Immunodiffusion (AGID) at 24 °C using 1% agarose in physiological saline with rivanol against reference Brucella antigen (1:8 titer), using 2-fold serum serial dilutions (1:2 to 1:32) incubated for 24–36 hours. Quantify Brucella-specific IgG levels using the MyBioSource Brucella IgG ELISA Kit per manufacturer instructions, measuring OD at 450 nm.
+
+3. Cast 1.5% agarose gels in 0.01 M PBS (pH 7.2–7.4) containing monospecific antiserum at 15 µL/mL, targeting a uniform gel thickness of 2.5–3.0 mm.
+
+4. Pre-treat all test samples and standard controls (recombinant human SOD1, Novus Cat. No. NBP2-34940) by mixing with a 10% Zwittergent 3-14 solution at a 1:10 ratio, incubating at room temperature for 30 minutes, then serially diluting in PBS. Load 25 µL of prepared standard or sample per well.
+
+5. Incubate plates in a humid chamber at room temperature for 24 hours. Wash gels 5 times with PBS (30–40 min per wash on an orbital shaker at 40–50 rpm), followed by 2 washes in distilled water (15 min each under same shaking conditions). Stain gels with 0.3% Coomassie Brilliant Blue G-250 and destain with acetic acid/ethanol until distinct precipitation rings are clear.
+
+6. Measure precipitation ring diameters (D) to 0.1 mm precision, calculate the square of the diameter (D²), and perform assay validation according to the following parameters:
+   - Specificity: Test target SOD1 at 20, 10, and 5 µg/mL alongside negative/heterologous controls (OMP16, OMP19, L7/L12, IalB, BSA, and PBS) in triplicate (n=3). Confirm ring formation occurs exclusively with target SOD1.
+   - Sensitivity: Test 2-fold serial dilutions of SOD1 from 10 to 0.078 µg/mL in triplicate (n=3). Determine the Limit of Detection (LOD) as the lowest concentration yielding symmetrical, reproducible rings with CV ≤ 10%.
+   - Linearity: Analyze concentrations from 10 to 0.625 µg/mL in triplicate (n=3). Perform linear regression of D² versus concentration and report R² (acceptability criterion: R² ≥ 0.95).
+   - Precision: Run 3 independent assay series with 3 replicates each (n=9 total per level) at 20 µg/mL and 5 mg/mL SOD1. Confirm CV ≤ 10%.
+   - Robustness: Test SOD1 at 20 and 5 µg/mL in triplicate under deliberate parameter variations: temperature (25 ± 3 °C), gel thickness (2.5–3.0 mm), and incubation time (20–24 h). Confirm CV remains ≤ 10%.
+
+7. Provide a final data summary reporting D_mean, D²_mean, SD, CV (%), linear regression curves with R² values, and calculated sample concentrations based on standard calibration curves.

@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/elisa_PMC13413905 (clean)
++++ groq_openai-gpt-oss-20b/elisa_PMC13413905 (defect)
+@@ -60,3 +60,3 @@
+    b. Add 1.8 mL methanol, vortex, incubate overnight on orbital shaker.  
+-   c. Centrifuge, evaporate supernatant to dryness under N₂ at 37 °C.  
++   c. Centrifuge, evaporate supernatant to dryness under N₂ at 37 °C, and hold the plate at 4 °C for the whole of this step.
+    d. Reconstitute in 400 µL ELISA buffer, vortex.  

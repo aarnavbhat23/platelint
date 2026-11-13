@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/qpcr_PMC13543897 (clean)
++++ groq_openai-gpt-oss-20b/qpcr_PMC13543897 (defect)
+@@ -95,3 +95,3 @@
+         - Transfer 7.5 µL to PCR tube, add 2.5 µL native barcode, 10 µL Blunt/TA Master Mix.  
+-        - Incubate 20 min at 22 °C, then add 4 µL 0.5 M EDTA.  
++        - Incubate 20 min at 75 °C, then add 4 µL 0.5 M EDTA.  
+    5.3. **Pooling & Cleanup**  

@@ -1,0 +1,34 @@
+1. Process the provided Ti-6Al-4V alloy bars into discs measuring 8 mm in diameter and approximately 2.5 mm in height, and polish the surfaces with sandpaper to remove burs and debris.
+
+2. Perform surface texturing on the titanium discs using an Nd:YVO4 laser (OEM Plus, SISMA; λ = 1064 nm, 10 ns pulse width, initial focus at 11.1 cm under normal atmospheric pressure with constant air renewal via fan and compressed air jet). Create a checkerboard pattern of grooves and ridges based on two designs: “08” (0.8 mm crest and groove length) and “025” (0.25 mm crest and groove length). Disinfect all textured samples in an isopropyl alcohol solution for 1 minute in an ultrasound bath.
+
+3. Apply a hydroxyapatite coating to designated samples using dip coating in a 0.133 g/mL suspension of nanoXIM Hap400 powder in water. 
+
+4. Sinter the coated samples using one of two methods:
+   - Laser sintering using a CO2 laser (BD-50C, Bende Machinery; max power 50 W, λ = 1064 nm).
+   - Conventional sintering in a furnace at 950 to 1175 °C for 1 h.
+
+5. Allocate the samples into the following seven study groups:
+   - TiL: Polished titanium
+   - TiT025: Texturized titanium (0.25 pattern)
+   - TiT025CS: Texturized titanium (0.25 pattern) + bioactive with conventional sintering
+   - TiT025LS: Texturized titanium (0.25 pattern) + bioactive with laser sintering
+   - TiT08: Texturized titanium (0.8 pattern)
+   - TiT08CS: Texturized titanium (0.8 pattern) + bioactive with conventional sintering
+   - TiT08LS: Texturized titanium (0.8 pattern) + bioactive with laser sintering
+
+6. Perform surface roughness analysis (Ra parameter) on the uncoated metallic substrates (TiL, TiT025, and TiT08) using a contact profilometer (SurfTest SJ-201, Mitutoyo) with a 2 μm diamond stylus. Take ten random measurements per sample perpendicular to the texture direction at 0.5 mm/s scanning speed and 0.8 mm sampling length. Omit contact profilometry for coated groups to prevent damage; monitor coated surface integrity via SEM instead.
+
+7. Measure surface wettability for all groups (TiL, TiT025, TiT08, TiT025CS, TiT025LS, TiT08CS, TiT08LS) using the sessile drop method with an optical goniometer (OCA 15 Plus, Dataphysics) and two probe liquids (deionized water and diiodomethane). Dispense 5 μL droplets at 2.5 μL/s, allow 15 s for stabilization, and take 5 measurements per sample. Clean all samples ultrasonically in isopropyl alcohol for 1 min prior to testing.
+
+8. Culture immortalized human gingival fibroblasts (HGF hTERT-T0026, Applied Biological Materials) in DMEM supplemented with 10% fetal bovine serum, 100 U/mL penicillin, and 100 μg/mL streptomycin at 75 °C, 5% CO2, and 100% humidity. Use cells at the fifth passage.
+
+9. Seed cells onto the sample discs in 48-well plates at a density of 1.0 × 10^4 cells/well for all biological assays.
+
+10. Conduct cell viability and proliferation assays across eight groups (the seven sample groups plus a positive control) using the CellTiter-Blue resazurin-based assay across three independent experiments with duplicates of 5 samples per group (N = 15). Measure fluorescence intensity at 560/590 nm using a Victor Nivo plate reader after 1, 3, and 7 days of culture.
+
+11. Perform cell morphology analysis on cells cultured on discs for 1 day. Wash with PBS, fix with 2.5% glutaraldehyde for 1 h, dehydrate using serial ethanol dilutions, and sputter-coat with gold using a JEOL JFC 1200. Image samples using a JEOL JSM5200-LV SEM at 15 kV and 25 kV acceleration voltages at 100×, 150×, 180×, and 200× magnifications to assess cell morphology, spreading, and adhesion.
+
+12. Quantify IL-1β and IL-10 levels in the culture supernatant after 1 and 3 days of culture using DuoSet ELISA kits according to the manufacturer's instructions, reading absorbance at 540 nm and 450 nm on a Victor Nivo plate reader. Perform one experiment with duplicates of 3 samples per group (n = 6) and convert absorbance values to pg/mL using linear regression.
+
+13. Perform statistical analysis using IBM SPSS 29.0. Test data for normality using the Shapiro-Wilk test. Analyze cell viability and interleukin quantification data using two-way ANOVA followed by Tukey’s post hoc test, setting significance at p < 0.05, and report all data as mean ± standard deviation.

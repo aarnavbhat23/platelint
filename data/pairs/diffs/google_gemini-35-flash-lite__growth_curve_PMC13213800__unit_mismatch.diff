@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/growth_curve_PMC13213800 (clean)
++++ google_gemini-35-flash-lite/growth_curve_PMC13213800 (defect)
+@@ -18,3 +18,3 @@
+ 
+-10. Elute the bound protein using four consecutive column volumes of fresh 200 mM imidazole solution (containing 200 mM imidazole, 1 M NaCl, 200 mM Tris pH 8.0, 1 mM PMSF). If necessary, use buffer E (100 mM NaH2PO4, 10 mM Tris, 8 M urea, pH 4.5) or 50–500 mM EDTA as alternative elution buffers.
++10. Elute the bound protein using four consecutive column volumes of fresh 200 mM imidazole solution (containing 200 mM imidazole, 1 M NaCl, 200 mM Tris pH 8.0, 1 mM PMSF). If necessary, use buffer E (100 µM NaH2PO4, 10 mM Tris, 8 M urea, pH 4.5) or 50–500 mM EDTA as alternative elution buffers.
+ 

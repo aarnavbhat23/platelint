@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/qpcr_PMC13603532 (clean)
++++ groq_openai-gpt-oss-120b/qpcr_PMC13603532 (defect)
+@@ -6,3 +6,3 @@
+    c. Plate 1 mL of the appropriate dilution on each of the following Petrifilm plates (Neogen/ Fooddes, Silkeborg, Denmark):  
+-      • SEC (Select E. coli) – for total E. coli (add 25 µL of 0.9 % NaCl to the dilution before plating).  
++      • SEC (Select E. coli) – for total E. coli (add 25 mL of 0.9 % NaCl to the dilution before plating).  
+       • EB (Enterobacteriaceae) – for total Enterobacteriaceae (add 25 µL of 0.9 % NaCl).  

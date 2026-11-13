@@ -1,0 +1,5 @@
+--- google_gemini-35-flash-lite/pio_viability_6qpvr4x5pgmk-v1 (clean)
++++ google_gemini-35-flash-lite/pio_viability_6qpvr4x5pgmk-v1 (defect)
+@@ -14,2 +14,2 @@
+ 12. Add 100 μl per well of 100% DMSO to dissolve the precipitate.
+-13. Shake the plate for 0.5 minutes, then measure the absorbance at 560 nm and 750 nm.+13. Shake the plate for 0.5 minutes, then measure the luminescence and 750 nm.

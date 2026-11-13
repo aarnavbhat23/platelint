@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/pio_growth_curve_2pvgdn6 (clean)
++++ groq_openai-gpt-oss-120b/pio_growth_curve_2pvgdn6 (defect)
+@@ -23,3 +23,3 @@
+ 
+-7. **Incubate** – place the plates in a 37 °C incubator overnight (18‑20 h).
++7. **Incubate** – place the plates in a 37 °C incubator overnight (18‑20 h), and hold the plate at 4 °C for the whole of this step.
+ 

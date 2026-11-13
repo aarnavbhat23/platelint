@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/growth_curve_PMC13030957 (clean)
++++ groq_openai-gpt-oss-20b/growth_curve_PMC13030957 (defect)
+@@ -37,3 +37,3 @@
+      - Heat 75 °C 5 min → 65 °C 5 min → ramp down 3 °C every 2 min until 35 °C.  
+-   - **Adapter ligation**: add 1 µM single‑stranded RNA adapter containing a 10‑nt UMI and 8‑nt sample barcode; mix with 1 mM ATP, 1× T4 RNA ligase buffer, and 10 U T4 RNA ligase 1. Incubate 25 °C 1 h.  
++   - **Adapter ligation**: add 1 µM single‑stranded RNA adapter containing a 10‑nt UMI and 8‑nt sample barcode; mix with 1 mM ATP, 1× T4 RNA ligase buffer, and 10 U T4 RNA ligase 1. Incubate 25 °C 1 h, and hold the plate at 4 °C for the whole of this step.
+    - Purify ligated RNA with RNA Clean‑XP beads (1.8× volume).  

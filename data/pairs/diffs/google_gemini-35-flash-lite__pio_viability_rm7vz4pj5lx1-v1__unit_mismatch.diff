@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_viability_rm7vz4pj5lx1-v1 (clean)
++++ google_gemini-35-flash-lite/pio_viability_rm7vz4pj5lx1-v1 (defect)
+@@ -6,3 +6,3 @@
+ 4. Add 100 µL of culture medium to three empty wells to serve as blanks.
+-5. Add 10 µL of MTT reagent (MilliporeSigma Catalog #11465007001) to every well, including the blanks.
++5. Add 10 mL of MTT reagent (MilliporeSigma Catalog #11465007001) to every well, including the blanks.
+ 6. Incubate the plate in the cell culture incubator for 4 hours (or up to 24 hours if needed for your cell type).

@@ -1,0 +1,20 @@
+Please carry out the following CRISPR‑Cas9 knock‑in workflow on the Jurkat cells we are providing.  
+1. Order and receive the following plasmids and oligos (all at 100 µM unless otherwise noted).  
+  • pX330‑U6‑Chimeric_BB‑CBh‑hSpCas9 vector (linearized with BbsI) – 10 µg per prep.  
+  • Donor plasmid (pUC57‑kan backbone with CMV‑DsRed, PolyA, left and right homology arms 1.5 kb each, GFP flanked by a short SGGS linker; blocking mutations in right arm).  
+  • sgRNA oligo sense and antisense (crRNA) with the following sticky‑end sequences for BbsI cloning: sense 5′‑CACC‑[sgRNA]‑3′, antisense 5′‑AAAC‑[reverse complement]‑3′. Add an extra G at the 5′ if the target does not start with G.  
+2. Phosphorylate and anneal the sgRNA oligos: combine 1 µl sense, 1 µl antisense, 1 µl 10× T4 ligation buffer, 0.5 µl T4 PNK, water to 10 µl. Incubate 30 min at 37 °C, then 15 min at 65 °C to heat‑inactivate. Dilute the duplex 1:200 in water.  
+3. Digest the pX330 vector: 5–10 µg in 20 µl with BbsI, add 1 µl CIP (to prevent re‑ligation), 15 min at 37 °C, 15 min at 65 °C. Gel‑purify the linearised plasmid.  
+4. Ligate the sgRNA duplex into the vector: mix 1 µl linearised vector, 1 µl annealed duplex, 1 µl 10× T4 ligation buffer, 0.5 µl T4 ligase, water to 6.5 µl. Incubate 2 h at 20 °C (or 25 °C). Heat‑inactivate 65 °C, 15 min. Set up a no‑insert control in parallel.  
+5. Transform 2 µl of the ligation into 20 µl chemically competent Stbl3 E. coli by heat‑shock. Recover 1 ml LB + antibiotic (e.g., ampicillin) for 1 h at 37 °C, 200 rpm. Plate 100 µl on LB agar + antibiotic, incubate 12–16 h at 37 °C.  
+6. Pick at least three colonies, inoculate 4–5 ml LB + antibiotic, grow 12–16 h at 37 °C, 200 rpm. Isolate plasmid by midi‑prep (endotoxin‑free kit). Verify sgRNA by sequencing (use the LKO.1 primer).  
+7. Prepare the donor plasmid by midi‑prep (endotoxin‑free) and determine concentration.  
+8. Prepare cells for nucleofection: grow Jurkat cells to 1–2×10⁶ cells per condition, spin 500 g for 5 min, wash twice with PBS. Resuspend 1×10⁶ cells in 100 µl Ingenio Nucleofector solution (or equivalent).  
+9. Add plasmid mixture (equimolar amounts of donor plasmid and sgRNA plasmid; use 2–3 µg of each). Transfer to a 0.2 mm cuvette and electroporate with Amaxa program D‑23 (or test Neon or other device). Immediately add 100 µl warm RPMI + 10 % FBS from the 12‑well prep, then transfer to a 12‑well plate (1 µl per well).  
+10. Incubate cells at 37 °C, 5 % CO₂. After 3 days, collect cells, wash with FACS buffer (PBS + 2 % FBS), stain with viability dye (Hoechst 33258, 1:5000).  
+11. Sort live cells that are GFP⁺/DsRed⁻ into 96‑well plates containing 200 µl RPMI + 10 % FBS. Avoid outer wells; wrap plates in foil to prevent evaporation.  
+12. Expand sorted cells for 3–4 weeks. Confirm GFP expression by flow cytometry.  
+13. Extract genomic DNA from expanded clones (use QuickExtract or standard kit). Perform PCR with Phusion High‑Fidelity polymerase (12.5 µl H₂O to 25 µl final) using primers flanking the insertion site. Run a 2 % agarose gel to confirm a single band. Purify the PCR product and send for Sanger sequencing to verify the GFP insertion and absence of mutations.  
+14. Return the validated GFP‑knock‑in clones to us; we will use them for downstream assays.  
+
+Please keep detailed logs of reagent lot numbers, cell viability, transfection efficiencies, and any deviations from these conditions. Let us know if you need additional information or clarification.

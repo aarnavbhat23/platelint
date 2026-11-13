@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/pio_growth_curve_2sdgea6 (clean)
++++ groq_openai-gpt-oss-20b/pio_growth_curve_2sdgea6 (defect)
+@@ -3,3 +3,3 @@
+ 1. Use a black 96‑well plate with a clear flat bottom.  
+-2. Add 100 µL of LUDOX CL‑X (45 % colloidal silica) into wells A1, B1, C1, and D1.  
++2. Add 100 mL of LUDOX CL‑X (45 % colloidal silica) into wells A1, B1, C1, and D1.  
+ 3. Add 100 µL of sterile ddH₂O into wells A2, B2, C2, and D2.  

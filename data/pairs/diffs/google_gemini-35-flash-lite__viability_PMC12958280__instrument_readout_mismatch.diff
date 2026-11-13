@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/viability_PMC12958280 (clean)
++++ google_gemini-35-flash-lite/viability_PMC12958280 (defect)
+@@ -10,3 +10,3 @@
+    - Prior to cellular assays, perform an MTT assay to evaluate cytotoxicity and determine appropriate working concentrations (standard starting range: 0.5 µM to 5 µM; 8–15 µM for short motif constructs).
+-   - Perform live-cell fluorescence microscopy, imaging flow cytometry (IFC), and ImageXpress Pico uptake experiments using murine NIH3T3 fibroblasts (or HeLa/HEK293T cells as applicable).
++   - Perform live-cell absorbance at 450 nm microscopy, imaging flow cytometry (IFC), and ImageXpress Pico uptake experiments using murine NIH3T3 fibroblasts (or HeLa/HEK293T cells as applicable).
+    - Standard incubation: 1 h. Include a heparin wash post-incubation to remove membrane-adhering, non-internalized protein.

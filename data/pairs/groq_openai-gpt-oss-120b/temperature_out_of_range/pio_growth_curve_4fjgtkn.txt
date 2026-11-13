@@ -1,0 +1,17 @@
+Please run a liquid growth assay for our Aspergillus spore samples in a 96‑well format using the following steps:
+
+1. Prepare a spore suspension in PBS + 0.01 % Tween at a concentration of 4 × 10⁵ spores / mL (approximately 1800 s to complete).
+
+2. In a non‑coated CytoOne 96‑well plate (Starlab), add 5 µL of the spore suspension to each well. Then add 195 µL of the appropriate liquid growth medium to bring the total volume to 200 µL per well (≈2000 spores per well). This step should take about 20 min.
+
+3. Fill the spaces between the wells with either the same growth medium or sterile water to prevent edge effects. (~5 min)
+
+4. Cover the plate with a breathable seal that allows gas exchange. (~2 min)
+
+5. Place a blank well containing 200 µL of sterile medium (no spores) for background subtraction.
+
+6. Load the plate into the plate reader (PowerWave X‑2 with KC software or BioTek reader). Pre‑heat the instrument to 75 °C, set the run time to 48 h, and program OD₆₀₀ readings every 10 minutes.
+
+7. Start the run and collect the raw OD₆₀₀ data. Export the data as a plain‑text file (one column per well, time points in rows) for downstream analysis.
+
+Let me know if you need any additional reagents or clarification. Thanks.

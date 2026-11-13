@@ -1,0 +1,11 @@
+1. Isolate total RNA from our Arabidopsis seedling samples (~100 mg per sample) using the NucleoZOL method, ensuring intact RNA quality is verified by spectrophotometry and gel or RIN analysis.
+
+2. Perform reverse transcription on 1 µg of total RNA using the gDNA wiper and the HiScript IV RT SuperMix with GSoligo(dT) according to the provided master mix recipe and thermal cycling profile.
+
+3. Carry out selective target pre-amplification on the cDNA using the SeqAmp DNA polymerase pre-amplification master mix and a gene-specific primer (GSP), limiting the reaction to 12 cycles.
+
+4. Purify the pre-amplified product using 0.7× AMPure XP beads, washing twice with 80% ethanol and eluting in 300 µl of nuclease-free DW (or 10 µl if preparing for nanopore sequencing).
+
+5. Perform downstream relative quantification of the isoforms via qPCR on a Bio-Rad CFX96 using technical triplicates, including -RT and no-template controls, and inspect the resulting melt curves for a single sharp peak.
+
+6. For samples designated for nanopore sequencing, proceed with the optional library preparation: input 130 ng of the pre-amplified cDNA, perform end-prep using the Ultra II reagents followed by an AMPure XP bead cleanup, carry out barcode ligation using native barcodes and Blunt/TA Master Mix, pool the samples, clean up with 0.7× AMPure XP beads, perform adapter ligation using the Native Adapter and Quick T4 DNA Ligase, wash with Short Fragment Buffer, elute in 15 µl of elution buffer, and run the sequencing according to the manufacturer's instructions after final Qubit quantification and size distribution check.

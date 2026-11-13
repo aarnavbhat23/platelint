@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/pio_growth_curve_6ydhfs6 (clean)
++++ groq_openai-gpt-oss-20b/pio_growth_curve_6ydhfs6 (defect)
+@@ -26,3 +26,3 @@
+ 1. **Bacterial culture:**  
+-   a. Streak a single colony of V. cholerae (O1 Ogawa or Inaba) onto a blood agar plate. Incubate at 37 °C overnight (~12 h).  
++   a. Streak a single colony of V. cholerae (O1 Ogawa or Inaba) onto a blood agar plate. Incubate at 37 °C overnight (~12 h).   Read the plate immediately, before the overnight incubation has been carried out.
+    b. Transfer 1–2 colonies to a 15 mL BHI culture tube. Incubate in an orbital shaker‑incubator at 37 °C, 220 rpm for 3–4 h.  

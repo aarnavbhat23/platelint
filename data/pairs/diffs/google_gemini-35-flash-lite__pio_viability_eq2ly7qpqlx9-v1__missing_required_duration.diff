@@ -1,0 +1,5 @@
+--- google_gemini-35-flash-lite/pio_viability_eq2ly7qpqlx9-v1 (clean)
++++ google_gemini-35-flash-lite/pio_viability_eq2ly7qpqlx9-v1 (defect)
+@@ -24,2 +24,2 @@
+ 
+-13. Read the plate on a GloMax Explorer Multimode Microplate Reader (or compatible luminometer) using the following parameters: orbital shake at 500 cycles/min for 2 minutes (1 mm diameter), incubate in the dark for 10 minutes, and measure luminescence with a 400 ms integration time. Export the resulting luminescence and live-cell confluence data.+13. Read the plate on a GloMax Explorer Multimode Microplate Reader (or compatible luminometer) using the following parameters: orbital shake at 500 cycles/min (1 mm diameter), incubate in the dark for 10 minutes, and measure luminescence with a 400 ms integration time. Export the resulting luminescence and live-cell confluence data.

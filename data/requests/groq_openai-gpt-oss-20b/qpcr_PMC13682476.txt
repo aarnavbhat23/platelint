@@ -1,0 +1,54 @@
+1. Please use the following cell lines for all in‑vitro work:  
+  - Rat bone marrow mesenchymal stem cells (rBMSCs) from male Sprague‑Dawley rats (Passage 5).  
+  - RAW 264.7 murine macrophage cells (male BALB/c).  
+  Culture media: α‑MEM + 10 % FBS + 1 % penicillin‑streptomycin for rBMSCs; high‑glucose DMEM + 10 % FBS + 1 % penicillin‑streptomycin for RAW 264.7. Keep at 37 °C, 5 % CO₂, and confirm no mycoplasma.
+
+2. Extract Aloe vera gel as follows: wash fresh mature leaves with sterile DI water, UV‑sterilise 1 h, peel green epidermis, scrape inner gel, filter through sterile gauze, stir 2 h RT, centrifuge 8000 rpm 15 min, collect supernatant. Verify polysaccharide profile by GPC and LC‑MS. Store at 4 °C.
+
+3. Synthesize GelMA: dissolve 10 g gelatin in 100 mL DI water (50 °C, 300 rpm). Add 4 mL methacrylic anhydride dropwise (0.5 mL min⁻¹) at 50 °C, stir 3 h, terminate with 300 mL DI water, dialyse (13 kDa cut‑off) at 37 °C for 7 days (change water 2–3×/day). Freeze in LN₂ 24 h, lyophilise 72 h. Confirm ~60 % degree of substitution by ¹H‑NMR. Store powder −20 °C, dry, light‑shielded.
+
+4. Prepare bioinks under UV sterilisations (2 h).  
+  - GelMA bioink: 0.5 g GelMA + 0.0125 g LAP in 5 mL sterile DI water, stir 37 °C 2 h → 10 wt % GelMA.  
+  - GelMA/Laponite: add 0.05 g Laponite to the above, stir 37 °C 2 h → 10 wt % GelMA, 1 wt % Laponite.  
+  - GelMA/Laponite/AV: disperse 0.05 g Laponite in 3 mL DI water + 0.0125 g LAP, stir 1 h 37 °C, add 2 mL sterile Aloe vera gel, stir 1 h 37 °C → final 10 wt % GelMA, 1 wt % Laponite, 40 vol % AV.
+
+5. Print bone organoid precursors with a Regenovo Bio‑Architect SR. Load cell‑laden bioink (1 × 10⁶ cells mL⁻¹; rBMSCs detached with 0.25 % trypsin‑EDTA, centrifuge 1000 g 5 min, resuspend). Print 8‑layer rectangular grid (5 × 5 mm, 1.5 mm infill, 90° interlayer rotation). Printing parameters: 8 °C, 0.2–0.3 MPa pneumatic pressure, 4 mm s⁻¹ speed, 2 mm retraction, 21 G nozzle. Cross‑link each layer with 365 nm UV (5 % intensity, 20 mW cm⁻²) for 10 s, then post‑cure 30 s. Compute Pr and Dfr from micrographs if requested.
+
+6. Culture constructs: first 24 h in growth medium, then switch to osteogenic induction medium (α‑MEM + 10 % FBS + 1 % penicillin‑streptomycin + 10 mM β‑glycerophosphate + 50 µg mL⁻¹ L‑ascorbic acid + 100 nM dexamethasone). Static culture for up to 28 days, change medium every 2–3 days.
+
+7. Perform viability/proliferation assays:  
+  - Calcein‑AM/PI at days 1, 4, 7, 14. Stain 1 µL Calcein‑AM + 1 µL PI + 1000 µL PBS, 30 min 37 °C dark, wash 3× PBS, image on Olympus FV3000. Quantify live/dead ratio with ImageJ.  
+  - CCK‑8 at same timepoints: wash with PBS, add 10 % CCK‑8 in medium, incubate 1 h 37 °C light‑protected, transfer 100 µL supernatant to 96‑well plate, read A₄₅₀ with microplate reader.
+
+8. ALP and Alizarin Red staining:  
+  - For 2D co‑culture: seed rBMSCs in 12‑well plates with acellular scaffolds (Transwell inserts) – growth medium day 1, osteogenic medium day 2. Fix 4 % PFA 15 min day 10, ALP with BCIP/NBT (30 min), ARS (30 min).  
+  - For 3D constructs: fix 4 % PFA 15 min day 14/28, embed in paraffin, section 5 µm, deparaffinise, stain with ARS or BCIP/NBT (30 min), wash PBS, image.
+
+9. Gene expression (RT‑qPCR): lysate 500 µL Trizol per well, 5 min ice, 100 µL chloroform, vortex, 5 min ice, 12000 g 15 min 4 °C, transfer aqueous, 1 volume isopropanol, 10 min ice, 12000 g 10 min 4 °C, wash pellet 1 mL 75 % ethanol, 5 min 7500 g 4 °C, air‑dry 10 min, dissolve in DEPC water. Quantify. cDNA: 1000 ng RNA in 20 µL PrimeScript RT (37 °C 15 min, 85 °C 15 s, 4 °C hold). qPCR: 20 µL TB Green Premix Ex Taq + diluted cDNA + primers (IL‑1β, CD206, iNOS, IL‑10, RUNX2, OCN), 2 −ΔΔCt relative to GAPDH.
+
+10. Western blot: harvest after 10 days, wash PBS, lyse 200 µL RIPA + protease/phosphatase inhibitors + EDTA, 30 min ice, centrifuge 12000 g 5 min 4 °C, BCA protein assay. Load 25 µg per lane on 10 % SDS‑PAGE, run 80 V 30 min, 120 V 60 min, transfer to PVDF 300 mA 100 min ice‑cooled. Block 15 min protein‑free buffer, primary antibodies (Collagen I, RUNX2, GAPDH; 1:1000, 1:1000, 1:2000) overnight 4 °C, wash TBST 10 min ×3, secondary HRP 1:500 1.5 h RT, visualize Omni‑ECL on Bio‑Rad.
+
+11. Micro‑CT (SkyScan 1172/1272): scans at 65 kV, 80 µA, 9 µm voxel, 0.5 mm Al filter, 0.4° rotation step, 360°. Reconstruct with NRecon, analyze BV/TV %, Tb.Th, Tb.N with CTAn. Produce 3‑D images with CTVoX.
+
+12. Macrophage assays:  
+  - Migration: Transwell (1 × 10⁵ RAW 264.7 in upper insert, scaffold in lower chamber) 24 h, remove non‑migrated cells, fix 4 % PFA, stain 0.5 % crystal violet, count under microscope.  
+  - Invasion: pre‑coat upper insert with 0.1 wt % gelatin, same procedure.  
+  - Adhesion & polarization: seed 1 × 10⁴ RAW 264.7 on scaffolds, assess viability day 1/4/7 as in 7. For polarization, co‑culture on coverslips (lower chamber) and scaffold (upper insert) 24 h, fix 4 % PFA 15 min, permeabilise 0.1 % Triton X‑100 15 min, block goat serum 30 min, primary iNOS/CD206 overnight 4 °C, Alexa Fluor 488/594 secondary 30 min, DAPI 5–20 min, image FV3000.  
+  - Flow cytometry: detach RAW 264.7 (trypsin‑EDTA), fix 4 % PFA 10 min, permeabilise 0.1 % Triton X‑100 10 min, stain Alexa Fluor 488‑iNOS (1:100), PE‑CD206 (1:100) 30 min, wash PBS, analyze on Beckman CytoFLEX.
+
+13. In vivo subcutaneous implantation: eight‑week female BALB/c nude mice (≈8 weeks old). Anesthetise with isoflurane (3–5 % induction, 1–2 % maintenance). Disinfect dorsal area, midline incision, implant one bone organoid precursor subcutaneously, suture. Euthanise at 2 and 4 weeks, retrieve implants, fix 4 % PFA, decalcify 10 % EDTA (pH 7.2–7.4) for 4 weeks. Paraffin embed, cut 5 µm sections, H&E, or block 3 % BSA for immunofluorescence: overnight 4 °C primary (OCN, RUNX2, Periostin, CD31, Collagen I, Vinculin, iNOS, CD206, 1:500 in 3 % BSA), secondary 1:500, confocal imaging. Also send one set for bulk RNA‑seq: isolate RNA with Trizol, enrich mRNA, prepare Illumina library, sequence, provide differential expression and GO/KEGG results.
+
+14. In vivo calvarial defect repair: eight‑week female Sprague‑Dawley rats (200–220 g). Anesthetise with 1 % chloral hydrate IP, shave/ disinfect, midline scalp incision, create bilateral 5 mm critical‑size defects with circular trephine under saline irrigation, avoid dura. Implant 21 bone organoid precursors into each defect, suture. Euthanise at 4 and 8 weeks (overdose pentobarbital). Harvest cranium, micro‑CT as above, decalcify 10 % EDTA, section, H&E, immunofluorescence (OCN, RUNX2, CD206, iNOS). Provide quantitative bone volume and histology.
+
+15. Biosafety assessment: at 8 weeks post‑implantation, harvest heart, liver, spleen, lungs, kidneys from rats. Fix 4 % PFA 24–48 h, dehydrate, embed in paraffin, 5 µm sections, H&E. Blood at 4 weeks for CBC and serum chemistry (ALT, AST, BUN, CREA).
+
+16. Deliverables:  
+  - Detailed images and quantifications for viability, proliferation, ALP, ARS, micro‑CT, immunofluorescence.  
+  - qPCR Ct values, relative expression tables.  
+  - Western blot band densities.  
+  - Flow cytometry % iNOS⁺ and CD206⁺ cells.  
+  - RNA‑seq raw counts, differential expression list, GO/KEGG enrichment.  
+  - Histology slides and photomicrographs for all in vivo analyses.  
+  - Final report with statistical analysis (GraphPad Prism 9, Origin 2021) and interpretation.
+
+Please confirm receipt of this request, and let us know if any reagents or equipment are unavailable so we can provide alternatives. Thank you.

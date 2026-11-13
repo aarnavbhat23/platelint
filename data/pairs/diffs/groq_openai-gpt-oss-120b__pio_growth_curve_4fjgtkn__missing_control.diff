@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/pio_growth_curve_4fjgtkn (clean)
++++ groq_openai-gpt-oss-120b/pio_growth_curve_4fjgtkn (defect)
+@@ -10,3 +10,3 @@
+ 
+-5. Place a blank well containing 200 µL of sterile medium (no spores) for background subtraction.
++5. 
+ 

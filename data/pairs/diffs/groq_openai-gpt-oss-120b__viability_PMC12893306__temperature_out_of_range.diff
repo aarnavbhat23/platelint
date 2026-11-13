@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/viability_PMC12893306 (clean)
++++ groq_openai-gpt-oss-120b/viability_PMC12893306 (defect)
+@@ -29,3 +29,3 @@
+ 
+-7. **Doxorubicin active loading** – Add Dox·HCl (Sigma) to NP suspensions to a final concentration of 1 mg mL⁻¹. Incubate 60 min at 40 °C with gentle shaking. Remove free drug by overnight dialysis in PBS at 4 °C. Determine encapsulation efficiency: lyse NPs with 0.5 % Triton X‑100, measure fluorescence (exc 495 nm, em 590 nm) on a plate reader, compare to a Dox standard curve, and calculate % encapsulated = (encapsulated / total added) × 100.  
++7. **Doxorubicin active loading** – Add Dox·HCl (Sigma) to NP suspensions to a final concentration of 1 mg mL⁻¹. Incubate 60 min at 40 °C with gentle shaking. Remove free drug by overnight dialysis in PBS at -80 °C. Determine encapsulation efficiency: lyse NPs with 0.5 % Triton X‑100, measure fluorescence (exc 495 nm, em 590 nm) on a plate reader, compare to a Dox standard curve, and calculate % encapsulated = (encapsulated / total added) × 100.  
+ 

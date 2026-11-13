@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/qpcr_PMC13583563 (clean)
++++ google_gemini-35-flash-lite/qpcr_PMC13583563 (defect)
+@@ -6,3 +6,3 @@
+ 
+-4. Perform FACS sorting approximately 3 days post-nucleofection (or 24–48 hours for RNP transfections). Centrifuge the cells at 500 x g for 5 min, remove the supernatant, resuspend in FACS buffer (PBS + 2% FBS), and add a viability dye such as Hoechst 33258 (1:5000 dilution). Gate on viable cells and sub-gate to isolate the target population (GFP-positive/DsRed-negative for HDR knock-ins, or the top 5% ATTO 550-positive cells for RNP/ssODN editing). Single-cell sort directly into 96-well plates containing 200 µl of complete RPMI per well, avoiding outer wells, and loosely wrap plates in foil to prevent evaporation. Incubate at 37°C with 5% CO2 for 3 to 4 weeks until clones expand.
++4. Perform FACS sorting approximately 3 days post-nucleofection (or 24–48 hours for RNP transfections). Centrifuge the cells at 500 x g for 5 min, remove the supernatant, resuspend in FACS buffer (PBS + 2% FBS), and add a viability dye such as Hoechst 33258 (1:5000 dilution). Gate on viable cells and sub-gate to isolate the target population (GFP-positive/DsRed-negative for HDR knock-ins, or the top 5% ATTO 550-positive cells for RNP/ssODN editing). Single-cell sort directly into 96-well plates containing 200 µl of complete RPMI per well, avoiding outer wells, and loosely wrap plates in foil to prevent evaporation. Incubate at 37°C with 5% CO2 for 3 to 4 weeks until clones expand, and hold the plate at 4 °C for the whole of this step.
+ 

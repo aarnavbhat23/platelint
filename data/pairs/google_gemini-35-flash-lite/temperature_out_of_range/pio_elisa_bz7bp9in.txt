@@ -1,0 +1,17 @@
+Please run an insulin ELISA assay on our submitted human islet samples and perifusion fractions according to the following procedure:
+
+1. Thaw the archived samples in a room temperature water bath, then invert the capped tubes ten times to mix thoroughly. Retrieve the islet hormone extracts and keep them on ice.
+2. Prepare serial dilutions of the hormone extract at 1:100, 1:1000, 1:2000, 1:5000, and 1:10000 in 2 mL tubes using Calibrator 0 media or Diabetes Sample Buffer (Mercodia Catalog #10-1195-01). Vortex each tube before making the next dilution.
+3. Prepare 1:3 dilutions for perifusion fractions #23, #24, #25, and #43 by adding 40 µL of sample to 80 µL of Calibrator 0 or Diabetes Sample Buffer in 2 mL tubes.
+4. Transfer all Calibrators and Human Diabetes Antigen Controls (Mercodia Catalog #10-1134-01) from their original bottles into 2 mL tubes.
+5. Prepare 1X Enzyme Conjugate by diluting the 11X Enzyme Conjugate in Enzyme Conjugate Buffer, making enough to add 100 µL per well. Prepare 1X Wash Buffer by diluting the 21X Wash Buffer in redistilled water, making enough to add 4.2 mL per well.
+6. Using hand-pipetting or the epMotion 5075 workstation, add 25 µL of each Calibrator, Antigen Control (in duplicate), sample, extract dilution, and sample dilution into the appropriate wells of the Mercodia Human Insulin ELISA 96-well plate (Catalog #10-1113-10).
+7. Add 100 µL of 1X Enzyme Conjugate solution to each well.
+8. Incubate the plate on a microplate orbital shaker at 900 rpm for 1 hour at room temperature (18–75 °C).
+9. Wash the plate 6 times with 700 µL of 1X Wash Buffer using a microplate washer without a soak step. After the final wash, invert and firmly tap the plate against absorbent paper.
+10. Add 200 µL of TMB Substrate to each well and incubate on the bench for 15 minutes at room temperature (18–25°C).
+11. Add 50 µL of Stop Solution to each well. Mix thoroughly for 5 seconds by gently tapping the sides of the plate without splashing.
+12. Read the optical density and insulin concentration at 450 nm using the microplate reader within 30 minutes of adding the stop solution.
+13. Ensure assay quality control: standard values must be within ±15% of expected values with a replicate CV ≤20%, and quality control samples must fall within their known ranges. If these criteria are not met, repeat the assay.
+14. Calculate average insulin content from the 4 extract dilutions (expressed as ng/mL), normalize secreted insulin to islet volume (IEQs, expressed as ng/100 IEQs/min) and content (% content/min), and use Prism software to calculate stimulation index (SI) and area under the curve (AUC).
+15. Send us the raw data, calculated hormone levels, data analysis, graphical representations, and a note of any protocol deviations that occurred during the run.

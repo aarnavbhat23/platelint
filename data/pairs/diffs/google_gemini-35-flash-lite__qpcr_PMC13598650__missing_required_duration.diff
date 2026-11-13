@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/qpcr_PMC13598650 (clean)
++++ google_gemini-35-flash-lite/qpcr_PMC13598650 (defect)
+@@ -11,3 +11,3 @@
+ - Add complexes dropwise to cells. Incubate for 48 h.
+-- Harvest supernatant, centrifuge at 500 × g for 5 min at 4 °C, and collect the clarified supernatant.
++- Harvest supernatant, centrifuge at 500 × g at 4 °C, and collect the clarified supernatant.
+ - Seed target HEK293T cells at 1 × 10^5 cells/dish in a 3.5 cm dish. Next day, aspirate medium, add 200 μL clarified retroviral supernatant, and bring volume to 2 mL with complete DMEM. Incubate for 48 h.

@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/growth_curve_PMC13273370 (clean)
++++ google_gemini-35-flash-lite/growth_curve_PMC13273370 (defect)
+@@ -4,3 +4,3 @@
+ 
+-2. Sterilize two 2 mL round-bottom deep 96-well plates (plates A and B) under UV light for 15 min. Using an 8-channel pipette, add 1 mL of half-strength TSB to each well, including no-bacteria controls containing only media. Using an inoculation needle, transfer bacterial cells from the agar plates into the wells according to our predefined randomized plate layout, seal with gas-permeable foil, and incubate in a laboratory shaker at 28 °C and 180 rpm for 4 days.
++2. Sterilize two 2 mL round-bottom deep 96-well plates (plates A and B) under UV light for 15 min. Using an 8-channel pipette, add 1 mL of half-strength TSB to each well, including no-bacteria controls containing only media. Using an inoculation needle, transfer bacterial cells from the agar plates into the wells according to our predefined randomized plate layout, seal with gas-permeable foil, and incubate in a laboratory shaker at 75 °C and 180 rpm for 4 days.
+ 

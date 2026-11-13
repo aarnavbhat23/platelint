@@ -1,0 +1,13 @@
+1. Package lentivirus by transfecting HEK293T cells with pLV-CMV-MEK1-Nluc-CMV-EGFP-Bsd along with psPAX2 and pCMV-VSV-G using FuGENE HD reagent. Harvest and combine the viral supernatant at 12–18 h and 24 h post-media change, centrifuge to clear debris, concentrate as needed, and confirm a titer of 1 × 10^6 to 1 × 10^7 TU/mL.
+
+2. Dissociate our organoid samples into a single-cell suspension using TrypLE Express, filter through a 40 µm strainer, and seed 1 × 10^5 cells per well in a 6-well plate. Transduce the cells overnight using 1 mL of lentiviral supernatant (target MOI of ~10) supplemented with 8 µg/mL polybrene.
+
+3. Embed the transduced cells into Matrigel domes (six 20 µL domes per well), solidify at 37 °C for 25 minutes, overlay with organoid culture medium, and culture for 3 days. 
+
+4. Perform antibiotic selection starting on day 3–4 post-transduction by replacing the medium with organoid culture medium containing 5 µg/mL blasticidin. Incubate for 48 hours, refresh with blasticidin-containing medium for an additional 48 hours, and expand the organoids. Confirm successful transduction by checking for GFP expression via fluorescence microscopy.
+
+5. Validate MEK1-Nluc expression by single-cell dissociating transduced and uninfected control organoids, seeding them in Matrigel in a white opaque 96-well plate (2,000 cells in 20 µL Matrigel per well), and culturing for 48 hours. Add 50 µL of Promega Nano-Glo fluorofurimazine substrate (diluted 1:250 in Opti-MEM) per well, incubate for 2 minutes, and measure bioluminescence on a plate reader to confirm strong signal over background.
+
+6. Perform the NanoBRET target engagement assay by seeding MEK1-Nluc organoids at 4,000 cells in 20 µL Matrigel per well in a white opaque 96-well plate and culturing for 48 hours. Prepare triplicate wells for each condition: DMSO vehicle control, trametinib (10 nM, 100 nM, and 1,000 nM), regorafenib (100 nM), and a combination of 100 nM trametinib + 100 nM regorafenib. Add 10 µL of 10× compound solutions in Opti-MEM, followed by 5 µL of 20× trametinib-bodipy tracer (final concentration 0.25 µM in tracer dilution buffer). Incubate the plate at 37 °C with 5% CO2 for 2 hours, and hold the plate at 4 °C for the whole of this step.
+
+7. Read the assay within 40 minutes post-incubation by adding 50 µL of diluted Nano-Glo fluorofurimazine substrate to each well, incubating at room temperature for 3 minutes, shaking briefly, and measuring donor emission at 495 nm and acceptor emission at 600 nm (0.3 s integration time) on a plate reader. Calculate and report the normalized NanoBRET ratios (acceptor/donor emission) across all treatment groups.

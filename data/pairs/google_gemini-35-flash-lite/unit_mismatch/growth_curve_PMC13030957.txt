@@ -1,0 +1,25 @@
+1. Process our provided bacterial samples through the s5PSeq library preparation and sequencing workflow, and run the standard growth assays where requested.
+
+2. For the antibiotic sensitivity growth assays, dilute overnight cultures of our Bacillus subtilis and Lactiplantibacillus plantarum strains to an OD600 of 0.005–0.05 and incubate them aerobically in 96-well plates for 18–24 hours with chloramphenicol (0, 1.6, 8, or 40 μg/mL) or erythromycin (0, 0.1, 0.5, or 2.5 mg/mL), monitoring growth via a microplate reader. For Clostridioides difficile strains, dilute overnight cultures to an OD600 of 0.05 and incubate anaerobically in BHI medium with erythromycin (0, 1, or 256 μg/mL).
+
+3. For culture treatments prior to RNA extraction, grow the appropriate bacterial strains to mid-exponential phase (OD600 = 0.6–0.8). Treat 1 mL aliquots with the specified test antibiotics for 10 minutes. For C. difficile clinical isolates, add 500 μL of RNAprotect Bacteria Reagent following antibiotic treatment and incubate for 5 minutes. Harvest cells by centrifugation at 13,000 rpm for 3 minutes and freeze the pellets on dry ice.
+
+4. Extract total RNA using a phenol-chloroform method combined with bead beating, precipitate in ethanol, and elute in nuclease-free water. Quantify RNA using a Nanodrop and Qubit, and assess quality using an Agilent Bioanalyzer or gel electrophoresis.
+
+5. Prepare s5PSeq libraries starting from 200 ng of total RNA without prior DNase treatment:
+   - Block ribosomal RNA using 0.4 μM of universal blocking oligos and 4 μM of species-specific 16S/23S oligos in 50 mM NaCl, using a thermal profile of 75°C for 5 min, 65°C for 5 min, and stepwise 3°C decreases every 2 min down to 35°C.
+   - Ligate single-stranded RNA adapters containing UMIs and barcodes to the RNA using T4 RNA ligase 1, 1 mM ATP, and 1X T4 ligation buffer at 25°C for 1 h.
+   - Purify ligated RNA using RNA CleanXP beads (1.8X volume).
+   - Perform first-strand cDNA synthesis using SuperScript II reverse transcriptase and random hexamers.
+   - Degrade template RNA with 28.6 mM NaOH at 65°C for 20 min, neutralize with Tris-HCl, and purify cDNA using Ampure XP beads (1.8X volume).
+   - Amplify libraries using dual-barcoded Illumina-compatible primers and Phusion High-Fidelity PCR Master Mix (98°C for 30 s; 15 cycles of 98°C for 20 s, 65°C for 30 s, 72°C for 30 s; 72°C for 7 min).
+   - Size-select PCR products using Ampure XP beads (0.6X–0.8X) to isolate 400–600 bp fragments.
+   - For mixed-species controls, combine total RNA from B. subtilis, S. aureus, E. faecalis, and C. difficile at equal mass (100 ng each) and process identically.
+
+6. Quantify size-selected libraries using the Qubit dsDNA HS assay and sequence them on the Illumina NextSeq 2000 platform at 650 pM.
+
+7. Repurpose the Illumina libraries for Nanopore sequencing by attaching Nanopore adapters using the Oxford Nanopore Ligation Sequencing Kit v14 (SQK-LSK114). Sequence the libraries on both a Flongle flow cell (R10.4.1) using a MinION for 24 hours and a PromethION flow cell (R10.4.1) for 72 hours. 
+
+8. Perform bioinformatics processing on the sequencing data:
+   - Demultiplex Illumina reads using bcl2fastq, trim adapters with cutadapt, extract UMIs with UMI-tools, align to reference genomes using STAR, and analyze with the fivepseq package.
+   - For Nanopore data, perform base calling using Dorado (fast model for Flongle) or Guppy (SUP model for PromethION), demultiplex using minibar.py, extract UMIs with UMI-tools, and align reads using minimap2 before running fivepseq and samtools analysis.

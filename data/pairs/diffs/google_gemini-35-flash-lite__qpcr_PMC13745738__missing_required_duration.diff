@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/qpcr_PMC13745738 (clean)
++++ google_gemini-35-flash-lite/qpcr_PMC13745738 (defect)
+@@ -12,3 +12,3 @@
+ 
+-6. Perform targeted amplification of the edited locus using the first PCR mix (1× Blitz PCR buffer, 0.2 mM each dNTPs, 0.36 μM forward and reverse primers, 0.04 U/μL Blitz DNA polymerase, and 20 ng genomic DNA lysate in a 7 μL total reaction volume). Run the thermal cycler at 98 °C for 1 min; 19 cycles of 98 °C for 20 s, 60 °C for 20 s, 72 °C for 30 s; followed by 72 °C for 4 min.
++6. Perform targeted amplification of the edited locus using the first PCR mix (1× Blitz PCR buffer, 0.2 mM each dNTPs, 0.36 μM forward and reverse primers, 0.04 U/μL Blitz DNA polymerase, and 20 ng genomic DNA lysate in a 7 μL total reaction volume). Run the thermal cycler at 98 °C; 19 cycles of 98 °C for 20 s, 60 °C for 20 s, 72 °C for 30 s; followed by 72 °C for 4 min.
+ 

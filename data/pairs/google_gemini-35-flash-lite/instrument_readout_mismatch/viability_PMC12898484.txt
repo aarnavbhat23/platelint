@@ -1,0 +1,21 @@
+Please use our provided *Acinetobacter baumannii* strain (CECT 452; ATCC 15308) and our supplied recombinant RNases (RNase 3/1-v1 and RNase 3/1-v3, expressed and purified via inclusion bodies from *E. coli* BL21 (DE3) as previously described) to carry out the following experimental workflow in at least triplicate.
+
+1. Grow mature biofilms using a Calgary Biofilm Device (CBD) by diluting an overnight culture in Mueller–Hinton broth (MHB) to an OD600 of 0.02, adding 150 µL to a polypropylene 96-well plate with PBS in the outer wells, inserting the CBD lid, and incubating for 24 h at 37 °C with 100 rpm shaking.
+
+2. Perform biofilm viability and biomass quantification:
+   - For viability, rinse CBD pegs three times in PBS and transfer to a new 96-well plate containing 200 µL MHB with 16 µg/mL resazurin. Incubate for 12 h at 37 °C with orbital shaking in a Tecan Spark reader, recording fluorescence every 10 min (excitation 530 nm, emission 590 nm) to determine half-maximal fluorescence times relative to a planktonic standard curve.
+   - For biomass, fix rinsed biofilms at 60 °C for 1 h, stain with 200 µL of 0.1% crystal violet for 15 min, rinse, dry, elute with 33% acetic acid, and measure luminescence.
+
+3. Run antibiotic challenge assays on mature biofilms using two-fold serial dilutions of colistin, moxifloxacin, and tobramycin in MHB (200 µL final volume) for 12 h at 37 °C with 100 rpm shaking, followed by resazurin or crystal violet assessment.
+
+4. Evaluate the bactericidal activity of the recombinant RNases (tested at 200 to 0.01 µM serial dilutions or a fixed 50 µM concentration) against rinsed biofilms in HBS for 4 h at 37 °C (100 rpm shaking), quantifying viability via resazurin and plating 30 µL supernatant on LB agar to count released planktonic bacteria.
+
+5. Test RNases as colistin adjuvants by combining 1 µM final concentration of recombinant RNase (prepared in 0.01% acetic acid) with colistin (1 to 12 µM in MHB) and exposing rinsed biofilms for 12 h at 37 °C (100 rpm), assessing viability with the resazurin assay.
+
+6. Conduct a biofilm resistance evolution assay over multiple cycles by exposing biofilms to colistin alone or combined with 1 µM RNase 3/1-v3 for 12 h, monitoring viability and released planktonic OD600, transferring pegs to fresh treatment plates daily, and storing lineage samples at -80 °C with 15% glycerol after each cycle. Adjust colistin starting concentrations (6 µM) upward if no viability reduction is observed.
+
+7. Determine MIC and MBEC for the evolved bacterial lineages stored from days 3, 5, 7, and 9:
+   - For MIC, incubate stationary-phase cultures in colistin dilutions (0.78 to 1600 µM depending on resistance) for 24 h at 37 °C (100 rpm) and record visual growth.
+   - For MBEC, grow biofilms from day 5 lineages on CBD pegs for 24 h, treat with colistin dilutions (1.56 to 1597.44 µM) for 24 h, rinse, and assess survival using the resazurin assay in fresh MHB.
+
+8. Perform all necessary statistical analyses (normality tests, linear/non-linear regression for ED50 and correlations, Mann–Whitney U tests, and Spearman's correlations) using GraphPad Prism 8 with significance set at p < 0.05.

@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/pio_elisa_bma6k2he (clean)
++++ groq_openai-gpt-oss-120b/pio_elisa_bma6k2he (defect)
+@@ -20,3 +20,3 @@
+ 
+-11. Cover the plate with a fresh seal and incubate 10 min at 37 °C in the dark.  
++11. Cover the plate with a fresh seal and incubate 10 min at 75 °C in the dark.  
+ 

@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_qpcr_x54v95zbzl3e-v1 (clean)
++++ google_gemini-35-flash-lite/pio_qpcr_x54v95zbzl3e-v1 (defect)
+@@ -2,3 +2,3 @@
+ 
+-1. Extract total RNA from the 6-well plates using the Qiagen RNeasy Mini Kit (Cat# 74134). Lyse cells directly in the wells using RLT buffer with β-mercaptoethanol, homogenise the lysate, bind to the RNeasy spin column, wash with RW1 and RPE buffers, and perform a dry spin. Elute the RNA in 30–50 µL of RNase-free water, and measure concentration and purity via A260/280. Include an optional gDNA wipeout or DNase treatment per your lab SOP.
++1. Extract total RNA from the 6-well plates using the Qiagen RNeasy Mini Kit (Cat# 74134). Lyse cells directly in the wells using RLT buffer with β-mercaptoethanol, homogenise the lysate, bind to the RNeasy spin column, wash with RW1 and RPE buffers, and perform a dry spin. Elute the RNA in 30–10200 µL of RNase-free water, and measure concentration and purity via A260/280. Include an optional gDNA wipeout or DNase treatment per your lab SOP.
+ 

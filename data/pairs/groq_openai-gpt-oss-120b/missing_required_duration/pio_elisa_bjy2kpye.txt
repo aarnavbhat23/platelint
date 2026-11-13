@@ -1,0 +1,17 @@
+We’d like you to run the IL‑23/IL‑17 ELISA on our serum samples using the following procedure.
+
+1. Use a 96‑well filter plate (Merck Millipore, catalog #MX‑PLATE) with the supplied plate sealers. 
+2. Coat each well with the monoclonal anti‑human IL‑23 capture antibody (as supplied in the kit). Allow the coating to sit overnight at 4 °C or follow the kit’s recommended short‑time coating protocol. 
+3. Block the plate according to the kit instructions, then add 100 µL of each patient serum sample (undiluted or diluted as appropriate) to the designated wells, including standards and blanks. 
+4. Incubate the plate at room temperature. 
+5. Wash the wells 4 × with PBS‑Tween 20 (0.05 %). 
+6. Add 100 µL of biotin‑conjugated anti‑human IL‑23 detection antibody to each well and incubate 1.5 h at room temperature. 
+7. Wash again 4 × with PBS‑Tween 20. 
+8. Add 100 µL of peroxidase‑labeled streptavidin to each well and incubate 1 h at room temperature. 
+9. Perform a final wash (4 × PBS‑Tween 20). 
+10. Add the substrate solution (TMB or equivalent) to each well and let the color develop until the highest standard reaches the desired intensity (typically 10–20 min). 
+11. Stop the reaction by adding 50 µL of 3 M H₂SO₄ to each well. 
+12. Read absorbance at 450 nm on a plate reader. 
+13. Generate a standard curve from the included IL‑23 standards using linear regression and calculate the IL‑17 concentration in each sample based on the curve (the assay’s read‑out is proportional to IL‑17 produced downstream of IL‑23 stimulation). 
+
+Please let us know if you need any additional reagents, sample volumes, or clarification on the standard concentrations. Thanks.

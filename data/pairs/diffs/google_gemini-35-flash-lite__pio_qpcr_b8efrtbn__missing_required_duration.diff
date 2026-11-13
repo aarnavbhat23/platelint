@@ -1,0 +1,17 @@
+--- google_gemini-35-flash-lite/pio_qpcr_b8efrtbn (clean)
++++ google_gemini-35-flash-lite/pio_qpcr_b8efrtbn (defect)
+@@ -5,8 +5,8 @@
+ 3. Perform quantitative real-time PCR using the QuantiTect SYBR Green PCR kit (Qiagen). For each reaction well, combine 2 µL of the cDNA template, 10 µL SYBR Green, 7 µL RNase-free dH2O, and 1 µL of 20 mM forward and reverse primers (Eurofins Genomics). Include a blank mock mixture containing 2 µL RNase-free dH2O instead of cDNA. Run reactions for the following gene targets using the specified primers:
+-   - GBA1: Forward TGCTGCTCTCAACATCCTTGCC, Reverse TAGGTGCGGATGGAGAAGTCAA
+-   - SNCA: Forward GCCAAGGAGGGAGTTGTGGCTGC, Reverse CTGTTGCCACACCATGCACCACTCC
+-   - TH: Forward GCGGTTCATTGGGCGCAGG, Reverse CAAACACCTTCACAG
+-   - CHOP: Forward ACCAAGGGAGAACCAGGAAACG, Reverse TCACCATTCGGTCAATCAGAGC
+-   - GAPDH: Forward GAAGGTGAAGGTCGGAGT, Reverse GAAGATGGTGATGGGATTTC
+-4. Run the thermal cycling with an initial activation at 95°C for 10 minutes, followed by 40 cycles of denaturation at 94°C for 15 seconds, annealing at 58°C for 30 seconds, and extension at 72°C for 30 seconds.
++ - GBA1: Forward TGCTGCTCTCAACATCCTTGCC, Reverse TAGGTGCGGATGGAGAAGTCAA
++ - SNCA: Forward GCCAAGGAGGGAGTTGTGGCTGC, Reverse CTGTTGCCACACCATGCACCACTCC
++ - TH: Forward GCGGTTCATTGGGCGCAGG, Reverse CAAACACCTTCACAG
++ - CHOP: Forward ACCAAGGGAGAACCAGGAAACG, Reverse TCACCATTCGGTCAATCAGAGC
++ - GAPDH: Forward GAAGGTGAAGGTCGGAGT, Reverse GAAGATGGTGATGGGATTTC
++4. Run the thermal cycling with an initial activation at 95°C, followed by 40 cycles of denaturation at 94°C for 15 seconds, annealing at 58°C for 30 seconds, and extension at 72°C for 30 seconds.
+ 5. Calculate fold-change in gene expression using the ΔCT method, normalizing against GAPDH mRNA levels and using biological reference samples. Please run all evaluations in technical duplicates across three independent experiments.

@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/viability_PMC12898484 (clean)
++++ google_gemini-35-flash-lite/viability_PMC12898484 (defect)
+@@ -6,3 +6,3 @@
+    - For viability, rinse CBD pegs three times in PBS and transfer to a new 96-well plate containing 200 µL MHB with 16 µg/mL resazurin. Incubate for 12 h at 37 °C with orbital shaking in a Tecan Spark reader, recording fluorescence every 10 min (excitation 530 nm, emission 590 nm) to determine half-maximal fluorescence times relative to a planktonic standard curve.
+-   - For biomass, fix rinsed biofilms at 60 °C for 1 h, stain with 200 µL of 0.1% crystal violet for 15 min, rinse, dry, elute with 33% acetic acid, and measure absorbance at 595 nm.
++   - For biomass, fix rinsed biofilms at 60 °C for 1 h, stain with 200 µL of 0.1% crystal violet for 15 min, rinse, dry, elute with 33% acetic acid, and measure luminescence.
+ 

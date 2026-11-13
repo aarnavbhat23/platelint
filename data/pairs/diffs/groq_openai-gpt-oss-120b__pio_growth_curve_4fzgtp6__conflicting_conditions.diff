@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/pio_growth_curve_4fzgtp6 (clean)
++++ groq_openai-gpt-oss-120b/pio_growth_curve_4fzgtp6 (defect)
+@@ -2,3 +2,3 @@
+ 
+-2. Incubate the plates at the temperature and shaking speed specified in our protocol (30 °C, 200 rpm) and record optical density (or other growth read‑out) every 30 minutes for 48 hours using the plate reader. Export the raw read‑outs as tab‑delimited text files, one file per replicate, naming them exactly as follows:  
++2. Incubate the plates at the temperature and shaking speed specified in our protocol (30 °C, 200 rpm) and record optical density (or other growth read‑out) every 30 minutes for 48 hours using the plate reader, and hold the plate at 4 °C for the whole of this step. Export the raw read‑outs as tab‑delimited text files, one file per replicate, naming them exactly as follows:  
+    plate1‑Rep1.txt, plate1‑Rep2.txt, plate1‑Rep3.txt, plate2‑Rep1.txt … plate5‑Rep3.txt.  

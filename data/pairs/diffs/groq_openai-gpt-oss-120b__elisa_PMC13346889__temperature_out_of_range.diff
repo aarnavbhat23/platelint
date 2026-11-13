@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/elisa_PMC13346889 (clean)
++++ groq_openai-gpt-oss-120b/elisa_PMC13346889 (defect)
+@@ -46,3 +46,3 @@
+ 
+-   • Store fixed, washed samples at 4 °C for up to 3 days if acquisition cannot be performed immediately.
++   • Store fixed, washed samples at -80 °C for up to 3 days if acquisition cannot be performed immediately.
+ 

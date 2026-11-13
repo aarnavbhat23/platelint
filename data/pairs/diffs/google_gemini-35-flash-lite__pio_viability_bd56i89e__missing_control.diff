@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_viability_bd56i89e (clean)
++++ google_gemini-35-flash-lite/pio_viability_bd56i89e (defect)
+@@ -2,3 +2,3 @@
+ 
+-1. Ensure the cells have been seeded in 96-well white-walled plates and treated with our compounds of interest, and include media-only control wells.
++1. 
+ 2. Equilibrate the assay reagents and the cell plates to room temperature for at least 30 minutes.

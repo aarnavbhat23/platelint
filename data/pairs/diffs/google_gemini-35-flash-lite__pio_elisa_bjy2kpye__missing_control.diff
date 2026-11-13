@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_elisa_bjy2kpye (clean)
++++ google_gemini-35-flash-lite/pio_elisa_bjy2kpye (defect)
+@@ -8,3 +8,3 @@
+ 8. Perform a further washing procedure using the same buffer.
+-9. Add the reactive substrate solution and allow color to develop in the positive controls.
++9. 
+ 10. Stop the reaction by adding 3M H2SO4.

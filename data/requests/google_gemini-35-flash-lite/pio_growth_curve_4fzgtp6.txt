@@ -1,0 +1,9 @@
+Please run liquid growth assays and subsequent mathematical modelling on our submitted Aspergillus and filamentous fungi samples using the following procedure. 
+
+Set up the cultures in 96-well plates to generate high-throughput growth curves in liquid media, ensuring each plate runs a full 96-well layout per run. 
+
+Name and format the raw data output files according to the exact replicate naming convention required for downstream analysis (e.g., `plate1-Rep1.txt`, `plate1-Rep2.txt`, etc.), ensuring well positions remain identical across replicate files (e.g., A5 maps to A5, B2 maps to B2). 
+
+Process the raw data files in R Studio using the BEAST-compatible formatting workflow to merge separate replicate files into a single dataframe list object (`myDataList`), making sure the dimensions appropriately correspond to time-points and series as specified in the BEAST package specifications. 
+
+Install the BEAST package from CRAN and run the MCMC sampler via the `beast()` function using our formatted `myDataList`. Generate and export the output summaries, including printing the results and saving the final clustered growth curves and change-point plots as a PDF file named `beast_plot_fungal_data.pdf` with a 1/6 time scale in hours.

@@ -1,0 +1,101 @@
+Please perform the following procedures on our samples and report all raw data, images, and quantified results in a spreadsheet that we can import into GraphPad Prism.
+
+1. **Hydrogel preparation**
+ 1.1. Dissolve 50 mg GelMA in 1 mL PBS containing 0.05 g LAP (photoinitiator) under heat and shaking until fully dissolved. 
+ 1.2. Filter the solution through a 0.22 µm filter, keep sterile, and set aside for gelation. 
+ 1.3. For the alogliptin‑loaded hydrogel, add 7.5 mg alogliptin to the same 50 mg GelMA solution so the final alogliptin concentration is 7.5 mg mL⁻¹. Filter again. 
+ 1.4. For each hydrogel (plain GelMA and GelMA + A), pipette 1 mL into a 6‑well plate and UV‑photocure (λ ≈ 365 nm) for 30 s. 
+ 1.5. Record the weight immediately after curing and after 24 h of freeze‑drying (vacuum freeze‑drier). Do this for three replicates per group.
+
+2. **Scanning electron microscopy (SEM)**
+ 2.1. Take 1 mL aliquots of each hydrogel, cryo‑freeze at –80 °C overnight, then freeze‑dry for 48 h. 
+ 2.2. Cut the dried hydrogels into ~1 mm³ blocks, mount on a SEM stub, sputter‑coat with gold (thickness 5–10 nm). 
+ 2.3. Capture surface micrographs at 2000× and 5000× magnification, saving raw images for later analysis of morphology and pore structure.
+
+3. **Alogliptin release (ELISA)**
+ 3.1. Place each cured hydrogel (1 mL) in a 15 mL tube with 10 mL PBS (pH 7.4) and incubate at 37 °C with gentle shaking. 
+ 3.2. At days 15, 17, and 20, centrifuge at 6000 rpm, collect the supernatant, store at –80 °C. 
+ 3.3. Replace with fresh 10 mL PBS for the next time point. 
+ 3.4. After all time points, photocure the remaining hydrogels again, collect the last supernatant, and store. 
+ 3.5. Perform ELISA for alogliptin using a commercially available kit; generate a standard curve and calculate cumulative release over 20 days.
+
+4. **T2DM rat model induction (40 male Sprague–Dawley, 12–13 weeks, 300 ± 30 g)**
+ 4.1. Feed high‑carbohydrate/high‑fat diet (DOSSY, Chengdu) for 4 weeks. 
+ 4.2. After 1 week of acclimation, inject STZ 35 mg kg⁻¹ intraperitoneally. 
+ 4.3. After 7 days, check fasting blood glucose; only rats >16.7 mmol L⁻¹ are considered diabetic. 
+ 4.4. Randomly assign diabetic rats into 3 groups (T, A, M) with 7 rats each. 
+ 4.5. Administer 10 mM alogliptin (A), 10 mM metformin (M), or saline (T) by oral gavage daily for 4 weeks.
+
+5. **Surgical implant placement**
+ 5.1. Under general anesthesia (45 mg kg⁻¹ pentobarbital, 1 %), make a longitudinal incision over the posterior lateral femur, expose the intercondylar fossa. 
+ 5.2. Use a sterile dental bur and continuous saline irrigation to drill a standardized implant bed for a 3 × 1.5 mm titanium implant (Shandong Hengtai). 
+ 5.3. Place the implant, close muscle, subcutaneous tissue, and skin in layers, suture securely. 
+ 5.4. Provide 3 days of postoperative antibiotics. 
+ 5.5. For the second surgical study, create two additional groups (GelMA, GelMA + A) with 7 rats each: inject 10 µL of the respective hydrogel into the implant bed before implant placement. 
+ 5.6. Euthanize all rats at 8 weeks (150–200 mg kg⁻¹ pentobarbital IP), harvest femurs with implants.
+
+6. **Micro‑CT imaging**
+ 6.1. Scan each femur with a FineTec micro‑CT system: 80 kV, 70 µA, 1440 projections, 10.425 µm voxel size, 500 ms integration time. 
+ 6.2. Reconstruct 3‑D images in VG Studio MAX 3.5, define a 100 µm annular ROI around the implant. 
+ 6.3. Quantify BV/TV, trabecular number, and thickness; export data.
+
+7. **Alizarin‑Red labeling**
+ 7.1. Inject 30 mg kg⁻¹ Alizarin Red IP 10 days before euthanasia. 
+ 7.2. Section femurs into 50 µm slices (Finesse microtome), visualize fluorescence (Zeiss Axio Imager), record new bone formation.
+
+8. **Histology & immunostaining**
+ 8.1. Decalcify, embed in resin, cut 250–300 µm longitudinal sections. 
+ 8.2. Stain with HE, Masson, Safranin O/Fast Green, Van Gieson, Toluidine Blue (protocols as in the protocol). 
+ 8.3. Perform immunofluorescence for GLP‑1R, β‑catenin, GSK‑3β (1:100 antibodies, overnight incubation at 4 °C, 1 h goat‑IgG secondary, DAPI). 
+ 8.4. Perform immunohistochemistry for RUNX2, BMP2, ALP (antigen retrieval, HRP secondary, DAB, hematoxylin counterstain). 
+ 8.5. Capture images with Olympus upright microscope; quantify staining intensity (ImageJ) and bone‑implant contact percentages.
+
+9. **In‑vitro assays**
+ 9.1. **Cell isolation & culture** 
+ - BMSCs from SD rat marrow: RPMI‑1640 + 10 % FBS + 1 % pen/strep, 5 % CO₂, 37 °C. 
+ - BMMs: DMEM‑high glucose + 10 % FBS, add 10 ng mL⁻¹ M‑CSF and 200 ng mL⁻¹ LPS to induce M1 phenotype. 
+ - HUVECs: Medium 200 + 2 % LSGS. 
+ 9.2. **Flow cytometry** 
+ - BMSCs: CD29, CD90 positive; CD34 negative. 
+ - BMMs: CD11b positive. 
+ - HUVECs: morphology and VE‑cadherin. 
+ 9.3. **Cell viability (CCK‑8)** 
+ - Seed cells in 96‑well plates at 5 × 10⁴ cells mL⁻¹. 
+ - Treat with 100 nM alogliptin, 200 µM metformin, or vehicle for 48 h. 
+ - Measure OD450 after CCK‑8 reagent. 
+ 9.4. **ELISA** 
+ - After 48 h treatment, collect supernatants and assay VEGF, TNF‑α, IL‑10 (Beyotime kits). 
+ 9.5. **Adhesion & proliferation** 
+ - Plate 2 × 10⁵ cells cm⁻² in 48‑well plates, treat as above, fix after 24 h, stain Ki‑67 and FITC‑phalloidin, image (Nikon Ti). 
+ 9.6. **Osteogenic differentiation** 
+ - Seed 2 × 10⁵ cells cm⁻² in 6‑well plates; after 3 days, switch to OIM (10 % FBS, 0.001 mM dexamethasone, 10 mM β‑glycerophosphate, 0.05 mM ascorbate‑2‑phosphate). 
+ - Change medium every 3 days. 
+ - ALP staining after 7 days (Jiancheng kit); quantify activity with ALP kit (#A059‑2). 
+ - Alizarin Red staining after 21 days; solubilize with 10 % cetylpyridinium chloride, measure absorbance at 562 nm. 
+ 9.7. **Tube formation** 
+ - Coat 48‑well plates with 200 µL Matrigel per well (pre‑chilled). 
+ - Seed HUVECs (experimental: alogliptin; control: vehicle) at 1 × 10⁵ cells mL⁻¹, incubate 4–6 h, image tube networks. 
+ 9.8. **qRT‑PCR** 
+ - After 14 days osteogenic induction, isolate total RNA (TRIzol), quantify OD260/280 (1.8–2.1). 
+ - Reverse‑transcribe to cDNA (iScript). 
+ - Run qPCR on ABI 7300/7500 using TB Green, 45 cycles (95 °C 95 s, 95 °C 5 s, 60 °C 34 s). 
+ - Primers: Runx2, Osterix, ALP, OCN, β‑catenin, GSK‑3β, Wnt3a, Axin2, GAPDH. 
+ - Calculate relative expression (2^–ΔΔCt). 
+ - Perform each sample in triplicate (technical) and three independent biological replicates.
+
+10. **Statistical analysis**
+ 10.1. Use GraphPad Prism 9.0. 
+ 10.2. For all group comparisons, perform one‑way ANOVA followed by Tukey’s post‑hoc test. 
+ 10.3. Present data as mean ± SD. 
+ 10.4. Significance set at p < 0.05.
+
+**Deliverables** 
+- Raw weights and SEM images for hydrogel equilibrium test. 
+- Release profile plot (days vs. cumulative alogliptin released). 
+- Micro‑CT datasets and BV/TV, Tb.N, Tb.Th values per rat. 
+- Fluorescent micrographs of Alizarin‑Red labeling. 
+- Histology images and quantified bone‑implant contact percentages. 
+- Flow cytometry plots, viability OD values, ELISA concentrations, adhesion images, ALP activity, alizarin red quantification, tube‑formation images, and qRT‑PCR Ct tables. 
+- A final report summarizing all quantitative results, statistical significance, and any notable observations. 
+
+Please use the reagents and equipment listed above, keep detailed lab notebooks, and contact me if any clarification is needed. Thank you.

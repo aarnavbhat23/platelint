@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/elisa_PMC13413905 (clean)
++++ groq_openai-gpt-oss-120b/elisa_PMC13413905 (defect)
+@@ -23,3 +23,3 @@
+    a. Instrument: Agilent 1290 Infinity UHPLC + Agilent 6460 triple‑quadrupole (Jet Stream ESI).  
+-   b. Column: Waters BEH C18, 1.7 µm, 2.1 × 100 mm, maintained at 40 °C.  
++   b. Column: Waters BEH C18, 1.7 µm, 2.1 × 100 mm, maintained at 75 °C.  
+    c. Mobile phase A = 0.1 % formic acid in water; mobile phase B = methanol.  

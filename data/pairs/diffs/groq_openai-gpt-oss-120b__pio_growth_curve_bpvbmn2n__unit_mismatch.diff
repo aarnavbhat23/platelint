@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/pio_growth_curve_bpvbmn2n (clean)
++++ groq_openai-gpt-oss-120b/pio_growth_curve_bpvbmn2n (defect)
+@@ -16,3 +16,3 @@
+ 4. Sampling schedule:
+-   - Immediately after inoculation (time 0), withdraw 100 µL of culture, transfer to a well of the black 96‑well plate, and measure absorbance and fluorescence as described below.
++   - Immediately after inoculation (time 0), withdraw 100 mL of culture, transfer to a well of the black 96‑well plate, and measure absorbance and fluorescence as described below.
+    - Continue sampling at least once per day for the next 168 h (7 days).  

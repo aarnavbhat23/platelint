@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/elisa_PMC13519604 (clean)
++++ groq_openai-gpt-oss-120b/elisa_PMC13519604 (defect)
+@@ -6,3 +6,3 @@
+    - Resuspend in complete DMEM, add M‑CSF to a final 20–40 ng/mL, and seed 25–35 × 10⁶ cells per 15 cm dish in 20 mL.  
+-   - Incubate 37 °C, 5 % CO₂ for 5 days.  
++   - Incubate 37 °C, 5 % CO₂ for 5 days, and hold the plate at 4 °C for the whole of this step.
+    - On day 5 detach with cold detachment buffer (PBS + 10 % FBS + 4 mL 0.2 M EDTA per 500 mL), incubate 4 °C 20 min, collect, count, and re‑plate at the densities listed below (rest 16–18 h in complete DMEM without M‑CSF before any stimulation):

@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_viability_n92ldorxxg5b-v1 (clean)
++++ google_gemini-35-flash-lite/pio_viability_n92ldorxxg5b-v1 (defect)
+@@ -12,3 +12,3 @@
+ 
+-Allow cells to attach for 24 h at 37 °C and 5% CO₂. Gently aspirate the medium and apply 100 µL of the assigned treatment solutions (T1–T7, U, VC) or matched cell-free blanks at their final concentrations. Incubate for 24 h at 37 °C and 5% CO₂. For PC and BPC wells, replace the medium at 23 h 45 min with 90 µL treatment medium and 10 µL of 1% Triton X-100 working solution for the final 15 min.
++Allow cells to attach for 24 h at 37 °C and 5% CO₂. Gently aspirate the medium and apply 100 µL of the assigned treatment solutions (T1–T7, U, VC) or matched cell-free blanks at their final concentrations. Incubate for 24 h at 37 °C and 5% CO₂, and hold the plate at 4 °C for the whole of this step. For PC and BPC wells, replace the medium at 23 h 45 min with 90 µL treatment medium and 10 µL of 1% Triton X-100 working solution for the final 15 min.
+ 

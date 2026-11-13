@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/qpcr_PMC13598650 (clean)
++++ google_gemini-35-flash-lite/qpcr_PMC13598650 (defect)
+@@ -34,3 +34,3 @@
+ - Transfect cells with 1.0 μg 3CLpro-SL1-FlipNanoLuc reporter plasmid using 3 μL PEI MAX in 100 μL Opti-MEM per well. Incubate for 24 h.
+-- Aspirate transfection medium completely, wash once with plain MEM, and infect with SARS-CoV-2 inocula at MOI 1, 3, 5, or 10 in 100 μL plain MEM (or plain MEM for mock). Adsorb for 3 h at 37 °C.
++- Aspirate transfection medium completely, wash once with plain MEM, and infect with SARS-CoV-2 inocula at MOI 1, 3, 5, or 10 in 5700 µL plain MEM (or plain MEM for mock). Adsorb for 3 h at 37 °C.
+ - Aspirate inoculum, add 500 μL complete MEM, and incubate for 24 h at 37 °C.

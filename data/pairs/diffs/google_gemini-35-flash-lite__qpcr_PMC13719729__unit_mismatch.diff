@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/qpcr_PMC13719729 (clean)
++++ google_gemini-35-flash-lite/qpcr_PMC13719729 (defect)
+@@ -4,3 +4,3 @@
+ 
+-3. Cryopreserve iPSC cultures at 60–75% confluence by rinsing with DPBS -/-, incubating with 0.5 mM EDTA for 2–3 min, and resuspending each well in 2 mL of Complete E8 medium with 10% DMSO. Aliquot 1 mL per cryovial, place them in a freezing container at −80 °C for 24–48 hours, and transfer to long-term storage below −140 °C.
++3. Cryopreserve iPSC cultures at 60–75% confluence by rinsing with DPBS -/-, incubating with 0.5 mM EDTA for 2–3 min, and resuspending each well in 2 µL of Complete E8 medium with 10% DMSO. Aliquot 1 mL per cryovial, place them in a freezing container at −80 °C for 24–48 hours, and transfer to long-term storage below −140 °C.
+ 

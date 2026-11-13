@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/elisa_PMC13401283 (clean)
++++ groq_openai-gpt-oss-20b/elisa_PMC13401283 (defect)
+@@ -19,3 +19,3 @@
+ 
+-6. **Antibody extraction** – Use the Panthera‑Puncher 9 Instrument to punch three 3.2 mm discs from each DBS card (unless otherwise indicated). Place discs in a barcoded 96‑well plate. Dispense 80 µL of elution buffer into each well (Integra Voyager multichannel pipettes, adjustable tip spacing). Shake on the MIUlab ES‑60E at 37 °C, 300 rpm for 1 h. Transfer the eluate into Roche 13/16 micro sample cups (Roche 05085713001).
++6. **Antibody extraction** – Use the Panthera‑Puncher 9 Instrument to punch three 3.2 mm discs from each DBS card (unless otherwise indicated). Place discs in a barcoded 96‑well plate. Dispense 80 µL of elution buffer into each well (Integra Voyager multichannel pipettes, adjustable tip spacing). Shake on the MIUlab ES‑60E at 37 °C, 300 rpm for 1 h, and hold the plate at 4 °C for the whole of this step. Transfer the eluate into Roche 13/16 micro sample cups (Roche 05085713001).
+ 

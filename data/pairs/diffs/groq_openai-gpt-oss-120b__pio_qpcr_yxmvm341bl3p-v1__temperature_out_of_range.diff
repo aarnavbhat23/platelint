@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/pio_qpcr_yxmvm341bl3p-v1 (clean)
++++ groq_openai-gpt-oss-120b/pio_qpcr_yxmvm341bl3p-v1 (defect)
+@@ -34,3 +34,3 @@
+ 6. **Centrifugation**:
+-   - Spin the sealed plate for **5 min at 3500 rpm, 4 °C**.
++   - Spin the sealed plate for **5 min at 3500 rpm, -80 °C**.
+    - While the plate is spinning, open the ABI SDS software and load the “SDS 2.3” method (keep the plate in the centrifuge until you are ready to start the run).

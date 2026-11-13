@@ -1,0 +1,53 @@
+We have a set of vaginal DNA extracts that need to be quantified for four Lactobacillus species (L. crispatus, L. gasseri, L. iners, L. jensenii) by SYBR‑based qPCR. Please follow the steps below using the reagents and equipment listed.
+
+1. **Primers** – Use the species‑specific primer pairs published by Backer et al. (2007) for each of the four Lactobacillus targets.
+
+2. **Initial PCR & product purification**  
+   a. Randomly select a subset of our vaginal DNA extracts (≈10 % of the total) and set up conventional PCR reactions for each species with the corresponding primer pair.  
+   b. Run the PCR products on a 1.5 % agarose gel, visualize bands, and excise the correct‑size bands.  
+   c. Purify the excised DNA using a gel‑extraction kit (any commercial kit is fine) and elute in 30 µL TE or nuclease‑free water.
+
+3. **Cloning of PCR products**  
+   a. Clone each purified amplicon into the pEASY‑R‑T1 vector using the pEASY‑R‑T1 Cloning Kit (Transgen Biotech). Follow the kit protocol for ligation and transformation into DH5α cells.  
+   b. Pick at least three colonies per construct, isolate plasmid DNA (mini‑prep), and confirm the insert by Sanger sequencing using the vector primers.  
+   c. Quantify the confirmed plasmids with a Qubit dsDNA HS assay.  
+
+4. **Prepare serial‑dilution standards**  
+   a. Dilute each plasmid in nuclease‑free water to generate six 10‑fold serial dilutions (e.g., 10⁰, 10⁻¹, …, 10⁻⁵).  
+   b. Calculate copies/µL for each dilution using:  
+
+      \[
+      \text{copies/µL} = \frac{\text{DNA concentration (ng/µL)}}{\text{(bp × 324 mg/mol)}} \times 6 \times 10^{14}
+      \]
+
+      Use the following amplicon lengths (bp):  
+      - L. iners: 4082  
+      - L. jensenii: 4013  
+      - L. crispatus: 4082  
+      - L. gasseri: 4251  
+
+   c. Record the calculated copy numbers; these will serve as the standard curve for each species.
+
+5. **qPCR set‑up**  
+   a. Use SYBR Premix Ex Taq GC (TAKARA). For each 20 µL reaction mix add:  
+      - 10 µL 2× SYBR Premix Ex Taq GC  
+      - 0.2 µM forward primer (adjust volume accordingly)  
+      - 0.2 µM reverse primer  
+      - 1.6 µL template (DNA extract or standard)  
+      - Nuclease‑free water to a final volume of 20 µL (≈8.2 µL water).  
+   b. Run each reaction in triplicate. Include:  
+      - All our vaginal DNA samples (one reaction per species)  
+      - The six plasmid standards for each species  
+      - A no‑template control (ddH₂O).  
+
+6. **qPCR cycling conditions** – Run on the StepOnePlus Real‑time PCR System (Life Technologies) using the cycling program from the original protocol (same annealing temperature and melt‑curve steps). Ensure that the standard curve for each species yields:  
+   - Amplification efficiency 90–110 %  
+   - R² ≥ 0.99  
+
+   If any sample falls outside the linear range, dilute that sample ten‑fold and repeat in triplicate.
+
+7. **Data analysis**  
+   a. Generate standard curves from the plasmid dilutions and calculate the copy number (log₁₀ copies/mL) for each vaginal sample.  
+   b. Report the average of the triplicates for each sample/species.
+
+Please let us know if any reagents are unavailable or if you need additional details (e.g., primer sequences, exact thermocycler program). Thank you.

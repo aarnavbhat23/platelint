@@ -1,0 +1,25 @@
+Please process our grey wolf hair samples to determine cortisol (CORT) and cortisone (CORN) levels using the following protocol:
+
+1. Sample Pretreatment and Homogenization
+   - Wash 35 mg of each hair sample by manually shaking with 5 mL of isopropanol for 3 min. Repeat this washing step twice using fresh isopropanol each time.
+   - Leave the washed hair to dry overnight at room temperature.
+   - Cut the dried hair into approximately 2 mm fragments using surgical scissors.
+   - Weigh exactly 35 mg of each fragmented sample into a Falcon tube, add five steel balls, and grind using a homogenizer for 5 min (five 30 s cycles with intervals) at 10 °C with cooling.
+
+2. Sample Preparation for UHPLC-ESI-MS/MS
+   - Incubate the powdered hair samples in 1 mL of methanol containing 15 ng/mL of isotopically labelled internal standards (CORT-D4 and CORN-D8) for 24 h at 70 rpm and room temperature.
+   - Centrifuge the samples for 10 min at 13,000 rpm.
+   - Transfer 800 µL of the supernatant to a new tube and evaporate to dryness.
+   - Reconstitute the dried residue in 1 mL of LC-MS-grade water and ultrasonicate for 2 min.
+   - Purify the samples using an automated SPE system with Strata-X cartridges (30 mg): condition with 1 mL of methanol, equilibrate with 1 mL of water, load 1 mL of sample, wash with 1 mL of water, and elute analytes with 1 mL of methanol.
+   - Concentrate the eluate to 200 µL, transfer to a glass chromatography vial, and analyze in triplicate injections.
+
+3. UHPLC-ESI-MS/MS Analysis
+   - Perform chromatographic separation at 40 °C using a BEH C18 1.7 µm column (2.1 x 100 mm) with a flow rate of 0.2 mL/min. Use 0.1% formic acid in water as solvent A and methanol as solvent B.
+   - Run the gradient: 0–4 min, 20–60% B; 4–5 min, 60% B; 5–7 min, 60–70% B; 7–9 min, 70% B (2 min post-run).
+   - Use a 5 µL injection volume and acquire data in positive ionization dMRM mode using the specified transitions and source parameters for CORT, CORT-D4, CORN, and CORN-D8.
+
+4. CORT Determination by ELISA (Comparative Analysis)
+   - Weigh 35 mg of powdered hair into a tube, mix with 1.8 mL of methanol, vortex, and incubate overnight on an orbital shaker.
+   - Centrifuge the tubes and evaporate the recovered supernatant to dryness under a gentle stream of nitrogen at 75 °C.
+   - Reconstitute the dried extracts in 400 µL of ELISA Buffer, vortex, and quantify CORT using the Cayman Chemical Cortisol ELISA Kit (Cat. No. 500360) according to the manufacturer's instructions, reading absorbance at 410 nm.

@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/elisa_PMC13413905 (clean)
++++ groq_openai-gpt-oss-20b/elisa_PMC13413905 (defect)
+@@ -7,3 +7,3 @@
+    - Strata‑X SPE cartridges, 30 mg sorbent, 8B‑S100‑TAK (Phenomenex).  
+-   - 1 mL methanol for extraction, 1 mL water for equilibrations.  
++   - 1 mL methanol for extraction, 1 µL water for equilibrations.  
+    - ELISA kit: Cortisol ELISA Kit (Cayman Chemical, Cat. No. 500360).

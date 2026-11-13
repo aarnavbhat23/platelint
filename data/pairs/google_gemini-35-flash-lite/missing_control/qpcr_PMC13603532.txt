@@ -1,0 +1,24 @@
+Please process our 89 pig caecal content samples and 68 carcass skin swab samples according to the following protocol for bacterial enumeration, DNA extraction, and qPCR analysis.
+
+For the 89 caecal samples (~35 g each), add 1 g of each sample to 9 mL of buffered peptone water (BPW) (Oxoid CM0509), vortex thoroughly, and prepare a 10-fold dilution series in 0.9% NaCl. Store 1 mL of the 10⁻¹ dilution at −20 °C for subsequent qPCR. 
+
+For the 68 skin swab samples (collected using 10 × 10 cm gauze moistened with 15 mL BPW), transfer each gauze to a stomacher bag with 85 mL of BPW, knead for 2 min, and prepare a 10-fold dilution series in 0.9% NaCl. Store 10 mL of this initial dilution at −20 °C for subsequent qPCR.
+
+Enumerate total E. coli, Enterobacteriaceae, and tetracycline-resistant E. coli from the appropriate dilutions using Petrifilm plates (Neogen Petrifilm Select E. coli SEC and Enterobacteriaceae EB). For tetracycline-resistant E. coli, add 25 µL of a tetracycline solution (Sigma-Aldrich T3383) to 1 mL of sample dilution before plating to achieve a final concentration of 64 mg/L in the SEC plates (add 25 µL of 0.9% NaCl instead for total E. coli and Enterobacteriaceae). Incubate all Petrifilm plates at 37 °C for 16–18 h and record counts.
+
+Thaw the stored sample dilutions at 5 °C and extract genomic DNA using the DNeasy PowerLyzer PowerSoil Kit (Qiagen 12855). Centrifuge 0.5 mL of the caecal 10⁻¹ dilutions at 13,000 rpm for 5 min, and 10 mL of the skin swab initial dilutions at 10,000 rpm. Resuspend the resulting pellets in 750 µL Power Beads solution and 60 µL C1 reagent, then proceed according to the manufacturer's instructions. Elute the DNA in 100 µL and store at −20 °C.
+
+Perform qPCR assays on a Stratagene MX3005P instrument using 96-well plates with optical strip caps. Quantify total E. coli via the uidA gene for all 89 caecal and 68 skin swab samples. Quantify tetracycline resistance genes (tetA and tetB) for the subset of samples that yielded measurable tetracycline-resistant E. coli on Petrifilms (75 caecal and 30 skin swab samples). 
+
+Each 25 µL qPCR reaction must contain:
+- 1× TaqMan Environmental Master Mix (Applied Biosystems 4396838)
+- 0.5 µM forward and reverse primers (LGC Biosearch)
+- 0.2 µM probe (LGC Biosearch)
+- 5 µL of sample DNA
+
+Use the primers and probes detailed below:
+- uidA: Forward (CGGAAGCAACGCGTAAACTC), Reverse (TGAGCGTCGCAGAACATTACA), Probe (FAM-CGCGTCCGATCACCTGCGTC-TAMRA)
+- tetA: Forward (TTGGCATTCTGCATTCACTC), Reverse (GAAGGCAAGCAGGATGTAGC), Probe (FAM-GATCACCGGCCCTGTAGCCG-BHQ)
+- tetB: Forward (TTACGTGAATTTATTGCTTCGG), Reverse (ATACAGCATCCAAAGCGCAC), Probe (FAM-CGCCGACCAAATCGGTCAGA-BHQ-1)
+
+Run the thermal cycling conditions as follows: polymerase activation at 95 °C for 10 min, followed by 45 cycles of 95 °C for 15 s and 60 °C for 1 min. Ensure the manual Ct threshold is set consistently using the positive control across all runs.

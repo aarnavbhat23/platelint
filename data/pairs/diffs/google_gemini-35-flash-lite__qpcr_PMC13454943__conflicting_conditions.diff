@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/qpcr_PMC13454943 (clean)
++++ google_gemini-35-flash-lite/qpcr_PMC13454943 (defect)
+@@ -21,3 +21,3 @@
+    - Stain with anti-CD69-APC (1:10 dilution) and PE mouse IgG1 isotype control (1:20 dilution) to reach final working concentrations of 5 µg/mL in 100 µL total volume.
+-   - Incubate at 4 °C for 1 hour on an orbital shaker at 575 rpm, protected from light.
++   - Incubate at 4 °C for 1 hour on an orbital shaker at 575 rpm, protected from light, and hold the plate at 37 °C for the whole of this step.
+    - Wash twice with PBS, resuspend in 150 µL PBS, and acquire a minimum of 10,000 events per sample on a CytoFLEX S flow cytometer to measure CD69 mean fluorescence intensity.

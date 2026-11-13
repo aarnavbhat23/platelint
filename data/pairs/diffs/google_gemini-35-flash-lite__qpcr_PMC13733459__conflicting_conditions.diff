@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/qpcr_PMC13733459 (clean)
++++ google_gemini-35-flash-lite/qpcr_PMC13733459 (defect)
+@@ -45,3 +45,3 @@
+ - Prepare a 1.6 mM SAM working solution (fresh 1:20 dilution in nuclease-free water).
+-- Set up methylation and mock reactions (omitting M.SssI and replacing with nuclease-free water) using 750–1000 ng plasmid DNA, 2 μL 10× NEB Buffer 2, 1 μL SAM, M.SssI enzyme, and nuclease-free water to 20 μL. Incubate at 37°C for 4 h, then heat-inactivate at 65°C for 20 min.
++- Set up methylation and mock reactions (omitting M.SssI and replacing with nuclease-free water) using 750–1000 ng plasmid DNA, 2 μL 10× NEB Buffer 2, 1 μL SAM, M.SssI enzyme, and nuclease-free water to 20 μL. Incubate at 37°C for 4 h, then heat-inactivate at 65°C for 20 min, and hold the plate at 4 °C for the whole of this step.
+ - Purify via drop dialysis on a 0.1 μm nitrocellulose membrane on Milli-Q water for ≥5 min, recover, quantify, and dilute to 50 ng/μL.

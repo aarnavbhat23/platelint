@@ -1,0 +1,116 @@
+--- groq_openai-gpt-oss-20b/elisa_PMC13418581 (clean)
++++ groq_openai-gpt-oss-20b/elisa_PMC13418581 (defect)
+@@ -2,62 +2,62 @@
+ 
+-1. **Recombinant MEAET Production**  
+-   - Codon‑optimized MEAET gene (SEQ ID NO: 1) is already available.  
+-   - Transform E. coli BL21(DE3) with the plasmid.  
+-   - Grow in LB + 100 µg mL⁻¹ ampicillin to OD₆₀₀ = 0.4–0.6.  
+-   - Induce with 500 µM IPTG, 16 °C, 120 rpm, 18 h.  
+-   - Harvest, lyse by sonication, purify GST‑MEAET on glutathione agarose, digest GST with thrombin, and dialyze into PBS.  
+-   - Verify purity by SDS‑PAGE, determine concentration by BCA, aliquot, and store at –80 °C.
++1. **Recombinant MEAET Production** 
++ - Codon‑optimized MEAET gene (SEQ ID NO: 1) is already available. 
++ - Transform E. coli BL21(DE3) with the plasmid. 
++ - Grow in LB + 100 µg mL⁻¹ ampicillin to OD₆₀₀ = 0.4–0.6. 
++ - Induce with 500 µM IPTG, 16 °C, 120 rpm, 18 h. 
++ - Harvest, lyse by sonication, purify GST‑MEAET on glutathione agarose, digest GST with thrombin, and dialyze into PBS. 
++ - Verify purity by SDS‑PAGE, determine concentration by BCA, aliquot, and store at –80 °C.
+ 
+-2. **Hyperimmune Serum Generation**  
+-   - Emulsify purified MEAET with ISA 206 VG adjuvant 1:1 (v/v).  
+-   - Immunize 3 SPF piglets (30 days old) via multiple‑site intramuscular injection.  
+-   - Primary dose: 1 mg per piglet.  
+-   - Boosters: 2 mg per piglet every 10 days, total of 3 immunizations.  
+-   - Collect pre‑immune serum (negative control) and post‑immunization serum when titers reach >1:102 400 (by ELISA).  
+-   - Separate serum, aliquot 0.5 mL, seal, and store at –40 °C.
++2. **Hyperimmune Serum Generation** 
++ - Emulsify purified MEAET with ISA 206 VG adjuvant 1:1 (v/v). 
++ - Immunize 3 SPF piglets (30 days old) via multiple‑site intramuscular injection. 
++ - Primary dose: 1 mg per piglet. 
++ - Boosters: 2 mg per piglet every 10 days, total of 3 immunizations. 
+ 
+-3. **Indirect ELISA Protocol**  
+-   - Coat 96‑well plates with 100 µL/well of MEAET (final concentration 5 µg mL⁻¹) in carbonate‑bicarbonate buffer, pH 9.6. Incubate 1 h @ 37 °C, then 4 °C overnight.  
+-   - Wash 3× with PBST (PBS + 0.05 % Tween‑20).  
+-   - Block 200 µL/well with 5 % skim milk in PBST, 37 °C 2 h, wash 3×.  
+-   - Add 100 µL of each serum diluted 1:400 in PBST, incubate 1 h @ 37 °C.  
+-   - Wash 3× PBST, add 100 µL HRP‑conjugated goat anti‑pig IgG (1:10 000 in PBST), incubate 1 h @ 37 °C.  
+-   - Wash 5× PBST, add 100 µL TMB substrate, 15 min @ 37 °C in dark, stop with 50 µL 2 M H₂SO₄.  
+-   - Read OD₄₅₀ (microplate reader).  
++ - Separate serum, aliquot 0.5 mL, seal, and store at –40 °C.
+ 
+-4. **Cut‑off Determination**  
+-   - Test the 24 confirmed negative sera (no MEAET reactivity by Western blot).  
+-   - Calculate mean OD + 3 SD; convert to S/P ratio.  
+-   - Set S/P ≥ 0.203 as positive; S/P < 0.203 as negative.
++3. **Indirect ELISA Protocol** 
++ - Coat 96‑well plates with 100 µL/well of MEAET (final concentration 5 µg mL⁻¹) in carbonate‑bicarbonate buffer, pH 9.6. Incubate 1 h @ 37 °C, then 4 °C overnight. 
++ - Wash 3× with PBST (PBS + 0.05 % Tween‑20). 
++ - Block 200 µL/well with 5 % skim milk in PBST, 37 °C 2 h, wash 3×. 
++ - Add 100 µL of each serum diluted 1:400 in PBST, incubate 1 h @ 37 °C. 
++ - Wash 3× PBST, add 100 µL HRP‑conjugated goat anti‑pig IgG (1:10 000 in PBST), incubate 1 h @ 37 °C. 
++ - Wash 5× PBST, add 100 µL TMB substrate, 15 min @ 37 °C in dark, stop with 50 µL 2 M H₂SO₄. 
++ - Read OD₄₅₀ (microplate reader). 
+ 
+-5. **Sensitivity Assessment**  
+-   - Perform two‑fold serial dilutions of 3 known positive sera (1:100 to 1:12 800).  
+-   - Run ELISA; highest dilution with S/P ≥ 0.203 defines analytical sensitivity.
++4. **Cut‑off Determination** 
++ - Test the 24 confirmed negative sera (no MEAET reactivity by Western blot). 
++ - Calculate mean OD + 3 SD; convert to S/P ratio. 
++ - Set S/P ≥ 0.203 as positive; S/P < 0.203 as negative.
+ 
+-6. **Specificity Assessment**  
+-   - Test the 3 positive sera plus the following organisms at 1:200 dilution (triplicate): Salmonella spp., Pasteurella multocida, Clostridium perfringens, Listeria monocytogenes, Campylobacter jejuni, Streptococcus suis, E. coli K‑12, PEDV, PDCoV.  
+-   - Include positive (hyperimmune serum) and negative (confirmed negative sera) controls.
++5. **Sensitivity Assessment** 
++ - Perform two‑fold serial dilutions of 3 known positive sera (1:100 to 1:12 800). 
++ - Run ELISA; highest dilution with S/P ≥ 0.203 defines analytical sensitivity.
+ 
+-7. **Sample Testing**  
+-   - Use the following panels: 16 confirmed positives, 47 diarrheal pig sera, 106 asymptomatic pig sera, 24 negative controls.  
+-   - Perform ELISA as described, record OD₄₅₀, compute S/P, classify each sample.  
++6. **Specificity Assessment** 
++ - Test the 3 positive sera plus the following organisms at 1:200 dilution (triplicate): Salmonella spp., Pasteurella multocida, Clostridium perfringens, Listeria monocytogenes, Campylobacter jejuni, Streptococcus suis, E. coli K‑12, PEDV, PDCoV. 
++ - Include positive (hyperimmune serum) and negative (confirmed negative sera) controls.
+ 
+-8. **Data Analysis**  
+-   - Compile all OD values and S/P ratios in an Excel file: columns – Sample ID, OD₄₅₀, S/P, Result (Positive/Negative).  
+-   - Use Python (3.10.1) with matplotlib (3.11.0) to plot ROC curve; determine optimal cut‑off by Youden index; calculate sensitivity, specificity, AUC.  
+-   - Compute repeatability and reproducibility CVs from triplicate runs; use standard formulas.  
++7. **Sample Testing** 
++ - Use the following panels: 16 confirmed positives, 47 diarrheal pig sera, 106 asymptomatic pig sera, 24 negative controls. 
++ - Perform ELISA as described, record OD₄₅₀, compute S/P, classify each sample. 
+ 
+-9. **Deliverables**  
+-   - Purified MEAET protein (catalogue number, concentration, lot).  
+-   - Hyperimmune serum (volume, titer).  
+-   - Raw ELISA data (Excel), OD₄₅₀, S/P, classification.  
+-   - ROC analysis report (PDF).  
+-   - Sensitivity, specificity, CVs in a summary table.  
++8. **Data Analysis** 
++ - Compile all OD values and S/P ratios in an Excel file: columns – Sample ID, OD₄₅₀, S/P, Result (Positive/Negative). 
++ - Use Python (3.10.1) with matplotlib (3.11.0) to plot ROC curve; determine optimal cut‑off by Youden index; calculate sensitivity, specificity, AUC. 
++ - Compute repeatability and reproducibility CVs from triplicate runs; use standard formulas. 
+ 
+-**Materials to provide**:  
+-- Codon‑optimized MEAET plasmid.  
+-- ISA 206 VG adjuvant.  
+-- GST‑purification kit, thrombin.  
+-- 96‑well plates, carbonate‑bicarbonate buffer, PBST, skim milk, TMB, HRP‑conjugated goat anti‑pig IgG.  
+-- Access to a microplate reader.  
++9. **Deliverables** 
++ - Purified MEAET protein (catalogue number, concentration, lot). 
++ - Hyperimmune serum (volume, titer). 
++ - Raw ELISA data (Excel), OD₄₅₀, S/P, classification. 
++ - ROC analysis report (PDF). 
++ - Sensitivity, specificity, CVs in a summary table. 
++
++**Materials to provide**: 
++- Codon‑optimized MEAET plasmid. 
++- ISA 206 VG adjuvant. 
++- GST‑purification kit, thrombin. 
++- 96‑well plates, carbonate‑bicarbonate buffer, PBST, skim milk, TMB, HRP‑conjugated goat anti‑pig IgG. 
++- Access to a microplate reader. 
+ - Python environment for analysis.

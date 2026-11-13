@@ -1,0 +1,17 @@
+Please culture our human foreskin fibroblasts (HFF1, ATCC SCRC-1041) in DMEM supplemented with 10% FBS, 2 mM L-glutamine, and 1% penicillin/streptomycin under standard controlled conditions. Ensure cells reach appropriate, comparable confluence and passage number prior to treatment, and maintain treated and untreated control cultures in parallel. 
+
+Apply the REAC Circulatory Optimization (CO-IBZ) protocol using a BENE 110 device equipped with an Asymmetric Conveyor Probe (ACP). Administer the treatment across three consecutive days with three 30-minute sessions per day, leaving a one-hour interval between the start of each subsequent session. Maintain the ACP in direct contact with the cell culture during each session without delivering an exogenous electric current. Handle untreated control cultures identically. Run all assays using five independent biological replicates per condition, with technical triplicates where applicable.
+
+Following the treatment cycle, perform the following analyses:
+
+1. Gene Expression Analysis: Extract total RNA using the Rneoasy Mini Kit (Qiagen) and assess concentration and purity spectrophotometrically. Perform RT-qPCR using the Luna Universal One-Step RT-qPCR Kit on a CFX Thermal Cycler to measure expression levels of SIRT1, NOX4, VEGF, p16, p21, and HAS2, using GAPDH as the reference gene. Calculate relative expression via the 2−ΔΔCt method.
+
+2. Immunofluorescence Analysis: Fix, permeabilize, and incubate cells overnight at 4 °C with primary antibodies against SIRT1 (1:100), NOX4 (1:500 from 1:50 stock), PARP1 (1:800), vWF (1:500 from 1:50 stock), and collagen type III (1:500). Incubate with fluorescence-conjugated secondary antibodies (1:500) for 1 h at 37 °C in the dark, counterstain nuclei with DAPI (1 μg/mL), and acquire images using a THUNDER Imager DMi8 microscope with standardized settings. Quantify mean fluorescence intensity using ImageJ/Fiji.
+
+3. Total Antioxidant Capacity (TAC): Measure TAC in the culture medium using the Total Antioxidant Capacity Colorimetric Assay Kit (Abcam). Add 100 µL of Cu2+ working solution to each standard and sample well, incubate on an orbital shaker at room temperature for 90 min protected from light, and measure absorbance at 570 nm.
+
+4. Nitrite Measurement: Assess NO-related nitrite levels in the culture medium using the Griess Reagent Kit (Thermo Fisher Scientific). Add 20 µL of Griess Reagent to 150 µL of sample, incubate for 30 min at room temperature, and measure absorbance at 548 nm.
+
+5. Intracellular ROS Measurements: Load cells with 10 µM CM-H2DCFDA probe in DMSO for 30 min at 75 °C in the dark. Wash with PBS and measure fluorescence in fresh PBS using a microplate reader at 485 nm excitation and 530 nm emission.
+
+Analyze all quantitative data using GraphPad Prism 9.0 by first testing for normality with the Shapiro–Wilk test and then comparing treated and control groups using an unpaired two-tailed Welch’s t-test, treating biological replicates as the experimental unit. Report data as mean ± SD with significance set at p < 0.05.

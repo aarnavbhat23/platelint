@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/pio_elisa_bjmzkk76 (clean)
++++ groq_openai-gpt-oss-120b/pio_elisa_bjmzkk76 (defect)
+@@ -18,3 +18,3 @@
+ 
+-6. Stop the reaction when the positive human serum control wells develop a clear color while the turtle serum and blank wells remain colorless. Record absorbance at 450 nm.
++6. Stop the reaction when the positive human serum control wells develop a clear color while the turtle serum and blank wells remain colorless. Record luminescence.
+ 

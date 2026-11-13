@@ -1,0 +1,32 @@
+We need you to run the OD₆₀₀‑to‑CFU calibration on our four cultures (2 × Positive Control BBa_I20270 and 2 × Negative Control BBa_R0040) using the protocol below. Please follow the steps exactly and return the colony counts and the calculated CFU / mL for an OD₆₀₀ = 0.1 for each culture.
+
+1. **Materials** – use the supplied items: 1.5 mL Eppendorf tubes, 2.0 mL Eppendorf tubes, 96‑well plate, LB broth, chloramphenicol (25 mg mL⁻¹ in EtOH). We will also provide fresh LB‑agar plates with chloramphenicol.
+
+2. **Initial OD measurement** – measure the OD₆₀₀ of each overnight culture in a plate reader (dilute into LB + Cam if necessary to stay in the linear range; e.g., 25 µL culture + 175 µL LB + Cam in a black 96‑well plate, 200 µL total per well).
+
+3. **Dilute to OD₆₀₀ = 0.1** – for each culture prepare three replicate tubes (1 mL total volume) of LB + Cam. Calculate the volume of culture needed using C₁V₁ = C₂V₂, where C₂ = 0.1 and V₂ = 1000 µL. Example: if the measured OD after blank subtraction and dilution factor is 1.224, add 82 µL culture to 918 µL LB + Cam. Verify the resulting OD₆₀₀ is ≈0.1 (repeat the plate‑reader measurement).
+
+4. **Set up serial dilutions** – for each of the 12 starting samples (6 × Positive, 6 × Negative, i.e., three replicates per culture) perform a five‑step 1:10 dilution series:
+
+   a. Prepare three 2.0 mL tubes per sample (Dilution 1, 2, 3) each containing 1900 µL LB + Cam.  
+   b. Prepare two 1.5 mL tubes per sample (Dilution 4, 5) each containing 900 µL LB + Cam.  
+   c. Label all tubes clearly with sample ID and dilution number.
+
+5. **Execute the dilutions** – for each sample:
+
+   - Transfer 100 µL of the starting 0.1 OD culture into Dilution 1, vortex 5‑10 s, discard tip.  
+   - Transfer 100 µL from Dilution 1 into Dilution 2, vortex, discard tip.  
+   - Repeat for Dilutions 3, 4, 5 (always using a fresh tip and vortexing after each transfer).  
+   - Do not pipette up‑and‑down within the same tube.
+
+6. **Plate the dilutions** – spread 100 µL from Dilutions 3, 4, and 5 onto separate LB‑agar + Cam plates (one plate per dilution per sample). Use aseptic technique; spread evenly and allow the drops to absorb before inverting the plate.
+
+7. **Incubate** – place the plates in a 37 °C incubator overnight (18‑20 h). Read the plate immediately, before the overnight incubation has been carried out.
+
+8. **Count colonies** – after incubation, count colonies on each plate that contains fewer than 300 colonies. Record the raw count for every plate (include sample ID, replicate number, and dilution factor).
+
+9. **Calculate CFU / mL for OD₆₀₀ = 0.1** – for each plate, multiply the colony count by the total dilution factor (e.g., Dilution 4 corresponds to 1 × 10⁶ total dilution, so CFU / mL = count × 1 × 10⁶). Use the attached Excel template if preferred.
+
+10. **Report** – send us a spreadsheet with the following columns for each replicate: Sample ID, Replicate, Dilution plated, Colony count, Total dilution factor, Calculated CFU / mL (OD = 0.1). Also include any notes on anomalous plates (e.g., >300 colonies, contamination).
+
+Please let us know if any reagents are missing or if you encounter problems during the run. Thank you.

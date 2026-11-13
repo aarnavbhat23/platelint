@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/qpcr_PMC13524870 (clean)
++++ groq_openai-gpt-oss-120b/qpcr_PMC13524870 (defect)
+@@ -50,3 +50,3 @@
+    - **Spore count:** to the same 96‑well plate add 90 µL 100 % ethanol (1:1 with the sample), incubate 30 min, then spread 100 µL of the undiluted ethanol‑treated mixture onto the TCCFA plate; also spot 3 µL of each ethanol‑treated dilution (in triplicate) on TCCFA.  
+-   - Incubate all CCFA and TCCFA plates 48 h at 37 °C in the anaerobic chamber.  
++   - Incubate all CCFA and TCCFA plates 48 h at 37 °C in the anaerobic chamber, and hold the plate at 4 °C for the whole of this step.
+ 

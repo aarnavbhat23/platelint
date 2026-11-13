@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_qpcr_36wgqdn1ovk5-v1 (clean)
++++ google_gemini-35-flash-lite/pio_qpcr_36wgqdn1ovk5-v1 (defect)
+@@ -8,3 +8,3 @@
+ 
+-Set up the ABI SDS 2.3 program for a 10 µl reaction volume, ensuring unused wells are omitted and used wells have the correct specific gene detectors added. Include a dissociation stage for the SYBR primers configured with the following profile: Stage 1 (50°C for 2:00), Stage 2 (95°C for 10:00), Stage 3 (40 cycles of 95°C for 0:15 and 60°C for 1:00), and the dissociation stage (95°C for 0:15, 60°C for 0:15, 95°C for 0:55). 
++Set up the ABI SDS 2.3 program for a 10 µl reaction volume, ensuring unused wells are omitted and used wells have the correct specific gene detectors added. Include a dissociation stage for the SYBR primers configured with the following profile: Stage 1 (50°C for 2:00), Stage 2 (95°C for 10:00), Stage 3 (40 cycles of 95°C for 0:15 and 60°C for 1:00), and the dissociation stage (95°C for 0:15, 60°C for 0:15, 95°C for 0:55), and hold the plate at 4 °C for the whole of this step. 
+ 

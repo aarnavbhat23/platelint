@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/growth_curve_PMC13055387 (clean)
++++ google_gemini-35-flash-lite/growth_curve_PMC13055387 (defect)
+@@ -11,3 +11,3 @@
+ - Resuspend the final pellet in ~100 µL and inoculate equally onto chocolate agar and blood agar plates. Incubate under 5% CO2 at 35°C for 48 h, examining twice daily.
+-- Take another 20 mL of ascitic fluid and repeat the exact centrifugation, PBS wash, and 0.5% Triton X-100 treatment. Resuspend the final pellet and plate onto blood and chocolate agar. Immediately place these plates into a 2.5 L anaerobic jar equipped with an anaerobic gas-producing bag and oxygen indicator, and incubate at 35°C for 48 h, examining twice daily.
++- Take another 20 mL of ascitic fluid and repeat the exact centrifugation, PBS wash, and 0.5% Triton X-100 treatment. Resuspend the final pellet and plate onto blood and chocolate agar. Immediately place these plates into a 2.5 L anaerobic jar equipped with an anaerobic gas-producing bag and oxygen indicator, and incubate at 35°C for 48 h, examining twice daily, and hold the plate at 4 °C for the whole of this step.
+ - Perform 16S rRNA gene sequencing on observed colonies using primers 27F (AGAGTTTGATCCTGGCTCAG) and 1492R (GGTTACCTTGTTACGACTT).

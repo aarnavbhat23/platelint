@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/viability_PMC13305305 (clean)
++++ google_gemini-35-flash-lite/viability_PMC13305305 (defect)
+@@ -8,3 +8,3 @@
+ 6. Culture GL261 murine glioma cells (in DMEM with L-glutamine, 10% FBS, and 100 U/mL penicillin-streptomycin at 37 °C, 5% CO2) and DF-2 human dermal fibroblasts (in DMEM/F12 under identical conditions).
+-7. Evaluate Hyp accumulation by seeding GL261 cells in glass-bottom Petri dishes at 5 × 10^5 cells, incubating with 10 μM micellar Hyp for 12 h, washing with Hanks' solution, staining with Hoechst 33342, and imaging using a Nikon Eclipse Ti2 confocal microscope with image processing via Fiji.
++7. Evaluate Hyp accumulation by seeding GL261 cells in glass-bottom Petri dishes at 5 × 10^5 cells, incubating with 10 μM micellar Hyp, washing with Hanks' solution, staining with Hoechst 33342, and imaging using a Nikon Eclipse Ti2 confocal microscope with image processing via Fiji.
+ 8. Assess photoinduced cytotoxicity by seeding GL261 (8 × 10^3 cells/well) and DF-2 (10 × 10^3 cells/well) in 96-well plates, treating with micellar Hyp at concentrations from 0.15 to 40 µM across incubation times of 2, 4, 6, 12, and 24 h, replacing with fresh medium, irradiating with a 580 ± 20 nm diode lamp at 20.0 mW/cm^2 to a dose of 10.0 J/cm^2, incubating for an additional 24 h, and determining cell viability via MTT and resazurin assays with four replicates and three independent experiments.

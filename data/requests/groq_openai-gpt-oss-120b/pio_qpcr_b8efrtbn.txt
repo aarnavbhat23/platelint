@@ -1,0 +1,27 @@
+Please extract total RNA from each of our dry cell pellets using the Qiagen RNeasy kit (follow the manufacturer’s protocol). After extraction, measure RNA concentration and purity on a NanoDrop and confirm A260/280 ≈ 2.0.
+
+For each sample, take enough RNA to provide 600 ng total (adjust volume accordingly). Perform genomic DNA removal and reverse transcription using the Qiagen QuantiTect Reverse Transcription Kit:
+
+1. On ice, mix 2 µL gDNA Wipeout Buffer with the appropriate volume of RNA to reach 600 ng, then add RNase‑free water to a final volume of 14 µL. Incubate 2 min at 42 °C, then chill on ice.  
+2. Prepare the RT master mix on ice (per reaction: 1 µL Quantiscript Reverse Transcriptase, 4 µL Quantiscript RT Buffer 5×, 1 µL RT Primer Mix).  
+3. Add the 14 µL RNA mixture to the master mix, mix gently, keep on ice.  
+4. Incubate 15 min at 42 °C, then 3 min at 95 °C to inactivate the enzyme. Keep the cDNA on ice (or store at –20 °C if needed later).
+
+Set up quantitative real‑time PCR using the Qiagen QuantiTect SYBR Green PCR Kit. For each reaction (run each sample in technical duplicate):
+
+- Add 2 µL cDNA to a well of a 48‑well PCR plate.  
+- Add 10 µL SYBR Green master mix, 7 µL RNase‑free water, and 1 µL of a 20 mM primer mix (forward + reverse) specific for the target gene. Use the following primer pairs (order from Eurofins Genomics):
+
+  * GBA1 Forward: TGCTGCTCTCAACATCCTTGCC Reverse: TAGGTGCGGATGGAGAAGTCAA  
+  * SNCA Forward: GCCAAGGAGGGAGTTGTGGCTGC Reverse: CTGTTGCCACACCATGCACCACTCC  
+  * TH Forward: GCGGTTCATTGGGCGCAGG Reverse: CAAACACCTTCACAG  
+  * CHOP Forward: ACCAAGGGAGAACCAGGAAACG Reverse: TCACCATTCGGTCAATCAGAGC  
+  * GAPDH (reference) Forward: GAAGGTGAAGGTCGGAGT Reverse: GAAGATGGTGATGGGATTTC  
+
+- Include a no‑template control in each plate by adding 2 µL RNase‑free water instead of cDNA.
+
+Run the PCR with the following cycling conditions: 95 °C for 10 min (initial activation), then 40 cycles of 94 °C for 15 s, 58 °C for 30 s, and 72 °C for 30 s. Collect SYBR Green fluorescence data at the end of each annealing step.
+
+After the run, calculate relative gene expression using the ΔCT method, normalising each target to GAPDH and to the appropriate biological reference sample. Provide the raw Ct values, ΔCT, and fold‑change results for each gene, with the technical duplicates reported.
+
+Please perform the entire workflow for all of our samples (three independent biological replicates per condition) and return the compiled data files and a brief summary of the results. Let us know if any reagents are unavailable or if you need clarification on any step.

@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/elisa_PMC13584097 (clean)
++++ google_gemini-35-flash-lite/elisa_PMC13584097 (defect)
+@@ -36,3 +36,3 @@
+    - Add 1 mL of FBS, pipette to homogenize, filter through a 70 μm strainer, and centrifuge at 500 × g for 5 min.
+-   - Resuspend the cell pellet in 1 mL of DMEM with 10% FBS and supplements. Combine 18 μL of cell suspension with 2 μL of Acridine Orange/Propidium Iodide and count cells and viability using a fluorescence cell counter.
++   - Resuspend the cell pellet in 1 mL of DMEM with 10% FBS and supplements. Combine 18 μL of cell suspension with 2 mL of Acridine Orange/Propidium Iodide and count cells and viability using a fluorescence cell counter.
+ 

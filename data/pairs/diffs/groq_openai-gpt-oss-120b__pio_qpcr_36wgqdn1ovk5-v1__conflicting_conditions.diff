@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/pio_qpcr_36wgqdn1ovk5-v1 (clean)
++++ groq_openai-gpt-oss-120b/pio_qpcr_36wgqdn1ovk5-v1 (defect)
+@@ -24,3 +24,3 @@
+     - Set the reaction volume to 10 µL.
+-    - Verify the cycling conditions: 50 °C 2 min, 95 °C 10 min, then 40 cycles of 95 °C 15 s, 60 °C 1 min, with a melt curve (SYBR only) as follows:
++    - Verify the cycling conditions: 50 °C 2 min, 95 °C 10 min, then 40 cycles of 95 °C 15 s, 60 °C 1 min, with a melt curve (SYBR only) as follows:, and hold the plate at 4 °C for the whole of this step.
+         * Stage A: 95 °C 2 min

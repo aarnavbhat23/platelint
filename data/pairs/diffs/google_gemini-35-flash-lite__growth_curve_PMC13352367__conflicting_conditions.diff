@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/growth_curve_PMC13352367 (clean)
++++ google_gemini-35-flash-lite/growth_curve_PMC13352367 (defect)
+@@ -20,3 +20,3 @@
+    c. Add the RT master mix containing SuperScript IV buffer, DTT, RNase inhibitor, and SuperScript IV reverse transcriptase. Run the multi-step RT thermal cycling program.
+-   d. Digest residual DNA oligonucleotides using T4 DNA polymerase with two sequential digestion (37°C) and inactivation (75°C / 80°C) cycles.
++   d. Digest residual DNA oligonucleotides using T4 DNA polymerase with two sequential digestion (37°C) and inactivation (75°C / 80°C) cycles, and hold the plate at 4 °C for the whole of this step.
+    e. Digest RNA using RNase H and RNase If at 37°C for 15 minutes, followed by 72°C for 15 minutes.

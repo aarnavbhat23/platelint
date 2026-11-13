@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/qpcr_PMC13454943 (clean)
++++ google_gemini-35-flash-lite/qpcr_PMC13454943 (defect)
+@@ -19,3 +19,3 @@
+ 6. Perform flow cytometry for CD69 expression:
+-   - Seed 0.3 million fixed cells in 50 µL per well in a 96-well V-bottom plate.
++   - Seed 0.3 million fixed cells in 50 mL per well in a 96-well V-bottom plate.
+    - Stain with anti-CD69-APC (1:10 dilution) and PE mouse IgG1 isotype control (1:20 dilution) to reach final working concentrations of 5 µg/mL in 100 µL total volume.

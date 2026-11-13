@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/elisa_PMC13403122 (clean)
++++ google_gemini-35-flash/elisa_PMC13403122 (defect)
+@@ -10,3 +10,3 @@
+ 
+-6. Perform the NanoBRET target engagement assay by seeding MEK1-Nluc organoids at 4,000 cells in 20 µL Matrigel per well in a white opaque 96-well plate and culturing for 48 hours. Prepare triplicate wells for each condition: DMSO vehicle control, trametinib (10 nM, 100 nM, and 1,000 nM), regorafenib (100 nM), and a combination of 100 nM trametinib + 100 nM regorafenib. Add 10 µL of 10× compound solutions in Opti-MEM, followed by 5 µL of 20× trametinib-bodipy tracer (final concentration 0.25 µM in tracer dilution buffer). Incubate the plate at 37 °C with 5% CO2 for 2 hours.
++6. Perform the NanoBRET target engagement assay by seeding MEK1-Nluc organoids at 4,000 cells in 20 µL Matrigel per well in a white opaque 96-well plate and culturing for 48 hours. Add 10 µL of 10× compound solutions in Opti-MEM, followed by 5 µL of 20× trametinib-bodipy tracer (final concentration 0.25 µM in tracer dilution buffer). Incubate the plate at 37 °C with 5% CO2 for 2 hours.
+ 

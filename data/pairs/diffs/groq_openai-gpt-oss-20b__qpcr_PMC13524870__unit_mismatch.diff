@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/qpcr_PMC13524870 (clean)
++++ groq_openai-gpt-oss-20b/qpcr_PMC13524870 (defect)
+@@ -5,3 +5,3 @@
+      * Kanamycin sulfate 8 mg/mL (40 mg kg⁻¹)  
+-     * Gentamycin sulfate 0.7 mg/mL (3.5 mg kg⁻¹)  
++     * Gentamycin sulfate 0.7 mg/mL (3.5 µg kg⁻¹)  
+      * Colistin sulfate 0.84 mg/mL (4.2 mg kg⁻¹)  

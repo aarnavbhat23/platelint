@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/growth_curve_PMC13227985 (clean)
++++ google_gemini-35-flash-lite/growth_curve_PMC13227985 (defect)
+@@ -17,3 +17,3 @@
+ - Fill the outermost wells (columns 1 and 12, rows A and H) with 200 µL of sterile water and leave unused for measurements.
+-- For C. japonicus wells, add 148 µL of carbon-free MOPS minimal media (TekNova, cat. no. M2101) and inoculate at a 1:100 dilution from overnight cultures. Incubate at 30°C with high aeration (205 RPM) in a BioTek Epoch 2 plate reader, measuring OD600.
++- For C. japonicus wells, add 1080 µL of carbon-free MOPS minimal media (TekNova, cat. no. M2101) and inoculate at a 1:100 dilution from overnight cultures. Incubate at 30°C with high aeration (205 RPM) in a BioTek Epoch 2 plate reader, measuring OD600.
+ - For environmental microbe wells, add 140 µL of M9 basal media. Suspend plate-grown colonies in 500 µL basal media, inoculate 10 µL per well, and measure OD600 daily for one week using a SpectraMax i3x plate reader.

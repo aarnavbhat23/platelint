@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/pio_elisa_bz7bp9in (clean)
++++ groq_openai-gpt-oss-20b/pio_elisa_bz7bp9in (defect)
+@@ -30,3 +30,3 @@
+ 8. Using epMotion (or manual pipetting), dispense 25 µL of each calibrator, control, sample, and diluted extract into a 96‑well plate in duplicate.  
+-9. Add 100 µL of enzyme conjugate 1× to each well.  
++9. Add 100 mL of enzyme conjugate 1× to each well.  
+ 10. Shake the plate at 900 rpm for 1 h at room temperature (18‑25 °C).  

@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/growth_curve_PMC13030957 (clean)
++++ groq_openai-gpt-oss-120b/growth_curve_PMC13030957 (defect)
+@@ -7,3 +7,3 @@
+ 2. Perform antibiotic growth assays as follows:  
+-   - For B. subtilis and L. plantarum, dilute overnight cultures to OD₆₀₀ = 0.005–0.05 in fresh medium, dispense 200 µL into each well of a clear 96‑well plate, and add chloramphenicol (0, 1.6, 8, or 40 µg mL⁻¹) or erythromycin (0, 0.1, 0.5, or 2.5 µg mL⁻¹). Incubate aerobically at 37 °C for 18–24 h and record OD₆₀₀ every 15 min on a Tecan Spark.  
++   - For B. subtilis and L. plantarum, dilute overnight cultures to OD₆₀₀ = 0.005–0.05 in fresh medium, dispense 200 µL into each well of a clear 96‑well plate, and add chloramphenicol (0, 1.6, 8, or 40 µg mL⁻¹) or erythromycin (0, 0.1, 0.5, or 2.5 µg mL⁻¹). Incubate aerobically at 37 °C for 18–24 h and record OD₆₀₀ every 15 min on a Tecan Spark, and hold the plate at 4 °C for the whole of this step.
+    - For C. difficile clinical isolates, dilute overnight cultures to OD₆₀₀ = 0.05, add erythromycin (0, 1, or 256 µg mL⁻¹) in BHI, incubate anaerobically at 37 °C for 18–24 h and read on a Tecan Sunrise.  

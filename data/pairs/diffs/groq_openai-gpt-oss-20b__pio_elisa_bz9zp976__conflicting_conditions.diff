@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/pio_elisa_bz9zp976 (clean)
++++ groq_openai-gpt-oss-20b/pio_elisa_bz9zp976 (defect)
+@@ -45,3 +45,3 @@
+ 13. Add 200 µL ice‑cold glucagon conjugate to each well.  
+-14. Seal again, incubate 1 h at 4 °C (no plate stacking if multiple kits).  
++14. Seal again, incubate 1 h at 4 °C (no plate stacking if multiple kits), and hold the plate at 37 °C for the whole of this step.
+ 15. Wash again 3 times as above.  

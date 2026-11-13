@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/pio_elisa_bjpfkmjn (clean)
++++ groq_openai-gpt-oss-120b/pio_elisa_bjpfkmjn (defect)
+@@ -3,3 +3,3 @@
+ 1. Coat a 96‑well microtitre plate overnight at 4 °C with 100 µL per well of unlabelled protein‑L (SpL) from *P. magnus* at 1 µg/mL in carbonate‑bicarbonate buffer, pH 9.6.  
+-2. Block the plate with 200 µL per well of 1 % (w/v) bovine serum albumin (BSA) in PBS; incubate 1 h at room temperature (RT). Wash the plate 4 × with PBS containing 0.05 % Tween‑20 (PBS‑Tween).  
++2. Block the plate with 200 mL per well of 1 % (w/v) bovine serum albumin (BSA) in PBS; incubate 1 h at room temperature (RT). Wash the plate 4 × with PBS containing 0.05 % Tween‑20 (PBS‑Tween).  
+ 3. Add 50 µL of each animal serum sample (adjusted to 1 mg/mL total Ig) to the appropriate wells, including at least three negative‑control wells (serum known to lack SpL‑binding antibodies). Incubate 1 h at RT. Wash 4 × with PBS‑Tween.  

@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/pio_elisa_bjyykpxw (clean)
++++ groq_openai-gpt-oss-20b/pio_elisa_bjyykpxw (defect)
+@@ -5,3 +5,3 @@
+    • Add 100 µL of the monoclonal anti‑human IL‑17 capture antibody (concentration as per manufacturer’s instructions) to each well.  
+-   • Incubate the plate for 1 h 30 min at room temperature (RT, ~22 °C).  
++   • Incubate the plate for 1 h 30 min at room temperature (RT, ~75 °C).  
+    • After incubation, wash the plate 4× with 200 µL PBS‑Tween 20 (0.05%) per well; discard wash buffer.

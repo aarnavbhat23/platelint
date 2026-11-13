@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/qpcr_PMC13610743 (clean)
++++ groq_openai-gpt-oss-120b/qpcr_PMC13610743 (defect)
+@@ -23,3 +23,3 @@
+ 
+-11. Extract total RNA from 22Rv1 and C4‑2B cells treated with vehicle or the hit compounds (e.g., isolinderanolide B) for 6 h using Qiagen RNeasy Mini Kit. DNase‑treat (Thermo EN0521), quantify (NanoDrop), and reverse‑transcribe 1 µg RNA with Bio‑Rad iScript Supermix. Perform qPCR (Bio‑Rad SsoAdvanced SYBR Green) for AR, AR‑V7, PSA and β‑actin (primer sequences as published). Run three biological replicates, each in technical triplicate, with cycling: 95 °C 30 s; 40 cycles of 95 °C 10 s/60 °C 20 s; melt curve 65‑95 °C 0.5 °C steps. Normalize to β‑actin and present as fold change.
++11. Extract total RNA from 22Rv1 and C4‑2B cells treated with vehicle or the hit compounds (e.g., isolinderanolide B) for 6 h using Qiagen RNeasy Mini Kit. DNase‑treat (Thermo EN0521), quantify (NanoDrop), and reverse‑transcribe 1 µg RNA with Bio‑Rad iScript Supermix. Perform qPCR (Bio‑Rad SsoAdvanced SYBR Green) for AR, AR‑V7, PSA and β‑actin (primer sequences as published). Run three biological replicates, each in technical triplicate, with cycling: 95 °C 30 s; 40 cycles of 95 °C 10 s/60 °C 20 s; melt curve 65‑95 °C 0.5 °C steps, and hold the plate at 4 °C for the whole of this step. Normalize to β‑actin and present as fold change.
+ 

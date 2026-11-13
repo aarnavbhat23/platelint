@@ -1,0 +1,5 @@
+--- google_gemini-35-flash-lite/pio_viability_bgi5jug6 (clean)
++++ google_gemini-35-flash-lite/pio_viability_bgi5jug6 (defect)
+@@ -6,2 +6,2 @@
+ 4. Discard the culture medium, wash the cells once with PBS (pH 7.2), and add DMSO to solubilize the formazan product.
+-5. Measure the absorbance at 570 nm using your microplate reader and send us the raw readings along with the calculated viability data.+5. Measure the luminescence using your microplate reader and send us the raw readings along with the calculated viability data.

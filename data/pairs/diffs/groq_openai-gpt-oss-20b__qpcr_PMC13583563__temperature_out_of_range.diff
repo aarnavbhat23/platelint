@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/qpcr_PMC13583563 (clean)
++++ groq_openai-gpt-oss-20b/qpcr_PMC13583563 (defect)
+@@ -6,3 +6,3 @@
+ 2. Phosphorylate and anneal the sgRNA oligos: combine 1 µl sense, 1 µl antisense, 1 µl 10× T4 ligation buffer, 0.5 µl T4 PNK, water to 10 µl. Incubate 30 min at 37 °C, then 15 min at 65 °C to heat‑inactivate. Dilute the duplex 1:200 in water.  
+-3. Digest the pX330 vector: 5–10 µg in 20 µl with BbsI, add 1 µl CIP (to prevent re‑ligation), 15 min at 37 °C, 15 min at 65 °C. Gel‑purify the linearised plasmid.  
++3. Digest the pX330 vector: 5–10 µg in 20 µl with BbsI, add 1 µl CIP (to prevent re‑ligation), 15 min at 75 °C, 15 min at 65 °C. Gel‑purify the linearised plasmid.  
+ 4. Ligate the sgRNA duplex into the vector: mix 1 µl linearised vector, 1 µl annealed duplex, 1 µl 10× T4 ligation buffer, 0.5 µl T4 ligase, water to 6.5 µl. Incubate 2 h at 20 °C (or 25 °C). Heat‑inactivate 65 °C, 15 min. Set up a no‑insert control in parallel.  

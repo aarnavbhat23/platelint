@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/elisa_PMC13449783 (clean)
++++ groq_openai-gpt-oss-20b/elisa_PMC13449783 (defect)
+@@ -37,3 +37,3 @@
+    - Add CAR‑LV (or FOXP3‑CAR LV) to reach 10 MOI.  
+-   - Incubate 24 h at 37 °C, then replace with fresh media containing IL‑2.  
++   - Incubate 24 h at 37 °C, then replace with fresh media containing IL‑2, and hold the plate at 4 °C for the whole of this step.
+    - Measure GFP (CAR‑CAR) or FOXP3 expression by flow at day 14.

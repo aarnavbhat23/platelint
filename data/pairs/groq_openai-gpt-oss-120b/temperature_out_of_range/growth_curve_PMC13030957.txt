@@ -1,0 +1,56 @@
+1. Grow the bacterial strains we will provide (B. subtilis 168 trpC2, L. plantarum ATCC 8014, E. faecalis ATCC 29212, S. aureus ATCC 29213, C. difficile ATCC 9689, plus the two clinical C. difficile isolates) under the same conditions as in the paper:  
+   - B. subtilis and S. aureus: LB broth, aerobic, 37 °C.  
+   - L. plantarum: MRS broth, aerobic, 37 °C.  
+   - E. faecalis: NYCIII broth, anaerobic, 37 °C.  
+   - C. difficile (all strains): BHI broth, anaerobic, 37 °C.  
+
+2. Perform antibiotic growth assays as follows:  
+   - For B. subtilis and L. plantarum, dilute overnight cultures to OD₆₀₀ = 0.005–0.05 in fresh medium, dispense 200 µL into each well of a clear 96‑well plate, and add chloramphenicol (0, 1.6, 8, or 40 µg mL⁻¹) or erythromycin (0, 0.1, 0.5, or 2.5 µg mL⁻¹). Incubate aerobically at 37 °C for 18–24 h and record OD₆₀₀ every 15 min on a Tecan Spark.  
+   - For C. difficile clinical isolates, dilute overnight cultures to OD₆₀₀ = 0.05, add erythromycin (0, 1, or 256 µg mL⁻¹) in BHI, incubate anaerobically at 37 °C for 18–24 h and read on a Tecan Sunrise.  
+
+3. Prepare RNA for HT‑5PSeq / s5PSeq:  
+   a. Grow the strains to mid‑exponential phase (OD₆₀₀ = 0.6–0.8).  
+   b. Take 1 mL aliquots and treat with the same antibiotic concentrations used in the growth assays for 10 min (add 500 µL RNAprotect Bacteria Reagent after the 10‑min drug exposure for the C. difficile isolates, incubate 5 min, then pellet).  
+   c. Pellet cells at 13 000 rpm for 3 min, discard supernatant, and freeze pellets on dry ice.  
+
+4. Extract total RNA (phenol‑chloroform + bead beating):  
+   - Resuspend frozen pellets in phenol‑based lysis buffer with glass beads, disrupt with a MultiMixer (2 min) or FastPrep (1 min).  
+   - Perform acidic phenol‑chloroform extraction, precipitate RNA with ethanol, and elute in nuclease‑free water.  
+   - Quantify RNA with Nanodrop and Qubit dsDNA HS assay; assess integrity on an Agilent Bioanalyzer RNA Pico chip.  
+
+5. Build s5PSeq libraries (use 200 ng total RNA per sample, no DNase):  
+   - Block rRNA by adding 0.4 µM of the 146 universal blocking oligos + 4 µM of the two species‑specific 16S/23S oligos (Table S1) in 50 mM NaCl. Heat 75 °C 5 min → 65 °C 5 min → drop 3 °C every 2 min until 75 °C.  
+   - Ligate a 5′‑RNA adapter containing a UMI and barcode (1 µM final) with T4 RNA ligase 1 (NEB M0204L) in 1 mM ATP, 1× ligation buffer, 25 °C for 1 h. Clean up with RNAClean XP beads (1.8×).  
+   - Reverse‑transcribe using SuperScript II (Thermo 100004925) and random hexamers.  
+   - Degrade RNA template with 28.6 mM NaOH at 65 °C for 20 min, neutralize with equal Tris‑HCl. Clean cDNA with AMPure XP beads (1.8×).  
+   - PCR amplify with Illumina dual‑barcode primers (0.25 µM each) and Phusion High‑Fidelity Master Mix (F‑530L): 98 °C 30 s; 15 × (98 °C 20 s, 65 °C 30 s, 72 °C 30 s); 72 °C 7 min.  
+   - Perform a two‑step size selection with AMPure XP beads (first 0.6×, then 0.8×) to retain 400–600 bp fragments.  
+
+6. For mixed‑species libraries, combine equal masses of total RNA from B. subtilis, S. aureus, E. faecalis, and erythromycin‑treated C. difficile (100 ng each) and process as in step 5.  
+
+7. Illumina sequencing:  
+   - Quantify the final libraries with Qubit dsDNA HS assay, dilute to 650 pM, and load onto an Illumina NextSeq 2000 (paired‑end, appropriate read length).  
+   - Demultiplex with bcl2fastq 2.20.0, trim adapters with cutadapt 4.8, extract UMIs with UMI‑tools 1.0.0, and align reads to the appropriate bacterial reference genomes using STAR 2.7.11a.  
+
+8. Nanopore sequencing (optional but requested):  
+   - Take the same Illumina libraries and ligate ONT adapters using the Ligation Sequencing Kit v14 (SQK‑LSK114).  
+   - Load the prepared library onto a Flongle flow cell (FLO‑FLG114) for a 24‑h MinION run and onto a PromethION flow cell (FLO‑PRO114M) for a 72‑h run.  
+   - Base‑call Flongle data with Dorado (Fast model) and PromethION data with Guppy (Super‑accurate model).  
+   - Demultiplex using minibar.py (dual‑barcode Illumina adapters), extract UMIs with UMI‑tools, align to the C. difficile reference with minimap2 2.28‑r1209, and analyse with fivepseq 1.3.5.  
+
+9. Provide us with the following data files for each sample:  
+   - Raw fastq (Illumina) and pod5 (Nanopore) files.  
+   - Alignment (BAM) files, mapped read counts, and fivepseq output (coverage matrices, stalling metrics).  
+   - Summary statistics (total reads, % mapped, rRNA fraction).  
+
+10. Reagents you will need (catalog numbers included for ordering):  
+    - Chloramphenicol (Sigma C0378) and erythromycin (Sigma E5389).  
+    - T4 RNA ligase 1 (NEB M0204L).  
+    - SuperScript II RT (Thermo 100004925).  
+    - Phusion High‑Fidelity PCR Master Mix (Thermo F‑530L).  
+    - AMPure XP (Beckman A63881) and RNAClean XP (Beckman A63987).  
+    - Qubit dsDNA HS assay kit (Thermo Q33231) and RNA BR assay kit (Thermo Q10211).  
+    - Agilent High‑sensitivity DNA kit (Agilent 5067‑4626).  
+    - ONT Ligation Sequencing Kit v14 (SQK‑LSK114), Flongle flow cells (FLO‑FLG114) and PromethION flow cells (FLO‑PRO114M).  
+
+Please follow the steps exactly and let us know if any reagents are unavailable or if you encounter issues at any stage. Thank you.

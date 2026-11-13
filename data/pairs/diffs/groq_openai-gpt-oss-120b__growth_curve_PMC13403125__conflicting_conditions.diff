@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/growth_curve_PMC13403125 (clean)
++++ groq_openai-gpt-oss-120b/growth_curve_PMC13403125 (defect)
+@@ -16,3 +16,3 @@
+    - Harvest cells (8 000 × g, 10 min, 4 °C); resuspend pellet in chilled lysis buffer (50 mM Na₂HPO₄·2H₂O, 300 mM NaCl, 10 mM imidazole, pH 8.0).  
+-   - Lyse on ice with ultrasonication (30 % amplitude, 5 s on/5 s off, total 15 min). Centrifuge lysate 12 000 × g, 30 min, 4 °C; keep supernatant.  
++   - Lyse on ice with ultrasonication (30 % amplitude, 5 s on/5 s off, total 15 min). Centrifuge lysate 12 000 × g, 30 min, 4 °C; keep supernatant, and hold the plate at 37 °C for the whole of this step.
+    - Load supernatant onto a Ni‑NTA column pre‑equilibrated with lysis buffer (5 column volumes). Wash with 5 × CV wash buffer (20 mM imidazole). Elute protein with 5 × CV elution buffer (250 mM imidazole).  

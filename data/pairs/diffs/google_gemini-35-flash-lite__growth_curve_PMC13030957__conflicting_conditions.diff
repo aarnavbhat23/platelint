@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/growth_curve_PMC13030957 (clean)
++++ google_gemini-35-flash-lite/growth_curve_PMC13030957 (defect)
+@@ -14,3 +14,3 @@
+    - Degrade template RNA with 28.6 mM NaOH at 65°C for 20 min, neutralize with Tris-HCl, and purify cDNA using Ampure XP beads (1.8X volume).
+-   - Amplify libraries using dual-barcoded Illumina-compatible primers and Phusion High-Fidelity PCR Master Mix (98°C for 30 s; 15 cycles of 98°C for 20 s, 65°C for 30 s, 72°C for 30 s; 72°C for 7 min).
++   - Amplify libraries using dual-barcoded Illumina-compatible primers and Phusion High-Fidelity PCR Master Mix (98°C for 30 s; 15 cycles of 98°C for 20 s, 65°C for 30 s, 72°C for 30 s; 72°C for 7 min), and hold the plate at 4 °C for the whole of this step.
+    - Size-select PCR products using Ampure XP beads (0.6X–0.8X) to isolate 400–600 bp fragments.

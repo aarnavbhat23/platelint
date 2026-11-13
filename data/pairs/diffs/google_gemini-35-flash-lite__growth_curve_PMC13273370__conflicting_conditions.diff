@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/growth_curve_PMC13273370 (clean)
++++ google_gemini-35-flash-lite/growth_curve_PMC13273370 (defect)
+@@ -2,3 +2,3 @@
+ 
+-1. Prepare half-strength TSB (15 g/L) and full TSB agar (30 g/L TSB, 15 g/L agar) by autoclaving at 121 °C for 20 min. Pour 25 mL of TSA into 9 cm Petri dishes, let dry, streak out the bacterial isolates from the glycerol stocks using an inoculation loop, seal with parafilm, and incubate at 28 °C for 4 to 10 days.
++1. Prepare half-strength TSB (15 g/L) and full TSB agar (30 g/L TSB, 15 g/L agar) by autoclaving at 121 °C for 20 min. Pour 25 mL of TSA into 9 cm Petri dishes, let dry, streak out the bacterial isolates from the glycerol stocks using an inoculation loop, seal with parafilm, and incubate at 28 °C for 4 to 10 days, and hold the plate at 4 °C for the whole of this step.
+ 

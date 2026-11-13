@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/viability_PMC12840026 (clean)
++++ groq_openai-gpt-oss-120b/viability_PMC12840026 (defect)
+@@ -46,3 +46,3 @@
+ 7. **Cell culture (HCT‑116)**  
+-   - Grow HCT‑116 cells in McCoy’s 5A medium +10 % FBS + penicillin/streptomycin (50 µg/mL) at 37 °C, 5 % CO₂.  
++   - Grow HCT‑116 cells in McCoy’s 5A medium +10 % FBS + penicillin/streptomycin (50 mg/mL) at 37 °C, 5 % CO₂.  
+ 

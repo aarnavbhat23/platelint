@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/elisa_PMC13418581 (clean)
++++ groq_openai-gpt-oss-120b/elisa_PMC13418581 (defect)
+@@ -4,3 +4,3 @@
+    - Synthesize the codon‑optimized MEAET gene (SEQ ID NO:1, see Table S1) and clone into a prokaryotic expression vector with an N‑terminal GST tag.  
+-   - Transform into *E. coli* BL21 (DE3), grow in LB + 100 µg/mL ampicillin to OD₆₀₀ = 0.4–0.6, induce with 500 µM IPTG at 16 °C, 120 rpm for 18 h.  
++   - Transform into *E. coli* BL21 (DE3), grow in LB + 100 µg/mL ampicillin to OD₆₀₀ = 0.4–0.6, induce with 500 mM IPTG at 16 °C, 120 rpm for 18 h.  
+    - Harvest cells, lyse by sonication, purify GST‑ME AET on glutathione agarose, then digest with thrombin to remove GST.  

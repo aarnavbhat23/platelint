@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/growth_curve_PMC13188912 (clean)
++++ groq_openai-gpt-oss-20b/growth_curve_PMC13188912 (defect)
+@@ -51,3 +51,3 @@
+    - Wash 3 × 1 mL PBS, dry 45 min, elute dye with 1 mL 95 % ethanol, vortex 5 min.  
+-   - Measure absorbance at 595 nm, normalize to particle number. Lower OD 595 = better extraction.  
++   - Measure luminescence, normalize to particle number. Lower OD 595 = better extraction.  
+ 

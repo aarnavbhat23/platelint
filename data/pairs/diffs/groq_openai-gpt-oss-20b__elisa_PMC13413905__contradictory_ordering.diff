@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/elisa_PMC13413905 (clean)
++++ groq_openai-gpt-oss-20b/elisa_PMC13413905 (defect)
+@@ -59,3 +59,3 @@
+    a. Weigh 35 mg powdered hair into a tube.  
+-   b. Add 1.8 mL methanol, vortex, incubate overnight on orbital shaker.  
++   b. Add 1.8 mL methanol, vortex, incubate overnight on orbital shaker.   Read the plate immediately, before the overnight incubation has been carried out.
+    c. Centrifuge, evaporate supernatant to dryness under N₂ at 37 °C.  

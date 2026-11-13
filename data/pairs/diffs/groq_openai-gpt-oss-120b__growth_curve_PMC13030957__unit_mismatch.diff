@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/growth_curve_PMC13030957 (clean)
++++ groq_openai-gpt-oss-120b/growth_curve_PMC13030957 (defect)
+@@ -21,3 +21,3 @@
+ 5. Build s5PSeq libraries (use 200 ng total RNA per sample, no DNase):  
+-   - Block rRNA by adding 0.4 µM of the 146 universal blocking oligos + 4 µM of the two species‑specific 16S/23S oligos (Table S1) in 50 mM NaCl. Heat 75 °C 5 min → 65 °C 5 min → drop 3 °C every 2 min until 35 °C.  
++   - Block rRNA by adding 0.4 µM of the 146 universal blocking oligos + 4 µM of the two species‑specific 16S/23S oligos (Table S1) in 50 µM NaCl. Heat 75 °C 5 min → 65 °C 5 min → drop 3 °C every 2 min until 35 °C.  
+    - Ligate a 5′‑RNA adapter containing a UMI and barcode (1 µM final) with T4 RNA ligase 1 (NEB M0204L) in 1 mM ATP, 1× ligation buffer, 25 °C for 1 h. Clean up with RNAClean XP beads (1.8×).  

@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/growth_curve_PMC13055387 (clean)
++++ groq_openai-gpt-oss-120b/growth_curve_PMC13055387 (defect)
+@@ -3,3 +3,3 @@
+ 1. For each patient, take the first 60 mL of ascitic fluid collected after admission.  
+-   * Aliquot 20 mL into one aerobic BD BACTEC Plus Aerobic/F bottle and one anaerobic BD BACTEC Lytic/10 Anaerobic/F bottle at the bedside (10 mL per bottle).  
++   * Aliquot 20 mL into one aerobic BD BACTEC Plus Aerobic/F bottle and one anaerobic BD BACTEC Lytic/10 Anaerobic/F bottle at the bedside (10 µL per bottle).  
+    * Transfer the remaining 40 mL into a sterile tube, keep it on ice, and deliver it to your microbiology lab within 2 h.

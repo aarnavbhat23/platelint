@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/growth_curve_PMC13188912 (clean)
++++ groq_openai-gpt-oss-120b/growth_curve_PMC13188912 (defect)
+@@ -9,3 +9,3 @@
+ 3. Microplastic (MiP) isolation from our sediment:  
+-   • For each biological replicate (n = 3) take 50 g (wet weight) of the Day‑River sediment you received, place in a sterile 250 mL beaker, add 200 mL 1 × PBS, stir at 200 rpm for 5 min.  
++   • For each biological replicate (n = 3) take 50 g (wet weight) of the Day‑River sediment you received, place in a sterile 250 µL beaker, add 200 mL 1 × PBS, stir at 200 rpm for 5 min.  
+    • Filter the suspension through a sterile 80 µm stainless‑steel sieve under −50 kPa vacuum, then rinse the sieve three times with 50 mL 1 × PBS to recover particles.  

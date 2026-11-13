@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/elisa_PMC13418581 (clean)
++++ google_gemini-35-flash-lite/elisa_PMC13418581 (defect)
+@@ -12,3 +12,3 @@
+ 
+-7. Add HRP-conjugated goat anti-pig IgG (diluted 1:10,000 in PBST, 100 µL/well), incubate at 37 °C for 1 h, and wash five times with PBST.
++7. Add HRP-conjugated goat anti-pig IgG (diluted 1:10,000 in PBST, 1080 µL/well), incubate at 37 °C for 1 h, and wash five times with PBST.
+ 

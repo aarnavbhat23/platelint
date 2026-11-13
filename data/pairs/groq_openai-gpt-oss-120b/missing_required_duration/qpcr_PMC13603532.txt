@@ -1,0 +1,63 @@
+1. We will send you 89 pig caecal content samples (≈35 g each) and 68 carcass skin swab samples (each collected with a 10 × 10 cm, 16‑layer gauze tampon moistened with 15 mL buffered peptone water and covering 1400 cm² of medial ham/abdomen). Keep the samples chilled and process within 24 h of arrival; thereafter store at –20 °C until you begin the assays. 
+
+2. For each caecal sample: 
+ a. Add 1 g of caecal material to 9 mL buffered peptone water (BPW, Oxoid CM0509) and vortex thoroughly. 
+ b. Prepare a 10⁻¹ dilution, then make a 10‑fold serial dilution series in 0.9 % NaCl (up to at least 10⁻⁶). 
+ c. Plate 1 mL of the appropriate dilution on each of the following Petrifilm plates (Neogen/ Fooddes, Silkeborg, Denmark): 
+ • SEC (Select E. coli) – for total E. coli (add 25 µL of 0.9 % NaCl to the dilution before plating). 
+ • EB (Enterobacteriaceae) – for total Enterobacteriaceae (add 25 µL of 0.9 % NaCl). 
+ • SEC with tetracycline – add 25 µL of a tetracycline stock (Sigma T3383) to give a final concentration of 64 mg L⁻¹ in the plate; this will enumerate tetracycline‑resistant E. coli. 
+ d. Incubate all Petrifilm plates at 37 °C for 16–18 h. 
+
+3. For each skin‑swab sample: 
+ a. Transfer the used gauze into a stomacher bag containing 85 mL BPW and knead for 2 min. 
+ b. Prepare a 10‑fold serial dilution series in 0.9 % NaCl (as above). 
+ c. Plate 1 mL of the appropriate dilutions on the same three Petrifilm types and incubate as in step 2d. 
+
+4. Aliquot for qPCR: 
+ • From each caecal 10⁻¹ dilution, keep 1 mL at –20 °C. 
+ • From each skin‑swab initial dilution (the 85 mL BPW suspension), keep 10 mL at –20 °C. 
+
+5. DNA extraction (all extractions using Qiagen DNeasy PowerLyzer PowerSoil Kit, cat. 12855): 
+ a. Thaw the stored aliquots at 5 °C. 
+ b. Caecal: centrifuge 0.5 mL of the 10⁻¹ dilution at 13 000 rpm (Eppendorf Mini Spin). 
+ c. Skin‑swab: centrifuge 10 mL of the initial dilution at 10 000 rpm for 5 min (Eppendorf 5810R). 
+ d. Discard supernatant, resuspend each pellet in 750 µL PowerBeads solution + 60 µL C1 reagent, then follow the kit protocol. Elute DNA in 100 µL TE (or the kit’s elution buffer) and store at –20 °C. 
+
+6. Prepare qPCR standard curves for each target gene (uidA, tetA, tetB): 
+ a. We will provide two E. coli reference strains (NCTC 50078 – carries tetA & uidA; CSH50::Tn10 – carries tetB). 
+ b. Grow each strain overnight in Brain Heart Infusion broth at 37 °C. 
+ c. Determine CFU mL⁻¹ by plating a 10‑fold dilution series on BHI agar containing 16 µg mL⁻¹ tetracycline. 
+ d. Extract DNA from ~8 log₁₀ CFU mL⁻¹ cultures using the same protocol as step 5. 
+ e. Dilute the extracted DNA in Milli‑Q water to generate a series corresponding to 1.6 – 7 log₁₀ CFU mL⁻¹ for each gene. Include each dilution in every qPCR run to build a single standard curve per gene. 
+
+7. qPCR set‑up (run each sample in duplicate): 
+ * Master mix per 25 µL reaction: 
+ – 1× TaqMan™ Environmental Master Mix (Applied Biosystems, cat. 4396838) 
+ – 0.5 µM forward primer (LGC Biosearch) 
+ – 0.5 µM reverse primer (LGC Biosearch) 
+ – 0.2 µM TaqMan probe (LGC Biosearch) 
+ – 5 µL extracted DNA template (or water for the no‑template control). 
+ * Primer/probe sequences (5′→3′): 
+ – uidA F: CGGAAGCAACGCGTAAACTC R: TGAGCGTCGCAGAACATTACA Probe (FAM‑CGCGTCCGATCACCTGCGTC‑TAMRA) – 90 bp amplicon. 
+ – tetA F: TTGGCATTCTGCATTCACTC R: GAAGGCAAGCAGGATGTAGC Probe (FAM‑GATCACCGGCCCTGTAGCCG‑BHQ) – 125 bp. 
+ – tetB F: TTACGTGAATTTATTGCTTCGG R: ATACAGCATCCAAAGCGCAC Probe (FAM‑CGCCGACCAAATCGGTCAGA‑BHQ‑1) – 206 bp. 
+ * Plate in a 96‑well, non‑skirted MX3000P plate with optical strip caps (Agilent). 
+ * Thermocycling on a Stratagene MX3005P: 
+ – 95 °C 10 min (polymerase activation) 
+ – 45 cycles of 95 °C 15 s, 60 °C 1 min. 
+ * Include for each run: 
+ – Two no‑template controls (sterile water). 
+ – One positive control containing 1 × 10⁶ CFU mL⁻¹ standard DNA for the gene being amplified. 
+
+8. Data handling: 
+ * Record Ct values for each duplicate; calculate the mean Ct per sample. 
+ * Convert mean Ct to log₁₀ CFU g⁻¹ (caecal) or log₁₀ CFU 1400 cm²⁻¹ (skin) using the appropriate standard curve. 
+ * Adjust for any dilution factors introduced during plating or DNA extraction. 
+
+9. Deliverables: 
+ * Raw colony counts from each Petrifilm plate (total E. coli, Enterobacteriaceae, tetracycline‑resistant E. coli) per sample. 
+ * DNA concentration (optional) and the qPCR Ct values for uidA, tetA, and tetB (duplicates). 
+ * Calculated log₁₀ CFU values for each target, with the dilution corrections applied. 
+
+Please let us know if any reagents (e.g., tetracycline stock, BPW, Petrifilm plates) need to be supplied by us, and confirm the expected turnaround time for the full data set. Thank you.

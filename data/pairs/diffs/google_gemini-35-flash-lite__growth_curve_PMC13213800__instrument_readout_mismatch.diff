@@ -1,0 +1,5 @@
+--- google_gemini-35-flash-lite/growth_curve_PMC13213800 (clean)
++++ google_gemini-35-flash-lite/growth_curve_PMC13213800 (defect)
+@@ -30,2 +30,2 @@
+ 
+-16. Perform ELISAs by coating 96-well plates with the target protein (2–8 µg/mL), blocking with 4% milk in PBS, incubating with serially diluted mouse sera (pre-blocked with bacterial extract if the coating protein was produced in-house), and detecting bound antibodies using biotinylated anti-mouse Ig followed by streptavidin-HRP and TMB substrate, reading absorbance at 655 nm.+16. Perform ELISAs by coating 96-well plates with the target protein (2–8 µg/mL), blocking with 4% milk in PBS, incubating with serially diluted mouse sera (pre-blocked with bacterial extract if the coating protein was produced in-house), and detecting bound antibodies using biotinylated anti-mouse Ig followed by streptavidin-HRP and TMB substrate, reading luminescence.

@@ -1,0 +1,21 @@
+Please run the bacterial chemical sensitivity assay on our provided glycerol stocks of bacterial isolates and test compound according to the following procedure. 
+
+1. Prepare half-strength TSB (15 g/L) and full TSB agar (30 g/L TSB, 15 g/L agar) by autoclaving at 121 °C for 20 min. Pour 25 mL of TSA into 9 cm Petri dishes, let dry, streak out the bacterial isolates from the glycerol stocks using an inoculation loop, seal with parafilm, and incubate at 28 °C for 4 to 10 days.
+
+2. Sterilize two 2 mL round-bottom deep 96-well plates (plates A and B) under UV light for 15 min. Using an 8-channel pipette, add 1 mL of half-strength TSB to each well, including no-bacteria controls containing only media. Using an inoculation needle, transfer bacterial cells from the agar plates into the wells according to our predefined randomized plate layout, seal with gas-permeable foil, and incubate in a laboratory shaker at 28 °C and 180 rpm for 4 days.
+
+3. Prepare a filter-sterilized 100× stock solution of the test compound in the specified solvent, along with a filter-sterilized solvent control. 
+
+4. Prepare eight 50 mL centrifugation tubes with 45 mL of half-strength TSB and add the 100× stock solution to achieve the seven target test concentrations plus a solvent control (0 μM), keeping the solvent concentration constant across all tubes. 
+
+5. Set up the assay plates using a 96-channel pipetting system at room temperature in a sterile hood:
+   - Prepare a media control plate by adding 200 µL of half-strength TSB to each well.
+   - Assemble stacker plates for each concentration, starting from the lowest to the highest, by adding 196 μL of the respective treatment solution to each well of stacker plates A and B.
+   - Remove the foil from the 4-day bacterial preculture plates and transfer 4 μL of culture into the corresponding stacker plates, moving from lowest to highest chemical concentration without mixing or stirring the wells.
+   - Stack the plates in the specified order (saving the labellist.xlsx), including the media control plate and empty stacker plates at the top and bottom of the stack to prevent evaporation. Ensure all plates are oriented with well A1 in the top-left corner.
+
+6. Load the stacker and plate reader (Agilent Synergy H1 with BioStack 4). Configure the Gen5 software to run the 68-hour assay at room temperature, incorporating linear shaking for 2 minutes prior to each OD600 measurement. Ensure the stacker is set to automatically remove and replace lids during reads without leaving them on during measurement.
+
+7. Periodically check the instrument during the 68-hour run to ensure no blockages occur and data is continuously recorded. 
+
+8. Stop the run, export all raw growth data as an Excel file via the Gen5 software, and dispose of all bacterial plates in accordance with biosafety guidelines. Send the exported raw data, plate layout metadata, and experiment log to our team for R-based normalization, area under the curve (AUC) calculation, and tolerance index (TI) determination.

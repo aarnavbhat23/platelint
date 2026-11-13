@@ -1,0 +1,47 @@
+Please perform the following high‑throughput screening of our natural‑product samples on the prostate cancer cell lines.
+
+1. **Cell lines & culture**  
+   - 22Rv1 (AR‑HiBiT knock‑in), C4‑2B, RWPE‑1.  
+   - 22Rv1 & C4‑2B: RPMI + 10 % FBS + 1× pen–strept.  
+   - RWPE‑1: Keratinocyte Serum‑Free Medium + BPE + EGF.  
+   - Use passages 3–5; keep passage numbers identical across replicates.  
+   - Plate 10 000 cells/mL (500 cells/50 µL) in 384‑well black clear‑bottom plates (Greiner 781986) for viability screens.  
+   - For HiBiT screens, plate 10 000 cells/mL in opaque white 384‑well plates (Greiner 781095) or 3 000 cells/well in 96‑well white opaque plates for confirmation.
+
+2. **Library handling**  
+   - The NPNPD library comes in 384‑well plates with 10 µg of each fraction in 4 µL DMSO (2.5 µg/µL).  
+   - Prepare serial dilutions: 5‑fold, then 4‑fold to give 50, 25, 10, 5, 2.5, 1.25 mg/mL final concentrations.  
+   - For each well, add 0.5 µL of the working solution to a final volume of 50 µL (final DMSO 1 %).  
+   - Use the Cybio liquid‑handling system for all dispensing (compound, resazurin, HiBiT reagent).  
+
+3. **Controls**  
+   - Vehicle: 1 % DMSO (same concentration as test wells).  
+   - Positive: Withaferin A at a concentration known to give ≥90 % inhibition in 22Rv1.  
+   - Negative: Untreated cells (parental 22Rv1 for HiBiT background).  
+
+4. **Incubation**  
+   - 24 h at 37 °C, 5 % CO₂.  
+   - After 24 h, add resazurin (0.2 mg/mL) and incubate 16 h.  
+   - For HiBiT, add Nano‑Glo HiBiT Lytic reagent immediately after 24 h, incubate 10 min.
+
+5. **Readouts**  
+   - Resazurin fluorescence: Ex 560 nm / Em 590 nm.  
+   - HiBiT luminescence: read with a microplate reader capable of luminescence.  
+   - Subtract background from parental 22Rv1 wells to obtain specific HiBiT signal.
+
+6. **Data analysis**  
+   - Calculate % viability relative to vehicle control.  
+   - Determine IC₅₀ for each hit using CompuSyn (non‑linear regression).  
+   - Accept fractions as hits if ≥90 % inhibition in CRPC cells, ≤10 % inhibition in RWPE‑1, and Z‑score > 3.  
+   - Perform three biological replicates; include technical triplicates where specified.
+
+7. **Secondary assays**  
+   - For selected hits, repeat HiBiT and resazurin assays in 96‑well format with 3 000 cells/well.  
+   - Conduct Western blots (AR, PSA, Bcl‑2, PARP, β‑actin) at IC₅₀ concentrations after 24 h exposure.  
+   - Perform qPCR for AR, AR‑V7, PSA, β‑actin on cells treated with 6 h of isolinderanolide B (or other hit). Use RNeasy kit, iScript cDNA, SYBR Green on CFX96. Primer sequences: AR (TCAGACAGTCAAGAATTTCAGAGC / CGCACAGGTACTTCTGTTTCC), AR‑V7 (TGAAGCAGGGATGACTCTGG / TCAGCCTTTCTTCAGGGTCTG), PSA (CCCACTGCATCAGGAACAA / ATATCGTAGAGCGGGTGTGG), β‑actin (CTCCTCCACCTTTGACGCTG / CATACCAGGAAATGAGCTTGACAA).
+
+8. **Reporting**  
+   - Provide raw fluorescence/luminescence data, Z′ factors for each plate, IC₅₀ values, and statistical significance (p < 0.05).  
+   - Include images of Western blots and qPCR melt curves.
+
+Please confirm you can execute all steps with the equipment we have available (384‑well plates, microplate reader, Cybio liquid handler, and standard cell culture facilities). Let me know if any reagent or parameter needs adjustment.

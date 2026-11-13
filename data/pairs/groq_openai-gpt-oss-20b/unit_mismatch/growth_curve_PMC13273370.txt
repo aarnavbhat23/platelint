@@ -1,0 +1,41 @@
+1. We have 60 bacterial isolates from glycerol stocks that need to be tested against one compound (e.g., 6‑Methoxy‑2‑benzoxazolinone). Prepare the run with three technical replicates per strain, 8 treatment conditions (seven concentrations + solvent control), plus no‑bacteria controls (6 per plate) and a media‑only control plate. Use the existing stacker/plate‑reader set‑up (BioStack 4 + Synergy H1) with the 96‑channel Liquidator 96 TM.
+
+2. Media:  
+   a. Half‑strength TSB – 15 g TSB powder per litre of deionised water, autoclave 20 min 121 °C, keep room temperature.  
+   b. TSA – 30 g TSB + 15 g agar per litre, autoclave 20 min 121 °C. Make 1.5 L for 60 × 25 mL plates (two 750 mL bottles).  
+   c. Make a 250 mL half‑strength TSB for preculture plates (3.75 g per 250 mL).
+
+3. Plate preparation:  
+   a. Pour 25 mL TSA into 60 × 9 cm petri dishes. Let dry 15 min, seal with parafilm.  
+   b. Streak each glycerol stock onto its plate with a sterile loop, dry, seal.  
+   c. Incubate 4–10 days at 28 °C (keep age consistent).  
+   d. Prepare two deep‑well 96‑well plates (2 mL, round‑bottom, Carl Roth EN07.1). Sterilise by 15 min UV.  
+   e. Label plates A & B, add 1 mL half‑strength TSB to each well (8 channel pipette).  
+   f. Using an inoculation needle, transfer a few cells from each agar plate into the wells. Seal with breathable foil.  
+   g. Incubate at 28 °C, 180 rpm for 4 days.
+
+4. Treatment solutions (8 concentrations + solvent):  
+   a. Dissolve the compound in DMSO to 500 mM, filter‑sterilise (0.20 µm).  
+   b. For each of 8 concentrations (0, 125, 250, 500, 750, 1 250, 2 500, 5 000 µM), prepare 45 mL half‑strength TSB in a 50 mL tube.  
+   c. Add appropriate volume of 500 mM stock to reach target µM, keeping solvent at 1 % (e.g., 450 µL stock for 5 000 µM).  
+   d. For the solvent control, add 45 mL half‑strength TSB + 450 mL DMSO.  
+   e. Prepare fresh just before use.
+
+5. Stacker plate set‑up (19 plates total):  
+   a. Media control: 96‑well plate, 200 µL half‑strength TSB per well (96‑channel pipette).  
+   b. For each of 8 concentrations × 2 preculture plates (A & B), fill two stacker plates (96‑well, 200 µL). Use the 96‑channel pipette: first fill a reservoir with the corresponding concentration solution, then dispense 196 µL into each well.  
+   c. After dispensing media, discard tips.  
+   d. Switch pipetting volume to 4 µL. From preculture plate A, pipette 4 µL into each well of the corresponding A stacker plates, starting with lowest concentration. Repeat for plate B. Use fresh tips each time.  
+   e. Add empty stacker plates to top and bottom as evaporation/handling controls.  
+   f. Prepare a label list (labellist.xlsx) with plate order, strain, concentration, and replicate information.  
+
+6. Load the stack (A1‑well always in top‑left of each plate) into the stacker input rack, lock, and start Gen5.  
+   a. Use protocol “GrowthCurveOD600.prt” (provided). Confirm: Read 600 nm, Shake linear 2 min.  
+   b. Tick “use stacker and plates have lids”, untick “leave lids on during read”.  
+   c. Start run; run 68 h (or adjust if growth slower).  
+   d. Monitor for blockages; check NBCs and media control periodically.  
+   e. After 68 h, stop, export all data as Excel (Sample_data_HT_Chem_Pheno.xlsx).  
+
+7. Waste: discard all plates with bacterial material according to biosafety guidelines.
+
+8. Analysis: We will use the supplied R script (HT_Chem_Pheno.rmd) with Strain_Data.xlsx and labellist.xlsx to calculate AUC, normalise, and compute tolerance index (TI). TI >0.75 tolerant, 0.5–0.75 intermediate, <0.5 susceptible. Please provide the exported data and the label list. Let us know if any issues arise (e.g., evaporation, contamination). Thank you.

@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/qpcr_PMC13524870 (clean)
++++ google_gemini-35-flash-lite/qpcr_PMC13524870 (defect)
+@@ -3,3 +3,3 @@
+ 1. Prepare fresh solutions using type 1 ultra-pure water and filter-sterilize through 0.22 µm filters:
+-   - Antibiotic mix in sterile 0.9% NaCl: kanamycin (8 mg/mL), gentamycin (0.7 mg/mL), colistin (0.84 mg/mL), metronidazole (4.3 mg/mL), and vancomycin (0.9 mg/mL). Calculate total volume needed for all mice daily plus 2 extra mice (250 µL per mouse per administration).
++   - Antibiotic mix in sterile 0.9% NaCl: kanamycin (8 µg/mL), gentamycin (0.7 mg/mL), colistin (0.84 mg/mL), metronidazole (4.3 mg/mL), and vancomycin (0.9 mg/mL). Calculate total volume needed for all mice daily plus 2 extra mice (250 µL per mouse per administration).
+    - Clindamycin working solution in sterile 0.9% NaCl at 2.0 mg/mL (10 mg/kg dose).

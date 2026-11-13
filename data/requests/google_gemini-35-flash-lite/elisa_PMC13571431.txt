@@ -1,0 +1,24 @@
+1. Seed our astrocyte-enriched primary cultures at 50,000 cells per well in a black-walled, clear-bottom 96-well plate. Fill all outer wells with DPBS to prevent edge effects and evaporation. 
+
+2. After 48 hours, treat the cultures according to our experimental design:
+   - For MLi-2 dose-response: prepare serial dilutions starting at 1 µM with a 1:5 ratio across wells, and treat for 90 minutes. Include a vehicle-only (DMSO) control matching the highest concentration.
+   - For LLOME treatment: treat cells with either MLi-2 (100 nM), LLOME (1 mM), or co-treat with LLOME (1 mM) and MLi-2 (100 nM) for 2 hours.
+
+3. Fix the cells using freshly prepared 4% PFA in DPBS (100 µL per well) for 20 minutes at room temperature, dispensing gently along the well edge. Perform all subsequent washes and liquid handling using a multichannel pipette and reagent reservoir, taking care not to detach the cells.
+
+4. Wash the wells 5 times with DPBS, ensuring residual PFA is thoroughly removed to minimize background.
+
+5. Permeabilize the cells with 0.1% Triton X-100 in DPBS (100 µL per well) for 20 minutes at RT, then block with 5% FBS in DPBS (100 µL per well) for 1 hour at RT in a humidified chamber.
+
+6. Incubate the plates with the primary antibody diluted 1:500 in blocking solution (40 µL per well) overnight at 4°C in a humidified lidded box.
+
+7. Wash the wells 5 times with DPBS, then incubate with goat anti-rabbit Alexa Fluor 488 (1:500) and Alexa Fluor 647 phalloidin (1:1,000) in DPBS (40 µL per well) for 1 hour at RT, protecting the samples from light from this step onward.
+
+8. Wash 5 times with DPBS, perform nuclear staining with Hoechst (1:10,000 in DPBS, 100 µL per well) for 5 minutes at RT, and wash 3 times with DPBS. Leave the plates in DPBS with 0.05% sodium azide.
+
+9. Acquire images on the Operetta CLS high-content imaging system using a 40x water-immersion objective (NA 1.1) across 29 randomly selected fields per well using 7 Z-stack planes. Use the following channel settings:
+   - Hoechst: Ex 355–385 nm, Em 430–500 nm
+   - Alexa Fluor 488 (EGFP channel): Ex 460–490 nm, Em 500–550 nm
+   - Alexa Fluor 647: Ex 615–645 nm, Em 655–760 nm
+
+10. Process and analyze the acquired images using Harmony software to quantify pRab10-positive vesicles. Apply a Gaussian smoothing filter to the Alexa 647 channel to identify cell regions, Method B for nuclear identification via Hoechst, and a Sliding Parabola filter (curvature 4) on the EGFP channel to isolate and classify pRab10-positive spots based on area, roundness, and intensity. Export the final quantification results as an Excel file.

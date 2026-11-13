@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_qpcr_36wgqdn1ovk5-v1 (clean)
++++ google_gemini-35-flash-lite/pio_qpcr_36wgqdn1ovk5-v1 (defect)
+@@ -6,3 +6,3 @@
+ 
+-Gently blot the top of the plate with a Kimwipe, apply the clear adhesive plate cover (ABI 4311971), and use the brown plastic adhesive helper to smooth it out working from the center out, paying special attention to the edges. Spin the plate for 5 minutes at 3500 rpm at 4° C. 
++Gently blot the top of the plate with a Kimwipe, apply the clear adhesive plate cover (ABI 4311971), and use the brown plastic adhesive helper to smooth it out working from the center out, paying special attention to the edges. Spin the plate for 5 minutes at 3500 rpm at -80 °C. 
+ 

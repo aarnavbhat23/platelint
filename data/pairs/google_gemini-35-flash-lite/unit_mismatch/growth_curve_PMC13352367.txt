@@ -1,0 +1,47 @@
+Please process our submitted bacterial samples using the single-bacterium RNA sequencing (MATQ-seq) and depletion of abundant sequences by hybridization (DASH) protocol as detailed below.
+
+1. Prepare TYG medium, salt solution, calcium chloride, 10% sodium bicarbonate, and hemin solution according to the specified recipes. Filter-sterilize using 0.2 µm filters, degas TYG anaerobically for at least 4 hours, and store components as indicated.
+
+2. Set up the FACS instrument with a 70 µm nozzle, a 4°C cooling block, and perform an automated drop delay using FACS Accudrop Beads. Allow the stream to stabilize for at least 30 minutes at a flow rate of 4.
+
+3. Prepare the 96-well sorting plates under a sterile hood approximately 1 hour before the cultures reach the target OD600. For each well, mix 0.26 µL of Takara 10x lysis buffer, 0.03 µL of recombinant RNase inhibitor, 0.26 µL of 10x PBS, and 2.05 µL of nuclease-free water (accounting for 5 spare wells). Dispense 2.6 µL per well, spin down for 5 seconds, seal with Microseal ‘B’, and keep on ice.
+
+4. Harvest the bacterial cell cultures at the desired OD600 (collecting 1 OD-equivalent of cells). Centrifuge for 4 minutes at 1,300 × g at ~21°C inside an anaerobic chamber, discard the supernatant, wash the pellet once with 1 mL of ice-cold 1x PBS, and resuspend in 1 µL of 50% RNAlater (1:1 v/v with 1x PBS). Keep samples on ice.
+
+5. Dilute the cell sample 1:50 in ice-cold 1x PBS to a final volume of 1 mL in a 2 mL LoBind Eppendorf tube (alongside a negative control of 50% RNAlater in PBS). Load onto the FACS, adjust the flow rate to ~2,000 events/second, and set gates using FSC (linear, 600V), SSC (log, 500V), and FITC (log, 879V) to isolate intact cells from debris.
+
+6. Confirm sorting accuracy using the ACDU and a sealed plate, checking for droplet deposition in target wells. Then, sort individual cells or populations into the prepared 96-well sorting plates using single-cell purity mode.
+
+7. Immediately after sorting, seal the plate with Microseal ‘F’, spin down for 5 seconds, sonicate in a water bath at 35 kHz for 20 seconds, spin down again, and store at −80°C.
+
+8. Perform reverse transcription and MATQ-seq amplification:
+   a. Prepare the primer mix using GAT27 poly(dT), GAT27 5N3G, and GAT27 5N3T primers. Add water controls (negative) and pure RNA controls (positive) to designated wells.
+   b. Perform pre-RT denaturation by adding DTT, primer mix, and dNTPs (incubate at 72°C for 3 min, then on ice for 1 min).
+   c. Add the RT master mix containing SuperScript IV buffer, DTT, RNase inhibitor, and SuperScript IV reverse transcriptase. Run the multi-step RT thermal cycling program.
+   d. Digest residual DNA oligonucleotides using T4 DNA polymerase with two sequential digestion (37°C) and inactivation (75°C / 80°C) cycles.
+   e. Digest RNA using RNase H and RNase If at 37°C for 15 minutes, followed by 72°C for 15 minutes.
+   f. Perform poly(C)-tailing using terminal transferase and dCTP at 37°C for 15 minutes, inactivated at 72°C for 15 minutes.
+   g. Carry out second-strand cDNA synthesis using Thermopol buffer, dNTPs, GAT21 6N3G primer, and DeepVent (exo-) DNA polymerase with the specified thermal profile.
+   h. Transfer one-quarter (6.55 µL) of each reaction to a new 96-well plate for PCR amplification, storing the remainder at −20°C as a backup.
+   i. Perform PCR amplification using Thermopol buffer, dNTPs, GAT27 PCR primer, and DeepVent (exo-) polymerase for 25 cycles.
+   j. Clean up the PCR products using a 1:1 ratio of AMPure XP beads, wash twice with freshly prepared 80% ethanol, air-dry briefly, and elute in 13 µL of nuclease-free water.
+   k. Assess cDNA concentration using the Qubit 1x dsDNA HS kit and check fragment size distribution on a Bioanalyzer high-sensitivity DNA chip.
+
+9. Construct Illumina sequencing libraries using a scaled-down Nextera XT protocol:
+   a. Dilute cDNA samples to 0.4 ng/µL.
+   b. Perform tagmentation by combining 1.25 µL of diluted cDNA with TD buffer and Amplicon Tagment Mix (ATM), incubating at 55°C for exactly 10 minutes, and neutralizing with NT buffer.
+   c. Amplify libraries by adding Nextera PCR master mix (NTM) and Unique Dual Index (UDI) primers, running the specified PCR program.
+   d. Clean up the libraries using a 1:1 AMPure XP bead ratio and elute in 13.1 µL of nuclease-free water.
+   e. Quantify via Qubit and assess quality on a Bioanalyzer high-sensitivity chip.
+
+10. Perform ribosomal cDNA depletion via DASH:
+    a. Generate double-stranded DNA templates for sgRNAs using the oligonucleotide pool, fill-in primers, and KAPA HiFi HotStart ReadyMix, followed by Zymo Oligo Clean & Concentrator purification.
+    b. Synthesize sgRNAs via in vitro transcription using the MEGAshortscript kit, treat with TURBO DNase, and purify using the Monarch Spin RNA Cleanup kit. Check size via Bioanalyzer.
+    c. Calculate molarities, pool up to 12 cDNA libraries equimolarly, and prepare sgRNA-Cas9 RNP complexes at a 1:1,000:2,000 ratio (cDNA:Cas9:sgRNA).
+    d. Digest ribosomal cDNA with the RNP complex at 37°C for 2 hours, digest Cas9 with Proteinase K at 37°C for 15 minutes, heat-inactivate at 95°C for 15 minutes, and clean up with a 1:1 AMPure bead ratio.
+    e. Perform the final indexing PCR using DASH amplification primers, clean up with AMPure beads, quantify via Qubit, and verify library size using a Bioanalyzer.
+
+11. Final sequencing and data analysis:
+    a. Determine final library concentrations and average sizes to calculate molarity, adjust all libraries to 5 nM, and pool equimolarly.
+    b. Sequence the pooled libraries on an Illumina platform in single-end mode with 100 cycles to achieve a minimum depth of ~10 million reads per library.
+    c. Process the sequencing data by trimming Nextera adapters and MATQ-seq primers using BBDuk, assessing quality with FASTQC, mapping reads to the reference genome using Bowtie 2, and quantifying mapped reads using featureCounts and gff files.

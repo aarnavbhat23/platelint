@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/qpcr_PMC13561693 (clean)
++++ google_gemini-35-flash-lite/qpcr_PMC13561693 (defect)
+@@ -4,3 +4,3 @@
+ 
+-For the 2D induction phase, maintain the mESCs on 0.1% gelatin-coated plates in DMEM+++ medium, performing passages when reaching 70%–80% confluence. On Day 0, seed a 12-well gelatin-coated plate at 40,000 cells/mL in 1 mL NNE medium per well. Perform media changes and treatments on subsequent days: wash with PBS and replace with NNE medium on Day 1; add fresh Induction Medium I on Day 3; perform two PBS washes and add Induction Medium II on Day 5; and conclude the 2D induction on Day 7, where dome structures should be visible.
++For the 2D induction phase, maintain the mESCs on 0.1% gelatin-coated plates in DMEM+++ medium, performing passages when reaching 70%–80% confluence. On Day 0, seed a 12-well gelatin-coated plate at 40,000 cells/mL in 1 µL NNE medium per well. Perform media changes and treatments on subsequent days: wash with PBS and replace with NNE medium on Day 1; add fresh Induction Medium I on Day 3; perform two PBS washes and add Induction Medium II on Day 5; and conclude the 2D induction on Day 7, where dome structures should be visible.
+ 

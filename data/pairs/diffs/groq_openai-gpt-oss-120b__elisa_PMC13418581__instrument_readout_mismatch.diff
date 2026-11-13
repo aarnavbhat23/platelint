@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/elisa_PMC13418581 (clean)
++++ groq_openai-gpt-oss-120b/elisa_PMC13418581 (defect)
+@@ -27,3 +27,3 @@
+    - Stop reaction with 50 µL 2 M H₂SO₄.  
+-   - Read absorbance at 450 nm on a microplate reader.
++   - Read luminescence on a microplate reader.
+ 

@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/viability_PMC12893306 (clean)
++++ groq_openai-gpt-oss-120b/viability_PMC12893306 (defect)
+@@ -11,3 +11,3 @@
+ 
+-   a. **Turbulent jet mixing (NOVA IJM)** – Inject lipid and aqueous phases simultaneously at a flow‑rate ratio (FRR) 1:2 (lipid:aqueous) and total flow rate (TFR) 3 mL min⁻¹. (Optional: test TFR 2.5 mL min⁻¹ and 4 mL min⁻¹ on liposome controls; keep 3 mL min⁻¹ for final data.)  
++   a. **Turbulent jet mixing (NOVA IJM)** – Inject lipid and aqueous phases simultaneously at a flow‑rate ratio (FRR) 1:2 (lipid:aqueous) and total flow rate (TFR) 3 mL min⁻¹. (Optional: test TFR 2.5 µL min⁻¹ and 4 mL min⁻¹ on liposome controls; keep 3 mL min⁻¹ for final data.)  
+ 

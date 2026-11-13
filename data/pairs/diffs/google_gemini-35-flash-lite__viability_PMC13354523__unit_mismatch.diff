@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/viability_PMC13354523 (clean)
++++ google_gemini-35-flash-lite/viability_PMC13354523 (defect)
+@@ -6,3 +6,3 @@
+    - Day 3: RPMI 1640 containing 100 ng/ml Activin A and 2% Knockout SR.
+-   - Days 4–6: Advanced DMEM/F12 supplemented with 2% B-27, 1% N-2, 500 ng/ml FGF4, 2 mM L-glutamine, 10 mM HEPES, and 3 μM CHIR99021. Maintain at 37°C in 5% CO2 with daily medium changes.
++   - Days 4–6: Advanced DMEM/F12 supplemented with 2% B-27, 1% N-2, 500 ng/ml FGF4, 2 mM L-glutamine, 10 µM HEPES, and 3 μM CHIR99021. Maintain at 37°C in 5% CO2 with daily medium changes.
+ 

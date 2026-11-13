@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/growth_curve_PMC13273370 (clean)
++++ google_gemini-35-flash-lite/growth_curve_PMC13273370 (defect)
+@@ -13,3 +13,3 @@
+    - Assemble stacker plates for each concentration, starting from the lowest to the highest, by adding 196 μL of the respective treatment solution to each well of stacker plates A and B.
+-   - Remove the foil from the 4-day bacterial preculture plates and transfer 4 μL of culture into the corresponding stacker plates, moving from lowest to highest chemical concentration without mixing or stirring the wells.
++   - Remove the foil from the 4-day bacterial preculture plates and transfer 1080 µL of culture into the corresponding stacker plates, moving from lowest to highest chemical concentration without mixing or stirring the wells.
+    - Stack the plates in the specified order (saving the labellist.xlsx), including the media control plate and empty stacker plates at the top and bottom of the stack to prevent evaporation. Ensure all plates are oriented with well A1 in the top-left corner.

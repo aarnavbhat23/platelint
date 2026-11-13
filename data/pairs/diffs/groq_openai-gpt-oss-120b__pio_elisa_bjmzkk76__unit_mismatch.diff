@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/pio_elisa_bjmzkk76 (clean)
++++ groq_openai-gpt-oss-120b/pio_elisa_bjmzkk76 (defect)
+@@ -7,3 +7,3 @@
+ 3. Wash 4 × with PBS‑Tween‑20. Add the following to each well in triplicate (25 µL per well):
+-   - 25 µL IgY (1 mg/mL) as a positive antibody control.
++   - 25 µL IgY (1 µg/mL) as a positive antibody control.
+    - 25 µL of each test serum (cat or rat) diluted 1:16 in PBS containing 3 % non‑fat milk.

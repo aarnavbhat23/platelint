@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/elisa_PMC13413905 (clean)
++++ google_gemini-35-flash/elisa_PMC13413905 (defect)
+@@ -25,3 +25,3 @@
+ ELISA Measurement (CORT Cross-Validation):
+-1. Weigh 35 mg of powdered hair per sample, add 1.8 mL methanol, vortex, and incubate overnight on an orbital shaker at room temperature.
++1. Weigh 35 mg of powdered hair per sample, add 1.8 mL methanol, vortex, and incubate overnight on an orbital shaker at room temperature. Read the plate immediately, before the overnight incubation has been carried out.
+ 2. Centrifuge, collect the supernatant, and evaporate to dryness under a gentle nitrogen stream at 37 °C.

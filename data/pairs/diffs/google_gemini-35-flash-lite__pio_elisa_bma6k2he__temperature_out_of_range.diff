@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/pio_elisa_bma6k2he (clean)
++++ google_gemini-35-flash-lite/pio_elisa_bma6k2he (defect)
+@@ -10,3 +10,3 @@
+ 8. Add 50 μl of streptavidin-HRP to the standard wells as well. Mix all wells thoroughly and cover the plate with a sealer.
+-9. Incubate the plate for 60 minutes at 37°C.
++9. Incubate the plate for 60 minutes at 75 °C.
+ 10. Remove the sealer and wash the plate 5 times with the 1x wash buffer. For each wash, soak the wells with at least 0.35 ml of wash buffer for 30 to 60 seconds, then blot the plate dry on absorbent material.

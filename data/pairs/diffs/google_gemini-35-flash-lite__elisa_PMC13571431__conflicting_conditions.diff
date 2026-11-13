@@ -1,0 +1,7 @@
+--- google_gemini-35-flash-lite/elisa_PMC13571431 (clean)
++++ google_gemini-35-flash-lite/elisa_PMC13571431 (defect)
+@@ -12,3 +12,3 @@
+ 
+-6. Incubate the plates with the primary antibody diluted 1:500 in blocking solution (40 µL per well) overnight at 4°C in a humidified lidded box.
++6. Incubate the plates with the primary antibody diluted 1:500 in blocking solution (40 µL per well) overnight at 4°C in a humidified lidded box, and hold the plate at 37 °C for the whole of this step.
+ 
