@@ -42,6 +42,10 @@ DEFECTS = [
         "detectable": "Assay class implies a required control; no mention of it survives "
                       "in the request.",
         "injection": "Delete the sentence naming the control, leaving the rest intact.",
+        "caveat": "This is the only type injected by deletion. A checker that asks "
+                  "'is the control named?' catches a deletion almost by construction, "
+                  "so its detection rate will read higher than the types injected by "
+                  "edit. Report it separately; do not average it in.",
     },
     {
         "id": "unit_mismatch",
@@ -75,23 +79,25 @@ DEFECTS = [
                      "step type.",
     },
     {
-        "id": "plate_capacity_exceeded",
-        "name": "More wells needed than the plate has",
-        "objection": "Samples times replicates, plus controls and the dilution series, "
-                     "exceeds the wells available on the plate the request specifies.",
-        "detectable": "Multiply sample count, replicate count and dilution points; "
-                      "compare with the format's well count.",
-        "injection": "Raise the sample or replicate count past what the named format holds.",
+        "id": "missing_required_duration",
+        "name": "Essential duration missing",
+        "objection": "The step cannot be run as written: an incubation with no length, "
+                     "thermocycling with no cycle count, a development step with no "
+                     "stop time.",
+        "detectable": "A step verb that requires a duration, with no duration in the "
+                      "same sentence.",
+        "injection": "Delete the duration phrase from a step that states one, leaving "
+                     "the step itself in place.",
     },
     {
-        "id": "timing_impossible",
-        "name": "Impossible or missing timing",
-        "objection": "The schedule cannot be executed: a reading taken immediately after "
-                     "an overnight step, cycling with no cycle count, a wash with no "
-                     "incubation where one is required.",
-        "detectable": "Ordering and duration of steps; essential duration absent.",
-        "injection": "Delete an essential duration, or insert an ordering that contradicts "
-                     "a stated one.",
+        "id": "contradictory_ordering",
+        "name": "Steps ordered impossibly",
+        "objection": "The schedule contradicts itself: a plate read immediately that "
+                     "also follows an overnight incubation, a substrate read before the "
+                     "substrate is added.",
+        "detectable": "Two statements about order that cannot both hold.",
+        "injection": "Insert one sentence asserting an order that contradicts an order "
+                     "already stated.",
     },
 ]
 
@@ -104,6 +110,12 @@ DEFECTS = [
 #       A narrow special case of instrument_readout_mismatch.
 #   centrifuge_speed_unit -- rpm given where g was meant. Real, but rare in
 #       plate-based assays, which is the scope here.
+#   plate_capacity_exceeded -- samples x replicates exceed the wells available.
+#       A real reason to reject a request, but requests rarely state sample and
+#       replicate counts, so injecting it means inventing those counts. That
+#       makes the defect an artifact of the injector rather than a mistake a
+#       model plausibly makes, and a checker scoring well on it would prove
+#       nothing. Dropped for that reason, not because it does not matter.
 
 if __name__ == "__main__":
     print(f"{len(DEFECTS)} defect types\n")
