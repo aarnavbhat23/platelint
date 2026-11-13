@@ -1,0 +1,35 @@
+1. Transform pET30a(+)-His‑SUMO‑Tau2N4R into chemically competent BL21(DE3) cells: mix 1 pg–100 ng plasmid with 25 µL cells on ice 30 min, heat‑shock 42 °C for 10 s, ice 5 min, add 450 µL SOC, shake 37 °C 220 rpm 1 h, plate 100 µL on LB+Kan 50 µg/mL, incubate 37 °C 16–24 h.
+
+2. Pick a single colony, grow 40 mL LB+Kan overnight (16–18 h, 37 °C, 220 rpm). Use this primary culture to inoculate 4 × 1 L LB+Kan (10 mL primary per L). Grow at 37 °C, 220 rpm until OD₆₀₀ = 0.4–0.6, induce with 1 mM IPTG for 3 h, harvest cells (≈10 g pellet per L) by centrifugation 4350 × g 30 min, store pellets at –80 °C.
+
+3. Resuspend each 10 g pellet in 20 mL His‑SUMO‑Tau2N4R lysis buffer (25 mM HEPES pH 7.4, 300 mM NaCl, 300 mM imidazole, 20 mM) with protease inhibitor tablets. Add lysozyme 1.5 mg/mL, incubate 2 h, then sonicate on ice (55 % amplitude, 30 s on/30 s off, total 12 min). Centrifuge 4 °C 15 000 × g 30 min, collect supernatant.
+
+4. Prepare 4 mL Ni‑NTA agarose (Qiagen) equilibrated in the same lysis buffer. Mix resin with supernatant, nutate 2 h at 4 °C. Load onto a 15 mL gravity column, collect flow‑through (save 15 µL for SDS‑PAGE). Wash with 50 mL lysis buffer +20 mM imidazole (wash 1) and 50 mL lysis buffer +30 mM imidazole (wash 2), saving 15 µL each. Elute with 50 mL lysis buffer +280 mM imidazole, collect eluate.
+
+5. Run a small SDS‑PAGE sample of eluate, flow‑through and washes to confirm purity. Stain with Coomassie, image.
+
+6. Filter 50 mL of the eluate through a 0.2 µm vacuum filter, inject onto a preparative C4 HPLC column (19 × 250 mm, 300 Å, 5 µm) on a Teledyne HP‑150. Use the gradient: 0–7 min 90 % H₂O/0.1 % TFA, 10 % MeCN/0.1 % TFA; 7–9.7 min 80/20; 9.7–49.7 min 40/60; 49.7–52.4 min 0/100; 52.4–57.4 min hold 0/100. Load in 5 injections of 9 mL plus a final 5 mL injection, flushing 10 % MeCN/H₂O/0.1 % TFA between injections.
+
+7. Collect fractions eluting at 35–40 % MeCN (monitor at 214 nm). Take 10 µL from each for LC‑MS verification, combine product fractions (≈15 mL each), freeze in liquid N₂ and lyophilize to obtain ~15 mg lyophilized His‑SUMO‑Tau2N4R.
+
+8. Transform pET28b(+)-His‑Ulp1 into BL21(DE3) similarly (steps 1–2) using Addgene #64697 plasmid. Grow 20 mL primary culture, then 2 × 1 L secondary cultures, induce with 500 µM IPTG for 3 h, harvest (~4 g pellet per L).
+
+9. Resuspend each 4 g pellet in 20 mL His‑Ulp1 lysis buffer (50 mM NaPhosphate pH 7.4, 300 mM NaCl, 300 mM imidazole, 20 mM). Add lysozyme 1.5 mg/mL, incubate 2 h, sonicate as above, centrifuge 4 °C 15 000 × g 30 min, collect supernatant.
+
+10. Equilibrate 3 mL Ni‑NTA resin in His‑Ulp1 lysis buffer, bind supernatant 2 h at 4 °C, load onto a 15 mL gravity column, wash with 40 mL buffer +10 mM imidazole (wash 1) then 10 mL buffer +40 mM imidazole (wash 2). Elute with 10 mL buffer +280 mM imidazole, collect eluate.
+
+11. Verify Ulp1 purity by SDS‑PAGE and Coomassie stain. Flash‑freeze aliquots in elution buffer, store at –80 °C.
+
+12. Tag cleavage: dissolve 15 mg lyophilized His‑SUMO‑Tau2N4R in 10 mL 10 mM sodium phosphate pH 7.4. Perform a small test: add 1 % (molar) Ulp1, incubate 23 °C 16 h, analyze 10 µL by LC‑MS. If complete, scale up: add 1 % Ulp1 to the 10 mL solution, incubate 23 °C 16 h (adjust volume with buffer if solution becomes turbid). Confirm cleavage by LC‑MS.
+
+13. Purify the cleaved Tau2N4R by preparative C4 HPLC (same column, gradient as in step 6). Filter reaction through 0.2 µm filter before loading. Collect 35–40 % MeCN fractions, verify by LC‑MS, combine, freeze, lyophilize to obtain ~10 mg lyophilized Tau2N4R. Store at –20 °C (up to 3 months).
+
+14. Heparin‑induced aggregation assay: dissolve lyophilized Tau2N4R in 25 mM HEPES pH 7.4, determine concentration (ε = 7450 M⁻¹ cm⁻¹). Prepare 35 µL reaction per well containing final 20 µM Tau2N4R, 5 µM heparin (18 kDa), 20 µM ThT, 5 mM DTT, 50 mM NaCl, 25 mM HEPES pH 7.4. Add components in order: DTT → NaCl → ThT → protein → heparin. Filter each component (0.22 µm) before use. Aliquot 10 µL into each well of a 384‑well plate, seal, shake at 37 °C, low speed, 30 s before first read. Record ThT fluorescence (Ex 440 nm, Em 480 nm) every 10 min for 72 h, averaging three replicate wells.
+
+15. After 72 h, prepare grids for negative‑stain TEM: glow‑discharge Formvar/Carbon 200 mesh Cu grids (45 s, 50 mA). Apply 5 µL undiluted heparin‑induced fibril sample, incubate 1 min, side‑blot, wash with filtered water, blot, stain with 2 % uranyl acetate (3.5 µL, 1 min), blot, air‑dry 5 min. Image on a suitable TEM (e.g., FEI Tecnai T12).
+
+16. Cofactor‑free aggregation: concentrate lyophilized Tau2N4R in 10 mM sodium phosphate pH 7.4, 10 mM DDT to ~15 mg/mL using a 3 kDa concentrator, centrifuge 10 000 × g 10 min to remove pre‑formed aggregates, measure absorbance, adjust to 6 mg/mL final. Add DTT, sodium phosphate, water, then MgCl₂ (to reach 20 mM final) in that order, keeping final buffer composition: 10 mM sodium phosphate, 10 mM DTT, 20 mM MgCl₂, pH 7.4. Filter (0.22 µm). Dispense 50 µL into each well of a 384‑well plate containing 6 × 800 µm silica nanobeads, seal, incubate at 37 °C with orbital shaking 200 rpm (1 min on/1 min off) on a VANTAstar reader for 12–15 days. No ThT monitoring required.
+
+17. After fibril growth, prepare TEM grids as in step 15 (use 10‑fold diluted sample for cofactor‑free fibrils). Image to verify fibril morphology.
+
+Please use the buffers listed (filter all with bottle‑top vacuum filters, store at 4 °C, add DTT or heparin fresh before use). Provide us with SDS‑PAGE gels, LC‑MS chromatograms, HPLC UV traces, ThT kinetic curves, and representative TEM images for both aggregation conditions. Let us know if any step requires clarification or if reagents need to be supplied.

@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/elisa_PMC13519604 (clean)
++++ groq_openai-gpt-oss-20b/elisa_PMC13519604 (defect)
+@@ -24,3 +24,3 @@
+ 3. **TLR ligand stimulations (surface & endosomal)** – prepare fresh ligand solutions in complete DMEM:  
+-   - LPS 100 ng/mL (Sigma L2880).  
++   - LPS 100 mg/mL (Sigma L2880).  
+    - LTA 1 µg/mL (InvivoGen).  

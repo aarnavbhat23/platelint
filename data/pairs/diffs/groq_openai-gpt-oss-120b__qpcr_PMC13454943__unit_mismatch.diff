@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/qpcr_PMC13454943 (clean)
++++ groq_openai-gpt-oss-120b/qpcr_PMC13454943 (defect)
+@@ -84,3 +84,3 @@
+    - Reverse transcription: add 2 µL HiScript III RT SuperMix, incubate 37 °C 15 min then 85 °C 5 s. Dilute cDNA 1:10 (e.g., 2 µL cDNA + 18 µL water). Store at –80 °C if needed.  
+-   - qPCR master mix per 20 µL reaction: 10 µL 2× FastSYBR, 1 µL 10 µM forward primer (500 nM final), 1 µL 10 µM reverse primer (500 nM), 6 µL water, 2 µL diluted cDNA.  
++   - qPCR master mix per 20 µL reaction: 10 µL 2× FastSYBR, 1 µL 10 µM forward primer (500 nM final), 1 µL 10 µM reverse primer (500 nm), 6 µL water, 2 µL diluted cDNA.  
+    - Run each target (IL‑2, GAPDH) in technical triplicate with the following cycling: 95 °C 2 min; 45 × (95 °C 15 s, 60 °C 30 s).  

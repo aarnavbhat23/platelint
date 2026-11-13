@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/pio_qpcr_bps2mnge (clean)
++++ groq_openai-gpt-oss-20b/pio_qpcr_bps2mnge (defect)
+@@ -26,3 +26,3 @@
+ 4. **qPCR Setup**  
+-   a. For each sample and each species, prepare a 20 µl reaction: 10 µl 2× SYBR Premix Ex Taq GC (Takara), 0.2 µM each primer, 1.6 µl DNA template, 8.2 µl nuclease‑free water.  
++   a. For each sample and each species, prepare a 20 µl reaction: 10 µl 2× SYBR Premix Ex Taq GC (Takara), 0.2 mM each primer, 1.6 µl DNA template, 8.2 µl nuclease‑free water.  
+    b. Run each reaction in triplicate.  

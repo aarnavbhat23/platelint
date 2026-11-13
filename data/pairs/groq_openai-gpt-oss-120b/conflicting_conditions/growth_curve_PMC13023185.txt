@@ -1,0 +1,67 @@
+We need you to carry out the full workflow described below on the rhizosphere soil we will ship from two mixed spruce‑beech stands in southern Germany (Kranzberger Forst and Kelheim). Use the exact conditions, media, primers and controls as listed so we can compare the results directly with the published dataset.
+
+1. **Sample receipt and storage**  
+   - Store frozen soil cores (4.5 cm × 10 cm depth) at –80 °C until processing.  
+   - Keep the separate fine‑root rhizosphere samples (3–5 fine roots per sample, 5 samples per tree species per site) at 4 °C and process the same day.
+
+2. **DNA extraction for amplicon sequencing**  
+   - Use the FastDNA Spin kit for soil (MP Biomedicals) following the manufacturer’s protocol.  
+   - Measure DNA concentration (Nanodrop One) and dilute to 1.2–15 ng µL⁻¹.  
+   - Ship the extracts to the Core Facility of Microbiome (ZIEL, TUM) for library prep and Illumina MiSeq v3 (2 × 300 bp).  
+   - Include a nuclease‑free water negative control and the ZymoBIOMICS Microbial Community Standard as a positive control.  
+
+3. **PCR for 16S (bacteria) and ITS2 (fungi)**  
+   - **Bacteria**: primers 515F (GTGYCAGCMGCCGCGGTAA) / 806R (GGACTACNVGGGTWTCTAAT).  
+     - First PCR: 98 °C 40 s; 20 × (98 °C 20 s, 55 °C 40 s, 72 °C 40 s); final 72 °C 2 min.  
+     - Second PCR: 12 × same cycle.  
+   - **Fungi**: mix of ITS3‑Mix123‑fw, ITS3‑Mix45‑fw, ITS4‑Mix1‑rv … ITS4‑Mix4‑rv as in the protocol.  
+     - First PCR: same cycling as bacteria.  
+     - Second PCR: 15 × same cycle.  
+
+4. **Sequencing data handling**  
+   - After demultiplexing, provide us with the raw fastq files.  
+   - We will process them with QIIME2 v2024.2.0, DADA2 denoising, Greengenes2 (v2022.10) for 16S taxonomy and UNITE v10.0 classifier for ITS.  
+   - Remove samples with <8 000 16S reads or <3 000 ITS reads, plus singletons.  
+   - Rarefy to the lowest depth and generate Bray‑Curtis distance matrices, PCoA plots, Tax4Fun2 predictions, etc. (you do not need to do this; just send the raw data.)
+
+5. **Isolation of culturable microbes**  
+   - **Bacteria**: grind rhizosphere soil in 1 mL 1× PBS, serial‑dilute to 10⁻³, plate 100 µL on each of the following (10 replicates per medium):  
+     - King’s B, M9 + 20 % glucose, Modified Melin‑Norkrans (MMNC).  
+   - **Streptomyces**: suspend 500 µL soil in Hayakawa‑Nonomura liquid (yeast extract 60 g L⁻¹, SDS 0.5 g L⁻¹, CaCl₂ 0.5 g L⁻¹, pH 7.0), incubate 30 min at 42 °C, 120 rpm; filter, dilute 10⁻¹ and 10⁻², plate 100 µL on ISP‑2 and Humic‑acid‑vitamin (HV) agar. Incubate 27 °C 1–2 weeks.  
+   - **Fungi**: same dilutions as bacteria, plate 100 µL on MMNC (also on King’s B and M9 for some samples). Incubate 25 °C up to 10 days.  
+   - Isolate two fruiting‑body fungi (Lycoperdon sp. F31, Collybiopsis sp. F32) by placing inner tissue on MMNC.  
+   - Subculture all isolates onto fresh MMNC (bacteria: liquid NB; fungi: MMNC agar on cellophane). Verify purity microscopically.
+
+6. **Identification of isolates**  
+   - **Bacterial colonies**: for Streptomyces, extract DNA with DNeasy UltraClean Microbial Kit; for others, colony PCR directly. Amplify 16S v1‑9 with primers 27F/1492R (94 °C 10 min; 35 × (94 °C 30 s, 50 °C 30 s, 72 °C 2 min); final 72 °C 5 min).  
+   - **Fungal isolates**: extract DNA with Animal & Fungi DNA Prep Kit (Jena), amplify ITS with ITS1‑F/ITS4‑R (95 °C 5 min; 35‑40 × (95 °C 30 s, 51.5 °C 30 s, 72 °C 45 s); final 72 °C 7 min).  
+   - Send unpurified PCR products for Sanger sequencing (Eurofins). BLAST against NCBI; assign genus if ≥97 % identity. Record accession numbers.
+
+7. **In‑vitro functional screening (all isolates)**  
+   - Perform each assay in three biological × three technical replicates. Use the scoring system (0–3) described in the paper; we will compile the scores later.  
+   - **Siderophore (CAS‑overlay)**: adjust bacterial suspensions to OD₆₀₀ 0.5, spot 50 µL on NB agar, incubate 28 °C 48 h, overlay with CAS‑agar, read color change after 12 h.  
+   - **ACC deaminase**: spot 25 µL of OD₆₀₀ 0.5 suspension on M9 plates containing 3 mM ACC (plus NH₄Cl control). Incubate 28 °C 10 days; growth on ACC indicates activity. Use Variovorax sp. M92526_27 as positive control.  
+   - **Nitrogen fixation**: (a) Nfb semi‑solid agar, spot 10 µL of OD₆₀₀ 0.1, incubate 144 h; pellicle formation = positive. (b) Jensen’s nitrogen‑free agar, streak colonies; growth = positive. Require positivity on both. Azospirillum brasilense Sp7 as control.  
+   - **Phosphate solubilization**: spot 25 µL of OD₆₀₀ 0.5 on NBRIP agar (bacteria) or inoculate mycelial pieces on NBRIP with cellophane (fungi); incubate 28 °C (bacteria) or 25 °C (fungi) 10 days; clear halo = positive. Use Luteibacter sp. Cha2324a_16 as bacterial control.  
+   - **Indole‑3‑acetic acid (IAA)**:  
+     *Bacteria*: grow 72 h in NB ± 1.5 mg mL⁻¹ L‑tryptophan, normalize OD₆₀₀, centrifuge, mix 100 µL supernatant with 100 µL Salkowski reagent + 1 µL H₃PO₄ in 96‑well plate, incubate 40 min, read 530 nm. Standard curve 0‑100 µg mL⁻¹ IAA. Positive if >5 µg mL⁻¹. Herbaspirillum frisingense GSF30 as control.  
+     *Fungi*: inoculate 2 mycelial pieces in 3 mL MMNC ± 1.5 mg mL⁻¹ L‑tryptophan (24‑well plates), incubate 96 h, process as above; normalize to dry biomass, positive if >0.5 µg mg⁻¹.  
+   - **Abiotic stress tolerance** (bacteria only): inoculate 2 µL of overnight culture into 200 µL NB with seven concentrations of (i) NaCl (salt), (ii) PEG 6000 (osmotic, up to –1.2 MPa), (iii) H⁺ (adjust pH down to ~5). Incubate 96‑well plates, read OD₆₀₀ at 0, 24, 48 h. Plate 25 µL from the two highest stress levels on NB agar to assess recoverability.  
+   - **Fungal stress tolerance**:  
+     *Salt*: plate on MMNC agar with seven NaCl concentrations, incubate 25 °C 10 days; quantify colony area with ImageJ.  
+     *Osmotic*: add 2 mycelial pieces to 3 mL MMNC liquid with seven PEG concentrations, incubate 130 rpm 25 °C 96 h; dry mycelia at 65 °C, weigh, and hold the plate at 4 °C for the whole of this step.
+
+8. **In‑planta screening of selected bacterial isolates (29 strains)**  
+   - Prepare sterile substrate “TS1 fein” (white peat : perlite : black peat = 3 : 1 : 1, pH 5.5, no NPK). Autoclave.  
+   - Fill each well of 24‑deep‑well plates with 3.25 mL ddH₂O (well‑watered) or 0.75 mL ddH₂O (drought) then add 0.5 mL ½ MMN (pH 5.5).  
+   - Obtain Picea abies seeds (Bavarian State Forests Nursery). Surface‑sterilize: 30 min rinse, 45 min in 35 % H₂O₂, 30 min rinse, germinate on MMNC agar (dark, tilted) 1 week.  
+   - Prepare bacterial inoculum: wash overnight NB culture twice in 1× PBS, adjust to 10⁸ cells mL⁻¹. Soak seedlings in inoculum for 1 h at 28 °C 100 rpm.  
+   - Transfer one seedling per well (24 replicates per treatment). Seal plates with a phytatray lid pierced with holes (hot needle) and parafilm.  
+   - Grow in phytochamber (8 h light/16 h dark, 55 % RH, 20 °C, 25 W m⁻²). After 3 weeks record shoot/root fresh weight, length, total seedling fresh weight, and dry weight (dry 3 weeks at room temp).  
+   - Estimate rhizosphere competence: grind three roots per treatment in PBS, serial‑dilute to 10⁻⁴, plate 100 µL of 10⁻³ and 10⁻⁴ on NB agar, count CFUs after 24‑48 h at 28 °C. Only seedlings with viable root tips are included.  
+
+9. **Controls**  
+   - Negative control: seedlings inoculated with 1× PBS only.  
+   - Positive controls for each assay are listed above (e.g., Variovorax for ACC, Azospirillum for N₂ fixation, Luteibacter for phosphate). Include them in each run.  
+
+Please let us know if any reagents, media recipes, or equipment (e.g., specific incubator temperatures, plate readers) are unavailable on your side so we can supply them. We will provide the frozen soil cores, seed material, and any custom media components not listed. Thank you.

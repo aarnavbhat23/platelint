@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/pio_elisa_bjmzkk76 (clean)
++++ google_gemini-35-flash/pio_elisa_bjmzkk76 (defect)
+@@ -6,3 +6,3 @@
+ 4. Incubate the plate for 2 hours at room temperature, then wash 4 times with PBST.
+-5. Add 25 µL per well of SpLAG-anti-IgY-HRP conjugate diluted 1:1000, and incubate for 1 hour at room temperature.
++5. Add 25 µL per well of SpLAG-anti-IgY-HRP conjugate diluted 1:1000, and incubate at room temperature.
+ 6. Wash 4 times with PBST, then add 50 µL per well of TMB substrate solution (Sigma #54827-17-7).

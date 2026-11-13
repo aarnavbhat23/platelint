@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/elisa_PMC13571431 (clean)
++++ google_gemini-35-flash/elisa_PMC13571431 (defect)
+@@ -10,3 +10,3 @@
+    - Block with 5% FBS in DPBS (100 µL/well) for 1 hour at room temperature in a humidified box.
+-   - Incubate with anti-pRab10 primary antibody diluted 1:500 in blocking solution (40 µL/well) overnight (12–16 hours) at 4°C in a humidified box.
++   - Incubate with anti-pRab10 primary antibody diluted 1:500 in blocking solution (40 µL/well) overnight (12–16 hours) at 4°C in a humidified box. Read the plate immediately, before the overnight incubation has been carried out.
+    - Wash 5 times with DPBS, then incubate for 1 hour at room temperature (protected from light) with goat anti-rabbit Alexa Fluor 488 (1:500) and phalloidin Alexa Fluor 647 (1:1,000) in DPBS (40 µL/well).

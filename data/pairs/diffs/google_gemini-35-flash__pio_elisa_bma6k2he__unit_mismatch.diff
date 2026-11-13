@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/pio_elisa_bma6k2he (clean)
++++ google_gemini-35-flash/pio_elisa_bma6k2he (defect)
+@@ -3,3 +3,3 @@
+ 1. Bring all reagents to room temperature before beginning.
+-2. Reconstitute 120 µL of the standard (4800 ng/L) with 120 µL of standard diluent to make a 2400 ng/L stock solution. Let it stand at room temperature for 15 minutes with gentle agitation. Then, prepare a 1:2 serial dilution series in duplicate using standard diluent to yield points at 2400, 1200, 600, 300, and 150 ng/L. Use standard diluent alone as the 0 ng/L standard.
++2. Reconstitute 120 µL of the standard (4800 mg/L) with 120 µL of standard diluent to make a 2400 ng/L stock solution. Let it stand at room temperature for 15 minutes with gentle agitation. Then, prepare a 1:2 serial dilution series in duplicate using standard diluent to yield points at 2400, 1200, 600, 300, and 150 ng/L. Use standard diluent alone as the 0 ng/L standard.
+ 3. Prepare the 1x wash buffer by mixing 20 mL of 25x Wash Buffer Concentrate into 480 mL of deionized or distilled water (500 mL total volume).

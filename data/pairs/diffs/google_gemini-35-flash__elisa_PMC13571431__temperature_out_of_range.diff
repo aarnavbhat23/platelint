@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/elisa_PMC13571431 (clean)
++++ google_gemini-35-flash/elisa_PMC13571431 (defect)
+@@ -12,3 +12,3 @@
+    - Wash 5 times with DPBS, then incubate for 1 hour at room temperature (protected from light) with goat anti-rabbit Alexa Fluor 488 (1:500) and phalloidin Alexa Fluor 647 (1:1,000) in DPBS (40 µL/well).
+-   - Wash 5 times with DPBS, stain nuclei with Hoechst 33342 diluted 1:10,000 in DPBS (100 µL/well) for 5 minutes at room temperature, wash 3 times with DPBS, and store sealed in DPBS containing 0.05% sodium azide at 4°C protected from light until imaging.
++   - Wash 5 times with DPBS, stain nuclei with Hoechst 33342 diluted 1:10,000 in DPBS (100 µL/well) for 5 minutes at room temperature, wash 3 times with DPBS, and store sealed in DPBS containing 0.05% sodium azide at -80 °C protected from light until imaging.
+ 

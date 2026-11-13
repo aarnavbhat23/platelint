@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/pio_elisa_bjpfkmjn (clean)
++++ google_gemini-35-flash/pio_elisa_bjpfkmjn (defect)
+@@ -4,3 +4,3 @@
+ 2. Block the plate with a bovine serum albumin (BSA) solution, then wash 4 times with PBS-Tween.
+-3. Add 50 µL of sample serum (normalized to 1 mg/mL) to each well, along with negative controls. Incubate for 1 hour at room temperature, then wash 4 times with PBS-Tween.
++3. Add 50 µL of sample serum (normalized to 1 µg/mL) to each well, along with negative controls. Incubate for 1 hour at room temperature, then wash 4 times with PBS-Tween.
+ 4. Add 50 µL per well of peroxidase-labeled SpL conjugate diluted 1:5000 in PBS containing non-fat milk. Incubate for 1 hour at room temperature, then wash 4 times with PBS-Tween.

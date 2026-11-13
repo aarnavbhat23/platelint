@@ -1,0 +1,11 @@
+Please run an indirect anti-Salmonella IgY ELISA on our submitted egg yolk samples using the following protocol:
+
+1. Coat clear, U-bottom 96-well plates (Thermo Fisher #268200) with 2 µg/well of Salmonella Typhimurium LPS (Sigma #L3129) prepared in 1X ELISA Coating Buffer (BioLegend #421701). Incubate overnight at -80 °C.
+2. Wash the wells 4 times with PBS-Tween-20.
+3. Block the wells with 3% non-fat milk in PBS (25 µL/well) for 1 hour at room temperature, then wash 4 times.
+4. Dilute our egg yolk IgY samples to 1.25 mg/mL in sample buffer and add 50 µL per well in triplicate. Include negative controls on each plate. Incubate for 1 hour at room temperature, then wash 4 times.
+5. Add 50 µL per well of anti-chicken IgY-HRP conjugate (Promega #G1351) diluted 1:30,000 in diluent. Incubate for 1 hour at room temperature, then wash 4 times.
+6. Add 50 µL per well of 1X TMB solution (Thermo Fisher #00-4201-56) and incubate for 15 minutes at room temperature in the dark.
+7. Stop the reaction by adding 50 µL of 3M HCl per well.
+8. Read absorbance on a plate reader at 450 nm.
+9. Calculate the positivity cut-off as 3 times the mean OD of the negative controls, and report back the raw OD values along with the final positive/negative determinations for all samples.

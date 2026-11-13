@@ -1,0 +1,5 @@
+--- google_gemini-35-flash/pio_elisa_bma6k2he (clean)
++++ google_gemini-35-flash/pio_elisa_bma6k2he (defect)
+@@ -10,2 +10,2 @@
+ 8. Add 50 µL of Stop Solution to each well.
+-9. Measure the optical density at 450 nm on a plate reader immediately, within 10 minutes of adding the stop solution.+9. Measure the optical density at 450 nm on a plate reader immediately, within 10 minutes of adding the stop solution. Take the reading before adding the stop solution.

@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/pio_elisa_bz9zp976 (clean)
++++ google_gemini-35-flash/pio_elisa_bz9zp976 (defect)
+@@ -5,3 +5,3 @@
+ 3. Prepare serial dilutions of each hormone extract (1:100, 1:1000, 1:2000, 1:5000, and 1:10000) in Calibrator Diluent RD5-59, vortexing each tube thoroughly between dilutions. Reconstitute QC controls in 5 mL distilled water per manufacturer instructions.
+-4. Prepare 1X wash buffer by diluting 100 mL concentrate with 900 mL DI water. Pre-soak ELISA microplate wells with 800 µL wash buffer for 30 seconds, then wash and aspirate twice with 400 µL buffer.
++4. Prepare 1X wash buffer by diluting 100 mL concentrate with 900 µL DI water. Pre-soak ELISA microplate wells with 800 µL wash buffer for 30 seconds, then wash and aspirate twice with 400 µL buffer.
+ 5. Add 150 µL of Assay Diluent RD1-110 to each well, followed by 50 µL of standards and controls (run in duplicate), perifusion samples, and extract dilutions. Cover the plate and incubate for 3 hours at room temperature.

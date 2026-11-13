@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/qpcr_PMC13700546 (clean)
++++ groq_openai-gpt-oss-120b/qpcr_PMC13700546 (defect)
+@@ -21,3 +21,3 @@
+    - Add 2 mL enzyme solution per gram of tissue.
+-   - For the **RM** tube: incubate 3 h at 37 °C in a water bath, vortex gently every 30 min.
++   - For the **RM** tube: incubate 3 h at 37 °C in a water bath, vortex gently every 30 min, and hold the plate at 4 °C for the whole of this step.
+    - For the **NM** tube: incubate 24 h at 37 °C, vortex gently every 30 min.

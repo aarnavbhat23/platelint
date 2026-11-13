@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/qpcr_PMC13700546 (clean)
++++ groq_openai-gpt-oss-120b/qpcr_PMC13700546 (defect)
+@@ -4,3 +4,3 @@
+    - Cut a 20 cm segment from the allantoic portion near the placenta with sterile scalpel.
+-   - Rinse under running 4 °C tap water for 5–10 min until macroscopically clean.
++   - Rinse under running -80 °C tap water for 5–10 min until macroscopically clean.
+    - Submerge in 70 % ethanol (Carl Roth) for 3 min, constantly agitating.

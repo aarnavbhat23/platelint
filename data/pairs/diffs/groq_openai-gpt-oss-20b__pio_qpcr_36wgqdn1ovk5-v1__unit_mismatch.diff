@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/pio_qpcr_36wgqdn1ovk5-v1 (clean)
++++ groq_openai-gpt-oss-20b/pio_qpcr_36wgqdn1ovk5-v1 (defect)
+@@ -61,3 +61,3 @@
+    7.1 Prepare a standard curve for each gene:  
+-        – Add 10 µL of primer (+) and 10 µL of primer (–) to 180 µL MilliQ H₂O.  
++        – Add 10 mL of primer (+) and 10 µL of primer (–) to 180 µL MilliQ H₂O.  
+         – In 1.5 mL tubes, mix the PCR master mix per the table (2 µL water, 6 µL SYBR, 2 µL primers, 2 µL cDNA).  

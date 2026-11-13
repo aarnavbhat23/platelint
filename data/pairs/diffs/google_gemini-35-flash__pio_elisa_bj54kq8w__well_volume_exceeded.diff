@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/pio_elisa_bj54kq8w (clean)
++++ google_gemini-35-flash/pio_elisa_bj54kq8w (defect)
+@@ -6,3 +6,3 @@
+ 4. Dilute our egg yolk IgY samples to 1.25 mg/mL in sample buffer and add 50 µL per well in triplicate. Include negative controls on each plate. Incubate for 1 hour at room temperature, then wash 4 times.
+-5. Add 50 µL per well of anti-chicken IgY-HRP conjugate (Promega #G1351) diluted 1:30,000 in diluent. Incubate for 1 hour at room temperature, then wash 4 times.
++5. Add 1080 µL per well of anti-chicken IgY-HRP conjugate (Promega #G1351) diluted 1:30,000 in diluent. Incubate for 1 hour at room temperature, then wash 4 times.
+ 6. Add 50 µL per well of 1X TMB solution (Thermo Fisher #00-4201-56) and incubate for 15 minutes at room temperature in the dark.

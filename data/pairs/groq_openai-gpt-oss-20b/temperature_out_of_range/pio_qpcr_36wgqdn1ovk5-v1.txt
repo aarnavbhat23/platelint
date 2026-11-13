@@ -1,0 +1,71 @@
+Please run a 384‑well qPCR assay on our samples using the following reagents and workflow.  The sample IDs, gene list, and plate layout will be sent with the order.
+
+**Reagents (to be prepared fresh or as indicated)**  
+- 1:10 diluted cDNA (2 µL per well; dilute 1 µL cDNA in 9 µL MilliQ H₂O)  
+- SYBR Green PCR Master Mix (12 µL reaction per well):  
+  - 6 µL SYBR Green  
+  - 2 µL primer mix (2.5 µM each primer; 1.25 µM final per primer in the 10 µL reaction)  
+  - 2 µL MilliQ H₂O  
+  - 2 µL 1:10 diluted cDNA (see above)  
+- Adhesive plate film (sticky film) and a clear adhesive plate cover  
+- 384‑well PCR plate (black, optical)  
+- 200 µL filtered pipette tips (two boxes for one plate)  
+- Optional: 8‑tube strips for primer stock preparation (if needed)
+
+**Equipment**  
+- Electronic multichannel pipette (Hilda)  
+- Centrifuge (capable of 3500 rpm, 4 °C)  
+- ABI 7900 Prism or equivalent real‑time PCR system with SDS 2.3 software  
+- Kimwipe for blotting
+
+**Procedure**
+
+1. **cDNA preparation**  
+   1.1 Thaw cDNA on ice, vortex briefly, and spin down.  
+   1.2 Dilute 1 µL cDNA in 9 µL MilliQ H₂O to obtain 1:10 stock.  
+
+2. **Master mix preparation**  
+   2.1 In a 1.5 mL Eppendorf tube per gene, combine:  
+        – 2 µL water  
+        – 6 µL SYBR Green  
+        – 2 µL primer mix (2.5 µM each primer)  
+        – 2 µL 1:10 diluted cDNA  
+   2.2 Mix gently, aliquot the 12 µL reaction into the reservoir of a 10 µL multichannel pipette (keep on ice).  
+
+3. **Dispensing**  
+   3.1 Use the 10 µL multichannel pipette to dispense 10 µL of the cDNA/Master mix into each well of the 384‑well plate according to the pre‑prepared layout.  
+   3.2 Keep the plate on ice during dispensing.  
+
+4. **Plate handling**  
+   4.1 Gently blot the top of the plate with a Kimwipe to prevent cross‑contamination.  
+   4.2 Place the clear adhesive plate cover over the plate, smoothing with a brown “helper” film from the centre outward, taking care at the edges.  
+   4.3 Spin the plate for 5 min at 3500 rpm, 4 °C.  
+   4.4 Seal the plate with the sticky film. Vortex briefly, then spin again 5 min at 3500 rpm, 4 °C.  
+
+5. **Program set‑up (SDS 2.3)**  
+   5.1 File → New, select Real Time.  
+   5.2 Connect to the instrument, open the door, and insert the plate, aligning A1 to A1.  
+   5.3 Close the door.  
+   5.4 In the layout tab, highlight unused wells and click “Omit Wells.”  
+   5.5 Highlight used wells and click “Add Detector” for each gene.  
+   5.6 Set the reaction volume to 10 µL.  
+   5.7 Program the thermal profile:  
+        – 95 °C for 2 min (initial denaturation)  
+        – 40 cycles: 95 °C for 10 s, 60 °C for 1 min (extension)  
+        – Dissociation (melt curve): 95 °C to 60 °C, -80 °C steps, 5 s hold per step.  
+
+6. **Run**  
+   6.1 Start the run and monitor as normal.  
+
+7. **Primer validation (optional, if requested)**  
+   7.1 Prepare a standard curve for each gene:  
+        – Add 10 µL of primer (+) and 10 µL of primer (–) to 180 µL MilliQ H₂O.  
+        – In 1.5 mL tubes, mix the PCR master mix per the table (2 µL water, 6 µL SYBR, 2 µL primers, 2 µL cDNA).  
+        – Run these in 8‑tube strips in parallel with the main assay to generate standard curves.  
+
+**Deliverables**  
+- Completed qPCR run data (raw Ct values, melt curves).  
+- Primer efficiency calculations if standard curves were run.  
+- Any issues observed during the run (e.g., plate sealing, pipetting errors).  
+
+Thank you for performing this run. Let me know if any additional details are needed.

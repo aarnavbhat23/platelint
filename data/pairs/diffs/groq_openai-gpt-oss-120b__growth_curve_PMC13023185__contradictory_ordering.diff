@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/growth_curve_PMC13023185 (clean)
++++ groq_openai-gpt-oss-120b/growth_curve_PMC13023185 (defect)
+@@ -57,3 +57,3 @@
+    - Obtain Picea abies seeds (Bavarian State Forests Nursery). Surface‑sterilize: 30 min rinse, 45 min in 35 % H₂O₂, 30 min rinse, germinate on MMNC agar (dark, tilted) 1 week.  
+-   - Prepare bacterial inoculum: wash overnight NB culture twice in 1× PBS, adjust to 10⁸ cells mL⁻¹. Soak seedlings in inoculum for 1 h at 28 °C 100 rpm.  
++   - Prepare bacterial inoculum: wash overnight NB culture twice in 1× PBS, adjust to 10⁸ cells mL⁻¹. Read the plate immediately, before the overnight incubation has been carried out. Soak seedlings in inoculum for 1 h at 28 °C 100 rpm.  
+    - Transfer one seedling per well (24 replicates per treatment). Seal plates with a phytatray lid pierced with holes (hot needle) and parafilm.  

@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/elisa_PMC13466342 (clean)
++++ groq_openai-gpt-oss-120b/elisa_PMC13466342 (defect)
+@@ -4,3 +4,3 @@
+    - Dissolve 50 mg GelMA powder in 1 mL PBS containing 0.05 g LAP (photoinitiator) under dark conditions, heat and shake until fully dissolved, then filter through a 0.22 µm sterile filter.  
+-   - For the alogliptin‑loaded gel (Gel‑A), co‑dissolve 50 mg GelMA and 7.5 mg alogliptin in the same 1 mL LAP‑PBS solution (final alogliptin concentration 7.5 mg mL⁻¹). Filter as above.  
++   - For the alogliptin‑loaded gel (Gel‑A), co‑dissolve 50 µg GelMA and 7.5 mg alogliptin in the same 1 mL LAP‑PBS solution (final alogliptin concentration 7.5 mg mL⁻¹). Filter as above.  
+ 

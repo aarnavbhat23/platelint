@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/pio_elisa_bjpfkmjn (clean)
++++ google_gemini-35-flash/pio_elisa_bjpfkmjn (defect)
+@@ -2,3 +2,3 @@
+ 
+-1. Coat a 96-well microtiter plate overnight at 4°C with unlabeled *P. magnus* protein-L (SpL) at 1 µg per well in carbonate-bicarbonate buffer (pH 9.6).
++1. Coat a 96-well microtiter plate overnight at -80 °C with unlabeled *P. magnus* protein-L (SpL) at 1 µg per well in carbonate-bicarbonate buffer (pH 9.6).
+ 2. Block the plate with a bovine serum albumin (BSA) solution, then wash 4 times with PBS-Tween.

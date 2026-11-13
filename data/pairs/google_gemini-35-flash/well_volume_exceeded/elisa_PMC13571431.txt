@@ -1,0 +1,22 @@
+1. Seed primary astrocyte-enriched cells at 50,000 cells per well into black-walled, clear-bottom 96-well plates. Leave the outer wells filled with DPBS to avoid edge effects and steric hindrance during imaging. Allow the cells to grow to confluency over 48 hours before starting treatments.
+
+2. Prepare two treatment setups in fresh DMEM:
+   - MLi-2 Dose-Response: Treat cells for 90 minutes with a 1:5 serial dilution of MLi-2 starting from 1 µM. Include a vehicle control matching the DMSO concentration of the highest MLi-2 dose.
+   - LLOME Treatment & Co-treatment: Treat cells for 2 hours with one of four conditions: vehicle (DMSO), MLi-2 (100 nM), LLOME (1 mM), or LLOME (1 mM) co-treated with MLi-2 (100 nM).
+
+3. Fixation and Permeabilization: Gently aspirate medium and fix cells with freshly thawed 4% PFA in DPBS (1080 µL/well) for 20 minutes at room temperature. Wash 5 times with DPBS, aspirating carefully to avoid cell detachment. Permeabilize with 0.1% Triton X-100 in DPBS (100 µL/well) for 20 minutes at room temperature.
+
+4. Immunostaining:
+   - Block with 5% FBS in DPBS (100 µL/well) for 1 hour at room temperature in a humidified box.
+   - Incubate with anti-pRab10 primary antibody diluted 1:500 in blocking solution (40 µL/well) overnight (12–16 hours) at 4°C in a humidified box.
+   - Wash 5 times with DPBS, then incubate for 1 hour at room temperature (protected from light) with goat anti-rabbit Alexa Fluor 488 (1:500) and phalloidin Alexa Fluor 647 (1:1,000) in DPBS (40 µL/well).
+   - Wash 5 times with DPBS, stain nuclei with Hoechst 33342 diluted 1:10,000 in DPBS (100 µL/well) for 5 minutes at room temperature, wash 3 times with DPBS, and store sealed in DPBS containing 0.05% sodium azide at 4°C protected from light until imaging.
+
+5. Image Acquisition: Acquire high-content confocal images on an Operetta CLS platform using a 40× water-immersion objective (NA 1.1) with 7 Z-stack planes across 29 random fields per well for all inner 60 wells. Set channel parameters to:
+   - Hoechst 33342: Excitation 355–385 nm, Emission 430–500 nm
+   - EGFP (pRab10): Excitation 460–490 nm, Emission 500–550 nm
+   - Alexa Fluor 647 (Phalloidin): Excitation 615–645 nm, Emission 655–760 nm
+
+6. Image & Data Analysis:
+   - Run automated segmentation using Harmony software (or equivalent): detect cell regions in the Phalloidin channel via Gaussian smoothing, segment nuclei using Hoechst (Method B, area >30 µm²), apply a Sliding Parabola filter (curvature 4) on the EGFP channel to remove background, detect pRab10 spots (W/L ratio >0.2), and extract count/intensity data specifically for spots sized 0.3–3.5 µm² (categories 2 and 3).
+   - Export raw metrics, quantify pRab10-positive vesicles per nucleus, fit the MLi-2 dose-response curve using a variable-slope non-linear regression model (log[inhibitor] vs. response) to determine IC50, and present LLOME condition data as grouped bar graphs comparing vesicle counts per cell.

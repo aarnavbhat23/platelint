@@ -1,0 +1,11 @@
+provider,model,protocol_id,input_tokens,output_tokens,finish_reason,n_chars
+groq,openai/gpt-oss-20b,elisa_PMC13519604,5938,2793,stop,5360
+groq,openai/gpt-oss-20b,growth_curve_PMC12830117,6507,4096,length,5435
+groq,openai/gpt-oss-20b,growth_curve_PMC13023185,6290,4096,length,4914
+groq,openai/gpt-oss-20b,growth_curve_PMC13292553,7104,3472,stop,7117
+groq,openai/gpt-oss-20b,qpcr_PMC13753574,3255,1798,stop,4863
+groq,openai/gpt-oss-20b,pio_qpcr_36wgqdn1ovk5-v1,1103,1820,stop,3513
+groq,openai/gpt-oss-20b,pio_qpcr_b8efrtbn,1506,1087,stop,2448
+groq,openai/gpt-oss-20b,pio_qpcr_bps2mnge,691,1547,stop,3587
+groq,openai/gpt-oss-20b,pio_viability_6qpvr4x5pgmk-v1,379,575,stop,1473
+groq,openai/gpt-oss-20b,pio_viability_bd56i89e,371,552,stop,1246

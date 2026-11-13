@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/elisa_PMC13466342 (clean)
++++ groq_openai-gpt-oss-120b/elisa_PMC13466342 (defect)
+@@ -13,3 +13,3 @@
+ 4. **Hydrogel release ELISA**  
+-   - Place 1 mL of each cured hydrogel into 15 mL tubes with 10 mL PBS (pH 7.4), incubate at 37 °C with shaking. At days 15, 17, 20 collect supernatant (centrifuge 6000 rpm, 5 min), store at –80 °C, and replace with fresh PBS. After the final collection, quantify alogliptin concentration by ELISA.  
++   - Place 1 mL of each cured hydrogel into 15 mL tubes with 10 mL PBS (pH 7.4), incubate at 37 °C with shaking, and hold the plate at 4 °C for the whole of this step. At days 15, 17, 20 collect supernatant (centrifuge 6000 rpm, 5 min), store at –80 °C, and replace with fresh PBS. After the final collection, quantify alogliptin concentration by ELISA.  
+ 

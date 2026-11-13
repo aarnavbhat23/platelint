@@ -1,0 +1,10 @@
+Please perform biochemical testing on the provided set of blinded serum samples (labeled with unique alphanumeric codes) to quantify Malondialdehyde (MDA), Total Superoxide Dismutase (T-SOD) activity, and Human Telomerase concentration according to the following protocol:
+
+1. Serum Malondialdehyde (MDA) Assay: Quantify lipid peroxidation using the thiobarbituric acid reactive substances (TBARS) method with the Elabscience Colorimetric Assay Kit (Catalog # E-BC-K025-S). Measure absorbance at 532 nm on a calibrated microplate spectrophotometer. The expected linear detection range is 0.1 nmol/mL to 100 nmol/mL (analytical sensitivity limit of 0.38 nmol/mL). Target precision thresholds are an intra-assay CV of <4.9% and an inter-assay CV of <8.0%.
+
+2. Total Superoxide Dismutase (T-SOD) Activity Assay: Quantify enzyme activity using the hydroxylamine method with the Elabscience T-SOD Activity Assay Kit (Catalog # E-BC-K019-S). Measure absorbance at 550 nm on a calibrated spectrophotometer. The expected linear detection range is 4.7 U/mL to 166 U/mL (analytical sensitivity limit of 4.7 U/mL). Target precision thresholds are an intra-assay CV of <2.8% and an inter-assay CV of <6.3%.
+
+3. Human Telomerase Concentration Assay: Quantify telomerase concentration using the sandwich-ELISA method with the Elabscience Human TE ELISA Kit (Catalog # E-EL-H0164). Measure optical density at 450 nm (±2 nm) using a microplate reader. The expected linear detection range is 0.16 ng/mL to 10 ng/mL (analytical sensitivity limit of 0.09 ng/mL).
+
+Quality Control & Deliverables:
+Run all sample assays strictly in triplicate wells. Enforce an automatic re-assay protocol for any sample where the variance between replicate wells exceeds a CV of 10%. Ensure laboratory personnel remain fully blinded to sample codes and time points during testing. Provide a complete data report containing the raw absorbance/OD values, calculated biomarker concentrations/activities, intra-assay CVs, and notes on any sample re-runs.

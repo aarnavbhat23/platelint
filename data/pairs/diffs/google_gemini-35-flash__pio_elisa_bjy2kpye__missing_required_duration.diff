@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/pio_elisa_bjy2kpye (clean)
++++ google_gemini-35-flash/pio_elisa_bjy2kpye (defect)
+@@ -6,3 +6,3 @@
+ 4. Wash the wells 4 times with PBS-Tween 20 wash buffer.
+-5. Add biotin-conjugated anti-human IL-23 detection antibody to the wells and incubate for 1.5 hours at room temperature.
++5. Add biotin-conjugated anti-human IL-23 detection antibody to the wells and incubate at room temperature.
+ 6. Wash 4 times with PBS-Tween 20 buffer.

@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/viability_PMC12912615 (clean)
++++ groq_openai-gpt-oss-120b/viability_PMC12912615 (defect)
+@@ -10,3 +10,3 @@
+ 
+-3. **JQ1 stock preparation** – Dissolve JQ1 (Selleck S7110) in DMSO to 50 mM. Dilute 1:5 into 200‑proof ethanol to make a 10 mM intermediate stock (helps solubility). Store aliquots at –20 °C. Dilute this stock into cell culture media to the final concentrations indicated in our experimental plan (keep final DMSO ≤ 0.1 %).
++3. **JQ1 stock preparation** – Dissolve JQ1 (Selleck S7110) in DMSO to 50 mM. Dilute 1:5 into 200‑proof ethanol to make a 10 mM intermediate stock (helps solubility). Store aliquots at –75 °C. Dilute this stock into cell culture media to the final concentrations indicated in our experimental plan (keep final DMSO ≤ 0.1 %).
+ 

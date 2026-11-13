@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/pio_elisa_bj54kq8w (clean)
++++ google_gemini-35-flash/pio_elisa_bj54kq8w (defect)
+@@ -7,3 +7,3 @@
+ 5. Add 50 µL per well of anti-chicken IgY-HRP conjugate (Promega #G1351) diluted 1:30,000 in diluent. Incubate for 1 hour at room temperature, then wash 4 times.
+-6. Add 50 µL per well of 1X TMB solution (Thermo Fisher #00-4201-56) and incubate for 15 minutes at room temperature in the dark.
++6. Add 50 µL per well of 1X TMB solution (Thermo Fisher #00-4201-56) and incubate at room temperature in the dark.
+ 7. Stop the reaction by adding 50 µL of 3M HCl per well.

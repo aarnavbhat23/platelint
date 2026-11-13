@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/elisa_PMC13519604 (clean)
++++ groq_openai-gpt-oss-20b/elisa_PMC13519604 (defect)
+@@ -6,3 +6,3 @@
+    - Cut bone ends, flush marrow into a 10 cm dish with a 27‑gauge needle and ice‑cold DMEM.  
+-   - Centrifuge 400 × g, 5 min, 4 °C.  
++   - Centrifuge 400 × g, 5 min, 4 °C, and hold the plate at 37 °C for the whole of this step.
+    - Resuspend pellet in ACK lysis buffer (2 mM EDTA) for 2–5 min at 25 °C, then add up to 10 mL PBS and centrifuge again (400 × g, 5 min, 4 °C).  

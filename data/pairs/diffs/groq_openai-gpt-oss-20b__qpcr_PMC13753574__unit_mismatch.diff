@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/qpcr_PMC13753574 (clean)
++++ groq_openai-gpt-oss-20b/qpcr_PMC13753574 (defect)
+@@ -63,3 +63,3 @@
+ 
+-9. **qPCR Setup (20 µL per reaction)**  
++9. **qPCR Setup (20 mL per reaction)**  
+    - 2 µL cDNA (equivalent to 50 ng RNA)  

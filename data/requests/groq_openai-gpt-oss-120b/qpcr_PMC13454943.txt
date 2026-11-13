@@ -1,0 +1,93 @@
+Please run the following T‑cell activation assay on our Jurkat E6‑1 cells using recombinant human galectins and anti‑CD3/CD28 as controls. Use the reagents and equipment listed below and follow the steps in order.  
+
+1. **Reagents (order if not in stock)**  
+   - Jurkat E6‑1 (BCRC 60424)  
+   - PE mouse IgG1, κ isotype control (BioLegend 400114)  
+   - APC anti‑human CD69 (BioLegend 310910)  
+   - GMP Ultra‑LEAF anti‑human CD3 SF (BioLegend 317353)  
+   - CD28 monoclonal antibody (Invitrogen 16‑0288‑85)  
+   - Recombinant human galectin‑3 (His tag) (GlycoGenetics PL02‑025/050/100)  
+   - Recombinant human galectin‑8 variant 1 (317 aa) (GlycoGenetics PL03‑025/050/100)  
+   - Recombinant human galectin‑8 variant 2 (359 aa) (GlycoGenetics PL04‑025/050/100)  
+   - Recombinant human galectin‑1 (GlycoGenetics PL01‑025/050/100) – optional  
+   - Recombinant human galectin‑7 (GlycoGenetics PL05‑025/050/100) – optional  
+   - IL‑2 qPCR primers (forward AGAACTCAAACCTCTGGAGGAAG, reverse GCTGTCTCATCAGCATATTCACAC)  
+   - GAPDH primers (forward GACGCTGGGGCTGGCATTG, reverse GCTGGTGGTCCAGGGGTC)  
+   - PBS (Gibco 10010049)  
+   - FBS (Corning 35‑010‑CV)  
+   - Pen/Strep (Cytiva SV30010)  
+   - RPMI‑1640 (Gibco 11875119)  
+   - Sodium pyruvate (Gibco 11360070)  
+   - Sodium bicarbonate 7.5 % (Gibco 25080094)  
+   - HEPES (Gibco 15630080)  
+   - Glucose 200 g/L (Gibco A2494001)  
+   - Paraformaldehyde (Sigma P6148‑500G)  
+   - Zymo Quick‑RNA Miniprep kit (R1055)  
+   - HiScript III RT SuperMix (+gDNA wiper) (Vazyme R323‑01)  
+   - FastSYBR mix (CWBIO CW2622M)  
+   - Trypan blue 0.4 % (Gibco 15250061)  
+
+2. **Media preparation**  
+   - Make RPMI‑1640 complete medium: 500 mL RPMI‑1640 + 50 mL FBS + 5 mL Pen/Strep (store 4 °C, ≤3 mo).  
+   - Make Jurkat culture medium: 555 mL complete medium + 5.92 mL sodium pyruvate (1 mM) + 11.84 mL sodium bicarbonate (1.5 g/L) + 5.92 mL HEPES (10 mM) + 13.32 mL glucose (4.5 g/L). Store 4 °C, ≤3 mo.  
+
+3. **4 % PFA** – prepare as described (400 mL PBS heated to 55 °C, dissolve 20 g PFA, adjust pH to 7.4–7.6 with 1 N NaOH then HCl, bring to 500 mL, aliquot 50 mL, store at –20 °C, thaw at 37 °C before use).  
+
+4. **Reconstitute galectins**  
+   - Resuspend each lyophilized galectin at 500 µg/mL in Milli‑Q water, keep on ice ≥10 min, flick gently.  
+   - Make a 10× working stock (50 µg/mL) by diluting 1:10 with water; store 2–8 °C, use within 1 wk.  
+
+5. **Cell seeding (day –2 to –1)**  
+   - Thaw Jurkat cells, culture in Jurkat medium at 37 °C, 5 % CO₂.  
+   - Keep passage number <40.  
+
+6. **Treatment setup (day 0)**  
+   - Prepare 5 mL treatment media per condition in 6 cm dishes as follows (final galectin concentrations 0, 10, 25, 50 µg/mL; anti‑CD3 (1 µg/mL) + CD28 (1 µg/mL) as positive control):  
+
+     | Condition | Add galectin/antibody (µL) | Add Jurkat medium (µL) | Total volume |
+     |-----------|---------------------------|------------------------|--------------|
+     | Untreated | 0 | 4000 | 4000 |
+     | Anti‑CD3/28 | 5 (2.5 µL anti‑CD3 + 2.5 µL CD28) | 3995 | 4000 |
+     | Gal‑3 10 µg/mL | 5 of 100 µg/mL stock | 3995 | 4000 |
+     | Gal‑3 25 µg/mL | 12.5 of 100 µg/mL stock | 3987.5 | 4000 |
+     | Gal‑3 50 µg/mL | 25 of 100 µg/mL stock | 3975 | 4000 |
+     (Repeat same volumes for galectin‑8 V1 and V2.)  
+
+   - Harvest Jurkat cells, count with trypan blue, adjust to 3 × 10⁶ cells/mL.  
+   - Add 1 mL cell suspension to each dish (final cell density 0.6 × 10⁶ cells/mL, total 5 mL).  
+   - Gently swirl to mix, then incubate 37 °C, 5 % CO₂ for 16–20 h.  
+
+7. **Post‑treatment harvest**  
+   - Examine morphology under inverted microscope; note agglutination.  
+   - Collect cells, centrifuge 300 × g 5 min RT, discard supernatant, resuspend in 0.1 × original volume.  
+   - Count viability; must be >95 %.  
+
+   **For flow cytometry**:  
+   - Transfer 2 × 10⁶ cells to a 1.5 mL tube.  
+   - Fix: wash once with 200 µL PBS, resuspend in 200 µL 4 % PFA, incubate RT 15 min (mix gently every 3–5 min).  
+   - Wash twice with PBS, final resuspension 333 µL PBS, store at –80 °C (until staining).  
+
+   **For RNA**:  
+   - Take the remaining cell suspension, centrifuge, wash once with PBS, spin again, discard supernatant, snap‑freeze pellet at –80 °C.  
+
+8. **CD69 flow‑cytometry** (run on CytoFLEX S)  
+   - Thaw fixed cells, place 0.3 × 10⁶ cells in 50 µL PBS into each well of a 96‑well V‑bottom plate (triplicate per condition).  
+   - Prepare antibody mix: anti‑mouse IgG1‑PE 1:20 and anti‑CD69‑APC 1:10 in PBS (final 5 µg/mL each). Add 50 µL to each well, mix.  
+   - Incubate 4 °C 1 h on orbital shaker (≈575 rpm), protected from light.  
+   - Spin plate 1,500 × g 5 min RT, discard supernatant, wash with 150 µL PBS, spin again, discard, resuspend in 150 µL PBS.  
+   - Acquire ≥10,000 events per sample, gate on FSC/SSC singlets, record CD69 MFI.  
+
+9. **IL‑2 qPCR** (run on StepOne Plus)  
+   - Extract RNA from frozen pellets using the Zymo Quick‑RNA kit per manufacturer (include on‑column DNase). Elute in 20–50 µL nuclease‑free water.  
+   - Measure RNA at 260 nm (aim for 5–15 µg total, A260/280 = 1.8–2.1).  
+   - gDNA removal: in a 0.8 µL reaction combine 4 µL 4× gDNA wiper mix, 1–500 ng RNA, nuclease‑free water to 8 µL; incubate 42 °C 2 min, hold 4 °C.  
+   - Reverse transcription: add 2 µL HiScript III RT SuperMix, incubate 37 °C 15 min then 85 °C 5 s. Dilute cDNA 1:10 (e.g., 2 µL cDNA + 18 µL water). Store at –80 °C if needed.  
+   - qPCR master mix per 20 µL reaction: 10 µL 2× FastSYBR, 1 µL 10 µM forward primer (500 nM final), 1 µL 10 µM reverse primer (500 nM), 6 µL water, 2 µL diluted cDNA.  
+   - Run each target (IL‑2, GAPDH) in technical triplicate with the following cycling: 95 °C 2 min; 45 × (95 °C 15 s, 60 °C 30 s).  
+   - Calculate ΔΔCt relative to GAPDH and untreated control.  
+
+10. **Data handling**  
+    - Provide CD69 MFI values (mean ± SEM, n = 3 technical replicates) and IL‑2 relative expression (log₂ fold change, mean ± SEM, n = 3).  
+    - Flag any conditions where >50 % viability loss occurs (e.g., galectin‑3 or galectin‑8 at 50 µg/mL) – flow data may be unreliable, but qPCR should still be reported.  
+
+Please confirm receipt of reagents, let us know if any items need to be ordered, and send the raw FCS files and qPCR export files when the run is complete. Thank you.

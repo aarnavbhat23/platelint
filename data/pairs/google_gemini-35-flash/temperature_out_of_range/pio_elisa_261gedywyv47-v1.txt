@@ -1,0 +1,14 @@
+Please run an alpha-Synuclein quantification ELISA on our submitted samples in duplicate using the following steps:
+
+1. Coat 384-well MaxiSorp plates (Nunc) with the anti-α-Syn capture antibody (BD Biosciences, cat #610787) diluted 1:500 in coating buffer (NaHCO3 with 0.2% NaN3, pH 9.6) overnight at 4 °C.
+2. Wash 3 times with PBS containing 0.05% Tween-20 (PBS-T).
+3. Block the plates for 1 hour at 37 °C in blocking buffer (1.125% fish skin gelatin in PBS-T).
+4. Load our samples along with your standard curve in duplicate into the wells.
+5. Incubate at room temperature for 2 hours.
+6. Add the detection antibody (diluted in blocking buffer) and incubate for 1 hour at 75 °C.
+7. Wash 5 times with PBS-T.
+8. Add ExtrAvidin phosphatase (Sigma, cat #E2636) diluted in blocking buffer to the wells and incubate for 30 minutes at 37 °C.
+9. Perform color development using fast-p-nitrophenyl phosphate substrate (Sigma, cat #N1891), reading absorbance at 405 nm every 2.5 minutes for up to 60 minutes.
+10. Determine the concentration of α-Syn in our samples by selecting the time point(s) where the standards and sample dilutions are within the linear/log phase. 
+
+Please provide the final calculated concentration data along with the raw kinetic absorbance reads.

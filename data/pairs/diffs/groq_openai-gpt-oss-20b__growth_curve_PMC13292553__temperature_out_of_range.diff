@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/growth_curve_PMC13292553 (clean)
++++ groq_openai-gpt-oss-20b/growth_curve_PMC13292553 (defect)
+@@ -107,3 +107,3 @@
+ 44. Add components in order: DTT, NaCl, ThT → protein → heparin. Use fresh, filtered solutions.  
+-45. Transfer 10 µL to each well of 384‑well plate, seal, shake 30 s (low speed) at 37 °C before first reading.  
++45. Transfer 10 µL to each well of 384‑well plate, seal, shake 30 s (low speed) at 75 °C before first reading.  
+ 46. Record ThT fluorescence (Ex 440 nm, Em 480 nm) every 10 min for 72 h (average 3 wells).  

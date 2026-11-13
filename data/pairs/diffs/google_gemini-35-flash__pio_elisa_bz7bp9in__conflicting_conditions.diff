@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/pio_elisa_bz7bp9in (clean)
++++ google_gemini-35-flash/pio_elisa_bz7bp9in (defect)
+@@ -6,3 +6,3 @@
+ 4. Pipette 25 µL per well of Calibrators (in duplicate), Antigen Controls (in duplicate), undiluted perifusion fractions, diluted perifusion fractions, and extract dilutions into the coated 96-well ELISA plate.
+-5. Add 100 µL of 1x Enzyme Conjugate solution to each well and incubate the plate on a microplate shaker at 900 rpm for 1 hour at room temperature (18–25°C).
++5. Add 100 µL of 1x Enzyme Conjugate solution to each well and incubate the plate on a microplate shaker at 900 rpm for 1 hour at room temperature (18–25°C), and hold the plate at 4 °C for the whole of this step.
+ 6. Wash the plate 6 times with 700 µL/well of 1x Wash Buffer using a plate washer without a soak step, then invert and firmly tap the plate against absorbent paper.

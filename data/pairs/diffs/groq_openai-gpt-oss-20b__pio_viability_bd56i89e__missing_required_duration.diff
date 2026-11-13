@@ -1,0 +1,29 @@
+--- groq_openai-gpt-oss-20b/pio_viability_bd56i89e (clean)
++++ groq_openai-gpt-oss-20b/pio_viability_bd56i89e (defect)
+@@ -1,15 +1,15 @@
+-Run the CellTiter‑Glo luminescent cell viability assay on our 96‑well white‑walled plates.  
++Run the CellTiter‑Glo luminescent cell viability assay on our 96‑well white‑walled plates. 
+ 
+-**Materials**  
+-- CellTiter‑Glo® Luminescent Cell Viability reagent, 10 mL (Promega #G7570).  
+-- Caspase Glo buffer (same buffer supplied with the kit).  
++**Materials** 
++- CellTiter‑Glo® Luminescent Cell Viability reagent, 10 mL (Promega #G7570). 
++- Caspase Glo buffer (same buffer supplied with the kit). 
+ 
+-**Procedure**  
++**Procedure** 
+ 
+-1. Treat the cells in the 96‑well plate as per our experimental design (compound exposure, time points, etc.).  
+-2. Equilibrate both the CellTiter‑Glo reagent and the 96‑well plate to room temperature (≈22 °C) for at least 30 minutes before adding anything.  
+-3. Prepare the assay reagent by mixing an equal volume of Caspase Glo buffer with the CellTiter‑Glo substrate (1:1 ratio). For each sample add 100 µL of this mixed reagent to 100 µL of the cell culture media in the corresponding well. Include a media‑only control well.  
+-4. After adding the reagent, place the plate on an orbital shaker for 2 minutes to ensure thorough mixing.  
+-5. Allow the plate to incubate at room temperature for 10 minutes (no further mixing required).  
+-6. Measure luminescence on a compatible plate reader.  
++1. Treat the cells in the 96‑well plate as per our experimental design (compound exposure, time points, etc.). 
++2. Equilibrate both the CellTiter‑Glo reagent and the 96‑well plate to room temperature (≈22 °C) for at least 30 minutes before adding anything. 
++3. Prepare the assay reagent by mixing an equal volume of Caspase Glo buffer with the CellTiter‑Glo substrate (1:1 ratio). For each sample add 100 µL of this mixed reagent to 100 µL of the cell culture media in the corresponding well. Include a media‑only control well. 
++4. After adding the reagent, place the plate on an orbital shaker to ensure thorough mixing. 
++5. Allow the plate to incubate at room temperature for 10 minutes (no further mixing required). 
++6. Measure luminescence on a compatible plate reader. 
+ 

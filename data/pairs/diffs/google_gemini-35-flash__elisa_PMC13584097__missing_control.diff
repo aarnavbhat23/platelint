@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/elisa_PMC13584097 (clean)
++++ google_gemini-35-flash/elisa_PMC13584097 (defect)
+@@ -6,3 +6,3 @@
+ 
+-3. LDH and ATP Viability Assays: Collect daily conditioned media for LDH release assays (absorbance at 490 nm); use media from slices treated with 2% Triton X-100 for 10 minutes as positive controls. For metabolic viability, homogenize individual PCSS in 500 µL TE buffer using a bead mill (2.8 mm zirconium beads, 4 m/s, 4 cycles of 40 s on / 60 s off). Centrifuge homogenates at 1,000 × g for 1 minute at 4°C, collect the clear supernatant avoiding lipid and pellet debris, and perform ATP bioluminescence quantification using Luciferase Reagent against a standard curve.
++3. For metabolic viability, homogenize individual PCSS in 500 µL TE buffer using a bead mill (2.8 mm zirconium beads, 4 m/s, 4 cycles of 40 s on / 60 s off). Centrifuge homogenates at 1,000 × g for 1 minute at 4°C, collect the clear supernatant avoiding lipid and pellet debris, and perform ATP bioluminescence quantification using Luciferase Reagent against a standard curve.
+ 

@@ -10,168 +10,168 @@
     "llm"
   ],
   "items_per_checker_split": {
-    "keyword/tuning": 247,
-    "keyword/test": 841,
-    "rules/tuning": 247,
-    "rules/test": 841
+    "keyword/tuning": 262,
+    "keyword/test": 988,
+    "rules/tuning": 262,
+    "rules/test": 988
   },
   "detection_test": {
     "well_volume_exceeded": {
       "keyword": {
         "k": 1,
-        "n": 53,
-        "pct": "1.9",
+        "n": 60,
+        "pct": "1.7",
         "ci": [
           "0.3",
-          "9.9"
+          "8.9"
         ]
       },
       "rules": {
-        "k": 35,
-        "n": 53,
-        "pct": "66.0",
+        "k": 42,
+        "n": 60,
+        "pct": "70.0",
         "ci": [
-          "52.6",
-          "77.3"
+          "57.5",
+          "80.1"
         ]
       }
     },
     "conflicting_conditions": {
       "keyword": {
-        "k": 98,
-        "n": 116,
-        "pct": "84.5",
+        "k": 115,
+        "n": 136,
+        "pct": "84.6",
         "ci": [
-          "76.8",
-          "90.0"
+          "77.5",
+          "89.7"
         ]
       },
       "rules": {
-        "k": 84,
-        "n": 116,
-        "pct": "72.4",
+        "k": 97,
+        "n": 136,
+        "pct": "71.3",
         "ci": [
-          "63.7",
-          "79.7"
+          "63.2",
+          "78.3"
         ]
       }
     },
     "missing_control": {
       "keyword": {
-        "k": 32,
-        "n": 58,
-        "pct": "55.2",
+        "k": 38,
+        "n": 69,
+        "pct": "55.1",
         "ci": [
-          "42.5",
-          "67.3"
+          "43.4",
+          "66.2"
         ]
       },
       "rules": {
-        "k": 38,
-        "n": 58,
-        "pct": "65.5",
+        "k": 46,
+        "n": 69,
+        "pct": "66.7",
         "ci": [
-          "52.7",
-          "76.4"
+          "54.9",
+          "76.6"
         ]
       }
     },
     "unit_mismatch": {
       "keyword": {
-        "k": 132,
-        "n": 149,
-        "pct": "88.6",
+        "k": 156,
+        "n": 175,
+        "pct": "89.1",
         "ci": [
-          "82.5",
-          "92.8"
+          "83.7",
+          "92.9"
         ]
       },
       "rules": {
-        "k": 47,
-        "n": 149,
-        "pct": "31.5",
+        "k": 56,
+        "n": 175,
+        "pct": "32.0",
         "ci": [
-          "24.6",
-          "39.4"
+          "25.5",
+          "39.2"
         ]
       }
     },
     "instrument_readout_mismatch": {
       "keyword": {
-        "k": 38,
-        "n": 43,
-        "pct": "88.4",
+        "k": 43,
+        "n": 49,
+        "pct": "87.8",
         "ci": [
-          "75.5",
-          "94.9"
+          "75.8",
+          "94.3"
         ]
       },
       "rules": {
-        "k": 20,
-        "n": 43,
-        "pct": "46.5",
+        "k": 21,
+        "n": 49,
+        "pct": "42.9",
         "ci": [
-          "32.5",
-          "61.1"
+          "30.0",
+          "56.7"
         ]
       }
     },
     "temperature_out_of_range": {
       "keyword": {
-        "k": 133,
-        "n": 133,
+        "k": 157,
+        "n": 157,
         "pct": "100.0",
         "ci": [
-          "97.2",
+          "97.6",
           "100.0"
         ]
       },
       "rules": {
-        "k": 129,
-        "n": 133,
-        "pct": "97.0",
+        "k": 153,
+        "n": 157,
+        "pct": "97.5",
         "ci": [
-          "92.5",
-          "98.8"
+          "93.6",
+          "99.0"
         ]
       }
     },
     "missing_required_duration": {
       "keyword": {
-        "k": 9,
-        "n": 86,
-        "pct": "10.5",
+        "k": 10,
+        "n": 105,
+        "pct": "9.5",
         "ci": [
-          "5.6",
-          "18.7"
+          "5.3",
+          "16.6"
         ]
       },
       "rules": {
-        "k": 60,
-        "n": 86,
-        "pct": "69.8",
+        "k": 77,
+        "n": 105,
+        "pct": "73.3",
         "ci": [
-          "59.4",
-          "78.5"
+          "64.2",
+          "80.9"
         ]
       }
     },
     "contradictory_ordering": {
       "keyword": {
-        "k": 43,
-        "n": 48,
-        "pct": "89.6",
+        "k": 46,
+        "n": 53,
+        "pct": "86.8",
         "ci": [
-          "77.8",
-          "95.5"
+          "75.2",
+          "93.5"
         ]
       },
       "rules": {
-        "k": 48,
-        "n": 48,
+        "k": 53,
+        "n": 53,
         "pct": "100.0",
         "ci": [
-          "92.6",
+          "93.2",
           "100.0"
         ]
       }
@@ -179,21 +179,21 @@
   },
   "flag_rate_on_uninjected_test": {
     "keyword": {
-      "k": 137,
-      "n": 155,
-      "pct": "88.4",
+      "k": 163,
+      "n": 184,
+      "pct": "88.6",
       "ci": [
-        "82.4",
-        "92.5"
+        "83.2",
+        "92.4"
       ]
     },
     "rules": {
-      "k": 133,
-      "n": 155,
-      "pct": "85.8",
+      "k": 156,
+      "n": 184,
+      "pct": "84.8",
       "ci": [
-        "79.4",
-        "90.4"
+        "78.9",
+        "89.3"
       ]
     },
     "llm": {
@@ -208,5 +208,5 @@
   },
   "flag_rate_note": "upper bound on false positives: un-injected requests are un-edited, not verified defect-free",
   "defect_rate_by_model": null,
-  "defect_rate_by_model_note": "data/labels.csv not found (stage 5 writes it)"
+  "defect_rate_by_model_note": "data/labels.csv has no filled-in labels yet"
 }

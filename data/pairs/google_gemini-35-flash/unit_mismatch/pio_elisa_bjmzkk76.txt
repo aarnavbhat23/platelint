@@ -1,0 +1,10 @@
+Please run an indirect ELISA on our submitted IgY, rat serum, and cat serum samples according to the steps below:
+
+1. Coat Thermo Fisher 96-well U-bottom microwell plates (Cat #260210) with 50 ng/well of synthetic gp-120 peptide in BioLegend coating buffer (Cat #421701) overnight at 4°C.
+2. Wash the plate 4 times with PBS-Tween-20 (PBST), then block each well with 25 mL of 3% non-fat milk in PBS for 1 hour at room temperature.
+3. Wash 4 times with PBST. In triplicate wells, load 25 µL of sample per well: purified IgY samples normalized to 1 mg/mL, and rat/cat sera diluted 1:16 in 3% non-fat milk/PBS. Include control wells in triplicate: anti-HIV positive human serum (positive control), turtle serum (negative control), and 0.9% normal saline (blank).
+4. Incubate the plate for 2 hours at room temperature, then wash 4 times with PBST.
+5. Add 25 µL per well of SpLAG-anti-IgY-HRP conjugate diluted 1:1000, and incubate for 1 hour at room temperature.
+6. Wash 4 times with PBST, then add 50 µL per well of TMB substrate solution (Sigma #54827-17-7).
+7. Incubate for 15 minutes in the dark, monitoring signal until positive controls develop distinct color and negative controls remain clear, then stop the reaction.
+8. Measure absorbance and calculate the assay cut-off value as four times the mean optical density of the negative controls. Provide the raw OD values and final call for each sample.

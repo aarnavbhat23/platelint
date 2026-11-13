@@ -1,0 +1,13 @@
+Please run an indirect ELISA on our human serum samples to screen for anti-HIV antibodies using the following protocol. 
+
+1. Coat 96-well U-bottom polystyrene microplates with 50 ng/well of a synthetic peptide mix (HIV gp41 579-601 and HIV gp120 fragments 254-274, 308-331, and 421-438) for 4 hours at 37°C.
+2. Block wells with 25 µl/well of 3% non-fat milk in PBS for 1 hour at room temperature.
+3. Wash the plate 4 times with PBS-Tween-20.
+4. Add 25 µl/well of our serum samples diluted 1:16 in duplicate. On each plate, include duplicates of a high-titre anti-HIV pooled serum (positive control), a healthy pooled serum (negative control), and 0.9% normal saline (blank).
+5. Incubate for 90 minutes at room temperature, then wash 4 times with PBS-Tween-20.
+6. Add 25 µl/well of protein LA-HRP conjugate (Sigma-Aldrich) diluted 1:5000.
+7. Incubate for 90 minutes at room temperature, wash 4 times with PBS-Tween-20, and then add 25 µl/well of TMB substrate. Incubate for 15 minutes in the dark.
+8. Stop the reaction using 3M H2SO4 and read the luminescence on a microplate reader.
+9. Calculate the cut-off value as the mean optical density of the negative control plus 2 standard deviations. 
+
+Please provide the raw OD450 values, calculated cut-off values, and final positive/negative determinations for each sample in the final report.

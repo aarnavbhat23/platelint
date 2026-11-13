@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/growth_curve_PMC12830117 (clean)
++++ groq_openai-gpt-oss-120b/growth_curve_PMC12830117 (defect)
+@@ -53,3 +53,3 @@
+    - Incubate 24–48 h at 37 °C, 5 % CO₂.
+-   - At 24 h, add 100 µL D‑luciferin (150 µg/mL) to each well, incubate 5 min at 20–25 °C protected from light.
++   - At 24 h, add 100 µL D‑luciferin (150 mg/mL) to each well, incubate 5 min at 20–25 °C protected from light.
+    - Read luminescence on a Tecan Infinite M1000 plate reader; lower signal indicates greater tumor killing. Include non‑CAR‑engineered PBMC‑derived T cells as a negative control.

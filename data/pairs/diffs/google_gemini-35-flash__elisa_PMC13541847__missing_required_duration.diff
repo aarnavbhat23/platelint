@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/elisa_PMC13541847 (clean)
++++ google_gemini-35-flash/elisa_PMC13541847 (defect)
+@@ -6,3 +6,3 @@
+ 
+-3. **Incubation & Detection**: Incubate the plate for 1 hour at room temperature with agitation at 800 rpm. Wash three times with sample diluent using a magnetic plate washer. Add 100 µL of purified rabbit anti-CRM197 primary antibody to each well and incubate for 1 hour at 800 rpm. Wash three times, then add 50 µL of R-PE-conjugated goat anti-rabbit Fab secondary antibody (diluted 1:200) to each well and incubate for 30 minutes at 800 rpm. Wash three times, resuspend the beads in 100 µL of 1X PBS, agitate, and measure median fluorescence intensity (MFI) on a Bio-Plex 200 system using high-sensitivity settings.
++3. **Incubation & Detection**: Incubate the plate for 1 hour at room temperature with agitation at 800 rpm. Wash three times with sample diluent using a magnetic plate washer. Add 100 µL of purified rabbit anti-CRM197 primary antibody to each well and incubate for 1 hour at 800 rpm. Wash three times, then add 50 µL of R-PE-conjugated goat anti-rabbit Fab secondary antibody (diluted 1:200) to each well and incubate at 800 rpm. Wash three times, resuspend the beads in 100 µL of 1X PBS, agitate, and measure median fluorescence intensity (MFI) on a Bio-Plex 200 system using high-sensitivity settings.
+ 

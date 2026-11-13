@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/pio_elisa_bma6k2he (clean)
++++ google_gemini-35-flash/pio_elisa_bma6k2he (defect)
+@@ -6,3 +6,3 @@
+ 4. Set up the required microplate strips. Add 50 µL of each standard point to the standard wells. To the sample wells, add 40 µL of serum sample, 10 µL of anti-TGFβ1 antibody, and 50 µL of streptavidin-HRP. Add 50 µL of streptavidin-HRP to the standard wells as well.
+-5. Mix well, seal the plate, and incubate at 37°C for 60 minutes.
++5. Mix well, seal the plate, and incubate at 37°C for 60 minutes, and hold the plate at 4 °C for the whole of this step.
+ 6. Remove the seal and wash the plate 5 times with 1x wash buffer. Use at least 0.35 mL of wash buffer per well, soaking for 30 to 60 seconds per wash. Blot the plate thoroughly dry on paper towels after the final wash.

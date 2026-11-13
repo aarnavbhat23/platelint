@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/elisa_PMC13519604 (clean)
++++ groq_openai-gpt-oss-20b/elisa_PMC13519604 (defect)
+@@ -30,3 +30,3 @@
+    - CpG 500 nM (InvivoGen).  
+-   *Add 1 mL medium per well (12‑well) or 500 µL per well (24‑well). Incubate 8–24 h at 37 °C.*  
++   *Add 1 mL medium per well (12‑well) or 500 µL per well (24‑well). Incubate 8–24 h at 75 °C.*  
+    - **Readouts**:  

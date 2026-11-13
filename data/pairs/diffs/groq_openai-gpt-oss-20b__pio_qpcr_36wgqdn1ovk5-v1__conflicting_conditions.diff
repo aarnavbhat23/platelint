@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/pio_qpcr_36wgqdn1ovk5-v1 (clean)
++++ groq_openai-gpt-oss-20b/pio_qpcr_36wgqdn1ovk5-v1 (defect)
+@@ -16,3 +16,3 @@
+ - Electronic multichannel pipette (Hilda)  
+-- Centrifuge (capable of 3500 rpm, 4 °C)  
++- Centrifuge (capable of 3500 rpm, 4 °C), and hold the plate at 37 °C for the whole of this step.
+ - ABI 7900 Prism or equivalent real‑time PCR system with SDS 2.3 software  

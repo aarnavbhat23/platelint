@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/qpcr_PMC13753574 (clean)
++++ groq_openai-gpt-oss-20b/qpcr_PMC13753574 (defect)
+@@ -24,3 +24,3 @@
+    b. Spread seeds evenly on germination paper in 9 cm dishes, moisten with water (not submerged).  
+-   c. Keep dishes in dark at 26 °C until radicles appear (2–3 days).  
++   c. Keep dishes in dark at 75 °C until radicles appear (2–3 days).  
+ 

@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/pio_elisa_bjy2kpye (clean)
++++ google_gemini-35-flash/pio_elisa_bjy2kpye (defect)
+@@ -9,3 +9,3 @@
+ 7. Add peroxidase-labeled streptavidin conjugate and incubate for 1 hour at room temperature.
+-8. Wash 4 times with PBS-Tween 20 buffer, then add substrate solution to initiate the colorimetric reaction.
++8. Wash 4 times with PBS-Tween 20 buffer, then add substrate solution to initiate the colorimetric reaction. Take the reading before adding the substrate.
+ 9. Stop the reaction by adding 3M H2SO4.

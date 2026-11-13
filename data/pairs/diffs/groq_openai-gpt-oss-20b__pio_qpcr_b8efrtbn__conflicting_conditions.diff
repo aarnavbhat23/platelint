@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/pio_qpcr_b8efrtbn (clean)
++++ groq_openai-gpt-oss-20b/pio_qpcr_b8efrtbn (defect)
+@@ -10,3 +10,3 @@
+    - Add RNase‑free water to a final volume of 14 µL
+-   Incubate 2 min at 42 °C, then immediately chill on ice.
++   Incubate 2 min at 42 °C, then immediately chill on ice, and hold the plate at 4 °C for the whole of this step.
+ 

@@ -1,0 +1,17 @@
+Please conduct an MTT viability assay on our cell samples as follows:
+
+1. Dissolve each test compound in DMSO to a stock concentration suitable for serial dilution (e.g., 10 mM).  
+2. Prepare a 40‑fold serial dilution series in a U‑type tube or plate (e.g., 10 µL of stock + 390 µL DMSO for the first dilution, then mix 10 µL into 390 µL of the previous dilution).  
+3. Plate the cells in a 96‑well plate (density per your usual protocol). Observe and record the initial cell morphology.  
+4. Remove the old medium from the cells.  
+5. Add 100 µL of each diluted sample to the appropriate wells; keep the cells in 37 °C, 5 % CO₂ for 48 h.  
+6. After 48 h, re‑inspect the cells under the microscope. Photograph any wells that show morphological changes.  
+7. Prepare a fresh MTT working solution at 10 % (w/v) in PBS or culture medium.  
+8. Remove the medium from the 96‑well plate.  
+9. Add 150 µL of the MTT solution to each well using a multichannel pipette. Incubate for 4 h at 37 °C.  
+10. Carefully remove the MTT solution.  
+11. Add 100 µL of 100 % DMSO to each well to dissolve the formazan crystals.  
+12. Shake the plate gently for 30 s to ensure complete dissolution.  
+13. Measure absorbance at 560 nm (signal) and 750 nm (background) with a plate reader; perform a 0.5‑min pre‑scan shake before reading.  
+
+Please report the absorbance data, calculate percent viability relative to untreated controls, and include representative cell images in the final report.

@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/elisa_PMC13562074 (clean)
++++ google_gemini-35-flash/elisa_PMC13562074 (defect)
+@@ -12,3 +12,3 @@
+ 
+-7. Perform reduction and alkylation by adding a freshly prepared master mix to the ISF samples to reach final concentrations of 10 mM TCEP, 30 mM 2-chloroacetamide, and 100 mM Tris-HCl (pH 8.5). Heat at 95°C for 10 minutes at 1,000 rpm. Digest with 1.5 μg Trypsin/LysC per sample for 16 hours at 37°C. Desalt peptides using SDB-RPS StageTips, vacuum dry, and resuspend in 0.1% formic acid.
++7. Perform reduction and alkylation by adding a freshly prepared master mix to the ISF samples to reach final concentrations of 10 mM TCEP, 30 mM 2-chloroacetamide, and 100 mM Tris-HCl (pH 8.5). Heat at 95°C for 10 minutes at 1,000 rpm. Digest with 1.5 μg Trypsin/LysC per sample for 16 hours at 75 °C. Desalt peptides using SDB-RPS StageTips, vacuum dry, and resuspend in 0.1% formic acid.
+ 

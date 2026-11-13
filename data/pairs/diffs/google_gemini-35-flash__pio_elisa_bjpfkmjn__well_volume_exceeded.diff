@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/pio_elisa_bjpfkmjn (clean)
++++ google_gemini-35-flash/pio_elisa_bjpfkmjn (defect)
+@@ -7,3 +7,3 @@
+ 5. Add 50 µL of 4 mg/mL o-phenylenediamine (OPD) substrate solution per well and incubate for 15 minutes at room temperature in the dark.
+-6. Stop the reaction with 50 µL of 3M H2SO4 per well.
++6. Stop the reaction with 1080 µL of 3M H2SO4 per well.
+ 7. Visually inspect color development, read absorbance at 492 nm on a microplate reader, and calculate the cut-off threshold as 3 times the mean OD of the negative controls. Please send us the raw OD data and the calculated cut-off values.

@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/growth_curve_PMC13292553 (clean)
++++ groq_openai-gpt-oss-120b/growth_curve_PMC13292553 (defect)
+@@ -2,3 +2,3 @@
+ 
+-2. Pick a single colony, grow 40 mL LB+Kan overnight (16–18 h, 37 °C, 220 rpm). Use this primary culture to inoculate 4 × 1 L LB+Kan (10 mL primary per L). Grow at 37 °C, 220 rpm until OD₆₀₀ = 0.4–0.6, induce with 1 mM IPTG for 3 h, harvest cells (≈10 g pellet per L) by centrifugation 4350 × g 30 min, store pellets at –80 °C.
++2. Pick a single colony, grow 40 mL LB+Kan overnight (16–18 h, 37 °C, 220 rpm). Use this primary culture to inoculate 4 × 1 L LB+Kan (10 mL primary per L). Grow at 37 °C, 220 rpm until OD₆₀₀ = 0.4–0.6, induce with 1 mM IPTG, harvest cells (≈10 g pellet per L) by centrifugation 4350 × g 30 min, store pellets at –80 °C.
+ 

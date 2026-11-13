@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/elisa_PMC13581141 (clean)
++++ google_gemini-35-flash/elisa_PMC13581141 (defect)
+@@ -4,3 +4,3 @@
+ 
+-2. Total Superoxide Dismutase (T-SOD) Activity Assay: Quantify enzyme activity using the hydroxylamine method with the Elabscience T-SOD Activity Assay Kit (Catalog # E-BC-K019-S). Measure absorbance at 550 nm on a calibrated spectrophotometer. The expected linear detection range is 4.7 U/mL to 166 U/mL (analytical sensitivity limit of 4.7 U/mL). Target precision thresholds are an intra-assay CV of <2.8% and an inter-assay CV of <6.3%.
++2. Total Superoxide Dismutase (T-SOD) Activity Assay: Quantify enzyme activity using the hydroxylamine method with the Elabscience T-SOD Activity Assay Kit (Catalog # E-BC-K019-S). Measure luminescence on a calibrated spectrophotometer. The expected linear detection range is 4.7 U/mL to 166 U/mL (analytical sensitivity limit of 4.7 U/mL). Target precision thresholds are an intra-assay CV of <2.8% and an inter-assay CV of <6.3%.
+ 

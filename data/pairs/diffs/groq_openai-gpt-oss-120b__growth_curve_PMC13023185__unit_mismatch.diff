@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/growth_curve_PMC13023185 (clean)
++++ groq_openai-gpt-oss-120b/growth_curve_PMC13023185 (defect)
+@@ -46,3 +46,3 @@
+    - **Indole‑3‑acetic acid (IAA)**:  
+-     *Bacteria*: grow 72 h in NB ± 1.5 mg mL⁻¹ L‑tryptophan, normalize OD₆₀₀, centrifuge, mix 100 µL supernatant with 100 µL Salkowski reagent + 1 µL H₃PO₄ in 96‑well plate, incubate 40 min, read 530 nm. Standard curve 0‑100 µg mL⁻¹ IAA. Positive if >5 µg mL⁻¹. Herbaspirillum frisingense GSF30 as control.  
++     *Bacteria*: grow 72 h in NB ± 1.5 mg mL⁻¹ L‑tryptophan, normalize OD₆₀₀, centrifuge, mix 100 µL supernatant with 100 µL Salkowski reagent + 1 µL H₃PO₄ in 96‑well plate, incubate 40 min, read 530 nm. Standard curve 0‑100 µg mL⁻¹ IAA. Positive if >5 mg mL⁻¹. Herbaspirillum frisingense GSF30 as control.  
+      *Fungi*: inoculate 2 mycelial pieces in 3 mL MMNC ± 1.5 mg mL⁻¹ L‑tryptophan (24‑well plates), incubate 96 h, process as above; normalize to dry biomass, positive if >0.5 µg mg⁻¹.  

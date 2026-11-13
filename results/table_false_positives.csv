@@ -1,4 +1,4 @@
 checker,split,n_uninjected,flagged,flag_rate_pct,lo,hi,note,flag_well_volume_exceeded,flag_conflicting_conditions,flag_missing_control,flag_unit_mismatch,flag_instrument_readout_mismatch,flag_temperature_out_of_range,flag_missing_required_duration,flag_contradictory_ordering
-keyword,test,155,137,88.4,82.4,92.5,upper bound on false positives; un-injected is not verified defect-free,3.2,34.8,46.5,63.9,9.7,24.5,8.4,16.8
-rules,test,155,133,85.8,79.4,90.4,upper bound on false positives; un-injected is not verified defect-free,6.5,28.4,54.2,7.7,5.8,40.6,41.9,0.0
+keyword,test,184,163,88.6,83.2,92.4,upper bound on false positives; un-injected is not verified defect-free,3.3,35.9,48.4,63.6,9.8,25.0,7.6,17.9
+rules,test,184,156,84.8,78.9,89.3,upper bound on false positives; un-injected is not verified defect-free,6.0,27.7,54.9,7.6,6.0,40.2,39.7,0.0
 llm,test,0,0,-,-,-,upper bound on false positives; un-injected is not verified defect-free,-,-,-,-,-,-,-,-

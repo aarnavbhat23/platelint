@@ -1,0 +1,19 @@
+1. Culture and maintain murine 4T1 and 67NR breast cancer cells in DMEM supplemented with 10% FBS and 1% penicillin-streptomycin at 37°C and 5% CO2 under sterile conditions. Passage cells twice at 80–90% confluence before harvest, avoiding high passage numbers.
+
+2. Harvest cells using 0.25% Trypsin-EDTA, quench with medium, and count using an automated counter with trypan blue to ensure viability is at least 80%. Wash cell pellets twice with PBS, then resuspend on ice as follows: 4T1 cells at 1 × 10^5 cells/mL in cold PBS; 67NR cells at 2 × 10^6 cells/mL in a 1:1 mixture of cold PBS and Matrigel. Prepare double the required volume to account for dead volume, and keep suspensions on ice.
+
+3. Perform bilateral orthotopic injections into the 4th mammary fat pad of healthy 6–8 week old female BALB/c mice. Administer metamizole analgesia 1 h prior to procedure, induce and maintain anesthesia with isoflurane, shave the lower abdomen, make a skin incision, and inject 50 μL of cell suspension per fat pad (5,000 cells/site for 4T1; 100,000 cells/site for 67NR) using a 29G syringe. Close incisions with surgical clips and inject within 1 hour of cell resuspension.
+
+4. Monitor animals daily and measure tumor dimensions 3 times per week using calipers starting on day 5. Calculate tumor volume as (π/6 × length × width^2) and harvest when tumors reach approximately 500 mm^3 (around day 21).
+
+5. Euthanize mice individually and immediately isolate primary tumors and axillary lymph nodes (TDLNs). Process one mouse at a time so that harvest to centrifugation takes no more than 15 minutes. Wash tissues in cold PBS, dry on Whatman paper, weigh each tissue accurately, and record tumor volumes, LN identities, tissue weights, and recovered ISF volumes.
+
+6. Extract interstitial fluid (ISF) by placing intact LNs or 50 mg cut tumor pieces onto 20 μm cell strainers fitted on 1.5 mL tubes. Add 10 μL of ice-cold PBS to each sample and centrifuge at 150 × g for 10 minutes at 4°C. Carefully collect the upper ISF supernatant without disturbing the pellet, snap-freeze on dry ice, and store at −80°C.
+
+7. Perform reduction and alkylation by adding a freshly prepared master mix to the ISF samples to reach final concentrations of 10 mM TCEP, 30 mM 2-chloroacetamide, and 100 mM Tris-HCl (pH 8.5). Heat at 95°C for 10 minutes at 1,000 rpm. Digest with 1.5 μg Trypsin/LysC per sample for 16 hours at 37°C. Desalt peptides using SDB-RPS StageTips, vacuum dry, and resuspend in 0.1% formic acid.
+
+8. Determine peptide concentrations via NanoDrop, normalize sample loading, and inject 300 ng of peptides per sample onto an EASYnLC 1200 connected to an Orbitrap Exploris 480 mass spectrometer. Separate peptides over a 2-hour gradient (3% to 98% Buffer B) at 300 nL/min and 55°C. Acquire data in Data-Independent Acquisition (DIA) mode covering m/z 300–1,650 (MS1 resolution 120,000; 32 MS/MS windows, resolution 30,000).
+
+9. Process raw files in DIA-NN (v1.8) using a library-free search against the mouse UniProt FASTA database with MBR enabled, deep learning predictions active, and robust LC quantification. Filter data to 1% global and 5% run-specific protein-group FDR, retain protein groups present in at least 70% of samples in one experimental group, and impute missing values in Perseus using a normal distribution (width 0.3, downshift 1.8).
+
+10. Perform differential abundance analysis between groups using two-tailed t-tests with Benjamini–Hochberg p-value adjustment. Provide standard reporting files along with volcano plots (|log2FC| ≥ 1, adjusted p ≤ 0.05), UMAP visualizations, and heatmaps of protein expression profiles across groups.

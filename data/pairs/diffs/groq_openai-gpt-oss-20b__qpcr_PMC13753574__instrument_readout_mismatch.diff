@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/qpcr_PMC13753574 (clean)
++++ groq_openai-gpt-oss-20b/qpcr_PMC13753574 (defect)
+@@ -73,3 +73,3 @@
+     - 40 cycles: 95 °C 5 s, 59 °C 30 s (optimize for each primer)  
+-    - Melt curve: 60–95 °C, 0.3 °C s⁻¹, continuous fluorescence.  
++    - Melt curve: 60–95 °C, 0.3 °C s⁻¹, continuous absorbance at 450 nm.  
+ 

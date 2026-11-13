@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/pio_elisa_261gedywyv47-v1 (clean)
++++ google_gemini-35-flash/pio_elisa_261gedywyv47-v1 (defect)
+@@ -4,3 +4,3 @@
+ 2. Wash 3 times with PBS containing 0.05% Tween-20 (PBS-T).
+-3. Block the plates for 1 hour at 37 °C in blocking buffer (1.125% fish skin gelatin in PBS-T).
++3. Block the plates at 37 °C in blocking buffer (1.125% fish skin gelatin in PBS-T).
+ 4. Load our samples along with your standard curve in duplicate into the wells.

@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/growth_curve_PMC12830117 (clean)
++++ groq_openai-gpt-oss-20b/growth_curve_PMC12830117 (defect)
+@@ -19,3 +19,3 @@
+ - 2 mL Normocin (500×, 1×)  
+-Filter through a 0.22 µm filter into a sterile 1 L bottle. Store at 4 °C, use within 1 month.  
++Filter through a 0.22 µm filter into a sterile 1 L bottle. Store at -80 °C, use within 1 month.  
+ 

@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/growth_curve_PMC12830117 (clean)
++++ groq_openai-gpt-oss-120b/growth_curve_PMC12830117 (defect)
+@@ -10,3 +10,3 @@
+ 2. **HSPC engineering (Day 0–1):**
+-   - Thaw Retronectin (1 µg/µL) and dilute to 20 µg/mL in 1× PBS. Add 1 mL per well of a non‑tissue‑culture 6‑well plate; incubate 20–25 °C for 2 h.
++   - Thaw Retronectin (1 µg/µL) and dilute to 20 µg/mL in 1× PBS. Add 1 mL per well of a non‑tissue‑culture 6‑well plate; incubate 20–75 °C for 2 h.
+    - Block with 1 mL 2 % BSA/PBS per well for 30 min (20–25 °C), aspirate, then wash each well with 2 mL PBS. Use the plate the same day (or store sealed at 4 °C up to 7 days).

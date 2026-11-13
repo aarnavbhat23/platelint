@@ -1,0 +1,14 @@
+Please run a human IL-17A sandwich ELISA on the serum samples we are sending over according to the following protocol:
+
+1. Coat a 96-well plate with monoclonal anti-human IL-17 capture antibody.
+2. Add the serum samples to the plate alongside a standard curve prepared using recombinant human IL-17A (Bio Basic Cat #RC212-28).
+3. Incubate the plate 30 minutes at room temperature.
+4. Wash the plate 4 times with PBS-Tween 20 buffer.
+5. Add biotin-conjugated anti-human IL-17 detection antibody to each well and incubate for 1 hour 30 minutes at room temperature.
+6. Wash the plate 4 times with PBS-Tween 20 buffer.
+7. Add peroxidase-labeled streptavidin conjugate to each well and incubate for 1 hour at room temperature.
+8. Wash the plate 4 times with PBS-Tween 20 buffer.
+9. Add colorimetric substrate solution and allow color reaction to develop.
+10. Stop the reaction by adding acid stop solution.
+11. Read absorbance at 450 nm.
+12. Generate the standard curve, calculate the IL-17 concentration for each serum sample, and return the raw absorbance values and calculated concentrations to us.

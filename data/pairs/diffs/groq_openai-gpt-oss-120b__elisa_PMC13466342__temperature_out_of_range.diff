@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/elisa_PMC13466342 (clean)
++++ groq_openai-gpt-oss-120b/elisa_PMC13466342 (defect)
+@@ -83,3 +83,3 @@
+ 24. **HUVEC tube formation**  
+-    - Thaw Matrigel, coat 48‑well plates (200 µL well⁻¹), solidify 20 min at 37 °C. Seed HUVECs (experimental = alo, control = vehicle), incubate 4–6 h, capture tube networks under microscope.  
++    - Thaw Matrigel, coat 48‑well plates (200 µL well⁻¹), solidify 20 min at 75 °C. Seed HUVECs (experimental = alo, control = vehicle), incubate 4–6 h, capture tube networks under microscope.  
+ 

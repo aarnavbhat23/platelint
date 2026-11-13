@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/pio_elisa_bz9zp976 (clean)
++++ google_gemini-35-flash/pio_elisa_bz9zp976 (defect)
+@@ -6,3 +6,3 @@
+ 4. Prepare 1X wash buffer by diluting 100 mL concentrate with 900 mL DI water. Pre-soak ELISA microplate wells with 800 µL wash buffer for 30 seconds, then wash and aspirate twice with 400 µL buffer.
+-5. Add 150 µL of Assay Diluent RD1-110 to each well, followed by 50 µL of standards and controls (run in duplicate), perifusion samples, and extract dilutions. Cover the plate and incubate for 3 hours at room temperature.
++5. Add 150 µL of Assay Diluent RD1-110 to each well, followed by 50 µL of standards and controls (run in duplicate), perifusion samples, and extract dilutions. Cover the plate and incubate at room temperature.
+ 6. Aspirate and wash wells three times with 400 µL wash buffer per well.

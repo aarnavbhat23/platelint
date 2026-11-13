@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/growth_curve_PMC12830117 (clean)
++++ groq_openai-gpt-oss-120b/growth_curve_PMC12830117 (defect)
+@@ -52,3 +52,3 @@
+    - In a Corning 96‑well clear‑bottom black plate, set up co‑cultures with the following effector‑to‑target (E:T) ratios: 0:1, 0.1:1, 0.5:1, 1:1, 2:1, 5:1, 10:1. Use four replicates per condition. Adjust cell numbers so that the number of CAR⁺ NKT cells matches the intended E:T ratio.
+-   - Incubate 24–48 h at 37 °C, 5 % CO₂.
++   - Incubate 24–48 h at 37 °C, 5 % CO₂, and hold the plate at 4 °C for the whole of this step.
+    - At 24 h, add 100 µL D‑luciferin (150 µg/mL) to each well, incubate 5 min at 20–25 °C protected from light.

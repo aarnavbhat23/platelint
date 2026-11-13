@@ -1,0 +1,92 @@
+We have 32 equine umbilical cords (≈20 cm each) that need to be processed for paired isolation of mesenchymal stem cells (uc‑MSC) using the reference 3 h collagenase I digestion (RM) and the extended 24 h digestion (NM). Please follow the steps below exactly and return all data (culture logs, microscopy scores, flow‑cytometry files, RT‑qPCR Ct values, differentiation scores, population‑doubling calculations).
+
+1. **Initial decontamination (done on whole cords)**
+   - Cut a 20 cm segment from the allantoic portion near the placenta with sterile scalpel.
+   - Rinse under running 4 °C tap water for 5–10 min until macroscopically clean.
+   - Submerge in 70 % ethanol (Carl Roth) for 3 min, constantly agitating.
+   - Air‑dry, then submerge in 1 % iodine solution (B. Braun Vet Care) for 3 min, agitating.
+   - Rinse thoroughly in sterile Ca²⁺/Mg²⁺‑free PBS (Thermo Fisher) until clear.
+   - Place each cord in a sterile, airtight bag and add 500 mL sterile buffered transport solution:
+     * PBS (‑/‑) + 500 IU/mL penicillin, 0.5 mg/mL streptomycin, 2.5 µg/mL amphotericin B, 0.05 mg/mL gentamicin (5 % Pen/Strep, 1 % Amp B, 0.1 % Genta).
+   - Double‑bag, vortex to ensure complete submersion, store at 4 °C for exactly 12 h.
+
+2. **Tissue preparation (after the 12 h storage)**
+   - Rinse cords in fresh transport solution.
+   - Strip away vessels, isolate perivascular Wharton’s jelly, and clean off intervascular jelly and endothelium.
+   - Mince jelly into 1–3 mm³ pieces with sterile scissors.
+   - Weigh 10.5 ± 1.0 g of minced tissue per sample and transfer to a 50 mL conical tube.
+
+3. **Enzyme digestion (paired per donor)**
+   - Prepare enzyme solution: low‑glucose DMEM (Thermo Fisher) + collagenase I (Thermo Fisher) at 500 U/mL (≈2–2.5 mg/mL, batch‑specific). Use the same batch for both digestions of a given donor.
+   - Add 2 mL enzyme solution per gram of tissue.
+   - For the **RM** tube: incubate 3 h at 37 °C in a water bath, vortex gently every 30 min, and hold the plate at 4 °C for the whole of this step.
+   - For the **NM** tube: incubate 24 h at 37 °C, vortex gently every 30 min.
+
+4. **Post‑digestion processing (identical for both)**
+   - Filter through a 2 mm sterile metal mesh (Fackelmann), rinse with PBS (‑/‑).
+   - Centrifuge 600 g, 10 min, RT.
+   - Pass supernatant through a 100 µm cell strainer (Corning), rinse, centrifuge again as above.
+   - Perform one final PBS wash, then resuspend the cell pellet in **basic culture medium**:
+     * Low‑glucose DMEM, 20 % fetal bovine serum (Sigma‑Aldrich), 1 % Pen/Strep, 1 % amphotericin B (increase from 0.2 % as per protocol), 0.1 % gentamicin.
+   - Seed the entire suspension into one T75 flask (TPP) per digestion condition.
+
+5. **Cell culture**
+   - Incubator: 37 °C, 5 % CO₂, humidified.
+   - 24 h after seeding: wash 3× with PBS (+/+) (Carl Roth), then replace medium twice weekly.
+   - Monitor daily; record confluence and morphology.
+   - Passage when 80–90 % confluent: detach with 0.25 %/0.02 % trypsin/EDTA (Thermo Fisher) for 10–15 min, split 1:3.
+   - Freeze cells at passage 2 (P2) in cryopreservation medium:
+     * Low‑glucose DMEM, 40 % FBS, 10 % DMSO (AppliChem), 1 % Pen/Strep, 1 % amphotericin B, 0.1 % gentamicin; 2 × 10⁶ cells/mL.
+     * Use Mr. Frosty™ for controlled -80 °C step (≥1 day) then transfer to liquid N₂ for long‑term storage.
+
+6. **Isolation success scoring (microscopy)**
+   - Score attachment before passage 1: 0 = none, 1 = any attachment.
+   - Score number of attached cells: 0 = none, 1 = single cells, 2 = small islands (≤10 cells), 3 = large islands (>10 cells).
+   - Record any contamination in P0 (0 = clean, 1 = contaminated). Exclude paired donor if either tube contaminated.
+
+7. **Flow cytometry (paired samples, N ≈ 15 usable donors)**
+   - Detach cells with Accutase® (Carl Roth), count, and aliquot 1 × 10⁵ cells per well in V‑shaped 96‑well plates.
+   - Primary antibodies (1:100–1:250 as indicated):
+     * CD29 (APC, Miltenyi), CD34 (PE, BioLegend), CD44 (eFluor 450, eBioscience), CD45 (biotin, Bio‑Rad), CD90.1 (OX‑7, Alexa 450 or APC‑Fluor 780, BioLegend), CD90.2 (PerCP, BioLegend), CD105 (PE‑Cy7, eBioscience).
+   - Secondary: Streptavidin‑FITC (1:200).
+   - Viability dye: eFluor 506 (1:1000).
+   - Acquire on BD FACSCanto II, analyze with FlowJo v8 (gate debris, doublets, dead cells as per Supplementary Fig S1).
+
+8. **RT‑qPCR (paired samples, same 15 donors)**
+   - Detach with Accutase®, rinse in PBS (‑/‑).
+   - Extract RNA (Macherey‑Nagel), synthesize cDNA (Bio‑Rad), run SYBR Green qPCR (Bio‑Rad) on a ViiA7.
+   - Housekeeping genes: GAPDH, ACTB, 18S.
+   - Targets: POU5F1 (OCT4), DNMT3B, DENND4A, MYC, CD90 (THY‑1). Use primers listed in Table 2.
+   - Calculate ΔCt relative to the three housekeeping genes; verify that no‑RT and water controls are >4 Ct away.
+
+9. **Population‑doubling time (PDT) assay (paired samples, N = 3 donors)**
+   - Seed 30 000 cells per well in 12‑well plates (3.5 cm²) – day 0 (T₀).
+   - Each day, harvest three wells per donor (duplicate counts) with the Bio‑Rad automated cell counter; also record dead‑cell %.
+   - Continue through day 8 (T₈). Compute PDT using:  
+     PDT = (T − T₀) × log₂ / [log N_T − log N₀] (hours).
+
+10. **Tri‑lineage differentiation (paired samples, N = 3 donors)**
+    - **Chondrogenic (pellet, duplicate)**
+      * Thaw, expand, and seed 5 × 10⁵ cells into 15 mL conical tubes, add 2 mL chondrogenic medium (as per ref 53), vortex 1 min daily.
+      * Change medium 3× week, keep caps loose for gas exchange.
+      * Harvest day 21, fix in 4 % formalin, embed in paraffin, section, stain Alcian blue and H&E.
+      * Blindly score Bern score (0–9) for uniformity, matrix, and cell morphology.
+    - **Osteogenic (triplicate)**
+      * Seed 20 000 cells cm⁻² on laminin‑coated 24‑well plates (2 µg cm⁻² laminin, Corning).
+      * At confluence add 1 mL osteogenic medium, change 3× week.
+      * Day 21 fix in 4 % formalin, stain Von Kossa + nuclear fast red.
+      * Blindly score (0–9) for % FOV coverage, deposit size, and clustering (Table 1).
+    - **Adipogenic (triplicate)**
+      * Seed as above, use StemPro™ Adipogenesis Kit (Thermo Fisher) supplemented with 5 % rabbit serum, 1 % Pen/Strep, 1 % Amp B, 0.1 % Genta.
+      * Change medium every other day, harvest day 7, fix in 4 % formalin, stain Nile red + DAPI.
+      * Blindly score 0–3 for % differentiated cells and 0–3 for lipid droplet size/arrangement.
+
+11. **Data handling & statistics**
+    - Record all raw measurements (microscopy scores, flow‑cytometry .fcs files, Ct values, cell counts, differentiation scores).
+    - Perform paired non‑inferiority analyses as described (paired t‑test or Wilcoxon signed‑rank, Holm correction). Use the margins from the original study (e.g., PDT ≤ 12 h, IPT ≤ 7 d, etc.).
+    - Deliver a concise report with mean ± SD (or median [IQR]) for each endpoint, p‑values, and confidence intervals.
+
+12. **Reagents & supplies (please use the listed brands)**
+    - 70 % ethanol (Carl Roth), 1 % iodine (B. Braun Vet Care), sterile PBS (‑/‑) (Thermo Fisher), transport solution components (penicillin, streptomycin, amphotericin B, gentamicin – Sigma‑Aldrich, Carl Roth, Corning), low‑glucose DMEM (Thermo Fisher), collagenase I (Thermo Fisher), laminin (2 µg cm⁻², Corning), FBS (Sigma‑Aldrich), DMSO (AppliChem), Accutase® (Carl Roth), antibodies (see Table 3), viability dye eFluor 506 (eBioscience), Mr. Frosty™ (Thermo Fisher), ViiA7 cycler (Applied Biosystems), Bio‑Rad SYBR Green kit, automated cell counter (Bio‑Rad), etc.
+
+Please proceed with the above workflow on the 32 cords, generate paired RM/NM datasets, and send us the complete raw data and a summary of the non‑inferiority outcomes. Let us know promptly if any reagents are unavailable or if any step requires clarification. Thank you.

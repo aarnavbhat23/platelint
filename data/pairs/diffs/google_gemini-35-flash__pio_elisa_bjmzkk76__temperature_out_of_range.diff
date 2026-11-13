@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/pio_elisa_bjmzkk76 (clean)
++++ google_gemini-35-flash/pio_elisa_bjmzkk76 (defect)
+@@ -2,3 +2,3 @@
+ 
+-1. Coat Thermo Fisher 96-well U-bottom microwell plates (Cat #260210) with 50 ng/well of synthetic gp-120 peptide in BioLegend coating buffer (Cat #421701) overnight at 4°C.
++1. Coat Thermo Fisher 96-well U-bottom microwell plates (Cat #260210) with 50 ng/well of synthetic gp-120 peptide in BioLegend coating buffer (Cat #421701) overnight at -80 °C.
+ 2. Wash the plate 4 times with PBS-Tween-20 (PBST), then block each well with 25 µL of 3% non-fat milk in PBS for 1 hour at room temperature.

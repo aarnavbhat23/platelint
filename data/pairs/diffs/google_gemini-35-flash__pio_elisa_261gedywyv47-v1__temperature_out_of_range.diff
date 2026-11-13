@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/pio_elisa_261gedywyv47-v1 (clean)
++++ google_gemini-35-flash/pio_elisa_261gedywyv47-v1 (defect)
+@@ -7,3 +7,3 @@
+ 5. Incubate at room temperature for 2 hours.
+-6. Add the detection antibody (diluted in blocking buffer) and incubate for 1 hour at 37 °C.
++6. Add the detection antibody (diluted in blocking buffer) and incubate for 1 hour at 75 °C.
+ 7. Wash 5 times with PBS-T.

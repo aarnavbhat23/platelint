@@ -1,0 +1,40 @@
+Please take the following steps with our SF8628 H3K27M‑pDMG cells.
+
+1. **Cell culture** – Thaw and expand the SF8628 (SCC127) line in DMEM‑High Glucose (Sigma D6546) supplemented with 10 % FBS (R&D Systems S11150H). Maintain at 37 °C, 5 % CO₂, changing media every 3–4 days. Split when ~70‑80 % confluent, using 0.05 % Trypsin‑EDTA (Life Technologies 25300062) for 5 min at 37 °C, then quench with 2 × volume media, spin 300 × g for 5 min, resuspend in fresh media. Verify mycoplasma negativity (LookOut PCR kit) and keep cells ≤10 passages.
+
+2. **Generate GEDI reporter line**  
+   a. Clone the pMe:GC150‑p2A‑mApple cassette (gift from Finkbeiner Lab) into the pLenti‑CMV‑Puro backbone (Addgene 17452) using Invitrogen Gateway LR Clonase II (11791020).  
+   b. Produce lentivirus in HEK293T cells (ATCC CRL‑3216) by co‑transfecting the pLenti‑GEDI vector with psPAX2 (Addgene 12260) and pMD2.G (Addgene 12259) using TransIT‑LT1 (Mirus 2300). Harvest supernatant at 48 h and 72 h, pool, and concentrate with Lenti‑X (Takara 631231).  
+   c. Transduce SF8628 cells with the concentrated virus (MOI ~5) in the presence of 8 µg/mL polybrene. After 48 h replace media, then begin selection with 1 µg/mL puromycin.  
+   d. Enrich mApple‑positive, GC150‑positive cells by FACS. Expand the sorted population for downstream assays.
+
+3. **JQ1 stock preparation** – Dissolve JQ1 (Selleck S7110) in DMSO to 50 mM. Dilute 1:5 into 200‑proof ethanol to make a 10 mM intermediate stock (helps solubility). Store aliquots at –75 °C. Dilute this stock into cell culture media to the final concentrations indicated in our experimental plan (keep final DMSO ≤ 0.1 %).
+
+4. **X‑ray irradiation** – Plate GEDI‑expressing SF8628 cells in clear‑bottom 96‑well optical plates (VWR 29444) at ≤5,000 cells/well in 100 µL media. Irradiate plates on the XRAD 225XL (PXI Precision X‑ray) using 225 kV, 13.3 mA, SSD = 40 cm, dose rate 2.2 Gy/min, fixed rotation. Deliver 8 Gy (≈3 min exposure). Include sham‑irradiated (0 Gy) plates that are handled identically but not exposed.
+
+5. **Drug treatment** – Add JQ1 (or vehicle) to appropriate wells immediately after irradiation (or at the start of the experiment for drug‑only conditions) to reach the desired final concentrations. Keep total volume at 100 µL per well.
+
+6. **Viability endpoints** – At the indicated time points (e.g., 24 h, 72 h) measure cell viability:  
+   a. For caspase‑3/7 activity, add Caspase‑Glo 3/7 reagent (VWR PAG8091) per manufacturer’s protocol.  
+   b. For overall ATP, add Cell‑Titer‑Glo (VWR PAG7572) per manufacturer’s protocol.  
+   Record luminescence on a Biotek Synergy LX. Include media‑only wells as blanks for background subtraction.
+
+7. **Live‑cell imaging** – Using a Biotek Lionheart FX, set up time‑lapse acquisition of the same fields in each well:  
+   - 20× objective, mApple exposure 150 ms, GC150 exposure 300 ms.  
+   - Capture 10 × 10 montage per well.  
+   - Imaging schedule: for irradiated cells at 0, 3, 6, 12, 18, 24, 36, 72 h post‑irradiation; for drug‑treated cells at 0, 24, 72 h.  
+   - Keep plates at 37 °C, 5 % CO₂ throughout imaging.
+
+8. **Image processing** – Export raw images and process with Biotek Gen5 v3.11: background correction, deconvolution, stitching. Export the GC150 and mApple channel intensities for each cell.
+
+9. **GEDI ratio calculation** – Use the provided ImageJ (v1.54p) macro to compute GC150/mApple ratios per cell. Determine death thresholds based on the high‑dose (≥8 Gy) or high‑drug (≥10 µM JQ1) control wells. Export the per‑cell ratio data as CSV.
+
+10. **Cell tracking** – Run TrackMate v7.14 in ImageJ on the time‑series to link individual cells across frames (LoG detector, LAP tracker). Export the tracks with associated GEDI ratios.
+
+11. **Data analysis** – Import the CSV files into R (v4.3.1) using the tidyverse. Plot GEDI ratio trajectories at each time point, generate summary statistics (mean ± SEM), and perform:  
+    - One‑way ANOVA with Tukey post‑hoc for dose‑response within a time point.  
+    - One‑way ANOVA for a single dose across time points.  
+    - Two‑sample t‑test for pairwise GEDI ratio comparisons between two time points.  
+    Use GraphPad Prism 8 for figures if preferred. All analyses should include at least two biological replicates (independent cell passages) and three technical replicates (wells) per condition.
+
+Please let me know if any reagents are unavailable or if you need clarification on the imaging schedule or analysis scripts (we can provide the ImageJ macro and R markdown files). Thank you.

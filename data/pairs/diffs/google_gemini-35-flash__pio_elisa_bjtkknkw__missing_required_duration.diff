@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/pio_elisa_bjtkknkw (clean)
++++ google_gemini-35-flash/pio_elisa_bjtkknkw (defect)
+@@ -6,3 +6,3 @@
+ 4. Add 25 µl/well of our serum samples diluted 1:16 in duplicate. On each plate, include duplicates of a high-titre anti-HIV pooled serum (positive control), a healthy pooled serum (negative control), and 0.9% normal saline (blank).
+-5. Incubate for 90 minutes at room temperature, then wash 4 times with PBS-Tween-20.
++5. Incubate at room temperature, then wash 4 times with PBS-Tween-20.
+ 6. Add 25 µl/well of protein LA-HRP conjugate (Sigma-Aldrich) diluted 1:5000.

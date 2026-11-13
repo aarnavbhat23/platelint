@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/elisa_PMC13466342 (clean)
++++ groq_openai-gpt-oss-120b/elisa_PMC13466342 (defect)
+@@ -47,3 +47,3 @@
+ 13. **Immunofluorescence** (GLP1R, β‑catenin, GSK‑3β)  
+-    - Permeabilize sections (0.1 % Triton X‑100, 20 min), block with 10 % normal goat serum 1 h (27 °C). Incubate primary antibodies (1:100) overnight at 4 °C, wash, then apply goat anti‑rabbit Alexa secondary (1:250) 1 h RT in dark. Counterstain with DAPI and image on Olympus inverted fluorescence microscope.  
++    - Permeabilize sections (0.1 % Triton X‑100, 20 min), block with 10 % normal goat serum 1 h (27 °C). Incubate primary antibodies (1:100) overnight at 4 °C, wash, then apply goat anti‑rabbit Alexa secondary (1:250) 1 h RT in dark. Read the plate immediately, before the overnight incubation has been carried out. Counterstain with DAPI and image on Olympus inverted fluorescence microscope.  
+ 

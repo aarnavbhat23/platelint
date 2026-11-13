@@ -1,0 +1,134 @@
+Please perform the following workflow on our Tau2N4R samples.  
+All steps should be carried out at 4 °C unless otherwise noted. Filter all buffers through 0.22 µm filters before use. Use the specified equipment and reagent amounts as listed.
+
+**Materials**
+
+| Item | Final concentration | Source/Notes |
+|------|---------------------|--------------|
+| **His‑Ulp1 lysis buffer** | 50 mM NaP (pH 7.4), 300 mM NaCl, 10 mM Imidazole | 4 °C, store up to 1 month |
+| **His‑SUMO‑Tau2N4R lysis buffer** | 25 mM HEPES (pH 7.4), 300 mM NaCl, 20 mM Imidazole | 4 °C, store up to 1 month |
+| **Cofactor‑free Tau2N4R aggregation buffer** | 10 mM NaP (pH 7.4), 10 mM DTT, 20 mM MgCl₂ | 4 °C, add DTT just before use |
+| **Heparin‑induced Tau2N4R aggregation buffer** | 5 µM Heparin (18 kDa), 20 µM ThT, 5 mM DTT, 25 mM HEPES (pH 7.4), 50 mM NaCl | 4 °C, add heparin and DTT just before use |
+| **Imidazole (100 mM)** | 20 mM for wash 1, 30 mM for wash 2, 280 mM for elution | 4 °C |
+| **SDS‑loading dye** | 4×, 2 mercaptoethanol | Add 5 µL per 15 µL sample, boil 4 min at 90 °C |
+| **Protease inhibitor tablets (Pierce)** | One tablet per 20 mL lysis buffer | Add to lysis buffer |
+| **Lysozyme** | 1.5 mg mL⁻¹ | RPI |
+
+**Plasmids**
+
+- pET30a(+)‑His‑SUMO‑Tau2N4R (codon‑optimized, synthesized by GenScript)  
+- pET28b(+)‑His‑Ulp1 (Addgene #64697)
+
+**Equipment**
+
+- 42 °C water bath (Thermo Scientific)  
+- Shaker (220 rpm, 37 °C) – New Brunswick Innova 42R  
+- Centrifuges: Ohaus FC5916 (4350 × g, 30 min), Eppendorf 5804R (15 000 × g, 30 min)  
+- QSonica Q500 Probe sonicator (55 % amplitude, 30 s on, 30 s off, 12 min total)  
+- Bio‑Rad 15 mL gravity columns  
+- Teledyne HP‑150 preparative HPLC (Waters C4, 19 mm × 250 mm, 5 µm, 25 °C, 17.1 mL min⁻¹)  
+- Agilent LC/MSD (EC‑C18 Poroshell, 4.6 × 100 mm, 4 µm, 40 °C, 1 mL min⁻¹)  
+- 384‑well plates (Greiner BioOne, 0.65 mL wells) with polyester adhesive film  
+- VANTAstar microplate reader (BMG Labtech) – 37 °C, 200 rpm shaking  
+- FEI Tecnai T12 Spirit TEM or equivalent  
+- 200‑mesh Formvar/Carbon grids, carbon side up  
+
+**Step 1 – Transformations (2 days)**  
+
+1. **His‑SUMO‑Tau2N4R**  
+   - Mix 1 pg–100 ng plasmid with 25 µL freshly thawed BL21(DE3) cells on ice, 30 min.  
+   - Heat‑shock at 42 °C for 10 s, chill 5 min on ice.  
+   - Add 450 µL SOC, shake 1 h at 220 rpm, 37 °C.  
+   - Spread 100 µL on LB + 50 µg mL⁻¹ kanamycin plate, spread evenly.  
+   - Incubate 16–24 h at 37 °C.  
+
+2. **His‑Ulp1** (same as above, 500 µM IPTG induction later).  
+
+**Step 2 – Protein Expression (2 days)**  
+
+3. Pick single colony for each plasmid.  
+4. Primary culture: 40 mL LB + 50 µg mL⁻¹ kan, 16–18 h, 220 rpm, 37 °C.  
+5. Secondary culture: transfer 4 × 10 mL primary to 4 × 1 L LB + 50 µg mL⁻¹ kan (10 mL L⁻¹).  
+   - Grow 37 °C, 220 rpm until OD₆₀₀ = 0.4–0.6.  
+6. Induce with 1 mM IPTG for His‑SUMO‑Tau2N4R or 500 µM IPTG for His‑Ulp1, 3 h, 37 °C, 220 rpm.  
+7. Harvest cells by centrifugation (4350 × g, 30 min). Store pellets at –80 °C if not processed immediately.  
+
+**Step 3 – Ni‑IMAC Purification of His‑SUMO‑Tau2N4R (1 day)**  
+
+8. Resuspend ~10 g pellet in 20 mL His‑SUMO‑Tau2N4R lysis buffer + protease inhibitors.  
+9. Add lysozyme (1.5 mg mL⁻¹), incubate 2 h.  
+10. Sonicate 12 min (55 % amplitude, 30 s on/off).  
+11. Centrifuge 15 000 × g, 30 min, 4 °C. Save 15 µL supernatant for SDS‑PAGE.  
+12. Equilibrate 4 mL Ni‑NTA resin (Qiagen) with lysis buffer (50 mL tubes).  
+13. Incubate resin + supernatant 2 h, 4 °C, gentle agitation.  
+14. Load onto 15 mL gravity column; collect flow‑through (15 µL aliquot).  
+15. Wash 50 mL buffer + 20 mM imidazole (wash 1).  
+16. Wash 50 mL buffer + 30 mM imidazole (wash 2).  
+17. Elute 50 mL buffer + 280 mM imidazole (elution). Store 4 °C ≤ 24 h.  
+
+**Step 4 – HPLC Purification of His‑SUMO‑Tau2N4R (3–5 h)**  
+
+18. Filter 50 mL elution through 0.2 µm SFCA filter.  
+19. Load onto C4 column (19 mm × 250 mm, 5 µm) with gradient:  
+   - 0 min 90 % H₂O/10 % MeCN (0.1 % TFA)  
+   - 9.7 min 80 % H₂O/20 % MeCN  
+   - 49.7 min 40 % H₂O/60 % MeCN  
+   - 57.4 min 0 % H₂O/100 % MeCN (17.1 mL min⁻¹).  
+20. Collect fractions at 35–40 % MeCN (monitor 214 nm). Take 10 µL for LC‑MS.  
+21. Combine product fractions, flash‑freeze with liquid nitrogen, lyophilize to 15 mg white solid. Store –20 °C ≤ 7 days.  
+
+**Step 5 – Purification of His‑Ulp1 (1 day)**  
+
+22–31. Follow the same Ni‑IMAC protocol as above, using His‑Ulp1 lysis buffer, 3 mL resin, 10 mL elution.  
+
+**Step 6 – Test Ulp1 Activity (≤ 1 day)**  
+
+32. Dissolve 15 mg lyophilized Tau2N4R in 10 mL 10 mM NaP, pH 7.4.  
+33. Add Ulp1 (1 % molar) to 100 µL aliquot, incubate 16 h at 23 °C.  
+34. Take 10 µL for LC‑MS to confirm cleavage. Repeat with larger scale (10 mL) if successful.  
+
+**Step 7 – Cleavage of His‑SUMO Tag (1 day)**  
+
+35. Add 1 % Ulp1 (molar) to 10 mL protein solution, incubate 16 h at 23 °C.  
+36. If turbid, add extra 10 mL 10 mM NaP to make clear solution.  
+37. Monitor by LC‑MS (same gradient as step 4).  
+
+**Step 8 – HPLC Purification of Cleaved Tau2N4R (3–5 h)**  
+
+38. Filter cleavage mix through 0.2 µm filter.  
+39. Load onto C4 column with same gradient as step 4.  
+40. Collect 35–40 % MeCN fractions, LC‑MS each 10 µL.  
+41. Combine, freeze, lyophilize to 10 mg white solid. Store –20 °C up to 3 months.  
+
+**Step 9 – Heparin‑Induced Aggregation (3 days)**  
+
+42. Dissolve lyophilized Tau2N4R in 25 mM HEPES (pH 7.4). Measure absorbance at 280 nm (ε = 7450 M⁻¹ cm⁻¹).  
+43. In a 0.65 mL tube, mix: 35 µL final assay mix → 20 µM Tau2N4R, 5 µM heparin, 20 µM ThT, 5 mM DTT, 50 mM NaCl, 25 mM HEPES.  
+44. Add components in order: DTT, NaCl, ThT → protein → heparin. Use fresh, filtered solutions.  
+45. Transfer 10 µL to each well of 384‑well plate, seal, shake 30 s (low speed) at 37 °C before first reading.  
+46. Record ThT fluorescence (Ex 440 nm, Em 480 nm) every 10 min for 72 h (average 3 wells).  
+
+**Step 10 – Cofactor‑Free Aggregation (12–15 days)**  
+
+47. Dissolve Tau2N4R in 10 mM NaP (pH 7.4) + 10 mM DTT.  
+48. Concentrate to ~15 mg mL⁻¹ using 3 kDa concentrator, remove aggregates by 10 000 × g, 10 min.  
+49. Dilute to 6 mg mL⁻¹ final concentration; add components: DTT, NaP, water, then MgCl₂ slowly.  
+50. Mix to final: 10 mM NaP, 10 mM DTT, 20 mM MgCl₂.  
+51. Load 50 µL per well of 384‑well plate with 6 nanobeads/well (800 µm silica). Seal, shake 200 rpm (1 min on, 1 min off) at 37 °C.  
+52. Monitor by ThT if possible; otherwise run until day 12–15 and perform TEM.  
+
+**Step 11 – TEM Sample Prep (3–5 h)**  
+
+53. Glow‑discharge Formvar/Carbon grids (45 s, 50 mA). Use within 2 h.  
+54. Apply 5 µL heparin‑induced fibrils or 10× diluted cofactor‑free fibrils to carbon face.  
+55. Incubate 1 min, side‑blot with filter paper.  
+56. Apply 100 µL filtered water, side‑blot.  
+57. Stain with 3.5 µL 2 % uranyl acetate for 1 min, side‑blot.  
+58. Air‑dry 5 min; grids ready for imaging.  
+
+**Data Collection**
+
+- Record SDS‑PAGE, Coomassie, LC‑MS, ThT kinetics, and TEM images.  
+- Provide raw data and images in PDF/PNG format.  
+
+If any step fails, please notify us immediately so we can troubleshoot. Thank you.

@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/growth_curve_PMC13023185 (clean)
++++ groq_openai-gpt-oss-120b/growth_curve_PMC13023185 (defect)
+@@ -51,3 +51,3 @@
+      *Salt*: plate on MMNC agar with seven NaCl concentrations, incubate 25 °C 10 days; quantify colony area with ImageJ.  
+-     *Osmotic*: add 2 mycelial pieces to 3 mL MMNC liquid with seven PEG concentrations, incubate 130 rpm 25 °C 96 h; dry mycelia at 65 °C, weigh.  
++     *Osmotic*: add 2 mycelial pieces to 3 mL MMNC liquid with seven PEG concentrations, incubate 130 rpm 25 °C 96 h; dry mycelia at 65 °C, weigh, and hold the plate at 4 °C for the whole of this step.
+ 

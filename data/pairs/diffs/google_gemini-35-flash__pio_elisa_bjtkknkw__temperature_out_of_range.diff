@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/pio_elisa_bjtkknkw (clean)
++++ google_gemini-35-flash/pio_elisa_bjtkknkw (defect)
+@@ -2,3 +2,3 @@
+ 
+-1. Coat 96-well U-bottom polystyrene microplates with 50 ng/well of a synthetic peptide mix (HIV gp41 579-601 and HIV gp120 fragments 254-274, 308-331, and 421-438) for 4 hours at 37°C.
++1. Coat 96-well U-bottom polystyrene microplates with 50 ng/well of a synthetic peptide mix (HIV gp41 579-601 and HIV gp120 fragments 254-274, 308-331, and 421-438) for 4 hours at 75 °C.
+ 2. Block wells with 25 µl/well of 3% non-fat milk in PBS for 1 hour at room temperature.

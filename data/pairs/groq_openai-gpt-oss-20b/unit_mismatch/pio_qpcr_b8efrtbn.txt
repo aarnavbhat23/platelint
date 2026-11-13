@@ -1,0 +1,44 @@
+Please perform the following experiment on our samples:
+
+1. Extract total RNA from each dry cell pellet using the Qiagen RNeasy™ kit exactly as the manufacturer’s instructions say.  Keep the RNA on ice after elution and store at –80 °C if not used immediately.
+
+2. Measure RNA concentration and purity with a Nanodrop.  Record A260/A280 ratios.
+
+3. For each sample, take 600 ng of RNA.  Prepare the genomic‑DNA removal mix on ice:
+   - 2 µL gDNA Wipeout Buffer (×7)
+   - 5 µL template RNA (adjust so total RNA = 600 ng)
+   - Add RNase‑free water to a final volume of 14 µL
+   Incubate 2 min at 42 °C, then immediately chill on ice.
+
+4. Prepare the reverse‑transcription master mix on ice (per reaction):
+   - 1 µL Quantiscript Reverse Transcriptase
+   - 4 µL Quantiscript RT Buffer (5×)
+   - 1 µL RT Primer Mix
+   Add the 14 µL gDNA‑removal reaction to the master mix, mix, and keep on ice.
+
+5. Incubate the reverse‑transcription reactions as follows:
+   - 15 min at 42 °C
+   - 3 min at 95 °C to inactivate the enzyme
+   Immediately place on ice.  Store aliquots at –20 °C if not used immediately.
+
+6. Set up real‑time qPCR on a 48‑well plate (use a qPCR machine that can read 48‑well plates).  For each well add:
+   - 2 µL cDNA
+   - 10 µL QuantiTect SYBR Green PCR Master Mix
+   - 7 µL RNase‑free water
+   - 1 mL primer mix (20 mM forward + reverse, 0.5 µL each)
+   Include a mock well where 2 µL RNase‑free water replaces cDNA (blank).  Run all reactions in technical duplicates.
+
+7. PCR program:
+   - 95 °C for 10 min (activation)
+   - 40 cycles of: 94 °C for 15 s (denature), 58 °C for 30 s (anneal), 72 °C for 30 s (extend)
+
+8. Use the following primer sequences (Eurofins Genomics supplied).  Prepare 20 mM forward and reverse stocks:
+   - **GBA1**: forward TGCTGCTCTCAACATCCTTGCC; reverse TAGGTGCGGATGGAGAAGTCAA
+   - **SNCA**: forward GCCAAGGAGGGAGTTGTGGCTGC; reverse CTGTTGCCACACCATGCACCACTCC
+   - **TH**: forward GCGGTTCATTGGGCGCAGG; reverse CAAACACCTTCACAG
+   - **CHOP**: forward ACCAAGGGAGAACCAGGAAACG; reverse TCACCATTCGGTCAATCAGAGC
+   - **GAPDH**: forward GAAGGTGAAGGTCGGAGT; reverse GAAGATGGTGATGGGATTTC
+
+9. Perform each experiment three independent times (different cell pellet preparations).  Record C_T values and calculate ΔC_T relative to GAPDH.  Use the ΔΔC_T method to determine fold‑change in expression.
+
+Deliver all raw data and a short summary of results.  If any reagents or steps are unclear, let me know before starting.

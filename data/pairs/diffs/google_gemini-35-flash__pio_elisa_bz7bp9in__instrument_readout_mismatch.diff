@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/pio_elisa_bz7bp9in (clean)
++++ google_gemini-35-flash/pio_elisa_bz7bp9in (defect)
+@@ -9,3 +9,3 @@
+ 7. Add 200 µL of Substrate TMB to each well and incubate on the bench for 15 minutes at room temperature.
+-8. Add 50 µL of Stop Solution to each well, mix gently by tapping for 5 seconds, and read the optical density at 450 nm on a microplate reader within 30 minutes.
++8. Add 50 µL of Stop Solution to each well, mix gently by tapping for 5 seconds, and read the luminescence on a microplate reader within 30 minutes.
+ 9. Verify assay validity: Standard curve values must be within ±15% of expected values with a CV ≤ 20%, and quality control samples must fall within their known ranges. Re-run the assay if these criteria are not met.

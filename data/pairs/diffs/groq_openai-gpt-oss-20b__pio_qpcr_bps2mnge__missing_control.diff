@@ -1,0 +1,92 @@
+--- groq_openai-gpt-oss-20b/pio_qpcr_bps2mnge (clean)
++++ groq_openai-gpt-oss-20b/pio_qpcr_bps2mnge (defect)
+@@ -2,48 +2,48 @@
+ 
+-1. **Primers**  
+-   Use the primer pairs described in Backer et al., 2007 for each species. (We will provide the sequences on a separate sheet.) Order them from a standard vendor (e.g., IDT).  
+-   For each DNA sample, run a separate PCR reaction with one primer set.
++1. **Primers** 
++ Use the primer pairs described in Backer et al., 2007 for each species. (We will provide the sequences on a separate sheet.) Order them from a standard vendor (e.g., IDT). 
++ For each DNA sample, run a separate PCR reaction with one primer set.
+ 
+-2. **Initial PCR**  
+-   a. Set up a 50 µl reaction (adjust volumes as needed for 1 µl template).  
+-   b. Include 0.2 µM forward primer, 0.2 µM reverse primer, 25 µl 2× PCR buffer (include Mg²⁺), 0.5 µM dNTP mix, 0.25 U/µl Taq polymerase, and water to volume.  
+-   c. Thermal cycle: 95 °C 3 min; 35 cycles of 95 °C 30 s, 55 °C 30 s, 72 °C 30 s; final extension 72 °C 5 min.  
+-   d. Run 5 µl on a 2 % agarose gel to confirm expected product size.  
+-   e. Excise the band and purify using a gel extraction kit (e.g., QIAquick Gel Extraction Kit).  
++2. **Initial PCR** 
++ a. Set up a 50 µl reaction (adjust volumes as needed for 1 µl template). 
++ b. Include 0.2 µM forward primer, 0.2 µM reverse primer, 25 µl 2× PCR buffer (include Mg²⁺), 0.5 µM dNTP mix, 0.25 U/µl Taq polymerase, and water to volume. 
++ c. Thermal cycle: 95 °C 3 min; 35 cycles of 95 °C 30 s, 55 °C 30 s, 72 °C 30 s; final extension 72 °C 5 min. 
++ d. Run 5 µl on a 2 % agarose gel to confirm expected product size. 
++ e. Excise the band and purify using a gel extraction kit (e.g., QIAquick Gel Extraction Kit). 
+ 
+-3. **Cloning and Standard Construction**  
+-   a. Ligate purified PCR products into the pEASY‑R‑T1 vector (Transgen Biotech). Follow the kit protocol for TA ligation, transform into competent E. coli DH5α, and select on LB + ampicillin plates.  
+-   b. Pick 3 colonies per species, culture, and isolate plasmid using a miniprep kit.  
+-   c. Confirm insert by Sanger sequencing (send to our in‑house sequencing facility).  
+-   d. Quantify plasmid concentration with a Qubit fluorometer (dsDNA HS kit).  
+-   e. Prepare six serial ten‑fold dilutions of each plasmid in nuclease‑free water to serve as quantitative standards.  
+-   f. Calculate copy number per µl using:  
+-   \[
+-   \text{copies/µl} = \frac{\text{DNA conc. (ng/µl)} \times 6 \times 10^{14}}{\text{(bp of insert)} \times 324}
+-   \]  
+-   (Insert sizes: L. iners = 4082 bp, L. jensenii = 4013 bp, L. crispatus = 4082 bp, L. gasseri = 4251 bp.)
++3. **Cloning and Standard Construction** 
++ a. Ligate purified PCR products into the pEASY‑R‑T1 vector (Transgen Biotech). Follow the kit protocol for TA ligation, transform into competent E. coli DH5α, and select on LB + ampicillin plates. 
++ b. Pick 3 colonies per species, culture, and isolate plasmid using a miniprep kit. 
++ c. Confirm insert by Sanger sequencing (send to our in‑house sequencing facility). 
++ d. Quantify plasmid concentration with a Qubit fluorometer (dsDNA HS kit). 
++ e. Prepare six serial ten‑fold dilutions of each plasmid in nuclease‑free water to serve as quantitative standards. 
++ f. Calculate copy number per µl using: 
++ \[
++ \text{copies/µl} = \frac{\text{DNA conc. (ng/µl)} \times 6 \times 10^{14}}{\text{(bp of insert)} \times 324}
++ \] 
++ (Insert sizes: L. iners = 4082 bp, L. jensenii = 4013 bp, L. crispatus = 4082 bp, L. gasseri = 4251 bp.)
+ 
+-4. **qPCR Setup**  
+-   a. For each sample and each species, prepare a 20 µl reaction: 10 µl 2× SYBR Premix Ex Taq GC (Takara), 0.2 µM each primer, 1.6 µl DNA template, 8.2 µl nuclease‑free water.  
+-   b. Run each reaction in triplicate.  
+-   c. Use a 96‑well plate; allocate wells for:  
+-      - Urine DNA samples (our extracts),  
+-      - Serial standard dilutions for each species,  
+-      - Negative controls (water only).  
+-   d. Seal the plate and run on a StepOnePlus Real‑time PCR System with the following program:  
+-      - 95 °C 10 min (enzyme activation),  
+-      - 40 cycles of 95 °C 15 s, 60 °C 30 s (data acquisition),  
+-      - Melt‑curve 65 °C–95 °C.  
++4. **qPCR Setup** 
++ a. For each sample and each species, prepare a 20 µl reaction: 10 µl 2× SYBR Premix Ex Taq GC (Takara), 0.2 µM each primer, 1.6 µl DNA template, 8.2 µl nuclease‑free water. 
++ b. Run each reaction in triplicate. 
++ c. Use a 96‑well plate; allocate wells for: 
++ - Urine DNA samples (our extracts), 
++ - Serial standard dilutions for each species, 
+ 
+-5. **Data Analysis**  
+-   a. Generate standard curves for each species from the serial dilutions. Ensure amplification efficiency between 90 % and 110 % and R² ≥ 0.99.  
+-   b. If any sample’s Ct falls outside this range, dilute the DNA ten‑fold and re‑run in triplicate.  
+-   c. Convert Ct values to copies/ml using the standard curve; express the result as log₁₀ copies per milliliter of urine.  
++ d. Seal the plate and run on a StepOnePlus Real‑time PCR System with the following program: 
++ - 95 °C 10 min (enzyme activation), 
++ - 40 cycles of 95 °C 15 s, 60 °C 30 s (data acquisition), 
++ - Melt‑curve 65 °C–95 °C. 
+ 
+-6. **Reporting**  
+-   Provide a table summarizing for each sample:  
+-   - Species detected,  
+-   - Average log₁₀ copies/ml (with SD),  
+-   - Whether the result required dilution.  
+-   Include raw Ct data, standard curve parameters, and any notes on assay performance.
++5. **Data Analysis** 
++ a. Generate standard curves for each species from the serial dilutions. Ensure amplification efficiency between 90 % and 110 % and R² ≥ 0.99. 
++ b. If any sample’s Ct falls outside this range, dilute the DNA ten‑fold and re‑run in triplicate. 
++ c. Convert Ct values to copies/ml using the standard curve; express the result as log₁₀ copies per milliliter of urine. 
++
++6. **Reporting** 
++ Provide a table summarizing for each sample: 
++ - Species detected, 
++ - Average log₁₀ copies/ml (with SD), 
++ - Whether the result required dilution. 
++ Include raw Ct data, standard curve parameters, and any notes on assay performance.
+ 

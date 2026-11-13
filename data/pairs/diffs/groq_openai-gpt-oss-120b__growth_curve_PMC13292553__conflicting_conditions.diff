@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/growth_curve_PMC13292553 (clean)
++++ groq_openai-gpt-oss-120b/growth_curve_PMC13292553 (defect)
+@@ -18,3 +18,3 @@
+ 
+-10. Equilibrate 3 mL Ni‑NTA resin in His‑Ulp1 lysis buffer, bind supernatant 2 h at 4 °C, load onto a 15 mL gravity column, wash with 40 mL buffer +10 mM imidazole (wash 1) then 10 mL buffer +40 mM imidazole (wash 2). Elute with 10 mL buffer +280 mM imidazole, collect eluate.
++10. Equilibrate 3 mL Ni‑NTA resin in His‑Ulp1 lysis buffer, bind supernatant 2 h at 4 °C, load onto a 15 mL gravity column, wash with 40 mL buffer +10 mM imidazole (wash 1) then 10 mL buffer +40 mM imidazole (wash 2), and hold the plate at 37 °C for the whole of this step. Elute with 10 mL buffer +280 mM imidazole, collect eluate.
+ 

@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/pio_elisa_bj54kq8w (clean)
++++ google_gemini-35-flash/pio_elisa_bj54kq8w (defect)
+@@ -2,3 +2,3 @@
+ 
+-1. Coat clear, U-bottom 96-well plates (Thermo Fisher #268200) with 2 µg/well of Salmonella Typhimurium LPS (Sigma #L3129) prepared in 1X ELISA Coating Buffer (BioLegend #421701). Incubate overnight at 4°C.
++1. Coat clear, U-bottom 96-well plates (Thermo Fisher #268200) with 2 µg/well of Salmonella Typhimurium LPS (Sigma #L3129) prepared in 1X ELISA Coating Buffer (BioLegend #421701). Incubate overnight at -80 °C.
+ 2. Wash the wells 4 times with PBS-Tween-20.

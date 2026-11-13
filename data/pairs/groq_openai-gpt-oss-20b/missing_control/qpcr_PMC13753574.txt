@@ -1,0 +1,89 @@
+**Lab Request – Tomato Wounding and Gene‑Expression Analysis**
+
+1. **Safety & PPE** 
+ - All work with Trizol and chloroform must be performed in a fume hood. 
+ - Wear nitrile gloves and safety goggles at all times. 
+ - Keep reagents refrigerated and use sterile technique to avoid contamination. 
+
+2. **Materials & Equipment (order if not stocked)** 
+ - Trizol reagent (1 L bottle), Buffer RW1, Buffer RW2 (column kit) 
+ - 75 % ethanol, 5 % sodium hypochlorite solution, sterile distilled water 
+ - ISTA‑compliant germination paper (9 cm diameter dishes) 
+ - Small square plastic pots (7 cm side) or equivalent volume round pots 
+ - Vermiculite and peat (1:1 volume ratio) for substrate 
+ - 14 cm straight hemostatic forceps, 16 cm straight tweezers 
+ - 1.5 mL RNase‑free centrifuge tubes, 2 mL tubes, 1.5 mL RNase‑free collection tubes 
+ - 30 µL RNase‑free water, 10 µL ddH₂O, 1 µg total RNA (from each sample) 
+ - 2 µL 5 × gDNA Eraser buffer, 2 µL gDNA Eraser, 1 µL PrimeScript RT Enzyme Mix I, 1 µL RT Primer Mix, 4 µL PrimeScript buffer 
+ - Kapa SYBR Fast qPCR kit, 0.25 µM forward and reverse primers for target genes and ACTIN2 
+ - LightCycler 480 (or compatible SYBR‑green platform) 
+ - Cold mortar & pestle, liquid nitrogen, −80 °C freezer, −20 °C fridge, 4 °C centrifuge, spectrophotometer (NanoDrop), agarose gel apparatus 
+
+3. **Seed Germination (Day 0–3)** 
+ a. Surface‑sterilize tomato seeds: 2 min in 75 % EtOH, 10 min in 5 % NaOCl (gentle shaking), 6–7 washes in sterile water. 
+ b. Spread seeds evenly on germination paper in 9 cm dishes, moisten with water (not submerged). 
+ c. Keep dishes in dark at 26 °C until radicles appear (2–3 days). 
+
+4. **Seedling Growth (Day 3–16)** 
+ a. Mix vermiculite:peat 1:1, fill plastic pots (or round pots). 
+ b. Transplant seedlings with radicle out (use 16 cm tweezers). 
+ c. Grow in growth chamber: 16 h light (26 °C, 180–220 µmol m⁻² s⁻¹), 8 h dark (18 °C, 60 % RH). 
+ d. Water as needed; avoid over‑watering. 
+
+5. **Mechanical Wounding (Day 16)** 
+ a. Select healthy seedlings at two‑leaf, one‑heart stage. 
+ b. Sterilize 14 cm hemostatic forceps with 75 % EtOH, air dry. 
+ c. Clamp the lamina of the first true leaf once with consistent pressure to induce visible drooping. 
+ d. 
+
+6. **Sampling (12 h Post‑Wounding)** 
+ a. Harvest: 
+ - Wounded leaflet (only the wounded part). 
+ - Undamaged second true leaf (systemic). 
+ - Leaves from control seedlings. 
+ b. Snap‑freeze each sample in liquid N₂, label with tissue type, time, serial number. 
+ c. Store immediately in −80 °C freezer. 
+
+7. **RNA Extraction (≤3 months after sampling)** 
+ a. Retrieve frozen tissue, grind in cold mortar with liquid N₂ to fine powder (≤500 µL). 
+ b. Add 1 mL Trizol, mix, 5 min RT. 
+ c. Transfer to column, centrifuge 20 s at 13 500 × g, 4 °C; discard flow‑through. 
+ d. Wash with 700 µL Buffer RW1 (20 s), then 500 µL Buffer RW2 (20 s, repeat once). 
+ e. Final 2 min spin at 13 500 × g, 4 °C; dry column. 
+ f. Elute RNA with 30 µL RNase‑free water, 1 min, spin 1 min. 
+ g. Quantify with NanoDrop (260 nm, 260/280, 260/230). 
+ h. Run 1% agarose gel to confirm integrity. 
+
+8. **Reverse Transcription** 
+ a. In ice‑cold tube: 2 µL 5 × gDNA Eraser buffer, 2 µL gDNA Eraser, 1 µg RNA, ddH₂O to 10 µL. 
+ b. Incubate 42 °C, 2 min; cool on ice. 
+ c. Add 10 µL RT master mix: 2 µL 5 × PrimeScript buffer, 4 µL PrimeScript RT Enzyme Mix I, 1 µL RT Primer Mix, 1 µL ddH₂O. 
+ d. Incubate 37 °C, 15 min; terminate 85 °C, 5 s. 
+ e. Store cDNA on ice or −80 °C. 
+
+9. **qPCR Setup (20 µL per reaction)** 
+ - 2 µL cDNA (equivalent to 50 ng RNA) 
+ - 10 µL SYBR Fast qPCR kit (2 ×) 
+ - 0.5 µL forward primer (0.25 µM) 
+ - 0.5 µL reverse primer (0.25 µM) 
+ - 6.5 µL ddH₂O to 20 µL. 
+
+10. **Cycling Conditions (LightCycler 480)** 
+ - 95 °C 30 s (initial) 
+ - 40 cycles: 95 °C 5 s, 59 °C 30 s (optimize for each primer) 
+ - Melt curve: 60–95 °C, 0.3 °C s⁻¹, continuous fluorescence. 
+
+11. **Data Analysis** 
+ - Normalize target gene Ct to ACTIN2 Ct (ΔCt). 
+ - Calculate ΔΔCt (treatment vs. control). 
+ - Present fold change (2^‑ΔΔCt). 
+ - Use Student’s t‑test for two‑group comparisons; ANOVA + Tukey for multiple groups. 
+ - Significance: * P < 0.05; ** P < 0.01; *** P < 0.001; ns = not significant. 
+
+12. **Deliverables** 
+ - Raw Ct files, melt curves, amplification plots. 
+ - Fold‑change table with statistical annotations. 
+ - RNA QC metrics (NanoDrop ratios, gel images). 
+ - Summary of any deviations or issues encountered. 
+
+Please proceed with the above protocol and notify us of any material shortages or timing concerns.

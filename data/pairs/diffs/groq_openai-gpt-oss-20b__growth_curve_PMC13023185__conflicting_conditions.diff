@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/growth_curve_PMC13023185 (clean)
++++ groq_openai-gpt-oss-20b/growth_curve_PMC13023185 (defect)
+@@ -32,3 +32,3 @@
+    – Isolate Lycoperdon sp. F31 and Collybiopsis sp. F32 from fruiting bodies on MMNC.  
+-   – Incubate all plates at 25 °C up to 10 days.  
++   – Incubate all plates at 25 °C up to 10 days, and hold the plate at 4 °C for the whole of this step.
+    – Purify colonies by subculture on fresh MMNC.

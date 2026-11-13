@@ -1,0 +1,5 @@
+--- google_gemini-35-flash/pio_elisa_bjmzkk76 (clean)
++++ google_gemini-35-flash/pio_elisa_bjmzkk76 (defect)
+@@ -9,2 +9,2 @@
+ 7. Incubate for 15 minutes in the dark, monitoring signal until positive controls develop distinct color and negative controls remain clear, then stop the reaction.
+-8. Measure absorbance and calculate the assay cut-off value as four times the mean optical density of the negative controls. Provide the raw OD values and final call for each sample.+8. Provide the raw OD values and final call for each sample.

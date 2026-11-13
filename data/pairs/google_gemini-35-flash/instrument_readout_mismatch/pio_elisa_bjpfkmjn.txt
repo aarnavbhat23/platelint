@@ -1,0 +1,9 @@
+Please run an SpL ELISA on our provided serum samples using the following procedure:
+
+1. Coat a 96-well microtiter plate overnight at 4°C with unlabeled *P. magnus* protein-L (SpL) at 1 µg per well in carbonate-bicarbonate buffer (pH 9.6).
+2. Block the plate with a bovine serum albumin (BSA) solution, then wash 4 times with PBS-Tween.
+3. Add 50 µL of sample serum (normalized to 1 mg/mL) to each well, along with negative controls. Incubate for 1 hour at room temperature, then wash 4 times with PBS-Tween.
+4. Add 50 µL per well of peroxidase-labeled SpL conjugate diluted 1:5000 in PBS containing non-fat milk. Incubate for 1 hour at room temperature, then wash 4 times with PBS-Tween.
+5. Add 50 µL of 4 mg/mL o-phenylenediamine (OPD) substrate solution per well and incubate for 15 minutes at room temperature in the dark.
+6. Stop the reaction with 50 µL of 3M H2SO4 per well.
+7. Visually inspect color development, read luminescence on a microplate reader, and calculate the cut-off threshold as 3 times the mean OD of the negative controls. Please send us the raw OD data and the calculated cut-off values.

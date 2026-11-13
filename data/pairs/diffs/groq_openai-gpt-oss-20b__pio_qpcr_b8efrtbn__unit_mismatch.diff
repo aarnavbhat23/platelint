@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/pio_qpcr_b8efrtbn (clean)
++++ groq_openai-gpt-oss-20b/pio_qpcr_b8efrtbn (defect)
+@@ -27,3 +27,3 @@
+    - 7 µL RNase‑free water
+-   - 1 µL primer mix (20 mM forward + reverse, 0.5 µL each)
++   - 1 mL primer mix (20 mM forward + reverse, 0.5 µL each)
+    Include a mock well where 2 µL RNase‑free water replaces cDNA (blank).  Run all reactions in technical duplicates.

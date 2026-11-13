@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/elisa_PMC13581141 (clean)
++++ google_gemini-35-flash/elisa_PMC13581141 (defect)
+@@ -6,3 +6,3 @@
+ 
+-3. Human Telomerase Concentration Assay: Quantify telomerase concentration using the sandwich-ELISA method with the Elabscience Human TE ELISA Kit (Catalog # E-EL-H0164). Measure optical density at 450 nm (±2 nm) using a microplate reader. The expected linear detection range is 0.16 ng/mL to 10 ng/mL (analytical sensitivity limit of 0.09 ng/mL).
++3. Human Telomerase Concentration Assay: Quantify telomerase concentration using the sandwich-ELISA method with the Elabscience Human TE ELISA Kit (Catalog # E-EL-H0164). Measure optical density at 450 nm (±2 nm) using a microplate reader. The expected linear detection range is 0.16 ng/mL to 10 mg/mL (analytical sensitivity limit of 0.09 ng/mL).
+ 

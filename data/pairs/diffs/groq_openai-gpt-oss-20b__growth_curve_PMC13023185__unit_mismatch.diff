@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/growth_curve_PMC13023185 (clean)
++++ groq_openai-gpt-oss-20b/growth_curve_PMC13023185 (defect)
+@@ -46,3 +46,3 @@
+    d. **Phosphate solubilization** – NBRIP agar: spot 25 µL (OD₆₀₀ = 0.5) for bacteria, 10 days 28 °C; halo indicates activity. Fungi: place cellophane on NBRIP, inoculate mycelial pieces, 10 days 25 °C, remove membrane, inspect halo. Positive control: Luteibacter sp. Cha2324a_16.  
+-   e. **IAA production** – bacteria: grow 72 h in NB ± 1.5 mg mL⁻¹ tryptophan, harvest, mix 100 µL supernatant + 100 µL Salkowski reagent + 1 µL orthophosphoric acid, 40 min, read 530 nm; standard 0–100 µg mL⁻¹. Positive if >5 µg mL⁻¹ (Herbaspirillum frisingense GSF30).  
++   e. **IAA production** – bacteria: grow 72 h in NB ± 1.5 mg mL⁻¹ tryptophan, harvest, mix 100 µL supernatant + 100 µL Salkowski reagent + 1 mL orthophosphoric acid, 40 min, read 530 nm; standard 0–100 µg mL⁻¹. Positive if >5 µg mL⁻¹ (Herbaspirillum frisingense GSF30).  
+       Fungi: 96 h liquid MMNC ± 1.5 mg mL⁻¹ tryptophan, 2 mycelial pieces, same assay; normalize to dry biomass; positive if >0.5 µg mg⁻¹.  

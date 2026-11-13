@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/pio_elisa_bjyykpxw (clean)
++++ google_gemini-35-flash/pio_elisa_bjyykpxw (defect)
+@@ -4,3 +4,3 @@
+ 2. Add the serum samples to the plate alongside a standard curve prepared using recombinant human IL-17A (Bio Basic Cat #RC212-28).
+-3. Incubate the plate for 1 hour 30 minutes at room temperature.
++3. Incubate the plate 30 minutes at room temperature.
+ 4. Wash the plate 4 times with PBS-Tween 20 buffer.

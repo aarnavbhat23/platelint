@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/elisa_PMC13571431 (clean)
++++ google_gemini-35-flash/elisa_PMC13571431 (defect)
+@@ -6,3 +6,3 @@
+ 
+-3. Fixation and Permeabilization: Gently aspirate medium and fix cells with freshly thawed 4% PFA in DPBS (100 µL/well) for 20 minutes at room temperature. Wash 5 times with DPBS, aspirating carefully to avoid cell detachment. Permeabilize with 0.1% Triton X-100 in DPBS (100 µL/well) for 20 minutes at room temperature.
++3. Fixation and Permeabilization: Gently aspirate medium and fix cells with freshly thawed 4% PFA in DPBS (1080 µL/well) for 20 minutes at room temperature. Wash 5 times with DPBS, aspirating carefully to avoid cell detachment. Permeabilize with 0.1% Triton X-100 in DPBS (100 µL/well) for 20 minutes at room temperature.
+ 

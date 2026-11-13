@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/pio_elisa_bjtkknkw (clean)
++++ google_gemini-35-flash/pio_elisa_bjtkknkw (defect)
+@@ -9,3 +9,3 @@
+ 7. Incubate for 90 minutes at room temperature, wash 4 times with PBS-Tween-20, and then add 25 µl/well of TMB substrate. Incubate for 15 minutes in the dark.
+-8. Stop the reaction using 3M H2SO4 and read the absorbance at 450 nm on a microplate reader.
++8. Stop the reaction using 3M H2SO4 and read the luminescence on a microplate reader.
+ 9. Calculate the cut-off value as the mean optical density of the negative control plus 2 standard deviations. 

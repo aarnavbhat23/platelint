@@ -49,14 +49,18 @@ def main():
 
     have = {t: {os.path.basename(p)[:-4] for p in glob.glob(os.path.join(REQUESTS, t, "*.txt"))}
             for t in tags}
-    every = set.intersection(*have.values()) if have else set()
+    # One protocol appears once in the sheet, written by one model. Requiring
+    # every model to have written every protocol would shrink the pool to the
+    # slowest model's quota, so the pool is the union and each protocol is
+    # assigned to a model that actually wrote it.
+    every = sorted(set().union(*have.values())) if have else []
     if len(every) < N_TOTAL:
-        sys.exit(f"only {len(every)} protocols have a request from all {len(tags)} "
-                 f"models; need {N_TOTAL}. Finish stage 2 first.")
+        sys.exit(f"only {len(every)} protocols have a request from any model; "
+                 f"need {N_TOTAL}. Run stage 2 for longer.")
 
     rng = random.Random(SEED)
     by_class = {}
-    for pid in sorted(every):
+    for pid in every:
         by_class.setdefault(sources[pid]["assay_class"], []).append(pid)
     classes = sorted(by_class)
     per_class = N_TOTAL // len(classes)
@@ -67,13 +71,21 @@ def main():
         rng.shuffle(pool)
         n = per_class + (1 if i < N_TOTAL - per_class * len(classes) else 0)
         chosen.extend((pid, cls) for pid in pool[:n])
+    if len(chosen) < N_TOTAL:
+        print(f"note: only {len(chosen)} protocols available, not {N_TOTAL}",
+              file=sys.stderr)
 
-    # Spread the models evenly over the chosen protocols.
-    order = list(tags)
-    rng.shuffle(order)
+    # Spread the models as evenly as availability allows: for each protocol,
+    # take the model with the fewest items so far that actually wrote it.
     items = []
-    for i, (pid, cls) in enumerate(chosen):
-        tag = order[i % len(order)]
+    used = {t: 0 for t in tags}
+    for pid, cls in chosen:
+        options = sorted((t for t in tags if pid in have[t]),
+                         key=lambda t: (used[t], t))
+        if not options:
+            continue
+        tag = options[0]
+        used[tag] += 1
         items.append({"item_code": code_for(tag, pid), "assay_class": cls,
                       "model_tag": tag, "protocol_id": pid,
                       "path": os.path.join(REQUESTS, tag, pid + ".txt")})

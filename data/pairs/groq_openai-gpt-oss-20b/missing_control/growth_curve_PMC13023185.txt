@@ -1,0 +1,50 @@
+Please run the following workflow on our rhizosphere soil samples from the two sites in southern Germany:
+
+1. **Sampling** 
+ • Collect 5×5 cores (4.5 cm diameter, 10 cm depth, including root material) from 3 adjacent spruce or beech trees at each of the two sites: 
+ – Kranzberger Forst (48°25′8.4″N, 11°39′39.6″E, MAP = 854 mm, MAT = 8.2 °C).  Sampling in late July after 0–8.7 mm precipitation. 
+ – Kelheim (48°56′8.16″N, 11°49′19.2″E, MAP = 713 mm, MAT = 8.5 °C).  Sampling in early September after a week with no precipitation. 
+ • Freeze cores immediately on dry ice, store at –80 °C. 
+ • For isolation, collect 3–5 fine roots (<1 mm) with adhering soil per tree, keep at 4 °C, and process on the day of sampling.
+
+2. **DNA extraction & sequencing** 
+ – Extract DNA with FastDNA Spin kit for soil (MP Biomedicals). 
+ – Quantify on Nanodrop; adjust to 1.2–15 ng µL⁻¹. 
+ – Ship to the Core Facility of Microbiome, ZIEL, TUM for library prep and Illumina MiSeq v3 (600‑cycle, paired‑end). 
+ – Primers: 515F/806R for 16S v4; ITS3‑Mix123‑fw, ITS3‑Mix45‑fw, ITS4‑Mix1‑rv, ITS4‑Mix2‑rv, ITS4‑Mix3‑rv, ITS4‑Mix4‑rv for ITS2. 
+ – PCR: first step 20 cycles (bacteria) or 20 cycles (fungi); second step 12 cycles (bacteria) or 15 cycles (fungi). 
+ – Controls: nuclease‑free water (negative), ZymoBIOMICS Microbial Community Standard (positive). 
+ – Receive fastq files; data will be deposited as SRR33458690–SRR33458820 (16S) and SRR33459453–SRR33459578 (ITS).
+
+3. **Bioinformatics** 
+ – Use QIIME2 v2024.2.0, trim and denoise with DADA2. 
+ – Classify 16S with Greengenes2 v2022.10; ITS with UNITE v10.0. 
+ – Discard samples with <8,000 (16S) or <3,000 (ITS) reads and singletons. 
+ – Remove low‑abundance ASVs; rarefy to the lowest depth (GUniFrac). 
+ – Compute Bray‑Curtis, PCoA (vegan). 
+ – Predict functional profiles with Tax4Fun2 (97 % cutoff). 
+ – Generate plots with ggplot2.
+
+4. **Isolation** 
+ – Grind rhizosphere soil in 1 mL 1× PBS, dilute 10⁻³, plate 100 µL on: King’s B, M9 (20 % glucose), MMNC. 
+ – For Streptomyces: transfer 500 µL soil to HNC medium, 42 °C, 120 rpm, 30 min; filter, dilute 10⁻¹ & 10⁻², plate 100 µL on ISP‑2 and HV agar, incubate 27 °C 1–2 weeks. 
+ – Fungi: same dilutions, plate 100 µL on MMNC (also King’s B, M9 for some). 
+ – Isolate Lycoperdon sp. F31 and Collybiopsis sp. F32 from fruiting bodies on MMNC. 
+ – Incubate all plates at 25 °C up to 10 days. 
+ – Purify colonies by subculture on fresh MMNC.
+
+5. **Identification** 
+ – Bacteria: colony PCR with 27F/1492R on liquid culture DNA (DNeasy UltraClean). PCR: 94 °C 10 min; 35× (94 °C 30 s, 50 °C 30 s, 72 °C 2 min); final 72 °C 5 min. 
+ – Fungi: DNA from 5–10 mg mycelium (Animal & Fungi DNA Prep Kit), ITS1‑F/ITS4‑R, PCR: 95 °C 5 min; 35–40× (95 °C 30 s, 51.5 °C 30 s, 72 °C 45 s); final 72 °C 7 min. 
+ – Run 1 % agarose gel; send unpurified products for single‑direction sequencing (Eurofins). 
+ – Assign genus if >97 % BLAST identity. Record accession numbers: bacteria PV918716–PV918751, fungi PV918686–PV918701 (Lycoperdon sp. F31 not sequenced).
+
+6. **In vitro assays** (36 bacteria, 17 fungi) – three biological × three technical replicates. Score 0–3 per assay. 
+ a. **Siderophore** – adjust OD₆₀₀ = 0.5, spot 50 µL on NB agar, 48 h at 28 °C, overlay with CAS‑agar (CAS + FeCl₃ + HDTMA, 32.24 g L⁻¹, pH 6.8). Read color change after 12 h. 
+ b. **ACC deaminase** – OD₆₀₀ = 0.5, spot 25 µL on M9 + 9.35 mM NH₄Cl + 3 mM ACC (± controls). Incubate 10 days at 28 °C; compare growth. Positive control: Variovorax sp. M92526_27. 
+ c. **Nitrogen fixation** – spot 10 µL (OD₆₀₀ = 0.1) on 5 mL Nfb‑agar tubes, 144 h incubation; look for pellicle. Transfer colonies to Jensen’s agar; growth indicates fixation. Positive control: Azospirillum brasilense Sp7. 
+ d. **Phosphate solubilization** – NBRIP agar: spot 25 µL (OD₆₀₀ = 0.5) for bacteria, 10 days 28 °C; halo indicates activity. Fungi: place cellophane on NBRIP, inoculate mycelial pieces, 10 days 25 °C, remove membrane, inspect halo.  Cha2324a_16. 
+ e. **IAA production** – bacteria: grow 72 h in NB ± 1.5 mg mL⁻¹ tryptophan, harvest, mix 100 µL supernatant + 100 µL Salkowski reagent + 1 µL orthophosphoric acid, 40 min, read 530 nm; standard 0–100 µg mL⁻¹. Positive if >5 µg mL⁻¹ (Herbaspirillum frisingense GSF30). 
+ Fungi: 96 h liquid MMNC ± 1.5 mg mL⁻¹ tryptophan, 2 mycelial pieces, same assay; normalize to dry biomass; positive if >0.5 µg mg⁻¹. 
+ f. **Abiotic stress tolerance** – bacteria: 2 µL main culture into 200 µL NB with 7 NaCl or PEG concentrations (PEG derived from 326 g L⁻¹ = –1.2 MPa) or pH 5–9; measure OD₆₀₀ at 0, 24, 48 h; plate 25 µL of two highest concentrations to assess recovery. Positive controls as above. 
+ Fungi: NaCl tolerance on MMNC agar with 7 NaCl levels, 10 days 25 °C; measure

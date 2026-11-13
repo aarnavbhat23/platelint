@@ -1,0 +1,28 @@
+Please culture our HEK293 cells (both mock and PRELID2‑stable overexpression lines) as 3D spheroids in low‑attachment 96‑well plates under two media conditions (standard DMEM and glucose‑free DMEM) and assess viability at 72 h and 168 h with the Cyto3D Live‑Dead assay. Use the IN Cell Analyzer 2000 for imaging.
+
+1. **Cell preparation (Day 0)**  
+   a. Wash adherent cells twice with pre‑warmed PBS (−).  
+   b. Add 1.5 mL trypsin, incubate ≤ 5 min (≈ 3 min). Quench with 3.5 mL medium, collect cells in a 15 mL tube, and centrifuge 1 000 rpm, 5 min.  
+   c. Resuspend gently, let stand 3 min, then transfer the supernatant. Adjust the suspension to 1 × 10⁶ cells/mL in the appropriate medium (standard DMEM for the “nutrient‑replete” condition, glucose‑free DMEM for the “starvation” condition).  
+
+2. **Seeding (Day 0)**  
+   a. Add 150 µL of the condition‑specific medium to each well of a low‑attachment 96‑well plate.  
+   b. Add 50 µL of the cell suspension (5 × 10⁴ cells) to each well.  
+   c. Centrifuge the plate at 100 × g for 5 min to promote aggregation.  
+
+3. **Medium exchange and Live/Dead staining (72 h)**  
+   a. Remove 100 µL of medium from each well and add 100 µL fresh, condition‑specific medium.  
+   b. Equilibrate the Cyto3D Live‑Dead Assay Kit to room temperature. Add 2 µL of the AO/PI reagent per 100 µL of medium in each well (i.e., 2 µL per well).  
+   c. Incubate 10 min at 37 °C.  
+   d. Acquire bright‑field and fluorescence images (AO: Ex 494 nm/Em 517 nm; PI: Ex 535 nm/Em 617 nm).  
+
+4. **Medium exchange and imaging (120 h)**  
+   a. Remove 100 µL of medium from each well and add 100 µL fresh, condition‑specific medium.  
+   b. Acquire bright‑field images to monitor spheroid morphology.  
+
+5. **Medium exchange and Live/Dead staining (168 h)**  
+   a. Remove 100 µL of medium from each well and add 100 µL fresh, condition‑specific medium.  
+   b. Add 2 µL of AO/PI reagent per well (as above), incubate 10 min at 75 °C.  
+   c. Acquire bright‑field and fluorescence images (same settings as at 72 h).  
+
+Please use the same seeding density for all conditions, keep trypsinization time ≤ 5 min, and pre‑warm all media to 37 °C before use. Let us know if any reagents or equipment are unavailable. Thank you.

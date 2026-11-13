@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/qpcr_PMC13700546 (clean)
++++ groq_openai-gpt-oss-120b/qpcr_PMC13700546 (defect)
+@@ -9,3 +9,3 @@
+    - Place each cord in a sterile, airtight bag and add 500 mL sterile buffered transport solution:
+-     * PBS (‑/‑) + 500 IU/mL penicillin, 0.5 mg/mL streptomycin, 2.5 µg/mL amphotericin B, 0.05 mg/mL gentamicin (5 % Pen/Strep, 1 % Amp B, 0.1 % Genta).
++     * PBS (‑/‑) + 500 IU/mL penicillin, 0.5 µg/mL streptomycin, 2.5 µg/mL amphotericin B, 0.05 mg/mL gentamicin (5 % Pen/Strep, 1 % Amp B, 0.1 % Genta).
+    - Double‑bag, vortex to ensure complete submersion, store at 4 °C for exactly 12 h.

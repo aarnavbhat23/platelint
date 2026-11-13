@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/pio_elisa_bj54kq8w (clean)
++++ google_gemini-35-flash/pio_elisa_bj54kq8w (defect)
+@@ -8,3 +8,3 @@
+ 6. Add 50 µL per well of 1X TMB solution (Thermo Fisher #00-4201-56) and incubate for 15 minutes at room temperature in the dark.
+-7. Stop the reaction by adding 50 µL of 3M HCl per well.
++7. Stop the reaction by adding 50 mL of 3M HCl per well.
+ 8. Read absorbance on a plate reader at 450 nm.

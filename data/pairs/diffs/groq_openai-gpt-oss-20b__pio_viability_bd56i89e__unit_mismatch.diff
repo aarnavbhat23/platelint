@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/pio_viability_bd56i89e (clean)
++++ groq_openai-gpt-oss-20b/pio_viability_bd56i89e (defect)
+@@ -10,3 +10,3 @@
+ 2. Equilibrate both the CellTiter‑Glo reagent and the 96‑well plate to room temperature (≈22 °C) for at least 30 minutes before adding anything.  
+-3. Prepare the assay reagent by mixing an equal volume of Caspase Glo buffer with the CellTiter‑Glo substrate (1:1 ratio). For each sample add 100 µL of this mixed reagent to 100 µL of the cell culture media in the corresponding well. Include a media‑only control well.  
++3. Prepare the assay reagent by mixing an equal volume of Caspase Glo buffer with the CellTiter‑Glo substrate (1:1 ratio). For each sample add 100 µL of this mixed reagent to 100 mL of the cell culture media in the corresponding well. Include a media‑only control well.  
+ 4. After adding the reagent, place the plate on an orbital shaker for 2 minutes to ensure thorough mixing.  

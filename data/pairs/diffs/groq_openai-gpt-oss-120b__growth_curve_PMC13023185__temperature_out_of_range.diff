@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/growth_curve_PMC13023185 (clean)
++++ groq_openai-gpt-oss-120b/growth_curve_PMC13023185 (defect)
+@@ -60,3 +60,3 @@
+    - Grow in phytochamber (8 h light/16 h dark, 55 % RH, 20 °C, 25 W m⁻²). After 3 weeks record shoot/root fresh weight, length, total seedling fresh weight, and dry weight (dry 3 weeks at room temp).  
+-   - Estimate rhizosphere competence: grind three roots per treatment in PBS, serial‑dilute to 10⁻⁴, plate 100 µL of 10⁻³ and 10⁻⁴ on NB agar, count CFUs after 24‑48 h at 28 °C. Only seedlings with viable root tips are included.  
++   - Estimate rhizosphere competence: grind three roots per treatment in PBS, serial‑dilute to 10⁻⁴, plate 100 µL of 10⁻³ and 10⁻⁴ on NB agar, count CFUs after 24‑48 h at 75 °C. Only seedlings with viable root tips are included.  
+ 

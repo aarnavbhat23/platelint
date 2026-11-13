@@ -1,0 +1,92 @@
+Please run the following experiments on the samples we will provide:
+
+1. **Hydrogel preparation**  
+   - Dissolve 50 mg GelMA powder in 1 mL PBS containing 0.05 g LAP (photoinitiator) under dark conditions, heat and shake until fully dissolved, then filter through a 0.22 µm sterile filter.  
+   - For the alogliptin‑loaded gel (Gel‑A), co‑dissolve 50 mg GelMA and 7.5 mg alogliptin in the same 1 mL LAP‑PBS solution (final alogliptin concentration 7.5 mg mL⁻¹). Filter as above.  
+
+2. **Equilibrium water volume**  
+   - Pipette 1 mL of each hydrogel (plain GelMA and Gel‑A) into separate UV‑transparent dishes, photocure, weigh immediately, then freeze‑dry for 24 h and weigh again. Perform three replicates per group.  
+
+3. **Scanning electron microscopy**  
+   - UV‑cure 1 mL of each hydrogel, place in 6‑well plates, freeze at –80 °C overnight, then lyophilize for 48 h. Cut ~1 mm³ pieces, mount on stubs, sputter‑coat with gold, and image surface morphology, pore size, and architecture.  
+
+4. **Hydrogel release ELISA**  
+   - Place 1 mL of each cured hydrogel into 15 mL tubes with 10 mL PBS (pH 7.4), incubate at 37 °C with shaking. At days 15, 17, 20 collect supernatant (centrifuge 6000 rpm, 5 min), store at –80 °C, and replace with fresh PBS. After the final collection, quantify alogliptin concentration by ELISA.  
+
+5. **T2DM rat model**  
+   - Obtain 40 male Sprague‑Dawley rats (12–13 weeks, ~300 g). Feed a high‑fat/high‑carbohydrate diet for 4 weeks, then inject STZ 35 mg kg⁻¹ i.p. Verify fasting glucose >16.7 mmol L⁻¹ for one week before use.  
+
+6. **Group allocation (7 rats per group)**  
+   - Group T: diabetic, oral saline.  
+   - Group A: diabetic, oral alogliptin 10 mM (gavage).  
+   - Group M: diabetic, oral metformin 10 mM (gavage).  
+   - Group GelMA: diabetic, local injection of 10 µL plain GelMA into implant bed before implant placement.  
+   - Group GelMA+A: diabetic, local injection of 10 µL Gel‑A into implant bed before implant placement.  
+
+7. **Surgical implantation**  
+   - Anesthetize with 1 % pentobarbital sodium (45 mg kg⁻¹ i.p.) plus local Primacaine.  
+   - Expose the femoral intercondylar fossa, drill a standardized 3 mm × 1.5 mm implant bed under saline irrigation, insert a Ti implant (3 × 1.5 mm, Shandong Hengtai), close layers, and administer antibiotics for 3 days post‑op.  
+
+8. **Drug administration**  
+   - Begin 5 days post‑op. Give alogliptin or metformin (10 mM) by oral gavage daily to Groups A and M; give equivalent volume saline to Group T.  
+   - For hydrogel groups, inject the specified gel (10 µL) into the implant site immediately before implant insertion (no systemic drug).  
+
+9. **Euthanasia and sample collection** (week 8)  
+   - Overdose with 3 % sodium pentobarbital (150–200 mg kg⁻¹ i.p.), harvest femurs with implants.  
+
+10. **Micro‑CT**  
+    - Scan each femur at 80 kV, 70 µA, 1440 projections, voxel size 10.425 µm, integration time 500 ms. Reconstruct a 100 µm annular ROI around each implant and calculate BV/TV, trabecular number, and trabecular thickness using VG Studio MAX 3.5.  
+
+11. **Alizarin Red labeling**  
+    - Inject 30 mg kg⁻¹ Alizarin Red i.p. 10 days before euthanasia. After harvest, cut 50 µm longitudinal sections and image fluorescence (Axio Imager M).  
+
+12. **Histology**  
+    - Dehydrate, embed, and section femurs longitudinally (250–300 µm thick) to avoid implant loss; mount on resin slides.  
+    - Prepare 10 µm undecalcified paraffin sections for HE, modified Masson, Safranin O/Fast Green, Van Gieson, and Toluidine Blue staining (follow standard protocols).  
+
+13. **Immunofluorescence** (GLP1R, β‑catenin, GSK‑3β)  
+    - Permeabilize sections (0.1 % Triton X‑100, 20 min), block with 10 % normal goat serum 1 h (27 °C). Incubate primary antibodies (1:100) overnight at 4 °C, wash, then apply goat anti‑rabbit Alexa secondary (1:250) 1 h RT in dark. Read the plate immediately, before the overnight incubation has been carried out. Counterstain with DAPI and image on Olympus inverted fluorescence microscope.  
+
+14. **Immunohistochemistry** (RUNX2, BMP2, ALP)  
+    - Deparaffinize, antigen‑retrieve in citrate buffer (95 °C, 20 min), block (10 % goat serum, 1 h, 27 °C). Incubate primary antibodies (1:100) overnight 4 °C, wash, add HRP‑conjugated goat anti‑rabbit (1:200) 1 h RT, develop with DAB, counterstain with hematoxylin, mount, and capture images (Olympus upright microscope).  
+
+15. **VG and Toluidine Blue staining**  
+    - VG: mix 9 mL solution B + 1 mL solution A, stain 3 min, rinse, dehydrate in absolute ethanol, clear in xylene (5 min), mount with neutral resin.  
+    - Toluidine Blue: stain 5 min, rinse, dehydrate, clear, and mount as above.  
+
+16. **Cell isolation & culture**  
+    - Harvest bone marrow from SD rats, isolate BMSCs and BMMs. Culture BMSCs in RPMI‑1640 +10 % FBS +1 % pen/strep at 5 % CO₂, 37 °C. Culture BMMs in high‑glucose DMEM +10 % FBS, treat with M‑CSF (10 ng mL⁻¹) then LPS (200 ng mL⁻¹) to generate M1 phenotype. Obtain HUVECs (Life Technologies) and culture in Medium 200 +2 % LSGS under same conditions.  
+
+17. **Flow cytometry phenotyping**  
+    - BMSCs: CD29, CD34, CD90 (Cell Signaling).  
+    - BMMs: CD11b (Cell Signaling).  
+    - HUVECs: confirm VE‑cadherin expression. Analyze with FlowJo v10.  
+
+18. **Cell viability (CCK‑8)**  
+    - Seed cells in 96‑well plates, treat with alogliptin (100 nM) or metformin (200 µM) for 24 h, add CCK‑8 reagent, read OD 450 nm. Confirm non‑cytotoxic concentrations for downstream work.  
+
+19. **BMSC ELISA** (48 h treatment)  
+    - Collect supernatants after exposure to saline, alogliptin, or metformin. Measure VEGF, TNF‑α, and IL‑10 using Beyotime kits (catalog numbers PV960, PT516, PI615).  
+
+20. **Adhesion assay**  
+    - Plate 2 × 10⁵ cells cm⁻², after 24 h fix, stain for Ki‑67 and FITC‑Phalloidin, image with Nikon Eclipse Ti.  
+
+21. **Osteogenic differentiation**  
+    - Plate 2 × 10⁵ cells cm⁻², after 3 days switch to osteogenic medium (10 % FBS, 0.001 mM dexamethasone, 10 mM β‑glycerophosphate, 0.05 mM ascorbate‑2‑phosphate); change medium every 3 days.  
+
+22. **ALP activity (day 7)**  
+    - Fix cells (4 % PFA, 30 min), perform ALP staining with Jiancheng kit (A059‑2) per manufacturer’s instructions.  
+
+23. **Alizarin Red (day 21)**  
+    - Fix cells (4 % PFA, 30 min), stain with Alizarin Red S (Abcam), dissolve bound dye with cetyl‑pyridinium chloride, read absorbance at 562 nm for quantification.  
+
+24. **HUVEC tube formation**  
+    - Thaw Matrigel, coat 48‑well plates (200 µL well⁻¹), solidify 20 min at 37 °C. Seed HUVECs (experimental = alo, control = vehicle), incubate 4–6 h, capture tube networks under microscope.  
+
+25. **qRT‑PCR (after 14 days osteogenic induction)**  
+    - Extract total RNA (OD 260/280 = 1.8–2.1), reverse transcribe to cDNA, run TB Green qPCR on Applied Biosystems 7300/7500. Use GAPDH as housekeeping. Thermal cycle: 95 °C 95 s; 45 × (95 °C 5 s, 60 °C 34 s, 95 °C 15 s). Include three biological and three technical replicates. Analyze expression of osteogenic markers and Wnt/β‑catenin pathway genes (2⁻ΔΔCt method).  
+
+26. **Data analysis**  
+    - Provide raw data and processed results for all assays. Perform statistical analysis with GraphPad Prism 9: test normality and variance, then one‑way ANOVA with Tukey’s post‑hoc; significance set at two‑tailed p < 0.05.  
+
+Please use the catalog numbers and concentrations listed above, keep all samples blinded, and return all raw images, spreadsheets, and statistical outputs. Let me know if any reagents or equipment are unavailable so we can arrange alternatives. Thanks.

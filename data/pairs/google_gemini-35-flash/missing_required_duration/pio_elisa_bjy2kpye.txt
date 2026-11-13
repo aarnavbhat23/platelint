@@ -1,0 +1,15 @@
+Please run an IL-23 sandwich ELISA on our patient serum samples using the following procedure:
+
+1. Coat 96-well ELISA plates with monoclonal anti-human IL-23 capture antibody.
+2. Add our serum samples along with recombinant IL-23 standards for generating a standard curve.
+3. Incubate the plate for 1.5 hours at room temperature.
+4. Wash the wells 4 times with PBS-Tween 20 wash buffer.
+5. Add biotin-conjugated anti-human IL-23 detection antibody to the wells and incubate at room temperature.
+6. Wash 4 times with PBS-Tween 20 buffer.
+7. Add peroxidase-labeled streptavidin conjugate and incubate for 1 hour at room temperature.
+8. Wash 4 times with PBS-Tween 20 buffer, then add substrate solution to initiate the colorimetric reaction.
+9. Stop the reaction by adding 3M H2SO4.
+10. Read the absorbance of the wells at 450 nm.
+11. Calculate the IL-23 concentrations in the serum samples by linear regression against the standard curve.
+
+Please provide the raw absorbance readings and the calculated IL-23 concentration values for all samples once complete.

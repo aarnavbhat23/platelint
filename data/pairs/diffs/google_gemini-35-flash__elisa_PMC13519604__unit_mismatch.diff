@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/elisa_PMC13519604 (clean)
++++ google_gemini-35-flash/elisa_PMC13519604 (defect)
+@@ -4,3 +4,3 @@
+ - TLR and NOD Agonists: Treat rested BMDMs with LPS (100 ng/mL), LTA (1 μg/mL), Pam3CSK4 (100 ng/mL), Zymosan (10 μg/mL), R848 (5 μg/mL), CpG (500 nM), or MDP (1–10 μg/mL) in complete DMEM.
+-- Cytosolic STING Agonists: Formulate ligand-lipid complexes by combining 50 μL Opti-MEM containing ligand (ISD: 0.5 μg/well; poly(dG:dC): 0.5 μg/well; or 2′3′-cGAMP: 2.5 μg/well for 24-well format) with 50 μL Opti-MEM containing 1.5 μL lipid transfection reagent. Incubate complexes for 15 minutes at room temperature, add dropwise to wells containing fresh media (final working concentrations: 1 μg/mL ISD, 1 μg/mL poly(dG:dC), 5 μg/mL 2′3′-cGAMP), and include mock transfection controls.
++- Cytosolic STING Agonists: Formulate ligand-lipid complexes by combining 50 μL Opti-MEM containing ligand (ISD: 0.5 μg/well; poly(dG:dC): 0.5 mg/well; or 2′3′-cGAMP: 2.5 μg/well for 24-well format) with 50 μL Opti-MEM containing 1.5 μL lipid transfection reagent. Incubate complexes for 15 minutes at room temperature, add dropwise to wells containing fresh media (final working concentrations: 1 μg/mL ISD, 1 μg/mL poly(dG:dC), 5 μg/mL 2′3′-cGAMP), and include mock transfection controls.
+ - M2 / Wound Healing: Treat with IL-4 (10–20 ng/mL) with or without IL-13 (10–20 ng/mL) in complete DMEM without M-CSF.

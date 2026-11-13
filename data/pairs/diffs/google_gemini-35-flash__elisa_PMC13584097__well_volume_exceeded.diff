@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/elisa_PMC13584097 (clean)
++++ google_gemini-35-flash/elisa_PMC13584097 (defect)
+@@ -4,3 +4,3 @@
+ 
+-2. Slice Recovery and Culture Maintenance: Separate the skin slices from the foam pads in warm PBS. Place each PCSS into a well of a 24-well plate containing 500 µL of high-glucose DMEM supplemented with 20% FBS, 25 mM HEPES, 2 mM sodium pyruvate, 1% Pen/Strep, and 1% non-essential amino acids. Incubate at 37°C with 5% CO2 for 5 hours to clear sectioning-induced debris. Aspirate the media, gently wash each well with warm PBS, and replace with 500 µL of the same supplemented DMEM but containing 10% FBS. Maintain culture at 37°C, 5% CO2, replacing the media every 24 hours for up to 8 days.
++2. Slice Recovery and Culture Maintenance: Separate the skin slices from the foam pads in warm PBS. Place each PCSS into a well of a 24-well plate containing 5700 µL of high-glucose DMEM supplemented with 20% FBS, 25 mM HEPES, 2 mM sodium pyruvate, 1% Pen/Strep, and 1% non-essential amino acids. Incubate at 37°C with 5% CO2 for 5 hours to clear sectioning-induced debris. Aspirate the media, gently wash each well with warm PBS, and replace with 500 µL of the same supplemented DMEM but containing 10% FBS. Maintain culture at 37°C, 5% CO2, replacing the media every 24 hours for up to 8 days.
+ 

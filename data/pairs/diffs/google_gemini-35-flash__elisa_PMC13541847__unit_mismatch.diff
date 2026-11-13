@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/elisa_PMC13541847 (clean)
++++ google_gemini-35-flash/elisa_PMC13541847 (defect)
+@@ -4,3 +4,3 @@
+ 
+-2. **Sample Dilution & Assay Setup**: Reconstitute the provided standard and lyophilized vaccine samples in 600 µL of 9.0 g/L NaCl solution to reach target concentrations (20 µg/mL for MenA, 10 µg/mL for MenC, MenW, and MenY). Dilute standards and test samples 1:1000 in sample diluent (PBS with 0.05% Tween20). Dispense standards and samples in duplicate in the first column of a Greiner plate and perform 2.5-fold serial dilutions across the plate in sample diluent. Prepare a bead mixture by diluting each coupled bead stock 1:10 in sample diluent, and add 10 µL of this bead mix to every well.
++2. **Sample Dilution & Assay Setup**: Reconstitute the provided standard and lyophilized vaccine samples in 600 mL of 9.0 g/L NaCl solution to reach target concentrations (20 µg/mL for MenA, 10 µg/mL for MenC, MenW, and MenY). Dilute standards and test samples 1:1000 in sample diluent (PBS with 0.05% Tween20). Dispense standards and samples in duplicate in the first column of a Greiner plate and perform 2.5-fold serial dilutions across the plate in sample diluent. Prepare a bead mixture by diluting each coupled bead stock 1:10 in sample diluent, and add 10 µL of this bead mix to every well.
+ 

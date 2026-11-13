@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/qpcr_PMC13753574 (clean)
++++ groq_openai-gpt-oss-20b/qpcr_PMC13753574 (defect)
+@@ -58,3 +58,3 @@
+    a. In ice‑cold tube: 2 µL 5 × gDNA Eraser buffer, 2 µL gDNA Eraser, 1 µg RNA, ddH₂O to 10 µL.  
+-   b. Incubate 42 °C, 2 min; cool on ice.  
++   b. Incubate 42 °C, 2 min; cool on ice, and hold the plate at 4 °C for the whole of this step.
+    c. Add 10 µL RT master mix: 2 µL 5 × PrimeScript buffer, 4 µL PrimeScript RT Enzyme Mix I, 1 µL RT Primer Mix, 1 µL ddH₂O.  

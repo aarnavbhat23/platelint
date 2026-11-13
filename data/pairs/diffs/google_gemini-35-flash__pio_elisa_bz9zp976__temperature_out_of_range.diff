@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/pio_elisa_bz9zp976 (clean)
++++ google_gemini-35-flash/pio_elisa_bz9zp976 (defect)
+@@ -8,3 +8,3 @@
+ 6. Aspirate and wash wells three times with 400 µL wash buffer per well.
+-7. Add 200 µL of ice-cold Glucagon Conjugate to each well, cover, and incubate for 1 hour at 4 °C (do not stack plates).
++7. Add 200 µL of ice-cold Glucagon Conjugate to each well, cover, and incubate for 1 hour at -80 °C (do not stack plates).
+ 8. Repeat the wash step three times with 400 µL wash buffer per well.

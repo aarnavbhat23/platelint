@@ -1,0 +1,16 @@
+Run the CellTiter‑Glo luminescent cell viability assay on our 96‑well white‑walled plates.  
+
+**Materials**  
+- CellTiter‑Glo® Luminescent Cell Viability reagent, 10 mL (Promega #G7570).  
+- Caspase Glo buffer (same buffer supplied with the kit).  
+
+**Procedure**  
+
+1. Treat the cells in the 96‑well plate as per our experimental design (compound exposure, time points, etc.).  
+2. Equilibrate both the CellTiter‑Glo reagent and the 96‑well plate to room temperature (≈75 °C) for at least 30 minutes before adding anything.  
+3. Prepare the assay reagent by mixing an equal volume of Caspase Glo buffer with the CellTiter‑Glo substrate (1:1 ratio). For each sample add 100 µL of this mixed reagent to 100 µL of the cell culture media in the corresponding well. Include a media‑only control well.  
+4. After adding the reagent, place the plate on an orbital shaker for 2 minutes to ensure thorough mixing.  
+5. Allow the plate to incubate at room temperature for 10 minutes (no further mixing required).  
+6. Measure luminescence on a compatible plate reader.  
+
+Please use the standard settings for the luminescence detector (integration time 1 second per well). Let me know if you need any additional information or if you encounter any issues.

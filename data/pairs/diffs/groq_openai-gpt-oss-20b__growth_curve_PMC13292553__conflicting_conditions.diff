@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/growth_curve_PMC13292553 (clean)
++++ groq_openai-gpt-oss-20b/growth_curve_PMC13292553 (defect)
+@@ -24,3 +24,3 @@
+ - 42 °C water bath (Thermo Scientific)  
+-- Shaker (220 rpm, 37 °C) – New Brunswick Innova 42R  
++- Shaker (220 rpm, 37 °C) – New Brunswick Innova 42R, and hold the plate at 4 °C for the whole of this step.
+ - Centrifuges: Ohaus FC5916 (4350 × g, 30 min), Eppendorf 5804R (15 000 × g, 30 min)  

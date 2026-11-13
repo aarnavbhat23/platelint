@@ -1,0 +1,101 @@
+--- groq_openai-gpt-oss-120b/growth_curve_PMC12830117 (clean)
++++ groq_openai-gpt-oss-120b/growth_curve_PMC12830117 (defect)
+@@ -1,56 +1,56 @@
+ 1. Prepare the following culture media (filter‑sterilize 0.22 µm and store at 4 °C, use within the indicated time):
+-   - **C10 medium (1 L):** 848 mL RPMI, 100 mL FBS (10 % final), 10 mL 100× Pen/Strep/Glutamine, 10 mL 100× MEM non‑essential amino acids, 10 mL 1 M HEPES, 10 mL 100 mM sodium pyruvate, 10 mL 5 mM β‑mercaptoethanol, 2 mL 500× Normocin. Store ≤ 1 month.
+-   - **R10 medium (1 L):** 888 mL RPMI, 100 mL FBS (10 % final), 10 mL 100× Pen/Strep/Glutamine, 2 mL 500× Normocin. Store ≤ 1 month.
+-   - **HSPC culture medium (50 mL):** X‑VIVO™ 15 + 50 ng/mL SCF, 50 ng/mL Flt3‑L, 50 ng/mL TPO, 20 ng/mL IL‑3. Filter‑sterilize, store ≤ 2 weeks.
+-   - **HSPC expansion medium (50 mL):** StemSpan™ SFEM II + 5 mL 10× StemSpan Lymphoid Progenitor Expansion Supplement (final 1×). Filter‑sterilize, store ≤ 2 weeks.
+-   - **NKT differentiation medium (50 mL):** StemSpan™ SFEM II + 5 mL 10× StemSpan Lymphoid Progenitor Maturation Supplement (final 1×). Filter‑sterilize, store ≤ 2 weeks.
+-   - **NKT deep‑differentiation medium (50 mL):** StemSpan™ SFEM II + 5 mL 10× StemSpan Lymphoid Progenitor Maturation Supplement + 10 ng/mL human IL‑15 (500 ng total). Filter‑sterilize, store ≤ 2 weeks.
+-   - **NKT expansion medium (50 mL):** C10 medium + 10 ng/mL human IL‑7 + 10 ng/mL human IL‑15. Filter‑sterilize, store ≤ 2 weeks.
++ - **C10 medium (1 L):** 848 mL RPMI, 100 mL FBS (10 % final), 10 mL 100× Pen/Strep/Glutamine, 10 mL 100× MEM non‑essential amino acids, 10 mL 1 M HEPES, 10 mL 100 mM sodium pyruvate, 10 mL 5 mM β‑mercaptoethanol, 2 mL 500× Normocin. Store ≤ 1 month.
++ - **R10 medium (1 L):** 888 mL RPMI, 100 mL FBS (10 % final), 10 mL 100× Pen/Strep/Glutamine, 2 mL 500× Normocin. Store ≤ 1 month.
++ - **HSPC culture medium (50 mL):** X‑VIVO™ 15 + 50 ng/mL SCF, 50 ng/mL Flt3‑L, 50 ng/mL TPO, 20 ng/mL IL‑3. Filter‑sterilize, store ≤ 2 weeks.
++ - **HSPC expansion medium (50 mL):** StemSpan™ SFEM II + 5 mL 10× StemSpan Lymphoid Progenitor Expansion Supplement (final 1×). Filter‑sterilize, store ≤ 2 weeks.
++ - **NKT differentiation medium (50 mL):** StemSpan™ SFEM II + 5 mL 10× StemSpan Lymphoid Progenitor Maturation Supplement (final 1×). Filter‑sterilize, store ≤ 2 weeks.
++ - **NKT deep‑differentiation medium (50 mL):** StemSpan™ SFEM II + 5 mL 10× StemSpan Lymphoid Progenitor Maturation Supplement + 10 ng/mL human IL‑15 (500 ng total). Filter‑sterilize, store ≤ 2 weeks.
++ - **NKT expansion medium (50 mL):** C10 medium + 10 ng/mL human IL‑7 + 10 ng/mL human IL‑15. Filter‑sterilize, store ≤ 2 weeks.
+ 
+ 2. **HSPC engineering (Day 0–1):**
+-   - Thaw Retronectin (1 µg/µL) and dilute to 20 µg/mL in 1× PBS. Add 1 mL per well of a non‑tissue‑culture 6‑well plate; incubate 20–25 °C for 2 h.
+-   - Block with 1 mL 2 % BSA/PBS per well for 30 min (20–25 °C), aspirate, then wash each well with 2 mL PBS. Use the plate the same day (or store sealed at 4 °C up to 7 days).
+-   - Thaw cord‑blood CD34⁺ HSPCs rapidly (37 °C water bath). Add 500 µL pre‑warmed X‑VIVO 15 dropwise, transfer to 15 mL tube, spin 300 × g 10 min, discard supernatant.
+-   - Resuspend pellet in 10 mL HSPC culture medium, count viable cells, spin again, discard supernatant, and resuspend at 1 × 10⁶ cells/mL in Stage 0 medium.
+-   - Seed 1 mL per Retronectin‑coated well, incubate 37 °C, 5 % CO₂ for 12–18 h.
+-   - Thaw concentrated lentiviral supernatant (Lenti/iNKT‑CAR70‑IL‑15) to achieve MOI = 100 (≈1 × 10⁸ IFU/mL). Gently mix, add to each well, rock plate to distribute, incubate 37 °C, 5 % CO₂ for 24 h.
+-   - After 24 h, detach cells by gentle pipetting, pool cells and cold HSPC culture medium washes, spin 300 × g 10 min, resuspend in 10 mL HSPC culture medium, count viable cells.
+-   - Resuspend at 2 × 10⁴ cells per 500 µL HSPC expansion medium and proceed to the expansion step.
++ - Thaw Retronectin (1 µg/µL) and dilute to 20 µg/mL in 1× PBS. Add 1 mL per well of a non‑tissue‑culture 6‑well plate; incubate 20–25 °C for 2 h.
++ - Block with 1 mL 2 % BSA/PBS per well for 30 min (20–25 °C), aspirate, then wash each well with 2 mL PBS. Use the plate the same day (or store sealed at 4 °C up to 7 days).
++ - Thaw cord‑blood CD34⁺ HSPCs rapidly (37 °C water bath). Add 500 µL pre‑warmed X‑VIVO 15 dropwise, transfer to 15 mL tube, spin 300 × g 10 min, discard supernatant.
++ - Resuspend pellet in 10 mL HSPC culture medium, count viable cells, spin again, discard supernatant, and resuspend at 1 × 10⁶ cells/mL in Stage 0 medium.
++ - Seed 1 mL per Retronectin‑coated well, incubate 37 °C, 5 % CO₂ for 12–18 h.
++ - Thaw concentrated lentiviral supernatant (Lenti/iNKT‑CAR70‑IL‑15) to achieve MOI = 100 (≈1 × 10⁸ IFU/mL). Gently mix, add to each well, rock plate to distribute, incubate 37 °C, 5 % CO₂ for 24 h.
++ - After 24 h, detach cells by gentle pipetting, pool cells and cold HSPC culture medium washes, spin 300 × g 10 min, resuspend in 10 mL HSPC culture medium, count viable cells.
++ - Resuspend at 2 × 10⁴ cells per 500 µL HSPC expansion medium and proceed to the expansion step.
+ 
+ 3. **HSPC expansion (Days 2–14):**
+-   - Thaw StemSpan Lymphoid Differentiation Coating Material, add 500 µL per well of a CELLSTAR® 24‑well non‑treated plate, incubate 20–25 °C 2 h (or 4 °C 16–20 h). Rinse with 1 mL PBS.
+-   - Plate engineered HSPCs at 500 µL per well in HSPC expansion medium; culture 3 days (37 °C, 5 % CO₂).
+-   - Day 4: add another 500 µL expansion medium per well (total 1 mL); culture 4 days.
+-   - Day 7: replace half of the medium with 500 µL fresh expansion medium; continue.
+-   - Day 11: repeat half‑medium change; continue 3 days.
+-   - Day 14: harvest cells, spin 300 × g 10 min, count viable cells. Resuspend at 1 × 10⁵ cells/mL in NKT differentiation medium for the next stage. If cell number exceeds culture capacity, set aside 1–2 × 10⁵ cells for cryopreservation (2 × 10⁵ cells in 500 µL freezing medium).
++ - Thaw StemSpan Lymphoid Differentiation Coating Material, add 500 µL per well of a CELLSTAR® 24‑well non‑treated plate, incubate 20–25 °C 2 h (or 4 °C 16–20 h). Rinse with 1 mL PBS.
++ - Plate engineered HSPCs at 500 µL per well in HSPC expansion medium; culture 3 days (37 °C, 5 % CO₂).
++ - Day 4: add another 500 µL expansion medium per well (total 1 mL); culture 4 days.
++ - Day 7: replace half of the medium with 500 µL fresh expansion medium; continue.
++ - Day 11: repeat half‑medium change; continue 3 days.
++ - Day 14: harvest cells, spin 300 × g 10 min, count viable cells. Resuspend at 1 × 10⁵ cells/mL in NKT differentiation medium for the next stage. If cell number exceeds culture capacity, set aside 1–2 × 10⁵ cells for cryopreservation (2 × 10⁵ cells in 500 µL freezing medium).
+ 
+ 4. **NKT differentiation (Days 15–21):**
+-   - Thaw StemSpan Lymphoid Differentiation Coating Material, coat a non‑treated 6‑well plate with 1 mL per well, incubate 20–25 °C 2 h (or 4 °C 16–20 h), rinse with PBS.
+-   - Seed Allo CAR70‑NKT cells at 2 mL per well in NKT differentiation medium (≈1 × 10⁵ cells/mL). Culture 1 week at 37 °C, 5 % CO₂.
+-   - Passage 2–3 times during the week to keep density 0.5–1 × 10⁶ cells/mL: spin 300 × g 10 min, discard supernatant, resuspend in fresh differentiation medium at 1 × 10⁵ cells/mL.
+-   - At week’s end, collect ~1 × 10⁵ cells for flow cytometry (stain for 6B11, CD3, TCRαβ, CAR70, CD4, CD8, viability dye).
++ - Thaw StemSpan Lymphoid Differentiation Coating Material, coat a non‑treated 6‑well plate with 1 mL per well, incubate 20–25 °C 2 h (or 4 °C 16–20 h), rinse with PBS.
++ - Seed Allo CAR70‑NKT cells at 2 mL per well in NKT differentiation medium (≈1 × 10⁵ cells/mL). Culture 1 week at 37 °C, 5 % CO₂.
++ - Passage 2–3 times during the week to keep density 0.5–1 × 10⁶ cells/mL: spin 300 × g 10 min, discard supernatant, resuspend in fresh differentiation medium at 1 × 10⁵ cells/mL.
++ - At week’s end, collect ~1 × 10⁵ cells for flow cytometry (stain for 6B11, CD3, TCRαβ, CAR70, CD4, CD8, viability dye).
+ 
+ 5. **NKT deep differentiation (Days 22–28):**
+-   - Coat a fresh non‑treated 6‑well plate as above with the same coating material.
+-   - Harvest differentiated NKT cells, count, spin 300 × g 10 min, resuspend at 5 × 10⁵ cells/mL in NKT deep‑differentiation medium.
+-   - Add ImmunoCult™ Human CD3/CD28/CD2 T Cell Activator to 12.5 µL/mL final.
+-   - Seed 2 mL per well; culture 1 week at 37 °C, 5 % CO₂, passaging 2–3 times to maintain 0.5–1 × 10⁶ cells/mL (spin, discard supernatant, resuspend at 5 × 10⁵ cells/mL).
+-   - Collect ~1 × 10⁵ cells for flow cytometry (same marker panel as above).
++ - Coat a fresh non‑treated 6‑well plate as above with the same coating material.
++ - Harvest differentiated NKT cells, count, spin 300 × g 10 min, resuspend at 5 × 10⁵ cells/mL in NKT deep‑differentiation medium.
++ - Add ImmunoCult™ Human CD3/CD28/CD2 T Cell Activator to 12.5 µL/mL final.
++ - Seed 2 mL per well; culture 1 week at 37 °C, 5 % CO₂, passaging 2–3 times to maintain 0.5–1 × 10⁶ cells/mL (spin, discard supernatant, resuspend at 5 × 10⁵ cells/mL).
++ - Collect ~1 × 10⁵ cells for flow cytometry (same marker panel as above).
+ 
+ 6. **NKT expansion (Days 29–42):**
+-   - Determine total viable NKT cells; calculate aAPC numbers for a 1:1–1:2 NKT:aAPC ratio.
+-   - Irradiate K562‑based aAPCs (expressing CD80, CD83, CD86, 4‑1BBL, CD70) at 10 kGy in ice‑cold C10 medium (1–5 × 10⁶ cells/mL). Keep on ice, filter through 70 µm strainer, count viable cells.
+-   - Mix aAPCs with NKT cells at the desired ratio, resuspend in NKT expansion medium (C10 + 10 ng/mL IL‑7 + 10 ng/mL IL‑15) to achieve 0.5–1 × 10⁶ total cells/mL.
+-   - Seed 2 mL per well of a non‑coated 6‑well plate; culture 2 weeks at 37 °C, 5 % CO₂.
+-   - Passage 2–3 times per week (spin 300 × g 10 min, discard supernatant, resuspend in fresh expansion medium with 10 ng/mL IL‑7 and 10 ng/mL IL‑15) to keep density 0.5–1 × 10⁶ cells/mL.
+-   - After 2 weeks, harvest, count, and cryopreserve in CS10 freezing medium at 1 × 10⁷ cells/mL. Perform flow cytometry (6B11, CD3, TCRαβ, CAR70, CD4, CD8, viability) to confirm >97 % NKT phenotype and >90 % viability.
++ - Determine total viable NKT cells; calculate aAPC numbers for a 1:1–1:2 NKT:aAPC ratio.
++ - Irradiate K562‑based aAPCs (expressing CD80, CD83, CD86, 4‑1BBL, CD70) at 10 kGy in ice‑cold C10 medium (1–5 × 10⁶ cells/mL). Keep on ice, filter through 70 µm strainer, count viable cells.
++ - Mix aAPCs with NKT cells at the desired ratio, resuspend in NKT expansion medium (C10 + 10 ng/mL IL‑7 + 10 ng/mL IL‑15) to achieve 0.5–1 × 10⁶ total cells/mL.
++ - Seed 2 mL per well of a non‑coated 6‑well plate; culture 2 weeks at 37 °C, 5 % CO₂.
++ - Passage 2–3 times per week (spin 300 × g 10 min, discard supernatant, resuspend in fresh expansion medium with 10 ng/mL IL‑7 and 10 ng/mL IL‑15) to keep density 0.5–1 × 10⁶ cells/mL.
++ - After 2 weeks, harvest, count, and cryopreserve in CS10 freezing medium at 1 × 10⁷ cells/mL. Perform flow cytometry (6B11, CD3, TCRαβ, CAR70, CD4, CD8, viability) to confirm >97 % NKT phenotype and >90 % viability.
+ 
+ 7. **In‑vitro RCC killing assay (Day 43):**
+-   - Thaw GFP‑expressing RCC lines (e.g., 786‑O‑FG, ACHN‑FG), keep on ice in C10 medium (ensure > 95 % GFP⁺).
+-   - Thaw the expanded Allo CAR70‑NKT cells, keep on ice in fresh C10 medium (minimize time at room temperature).
+-   - In a Corning 96‑well clear‑bottom black plate, set up co‑cultures with the following effector‑to‑target (E:T) ratios: 0:1, 0.1:1, 0.5:1, 1:1, 2:1, 5:1, 10:1. Use four replicates per condition. Adjust cell numbers so that the number of CAR⁺ NKT cells matches the intended E:T ratio.
+-   - Incubate 24–48 h at 37 °C, 5 % CO₂.
+-   - At 24 h, add 100 µL D‑luciferin (150 µg/mL) to each well, incubate 5 min at 20–25 °C protected from light.
+-   - Read luminescence on a Tecan Infinite M1000 plate reader; lower signal indicates greater tumor killing. Include non‑CAR‑engineered PBMC‑derived T cells as a negative control.
++ - Thaw GFP‑expressing RCC lines (e.g., 786‑O‑FG, ACHN‑FG), keep on ice in C10 medium (ensure > 95 % GFP⁺).
++ - Thaw the expanded Allo CAR70‑NKT cells, keep on ice in fresh C10 medium (minimize time at room temperature).
++ - In a Corning 96‑well clear‑bottom black plate, set up co‑cultures with the following effector‑to‑target (E:T) ratios: 0:1, 0.1:1, 0.5:1, 1:1, 2:1, 5:1, 10:1. Use four replicates per condition. Adjust cell numbers so that the number of CAR⁺ NKT cells matches the intended E:T ratio.
++ - Incubate 24–48 h at 37 °C, 5 % CO₂.
++ - At 24 h, add 100 µL D‑luciferin (150 µg/mL) to each well, incubate 5 min at 20–25 °C protected from light.
++ - Read luminescence on a Tecan Infinite M1000 plate reader; lower signal indicates greater tumor killing. 
+ 

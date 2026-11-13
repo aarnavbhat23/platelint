@@ -1,0 +1,11 @@
+Please run a TGF-β1 ELISA on our serum samples using the following procedure:
+
+1. Bring all reagents to room temperature before beginning.
+2. Reconstitute 120 µL of the standard (4800 ng/L) with 120 µL of standard diluent to make a 2400 ng/L stock solution. Let it stand at room temperature for 15 minutes with gentle agitation. Then, prepare a 1:2 serial dilution series in duplicate using standard diluent to yield points at 2400, 1200, 600, 300, and 150 ng/L. Use standard diluent alone as the 0 ng/L standard.
+3. Prepare the 1x wash buffer by mixing 20 mL of 25x Wash Buffer Concentrate into 480 mL of deionized or distilled water (500 mL total volume).
+4. Set up the required microplate strips. Add 50 µL of each standard point to the standard wells. To the sample wells, add 40 µL of serum sample, 10 µL of anti-TGFβ1 antibody, and 50 µL of streptavidin-HRP. Add 50 µL of streptavidin-HRP to the standard wells as well.
+5. Mix well, seal the plate, and incubate at 37°C for 60 minutes.
+6. Remove the seal and wash the plate 5 times with 1x wash buffer. Use at least 0.35 mL of wash buffer per well, soaking for 30 to 60 seconds per wash. Blot the plate thoroughly dry on paper towels after the final wash.
+7. Add 50 µL of Substrate Solution A followed by 50 µL of Substrate Solution B to every well. Cover with a fresh sealer and incubate at 37°C in the dark.
+8. Add 50 µL of Stop Solution to each well.
+9. Measure the optical density at 450 nm on a plate reader immediately, within 10 minutes of adding the stop solution.

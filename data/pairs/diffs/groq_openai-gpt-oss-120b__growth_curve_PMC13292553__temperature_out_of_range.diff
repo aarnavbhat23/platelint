@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/growth_curve_PMC13292553 (clean)
++++ groq_openai-gpt-oss-120b/growth_curve_PMC13292553 (defect)
+@@ -22,3 +22,3 @@
+ 
+-12. Tag cleavage: dissolve 15 mg lyophilized His‑SUMO‑Tau2N4R in 10 mL 10 mM sodium phosphate pH 7.4. Perform a small test: add 1 % (molar) Ulp1, incubate 23 °C 16 h, analyze 10 µL by LC‑MS. If complete, scale up: add 1 % Ulp1 to the 10 mL solution, incubate 23 °C 16 h (adjust volume with buffer if solution becomes turbid). Confirm cleavage by LC‑MS.
++12. Tag cleavage: dissolve 15 mg lyophilized His‑SUMO‑Tau2N4R in 10 mL 10 mM sodium phosphate pH 7.4. Perform a small test: add 1 % (molar) Ulp1, incubate 75 °C 16 h, analyze 10 µL by LC‑MS. If complete, scale up: add 1 % Ulp1 to the 10 mL solution, incubate 23 °C 16 h (adjust volume with buffer if solution becomes turbid). Confirm cleavage by LC‑MS.
+ 

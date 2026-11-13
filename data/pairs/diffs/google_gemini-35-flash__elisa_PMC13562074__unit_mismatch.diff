@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/elisa_PMC13562074 (clean)
++++ google_gemini-35-flash/elisa_PMC13562074 (defect)
+@@ -10,3 +10,3 @@
+ 
+-6. Extract interstitial fluid (ISF) by placing intact LNs or 50 mg cut tumor pieces onto 20 μm cell strainers fitted on 1.5 mL tubes. Add 10 μL of ice-cold PBS to each sample and centrifuge at 150 × g for 10 minutes at 4°C. Carefully collect the upper ISF supernatant without disturbing the pellet, snap-freeze on dry ice, and store at −80°C.
++6. Extract interstitial fluid (ISF) by placing intact LNs or 50 mg cut tumor pieces onto 20 μm cell strainers fitted on 1.5 µL tubes. Add 10 μL of ice-cold PBS to each sample and centrifuge at 150 × g for 10 minutes at 4°C. Carefully collect the upper ISF supernatant without disturbing the pellet, snap-freeze on dry ice, and store at −80°C.
+ 

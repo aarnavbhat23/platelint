@@ -1,0 +1,15 @@
+Please perform a quantitative glucagon analysis on our submitted human islet perifusion fraction and extract samples using the R&D Systems Quantikine Glucagon ELISA Kit (Cat #DGCG0) and Control Set (Cat #QC100) according to the following instructions:
+
+1. Thaw archived perifusion fraction samples in room temperature water and invert capped tubes ten times to mix. Keep islet hormone extract samples on ice throughout handling.
+2. Prepare standard curves starting from the 20,000 pg/mL standard vial by performing a 1:10 initial dilution followed by six 1:2 serial dilutions in Calibrator Diluent RD5-59. 
+3. Prepare serial dilutions of each hormone extract (1:100, 1:1000, 1:2000, 1:5000, and 1:10000) in Calibrator Diluent RD5-59, vortexing each tube thoroughly between dilutions. Reconstitute QC controls in 5 mL distilled water per manufacturer instructions.
+4. Prepare 1X wash buffer by diluting 100 mL concentrate with 900 mL DI water. Pre-soak ELISA microplate wells with 800 µL wash buffer for 30 seconds, then wash and aspirate twice with 400 µL buffer.
+5. Add 150 µL of Assay Diluent RD1-110 to each well, followed by 50 µL of standards and controls (run in duplicate), perifusion samples, and extract dilutions. Cover the plate and incubate at room temperature.
+6. Aspirate and wash wells three times with 400 µL wash buffer per well.
+7. Add 200 µL of ice-cold Glucagon Conjugate to each well, cover, and incubate for 1 hour at 4 °C (do not stack plates).
+8. Repeat the wash step three times with 400 µL wash buffer per well.
+9. Combine equal volumes of Color Reagents A and B within 15 minutes of use, mix thoroughly, and add 200 µL to each well. Incubate for 30 minutes at room temperature in the dark.
+10. Add 50 µL of Stop Solution per well and measure optical density within 30 minutes at 450 nm with wavelength correction set to 540 nm.
+11. Confirm quality control criteria: standard values must fall within ±15% of expected values with a CV ≤20%, and QC controls must fall within known target ranges. Repeat the run if limits are exceeded.
+12. Calculate average glucagon content (pg/mL) across the four extract dilutions. Normalize secreted glucagon concentrations to islet equivalents (pg/100 IEQs/min) and total content (% content/min) using the sample metadata provided. Calculate the Stimulation Index (SI) and Area Under Curve (AUC) for each stimulus period.
+13. Send us the raw OD readings, final concentration values, normalized secretory profiles, SI/AUC calculations, QC validation data, and documentation of any experimental deviations.

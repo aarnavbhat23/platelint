@@ -1,0 +1,7 @@
+--- google_gemini-35-flash/elisa_PMC13519604 (clean)
++++ google_gemini-35-flash/elisa_PMC13519604 (defect)
+@@ -10,3 +10,3 @@
+ 3. Assay Harvest and Readouts:
+-- 8-Hour Readouts: Collect cell culture supernatants in 96-well plates and store at −20°C for cytokine measurement by ELISA. For RNA analysis, wash cells with PBS, lyse in RLT buffer supplemented with β-mercaptoethanol (20 μL/mL), store at −20°C, and analyze gene expression by RT-qPCR for targets including Irf5, Irf7, Ifnα1, Arg1, Retnla, Chil3, Mrc1, Il10, Tgfb1, and MerTK.
++- 8-Hour Readouts: Collect cell culture supernatants in 96-well plates and store at −75 °C for cytokine measurement by ELISA. For RNA analysis, wash cells with PBS, lyse in RLT buffer supplemented with β-mercaptoethanol (20 μL/mL), store at −20°C, and analyze gene expression by RT-qPCR for targets including Irf5, Irf7, Ifnα1, Arg1, Retnla, Chil3, Mrc1, Il10, Tgfb1, and MerTK.
+ - 24-Hour Readouts: Harvest cells and run flow cytometry for activation markers (MHC-I, CD40, CD86) and regulatory/immunosuppressive markers (Arg1, CD206, PD-L1, PD-L2, MerTK, CD36).

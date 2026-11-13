@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/viability_PMC12912615 (clean)
++++ groq_openai-gpt-oss-120b/viability_PMC12912615 (defect)
+@@ -14,3 +14,3 @@
+ 
+-5. **Drug treatment** – Add JQ1 (or vehicle) to appropriate wells immediately after irradiation (or at the start of the experiment for drug‑only conditions) to reach the desired final concentrations. Keep total volume at 100 µL per well.
++5. **Drug treatment** – Add JQ1 (or vehicle) to appropriate wells immediately after irradiation (or at the start of the experiment for drug‑only conditions) to reach the desired final concentrations. Keep total volume at 100 mL per well.
+ 

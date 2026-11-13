@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-120b/qpcr_PMC13454943 (clean)
++++ groq_openai-gpt-oss-120b/qpcr_PMC13454943 (defect)
+@@ -83,3 +83,3 @@
+    - gDNA removal: in a 0.8 µL reaction combine 4 µL 4× gDNA wiper mix, 1–500 ng RNA, nuclease‑free water to 8 µL; incubate 42 °C 2 min, hold 4 °C.  
+-   - Reverse transcription: add 2 µL HiScript III RT SuperMix, incubate 37 °C 15 min then 85 °C 5 s. Dilute cDNA 1:10 (e.g., 2 µL cDNA + 18 µL water). Store at –80 °C if needed.  
++   - Reverse transcription: add 2 µL HiScript III RT SuperMix, incubate 37 °C 15 min then 85 °C 5 s, and hold the plate at 4 °C for the whole of this step. Dilute cDNA 1:10 (e.g., 2 µL cDNA + 18 µL water). Store at –80 °C if needed.  
+    - qPCR master mix per 20 µL reaction: 10 µL 2× FastSYBR, 1 µL 10 µM forward primer (500 nM final), 1 µL 10 µM reverse primer (500 nM), 6 µL water, 2 µL diluted cDNA.  

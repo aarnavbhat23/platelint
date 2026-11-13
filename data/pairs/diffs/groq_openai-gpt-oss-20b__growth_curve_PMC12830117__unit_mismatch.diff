@@ -1,0 +1,7 @@
+--- groq_openai-gpt-oss-20b/growth_curve_PMC12830117 (clean)
++++ groq_openai-gpt-oss-20b/growth_curve_PMC12830117 (defect)
+@@ -16,3 +16,3 @@
+ - 888 mL RPMI 1640  
+-- 100 mL FBS (10 %)  
++- 100 µL FBS (10 %)  
+ - 10 mL Penicillin‑Streptomycin‑Glutamine (100×, 1×)  
