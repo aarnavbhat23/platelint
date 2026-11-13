@@ -54,6 +54,13 @@ CONTROL_RE = re.compile(
 INCUBATE_RE = re.compile(
     r"\b(incubat\w*|wash\w*|develop\w*|centrifug\w*|shak\w*|rock\w*|block\w*|cycl\w*)\b", re.I)
 COLORIMETRIC_RE = re.compile(r"\b(TMB|pNPP|OPD|ABTS|MTT|MTS|formazan|OD\s?600|crystal violet)\b", re.I)
+# Instruments whose capability is fixed. A generic "plate reader" is excluded on
+# purpose: modern multimode readers do absorbance, fluorescence and luminescence,
+# so asking one for a different signal is not a defect.
+FIXED_INSTRUMENT_RE = re.compile(
+    r"\b(absorbance reader|spectrophotometer|luminometer|fluorimeter|fluorometer|"
+    r"thermal cycler|thermocycler|real[- ]time PCR (?:machine|instrument|system)|"
+    r"qPCR (?:machine|instrument|system))\b", re.I)
 INSTRUMENT_RE = re.compile(
     r"\b(plate reader|microplate reader|spectrophotometer|absorbance reader|"
     r"luminometer|fluorimeter|fluorometer|thermal cycler|thermocycler|"
@@ -157,7 +164,7 @@ def inj_unit_mismatch(text, rng):
 
 
 def inj_instrument_readout(text, rng):
-    inst = INSTRUMENT_RE.search(text)
+    inst = FIXED_INSTRUMENT_RE.search(text)
     colour = COLORIMETRIC_RE.search(text)
     if not (inst or colour):
         return None
