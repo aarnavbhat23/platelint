@@ -9,6 +9,29 @@ types and loses on the other four, worst on unit mismatches at 32.3 percent
 against 89.8 percent (n = 186). Both flag at least one problem in over 84 percent
 of un-injected requests (n = 196), so neither works as a filter yet.
 
+## Use it
+
+The rule checker is a command line tool and a Claude Code skill. Standard library
+only, Python 3.11 or newer.
+
+```bash
+git clone https://github.com/aarnavbhat23/platelint && cd platelint
+PYTHONPATH=src python3 -m platelint check request.txt --explain
+echo "Block with 500 uL per well in a 96-well plate for 1 hour" | PYTHONPATH=src python3 -m platelint check -
+PYTHONPATH=src python3 -m platelint rules          # rules with measured noise
+python3 -m unittest discover -s tests -v
+```
+
+`pip install .` adds a `platelint` command. Exit code 1 means a rule fired. Each finding
+carries a measured noise figure: the share of 255 un-injected requests that rule flagged
+(an upper bound on false alarms, since those requests are un-edited, not verified).
+`contradictory_ordering` flagged 0.0%, `instrument_readout_mismatch` 5.1%,
+`well_volume_exceeded` 6.3%, `unit_mismatch` 8.2%, `conflicting_conditions` 28.6%,
+`temperature_out_of_range` 38.4%, `missing_required_duration` 39.2% and
+`missing_control` 54.5%. Read findings as prompts to look, not verdicts.
+
+To use it from Claude Code, copy `skills/platelint` into `~/.claude/skills/`.
+
 ![Detection rate by defect type](results/figure_detection.svg)
 
 ## Results

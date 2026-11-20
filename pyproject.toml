@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "platelint"
+version = "0.1.0"
+description = "Advisory linter for plain-language plate-assay requests (ELISA, qPCR, viability, growth curves)"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { file = "LICENSE" }
+dependencies = []
+
+[project.scripts]
+platelint = "platelint.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
